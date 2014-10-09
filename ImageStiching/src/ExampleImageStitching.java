@@ -247,15 +247,6 @@ public class ExampleImageStitching {
 
 	public static void main(String args[]) {
 		BufferedImage imageA, imageB;
-		imageA = UtilImageIO.loadImage("assets/mountain_rotate_01.jpg");
-		imageB = UtilImageIO.loadImage("assets/mountain_rotate_03.jpg");
-		stitch(imageA, imageB, ImageFloat32.class);
-		imageA = UtilImageIO.loadImage("assets/kayak_01.jpg");
-		imageB = UtilImageIO.loadImage("assets/kayak_03.jpg");
-		stitch(imageA, imageB, ImageFloat32.class);
-		imageA = UtilImageIO.loadImage("assets/rainforest_01.jpg");
-		imageB = UtilImageIO.loadImage("assets/rainforest_02.jpg");
-		stitch(imageA, imageB, ImageFloat32.class);
 		imageA = UtilImageIO.loadImage("assets/map_1.jpg");
 		imageB = UtilImageIO.loadImage("assets/map_2.jpg");
 		stitch(imageA, imageB, ImageFloat32.class);
