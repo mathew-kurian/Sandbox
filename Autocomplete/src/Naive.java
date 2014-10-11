@@ -1,16 +1,15 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Naive implements Autocomplete {
+public class Naive implements AutoComplete {
 	
 	private String context = "";
-	private String [] words;
+	private String [] words = new String [0];
 	
 	@Override
 	public void setContext(String s) {
 		context = s == null ? context : s;
-		context = context.toLowerCase();
-		words = context.split(" ");
+		words = context.replaceAll("[^a-zA-Z ]", "").toLowerCase().split("\\s+");
 	}
 
 	@Override

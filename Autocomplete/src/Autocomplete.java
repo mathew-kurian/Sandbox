@@ -1,7 +1,4 @@
-import java.util.Comparator;
-
-
-public interface Autocomplete {
+public interface AutoComplete {
 
 	void setContext(String s);
 	Result [] match(String s);

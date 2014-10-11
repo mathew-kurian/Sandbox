@@ -11,3 +11,5 @@ Todo
 [ ] KMP / Finite State / RBK - String comparison
 [ ] Best Fit Line - RANSAC algorithm
 [ ] Compare documents
+[ ] Solving maze with wavefront algorithm
+[ ] Dijikstra write it out
