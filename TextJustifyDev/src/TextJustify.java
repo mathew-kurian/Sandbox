@@ -14,7 +14,7 @@ import java.util.List;
 
 import javax.swing.*;
 
-class TextJustify {
+public class TextJustify {
 
 	// To do 
 	//  + Add ellipses
@@ -42,7 +42,7 @@ class TextJustify {
 
 				g2d.setColor(Color.BLACK);
 				g2d.fillRect(0, 0, getWidth(), getHeight());
-				g2d.setFont(new Font("Consolas", Font.BOLD, 12));
+				g2d.setFont(new Font("Helvetica", Font.PLAIN, 12));
 				g2d.setColor(Color.RED);
 				g2d.drawRect((int) insetLeft, (int) insetTop, (int) width, (int) height);
 				g2d.setColor(Color.WHITE);
