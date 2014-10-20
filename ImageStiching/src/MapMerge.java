@@ -54,31 +54,8 @@ import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * <p>
- * Exampling showing how to combines two images together by finding the best fit
- * image transform with point features.
- * </p>
- * <p>
- * Algorithm Steps:<br>
- * <ol>
- * <li>Detect feature locations</li>
- * <li>Compute feature descriptors</li>
- * <li>Associate features together</li>
- * <li>Use robust fitting to find transform</li>
- * <li>Render combined image</li>
- * </ol>
- * </p>
- *
- * @author Peter Abeles
- */
-public class ExampleImageStitching {
+public class MapMerge {
 
-	/**
-	 * Using abstracted code, find a transform which minimizes the difference
-	 * between corresponding features in both images. This code is completely
-	 * model independent and is the core algorithms.
-	 */
 	public static <T extends ImageSingleBand, FD extends TupleDesc> Homography2D_F64 computeTransform(
 			T imageA, T imageB, DetectDescribePoint<T, FD> detDesc,
 			AssociateDescription<FD> associate,
@@ -234,7 +211,7 @@ public class ExampleImageStitching {
 		g2.drawLine(corners[2].x, corners[2].y, corners[3].x, corners[3].y);
 		g2.drawLine(corners[3].x, corners[3].y, corners[0].x, corners[0].y);
 
-		ShowImages.showWindow(output, "Stitched Images");
+		ShowImages.showWindow(output, "Stitched");
 	}
 
 	private static Point2D_I32 renderPoint(int x0, int y0,
@@ -247,8 +224,8 @@ public class ExampleImageStitching {
 
 	public static void main(String args[]) {
 		BufferedImage imageA, imageB;
-		imageA = UtilImageIO.loadImage("assets/map_1.jpg");
-		imageB = UtilImageIO.loadImage("assets/map_2.jpg");
+		imageA = UtilImageIO.loadImage("assets/map_2.jpg");
+		imageB = UtilImageIO.loadImage("assets/map_1.jpg");
 		stitch(imageA, imageB, ImageFloat32.class);
 	}
 }

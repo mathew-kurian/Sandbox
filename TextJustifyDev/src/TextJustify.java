@@ -5,9 +5,12 @@ import java.awt.FontMetrics;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Arrays;
 import java.util.List;
@@ -16,12 +19,16 @@ import javax.swing.*;
 
 public class TextJustify {
 
-	// To do 
-	//  + Add ellipses
-	//  + Fix line-height
-	//  + Add max lines
-	
+	// To do
+	// + Add ellipses
+	// + Fix line-height
+	// + Add max lines
+
 	public static final String HYPHEN_SYMBOL = "-";
+	public boolean hypenate = false;
+	public boolean justify = false;
+
+	Hyphenator hyphenator = new Hyphenator(Hyphenator.Language.EN_US);
 
 	@SuppressWarnings("serial")
 	public void run() {
@@ -44,9 +51,11 @@ public class TextJustify {
 				g2d.fillRect(0, 0, getWidth(), getHeight());
 				g2d.setFont(new Font("Helvetica", Font.PLAIN, 12));
 				g2d.setColor(Color.RED);
-				g2d.drawRect((int) insetLeft, (int) insetTop, (int) width, (int) height);
+				g2d.drawRect((int) insetLeft, (int) insetTop, (int) width,
+						(int) height);
 				g2d.setColor(Color.WHITE);
-				g2d.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_LCD_HRGB);
+				g2d.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING,
+						RenderingHints.VALUE_TEXT_ANTIALIAS_LCD_HRGB);
 
 				FontMetrics fm = g2d.getFontMetrics();
 
@@ -67,10 +76,11 @@ public class TextJustify {
 				text = text.replaceAll("\t", "    ");
 
 				float lineHeight = getFont().getSize();
-				float x = insetLeft, y = insetTop + lineHeight, spaceOffset = fm.stringWidth(" ");
+				float x = insetLeft, y = insetTop + lineHeight, spaceOffset = fm
+						.stringWidth(" ");
 
-				List<String> paragraphs = new LinkedList<String>(Arrays.asList(text.toString()
-						.split("((?<=\n)|(?=\n))")));
+				List<String> paragraphs = new LinkedList<String>(
+						Arrays.asList(text.toString().split("((?<=\n)|(?=\n))")));
 
 				while (paragraphs.size() > 0) {
 
@@ -81,7 +91,9 @@ public class TextJustify {
 
 					// If the line contains only spaces or line breaks
 					if (paragraph.trim().length() == 0) {
-						y += lineHeight * (paragraph.length() - paragraph.replaceAll("\n", "").length());
+						y += lineHeight
+								* (paragraph.length() - paragraph.replaceAll(
+										"\n", "").length());
 						paragraphs.remove(0);
 						continue;
 					}
@@ -89,16 +101,19 @@ public class TextJustify {
 					// Remove all spaces from the end of the line
 					String noLineBreaks = paragraph.replaceAll("\n", "");
 					// Remove all trailingSpaces
-					String noTrailingSpaces = noLineBreaks.replaceAll("\\s+$", "");
+					String noTrailingSpaces = noLineBreaks.replaceAll("\\s+$",
+							"");
 					// Remove newlines when drawing
-					String noTrailingWhiteSpace = noTrailingSpaces.replaceAll("\n", "");
+					String noTrailingWhiteSpace = noTrailingSpaces.replaceAll(
+							"\n", "");
 
 					float wrappedWidth = fm.stringWidth(noTrailingWhiteSpace);
 
 					// Line fits, then don't wrap
 					if (wrappedWidth < width) {
 						g2d.drawString(paragraph, x, y);
-						y += lineHeight * (paragraph.length() - noLineBreaks.length());
+						y += lineHeight
+								* (paragraph.length() - noLineBreaks.length());
 						paragraphs.remove(0);
 						continue;
 					}
@@ -113,19 +128,23 @@ public class TextJustify {
 						x = insetLeft;
 
 						// Line doesn't fit, then apply wrapping
-						JustifiedLine format = justify(tokens, start, fm, spaceOffset, width, false, "*", leadSpaces);
+						JustifiedLine format = justify(tokens, start, fm,
+								spaceOffset, width, hypenate, leadSpaces);
 						int tokenCount = format.end - format.start;
 						boolean fitAll = format.end == tokens.length;
 						boolean error = format.start == format.end;
 
 						if (error) {
-							new TextJustifyException("Cannot fit word(s) into one line. Font size too large?")
+							new TextJustifyException(
+									"Cannot fit word(s) into one line. Font size too large?")
 									.printStackTrace();
 							return;
 						}
 
 						// Draw each word here
-						float offset = tokenCount > 2 && !fitAll ? format.remainWidth / (tokenCount - 1) : 0;
+						float offset = tokenCount > 2 && !fitAll && justify ? format.remainWidth
+								/ (tokenCount - 1)
+								: 0;
 
 						for (int i = format.start; i < format.end; i++) {
 							String token = tokens[i];
@@ -142,14 +161,19 @@ public class TextJustify {
 
 						// Don't allow leading spaces
 						leadSpaces = false;
-						
+
 						// Increment to next line
 						y += lineHeight;
-						
+
 						// Next start index for tokens
 						start = format.end;
-						
-						if(y > height){
+
+						// Adjust if hyphenation is added
+						if (format.hyphenLeftover != null) {
+							tokens[--start] = format.hyphenLeftover;
+						}
+
+						if (y >= height) {
 							return;
 						}
 					}
@@ -158,9 +182,30 @@ public class TextJustify {
 				}
 			}
 		};
+		
+		JButton jb = new JButton("Toggle Hyphenate");
+		jb.addActionListener(new ActionListener(){
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				hypenate = !hypenate;
+				jp.repaint();
+			}
+		});
+		
 
+		JButton jc = new JButton("Toggle Justify");
+		jc.addActionListener(new ActionListener(){
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				justify = !justify;
+				jp.repaint();
+			}
+		});
+		
 		jmf.getContentPane().setLayout(new BorderLayout());
 		jmf.getContentPane().add(jp, BorderLayout.CENTER);
+		jmf.getContentPane().add(jb, BorderLayout.NORTH);
+		jmf.getContentPane().add(jc, BorderLayout.SOUTH);
 		jmf.setSize(500, 500);
 		jmf.setLocationRelativeTo(null);
 		jmf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -169,7 +214,7 @@ public class TextJustify {
 
 	public void printList(String[] arr) {
 		for (int i = 0; i < arr.length; i++) {
-			System.out.print(arr[i] + (i + 1 == arr.length ? "" : "·"));
+			System.out.print(arr[i] + (i + 1 == arr.length ? "" : "ï¿½"));
 		}
 
 		System.out.println();
@@ -193,10 +238,19 @@ public class TextJustify {
 		public final int end;
 		public final float remainWidth;
 
+		public String hyphenLeftover;
+
 		public JustifiedLine(int start, int end, float remainWidth) {
 			this.start = start;
 			this.end = end;
 			this.remainWidth = remainWidth;
+			this.hyphenLeftover = null;
+		}
+
+		public JustifiedLine(int start, int end, float remainWidth,
+				String hyphenLeftover) {
+			this(start, end, remainWidth);
+			this.hyphenLeftover = hyphenLeftover;
 		}
 	}
 
@@ -245,8 +299,9 @@ public class TextJustify {
 	 * By contract, parameter "block" must not have any line breaks
 	 */
 
-	private JustifiedLine justify(String[] tokens, int start, FontMetrics metrics, float spaceOffset,
-			float availableWidth, boolean hyphenate, String syllableSeparator, boolean leadSpaces) {
+	private JustifiedLine justify(String[] tokens, int start,
+			FontMetrics metrics, float spaceOffset, float availableWidth,
+			boolean hyphenate, boolean leadSpaces) {
 
 		// Block is empty, then return empty
 		if (tokens.length == 0) {
@@ -258,49 +313,57 @@ public class TextJustify {
 		for (int i = start; i < tokens.length; i++) {
 
 			// Get word
-			String token = tokens[i];
-			String word = hyphenate ? token.replaceAll(syllableSeparator, "") : token;
+			String word = tokens[i];
 			float wordWidth = metrics.stringWidth(word);
 			float remainingWidth = availableWidth - wordWidth;
 
 			// Word does not fit in line
-			if (remainingWidth < 0) {
+			if (remainingWidth < 0 && word.trim().length() != 0) {
 
-				// // Handle hyphening in the event
-				// // the current word does not fit
-				// if (hyphenate) {
-				//
-				// String[] syllables = token.split(syllableSeparator);
-				// String lastPartial = null;
-				//
-				// for (String syllable : syllables) {
-				//
-				// // Create the hyphenated word
-				// // aka. partial
-				// String partial = syllable + HYPHEN_SYMBOL;
-				// float partialWidth = metrics.stringWidth(partial);
-				//
-				// // See if the partial fits
-				// if (availableWidth - partialWidth > 0) {
-				// lastPartial = partial;
-				// }
-				// // If the partial doesn't fit
-				// else {
-				//
-				// // Check if the lastPartial
-				// // was even set
-				// if (lastPartial != null) {
-				// availableWidth -= partialWidth;
-				// i += partial.length();
-				// smb.append(partial);
-				//
-				// return new JustifiedLine(smb.toString(), availableWidth,
-				// false, dirtyWord.replace(
-				// syllable, "") + block.substring(i));
-				// }
-				// }
-				// }
-				// }
+				// Handle hyphening in the event
+				// the current word does not fit
+				if (hyphenate && justify) {
+
+					float lastFormattedPartialWidth = 0.0f;
+					String lastFormattedPartial = null;
+					String lastConcatPartial = null;
+					String concatPartial = "";
+
+					ArrayList<String> partials = hyphenator.hyphenate(word);
+
+					for (String partial : partials) {
+
+						concatPartial += partial;
+
+						// Create the hyphenated word
+						// aka. partial
+						String formattedPartial = concatPartial + HYPHEN_SYMBOL;
+						float formattedPartialWidth = metrics
+								.stringWidth(formattedPartial);
+
+						// See if the partial fits
+						if (availableWidth - formattedPartialWidth > 0) {
+							lastFormattedPartial = formattedPartial;
+							lastFormattedPartialWidth = formattedPartialWidth;
+							lastConcatPartial = concatPartial;
+						}
+						// If the partial doesn't fit
+						else {
+
+							// Check if the lastPartial
+							// was even set
+							if (lastFormattedPartial != null) {
+
+								tokens[i] = lastFormattedPartial;
+								availableWidth -= lastFormattedPartialWidth;
+
+								return new JustifiedLine(start, i + 1,
+										availableWidth,
+										word.substring(lastConcatPartial.length()));
+							}
+						}
+					}
+				}
 
 				return new JustifiedLine(start, i, availableWidth + spaceOffset);
 
@@ -312,7 +375,8 @@ public class TextJustify {
 
 				// NO remaining space
 				if (remainingWidth <= 0) {
-					new JustifiedLine(start, i + 1, availableWidth + spaceOffset);
+					new JustifiedLine(start, i + 1, availableWidth
+							+ spaceOffset);
 				}
 			}
 		}
