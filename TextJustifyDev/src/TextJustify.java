@@ -63,8 +63,6 @@ public class TextJustify {
 					e.printStackTrace();
 				}
 
-				text = text + " \n\n" + text;
-
 				// Replace all tabs to 4 spaces!
 				text = text.replaceAll("\t", "    ");
 

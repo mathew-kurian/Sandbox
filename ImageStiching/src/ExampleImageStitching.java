@@ -227,7 +227,7 @@ public class ExampleImageStitching {
 		corners[2] = renderPoint(colorB.width, colorB.height, fromBtoWork);
 		corners[3] = renderPoint(0, colorB.height, fromBtoWork);
 
-		g2.setColor(Color.ORANGE);
+		g2.setColor(Color.RED);
 		g2.setStroke(new BasicStroke(4));
 		g2.drawLine(corners[0].x, corners[0].y, corners[1].x, corners[1].y);
 		g2.drawLine(corners[1].x, corners[1].y, corners[2].x, corners[2].y);
