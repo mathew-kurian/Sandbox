@@ -1,3 +1,5 @@
+package com.textjustify;
+
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Font;
@@ -182,26 +184,28 @@ public class TextJustify {
 				}
 			}
 		};
-		
+
 		JButton jb = new JButton("Toggle Hyphenate");
-		jb.addActionListener(new ActionListener(){
+		jb.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				hypenate = !hypenate;
 				jp.repaint();
 			}
 		});
-		
 
 		JButton jc = new JButton("Toggle Justify");
-		jc.addActionListener(new ActionListener(){
+		jc.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				justify = !justify;
+				jb.setEnabled(justify);
 				jp.repaint();
 			}
 		});
-		
+
+		jb.setEnabled(justify);
+
 		jmf.getContentPane().setLayout(new BorderLayout());
 		jmf.getContentPane().add(jp, BorderLayout.CENTER);
 		jmf.getContentPane().add(jb, BorderLayout.NORTH);
@@ -359,7 +363,8 @@ public class TextJustify {
 
 								return new JustifiedLine(start, i + 1,
 										availableWidth,
-										word.substring(lastConcatPartial.length()));
+										word.substring(lastConcatPartial
+												.length()));
 							}
 						}
 					}
