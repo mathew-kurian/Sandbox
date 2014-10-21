@@ -10,7 +10,7 @@ import java.util.Map;
  */
 
 /**
- * Hyphenator.java is an adaptation of Bram Steins hypher.js-Project:
+ * HyphenaPattern.java is an adaptation of Bram Steins hypher.js-Project:
  * https://github.com/bramstein/Hypher
  *
  * Code from this project belongs to the following license:
