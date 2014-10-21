@@ -77,9 +77,6 @@ public class TextJustify {
 					e.printStackTrace();
 				}
 
-				// Replace all tabs to 4 spaces!
-				text = text.replaceAll("\t", "    ");
-
 				float lineHeight = getFont().getSize();
 				float x = insetLeft, y = insetTop + lineHeight, spaceOffset = fm
 						.stringWidth(" ");
