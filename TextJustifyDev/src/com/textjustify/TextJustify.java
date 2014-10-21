@@ -19,6 +19,9 @@ import java.util.List;
 
 import javax.swing.*;
 
+import com.textjustify.hyphen.HyphenPattern;
+import com.textjustify.hyphen.Hyphenator;
+
 public class TextJustify {
 
 	// To do
@@ -27,10 +30,10 @@ public class TextJustify {
 	// + Add max lines
 
 	public static final String HYPHEN_SYMBOL = "-";
-	public boolean hypenate = false;
-	public boolean justify = false;
+	private boolean hypenate = false;
+	private boolean justify = false;
 
-	Hyphenator hyphenator = new Hyphenator(Hyphenator.Language.EN_US);
+	private Hyphenator hyphenator = new Hyphenator(HyphenPattern.EN_US);
 
 	@SuppressWarnings("serial")
 	public void run() {
