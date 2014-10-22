@@ -2,9 +2,13 @@ package com.textjustify.examples;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.text.Html;
+import android.text.Spanned;
+import android.text.StaticLayout;
+import android.text.TextPaint;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TextView;
 
 import com.textjustify.*;
 
@@ -15,9 +19,23 @@ public class SideBySide extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sidebyside);
 
-        TextViewEx txtViewEx = (TextViewEx) findViewById(R.id.textViewEx);
-        txtViewEx.setText(getString(R.string.sample_text2), true); // true: enable justification
+        DocumentView documentView = (DocumentView) findViewById(R.id.documentView);
+        documentView.setText(getString(R.string.sample_text2), true); // true: enable justification
 
+        CharSequence boldText = Html.fromHtml("<b>ABCDEFG</b>HIJK");
+        TextPaint paint = new TextPaint();
+
+        float measureTextWidth = paint.measureText(boldText, 0 , boldText.length());
+
+        StaticLayout tempLayout = new StaticLayout(boldText, paint, 10000, android.text.Layout.Alignment.ALIGN_NORMAL, 1, 0, false);
+        int lineCount = tempLayout.getLineCount();
+        float textWidth =0;
+        for(int i=0 ; i < lineCount ; i++){
+            textWidth += tempLayout.getLineWidth(i);
+        }
+
+        Console.log("Width", textWidth);
+        Console.log("Height", tempLayout.getHeight());
 //        TextView txtView = (TextView) findViewById(R.id.textView);
 //        txtView.setText(getString(R.string.sample_text2));
     }

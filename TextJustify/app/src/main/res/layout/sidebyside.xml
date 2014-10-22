@@ -13,8 +13,8 @@
             android:layout_height="match_parent"
             tools:context=".SideBySide">
 
-            <com.textjustify.TextViewEx
-                android:id="@+id/textViewEx"
+            <com.textjustify.DocumentView
+                android:id="@+id/documentView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/hello_world" />
