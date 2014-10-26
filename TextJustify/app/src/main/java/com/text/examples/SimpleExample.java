@@ -11,8 +11,6 @@ import com.text.*;
 
 public class SimpleExample extends Activity {
 
-    private Typeface notoSans;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,24 +23,25 @@ public class SimpleExample extends Activity {
 
         LinearLayout articleList = (LinearLayout) findViewById(R.id.articleList);
 
-        notoSans = Typeface.createFromAsset(getAssets(), "fonts/notosans.ttf");
+        Typeface nytmedium = Typeface.createFromAsset(getAssets(), "fonts/nyt-cheltenham-medium.ttf");
+        Typeface nytnormal = Typeface.createFromAsset(getAssets(), "fonts/nyt-cheltenham-normal.ttf");
 
-        articleList.addView(createDocumentView(Articles.getWelcome(), SpannedDocumentLayout.class, true));
-        articleList.addView(createDocumentView(Articles.getAbout(), DocumentLayout.class, true));
-        articleList.addView(createDocumentView(Articles.getArticle1(), SpannedDocumentLayout.class, true));
-        articleList.addView(createDocumentView(Articles.getArticle2(), SpannedDocumentLayout.class, true));
+        articleList.addView(createDocumentView(Articles.getWelcome(), SpannedDocumentLayout.class, nytmedium,true));
+        articleList.addView(createDocumentView(Articles.getAbout(), DocumentLayout.class, nytnormal,true));
+        articleList.addView(createDocumentView(Articles.getArticle1(), SpannedDocumentLayout.class, nytnormal,true));
+        articleList.addView(createDocumentView(Articles.getArticle2(), SpannedDocumentLayout.class, nytnormal,true));
     }
 
-    public View createDocumentView(CharSequence article, Class<? extends DocumentLayout> layoutClass, boolean border){
+    public View createDocumentView(CharSequence article, Class<? extends DocumentLayout> layoutClass, Typeface typeface, boolean border){
 
         DocumentView documentView = new DocumentView(this, layoutClass);
         documentView.setColor(0xffffffff);
-        documentView.setTypeface(notoSans);
+        documentView.setTypeface(typeface);
         documentView.getDocumentLayoutParams().setLeft(100.0f);
         documentView.getDocumentLayoutParams().setRight(100.0f);
         documentView.getDocumentLayoutParams().setTop(100.0f);
         documentView.getDocumentLayoutParams().setBottom(100.0f);
-        documentView.getDocumentLayoutParams().setLineHeightMultiplier(1.0f);
+        documentView.getDocumentLayoutParams().setLineHeightMultiplier(1.3f);
         documentView.setText(article, true); // true: enable justification
 
         LinearLayout linearLayout = new LinearLayout(this);
