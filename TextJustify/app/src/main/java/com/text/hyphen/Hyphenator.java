@@ -1,4 +1,4 @@
-package com.textjustify.hyphen;
+package com.text.hyphen;
 
 import android.annotation.SuppressLint;
 

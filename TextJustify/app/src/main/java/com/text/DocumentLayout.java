@@ -1,18 +1,22 @@
-package com.textjustify;
+package com.text;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
 
-import com.textjustify.hyphen.Hyphenator;
+import com.text.hyphen.Hyphenator;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
 @SuppressWarnings("unused")
-public class TextLayout {
+public class DocumentLayout {
 
-    class LayoutParams {
+    public static class LayoutParams {
+
+        public enum TextAlignment {
+            LEFT, RIGHT
+        }
 
         private Hyphenator hyphenator;
         private float left = 0.0f;
@@ -28,13 +32,36 @@ public class TextLayout {
         private int maxLines;
         private String hyphen = "-";
         private boolean changed;
+        private TextAlignment textAlignment;
+
+        public TextAlignment getTextAlignment() {
+            return textAlignment;
+        }
+
+        public void setTextAlignment(TextAlignment textAlignment) {
+            if(this.textAlignment == textAlignment){
+                return;
+            }
+
+            this.textAlignment = textAlignment;
+            this.changed = true;
+        }
 
         public Hyphenator getHyphenator() {
             return hyphenator;
         }
 
         public void setHyphenator(Hyphenator hyphenator) {
+            if(this.hyphenator == null){
+                return;
+            }
+
+            if(this.hyphenator.equals(hyphenator)){
+                return;
+            }
+
             this.hyphenator = hyphenator;
+            this.changed = true;
         }
 
         public float getLeft() {
@@ -42,6 +69,10 @@ public class TextLayout {
         }
 
         public void setLeft(float left) {
+            if(this.left == left){
+                return;
+            }
+
             this.left = left;
             this.changed = true;
         }
@@ -51,6 +82,10 @@ public class TextLayout {
         }
 
         public void setTop(float top) {
+            if(this.top == top){
+                return;
+            }
+
             this.top = top;
             this.changed = true;
         }
@@ -60,6 +95,10 @@ public class TextLayout {
         }
 
         public void setBottom(float bottom) {
+            if(this.bottom == bottom){
+                return;
+            }
+
             this.bottom = bottom;
             this.changed = true;
         }
@@ -69,6 +108,10 @@ public class TextLayout {
         }
 
         public void setRight(float right) {
+            if(this.right == right){
+                return;
+            }
+
             this.right = right;
             this.changed = true;
         }
@@ -78,10 +121,12 @@ public class TextLayout {
         }
 
         public void setParentWidth(float parentWidth) {
-            if (this.parentWidth != parentWidth) {
-                this.parentWidth = parentWidth;
-                this.changed = true;
+            if (this.parentWidth == parentWidth) {
+                return;
             }
+
+            this.parentWidth = parentWidth;
+            this.changed = true;
         }
 
         public float getOffsetX() {
@@ -105,6 +150,10 @@ public class TextLayout {
         }
 
         public void setLineHeightMultiplier(float lineHeightMultiplier) {
+            if(this.lineHeightMultiplier == lineHeightMultiplier){
+                return;
+            }
+
             this.lineHeightMultiplier = lineHeightMultiplier;
             this.changed = true;
         }
@@ -114,6 +163,10 @@ public class TextLayout {
         }
 
         public void setHyphenate(boolean hyphenate) {
+            if(this.hyphenate == hyphenate){
+                return;
+            }
+
             this.hyphenate = hyphenate && hyphenator != null;
             this.changed = true;
         }
@@ -123,6 +176,10 @@ public class TextLayout {
         }
 
         public void setJustify(boolean justify) {
+            if(this.justify == justify){
+                return;
+            }
+
             this.justify = justify;
             this.changed = true;
         }
@@ -132,6 +189,10 @@ public class TextLayout {
         }
 
         public void setMaxLines(int maxLines) {
+            if(this.maxLines == maxLines){
+                return;
+            }
+
             this.maxLines = maxLines;
             this.changed = true;
         }
@@ -141,6 +202,10 @@ public class TextLayout {
         }
 
         public void setHyphen(String hyphen) {
+            if(this.hyphen.equals(hyphen)){
+                return;
+            }
+
             this.hyphen = hyphen;
             this.changed = true;
         }
@@ -205,23 +270,23 @@ public class TextLayout {
     }
 
     // Basic client-set properties
-    private LayoutParams params;
+    protected LayoutParams params;
 
     // Main content
     private String text;
-    private boolean textChange = true;
+    protected boolean textChange = true;
 
     // Parsing objects
     private LinkedList<Token> tokens;
     private LinkedList<String> chunks;
 
     // Rendering
-    private Paint paint;
+    protected Paint paint;
 
     // Measurement output
-    private int measuredHeight;
+    protected int measuredHeight;
 
-    public TextLayout(Paint paint) {
+    public DocumentLayout(Paint paint) {
 
         this.paint = paint;
 
@@ -244,12 +309,12 @@ public class TextLayout {
         return params;
     }
 
-    public void setText(String text) {
-        this.text = text;
+    public void setText(CharSequence text) {
+        this.text = text.toString();
         this.textChange = true;
     }
 
-    public String getText() {
+    public CharSequence getText() {
         return this.text;
     }
 
@@ -265,8 +330,16 @@ public class TextLayout {
         return measuredHeight;
     }
 
+    protected boolean hasParamsChanged(){
+        return params.changed;
+    }
+
+    protected void setParamsChanged(boolean change){
+        params.changed = change;
+    }
+
     public void measure() {
-        if (!params.changed && !textChange) {
+        if (!hasParamsChanged() && !textChange) {
             return;
         }
 
@@ -339,7 +412,7 @@ public class TextLayout {
                 boolean leftOverTokens = justifyIterator.hasNext();
 
                 if (tokenCount == 0 && leftOverTokens) {
-                    new TextDocumentException("Cannot fit word(s) into one line. Font size too large?").printStackTrace();
+                    new DocumentException("Cannot fit word(s) into one line. Font size too large?").printStackTrace();
                     return;
                 }
 
@@ -540,8 +613,8 @@ public class TextLayout {
 }
 
 @SuppressWarnings("serial")
-class TextDocumentException extends Exception {
-    public TextDocumentException(String message) {
+class DocumentException extends Exception {
+    public DocumentException(String message) {
         super(message);
     }
 }

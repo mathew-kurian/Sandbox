@@ -1,4 +1,4 @@
-package com.textjustify;
+package com.text;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -8,9 +8,11 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Typeface;
 import android.text.TextPaint;
-import android.util.Log;
 import android.view.View;
 import android.util.AttributeSet;
+
+import java.lang.reflect.InvocationTargetException;
+import java.util.NoSuchElementException;
 
 /*
  * 
@@ -44,26 +46,62 @@ public class DocumentView extends View {
 
     public DocumentView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        init();
+        init(DocumentLayout.class);
     }
 
     public DocumentView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        init();
+        init(DocumentLayout.class);
     }
 
     public DocumentView(Context context) {
         super(context);
-        init();
+        init(DocumentLayout.class);
     }
 
-    public void init(){
-        paint = new TextPaint();
+    public DocumentView(Context context, Class<? extends DocumentLayout> layoutClass){
+        super(context);
+        init(layoutClass);
+    }
+
+    private void init(Class<? extends DocumentLayout> layoutClass){
+        this.paint = new TextPaint();
+
+        // Initialize paint
+        initPaint(this.paint);
+
+        // Get default layout
+        try {
+            this.layout = getDocumentLayoutInstance(layoutClass, paint);
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public void setTextSize(float textSize) {
+        paint.setTextSize(textSize);
+    }
+    public void setColor(int textColor){
+        paint.setColor(textColor);
+    }
+    public void setTypeface(Typeface typeface) { paint.setTypeface(typeface); }
+
+    public void initPaint(Paint paint){
         paint.setTypeface(Typeface.defaultFromStyle(Typeface.NORMAL));
         paint.setTextSize(34);
         paint.setAntiAlias(true);
+    }
 
-        layout = new DocumentLayout(paint);
+    public DocumentLayout getDocumentLayoutInstance(Class<? extends DocumentLayout> layoutClass, Paint paint) throws NoSuchElementException,
+            NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
+        return (DocumentLayout) layoutClass.getDeclaredConstructor(Paint.class).newInstance(paint);
     }
 
     @Override
@@ -71,13 +109,21 @@ public class DocumentView extends View {
         this.cacheEnabled = cacheEnabled;
     }
 
-    public void setText(String text, boolean justify) {
+    public void setText(CharSequence text, boolean justify) {
         this.layout.setText(text);
         requestLayout();
     }
 
     public CharSequence getText() {
         return this.layout.getText();
+    }
+
+    public DocumentLayout.LayoutParams getDocumentLayoutParams(){
+        return this.layout.getLayoutParams();
+    }
+
+    public DocumentLayout getLayout(){
+        return this.layout;
     }
 
     @Override
