@@ -19,7 +19,8 @@ If for some reason you like the library and feel like thanking me. Here you go! 
 |  **`OPEN`**       | Support more features like `TextView` in terms of `Paint` settings  |
 
 #Preview
-Screenshots from the example in `com.text.examples.SimpleExample`.
+Screenshots from the example in `com.text.examples.SimpleExample`.  
+***NOTE: The article on the right side is composed of only a single Spanned String. Only one (1) `DocumentView` is being used.***
 
 ![Oreview](http://i.imgur.com/8PanCPg.png)
 
@@ -31,6 +32,7 @@ Creating a `DocumentView` and enabling justification.
 // Create DocumentView and set plain text
 // Important: Use DocumentLayout.class
 DocumentView documentView = new DocumentView(this, DocumentLayout.class);  // Support plain text
+documentView.getDocumentLayoutParams().setTextAlignment(TextAlignment.JUSTIFIED);
 documentView.setText("Insert your text here", true); // Set to `true` to enable justification
 ```
 
@@ -51,6 +53,10 @@ span.setSpan(new JustifySpan(), 0, span.length(), Spannable.SPAN_INCLUSIVE_EXCLU
 // Create DocumentView and set span.
 // Important: Use SpannedDocumentLayout.class
 DocumentView documentView = new DocumentView(this, SpannedDocumentLayout.class);  // Support spanned text
+
+// Set the fallback alignment if an alignment is not specified for a line
+documentView.getDocumentLayoutParams().setTextAlignment(TextAlignment.JUSTIFIED); 
+
 documentView.setText(span, true); // Set to `true` to enable justification
 ```
 ##Advanced Usage - Spanned
