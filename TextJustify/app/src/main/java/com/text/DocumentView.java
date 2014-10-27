@@ -1,5 +1,34 @@
 package com.text;
 
+/*
+ * Copyright 2014 Mathew Kurian
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * -------------------------------------------------------------------------
+ *
+ * DocumentView.java
+ * @author Mathew Kurian
+ *
+ * From TextJustify-Android Library v2.0
+ * https://github.com/bluejamesbond/TextJustify-Android
+ *
+ * Please report any issues
+ * https://github.com/bluejamesbond/TextJustify-Android/issues
+ *
+ * Date: 10/27/14 1:36 PM
+ */
+
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -8,34 +37,14 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Typeface;
 import android.text.TextPaint;
-import android.view.View;
 import android.util.AttributeSet;
+import android.view.View;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.NoSuchElementException;
 
-/*
- * 
- * TextViewEx.java
- * @author Mathew Kurian
- * 
- * From TextJustify-Android Library v1.0.2
- * https://github.com/bluejamesbond/TextJustify-Android
- *
- * Please report any issues
- * https://github.com/bluejamesbond/TextJustify-Android/issues
- * 
- * Date: 10/18/2014 2:22 AM
- * 
- */
-
 @SuppressWarnings("unused")
 public class DocumentView extends View {
-
-    // To do
-    // + Add ellipses
-    // + Fix line-height
-    // + Add max lines
 
     private DocumentLayout layout;
     private Paint paint;
@@ -59,12 +68,12 @@ public class DocumentView extends View {
         init(DocumentLayout.class);
     }
 
-    public DocumentView(Context context, Class<? extends DocumentLayout> layoutClass){
+    public DocumentView(Context context, Class<? extends DocumentLayout> layoutClass) {
         super(context);
         init(layoutClass);
     }
 
-    private void init(Class<? extends DocumentLayout> layoutClass){
+    private void init(Class<? extends DocumentLayout> layoutClass) {
         this.paint = new TextPaint();
 
         // Initialize paint
@@ -82,18 +91,21 @@ public class DocumentView extends View {
         } catch (InstantiationException e) {
             e.printStackTrace();
         }
-
     }
 
     public void setTextSize(float textSize) {
         paint.setTextSize(textSize);
     }
-    public void setColor(int textColor){
+
+    public void setColor(int textColor) {
         paint.setColor(textColor);
     }
-    public void setTypeface(Typeface typeface) { paint.setTypeface(typeface); }
 
-    public void initPaint(Paint paint){
+    public void setTypeface(Typeface typeface) {
+        paint.setTypeface(typeface);
+    }
+
+    public void initPaint(Paint paint) {
         paint.setTypeface(Typeface.defaultFromStyle(Typeface.NORMAL));
         paint.setTextSize(34);
         paint.setAntiAlias(true);
@@ -101,7 +113,7 @@ public class DocumentView extends View {
 
     public DocumentLayout getDocumentLayoutInstance(Class<? extends DocumentLayout> layoutClass, Paint paint) throws NoSuchElementException,
             NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
-        return (DocumentLayout) layoutClass.getDeclaredConstructor(Paint.class).newInstance(paint);
+        return layoutClass.getDeclaredConstructor(Paint.class).newInstance(paint);
     }
 
     @Override
@@ -118,16 +130,16 @@ public class DocumentView extends View {
         return this.layout.getText();
     }
 
-    public DocumentLayout.LayoutParams getDocumentLayoutParams(){
+    public DocumentLayout.LayoutParams getDocumentLayoutParams() {
         return this.layout.getLayoutParams();
     }
 
-    public DocumentLayout getLayout(){
+    public DocumentLayout getLayout() {
         return this.layout;
     }
 
     @Override
-    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec){
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         int width = MeasureSpec.getSize(widthMeasureSpec);
         this.layout.getLayoutParams().setParentWidth(width);
         this.layout.measure();
