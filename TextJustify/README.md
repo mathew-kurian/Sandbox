@@ -1,6 +1,8 @@
 THE NEW TEXT JUSTIFY FOR ANDROID - SUPPORT FOR SPANNABLES!
 ===
 NOTE: THIS IS A WORK IN PROGRESS. PORTIONS OF THIS README ARE INCOMPLETE
+
+JUST COMPILE THE EXAMPLE TO SEE HOW IT LOOKS
 ----
 
 ![Logo](https://raw.github.com/bluejamesbond/TextJustify-Android/master/__misc/textjustify%20design%20logo%20%5Ba%5D.png)
