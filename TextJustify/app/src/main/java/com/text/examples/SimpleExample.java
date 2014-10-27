@@ -31,6 +31,7 @@ package com.text.examples;
 
 import android.app.Activity;
 import android.graphics.Typeface;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -40,6 +41,7 @@ import android.widget.LinearLayout;
 import com.text.DocumentLayout;
 import com.text.DocumentView;
 import com.text.SpannedDocumentLayout;
+import com.text.styles.TextAlignment;
 
 public class SimpleExample extends Activity {
 
@@ -48,6 +50,7 @@ public class SimpleExample extends Activity {
         super.onCreate(savedInstanceState);
 
         requestWindowFeature(Window.FEATURE_NO_TITLE);
+
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
@@ -64,11 +67,28 @@ public class SimpleExample extends Activity {
         articleList.addView(createDocumentView(Articles.getArticle2(), SpannedDocumentLayout.class, nytnormal, true));
     }
 
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+        super.onWindowFocusChanged(hasFocus);
+        if (Build.VERSION.SDK_INT >= 19) {
+            if (hasFocus) {
+                getWindow().getDecorView().setSystemUiVisibility(
+                        View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                                | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+                                | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                                | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                                | View.SYSTEM_UI_FLAG_FULLSCREEN
+                                | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
+            }
+        }
+    }
+
     public View createDocumentView(CharSequence article, Class<? extends DocumentLayout> layoutClass, Typeface typeface, boolean border) {
 
         DocumentView documentView = new DocumentView(this, layoutClass);
         documentView.setColor(0xffffffff);
         documentView.setTypeface(typeface);
+        documentView.getDocumentLayoutParams().setTextAlignment(TextAlignment.JUSTIFIED);
         documentView.getDocumentLayoutParams().setLeft(100.0f);
         documentView.getDocumentLayoutParams().setRight(100.0f);
         documentView.getDocumentLayoutParams().setTop(100.0f);

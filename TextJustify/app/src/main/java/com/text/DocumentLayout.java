@@ -46,16 +46,16 @@ public class DocumentLayout {
     public static class LayoutParams {
 
         /**
-         * All the customizable paramters
+         * All the customizable parameters
          */
         private Hyphenator hyphenator = null;
         private Float left = 0.0f;
         private Float top = 0.0f;
         private Float bottom = 0.0f;
         private Float right = 0.0f;
-        private Float parentWidth;
-        private Float offsetX;
-        private Float offsetY;
+        private Float parentWidth = 800.0f;
+        private Float offsetX = 0.0f;
+        private Float offsetY = 0.0f;
         private Float lineHeightMultiplier = 1.0f;
         private Boolean hyphenated = false;
         private Boolean reverse = false;

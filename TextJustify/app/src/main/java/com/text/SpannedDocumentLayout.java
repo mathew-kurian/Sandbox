@@ -92,6 +92,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
 
         tokens = new LinkedList<Token>();
 
+        TextAlignment defAlign = params.getTextAlignment();
         float left = params.getLeft(), y = params.getTop(), lastDescent = 0.0f;
         int lines = staticLayout.getLineCount();
         float lineHeightMultiplier = params.getLineHeightMultiplier();
@@ -112,15 +113,19 @@ public class SpannedDocumentLayout extends DocumentLayout {
                 break;
             }
 
-            if (text.charAt(Math.min(end, text.length() - 1)) == '\n') {
-                tokens.push(new Token(start, end, left, y));
-                i++;
-                y += lastDescent;
-                continue;
-            }
-
             TextAlignmentSpan[] textAlignmentSpans = text.getSpans(start, end, TextAlignmentSpan.class);
-            TextAlignment lineTextAlignment = textAlignmentSpans.length == 0 ? TextAlignment.LEFT : textAlignmentSpans[0].getTextAlignment();
+            TextAlignment lineTextAlignment = textAlignmentSpans.length == 0 ? defAlign : textAlignmentSpans[0].getTextAlignment();
+
+            switch (lineTextAlignment){
+                case LEFT:
+                case JUSTIFIED:
+                    if (text.charAt(Math.min(end, text.length() - 1)) == '\n') {
+                        tokens.push(new Token(start, end, left, y));
+                        i++;
+                        y += lastDescent;
+                        continue;
+                    }
+            }
 
             switch (lineTextAlignment) {
                 case RIGHT: {
@@ -136,12 +141,10 @@ public class SpannedDocumentLayout extends DocumentLayout {
                     continue;
                 }
                 case LEFT: {
+
                     tokens.push(new Token(start, end, left, y));
                     y += lastDescent;
                     continue;
-                }
-                case JUSTIFIED: {
-                    // go below
                 }
             }
 

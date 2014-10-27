@@ -58,7 +58,7 @@ public class Articles {
     static ArticleBuilder getWelcome() {
         ArticleBuilder ambb = new ArticleBuilder();
         ambb.append("<font color=0xFFC801>Welcome to DocumentView</font>",
-                false, new RelativeSizeSpan(2.5f), new StyleSpan(Typeface.BOLD));
+                false, new RelativeSizeSpan(2.5f), new StyleSpan(Typeface.BOLD), new LeftSpan());
         return ambb;
     }
 
