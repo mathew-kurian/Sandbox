@@ -1,3 +1,6 @@
+NOTE: THIS IS A WORK IN PROGRESS. PORTIONS OF THIS README ARE INCOMPLETE
+----
+
 ![Logo](https://raw.github.com/bluejamesbond/TextJustify-Android/master/__misc/textjustify%20design%20logo%20%5Ba%5D.png)
 =======
 **Simple Android Full Justification**
