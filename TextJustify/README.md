@@ -20,7 +20,9 @@ If for some reason you like the library and feel like thanking me. Here you go! 
 
 #Preview
 Screenshots from the example in `com.text.examples.SimpleExample`.  
-***NOTE: The article on the right side is composed of only a single Spanned String. Only one (1) `DocumentView` is being used.***
+
+##Note
+The article on the right is composed of only a single Spanned String. Only one (1) `DocumentView` is being used.
 
 ![Oreview](http://i.imgur.com/8PanCPg.png)
 
