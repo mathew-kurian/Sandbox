@@ -19,6 +19,9 @@ If for some reason you like the library and feel like thanking me. Here you go! 
 |  **`OPEN`**       | Support more features like `TextView` in terms of `Paint` settings  |
 
 #Preview
+Screenshots from the example in `com.text.examples.SimpleExample`.
+
+![Oreview](http://i.imgur.com/8PanCPg.png)
 
 #Examples
 
