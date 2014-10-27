@@ -1,42 +1,67 @@
 package com.text;
 
+/*
+ * Copyright 2014 Mathew Kurian
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * -------------------------------------------------------------------------
+ *
+ * SpannedDocumentLayout.java
+ * @author Mathew Kurian
+ *
+ * From TextJustify-Android Library v2.0
+ * https://github.com/bluejamesbond/TextJustify-Android
+ *
+ * Please report any issues
+ * https://github.com/bluejamesbond/TextJustify-Android/issues
+ *
+ * Date: 10/27/14 1:36 PM
+ */
+
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.text.Layout;
 import android.text.Spanned;
 import android.text.StaticLayout;
 import android.text.TextPaint;
-import android.text.TextUtils;
 
-import com.text.examples.Console;
+import com.text.styles.TextAlignment;
+import com.text.styles.TextAlignmentSpan;
 
 import java.util.LinkedList;
 import java.util.ListIterator;
-
-/**
- * Created by Mathew on 10/25/2014.
- */
 
 public class SpannedDocumentLayout extends DocumentLayout {
 
     private Paint workPaint;
     private CharSequence text;
     private StaticLayout staticLayout;
-    private LinkedList<TokenInfo> tokenInfos; // start, end, x, y
+    private LinkedList<Token> tokens; // start, end, x, y
 
     public SpannedDocumentLayout(Paint paint) {
         super(paint);
         workPaint = new TextPaint(paint);
     }
 
-    class TokenInfo {
+    private class Token {
 
         public int start;
         public int end;
         public float x;
         public float y;
 
-        public TokenInfo(int start, int end, float x, float y) {
+        public Token(int start, int end, float x, float y) {
             this.start = start;
             this.end = end;
             this.x = x;
@@ -65,9 +90,9 @@ public class SpannedDocumentLayout extends DocumentLayout {
         staticLayout = new StaticLayout(getText(), (TextPaint) getPaint(),
                 parentWidth, Layout.Alignment.ALIGN_NORMAL, 1, 0, false);
 
-        tokenInfos = new LinkedList<TokenInfo>();
+        tokens = new LinkedList<Token>();
 
-        boolean justify = params.isJustify();
+        TextAlignment defAlign = params.getTextAlignment();
         float left = params.getLeft(), y = params.getTop(), lastDescent = 0.0f;
         int lines = staticLayout.getLineCount();
         float lineHeightMultiplier = params.getLineHeightMultiplier();
@@ -84,21 +109,43 @@ public class SpannedDocumentLayout extends DocumentLayout {
 
             // Console.log(start + " => " + end + " :: " + text.subSequence(start, end).toString());
 
-            if(start == end){
+            if (start == end) {
                 break;
             }
 
-            if(text.charAt(Math.min(end, text.length() - 1)) == '\n'){
-                tokenInfos.push(new TokenInfo(start, end, left, y));
-                i++;
-                y += lastDescent;
-                continue;
+            TextAlignmentSpan[] textAlignmentSpans = text.getSpans(start, end, TextAlignmentSpan.class);
+            TextAlignment lineTextAlignment = textAlignmentSpans.length == 0 ? defAlign : textAlignmentSpans[0].getTextAlignment();
+
+            switch (lineTextAlignment){
+                case LEFT:
+                case JUSTIFIED:
+                    if (text.charAt(Math.min(end, text.length() - 1)) == '\n') {
+                        tokens.push(new Token(start, end, left, y));
+                        i++;
+                        y += lastDescent;
+                        continue;
+                    }
             }
 
-            if(text.getSpans(start, end, JustifySpan.class).length == 0 || !justify){
-                tokenInfos.push(new TokenInfo(start, end, left, y));
-                y += lastDescent;
-                continue;
+            switch (lineTextAlignment) {
+                case RIGHT: {
+                    float width = paint.measureText(text, start, end);
+                    tokens.push(new Token(start, end, left + parentWidth - width, y));
+                    y += lastDescent;
+                    continue;
+                }
+                case CENTER: {
+                    float width = paint.measureText(text, start, end);
+                    tokens.push(new Token(start, end, left + (parentWidth - width) / 2, y));
+                    y += lastDescent;
+                    continue;
+                }
+                case LEFT: {
+
+                    tokens.push(new Token(start, end, left, y));
+                    y += lastDescent;
+                    continue;
+                }
             }
 
             float[] textWidths = new float[end - start];
@@ -109,31 +156,31 @@ public class SpannedDocumentLayout extends DocumentLayout {
             LinkedList<Integer> tokens = tokenize(text, start, end);
 
             float totalWidth = 0;
-            LinkedList<TokenInfo> lineTokenInfos = new LinkedList<TokenInfo>();
+            LinkedList<Token> lineTokens = new LinkedList<Token>();
             Paint.FontMetricsInt fmi = paint.getFontMetricsInt();
 
             for (int stop : tokens) {
-                lineTokenInfos.add(new TokenInfo(start, stop, left + totalWidth, y));
+                lineTokens.add(new Token(start, stop, left + totalWidth, y));
                 totalWidth += Styled.measureText((TextPaint) paint, (TextPaint) workPaint, text, start, stop, fmi);
                 start = stop + 1;
             }
 
             float offset = (parentWidth - totalWidth) / (float) (tokens.size() - 1);
-            ListIterator<TokenInfo> listIterator = lineTokenInfos.listIterator();
+            ListIterator<Token> listIterator = lineTokens.listIterator();
             int m = 1;
 
             // Skip first one
-            if(listIterator.hasNext()){
+            if (listIterator.hasNext()) {
                 listIterator.next();
             }
 
             while (listIterator.hasNext()) {
-                TokenInfo tokenInfo = listIterator.next();
-                tokenInfo.x += offset * (float) m++;
-                listIterator.set(tokenInfo);
+                Token token = listIterator.next();
+                token.x += offset * (float) m++;
+                listIterator.set(token);
             }
 
-            tokenInfos.addAll(lineTokenInfos);
+            this.tokens.addAll(lineTokens);
 
             y += lastDescent;
         }
@@ -145,9 +192,9 @@ public class SpannedDocumentLayout extends DocumentLayout {
 
     @Override
     public void draw(Canvas canvas) {
-        for (TokenInfo tokenInfo : tokenInfos ) {
-            Styled.drawText(canvas, text, tokenInfo.start, tokenInfo.end, Layout.DIR_LEFT_TO_RIGHT, false, (int) tokenInfo.x, 0,
-                    (int) tokenInfo.y, 0, (TextPaint) paint, (TextPaint) workPaint, false);
+        for (Token token : tokens) {
+            Styled.drawText(canvas, text, token.start, token.end, Layout.DIR_LEFT_TO_RIGHT, false, (int) token.x, 0,
+                    (int) token.y, 0, (TextPaint) paint, (TextPaint) workPaint, false);
         }
     }
 
@@ -156,7 +203,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
 
         LinkedList<Integer> units = new LinkedList<Integer>();
 
-        if(start >= end){
+        if (start >= end) {
             return units;
         }
 

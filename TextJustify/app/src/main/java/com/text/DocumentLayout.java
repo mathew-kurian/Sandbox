@@ -1,11 +1,42 @@
 package com.text;
 
+/*
+ * Copyright 2014 Mathew Kurian
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * -------------------------------------------------------------------------
+ *
+ * DocumentLayout.java
+ * @author Mathew Kurian
+ *
+ * From TextJustify-Android Library v2.0
+ * https://github.com/bluejamesbond/TextJustify-Android
+ *
+ * Please report any issues
+ * https://github.com/bluejamesbond/TextJustify-Android/issues
+ *
+ * Date: 10/27/14 1:36 PM
+ */
+
 import android.graphics.Canvas;
 import android.graphics.Paint;
 
 import com.text.hyphen.Hyphenator;
+import com.text.styles.TextAlignment;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
@@ -14,32 +45,40 @@ public class DocumentLayout {
 
     public static class LayoutParams {
 
-        public enum TextAlignment {
-            LEFT, RIGHT
-        }
-
-        private Hyphenator hyphenator;
-        private float left = 0.0f;
-        private float top = 0.0f;
-        private float bottom = 0.0f;
-        private float right = 0.0f;
-        private float parentWidth;
-        private float offsetX;
-        private float offsetY;
-        private float lineHeightMultiplier = 1.0f;
-        private boolean hyphenate;
-        private boolean justify;
-        private int maxLines;
+        /**
+         * All the customizable parameters
+         */
+        private Hyphenator hyphenator = null;
+        private Float left = 0.0f;
+        private Float top = 0.0f;
+        private Float bottom = 0.0f;
+        private Float right = 0.0f;
+        private Float parentWidth = 800.0f;
+        private Float offsetX = 0.0f;
+        private Float offsetY = 0.0f;
+        private Float lineHeightMultiplier = 1.0f;
+        private Boolean hyphenated = false;
+        private Boolean reverse = false;
+        private Integer maxLines = Integer.MAX_VALUE;
         private String hyphen = "-";
-        private boolean changed;
-        private TextAlignment textAlignment;
+        private TextAlignment textAlignment = TextAlignment.LEFT;
+
+        /**
+         * If any settings have changed.
+         */
+        private boolean changed = false;
+
+        public int hashCode() {
+            return Arrays.hashCode(new Object[]{hyphenator, left, top, bottom, right, parentWidth, offsetX, offsetX,
+                    lineHeightMultiplier, hyphenated, reverse, maxLines, hyphen, textAlignment});
+        }
 
         public TextAlignment getTextAlignment() {
             return textAlignment;
         }
 
         public void setTextAlignment(TextAlignment textAlignment) {
-            if(this.textAlignment == textAlignment){
+            if (this.textAlignment == textAlignment) {
                 return;
             }
 
@@ -52,11 +91,11 @@ public class DocumentLayout {
         }
 
         public void setHyphenator(Hyphenator hyphenator) {
-            if(this.hyphenator == null){
+            if (this.hyphenator == null) {
                 return;
             }
 
-            if(this.hyphenator.equals(hyphenator)){
+            if (this.hyphenator.equals(hyphenator)) {
                 return;
             }
 
@@ -69,7 +108,7 @@ public class DocumentLayout {
         }
 
         public void setLeft(float left) {
-            if(this.left == left){
+            if (this.left == left) {
                 return;
             }
 
@@ -82,7 +121,7 @@ public class DocumentLayout {
         }
 
         public void setTop(float top) {
-            if(this.top == top){
+            if (this.top == top) {
                 return;
             }
 
@@ -95,7 +134,7 @@ public class DocumentLayout {
         }
 
         public void setBottom(float bottom) {
-            if(this.bottom == bottom){
+            if (this.bottom == bottom) {
                 return;
             }
 
@@ -108,7 +147,7 @@ public class DocumentLayout {
         }
 
         public void setRight(float right) {
-            if(this.right == right){
+            if (this.right == right) {
                 return;
             }
 
@@ -150,7 +189,7 @@ public class DocumentLayout {
         }
 
         public void setLineHeightMultiplier(float lineHeightMultiplier) {
-            if(this.lineHeightMultiplier == lineHeightMultiplier){
+            if (this.lineHeightMultiplier == lineHeightMultiplier) {
                 return;
             }
 
@@ -158,29 +197,29 @@ public class DocumentLayout {
             this.changed = true;
         }
 
-        public boolean isHyphenate() {
-            return hyphenate;
+        public boolean isHyphenated() {
+            return hyphenated;
         }
 
-        public void setHyphenate(boolean hyphenate) {
-            if(this.hyphenate == hyphenate){
+        public void setHyphenated(boolean hyphenated) {
+            if (this.hyphenated == hyphenated) {
                 return;
             }
 
-            this.hyphenate = hyphenate && hyphenator != null;
+            this.hyphenated = hyphenated && hyphenator != null;
             this.changed = true;
         }
 
-        public boolean isJustify() {
-            return justify;
+        public boolean isReverse() {
+            return reverse;
         }
 
-        public void setJustify(boolean justify) {
-            if(this.justify == justify){
+        public void setReverse(boolean reverse) {
+            if (this.reverse == reverse) {
                 return;
             }
 
-            this.justify = justify;
+            this.reverse = reverse;
             this.changed = true;
         }
 
@@ -189,7 +228,7 @@ public class DocumentLayout {
         }
 
         public void setMaxLines(int maxLines) {
-            if(this.maxLines == maxLines){
+            if (this.maxLines == maxLines) {
                 return;
             }
 
@@ -202,7 +241,7 @@ public class DocumentLayout {
         }
 
         public void setHyphen(String hyphen) {
-            if(this.hyphen.equals(hyphen)){
+            if (this.hyphen.equals(hyphen)) {
                 return;
             }
 
@@ -215,7 +254,7 @@ public class DocumentLayout {
         }
     }
 
-    public static abstract class Token {
+    private static abstract class Token {
 
         public int lineNumber;
 
@@ -230,7 +269,7 @@ public class DocumentLayout {
         abstract void draw(Canvas canvas, Paint paint, LayoutParams params);
     }
 
-    public static class Unit extends Token {
+    private static class Unit extends Token {
 
         public float x;
         public float y;
@@ -249,21 +288,22 @@ public class DocumentLayout {
         }
 
         @Override
-        void draw(Canvas canvas, Paint paint,LayoutParams params) {
-            canvas.drawText(unit,x + params.getOffsetX(), y + params.getOffsetY(), paint);
+        void draw(Canvas canvas, Paint paint, LayoutParams params) {
+            canvas.drawText(unit, x + params.getOffsetX(), y + params.getOffsetY(), paint);
         }
     }
 
-    public static class LineBreak extends Token {
+    private static class LineBreak extends Token {
         public LineBreak(int lineNumber) {
             super(lineNumber);
         }
 
         @Override
-        void draw(Canvas canvas, Paint paint, LayoutParams params) {}
+        void draw(Canvas canvas, Paint paint, LayoutParams params) {
+        }
     }
 
-    public static class SingleLine extends Unit {
+    private static class SingleLine extends Unit {
         public SingleLine(int lineNumber, float x, float y, String unit) {
             super(lineNumber, x, y, unit);
         }
@@ -292,8 +332,8 @@ public class DocumentLayout {
 
         params = new LayoutParams();
         params.setLineHeightMultiplier(1.0f);
-        params.setHyphenate(true);
-        params.setJustify(true);
+        params.setHyphenated(false);
+        params.setReverse(false);
 
         measuredHeight = 0;
 
@@ -330,11 +370,11 @@ public class DocumentLayout {
         return measuredHeight;
     }
 
-    protected boolean hasParamsChanged(){
+    protected boolean hasParamsChanged() {
         return params.changed;
     }
 
-    protected void setParamsChanged(boolean change){
+    protected void setParamsChanged(boolean change) {
         params.changed = change;
     }
 
@@ -348,7 +388,7 @@ public class DocumentLayout {
 
             int start = 0;
 
-            while(start > -1 ){
+            while (start > -1) {
                 int next = text.indexOf('\n', start + 1);
                 chunks.add(text.substring(start, next < 0 ? text.length() : next));
                 start = next;
@@ -407,7 +447,7 @@ public class DocumentLayout {
                 x = params.left;
 
                 // Line doesn't fit, then apply wrapping
-                LineAnalysis format = justify(justifyIterator, start, spaceOffset, width);
+                LineAnalysis format = fit(justifyIterator, start, spaceOffset, width);
                 int tokenCount = format.end - format.start;
                 boolean leftOverTokens = justifyIterator.hasNext();
 
@@ -417,7 +457,25 @@ public class DocumentLayout {
                 }
 
                 // Draw each word here
-                float offset = tokenCount > 2 && leftOverTokens && params.justify ? format.remainWidth / (tokenCount - 1) : 0;
+                float offset = 0;
+
+                switch (params.textAlignment) {
+                    case CENTER: {
+                        x += format.remainWidth / 2;
+                        break;
+                    }
+                    case RIGHT: {
+                        x += format.remainWidth;
+                        break;
+                    }
+                    case JUSTIFIED: {
+                        offset = tokenCount > 2 && leftOverTokens ? format.remainWidth / (tokenCount - 1) : 0;
+                        break;
+                    }
+                    default: {
+                        // LEFT
+                    }
+                }
 
                 for (int i = format.start; i < format.end; i++) {
                     Unit unit = unitIterator.next();
@@ -524,7 +582,7 @@ public class DocumentLayout {
      * By contract, parameter "block" must not have any line breaks
      */
 
-    private LineAnalysis justify(ListIterator<Unit> iterator, int startIndex, float spaceOffset, float availableWidth) {
+    private LineAnalysis fit(ListIterator<Unit> iterator, int startIndex, float spaceOffset, float availableWidth) {
 
         int i = startIndex;
 
@@ -544,7 +602,7 @@ public class DocumentLayout {
 
                 // Handle hyphening in the event
                 // the current word does not fit
-                if (params.hyphenate && params.justify) {
+                if (params.hyphenated) {
 
                     float lastFormattedPartialWidth = 0.0f;
                     String lastFormattedPartial = null;
