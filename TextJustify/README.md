@@ -19,12 +19,14 @@ If for some reason you like the library and feel like thanking me. Here you go! 
 |  **`OPEN`**       | Support more features like `TextView` in terms of `Paint` settings  |
 
 #Preview
-Screenshots from the example in `com.text.examples.SimpleExample`.  
+Screenshot from the example in `com.text.examples.SimpleExample`.  
+
+![Preview](http://i.imgur.com/8PanCPg.png)
 
 ##Note
 The article on the right is composed of only a single Spanned String. Only one (1) `DocumentView` is being used.
 
-![Oreview](http://i.imgur.com/8PanCPg.png)
+![Preview](http://i.imgur.com/4gjANq6.png)
 
 #Examples
 
