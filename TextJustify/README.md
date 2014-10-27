@@ -1,6 +1,6 @@
 ![Logo](https://raw.github.com/bluejamesbond/TextJustify-Android/master/__misc/textjustify%20design%20logo%20%5Ba%5D.png)
 =======
-**Simple Android Full Justification**
+**Android Full Justification**
 
 #About
 This library will provide you a way to justify text. It supports both plain text and Spannables. Additionally, the library can auto-hyphentate your displayed content.
