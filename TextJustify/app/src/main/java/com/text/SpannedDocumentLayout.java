@@ -124,19 +124,17 @@ public class SpannedDocumentLayout extends DocumentLayout {
 
         for (int i = 0; i < lines; i++) {
 
-            lastAscent = (-staticLayout.getLineAscent(i) * lineHeightMultiplier);
-            y += lastAscent;
-
             int start = staticLayout.getLineStart(i);
             int end = staticLayout.getLineEnd(i);
 
-            lastDescent = staticLayout.getLineDescent(i) * lineHeightMultiplier;
-
             if (start == end) {
-                y -= lastAscent;
                 break;
             }
 
+            lastAscent = -staticLayout.getLineAscent(i) * lineHeightMultiplier;
+            lastDescent = staticLayout.getLineDescent(i) * lineHeightMultiplier;
+
+            y += lastAscent;
             // Console.log(start + " => " + end + " :: " + text.subSequence(start, end).toString());
 
             TextAlignmentSpan[] textAlignmentSpans = text.getSpans(start, end, TextAlignmentSpan.class);
@@ -173,10 +171,9 @@ public class SpannedDocumentLayout extends DocumentLayout {
                 }
             }
 
-            LinkedList<Integer> tokens = tokenize(text, start, end);
-
             float totalWidth = 0;
             LinkedList<Token> lineTokens = new LinkedList<Token>();
+            LinkedList<Integer> tokens = tokenize(text, start, end);
 
             if(tokens.size() == 1){
                 int stop = tokens.get(0);
@@ -202,6 +199,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
                     }
 
                     this.tokens.addAll(lineTokens);
+
                     y+=lastDescent;
 
                     continue;
@@ -214,9 +212,9 @@ public class SpannedDocumentLayout extends DocumentLayout {
                 start = stop + 1;
             }
 
+            int m = 1;
             float offset = (parentWidth - totalWidth) / (float) (tokens.size() - 1);
             ListIterator<Token> listIterator = lineTokens.listIterator();
-            int m = 1;
 
             // Skip first one
             if (listIterator.hasNext()) {
@@ -236,7 +234,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
 
         setParamsChanged(false);
         textChange = false;
-        measuredHeight = (int) (y + params.getBottom() - lastDescent);
+        measuredHeight = (int) (y + params.getBottom());
     }
 
     @Override
