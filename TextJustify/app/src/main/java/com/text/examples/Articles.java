@@ -89,7 +89,7 @@ public class Articles {
                 .append("Outside of the three most affected countries in West Africa—Sierra Leone, Guinea and Liberia—there have been only 27 reported cases of the deadly illness.",
                         true, new RelativeSizeSpan(1f), new JustifiedSpan())
                 .append("In New York and New Jersey, governors Andrew Cuomo and Chris Christie have implemented controversial quarantines on all healthcare workers returning from West Africa after a doctor returning from Guinea contracted the disease and was diagnosed in New York.",
-                        true, new RelativeSizeSpan(1f), new JustifiedSpan());
+                        false, new RelativeSizeSpan(1f), new JustifiedSpan());
         return ambb;
     }
 
@@ -112,7 +112,14 @@ public class Articles {
                 .append("New York and New Jersey state health department staff will be present on the ground at John F. Kennedy International Airport in New York and Newark Liberty Airport in New Jersey. In addition to implementing the mandatory quarantine of health care workers and others who had direct contact with Ebola patients, health department officials in each state will determine whether others should travelers should be hospitalized or quarantined.",
                         true, new RelativeSizeSpan(1f), new JustifiedSpan(), new StyleSpan(Typeface.ITALIC))
                 .append("“The announcements mark a dramatic escalation in measures designed to prevent the spread of Ebola in the United States. Previously, only individuals with symptoms of Ebola would be quarantined upon entry to the U.S. under a federal rule from the Centers for Diseases Control and the Department of Homeland Security.”",
-                        true, new RelativeSizeSpan(1f), new CenterSpan());
+                        false, new RelativeSizeSpan(1f), new CenterSpan());
+        return ambb;
+    }
+
+    static ArticleBuilder getArticle3(){
+        ArticleBuilder ambb = new ArticleBuilder();
+        ambb.append("现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始，但实际情况是在访问特定变量的时候经常在特定的内存地址访问，这就需要各类型数据按照一定的规则在空间上排列，而不是顺序的一个接一个的排放，这就是对齐。"
+                ,false, new RelativeSizeSpan(1f), new JustifiedSpan());
         return ambb;
     }
 }

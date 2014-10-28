@@ -66,6 +66,7 @@ public class SimpleExample extends Activity {
         articleList.addView(createDocumentView(Articles.getAbout(), DocumentLayout.class, nytnormal, true));
         articleList.addView(createDocumentView(Articles.getArticle1(), SpannedDocumentLayout.class, nytnormal, true));
         articleList.addView(createDocumentView(Articles.getArticle2(), SpannedDocumentLayout.class, nytnormal, true));
+        articleList.addView(createDocumentView(Articles.getArticle3(), SpannedDocumentLayout.class, Typeface.DEFAULT,true));
     }
 
     @Override

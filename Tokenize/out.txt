@@ -1,12 +1,1 @@
-word:	Sussex|start:0|stop:7|length:76
-word:result|start:8|stop:14|length:76
-word:matter|start:15|stop:21|length:76
-word:any|start:22|stop:25|length:76
-word:end|start:26|stop:29|length:76
-word:see.|start:30|stop:34|length:76
-word:It|start:35|stop:37|length:76
-word:speedily|start:38|stop:46|length:76
-word:me|start:47|stop:49|length:76
-word:addition|start:50|stop:58|length:76
-word:weddings|start:59|stop:67|length:76
-word:vicinity|start:68|stop:76|length:76
+word:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|start:0|stop:50|length:116

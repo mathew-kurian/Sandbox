@@ -577,6 +577,26 @@ public class DocumentLayout {
         }
     }
 
+    /**
+     * Returns the length that the specified CharSequence would have if
+     * spaces and control characters were trimmed from the start and end,
+     * as by {@link String#trim}.
+     */
+    protected int getTrimmedLength(CharSequence s, int start, int end) {
+        int len = end;
+
+        while (start < len && s.charAt(start) <= ' ') {
+            start++;
+        }
+
+        int endCpy = len;
+        while (endCpy > start && s.charAt(endCpy - 1) <= ' ') {
+            endCpy--;
+        }
+
+        return endCpy - start;
+    }
+
 
     /**
      * By contract, parameter "block" must not have any line breaks

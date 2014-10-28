@@ -35,7 +35,9 @@ import android.text.Layout;
 import android.text.Spanned;
 import android.text.StaticLayout;
 import android.text.TextPaint;
+import android.text.TextUtils;
 
+import com.text.examples.Console;
 import com.text.styles.TextAlignment;
 import com.text.styles.TextAlignmentSpan;
 
@@ -54,29 +56,50 @@ public class SpannedDocumentLayout extends DocumentLayout {
         workPaint = new TextPaint(paint);
     }
 
-    private class Token {
+    private static LinkedList<Integer> tokenize(CharSequence source, int start,
+                                                int end) {
 
-        public int start;
-        public int end;
-        public float x;
-        public float y;
+        LinkedList<Integer> units = new LinkedList<Integer>();
 
-        public Token(int start, int end, float x, float y) {
-            this.start = start;
-            this.end = end;
-            this.x = x;
-            this.y = y;
+        if (start >= end) {
+            return units;
         }
-    }
 
-    @Override
-    public void setText(CharSequence text) {
-        this.text = text;
+        boolean charSearch = source.charAt(start) == ' ';
+
+        for (int i = start; i < end; i++) {
+            // If the end add the word group
+            if (i + 1 == end) {
+                units.add(i + 1);
+                start = i + 1;
+            }
+            // Search for the start of non-space
+            else if (charSearch && source.charAt(i) != ' ') {
+                if ((i - start) > 0) {
+                    units.add(i);
+                }
+                start = i;
+                charSearch = false;
+            }
+            // Search for the end of non-space
+            else if (!charSearch && source.charAt(i) == ' ') {
+                units.add(i);
+                start = i + 1; // Skip the space
+                charSearch = true;
+            }
+        }
+
+        return units;
     }
 
     @Override
     public CharSequence getText() {
         return text;
+    }
+
+    @Override
+    public void setText(CharSequence text) {
+        this.text = text;
     }
 
     @Override
@@ -93,30 +116,33 @@ public class SpannedDocumentLayout extends DocumentLayout {
         tokens = new LinkedList<Token>();
 
         TextAlignment defAlign = params.getTextAlignment();
-        float left = params.getLeft(), y = params.getTop(), lastDescent = 0.0f;
+        float left = params.getLeft(), y = params.getTop(), lastDescent = 0.0f, lastAscent = 0.0f;
         int lines = staticLayout.getLineCount();
         float lineHeightMultiplier = params.getLineHeightMultiplier();
         Spanned text = (Spanned) this.text;
+        Paint.FontMetricsInt fmi = paint.getFontMetricsInt();
 
         for (int i = 0; i < lines; i++) {
 
-            y += (-staticLayout.getLineAscent(i) * lineHeightMultiplier);
+            lastAscent = (-staticLayout.getLineAscent(i) * lineHeightMultiplier);
+            y += lastAscent;
 
             int start = staticLayout.getLineStart(i);
             int end = staticLayout.getLineEnd(i);
 
             lastDescent = staticLayout.getLineDescent(i) * lineHeightMultiplier;
 
-            // Console.log(start + " => " + end + " :: " + text.subSequence(start, end).toString());
-
             if (start == end) {
+                y -= lastAscent;
                 break;
             }
+
+            // Console.log(start + " => " + end + " :: " + text.subSequence(start, end).toString());
 
             TextAlignmentSpan[] textAlignmentSpans = text.getSpans(start, end, TextAlignmentSpan.class);
             TextAlignment lineTextAlignment = textAlignmentSpans.length == 0 ? defAlign : textAlignmentSpans[0].getTextAlignment();
 
-            switch (lineTextAlignment){
+            switch (lineTextAlignment) {
                 case LEFT:
                 case JUSTIFIED:
                     if (text.charAt(Math.min(end, text.length() - 1)) == '\n') {
@@ -141,23 +167,46 @@ public class SpannedDocumentLayout extends DocumentLayout {
                     continue;
                 }
                 case LEFT: {
-
                     tokens.push(new Token(start, end, left, y));
                     y += lastDescent;
                     continue;
                 }
             }
 
-            float[] textWidths = new float[end - start];
-
-            Styled.getTextWidths((TextPaint) paint, (TextPaint) workPaint, text,
-                    start, end, textWidths, paint.getFontMetricsInt());
-
             LinkedList<Integer> tokens = tokenize(text, start, end);
 
             float totalWidth = 0;
             LinkedList<Token> lineTokens = new LinkedList<Token>();
-            Paint.FontMetricsInt fmi = paint.getFontMetricsInt();
+
+            if(tokens.size() == 1){
+                int stop = tokens.get(0);
+                if(getTrimmedLength(text, start, stop) == 0){
+                    y += lastDescent;
+                    continue;
+                } else {
+                    float [] textWidths = new float[stop - start];
+                    float sum = 0.0f, textsOffset = 0.0f, offset;
+                    int m = 0;
+
+                    Styled.getTextWidths((TextPaint) paint, (TextPaint) workPaint, text, start, stop, textWidths, fmi);
+
+                    for(float tw : textWidths) {
+                        sum+= tw;
+                    }
+
+                    offset = (parentWidth - sum) / (textWidths.length - 1);
+
+                    for(int k = start; k < stop; k++) {
+                        lineTokens.add(new Token(k, k + 1, left + textsOffset + (offset * m), y));
+                        textsOffset += textWidths[m++];
+                    }
+
+                    this.tokens.addAll(lineTokens);
+                    y+=lastDescent;
+
+                    continue;
+                }
+            }
 
             for (int stop : tokens) {
                 lineTokens.add(new Token(start, stop, left + totalWidth, y));
@@ -198,39 +247,18 @@ public class SpannedDocumentLayout extends DocumentLayout {
         }
     }
 
-    private static LinkedList<Integer> tokenize(CharSequence source, int start,
-                                                int end) {
+    private class Token {
 
-        LinkedList<Integer> units = new LinkedList<Integer>();
+        public int start;
+        public int end;
+        public float x;
+        public float y;
 
-        if (start >= end) {
-            return units;
+        public Token(int start, int end, float x, float y) {
+            this.start = start;
+            this.end = end;
+            this.x = x;
+            this.y = y;
         }
-
-        boolean charSearch = source.charAt(start) == ' ';
-
-        for (int i = start; i < end; i++) {
-            // If the end add the word group
-            if (i + 1 == source.length()) {
-                units.add(i + 1);
-                start = i + 1;
-            }
-            // Search for the start of non-space
-            else if (charSearch && source.charAt(i) != ' ') {
-                if ((i - start) > 0) {
-                    units.add(i);
-                }
-                start = i;
-                charSearch = false;
-            }
-            // Search for the end of non-space
-            else if (!charSearch && source.charAt(i) == ' ') {
-                units.add(i);
-                start = i + 1; // Skip the space
-                charSearch = true;
-            }
-        }
-
-        return units;
     }
 }

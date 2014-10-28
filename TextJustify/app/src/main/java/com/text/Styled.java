@@ -147,6 +147,7 @@ public class Styled {
             return ret;
     }
 
+
     /**
      * Return the advance widths for the characters in the string.
      * See also {@link android.graphics.Paint#getTextWidths(CharSequence, int, int, float[])}.
