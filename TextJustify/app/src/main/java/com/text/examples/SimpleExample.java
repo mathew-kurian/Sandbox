@@ -62,11 +62,11 @@ public class SimpleExample extends Activity {
         Typeface nytmedium = Typeface.createFromAsset(getAssets(), "fonts/nyt-cheltenham-medium.ttf");
         Typeface nytnormal = Typeface.createFromAsset(getAssets(), "fonts/nyt-cheltenham-normal.ttf");
 
-        articleList.addView(createDocumentView(Articles.getWelcome(), SpannedDocumentLayout.class, nytmedium, true));
-        articleList.addView(createDocumentView(Articles.getAbout(), DocumentLayout.class, nytnormal, true));
-        articleList.addView(createDocumentView(Articles.getArticle1(), SpannedDocumentLayout.class, nytnormal, true));
-        articleList.addView(createDocumentView(Articles.getArticle2(), SpannedDocumentLayout.class, nytnormal, true));
-        articleList.addView(createDocumentView(Articles.getArticle3(), SpannedDocumentLayout.class, Typeface.DEFAULT,true));
+        articleList.addView(createDocumentView(Articles.getWelcome(), DocumentView.FORMATTED_TEXT, nytmedium, true));
+        articleList.addView(createDocumentView(Articles.getAbout(), DocumentView.PLAIN_TEXT, nytnormal, true));
+        articleList.addView(createDocumentView(Articles.getArticle1(), DocumentView.FORMATTED_TEXT, nytnormal, true));
+        articleList.addView(createDocumentView(Articles.getArticle2(), DocumentView.FORMATTED_TEXT, nytnormal, true));
+        articleList.addView(createDocumentView(Articles.getArticle3(), DocumentView.FORMATTED_TEXT, Typeface.DEFAULT,true));
     }
 
     @Override

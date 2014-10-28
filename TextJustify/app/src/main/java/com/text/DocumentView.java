@@ -46,6 +46,9 @@ import java.util.NoSuchElementException;
 @SuppressWarnings("unused")
 public class DocumentView extends View {
 
+    public static final Class PLAIN_TEXT = DocumentLayout.class;
+    public static final Class FORMATTED_TEXT = SpannedDocumentLayout.class;
+
     private DocumentLayout layout;
     private Paint paint;
 
