@@ -40,7 +40,6 @@ import com.text.styles.CenterSpan;
 import com.text.styles.JustifiedSpan;
 import com.text.styles.LeftSpan;
 import com.text.styles.RightSpan;
-import com.text.styles.TextAlignmentSpan;
 
 public class Articles {
 
@@ -56,26 +55,24 @@ public class Articles {
     }
 
     static ArticleBuilder getWelcome() {
-        ArticleBuilder ambb = new ArticleBuilder();
-        ambb.append("<font color=0xFFC801>Welcome to DocumentView</font>",
-                false, new RelativeSizeSpan(2.5f), new StyleSpan(Typeface.BOLD), new LeftSpan());
-        return ambb;
+        return new ArticleBuilder()
+                .append("<font color=0xFFC801>Welcome to DocumentView</font>",
+                        false, new RelativeSizeSpan(2.5f), new StyleSpan(Typeface.BOLD), new LeftSpan());
     }
 
     static String getAbout() {
-        StringBuilder smb = new StringBuilder();
-        smb.append("Document view now supports both String and Spannables. To support this, there are two (2) types of layouts: (a) DocumentLayout and (b) SpannedDocumentLayout. " +
-                "DocumentLayout supports just plain Strings just like the text you are reading. However, Spannables require the " +
-                "constructor to have SpannedDocumentLayout.class as a parameter. For now, DocumentLayout will offer significant speed improvements " +
-                "compared to SpannedDocumentLayout, so use each class accordingly. DocumentLayout also supports hyphenation. To learn more about" +
-                "these layouts and what they have to offer visit the link in the titlebar above. And please report all the issues on GitHub!");
-        return smb.toString();
+        return new StringBuilder()
+                .append("Document view now supports both String and Spannables. To support this, there are two (2) types of layouts: (a) DocumentLayout and (b) SpannedDocumentLayout. " +
+                        "DocumentLayout supports just plain Strings just like the text you are reading. However, Spannables require the " +
+                        "constructor to have SpannedDocumentLayout.class as a parameter. For now, DocumentLayout will offer significant speed improvements " +
+                        "compared to SpannedDocumentLayout, so use each class accordingly. DocumentLayout also supports hyphenation. To learn more about" +
+                        "these layouts and what they have to offer visit the link in the titlebar above. And please report all the issues on GitHub!").toString();
     }
 
     static ArticleBuilder getArticle1() {
-        ArticleBuilder ambb = new ArticleBuilder();
-        ambb.append("WHO: Ebola Cases",
-                false, new RelativeSizeSpan(2f), new StyleSpan(Typeface.BOLD))
+        return new ArticleBuilder()
+                .append("WHO: Ebola Cases",
+                        false, new RelativeSizeSpan(2f), new StyleSpan(Typeface.BOLD))
                 .append("<font color=0xFFC801>Sam Frizell</font><font color=0x888888> @Sam_Frizell  Oct. 25, 2014</font>",
                         false, new RelativeSizeSpan(0.8f), new StyleSpan(Typeface.BOLD))
                 .append("<font color=0x888888>Updated: Oct. 25, 2014 2:34 PM</font>".toUpperCase(),
@@ -90,13 +87,12 @@ public class Articles {
                         true, new RelativeSizeSpan(1f), new JustifiedSpan())
                 .append("In New York and New Jersey, governors Andrew Cuomo and Chris Christie have implemented controversial quarantines on all healthcare workers returning from West Africa after a doctor returning from Guinea contracted the disease and was diagnosed in New York.",
                         false, new RelativeSizeSpan(1f), new JustifiedSpan());
-        return ambb;
     }
 
     static ArticleBuilder getArticle2() {
-        ArticleBuilder ambb = new ArticleBuilder();
-        ambb.append("Christie and Cuomo Announce Mandatory Ebola Quarantine",
-                false, new RelativeSizeSpan(2f), new StyleSpan(Typeface.BOLD))
+        return new ArticleBuilder()
+                .append("Christie and Cuomo Announce Mandatory Ebola Quarantine",
+                        false, new RelativeSizeSpan(2f), new StyleSpan(Typeface.BOLD))
                 .append("<font color=0xFFC801>Justin Worland</font><font color=0x888888> @justinworland  Oct. 25, 2014</font>",
                         false, new RelativeSizeSpan(0.8f), new StyleSpan(Typeface.BOLD))
                 .append("<font color=0x888888>Updated: Oct. 25, 2014 2:34 PM</font>".toUpperCase(),
@@ -113,13 +109,17 @@ public class Articles {
                         true, new RelativeSizeSpan(1f), new JustifiedSpan(), new StyleSpan(Typeface.ITALIC))
                 .append("“The announcements mark a dramatic escalation in measures designed to prevent the spread of Ebola in the United States. Previously, only individuals with symptoms of Ebola would be quarantined upon entry to the U.S. under a federal rule from the Centers for Diseases Control and the Department of Homeland Security.”",
                         false, new RelativeSizeSpan(1f), new CenterSpan());
-        return ambb;
     }
 
-    static ArticleBuilder getArticle3(){
-        ArticleBuilder ambb = new ArticleBuilder();
-        ambb.append("现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始，但实际情况是在访问特定变量的时候经常在特定的内存地址访问，这就需要各类型数据按照一定的规则在空间上排列，而不是顺序的一个接一个的排放，这就是对齐。"
-                ,false, new RelativeSizeSpan(1f), new JustifiedSpan());
-        return ambb;
+    static ArticleBuilder getArticle3() {
+        return new ArticleBuilder()
+                .append("Chinese Text",
+                        false, new RelativeSizeSpan(2f), new StyleSpan(Typeface.BOLD))
+                .append("<font color=0xFFC801>@levifan</font><font color=0x888888> Oct. 28, 2014</font>",
+                        true, new RelativeSizeSpan(0.8f), new StyleSpan(Typeface.BOLD))
+                .append("现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始，<font color=0xFFC801>现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始</font>，" +
+                        "但实际情况是在访问特定变量的时候经一定的规则在空间上排列，而不是顺序的一个接一个的排放，这就是对齐。现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始，但实际情况是在访问特定变量的时候" +
+                        "经一定的规则在空间上排列，而不是顺序的一个接一个的排放，这就是对齐。"
+                        , false, new RelativeSizeSpan(1f), new JustifiedSpan());
     }
 }
