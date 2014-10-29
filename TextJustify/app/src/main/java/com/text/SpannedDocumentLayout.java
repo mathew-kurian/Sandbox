@@ -35,12 +35,12 @@ import android.text.Layout;
 import android.text.Spanned;
 import android.text.StaticLayout;
 import android.text.TextPaint;
-import android.text.TextUtils;
+import android.text.style.LeadingMarginSpan;
 
-import com.text.examples.Console;
 import com.text.styles.TextAlignment;
 import com.text.styles.TextAlignmentSpan;
 
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
@@ -102,23 +102,28 @@ public class SpannedDocumentLayout extends DocumentLayout {
         this.text = text;
     }
 
+
     @Override
     public void measure() {
-        if (!hasParamsChanged() && !textChange) {
+        if (!params.changed && !textChange) {
             return;
         }
 
-        int parentWidth = (int) (params.getParentWidth() - params.getLeft() - params.getRight());
+        int parentWidth = (int) (params.getParentWidth() - params.getPaddingLeft() - params.getPaddingRight());
 
         staticLayout = new StaticLayout(getText(), (TextPaint) getPaint(),
                 parentWidth, Layout.Alignment.ALIGN_NORMAL, 1, 0, false);
 
         tokens = new LinkedList<Token>();
 
-        TextAlignment defAlign = params.getTextAlignment();
-        float left = params.getLeft(), y = params.getTop(), lastDescent = 0.0f, lastAscent = 0.0f;
+        HashMap<LeadingMarginSpan.LeadingMarginSpan2, Integer>
+                leadSpan2s = new HashMap<LeadingMarginSpan.LeadingMarginSpan2, Integer>();
+
+        TextAlignment defAlign = params.textAlignment;
+        float left = params.paddingLeft;
+        float x, y = params.paddingTop, lastDescent, lastAscent;
         int lines = staticLayout.getLineCount();
-        float lineHeightMultiplier = params.getLineHeightMultiplier();
+        float lineHeightMultiplier = params.lineHeightMultiplier;
         Spanned text = (Spanned) this.text;
         Paint.FontMetricsInt fmi = paint.getFontMetricsInt();
 
@@ -126,25 +131,69 @@ public class SpannedDocumentLayout extends DocumentLayout {
 
             int start = staticLayout.getLineStart(i);
             int end = staticLayout.getLineEnd(i);
+            int realWidth = parentWidth;
 
-            if (start == end) {
+            if (start == end || i >= params.maxLines) {
                 break;
             }
 
             lastAscent = -staticLayout.getLineAscent(i) * lineHeightMultiplier;
             lastDescent = staticLayout.getLineDescent(i) * lineHeightMultiplier;
 
+            x = left;
             y += lastAscent;
             // Console.log(start + " => " + end + " :: " + text.subSequence(start, end).toString());
 
             TextAlignmentSpan[] textAlignmentSpans = text.getSpans(start, end, TextAlignmentSpan.class);
             TextAlignment lineTextAlignment = textAlignmentSpans.length == 0 ? defAlign : textAlignmentSpans[0].getTextAlignment();
 
+            /*
+             * Process LeadingMarginSpan.LeadingMarginSpan2
+             */
+            LeadingMarginSpan.LeadingMarginSpan2  [] currLeadSpans2 =
+                    text.getSpans(start, end, LeadingMarginSpan.LeadingMarginSpan2.class);
+
+            if(currLeadSpans2.length > 0){
+
+                float margin = 0.0f;
+
+                for(LeadingMarginSpan.LeadingMarginSpan2 leadSpan2 : currLeadSpans2){
+                    if(!leadSpan2s.containsKey(leadSpan2)){
+                        leadSpan2s.put(leadSpan2, leadSpan2.getLeadingMarginLineCount());
+                    }
+
+                    // Get current line count
+                    int spanLines = leadSpan2s.get(leadSpan2);
+
+                    // Update only if the valid next valid
+                    if(spanLines > 0){
+                        leadSpan2s.put(leadSpan2, spanLines - 1);
+                    }
+
+                    // Is margin required?
+                    margin += leadSpan2.getLeadingMargin(spanLines > 0);
+
+                }
+
+                switch(defAlign){
+                    case JUSTIFIED:
+                    case LEFT:
+                        x += margin;
+                        break;
+
+                }
+
+                realWidth -= margin;
+            }
+
+            /*
+             * Process TextALignmentSpan
+             */
             switch (lineTextAlignment) {
                 case LEFT:
                 case JUSTIFIED:
                     if (text.charAt(Math.min(end, text.length() - 1)) == '\n') {
-                        tokens.push(new Token(start, end, left, y));
+                        tokens.push(new Token(start, end, x, y));
                         i++;
                         y += lastDescent;
                         continue;
@@ -154,18 +203,18 @@ public class SpannedDocumentLayout extends DocumentLayout {
             switch (lineTextAlignment) {
                 case RIGHT: {
                     float width = paint.measureText(text, start, end);
-                    tokens.push(new Token(start, end, left + parentWidth - width, y));
+                    tokens.push(new Token(start, end, x + realWidth - width, y));
                     y += lastDescent;
                     continue;
                 }
                 case CENTER: {
                     float width = paint.measureText(text, start, end);
-                    tokens.push(new Token(start, end, left + (parentWidth - width) / 2, y));
+                    tokens.push(new Token(start, end, x + (realWidth - width) / 2, y));
                     y += lastDescent;
                     continue;
                 }
                 case LEFT: {
-                    tokens.push(new Token(start, end, left, y));
+                    tokens.push(new Token(start, end, x, y));
                     y += lastDescent;
                     continue;
                 }
@@ -191,10 +240,10 @@ public class SpannedDocumentLayout extends DocumentLayout {
                         sum+= tw;
                     }
 
-                    offset = (parentWidth - sum) / (textWidths.length - 1);
+                    offset = (realWidth - sum) / (textWidths.length - 1);
 
                     for(int k = start; k < stop; k++) {
-                        lineTokens.add(new Token(k, k + 1, left + textsOffset + (offset * m), y));
+                        lineTokens.add(new Token(k, k + 1, x + textsOffset + (offset * m), y));
                         textsOffset += textWidths[m++];
                     }
 
@@ -207,13 +256,13 @@ public class SpannedDocumentLayout extends DocumentLayout {
             }
 
             for (int stop : tokens) {
-                lineTokens.add(new Token(start, stop, left + totalWidth, y));
+                lineTokens.add(new Token(start, stop, x + totalWidth, y));
                 totalWidth += Styled.measureText((TextPaint) paint, (TextPaint) workPaint, text, start, stop, fmi);
                 start = stop + 1;
             }
 
             int m = 1;
-            float offset = (parentWidth - totalWidth) / (float) (tokens.size() - 1);
+            float offset = (realWidth - totalWidth) / (float) (tokens.size() - 1);
             ListIterator<Token> listIterator = lineTokens.listIterator();
 
             // Skip first one
@@ -232,9 +281,9 @@ public class SpannedDocumentLayout extends DocumentLayout {
             y += lastDescent;
         }
 
-        setParamsChanged(false);
+        params.changed = true;
         textChange = false;
-        measuredHeight = (int) (y + params.getBottom());
+        measuredHeight = (int) (y + params.getPaddingBottom());
     }
 
     @Override

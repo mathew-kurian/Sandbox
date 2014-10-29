@@ -89,6 +89,18 @@ public class Articles {
                         false, new RelativeSizeSpan(1f), new JustifiedSpan());
     }
 
+    static ArticleBuilder getArticle4() {
+    return new ArticleBuilder()
+                .append("LeadingMarginSpan2 Test",
+                        false, new RelativeSizeSpan(2f), new StyleSpan(Typeface.BOLD))
+                .append("<font color=0xFFC801>@levifan</font><font color=0x888888> Oct 9. 28, 2014</font>",
+                        true, new RelativeSizeSpan(0.8f), new StyleSpan(Typeface.BOLD))
+                .append("现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始，<font color=0xFFC801>现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始</font>，" +
+                        "但实际情况是在访问特定变量的时候经一定的规则在空间上排列，而不是顺序的一个接一个的排放，这就是对齐。现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始，但实际情况是在访问特定变量的时候" +
+                        "经一定的规则在空间上排列，而不是顺序的一个接一个的排放，这就是对齐。"
+                        , false, new RelativeSizeSpan(1f), new JustifiedSpan(), new TextLeadingMarginSpan(2, 100));
+    }
+
     static ArticleBuilder getArticle2() {
         return new ArticleBuilder()
                 .append("Christie and Cuomo Announce Mandatory Ebola Quarantine",
