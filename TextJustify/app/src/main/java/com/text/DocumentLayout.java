@@ -48,28 +48,28 @@ public class DocumentLayout {
         /**
          * All the customizable parameters
          */
-        private Hyphenator hyphenator = null;
-        private Float left = 0.0f;
-        private Float top = 0.0f;
-        private Float bottom = 0.0f;
-        private Float right = 0.0f;
-        private Float parentWidth = 800.0f;
-        private Float offsetX = 0.0f;
-        private Float offsetY = 0.0f;
-        private Float lineHeightMultiplier = 1.0f;
-        private Boolean hyphenated = false;
-        private Boolean reverse = false;
-        private Integer maxLines = Integer.MAX_VALUE;
-        private String hyphen = "-";
-        private TextAlignment textAlignment = TextAlignment.LEFT;
+        protected Hyphenator hyphenator = null;
+        protected Float paddingLeft = 0.0f;
+        protected Float paddingTop = 0.0f;
+        protected Float paddingBottom = 0.0f;
+        protected Float paddingRight = 0.0f;
+        protected Float parentWidth = 800.0f;
+        protected Float offsetX = 0.0f;
+        protected Float offsetY = 0.0f;
+        protected Float lineHeightMultiplier = 1.0f;
+        protected Boolean hyphenated = false;
+        protected Boolean reverse = false;
+        protected Integer maxLines = Integer.MAX_VALUE;
+        protected String hyphen = "-";
+        protected TextAlignment textAlignment = TextAlignment.LEFT;
 
         /**
          * If any settings have changed.
          */
-        private boolean changed = false;
+        protected boolean changed = false;
 
         public int hashCode() {
-            return Arrays.hashCode(new Object[]{hyphenator, left, top, bottom, right, parentWidth, offsetX, offsetX,
+            return Arrays.hashCode(new Object[]{hyphenator, paddingLeft, paddingTop, paddingBottom, paddingRight, parentWidth, offsetX, offsetX,
                     lineHeightMultiplier, hyphenated, reverse, maxLines, hyphen, textAlignment});
         }
 
@@ -103,55 +103,55 @@ public class DocumentLayout {
             this.changed = true;
         }
 
-        public float getLeft() {
-            return left;
+        public float getPaddingLeft() {
+            return paddingLeft;
         }
 
-        public void setLeft(float left) {
-            if (this.left == left) {
+        public void setPaddingLeft(float paddingLeft) {
+            if (this.paddingLeft == paddingLeft) {
                 return;
             }
 
-            this.left = left;
+            this.paddingLeft = paddingLeft;
             this.changed = true;
         }
 
-        public float getTop() {
-            return top;
+        public float getPaddingTop() {
+            return paddingTop;
         }
 
-        public void setTop(float top) {
-            if (this.top == top) {
+        public void setPaddingTop(float paddingTop) {
+            if (this.paddingTop == paddingTop) {
                 return;
             }
 
-            this.top = top;
+            this.paddingTop = paddingTop;
             this.changed = true;
         }
 
-        public float getBottom() {
-            return bottom;
+        public float getPaddingBottom() {
+            return paddingBottom;
         }
 
-        public void setBottom(float bottom) {
-            if (this.bottom == bottom) {
+        public void setPaddingBottom(float paddingBottom) {
+            if (this.paddingBottom == paddingBottom) {
                 return;
             }
 
-            this.bottom = bottom;
+            this.paddingBottom = paddingBottom;
             this.changed = true;
         }
 
-        public float getRight() {
-            return right;
+        public float getPaddingRight() {
+            return paddingRight;
         }
 
-        public void setRight(float right) {
-            if (this.right == right) {
+        public void setPaddingRight(float paddingRight) {
+            if (this.paddingRight == paddingRight) {
                 return;
             }
 
-            this.right = right;
+            this.paddingRight = paddingRight;
             this.changed = true;
         }
 
@@ -370,16 +370,8 @@ public class DocumentLayout {
         return measuredHeight;
     }
 
-    protected boolean hasParamsChanged() {
-        return params.changed;
-    }
-
-    protected void setParamsChanged(boolean change) {
-        params.changed = change;
-    }
-
     public void measure() {
-        if (!hasParamsChanged() && !textChange) {
+        if (!params.changed && !textChange) {
             return;
         }
 
@@ -404,16 +396,19 @@ public class DocumentLayout {
         paint.setTextAlign(Paint.Align.LEFT);
 
         // Get basic settings widget properties
-        float width = params.parentWidth - params.right - params.left;
-        float lineHeight = getFontAscent() + getFontDescent();
-        float x, y = lineHeight + params.top, spaceOffset = paint.measureText(" ");
-
         int lineNumber = 0;
+        float width = params.parentWidth - params.paddingRight - params.paddingLeft;
+        float lineHeight = getFontAscent() + getFontDescent();
+        float x, y = lineHeight + params.paddingTop, spaceOffset = paint.measureText(" ");
 
         for (String paragraph : chunks) {
 
+            if(lineNumber >= params.maxLines){
+                break;
+            }
+
             // Start at x = 0 for drawing text
-            x = params.left;
+            x = params.paddingLeft;
 
             String trimParagraph = paragraph.trim();
 
@@ -444,7 +439,7 @@ public class DocumentLayout {
 
             while (true) {
 
-                x = params.left;
+                x = params.paddingLeft;
 
                 // Line doesn't fit, then apply wrapping
                 LineAnalysis format = fit(justifyIterator, start, spaceOffset, width);
@@ -511,7 +506,7 @@ public class DocumentLayout {
         }
 
         params.changed = false;
-        measuredHeight = (int) (y + params.bottom);
+        measuredHeight = (int) (y + params.paddingBottom);
     }
 
     public void draw(Canvas canvas) {
@@ -609,8 +604,6 @@ public class DocumentLayout {
         // Greedy search to see if the word
         // can actually fit on a line
         while (iterator.hasNext()) {
-
-
             // Get word
             Unit unit = iterator.next();
             String word = unit.unit;

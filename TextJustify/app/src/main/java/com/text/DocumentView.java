@@ -40,14 +40,11 @@ import android.text.TextPaint;
 import android.util.AttributeSet;
 import android.view.View;
 
-import java.lang.reflect.InvocationTargetException;
-import java.util.NoSuchElementException;
-
 @SuppressWarnings("unused")
 public class DocumentView extends View {
 
-    public static final Class PLAIN_TEXT = DocumentLayout.class;
-    public static final Class FORMATTED_TEXT = SpannedDocumentLayout.class;
+    public static final int PLAIN_TEXT = 0;
+    public static final int FORMATTED_TEXT = 1;
 
     private DocumentLayout layout;
     private Paint paint;
@@ -58,42 +55,32 @@ public class DocumentView extends View {
 
     public DocumentView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        init(DocumentLayout.class);
+        init(PLAIN_TEXT);
     }
 
     public DocumentView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        init(DocumentLayout.class);
+        init(PLAIN_TEXT);
     }
 
     public DocumentView(Context context) {
         super(context);
-        init(DocumentLayout.class);
+        init(PLAIN_TEXT);
     }
 
-    public DocumentView(Context context, Class<? extends DocumentLayout> layoutClass) {
+    public DocumentView(Context context, int layoutClass) {
         super(context);
         init(layoutClass);
     }
 
-    private void init(Class<? extends DocumentLayout> layoutClass) {
+    private void init(int type) {
         this.paint = new TextPaint();
 
         // Initialize paint
         initPaint(this.paint);
 
         // Get default layout
-        try {
-            this.layout = getDocumentLayoutInstance(layoutClass, paint);
-        } catch (NoSuchMethodException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InvocationTargetException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        }
+        this.layout = getDocumentLayoutInstance(type, paint);
     }
 
     public void setTextSize(float textSize) {
@@ -114,9 +101,14 @@ public class DocumentView extends View {
         paint.setAntiAlias(true);
     }
 
-    public DocumentLayout getDocumentLayoutInstance(Class<? extends DocumentLayout> layoutClass, Paint paint) throws NoSuchElementException,
-            NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
-        return layoutClass.getDeclaredConstructor(Paint.class).newInstance(paint);
+    public DocumentLayout getDocumentLayoutInstance(int type, Paint paint) {
+        switch (type) {
+            case FORMATTED_TEXT:
+                return new SpannedDocumentLayout(paint);
+            default:
+            case PLAIN_TEXT:
+                return new DocumentLayout(paint);
+        }
     }
 
     @Override

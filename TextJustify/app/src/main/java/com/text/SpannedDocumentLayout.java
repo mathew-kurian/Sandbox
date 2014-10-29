@@ -35,9 +35,7 @@ import android.text.Layout;
 import android.text.Spanned;
 import android.text.StaticLayout;
 import android.text.TextPaint;
-import android.text.TextUtils;
 
-import com.text.examples.Console;
 import com.text.styles.TextAlignment;
 import com.text.styles.TextAlignmentSpan;
 
@@ -104,21 +102,21 @@ public class SpannedDocumentLayout extends DocumentLayout {
 
     @Override
     public void measure() {
-        if (!hasParamsChanged() && !textChange) {
+        if (!params.changed && !textChange) {
             return;
         }
 
-        int parentWidth = (int) (params.getParentWidth() - params.getLeft() - params.getRight());
+        int parentWidth = (int) (params.getParentWidth() - params.getPaddingLeft() - params.getPaddingRight());
 
         staticLayout = new StaticLayout(getText(), (TextPaint) getPaint(),
                 parentWidth, Layout.Alignment.ALIGN_NORMAL, 1, 0, false);
 
         tokens = new LinkedList<Token>();
 
-        TextAlignment defAlign = params.getTextAlignment();
-        float left = params.getLeft(), y = params.getTop(), lastDescent = 0.0f, lastAscent = 0.0f;
+        TextAlignment defAlign = params.textAlignment;
+        float left = params.paddingLeft, y = params.paddingTop, lastDescent, lastAscent;
         int lines = staticLayout.getLineCount();
-        float lineHeightMultiplier = params.getLineHeightMultiplier();
+        float lineHeightMultiplier = params.lineHeightMultiplier;
         Spanned text = (Spanned) this.text;
         Paint.FontMetricsInt fmi = paint.getFontMetricsInt();
 
@@ -127,7 +125,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
             int start = staticLayout.getLineStart(i);
             int end = staticLayout.getLineEnd(i);
 
-            if (start == end) {
+            if (start == end || i >= params.maxLines) {
                 break;
             }
 
@@ -232,9 +230,9 @@ public class SpannedDocumentLayout extends DocumentLayout {
             y += lastDescent;
         }
 
-        setParamsChanged(false);
+        params.changed = true;
         textChange = false;
-        measuredHeight = (int) (y + params.getBottom());
+        measuredHeight = (int) (y + params.getPaddingBottom());
     }
 
     @Override

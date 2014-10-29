@@ -33,7 +33,6 @@ import android.app.Activity;
 import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Bundle;
-import android.text.Html;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -41,7 +40,6 @@ import android.widget.LinearLayout;
 
 import com.text.DocumentLayout;
 import com.text.DocumentView;
-import com.text.SpannedDocumentLayout;
 import com.text.styles.TextAlignment;
 
 public class SimpleExample extends Activity {
@@ -85,16 +83,16 @@ public class SimpleExample extends Activity {
         }
     }
 
-    public View createDocumentView(CharSequence article, Class<? extends DocumentLayout> layoutClass, Typeface typeface, boolean border) {
+    public View createDocumentView(CharSequence article, int type, Typeface typeface, boolean border) {
 
-        DocumentView documentView = new DocumentView(this, layoutClass);
+        DocumentView documentView = new DocumentView(this, type);
         documentView.setColor(0xffffffff);
         documentView.setTypeface(typeface);
         documentView.getDocumentLayoutParams().setTextAlignment(TextAlignment.JUSTIFIED);
-        documentView.getDocumentLayoutParams().setLeft(100.0f);
-        documentView.getDocumentLayoutParams().setRight(100.0f);
-        documentView.getDocumentLayoutParams().setTop(100.0f);
-        documentView.getDocumentLayoutParams().setBottom(100.0f);
+        documentView.getDocumentLayoutParams().setPaddingLeft(100.0f);
+        documentView.getDocumentLayoutParams().setPaddingRight(100.0f);
+        documentView.getDocumentLayoutParams().setPaddingTop(100.0f);
+        documentView.getDocumentLayoutParams().setPaddingBottom(100.0f);
         documentView.getDocumentLayoutParams().setLineHeightMultiplier(1.3f);
         documentView.setText(article, true); // true: enable justification
 
