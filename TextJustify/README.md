@@ -81,6 +81,7 @@ documentView.setText(span, true); // Set to `true` to enable justification
  * to the last inserted text
  */
 
+// Helper class; not required for DocumentView
 class ArticleBuilder extends SpannableStringBuilder {
     public ArticleBuilder append(CharSequence text, boolean newline, Object ... spans){
         int start = this.length();
@@ -92,6 +93,9 @@ class ArticleBuilder extends SpannableStringBuilder {
     }
 }
 
+// NOTE: ArticleBuilder is NOT required for DocumentView to work.
+//       It is just a helper class I made to make it easier to add
+//       multiple spans to a certain text.
 ArticleBuilder a = new ArticleBuilder();
 a.append("WHO: Ebola Cases",
           false, new RelativeSizeSpan(2f), new StyleSpan(Typeface.BOLD))
