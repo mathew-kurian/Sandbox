@@ -1,4 +1,4 @@
-package com.text.styles;
+package com.text.style;
 
 /*
  * Copyright 2014 Mathew Kurian
@@ -17,7 +17,7 @@ package com.text.styles;
  *
  * -------------------------------------------------------------------------
  *
- * TextAlignmentSpan.java
+ * CenterSpan.java
  * @author Mathew Kurian
  *
  * From TextJustify-Android Library v2.0
@@ -29,16 +29,9 @@ package com.text.styles;
  * Date: 10/27/14 1:36 PM
  */
 
-import android.text.Layout;
-import android.text.style.AlignmentSpan;
-
-public abstract class TextAlignmentSpan implements AlignmentSpan {
-
+public class CenterSpan extends TextAlignmentSpan {
     @Override
-    public Layout.Alignment getAlignment() {
-        return Layout.Alignment.ALIGN_NORMAL;
+    public TextAlignment getTextAlignment() {
+        return TextAlignment.CENTER;
     }
-
-    public abstract TextAlignment getTextAlignment();
-
 }

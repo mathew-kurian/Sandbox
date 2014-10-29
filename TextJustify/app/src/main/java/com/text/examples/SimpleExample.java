@@ -38,9 +38,8 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.LinearLayout;
 
-import com.text.DocumentLayout;
 import com.text.DocumentView;
-import com.text.styles.TextAlignment;
+import com.text.style.TextAlignment;
 
 public class SimpleExample extends Activity {
 
@@ -60,6 +59,7 @@ public class SimpleExample extends Activity {
         Typeface nytmedium = Typeface.createFromAsset(getAssets(), "fonts/nyt-cheltenham-medium.ttf");
         Typeface nytnormal = Typeface.createFromAsset(getAssets(), "fonts/nyt-cheltenham-normal.ttf");
 
+        articleList.addView(createDocumentView(Articles.getArticle5(), DocumentView.FORMATTED_TEXT, Typeface.DEFAULT,true));
         articleList.addView(createDocumentView(Articles.getArticle4(), DocumentView.FORMATTED_TEXT, Typeface.DEFAULT,true));
         articleList.addView(createDocumentView(Articles.getWelcome(), DocumentView.FORMATTED_TEXT, nytmedium, true));
         articleList.addView(createDocumentView(Articles.getAbout(), DocumentView.PLAIN_TEXT, nytnormal, true));

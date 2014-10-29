@@ -29,6 +29,7 @@ package com.text.examples;
  * Date: 10/27/14 1:36 PM
  */
 
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.text.Html;
 import android.text.SpannableStringBuilder;
@@ -36,10 +37,10 @@ import android.text.Spanned;
 import android.text.style.RelativeSizeSpan;
 import android.text.style.StyleSpan;
 
-import com.text.styles.CenterSpan;
-import com.text.styles.JustifiedSpan;
-import com.text.styles.LeftSpan;
-import com.text.styles.RightSpan;
+import com.text.style.CenterSpan;
+import com.text.style.JustifiedSpan;
+import com.text.style.LeftSpan;
+import com.text.style.RightSpan;
 
 public class Articles {
 
@@ -133,5 +134,17 @@ public class Articles {
                         "但实际情况是在访问特定变量的时候经一定的规则在空间上排列，而不是顺序的一个接一个的排放，这就是对齐。现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始，但实际情况是在访问特定变量的时候" +
                         "经一定的规则在空间上排列，而不是顺序的一个接一个的排放，这就是对齐。"
                         , false, new RelativeSizeSpan(1f), new JustifiedSpan());
+    }
+
+    static ArticleBuilder getArticle5() {
+        return new ArticleBuilder()
+                .append("Chinese Text",
+                        false, new RelativeSizeSpan(2f), new StyleSpan(Typeface.BOLD))
+                .append("<font color=0xFFC801>@levifan</font><font color=0x888888> Oct. 28, 2014</font>",
+                        true, new RelativeSizeSpan(0.8f), new StyleSpan(Typeface.BOLD))
+                .append("现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始，<font color=0xFFC801>现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始</font>，" +
+                        "但实际情况是在访问特定变量的时候经一定的规则在空间上排列，而不是顺序的一个接一个的排放，这就是对齐。现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始，但实际情况是在访问特定变量的时候" +
+                        "经一定的规则在空间上排列，而不是顺序的一个接一个的排放，这就是对齐。"
+                        , false, new RelativeSizeSpan(1f), new JustifiedSpan(), new QuoteSpan(Color.RED));
     }
 }

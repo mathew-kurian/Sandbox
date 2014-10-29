@@ -33,7 +33,7 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 
 import com.text.hyphen.Hyphenator;
-import com.text.styles.TextAlignment;
+import com.text.style.TextAlignment;
 
 import java.util.ArrayList;
 import java.util.Arrays;

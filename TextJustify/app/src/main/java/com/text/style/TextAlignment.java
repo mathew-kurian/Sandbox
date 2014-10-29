@@ -1,4 +1,4 @@
-package com.text.styles;
+package com.text.style;
 
 /*
  * Copyright 2014 Mathew Kurian
@@ -17,7 +17,7 @@ package com.text.styles;
  *
  * -------------------------------------------------------------------------
  *
- * JustifiedSpan.java
+ * TextAlignment.java
  * @author Mathew Kurian
  *
  * From TextJustify-Android Library v2.0
@@ -29,9 +29,6 @@ package com.text.styles;
  * Date: 10/27/14 1:36 PM
  */
 
-public class JustifiedSpan extends TextAlignmentSpan {
-    @Override
-    public TextAlignment getTextAlignment() {
-        return TextAlignment.JUSTIFIED;
-    }
+public enum TextAlignment {
+    LEFT, RIGHT, JUSTIFIED, CENTER
 }
