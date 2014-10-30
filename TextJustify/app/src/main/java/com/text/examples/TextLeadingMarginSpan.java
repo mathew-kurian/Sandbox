@@ -17,8 +17,8 @@ public class TextLeadingMarginSpan implements
     private int lines;
 
     public TextLeadingMarginSpan(int lines, int margin) {
-        this.margin = margin;
         this.lines = lines;
+        this.margin = margin;
     }
 
     /**
@@ -29,17 +29,14 @@ public class TextLeadingMarginSpan implements
      */
     @Override
     public int getLeadingMargin(boolean first) {
-        if (first) {
-            return margin;
-        } else {
-            return 0;
-        }
+        return margin;
     }
 
     @Override
     public void drawLeadingMargin(Canvas c, Paint p, int x, int dir, int top,
                                   int baseline, int bottom, CharSequence text, int start, int end,
-                                  boolean first, Layout layout) {}
+                                  boolean first, Layout layout) {
+    }
 
     @Override
     public int getLeadingMarginLineCount() {

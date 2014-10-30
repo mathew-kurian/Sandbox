@@ -1,4 +1,4 @@
-package com.text.styles;
+package com.text.style;
 
 /*
  * Copyright 2014 Mathew Kurian
