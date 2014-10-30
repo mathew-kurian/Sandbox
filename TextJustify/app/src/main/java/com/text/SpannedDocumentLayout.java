@@ -135,8 +135,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
         float right = params.paddingRight;
         float x;
         float y = params.paddingTop;
-        float lastDescent;
-        float lastAscent;
+        float lastHalfLineHeight = 0;
         float lineHeightMultiplier = params.lineHeightMultiplier;
 
         boolean isParaStart = true;
@@ -146,6 +145,8 @@ public class SpannedDocumentLayout extends DocumentLayout {
             int start = staticLayout.getLineStart(i);
             int end = staticLayout.getLineEnd(i);
             int realWidth = boundWidth;
+
+            // Console.log(start + " => " + end + " :: " + " " + -staticLayout.getLineAscent(i) + " " +  staticLayout.getLineDescent(i) + " " + text.subSequence(start, end).toString());
 
             // start == end => end of text
             if (start == end || i >= params.maxLines) {
@@ -157,8 +158,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
             TextAlignment lineTextAlignment = textAlignmentSpans.length == 0 ? defAlign : textAlignmentSpans[0].getTextAlignment();
 
             // Calculate components of line height
-            lastAscent = -staticLayout.getLineAscent(i) * lineHeightMultiplier;
-            lastDescent = staticLayout.getLineDescent(i) * lineHeightMultiplier;
+            lastHalfLineHeight = (-staticLayout.getLineAscent(i) + staticLayout.getLineDescent(i)) * lineHeightMultiplier / 2;
 
             /**
              * Line is ONLY a <br/> or \n
@@ -172,9 +172,8 @@ public class SpannedDocumentLayout extends DocumentLayout {
                 isParaStart = true;
 
                 // Use the line-height of the next line
-                lastAscent = -staticLayout.getLineAscent(i + 1) * lineHeightMultiplier;
-                lastDescent = staticLayout.getLineDescent(i + 1) * lineHeightMultiplier;
-                y += enableLineBreak * (lastAscent + lastDescent);
+                y += enableLineBreak * ((-staticLayout.getLineAscent(i + 1) + staticLayout.getLineDescent(i + 1))
+                        * lineHeightMultiplier * 2);
 
                 // Don't ignore the next line breaks
                 enableLineBreak = 1;
@@ -187,7 +186,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
             }
 
             x = lineTextAlignment == TextAlignment.RIGHT ? right : left;
-            y += lastAscent;
+            y += lastHalfLineHeight;
 
             // Console.log(start + " => " + end + " :: " + text.subSequence(start, end).toString());
             // Console.log(isParaStart + " " + isParaEnd + " " + start + " => " + end + " :: " + text.subSequence(start, end).toString());
@@ -251,8 +250,8 @@ public class SpannedDocumentLayout extends DocumentLayout {
                 // Update only if the valid next valid
                 if (spanLines > 0 || spanLines == -1) {
                     leadSpans.put(leadSpan, spanLines == -1 ? -1 : spanLines - 1);
-                    leadMarginSpanDrawEvents.push(new LeadingMarginSpanDrawParameters(leadSpan, (int) calcX, lineAlignmentVal, (int) (y - lastAscent), (int) y,
-                            (int) (y + lastDescent), start, end, isParaStart));
+                    leadMarginSpanDrawEvents.push(new LeadingMarginSpanDrawParameters(leadSpan, (int) calcX, lineAlignmentVal, (int) (y - lastHalfLineHeight), (int) y,
+                            (int) (y + lastHalfLineHeight), start, end, isParaStart));
 
                     // Is margin required?
                     totalMargin += leadSpan.getLeadingMargin(isParaStart);
@@ -269,7 +268,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
                 isParaStart = true;
             }
 
-            Console.log(x + " " +  realWidth + " "  + text.subSequence(start, end).toString());
+            // Console.log(x + " " +  realWidth + " "  + text.subSequence(start, end).toString());
 
             /**
              * TextAlignmentSpan block
@@ -279,7 +278,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
                     case LEFT:
                     case JUSTIFIED:
                         tokens.push(new Token(start, end, x, y));
-                        y += lastDescent;
+                        y += lastHalfLineHeight;
                         continue;
                 }
             }
@@ -289,23 +288,24 @@ public class SpannedDocumentLayout extends DocumentLayout {
                     // FIXME: Space at the end of each line, possibly due to scrollbar offset
                     float lineWidth = paint.measureText(text, start, end - 1);
                     tokens.push(new Token(start, end, parentWidth - x - lineWidth, y));
-                    y += lastDescent;
+                    y += lastHalfLineHeight;
                     continue;
                 }
                 case CENTER: {
                     float lineWidth = paint.measureText(text, start, end);
                     tokens.push(new Token(start, end, x + (realWidth - lineWidth) / 2, y));
-                    y += lastDescent;
+                    y += lastHalfLineHeight;
                     continue;
                 }
                 case LEFT: {
                     tokens.push(new Token(start, end, x, y));
-                    y += lastDescent;
+                    y += lastHalfLineHeight;
                     continue;
                 }
             }
 
-            LinkedList<Integer> tokenized = tokenize(text, start, end);
+            // FIXME: Space at the end of each line, possibly due to scrollbar offset
+            LinkedList<Integer> tokenized = tokenize(text, start, end - 1);
 
             /**
              * If one long word without any spaces
@@ -337,7 +337,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
             }
 
             /**
-             * Handle multiple words
+             * NOTE: Handle multiple words
              */
             else {
 
@@ -369,12 +369,12 @@ public class SpannedDocumentLayout extends DocumentLayout {
 
             }
 
-            y += lastDescent;
+            y += lastHalfLineHeight;
         }
 
         params.changed = false;
         textChange = false;
-        measuredHeight = (int) (y + params.getPaddingBottom());
+        measuredHeight = (int) (y - lastHalfLineHeight + params.paddingBottom);
     }
 
     @Override

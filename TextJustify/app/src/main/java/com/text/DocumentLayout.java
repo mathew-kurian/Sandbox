@@ -399,7 +399,10 @@ public class DocumentLayout {
         int lineNumber = 0;
         float width = params.parentWidth - params.paddingRight - params.paddingLeft;
         float lineHeight = getFontAscent() + getFontDescent();
-        float x, y = lineHeight + params.paddingTop, spaceOffset = paint.measureText(" ");
+        float halfLineHeight = lineHeight / 2;
+        float x;
+        float y = params.paddingTop + halfLineHeight;
+        float spaceOffset = paint.measureText(" ");
 
         for (String paragraph : chunks) {
 
@@ -506,7 +509,7 @@ public class DocumentLayout {
         }
 
         params.changed = false;
-        measuredHeight = (int) (y + params.paddingBottom);
+        measuredHeight = (int) (y - getFontAscent() + params.paddingBottom);
     }
 
     public void draw(Canvas canvas) {

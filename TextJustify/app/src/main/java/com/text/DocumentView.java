@@ -81,6 +81,8 @@ public class DocumentView extends View {
 
         // Get default layout
         this.layout = getDocumentLayoutInstance(type, paint);
+
+        this.setPadding(0,0,0,0);
     }
 
     public void setTextSize(float textSize) {
@@ -168,7 +170,7 @@ public class DocumentView extends View {
             // provided canvas
             activeCanvas = canvas;
         }
-
+        
         this.layout.draw(activeCanvas);
 
         if (cacheEnabled) {

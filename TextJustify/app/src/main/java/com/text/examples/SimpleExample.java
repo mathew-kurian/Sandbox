@@ -95,7 +95,7 @@ public class SimpleExample extends Activity {
         documentView.getDocumentLayoutParams().setPaddingRight(50);
         documentView.getDocumentLayoutParams().setPaddingTop(50);
         documentView.getDocumentLayoutParams().setPaddingBottom(50);
-        documentView.getDocumentLayoutParams().setLineHeightMultiplier(1.1f);
+        documentView.getDocumentLayoutParams().setLineHeightMultiplier(1);
         documentView.setText(article, true); // true: enable justification
 
         LinearLayout linearLayout = new LinearLayout(this);
