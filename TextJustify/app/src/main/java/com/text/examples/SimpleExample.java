@@ -59,10 +59,10 @@ public class SimpleExample extends Activity {
         Typeface nytmedium = Typeface.createFromAsset(getAssets(), "fonts/nyt-cheltenham-medium.ttf");
         Typeface nytnormal = Typeface.createFromAsset(getAssets(), "fonts/nyt-cheltenham-normal.ttf");
 
-        articleList.addView(createDocumentView(Articles.getArticle5(), DocumentView.FORMATTED_TEXT, Typeface.DEFAULT,true));
-        articleList.addView(createDocumentView(Articles.getArticle4(), DocumentView.FORMATTED_TEXT, Typeface.DEFAULT,true));
         articleList.addView(createDocumentView(Articles.getWelcome(), DocumentView.FORMATTED_TEXT, nytmedium, true));
         articleList.addView(createDocumentView(Articles.getAbout(), DocumentView.PLAIN_TEXT, nytnormal, true));
+        articleList.addView(createDocumentView(Articles.getArticle5(), DocumentView.FORMATTED_TEXT, nytnormal,true));
+        articleList.addView(createDocumentView(Articles.getArticle4(), DocumentView.FORMATTED_TEXT, Typeface.DEFAULT,true));
         articleList.addView(createDocumentView(Articles.getArticle1(), DocumentView.FORMATTED_TEXT, nytnormal, true));
         articleList.addView(createDocumentView(Articles.getArticle2(), DocumentView.FORMATTED_TEXT, nytnormal, true));
         articleList.addView(createDocumentView(Articles.getArticle3(), DocumentView.FORMATTED_TEXT, Typeface.DEFAULT,true));
@@ -89,12 +89,13 @@ public class SimpleExample extends Activity {
         DocumentView documentView = new DocumentView(this, type);
         documentView.setColor(0xffffffff);
         documentView.setTypeface(typeface);
+        documentView.setTextSize(20);
         documentView.getDocumentLayoutParams().setTextAlignment(TextAlignment.JUSTIFIED);
-        documentView.getDocumentLayoutParams().setPaddingLeft(100.0f);
-        documentView.getDocumentLayoutParams().setPaddingRight(100.0f);
-        documentView.getDocumentLayoutParams().setPaddingTop(100.0f);
-        documentView.getDocumentLayoutParams().setPaddingBottom(100.0f);
-        documentView.getDocumentLayoutParams().setLineHeightMultiplier(1.3f);
+        documentView.getDocumentLayoutParams().setPaddingLeft(50);
+        documentView.getDocumentLayoutParams().setPaddingRight(50);
+        documentView.getDocumentLayoutParams().setPaddingTop(50);
+        documentView.getDocumentLayoutParams().setPaddingBottom(50);
+        documentView.getDocumentLayoutParams().setLineHeightMultiplier(1.1f);
         documentView.setText(article, true); // true: enable justification
 
         LinearLayout linearLayout = new LinearLayout(this);

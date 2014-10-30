@@ -16,6 +16,7 @@ package com.text.examples;
  * limitations under the License.
  */
 
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Canvas;
 import android.os.Parcel;
@@ -24,8 +25,8 @@ import android.text.ParcelableSpan;
 import android.text.style.LeadingMarginSpan;
 
 public class QuoteSpan implements LeadingMarginSpan, ParcelableSpan {
-    private static final int STRIPE_WIDTH = 2;
-    private static final int GAP_WIDTH = 2;
+    private static final int STRIPE_WIDTH = 10;
+    private static final int GAP_WIDTH = 10;
     private static final int QUOTE_SPAN = 9;
 
     private final int mColor;
@@ -75,7 +76,11 @@ public class QuoteSpan implements LeadingMarginSpan, ParcelableSpan {
         p.setStyle(Paint.Style.FILL);
         p.setColor(mColor);
 
-        c.drawRect(x, top, x + dir * STRIPE_WIDTH, bottom, p);
+        if(dir == -1){
+            x = x - STRIPE_WIDTH;
+        }
+
+        c.drawRect(x, top, x + STRIPE_WIDTH, bottom, p);
 
         p.setStyle(style);
         p.setColor(color);
