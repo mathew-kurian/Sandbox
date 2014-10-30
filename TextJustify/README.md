@@ -39,6 +39,11 @@ The article on the right is composed of only a single Spannable. Only one (1) `D
 
 ![Chinese](http://i.imgur.com/o65WkWL.png)
 
+##Custom Spans
+
+![CustomSpans](https://raw.githubusercontent.com/bluejamesbond/Sandbox/DocumentViewFix1/TextJustify/screenshots/leadMarginSpan2Small.png)
+![CustomSpans](http://i.imgur.com/u9D5Ixm.png)
+
 #Examples
 
 ##Basic Usage - Plain Text
