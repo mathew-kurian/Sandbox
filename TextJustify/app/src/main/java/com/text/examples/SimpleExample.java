@@ -56,16 +56,15 @@ public class SimpleExample extends Activity {
 
         LinearLayout articleList = (LinearLayout) findViewById(R.id.articleList);
 
-        Typeface nytmedium = Typeface.createFromAsset(getAssets(), "fonts/nyt-cheltenham-medium.ttf");
-        Typeface nytnormal = Typeface.createFromAsset(getAssets(), "fonts/nyt-cheltenham-normal.ttf");
+        Typeface nytmedium = Typeface.createFromAsset(getAssets(), "fonts/notosans.ttf");
 
         articleList.addView(createDocumentView(Articles.getWelcome(), DocumentView.FORMATTED_TEXT, nytmedium, true));
-        articleList.addView(createDocumentView(Articles.getAbout(), DocumentView.PLAIN_TEXT, nytnormal, true));
+        articleList.addView(createDocumentView(Articles.getAbout(), DocumentView.PLAIN_TEXT, nytmedium, true));
         articleList.addView(createDocumentView(Articles.getArticle6(), DocumentView.FORMATTED_TEXT, Typeface.DEFAULT,true));
-        articleList.addView(createDocumentView(Articles.getArticle5(), DocumentView.FORMATTED_TEXT, nytnormal,true));
+        articleList.addView(createDocumentView(Articles.getArticle5(), DocumentView.FORMATTED_TEXT, nytmedium,true));
         articleList.addView(createDocumentView(Articles.getArticle4(), DocumentView.FORMATTED_TEXT, Typeface.DEFAULT,true));
-        articleList.addView(createDocumentView(Articles.getArticle1(), DocumentView.FORMATTED_TEXT, nytnormal, true));
-        articleList.addView(createDocumentView(Articles.getArticle2(), DocumentView.FORMATTED_TEXT, nytnormal, true));
+        articleList.addView(createDocumentView(Articles.getArticle1(), DocumentView.FORMATTED_TEXT, nytmedium, true));
+        articleList.addView(createDocumentView(Articles.getArticle2(), DocumentView.FORMATTED_TEXT, nytmedium, true));
         articleList.addView(createDocumentView(Articles.getArticle3(), DocumentView.FORMATTED_TEXT, Typeface.DEFAULT,true));
     }
 
@@ -90,7 +89,7 @@ public class SimpleExample extends Activity {
         DocumentView documentView = new DocumentView(this, type);
         documentView.setColor(0xffffffff);
         documentView.setTypeface(typeface);
-        documentView.setTextSize(20);
+        documentView.setTextSize(33);
         documentView.getDocumentLayoutParams().setTextAlignment(TextAlignment.JUSTIFIED);
         documentView.getDocumentLayoutParams().setPaddingLeft(50);
         documentView.getDocumentLayoutParams().setPaddingRight(50);

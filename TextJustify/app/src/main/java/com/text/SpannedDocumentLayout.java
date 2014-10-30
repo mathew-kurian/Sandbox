@@ -51,7 +51,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
     private CharSequence text;
     private StaticLayout staticLayout;
     private LinkedList<Token> tokens; // start, end, x, y
-    private LinkedList<LeadMarginSpanDrawParameters> leadMarginSpanDrawEvents;
+    private LinkedList<LeadingMarginSpanDrawParameters> leadMarginSpanDrawEvents;
 
     public SpannedDocumentLayout(Paint paint) {
         super(paint);
@@ -105,7 +105,6 @@ public class SpannedDocumentLayout extends DocumentLayout {
         this.text = text;
     }
 
-
     @Override
     public void measure() {
         if (!params.changed && !textChange) {
@@ -115,7 +114,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
         int parentWidth = (int) params.getParentWidth();
         int boundWidth = (int) (params.getParentWidth() - params.getPaddingLeft() - params.getPaddingRight());
 
-        leadMarginSpanDrawEvents = new LinkedList<LeadMarginSpanDrawParameters>();
+        leadMarginSpanDrawEvents = new LinkedList<LeadingMarginSpanDrawParameters>();
 
         staticLayout = new StaticLayout(getText(), (TextPaint) getPaint(),
                 boundWidth, Layout.Alignment.ALIGN_NORMAL, 1, 0, false);
@@ -125,14 +124,22 @@ public class SpannedDocumentLayout extends DocumentLayout {
         LeadingMarginSpan[] activeLeadSpans = new LeadingMarginSpan[0];
         HashMap<LeadingMarginSpan, Integer> leadSpans = new HashMap<LeadingMarginSpan, Integer>();
         TextAlignment defAlign = params.textAlignment;
-        float left = params.paddingLeft, right = params.paddingRight;
-        float x, y = params.paddingTop, lastDescent, lastAscent;
-        int lines = staticLayout.getLineCount();
-        float lineHeightMultiplier = params.lineHeightMultiplier;
         Spanned text = (Spanned) this.text;
         Paint.FontMetricsInt fmi = paint.getFontMetricsInt();
-        boolean isParaStart = true;
+
         int maxTextIndex = text.length() - 1;
+        int lines = staticLayout.getLineCount();
+        int enableLineBreak = 0;
+
+        float left = params.paddingLeft;
+        float right = params.paddingRight;
+        float x;
+        float y = params.paddingTop;
+        float lastDescent;
+        float lastAscent;
+        float lineHeightMultiplier = params.lineHeightMultiplier;
+
+        boolean isParaStart = true;
 
         for (int i = 0; i < lines; i++) {
 
@@ -140,122 +147,132 @@ public class SpannedDocumentLayout extends DocumentLayout {
             int end = staticLayout.getLineEnd(i);
             int realWidth = boundWidth;
 
+            // start == end => end of text
             if (start == end || i >= params.maxLines) {
                 break;
             }
 
+            // Get text alignment for the line
             TextAlignmentSpan[] textAlignmentSpans = text.getSpans(start, end, TextAlignmentSpan.class);
             TextAlignment lineTextAlignment = textAlignmentSpans.length == 0 ? defAlign : textAlignmentSpans[0].getTextAlignment();
 
+            // Calculate components of line height
             lastAscent = -staticLayout.getLineAscent(i) * lineHeightMultiplier;
             lastDescent = staticLayout.getLineDescent(i) * lineHeightMultiplier;
 
-            // Handle line breaks
-            if (start + 1 == end && Character.getNumericValue(text.charAt(start)) == -1) {
+            /**
+             * Line is ONLY a <br/> or \n
+             */
+            if (start + 1 == end &&
+                    (Character.getNumericValue(text.charAt(start)) == -1 ||
+                    text.charAt(start) == '\n')) {
+
+                // Line break indicates a new paragraph
+                // is next
                 isParaStart = true;
-                float lineBreakHeight = lastAscent + lastDescent;
-                if(i + 1 < lines){
-                    lastAscent = -staticLayout.getLineAscent(i + 1) * lineHeightMultiplier;
-                    lastDescent = staticLayout.getLineDescent(i + 1) * lineHeightMultiplier;
-                    lineBreakHeight = lastAscent + lastDescent;
-                }
-                y += lineBreakHeight;
+
+                // Use the line-height of the next line
+                lastAscent = -staticLayout.getLineAscent(i + 1) * lineHeightMultiplier;
+                lastDescent = staticLayout.getLineDescent(i + 1) * lineHeightMultiplier;
+                y += enableLineBreak * (lastAscent + lastDescent);
+
+                // Don't ignore the next line breaks
+                enableLineBreak = 1;
+
                 continue;
+
+            } else {
+                // Ignore the next line break
+               enableLineBreak = 0;
             }
 
             x = lineTextAlignment == TextAlignment.RIGHT ? right : left;
             y += lastAscent;
 
             // Console.log(start + " => " + end + " :: " + text.subSequence(start, end).toString());
+            // Console.log(isParaStart + " " + isParaEnd + " " + start + " => " + end + " :: " + text.subSequence(start, end).toString());
 
+            /**
+             * Line CONTAINS a \n
+             */
             boolean isParaEnd = end == maxTextIndex ||
                     text.charAt(Math.min(end, maxTextIndex)) == '\n' ||
                     text.charAt(end - 1) == '\n';
 
-            // Console.log(isParaStart + " " + isParaEnd + " " + start + " => " + end + " :: " + text.subSequence(start, end).toString());
+            if(isParaEnd){
+                enableLineBreak = 1;
+            }
 
-            {/*LeadingMarginSpan block*/
-                if (isParaStart) {
+            /**
+             * LeadingMarginSpan block
+             */
+            if (isParaStart) {
 
-                    /*
-                     * Process LeadingMarginSpan
-                     */
+                // Process LeadingMarginSpan
+                activeLeadSpans = text.getSpans(start, end, LeadingMarginSpan.class);
 
-                    activeLeadSpans = text.getSpans(start, end, LeadingMarginSpan.class);
+                // Set up all the spans
+                if (activeLeadSpans.length > 0) {
+                    for (LeadingMarginSpan leadSpan : activeLeadSpans) {
+                        if (!leadSpans.containsKey(leadSpan)) {
 
-                    /*
-                     * Set up all the spans
-                     */
+                            // Default margin is everything
+                            int marginLineCount = -1;
 
-                    if (activeLeadSpans.length > 0) {
-                        for (LeadingMarginSpan leadSpan : activeLeadSpans) {
-                            if (!leadSpans.containsKey(leadSpan)) {
-
-                                // Default margin is everything
-                                int marginLineCount = -1;
-
-                                if (leadSpan instanceof LeadingMarginSpan.LeadingMarginSpan2) {
-                                    LeadingMarginSpan.LeadingMarginSpan2 leadSpan2 = ((LeadingMarginSpan.LeadingMarginSpan2) leadSpan);
-                                    marginLineCount = leadSpan2.getLeadingMarginLineCount();
-                                }
-
-                                leadSpans.put(leadSpan, marginLineCount);
+                            if (leadSpan instanceof LeadingMarginSpan.LeadingMarginSpan2) {
+                                LeadingMarginSpan.LeadingMarginSpan2 leadSpan2 = ((LeadingMarginSpan.LeadingMarginSpan2) leadSpan);
+                                marginLineCount = leadSpan2.getLeadingMarginLineCount();
                             }
+
+                            leadSpans.put(leadSpan, marginLineCount);
                         }
                     }
                 }
+            }
 
-                float totalMargin = 0.0f;
+            float totalMargin = 0.0f;
 
-                for (LeadingMarginSpan leadSpan : activeLeadSpans) {
+            for (LeadingMarginSpan leadSpan : activeLeadSpans) {
 
-                    // Sum the margins
-                    float margin = 0.0f;
+                // X based on alignment
+                float calcX = x;
 
-                    // X based on alignment
-                    float calcX = x;
+                // LineAlignment
+                int lineAlignmentVal = 1;
 
-                    // LineAlignment
-                    int lineAlignmentVal = 1;
-
-                    if (lineTextAlignment == TextAlignment.RIGHT) {
-                        lineAlignmentVal = -1;
-                        calcX = parentWidth - x;
-                    }
-
-                    // Get current line count
-                    int spanLines = leadSpans.get(leadSpan);
-
-                    // Update only if the valid next valid
-                    if (spanLines > 0 || spanLines == -1) {
-                        leadSpans.put(leadSpan, spanLines == -1 ? -1 : spanLines - 1);
-                        leadMarginSpanDrawEvents.push(new LeadMarginSpanDrawParameters(leadSpan, (int) calcX, lineAlignmentVal, (int) (y - lastAscent), (int) y,
-                                (int) (y + lastDescent), start, end, isParaStart));
-
-                        // Is margin required?
-                        margin = leadSpan.getLeadingMargin(isParaStart);
-                        totalMargin += margin;
-                    }
+                if (lineTextAlignment == TextAlignment.RIGHT) {
+                    lineAlignmentVal = -1;
+                    calcX = parentWidth - x;
                 }
 
-                x += totalMargin;
-                realWidth -= totalMargin;
+                // Get current line count
+                int spanLines = leadSpans.get(leadSpan);
 
-                /*
-                 * Disable/enable new paragraph
-                 */
+                // Update only if the valid next valid
+                if (spanLines > 0 || spanLines == -1) {
+                    leadSpans.put(leadSpan, spanLines == -1 ? -1 : spanLines - 1);
+                    leadMarginSpanDrawEvents.push(new LeadingMarginSpanDrawParameters(leadSpan, (int) calcX, lineAlignmentVal, (int) (y - lastAscent), (int) y,
+                            (int) (y + lastDescent), start, end, isParaStart));
 
-                isParaStart = false;
-
-                if (isParaEnd) {
-                    isParaStart = true;
+                    // Is margin required?
+                    totalMargin += leadSpan.getLeadingMargin(isParaStart);
                 }
             }
 
-            // Console.log(isParaStart + " " + isParaEnd + " " + start + " => " + end + " :: " + text.subSequence(start, end).toString());
+            x += totalMargin;
+            realWidth -= totalMargin;
 
-            /*
-             * Process TextAlignmentSpan
+            // Disable/enable new paragraph
+            isParaStart = false;
+
+            if (isParaEnd) {
+                isParaStart = true;
+            }
+
+            Console.log(x + " " +  realWidth + " "  + text.subSequence(start, end).toString());
+
+            /**
+             * TextAlignmentSpan block
              */
             if (isParaEnd) {
                 switch (lineTextAlignment) {
@@ -269,7 +286,8 @@ public class SpannedDocumentLayout extends DocumentLayout {
 
             switch (lineTextAlignment) {
                 case RIGHT: {
-                    float lineWidth = paint.measureText(text, start, end);
+                    // FIXME: Space at the end of each line, possibly due to scrollbar offset
+                    float lineWidth = paint.measureText(text, start, end - 1);
                     tokens.push(new Token(start, end, parentWidth - x - lineWidth, y));
                     y += lastDescent;
                     continue;
@@ -287,16 +305,18 @@ public class SpannedDocumentLayout extends DocumentLayout {
                 }
             }
 
-            float totalWidth = 0;
-            LinkedList<Token> lineTokens = new LinkedList<Token>();
-            LinkedList<Integer> tokens = tokenize(text, start, end);
+            LinkedList<Integer> tokenized = tokenize(text, start, end);
 
-            if (tokens.size() == 1) {
-                int stop = tokens.get(0);
-                if (getTrimmedLength(text, start, stop) == 0) {
-                    y += lastDescent;
-                    continue;
-                } else {
+            /**
+             * If one long word without any spaces
+             */
+            if (tokenized.size() == 1) {
+                int stop = tokenized.get(0);
+
+                // If not all space, process
+                // characters individually
+                if (getTrimmedLength(text, start, stop) != 0) {
+
                     float[] textWidths = new float[stop - start];
                     float sum = 0.0f, textsOffset = 0.0f, offset;
                     int m = 0;
@@ -310,45 +330,49 @@ public class SpannedDocumentLayout extends DocumentLayout {
                     offset = (realWidth - sum) / (textWidths.length - 1);
 
                     for (int k = start; k < stop; k++) {
-                        lineTokens.add(new Token(k, k + 1, x + textsOffset + (offset * m), y));
+                        tokens.add(new Token(k, k + 1, x + textsOffset + (offset * m), y));
                         textsOffset += textWidths[m++];
                     }
-
-                    this.tokens.addAll(lineTokens);
-
-                    y += lastDescent;
-
-                    continue;
                 }
             }
 
-            for (int stop : tokens) {
-                lineTokens.add(new Token(start, stop, x + totalWidth, y));
-                totalWidth += Styled.measureText((TextPaint) paint, (TextPaint) workPaint, text, start, stop, fmi);
-                start = stop + 1;
+            /**
+             * Handle multiple words
+             */
+            else {
+
+                float lineWidth = 0;
+                LinkedList<Token> lineTokens = new LinkedList<Token>();
+
+                for (int stop : tokenized) {
+                    lineTokens.add(new Token(start, stop, x + lineWidth, y));
+                    lineWidth += Styled.measureText((TextPaint) paint, (TextPaint) workPaint, text, start, stop, fmi);
+                    start = stop + 1;
+                }
+
+                int m = 1;
+                float offset = (realWidth - lineWidth) / (float) (tokenized.size() - 1);
+                ListIterator<Token> listIterator = lineTokens.listIterator();
+
+                // Skip first one
+                if (listIterator.hasNext()) {
+                    listIterator.next();
+                }
+
+                while (listIterator.hasNext()) {
+                    Token token = listIterator.next();
+                    token.x += offset * (float) m++;
+                    listIterator.set(token);
+                }
+
+                tokens.addAll(lineTokens);
+
             }
-
-            int m = 1;
-            float offset = (realWidth - totalWidth) / (float) (tokens.size() - 1);
-            ListIterator<Token> listIterator = lineTokens.listIterator();
-
-            // Skip first one
-            if (listIterator.hasNext()) {
-                listIterator.next();
-            }
-
-            while (listIterator.hasNext()) {
-                Token token = listIterator.next();
-                token.x += offset * (float) m++;
-                listIterator.set(token);
-            }
-
-            this.tokens.addAll(lineTokens);
 
             y += lastDescent;
         }
 
-        params.changed = true;
+        params.changed = false;
         textChange = false;
         measuredHeight = (int) (y + params.getPaddingBottom());
     }
@@ -356,7 +380,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
     @Override
     public void draw(Canvas canvas) {
 
-        for (LeadMarginSpanDrawParameters parameters : leadMarginSpanDrawEvents) {
+        for (LeadingMarginSpanDrawParameters parameters : leadMarginSpanDrawEvents) {
             parameters.span.drawLeadingMargin(canvas, paint, parameters.x,
                     parameters.dir, parameters.top, parameters.baseline,
                     parameters.bottom, text, parameters.start,
@@ -369,7 +393,11 @@ public class SpannedDocumentLayout extends DocumentLayout {
         }
     }
 
-    private class LeadMarginSpanDrawParameters {
+    /**
+     * Class to handle onDrawLeadingSpanMargin
+     */
+
+    private class LeadingMarginSpanDrawParameters {
 
         public int x;
         public int top;
@@ -381,15 +409,15 @@ public class SpannedDocumentLayout extends DocumentLayout {
         public boolean first;
         public LeadingMarginSpan span;
 
-        public LeadMarginSpanDrawParameters(LeadingMarginSpan span,
-                                            int x,
-                                            int dir,
-                                            int top,
-                                            int baseline,
-                                            int bottom,
-                                            int start,
-                                            int end,
-                                            boolean first) {
+        public LeadingMarginSpanDrawParameters(LeadingMarginSpan span,
+                                               int x,
+                                               int dir,
+                                               int top,
+                                               int baseline,
+                                               int bottom,
+                                               int start,
+                                               int end,
+                                               boolean first) {
             this.span = span;
             this.x = x;
             this.dir = dir;
@@ -401,6 +429,10 @@ public class SpannedDocumentLayout extends DocumentLayout {
             this.first = first;
         }
     }
+
+    /**
+     * Class to help with drawing tokens
+     */
 
     private class Token {
 
