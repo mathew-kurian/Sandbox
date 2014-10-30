@@ -47,7 +47,7 @@ public class Articles {
     static class ArticleBuilder extends SpannableStringBuilder {
         public ArticleBuilder append(CharSequence text, boolean newline, Object... spans) {
             int start = this.length();
-            this.append(Html.fromHtml("<p>" + text + "</p>" + (newline ? "<br/>" : "")));
+            this.append(Html.fromHtml(text + "<br/>" + (newline ? "<br/>" : "")));
             for (Object span : spans) {
                 this.setSpan(span, start, this.length(), Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
             }
@@ -73,7 +73,7 @@ public class Articles {
     static ArticleBuilder getArticle1() {
         return new ArticleBuilder()
                 .append("WHO: Ebola Cases",
-                        false, new RelativeSizeSpan(2f), new StyleSpan(Typeface.BOLD))
+                        true, new RelativeSizeSpan(2f), new StyleSpan(Typeface.BOLD))
                 .append("<font color=0xFFC801>Sam Frizell</font><font color=0x888888> @Sam_Frizell  Oct. 25, 2014</font>",
                         false, new RelativeSizeSpan(0.8f), new StyleSpan(Typeface.BOLD))
                 .append("<font color=0x888888>Updated: Oct. 25, 2014 2:34 PM</font>".toUpperCase(),
@@ -105,7 +105,7 @@ public class Articles {
     static ArticleBuilder getArticle2() {
         return new ArticleBuilder()
                 .append("Christie and Cuomo Announce Mandatory Ebola Quarantine",
-                        false, new RelativeSizeSpan(2f), new StyleSpan(Typeface.BOLD), new LeftSpan())
+                        true, new RelativeSizeSpan(2f), new StyleSpan(Typeface.BOLD), new LeftSpan())
                 .append("<font color=0xFFC801>Justin Worland</font><font color=0x888888> @justinworland  Oct. 25, 2014</font>",
                         false, new RelativeSizeSpan(0.8f), new StyleSpan(Typeface.BOLD))
                 .append("<font color=0x888888>Updated: Oct. 25, 2014 2:34 PM</font>".toUpperCase(),
@@ -139,7 +139,7 @@ public class Articles {
     static ArticleBuilder getArticle5() {
         return new ArticleBuilder()
                 .append("QuoteSpan Test",
-                        false, new RelativeSizeSpan(2f), new StyleSpan(Typeface.BOLD))
+                        true, new RelativeSizeSpan(2f), new StyleSpan(Typeface.BOLD))
                 .append("<font color=0xFFC801>Jon Brodkin</font><font color=0x888888> Oct. 28, 2014</font>",
                         true, new RelativeSizeSpan(0.8f), new StyleSpan(Typeface.BOLD))
                 .append("But now we have more numbers on the performance declines, thanks to a new report from the Measurement Lab Consortium (M-Lab). M-Lab hosts measuring equipment at Internet exchange points to analyze connections between network operators and has more than five years' worth of measurements. A report released today examines connections between consumer Internet service providers (\"Access ISPs\" in M-Lab parlance) and backbone operators (\"Transit ISPs\"), including the ones that sent traffic from Netflix to ISPs while the money fights were still going on."

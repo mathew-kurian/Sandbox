@@ -252,7 +252,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
                 }
             }
 
-            Console.log(isParaStart + " " + isParaEnd + " " + start + " => " + end + " :: " + text.subSequence(start, end).toString());
+            // Console.log(isParaStart + " " + isParaEnd + " " + start + " => " + end + " :: " + text.subSequence(start, end).toString());
 
             /*
              * Process TextAlignmentSpan
@@ -350,7 +350,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
 
         params.changed = true;
         textChange = false;
-        measuredHeight = (int) (y + staticLayout.getBottomPadding() + params.getPaddingBottom());
+        measuredHeight = (int) (y + params.getPaddingBottom());
     }
 
     @Override
