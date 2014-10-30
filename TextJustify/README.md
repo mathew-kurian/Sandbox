@@ -30,11 +30,6 @@ Screenshot from the example in `com.text.examples.SimpleExample`.
 
 ![Preview](http://i.imgur.com/8PanCPg.png)
 
-##Note
-The article on the right is composed of only a single Spannable. Only one (1) `DocumentView` is being used.
-
-![Preview](http://i.imgur.com/4gjANq6.png)
-
 ##Chinese Characters
 
 ![Chinese](http://i.imgur.com/o65WkWL.png)
