@@ -61,6 +61,7 @@ public class SimpleExample extends Activity {
 
         articleList.addView(createDocumentView(Articles.getWelcome(), DocumentView.FORMATTED_TEXT, nytmedium, true));
         articleList.addView(createDocumentView(Articles.getAbout(), DocumentView.PLAIN_TEXT, nytnormal, true));
+        articleList.addView(createDocumentView(Articles.getArticle6(), DocumentView.FORMATTED_TEXT, Typeface.DEFAULT,true));
         articleList.addView(createDocumentView(Articles.getArticle5(), DocumentView.FORMATTED_TEXT, nytnormal,true));
         articleList.addView(createDocumentView(Articles.getArticle4(), DocumentView.FORMATTED_TEXT, Typeface.DEFAULT,true));
         articleList.addView(createDocumentView(Articles.getArticle1(), DocumentView.FORMATTED_TEXT, nytnormal, true));

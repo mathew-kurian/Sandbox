@@ -150,20 +150,27 @@ public class SpannedDocumentLayout extends DocumentLayout {
             lastAscent = -staticLayout.getLineAscent(i) * lineHeightMultiplier;
             lastDescent = staticLayout.getLineDescent(i) * lineHeightMultiplier;
 
-            x = lineTextAlignment == TextAlignment.RIGHT ? right : left;
-            y += lastAscent;
-
             // Handle line breaks
             if (start + 1 == end && Character.getNumericValue(text.charAt(start)) == -1) {
                 isParaStart = true;
-                y += lastDescent;
+                float lineBreakHeight = lastAscent + lastDescent;
+                if(i + 1 < lines){
+                    lastAscent = -staticLayout.getLineAscent(i + 1) * lineHeightMultiplier;
+                    lastDescent = staticLayout.getLineDescent(i + 1) * lineHeightMultiplier;
+                    lineBreakHeight = lastAscent + lastDescent;
+                }
+                y += lineBreakHeight;
                 continue;
             }
+
+            x = lineTextAlignment == TextAlignment.RIGHT ? right : left;
+            y += lastAscent;
 
             // Console.log(start + " => " + end + " :: " + text.subSequence(start, end).toString());
 
             boolean isParaEnd = end == maxTextIndex ||
-                    text.charAt(Math.min(end, maxTextIndex)) == '\n';
+                    text.charAt(Math.min(end, maxTextIndex)) == '\n' ||
+                    text.charAt(end - 1) == '\n';
 
             // Console.log(isParaStart + " " + isParaEnd + " " + start + " => " + end + " :: " + text.subSequence(start, end).toString());
 
@@ -245,6 +252,8 @@ public class SpannedDocumentLayout extends DocumentLayout {
                 }
             }
 
+            Console.log(isParaStart + " " + isParaEnd + " " + start + " => " + end + " :: " + text.subSequence(start, end).toString());
+
             /*
              * Process TextAlignmentSpan
              */
@@ -253,7 +262,6 @@ public class SpannedDocumentLayout extends DocumentLayout {
                     case LEFT:
                     case JUSTIFIED:
                         tokens.push(new Token(start, end, x, y));
-                        i++;
                         y += lastDescent;
                         continue;
                 }
