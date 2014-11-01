@@ -1,4 +1,4 @@
-package com.text.test.helper;
+package com.text;
 
 /*
  * Copyright 2014 Mathew Kurian

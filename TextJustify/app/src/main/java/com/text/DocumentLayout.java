@@ -56,7 +56,7 @@ public class DocumentLayout {
         protected Float parentWidth = 800.0f;
         protected Float offsetX = 0.0f;
         protected Float offsetY = 0.0f;
-        protected Float lineHeightAdd = 1.0f;
+        protected Float lineHeightAdd = 0.0f;
         protected Boolean hyphenated = false;
         protected Boolean reverse = false;
         protected Integer maxLines = Integer.MAX_VALUE;

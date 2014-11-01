@@ -60,16 +60,20 @@ public class TestList extends TestActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        // Set default app font
+        FontsOverride.setDefaultFont(this, "DEFAULT", "fonts/helvetica.ttf");
+
+        // Set layout
         setContentView(R.layout.testlist);
 
-        FontsOverride.setDefaultFont(this, "DEFAULT", "fonts/notosans.ttf");
-
+        // Create list of simple test names
         String[] testNames = new String[tests.length];
 
         for (int i = 0; i < testNames.length; i++) {
             testNames[i] = Utils.splitCamelCase(tests[i].getSimpleName()).toUpperCase();
         }
 
+        // Get listView
         ListView lv = (ListView) findViewById(R.id.list);
 
         // Assign adapter to List
@@ -87,6 +91,7 @@ public class TestList extends TestActivity {
             }
         });
 
+        // For each click
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
