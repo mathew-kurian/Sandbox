@@ -302,7 +302,6 @@ public class SpannedDocumentLayout extends DocumentLayout {
                     case LEFT:
                     case JUSTIFIED:
                         index = pushToken(newTokens, index, start, end, x, y, lastAscent, lastDescent);
-                        ;
                         y += lastDescent;
                         continue;
                 }
@@ -310,13 +309,14 @@ public class SpannedDocumentLayout extends DocumentLayout {
 
             switch (lineTextAlignment) {
                 case RIGHT: {
-                    // FIXME: Space at the end of each line, possibly due to scrollbar offset
-                    index = pushToken(newTokens,index, start, end, parentWidth - x - paint.measureText(text, start, end - 1), y, lastAscent, lastDescent);
+                    float lineWidth = paint.measureText(text, start, end);
+                    index = pushToken(newTokens,index, start, end, parentWidth - x - lineWidth, y, lastAscent, lastDescent);
                     y += lastDescent;
                     continue;
                 }
                 case CENTER: {
-                    index = pushToken(newTokens, index, start, end, x + (realWidth - paint.measureText(text, start, end)) / 2, y, lastAscent, lastDescent);
+                    float lineWidth = paint.measureText(text, start, end);
+                    index = pushToken(newTokens, index, start, end, x + (realWidth - lineWidth) / 2, y, lastAscent, lastDescent);
                     y += lastDescent;
                     continue;
                 }

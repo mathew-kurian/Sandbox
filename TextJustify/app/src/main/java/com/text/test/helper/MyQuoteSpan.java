@@ -16,19 +16,21 @@ package com.text.test.helper;
  * limitations under the License.
  */
 
-import android.graphics.Paint;
 import android.graphics.Canvas;
+import android.graphics.Paint;
 import android.os.Parcel;
 import android.text.Layout;
 import android.text.ParcelableSpan;
 import android.text.style.LeadingMarginSpan;
 
+@SuppressWarnings("UnusedDeclaration")
 public class MyQuoteSpan implements LeadingMarginSpan, ParcelableSpan {
-    private static final int STRIPE_WIDTH = 10;
-    private static final int GAP_WIDTH = 10;
-    private static final int QUOTE_SPAN = 9;
 
-    private final int mColor;
+    private final static int QUOTE_SPAN = 9;
+
+    private int mStripeWidth = 2;
+    private int mGapWidth = 30;
+    private int mColor;
 
     public MyQuoteSpan() {
         super();
@@ -38,6 +40,19 @@ public class MyQuoteSpan implements LeadingMarginSpan, ParcelableSpan {
     public MyQuoteSpan(int color) {
         super();
         mColor = color;
+    }
+
+    public MyQuoteSpan(int color, int stripeWidth) {
+        super();
+        mColor = color;
+        mStripeWidth = stripeWidth;
+    }
+
+    public MyQuoteSpan(int color, int stripeWidth, int gapWidth) {
+        super();
+        mColor = color;
+        mStripeWidth = stripeWidth;
+        mGapWidth = gapWidth;
     }
 
     public MyQuoteSpan(Parcel src) {
@@ -61,7 +76,7 @@ public class MyQuoteSpan implements LeadingMarginSpan, ParcelableSpan {
     }
 
     public int getLeadingMargin(boolean first) {
-        return STRIPE_WIDTH + GAP_WIDTH;
+        return mStripeWidth + mGapWidth;
     }
 
     public void drawLeadingMargin(Canvas c, Paint p, int x, int dir,
@@ -69,19 +84,19 @@ public class MyQuoteSpan implements LeadingMarginSpan, ParcelableSpan {
                                   CharSequence text, int start, int end,
                                   boolean first, Layout layout) {
 
-        Paint.Style style = p.getStyle();
+        float strokeWidth = p.getStrokeWidth();
         int color = p.getColor();
 
-        p.setStyle(Paint.Style.FILL);
+        p.setStrokeWidth(mStripeWidth);
         p.setColor(mColor);
 
-        if(dir == -1){
-            x = x - STRIPE_WIDTH;
+        if (dir == -1) {
+            x = x - mStripeWidth;
         }
 
-        c.drawRect(x, top, x + STRIPE_WIDTH, bottom, p);
+        c.drawLine(x, top, x, bottom, p);
 
-        p.setStyle(style);
+        p.setStrokeWidth(strokeWidth);
         p.setColor(color);
     }
 }

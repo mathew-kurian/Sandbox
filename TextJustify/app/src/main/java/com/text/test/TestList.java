@@ -61,7 +61,7 @@ public class TestList extends TestActivity {
         super.onCreate(savedInstanceState);
 
         // Set default app font
-        FontsOverride.setDefaultFont(this, "DEFAULT", "fonts/helvetica.ttf");
+        FontsOverride.setDefaultFont(this, "DEFAULT", "fonts/notosans.ttf");
 
         // Set layout
         setContentView(R.layout.testlist);
