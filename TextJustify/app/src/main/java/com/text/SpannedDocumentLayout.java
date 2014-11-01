@@ -342,7 +342,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
 
                     tokensArray[index + START] = start;
                     tokensArray[index + END] = end;
-                    tokensArray[index + X] = (int) ((realWidth - lineWidth) / 2);
+                    tokensArray[index + X] = (int) (x + (realWidth - lineWidth) / 2);
                     tokensArray[index + Y] = (int) y;
                     tokensArray[index + ASCENT] = (int) lastAscent;
                     tokensArray[index + DESCENT] = (int) lastDescent;
@@ -450,8 +450,10 @@ public class SpannedDocumentLayout extends DocumentLayout {
                     listIterator.set(token);
                 }
 
-                for (int s = startIndex; s < index; s += LENGTH) {
-                    tokensArray[index + X] += (int) offset * m++;
+                m = 1;
+
+                for (int pos = startIndex + LENGTH; pos < index; pos += LENGTH) {
+                    tokensArray[pos + X] = (int)(((float) tokensArray[pos + X]) + (offset * (float) m++));
                 }
 
                 tokens.addAll(lineTokens);
@@ -498,7 +500,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
                 paint.setColor(lastColor);
             }
         }
-
+//
 //        for (Token token : tokens) {
 //            Styled.drawText(canvas, text, token.start, token.end, Layout.DIR_LEFT_TO_RIGHT, false, (int) token.x, 0,
 //                    (int) token.y, 0, (TextPaint) paint, (TextPaint) workPaint, false);
