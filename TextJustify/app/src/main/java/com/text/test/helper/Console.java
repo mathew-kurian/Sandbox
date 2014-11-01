@@ -1,4 +1,4 @@
-package com.text.examples;
+package com.text.test.helper;
 
 /*
  * Copyright 2014 Mathew Kurian

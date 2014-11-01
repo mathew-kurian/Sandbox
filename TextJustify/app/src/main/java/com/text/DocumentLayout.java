@@ -56,7 +56,7 @@ public class DocumentLayout {
         protected Float parentWidth = 800.0f;
         protected Float offsetX = 0.0f;
         protected Float offsetY = 0.0f;
-        protected Float lineHeightMultiplier = 1.0f;
+        protected Float lineHeightAdd = 1.0f;
         protected Boolean hyphenated = false;
         protected Boolean reverse = false;
         protected Integer maxLines = Integer.MAX_VALUE;
@@ -70,7 +70,7 @@ public class DocumentLayout {
 
         public int hashCode() {
             return Arrays.hashCode(new Object[]{hyphenator, paddingLeft, paddingTop, paddingBottom, paddingRight, parentWidth, offsetX, offsetX,
-                    lineHeightMultiplier, hyphenated, reverse, maxLines, hyphen, textAlignment});
+                    lineHeightAdd, hyphenated, reverse, maxLines, hyphen, textAlignment});
         }
 
         public TextAlignment getTextAlignment() {
@@ -184,16 +184,16 @@ public class DocumentLayout {
             this.offsetY = offsetY;
         }
 
-        public float getLineHeightMultiplier() {
-            return lineHeightMultiplier;
+        public float getLineHeightAdd() {
+            return lineHeightAdd;
         }
 
-        public void setLineHeightMultiplier(float lineHeightMultiplier) {
-            if (this.lineHeightMultiplier == lineHeightMultiplier) {
+        public void setLineHeightAdd(float lineHeightAdd) {
+            if (this.lineHeightAdd == lineHeightAdd) {
                 return;
             }
 
-            this.lineHeightMultiplier = lineHeightMultiplier;
+            this.lineHeightAdd = lineHeightAdd;
             this.changed = true;
         }
 
@@ -331,7 +331,7 @@ public class DocumentLayout {
         this.paint = paint;
 
         params = new LayoutParams();
-        params.setLineHeightMultiplier(1.0f);
+        params.setLineHeightAdd(1.0f);
         params.setHyphenated(false);
         params.setReverse(false);
 
@@ -359,11 +359,11 @@ public class DocumentLayout {
     }
 
     private float getFontAscent() {
-        return -paint.ascent() * params.lineHeightMultiplier;
+        return -paint.ascent() * params.lineHeightAdd;
     }
 
     private float getFontDescent() {
-        return paint.descent() * params.lineHeightMultiplier;
+        return paint.descent() * params.lineHeightAdd;
     }
 
     public int getMeasuredHeight() {

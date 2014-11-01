@@ -1,4 +1,4 @@
-package com.text.examples;
+package com.text.test.helper;
 
 /*
  * Copyright (C) 2006 The Android Open Source Project
@@ -16,7 +16,6 @@ package com.text.examples;
  * limitations under the License.
  */
 
-import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Canvas;
 import android.os.Parcel;
@@ -24,24 +23,24 @@ import android.text.Layout;
 import android.text.ParcelableSpan;
 import android.text.style.LeadingMarginSpan;
 
-public class QuoteSpan implements LeadingMarginSpan, ParcelableSpan {
+public class MyQuoteSpan implements LeadingMarginSpan, ParcelableSpan {
     private static final int STRIPE_WIDTH = 10;
     private static final int GAP_WIDTH = 10;
     private static final int QUOTE_SPAN = 9;
 
     private final int mColor;
 
-    public QuoteSpan() {
+    public MyQuoteSpan() {
         super();
         mColor = 0xff0000ff;
     }
 
-    public QuoteSpan(int color) {
+    public MyQuoteSpan(int color) {
         super();
         mColor = color;
     }
 
-    public QuoteSpan(Parcel src) {
+    public MyQuoteSpan(Parcel src) {
         mColor = src.readInt();
     }
 
