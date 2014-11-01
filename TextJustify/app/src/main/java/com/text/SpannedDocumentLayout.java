@@ -46,8 +46,6 @@ import java.util.LinkedList;
 
 public class SpannedDocumentLayout extends DocumentLayout {
 
-    private static final boolean DEBUG = false;
-
     private static final int TOKEN_START = 0;
     private static final int TOKEN_END = 1;
     private static final int TOKEN_X = 2;
@@ -177,7 +175,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
 
             float realWidth = boundWidth;
 
-            if (DEBUG) {
+            if (debugging) {
                 Console.log(start + " => " + end + " :: " + " " + -staticLayout.getLineAscent(i)
                         + " " + staticLayout.getLineDescent(i) + " " + text.subSequence(start, end).toString());
             }
@@ -308,7 +306,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
                 }
             }
 
-            if(DEBUG){
+            if(debugging){
                 Console.log(String.format("Align: %s, X: %fpx, Y: %fpx, PWidth: %fpx", lineTextAlignment, x, y, parentWidth));
             }
 
@@ -398,7 +396,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
     @Override
     public void draw(Canvas canvas) {
 
-        if (DEBUG) {
+        if (debugging) {
             int lastColor = paint.getColor();
             float lastStrokeWidth = paint.getStrokeWidth();
             paint.setStrokeWidth(2);
@@ -426,7 +424,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
             Styled.drawText(canvas, text, tokens[index + TOKEN_START],
                     tokens[index + TOKEN_END], Layout.DIR_LEFT_TO_RIGHT, false, tokens[index + TOKEN_X], 0,
                     tokens[index + TOKEN_Y], 0, (TextPaint) paint, (TextPaint) workPaint, false);
-            if (DEBUG) {
+            if (debugging) {
                 int lastColor = paint.getColor();
                 float lastStrokeWidth = paint.getStrokeWidth();
                 paint.setStrokeWidth(2);

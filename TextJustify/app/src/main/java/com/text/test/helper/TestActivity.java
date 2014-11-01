@@ -36,6 +36,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.LinearLayout;
 
 import com.text.DocumentView;
@@ -45,6 +46,7 @@ import com.text.test.R;
 public class TestActivity extends Activity {
 
     public String testName;
+    private boolean debugging = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,7 +77,7 @@ public class TestActivity extends Activity {
 
     public void addDocumentView(CharSequence article, int type) {
 
-        DocumentView documentView = new DocumentView(this, type);
+        final DocumentView documentView = new DocumentView(this, type);
         documentView.setColor(0xffffffff);
         documentView.setTypeface(Typeface.DEFAULT);
         documentView.setTextSize(33);
@@ -85,6 +87,7 @@ public class TestActivity extends Activity {
         documentView.getDocumentLayoutParams().setPaddingTop(50);
         documentView.getDocumentLayoutParams().setPaddingBottom(50);
         documentView.getDocumentLayoutParams().setLineHeightAdd(1);
+        documentView.getLayout().setDebugging(debugging);
         documentView.setText(article, true); // true: enable justification
 
         LinearLayout linearLayout = new LinearLayout(this);
@@ -94,5 +97,20 @@ public class TestActivity extends Activity {
 
         LinearLayout articleList = (LinearLayout) findViewById(R.id.articleList);
         articleList.addView(linearLayout);
+
+        Button debugButton = (Button) findViewById(R.id.debugButton);
+
+        if(debugButton != null){
+            debugButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    debugging = !debugging;
+                    documentView.getLayout().setDebugging(debugging);
+                    documentView.postInvalidate();
+                }
+            });
+        }
+
+
     }
 }

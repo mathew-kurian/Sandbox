@@ -310,6 +310,9 @@ public class DocumentLayout {
         }
     }
 
+    // Debugging
+    protected boolean debugging = false;
+
     // Basic client-set properties
     protected LayoutParams params;
 
@@ -340,6 +343,15 @@ public class DocumentLayout {
 
         tokens = new LinkedList<Token>();
         chunks = new LinkedList<String>();
+    }
+
+
+    public boolean isDebugging() {
+        return debugging;
+    }
+
+    public void setDebugging(boolean debugging) {
+        this.debugging = debugging;
     }
 
     public Paint getPaint() {

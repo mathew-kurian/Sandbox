@@ -7,23 +7,24 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="#222222"
-        android:padding="15dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="15dp">
 
-        <TextView
+        <Button
+            android:id="@+id/debugButton"
             android:layout_width="fill_parent"
-            android:textColor="#444444"
-            android:textStyle="bold"
-            android:textAllCaps="true"
-            android:textSize="10dp"
             android:layout_height="wrap_content"
-            android:text="github.com/bluejamesbond/TextJustify-Android" />
+            android:text="TOGGLE DEBUG"
+            android:textAllCaps="true"
+            android:textColor="#777777"
+            android:textSize="10dp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:background="#ff000000"
         tools:context=".SideBySide">
 
@@ -32,6 +33,7 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical"/>
     </ScrollView>
+
 </LinearLayout>
