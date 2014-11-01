@@ -43,12 +43,11 @@ import com.text.style.TextAlignmentSpan;
 
 import java.util.HashMap;
 import java.util.LinkedList;
-import java.util.ListIterator;
 
 public class SpannedDocumentLayout extends DocumentLayout {
 
 
-    private static boolean DEBUG = false;
+    private static boolean DEBUG = true;
 
     private static final int START = 0;
     private static final int END = 1;
@@ -61,10 +60,8 @@ public class SpannedDocumentLayout extends DocumentLayout {
     private Paint workPaint;
     private CharSequence text;
     private StaticLayout staticLayout;
-    private LinkedList<Token> tokens; // start, end, x, y
     private LinkedList<LeadingMarginSpanDrawParameters> leadMarginSpanDrawEvents;
     private int[] tokensArray;
-    private float[] tokensArray2;
 
     public SpannedDocumentLayout(Paint paint) {
         super(paint);
@@ -118,6 +115,16 @@ public class SpannedDocumentLayout extends DocumentLayout {
         this.text = text;
     }
 
+    private int pushToken(int index, int start, int end, float x, float y, float ascent, float descent){
+        tokensArray[index + START] = start;
+        tokensArray[index + END] = end;
+        tokensArray[index + X] = (int) x;
+        tokensArray[index + Y] = (int) y;
+        tokensArray[index + ASCENT] = (int) ascent;
+        tokensArray[index + DESCENT] = (int) descent;
+        return index + LENGTH;
+    }
+
     private void ammortizeTokenArray(int index) {
         if (index + LENGTH > tokensArray.length) {
             int[] newTokenArray = new int[tokensArray.length * 2];
@@ -140,8 +147,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
         staticLayout = new StaticLayout(getText(), (TextPaint) getPaint(),
                 boundWidth, Layout.Alignment.ALIGN_NORMAL, 1, 0, false);
 
-        tokens = new LinkedList<Token>();
-        tokensArray = new int[LENGTH * 50];
+        tokensArray = new int[LENGTH * 1000];
 
         LeadingMarginSpan[] activeLeadSpans = new LeadingMarginSpan[0];
         HashMap<LeadingMarginSpan, Integer> leadSpans = new HashMap<LeadingMarginSpan, Integer>();
@@ -305,16 +311,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
                 switch (lineTextAlignment) {
                     case LEFT:
                     case JUSTIFIED:
-
-                        tokensArray[index + START] = start;
-                        tokensArray[index + END] = end;
-                        tokensArray[index + X] = (int) x;
-                        tokensArray[index + Y] = (int) y;
-                        tokensArray[index + ASCENT] = (int) lastAscent;
-                        tokensArray[index + DESCENT] = (int) lastDescent;
-                        index += LENGTH;
-
-                        tokens.push(new Token(start, end, x, y, lastAscent, lastDescent));
+                        index = pushToken(index, start, end, x, y, lastAscent, lastDescent);;
                         y += lastDescent;
                         continue;
                 }
@@ -323,46 +320,17 @@ public class SpannedDocumentLayout extends DocumentLayout {
             switch (lineTextAlignment) {
                 case RIGHT: {
                     // FIXME: Space at the end of each line, possibly due to scrollbar offset
-                    float lineWidth = paint.measureText(text, start, end - 1);
-
-                    tokensArray[index + START] = start;
-                    tokensArray[index + END] = end;
-                    tokensArray[index + X] = (int) (parentWidth - x - lineWidth);
-                    tokensArray[index + Y] = (int) y;
-                    tokensArray[index + ASCENT] = (int) lastAscent;
-                    tokensArray[index + DESCENT] = (int) lastDescent;
-                    index += LENGTH;
-
-                    tokens.push(new Token(start, end, parentWidth - x - lineWidth, y, lastAscent, lastDescent));
+                    index = pushToken(index, start, end, parentWidth - x - paint.measureText(text, start, end - 1), y, lastAscent, lastDescent);
                     y += lastDescent;
                     continue;
                 }
                 case CENTER: {
-                    float lineWidth = paint.measureText(text, start, end);
-
-                    tokensArray[index + START] = start;
-                    tokensArray[index + END] = end;
-                    tokensArray[index + X] = (int) (x + (realWidth - lineWidth) / 2);
-                    tokensArray[index + Y] = (int) y;
-                    tokensArray[index + ASCENT] = (int) lastAscent;
-                    tokensArray[index + DESCENT] = (int) lastDescent;
-                    index += LENGTH;
-
-                    tokens.push(new Token(start, end, x + (realWidth - lineWidth) / 2, y, lastAscent, lastDescent));
+                    index = pushToken(index, start, end, x + (realWidth - paint.measureText(text, start, end)) / 2, y, lastAscent, lastDescent);
                     y += lastDescent;
                     continue;
                 }
                 case LEFT: {
-
-                    tokensArray[index + START] = start;
-                    tokensArray[index + END] = end;
-                    tokensArray[index + X] = (int) x;
-                    tokensArray[index + Y] = (int) y;
-                    tokensArray[index + ASCENT] = (int) lastAscent;
-                    tokensArray[index + DESCENT] = (int) lastDescent;
-                    index += LENGTH;
-
-                    tokens.push(new Token(start, end, x, y, lastAscent, lastDescent));
+                    index = pushToken(index, start, end, x, y, lastAscent, lastDescent);
                     y += lastDescent;
                     continue;
                 }
@@ -394,17 +362,8 @@ public class SpannedDocumentLayout extends DocumentLayout {
                     offset = (realWidth - sum) / (textWidths.length - 1);
 
                     for (int k = start; k < stop; k++) {
-
-                        tokensArray[index + START] = k;
-                        tokensArray[index + END] = k + 1;
-                        tokensArray[index + X] = (int) (x + +textsOffset + (offset * m));
-                        tokensArray[index + Y] = (int) y;
-                        tokensArray[index + ASCENT] = (int) lastAscent;
-                        tokensArray[index + DESCENT] = (int) lastDescent;
-                        index += LENGTH;
+                        index = pushToken(index, k, k + 1, x + textsOffset + (offset * m), y, lastAscent, lastDescent);
                         ammortizeTokenArray(index);
-
-                        tokens.add(new Token(k, k + 1, x + textsOffset + (offset * m), y, lastAscent, lastDescent));
                         textsOffset += textWidths[m++];
                     }
                 }
@@ -415,48 +374,24 @@ public class SpannedDocumentLayout extends DocumentLayout {
              */
             else {
 
+                int m = 1;
                 int startIndex = index;
                 float lineWidth = 0;
-                LinkedList<Token> lineTokens = new LinkedList<Token>();
+                float offset;
 
                 for (int stop : tokenized) {
-
-                    tokensArray[index + START] = start;
-                    tokensArray[index + END] = stop;
-                    tokensArray[index + X] = (int) (x + lineWidth);
-                    tokensArray[index + Y] = (int) y;
-                    tokensArray[index + ASCENT] = (int) lastAscent;
-                    tokensArray[index + DESCENT] = (int) lastDescent;
-                    index += LENGTH;
+                    index = pushToken(index, start, stop, x + lineWidth, y, lastAscent, lastDescent);
                     ammortizeTokenArray(index);
 
-                    lineTokens.add(new Token(start, stop, x + lineWidth, y, lastAscent, lastDescent));
                     lineWidth += Styled.measureText((TextPaint) paint, (TextPaint) workPaint, text, start, stop, fmi);
                     start = stop + 1;
                 }
 
-                int m = 1;
-                float offset = (realWidth - lineWidth) / (float) (tokenized.size() - 1);
-                ListIterator<Token> listIterator = lineTokens.listIterator();
-
-                // Skip first one
-                if (listIterator.hasNext()) {
-                    listIterator.next();
-                }
-
-                while (listIterator.hasNext()) {
-                    Token token = listIterator.next();
-                    token.x += offset * (float) m++;
-                    listIterator.set(token);
-                }
-
-                m = 1;
+                offset = (realWidth - lineWidth) / (float) ((index - startIndex) / LENGTH - 1);
 
                 for (int pos = startIndex + LENGTH; pos < index; pos += LENGTH) {
                     tokensArray[pos + X] = (int)(((float) tokensArray[pos + X]) + (offset * (float) m++));
                 }
-
-                tokens.addAll(lineTokens);
 
             }
 
@@ -500,21 +435,6 @@ public class SpannedDocumentLayout extends DocumentLayout {
                 paint.setColor(lastColor);
             }
         }
-//
-//        for (Token token : tokens) {
-//            Styled.drawText(canvas, text, token.start, token.end, Layout.DIR_LEFT_TO_RIGHT, false, (int) token.x, 0,
-//                    (int) token.y, 0, (TextPaint) paint, (TextPaint) workPaint, false);
-//            if(DEBUG) {
-//                int lastColor = paint.getColor();
-//                paint.setColor(Color.GREEN);
-//                canvas.drawLine(0, token.y - token.ascent, params.parentWidth, token.y - token.ascent, paint);
-//                paint.setColor(Color.MAGENTA);
-//                canvas.drawLine(0, token.y, params.parentWidth, token.y, paint);
-//                paint.setColor(Color.CYAN);
-//                canvas.drawLine(0, token.y + token.descent, params.parentWidth, token.y + token.descent, paint);
-//                paint.setColor(lastColor);
-//            }
-//        }
     }
 
     /**
@@ -551,34 +471,6 @@ public class SpannedDocumentLayout extends DocumentLayout {
             this.start = start;
             this.end = end;
             this.first = first;
-        }
-    }
-
-    /**
-     * Class to help with drawing tokens
-     */
-
-    private class Token {
-
-        public int start;
-        public int end;
-        public float x;
-        public float y;
-        public float ascent;
-        public float descent;
-
-        public Token(int start,
-                     int end,
-                     float x,
-                     float y,
-                     float ascent,
-                     float decent) {
-            this.start = start;
-            this.end = end;
-            this.x = x;
-            this.y = y;
-            this.ascent = ascent;
-            this.descent = decent;
         }
     }
 }
