@@ -47,7 +47,7 @@ public class DocumentView extends View {
     public static final int FORMATTED_TEXT = 1;
 
     private DocumentLayout layout;
-    private Paint paint;
+    private TextPaint paint;
 
     // Caching content
     private boolean cacheEnabled = false;
@@ -103,7 +103,7 @@ public class DocumentView extends View {
         paint.setAntiAlias(true);
     }
 
-    public DocumentLayout getDocumentLayoutInstance(int type, Paint paint) {
+    public DocumentLayout getDocumentLayoutInstance(int type, TextPaint paint) {
         switch (type) {
             case FORMATTED_TEXT:
                 return new SpannedDocumentLayout(paint);

@@ -30,6 +30,7 @@ package com.text.style;
  */
 
 public class RightSpan extends TextAlignmentSpan {
+
     @Override
     public TextAlignment getTextAlignment() {
         return TextAlignment.RIGHT;

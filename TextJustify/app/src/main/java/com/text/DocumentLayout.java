@@ -31,6 +31,7 @@ package com.text;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.text.TextPaint;
 
 import com.text.hyphen.Hyphenator;
 import com.text.style.TextAlignment;
@@ -321,12 +322,12 @@ public class DocumentLayout {
     private LinkedList<String> chunks;
 
     // Rendering
-    protected Paint paint;
+    protected TextPaint paint;
 
     // Measurement output
     protected int measuredHeight;
 
-    public DocumentLayout(Paint paint) {
+    public DocumentLayout(TextPaint paint) {
 
         this.paint = paint;
 

@@ -1,5 +1,3 @@
-package com.text.test.helper;
-
 /*
  * Copyright 2014 Mathew Kurian
  *
@@ -17,7 +15,7 @@ package com.text.test.helper;
  *
  * -------------------------------------------------------------------------
  *
- * SimpleExample.java
+ * TestActivity.java
  * @author Mathew Kurian
  *
  * From TextJustify-Android Library v2.0
@@ -26,8 +24,10 @@ package com.text.test.helper;
  * Please report any issues
  * https://github.com/bluejamesbond/TextJustify-Android/issues
  *
- * Date: 10/27/14 1:36 PM
+ * Date: 11/1/14 3:03 PM
  */
+
+package com.text.test.helper;
 
 import android.app.Activity;
 import android.graphics.Typeface;

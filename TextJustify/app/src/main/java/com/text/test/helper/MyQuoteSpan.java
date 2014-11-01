@@ -90,9 +90,9 @@ public class MyQuoteSpan implements LeadingMarginSpan, ParcelableSpan {
         p.setStrokeWidth(mStripeWidth);
         p.setColor(mColor);
 
-        if (dir == -1) {
-            x = x - mStripeWidth;
-        }
+//        if (dir == -1) {
+//            x = x - mStripeWidth;
+//        }
 
         c.drawLine(x, top, x, bottom, p);
 
