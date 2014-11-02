@@ -1,5 +1,3 @@
-package com.text.style;
-
 /*
  * Copyright 2014 Mathew Kurian
  *
@@ -17,7 +15,7 @@ package com.text.style;
  *
  * -------------------------------------------------------------------------
  *
- * RightSpan.java
+ * Utils.java
  * @author Mathew Kurian
  *
  * From TextJustify-Android Library v2.0
@@ -26,13 +24,24 @@ package com.text.style;
  * Please report any issues
  * https://github.com/bluejamesbond/TextJustify-Android/issues
  *
- * Date: 10/27/14 1:36 PM
+ * Date: 11/1/14 3:03 PM
  */
 
-public class RightSpan extends TextAlignmentSpan {
+package com.text.test.helper;
 
-    @Override
-    public TextAlignment getTextAlignment() {
-        return TextAlignment.RIGHT;
+/**
+ * Created by Mathew Kurian on 11/1/2014.
+ */
+public class Utils {
+
+    public static String splitCamelCase(String s) {
+        return s.replaceAll(
+                String.format("%s|%s|%s",
+                        "(?<=[A-Z])(?=[A-Z][a-z])",
+                        "(?<=[^A-Z])(?=[A-Z])",
+                        "(?<=[A-Za-z])(?=[^A-Za-z])"
+                ),
+                " "
+        );
     }
 }

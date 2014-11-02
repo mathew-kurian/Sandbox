@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -20,18 +21,13 @@
             android:text="github.com/bluejamesbond/TextJustify-Android" />
     </LinearLayout>
 
-    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <ListView
+        android:id="@+id/list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#ff000000"
-        tools:context=".SideBySide">
+        android:layout_height="fill_parent"
+        android:divider="#333333"
+        android:dividerHeight="1px"
+        android:background="#000000" >
+    </ListView>
 
-        <LinearLayout
-            android:id="@+id/articleList"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:orientation="vertical"></LinearLayout>
-    </ScrollView>
 </LinearLayout>

@@ -21,5 +21,4 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile files('src/main/libs/slidingmenu-1.3-SNAPSHOT.jar')
 }

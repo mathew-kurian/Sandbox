@@ -30,6 +30,7 @@ package com.text;
  */
 
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.text.Layout;
 import android.text.Spanned;
@@ -37,25 +38,50 @@ import android.text.StaticLayout;
 import android.text.TextPaint;
 import android.text.style.LeadingMarginSpan;
 
-import com.text.examples.Console;
 import com.text.style.TextAlignment;
 import com.text.style.TextAlignmentSpan;
 
 import java.util.HashMap;
 import java.util.LinkedList;
-import java.util.ListIterator;
 
 public class SpannedDocumentLayout extends DocumentLayout {
 
-    private Paint workPaint;
-    private CharSequence text;
-    private StaticLayout staticLayout;
-    private LinkedList<Token> tokens; // start, end, x, y
-    private LinkedList<LeadingMarginSpanDrawParameters> leadMarginSpanDrawEvents;
+    private static final int TOKEN_START = 0;
+    private static final int TOKEN_END = 1;
+    private static final int TOKEN_X = 2;
+    private static final int TOKEN_Y = 3;
+    private static final int TOKEN_ASCENT = 4;
+    private static final int TOKEN_DESCENT = 5;
+    private static final int TOKEN_LENGTH = 6;
 
-    public SpannedDocumentLayout(Paint paint) {
+    private static int pushToken(int[] tokens, int index, int start, int end, float x, float y, float ascent, float descent) {
+        tokens[index + TOKEN_START] = start;
+        tokens[index + TOKEN_END] = end;
+        tokens[index + TOKEN_X] = (int) x;
+        tokens[index + TOKEN_Y] = (int) y;
+        tokens[index + TOKEN_ASCENT] = (int) ascent;
+        tokens[index + TOKEN_DESCENT] = (int) descent;
+        return index + TOKEN_LENGTH;
+    }
+
+    private static int[] ammortizeArray(int[] array, int index) {
+        if (index >= array.length) {
+            int[] newArray = new int[array.length * 2];
+            System.arraycopy(array, 0, newArray, 0, array.length);
+            return newArray;
+        }
+        return array;
+    }
+
+    private TextPaint workPaint;
+    private CharSequence text;
+    private LinkedList<LeadingMarginSpanDrawParameters> leadMarginSpanDrawEvents;
+    private int[] tokens;
+
+    public SpannedDocumentLayout(TextPaint paint) {
         super(paint);
         workPaint = new TextPaint(paint);
+        tokens = new int[0];
     }
 
     private static LinkedList<Integer> tokenize(CharSequence source,
@@ -111,16 +137,14 @@ public class SpannedDocumentLayout extends DocumentLayout {
             return;
         }
 
-        int parentWidth = (int) params.getParentWidth();
-        int boundWidth = (int) (params.getParentWidth() - params.getPaddingLeft() - params.getPaddingRight());
+        float parentWidth = params.getParentWidth();
+        float boundWidth = params.getParentWidth() - params.getPaddingLeft() - params.getPaddingRight();
 
         leadMarginSpanDrawEvents = new LinkedList<LeadingMarginSpanDrawParameters>();
 
-        staticLayout = new StaticLayout(getText(), (TextPaint) getPaint(),
-                boundWidth, Layout.Alignment.ALIGN_NORMAL, 1, 0, false);
-
-        tokens = new LinkedList<Token>();
-
+        StaticLayout staticLayout = new StaticLayout(getText(), (TextPaint) getPaint(),
+                (int) boundWidth, Layout.Alignment.ALIGN_NORMAL, 1, 0, false);
+        int[] newTokens = new int[TOKEN_LENGTH * 1000];
         LeadingMarginSpan[] activeLeadSpans = new LeadingMarginSpan[0];
         HashMap<LeadingMarginSpan, Integer> leadSpans = new HashMap<LeadingMarginSpan, Integer>();
         TextAlignment defAlign = params.textAlignment;
@@ -130,22 +154,31 @@ public class SpannedDocumentLayout extends DocumentLayout {
         int maxTextIndex = text.length() - 1;
         int lines = staticLayout.getLineCount();
         int enableLineBreak = 0;
+        int index = 0;
 
-        float left = params.paddingLeft;
-        float right = params.paddingRight;
         float x;
         float y = params.paddingTop;
-        float lastDescent;
+        float left = params.paddingLeft;
+        float right = params.paddingRight;
+        float lineHeightAdd = params.lineHeightAdd;
         float lastAscent;
-        float lineHeightMultiplier = params.lineHeightMultiplier;
+        float lastDescent;
 
         boolean isParaStart = true;
 
         for (int i = 0; i < lines; i++) {
 
+            newTokens = ammortizeArray(newTokens, index);
+
             int start = staticLayout.getLineStart(i);
             int end = staticLayout.getLineEnd(i);
-            int realWidth = boundWidth;
+
+            float realWidth = boundWidth;
+
+            if (debugging) {
+                Console.log(start + " => " + end + " :: " + " " + -staticLayout.getLineAscent(i)
+                        + " " + staticLayout.getLineDescent(i) + " " + text.subSequence(start, end).toString());
+            }
 
             // start == end => end of text
             if (start == end || i >= params.maxLines) {
@@ -157,24 +190,20 @@ public class SpannedDocumentLayout extends DocumentLayout {
             TextAlignment lineTextAlignment = textAlignmentSpans.length == 0 ? defAlign : textAlignmentSpans[0].getTextAlignment();
 
             // Calculate components of line height
-            lastAscent = -staticLayout.getLineAscent(i) * lineHeightMultiplier;
-            lastDescent = staticLayout.getLineDescent(i) * lineHeightMultiplier;
+            lastAscent = -staticLayout.getLineAscent(i);
+            lastDescent = staticLayout.getLineDescent(i) + lineHeightAdd;
 
-            /**
-             * Line is ONLY a <br/> or \n
-             */
+            // Line is ONLY a <br/> or \n
             if (start + 1 == end &&
                     (Character.getNumericValue(text.charAt(start)) == -1 ||
-                    text.charAt(start) == '\n')) {
+                            text.charAt(start) == '\n')) {
 
                 // Line break indicates a new paragraph
                 // is next
                 isParaStart = true;
 
                 // Use the line-height of the next line
-                lastAscent = -staticLayout.getLineAscent(i + 1) * lineHeightMultiplier;
-                lastDescent = staticLayout.getLineDescent(i + 1) * lineHeightMultiplier;
-                y += enableLineBreak * (lastAscent + lastDescent);
+                y += enableLineBreak * (-staticLayout.getLineAscent(i + 1) + staticLayout.getLineDescent(i + 1));
 
                 // Don't ignore the next line breaks
                 enableLineBreak = 1;
@@ -183,29 +212,22 @@ public class SpannedDocumentLayout extends DocumentLayout {
 
             } else {
                 // Ignore the next line break
-               enableLineBreak = 0;
+                enableLineBreak = 0;
             }
 
             x = lineTextAlignment == TextAlignment.RIGHT ? right : left;
             y += lastAscent;
 
-            // Console.log(start + " => " + end + " :: " + text.subSequence(start, end).toString());
-            // Console.log(isParaStart + " " + isParaEnd + " " + start + " => " + end + " :: " + text.subSequence(start, end).toString());
-
-            /**
-             * Line CONTAINS a \n
-             */
+            // Line CONTAINS a \n
             boolean isParaEnd = end == maxTextIndex ||
                     text.charAt(Math.min(end, maxTextIndex)) == '\n' ||
                     text.charAt(end - 1) == '\n';
 
-            if(isParaEnd){
+            if (isParaEnd) {
                 enableLineBreak = 1;
             }
 
-            /**
-             * LeadingMarginSpan block
-             */
+            // LeadingMarginSpan block
             if (isParaStart) {
 
                 // Process LeadingMarginSpan
@@ -232,9 +254,13 @@ public class SpannedDocumentLayout extends DocumentLayout {
 
             float totalMargin = 0.0f;
 
+            int top = (int) (y - lastAscent);
+            int baseline = (int) (y);
+            int bottom = (int) (y + lastDescent);
+
             for (LeadingMarginSpan leadSpan : activeLeadSpans) {
 
-                // X based on alignment
+                // TOKEN_X based on alignment
                 float calcX = x;
 
                 // LineAlignment
@@ -251,8 +277,8 @@ public class SpannedDocumentLayout extends DocumentLayout {
                 // Update only if the valid next valid
                 if (spanLines > 0 || spanLines == -1) {
                     leadSpans.put(leadSpan, spanLines == -1 ? -1 : spanLines - 1);
-                    leadMarginSpanDrawEvents.push(new LeadingMarginSpanDrawParameters(leadSpan, (int) calcX, lineAlignmentVal, (int) (y - lastAscent), (int) y,
-                            (int) (y + lastDescent), start, end, isParaStart));
+                    leadMarginSpanDrawEvents.push(new LeadingMarginSpanDrawParameters(leadSpan, (int) calcX, lineAlignmentVal, top, baseline,
+                            bottom, start, end, isParaStart));
 
                     // Is margin required?
                     totalMargin += leadSpan.getLeadingMargin(isParaStart);
@@ -269,47 +295,45 @@ public class SpannedDocumentLayout extends DocumentLayout {
                 isParaStart = true;
             }
 
-            Console.log(x + " " +  realWidth + " "  + text.subSequence(start, end).toString());
-
-            /**
-             * TextAlignmentSpan block
-             */
+            // TextAlignmentSpan block
             if (isParaEnd) {
                 switch (lineTextAlignment) {
                     case LEFT:
                     case JUSTIFIED:
-                        tokens.push(new Token(start, end, x, y));
+                        index = pushToken(newTokens, index, start, end, x, y, lastAscent, lastDescent);
                         y += lastDescent;
                         continue;
                 }
             }
 
+            if(debugging){
+                Console.log(String.format("Align: %s, X: %fpx, Y: %fpx, PWidth: %fpx", lineTextAlignment, x, y, parentWidth));
+            }
+
             switch (lineTextAlignment) {
                 case RIGHT: {
-                    // FIXME: Space at the end of each line, possibly due to scrollbar offset
-                    float lineWidth = paint.measureText(text, start, end - 1);
-                    tokens.push(new Token(start, end, parentWidth - x - lineWidth, y));
+                    float lineWidth = Styled.measureText(paint, workPaint, text, start, end, fmi);
+                    index = pushToken(newTokens, index, start, end, parentWidth - x - lineWidth, y, lastAscent, lastDescent);
                     y += lastDescent;
                     continue;
                 }
                 case CENTER: {
-                    float lineWidth = paint.measureText(text, start, end);
-                    tokens.push(new Token(start, end, x + (realWidth - lineWidth) / 2, y));
+                    float lineWidth = Styled.measureText(paint, workPaint, text, start, end, fmi);
+                    index = pushToken(newTokens, index, start, end, x + (realWidth - lineWidth) / 2, y, lastAscent, lastDescent);
                     y += lastDescent;
                     continue;
                 }
                 case LEFT: {
-                    tokens.push(new Token(start, end, x, y));
+                    index = pushToken(newTokens, index, start, end, x, y, lastAscent, lastDescent);
                     y += lastDescent;
                     continue;
                 }
             }
 
-            LinkedList<Integer> tokenized = tokenize(text, start, end);
+            // FIXME: Space at the end of each line, possibly due to scrollbar offset
+            LinkedList<Integer> tokenized = tokenize(text, start, end - 1);
 
-            /**
-             * If one long word without any spaces
-             */
+            // If one long word without any spaces
             if (tokenized.size() == 1) {
                 int stop = tokenized.get(0);
 
@@ -330,55 +354,64 @@ public class SpannedDocumentLayout extends DocumentLayout {
                     offset = (realWidth - sum) / (textWidths.length - 1);
 
                     for (int k = start; k < stop; k++) {
-                        tokens.add(new Token(k, k + 1, x + textsOffset + (offset * m), y));
+                        index = pushToken(newTokens, index, k, k + 1, x + textsOffset + (offset * m), y, lastAscent, lastDescent);
+                        newTokens = ammortizeArray(newTokens, index);
                         textsOffset += textWidths[m++];
                     }
                 }
             }
-
-            /**
-             * Handle multiple words
-             */
+            //  Handle multiple words
             else {
 
+                int m = 1;
+                int startIndex = index;
                 float lineWidth = 0;
-                LinkedList<Token> lineTokens = new LinkedList<Token>();
+                float offset;
 
                 for (int stop : tokenized) {
-                    lineTokens.add(new Token(start, stop, x + lineWidth, y));
+                    index = pushToken(newTokens, index, start, stop, x + lineWidth, y, lastAscent, lastDescent);
+                    newTokens = ammortizeArray(newTokens, index);
+
                     lineWidth += Styled.measureText((TextPaint) paint, (TextPaint) workPaint, text, start, stop, fmi);
                     start = stop + 1;
                 }
 
-                int m = 1;
-                float offset = (realWidth - lineWidth) / (float) (tokenized.size() - 1);
-                ListIterator<Token> listIterator = lineTokens.listIterator();
+                offset = (realWidth - lineWidth) / (float) ((index - startIndex) / TOKEN_LENGTH - 1);
 
-                // Skip first one
-                if (listIterator.hasNext()) {
-                    listIterator.next();
+                for (int pos = startIndex + TOKEN_LENGTH; pos < index; pos += TOKEN_LENGTH) {
+                    newTokens[pos + TOKEN_X] = (int) (((float) newTokens[pos + TOKEN_X]) + (offset * (float) m++));
                 }
-
-                while (listIterator.hasNext()) {
-                    Token token = listIterator.next();
-                    token.x += offset * (float) m++;
-                    listIterator.set(token);
-                }
-
-                tokens.addAll(lineTokens);
 
             }
 
             y += lastDescent;
         }
 
+        tokens = newTokens;
         params.changed = false;
         textChange = false;
-        measuredHeight = (int) (y + params.getPaddingBottom());
+        measuredHeight = (int) (y - lineHeightAdd + params.paddingBottom);
     }
 
     @Override
     public void draw(Canvas canvas) {
+
+        if (debugging) {
+            int lastColor = paint.getColor();
+            float lastStrokeWidth = paint.getStrokeWidth();
+            paint.setStrokeWidth(2);
+            paint.setColor(Color.DKGRAY);
+            canvas.drawRect(params.paddingLeft, params.paddingTop, params.parentWidth - params.paddingRight,
+                    measuredHeight - params.paddingBottom, paint);
+            paint.setColor(Color.GREEN);
+            canvas.drawLine(params.paddingLeft, 0, params.paddingLeft, measuredHeight, paint);
+            canvas.drawLine(params.parentWidth - params.paddingRight, 0, params.parentWidth - params.paddingRight, measuredHeight, paint);
+            paint.setColor(Color.MAGENTA);
+            canvas.drawRect(0, params.paddingTop, params.parentWidth, params.paddingTop, paint);
+            canvas.drawRect(0, measuredHeight - params.paddingBottom, params.parentWidth, measuredHeight - params.paddingBottom, paint);
+            paint.setColor(lastColor);
+            paint.setStrokeWidth(lastStrokeWidth);
+        }
 
         for (LeadingMarginSpanDrawParameters parameters : leadMarginSpanDrawEvents) {
             parameters.span.drawLeadingMargin(canvas, paint, parameters.x,
@@ -387,9 +420,26 @@ public class SpannedDocumentLayout extends DocumentLayout {
                     parameters.end, parameters.first, null);
         }
 
-        for (Token token : tokens) {
-            Styled.drawText(canvas, text, token.start, token.end, Layout.DIR_LEFT_TO_RIGHT, false, (int) token.x, 0,
-                    (int) token.y, 0, (TextPaint) paint, (TextPaint) workPaint, false);
+        for (int index = 0; index < tokens.length; index += TOKEN_LENGTH) {
+            Styled.drawText(canvas, text, tokens[index + TOKEN_START],
+                    tokens[index + TOKEN_END], Layout.DIR_LEFT_TO_RIGHT, false, tokens[index + TOKEN_X], 0,
+                    tokens[index + TOKEN_Y], 0, (TextPaint) paint, (TextPaint) workPaint, false);
+            if (debugging) {
+                int lastColor = paint.getColor();
+                float lastStrokeWidth = paint.getStrokeWidth();
+                paint.setStrokeWidth(2);
+                paint.setColor(Color.GREEN);
+                canvas.drawLine(0, tokens[index + TOKEN_Y] - tokens[index + TOKEN_ASCENT],
+                        params.parentWidth, tokens[index + TOKEN_Y] - tokens[index + TOKEN_ASCENT], paint);
+                paint.setColor(Color.MAGENTA);
+                canvas.drawLine(0, tokens[index + TOKEN_Y], params.parentWidth,
+                        tokens[index + TOKEN_Y], paint);
+                paint.setColor(Color.CYAN);
+                canvas.drawLine(0, tokens[index + TOKEN_Y] + tokens[index + TOKEN_DESCENT],
+                        params.parentWidth, tokens[index + TOKEN_Y] + tokens[index + TOKEN_DESCENT], paint);
+                paint.setColor(lastColor);
+                paint.setStrokeWidth(lastStrokeWidth);
+            }
         }
     }
 
@@ -427,28 +477,6 @@ public class SpannedDocumentLayout extends DocumentLayout {
             this.start = start;
             this.end = end;
             this.first = first;
-        }
-    }
-
-    /**
-     * Class to help with drawing tokens
-     */
-
-    private class Token {
-
-        public int start;
-        public int end;
-        public float x;
-        public float y;
-
-        public Token(int start,
-                     int end,
-                     float x,
-                     float y) {
-            this.start = start;
-            this.end = end;
-            this.x = x;
-            this.y = y;
         }
     }
 }

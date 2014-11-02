@@ -1,4 +1,4 @@
-package com.text.examples;
+package com.text.test.helper;
 
 /*
  * Provided by @levifan
@@ -10,13 +10,13 @@ import android.graphics.Paint;
 import android.text.Layout;
 import android.text.style.LeadingMarginSpan;
 
-public class TextLeadingMarginSpan implements
-        LeadingMarginSpan.LeadingMarginSpan2 {
+public class MyLeadingMarginSpan2 implements
+        android.text.style.LeadingMarginSpan.LeadingMarginSpan2 {
 
     private int margin;
     private int lines;
 
-    public TextLeadingMarginSpan(int lines, int margin) {
+    public MyLeadingMarginSpan2(int lines, int margin) {
         this.lines = lines;
         this.margin = margin;
     }

@@ -31,6 +31,7 @@ package com.text;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.text.TextPaint;
 
 import com.text.hyphen.Hyphenator;
 import com.text.style.TextAlignment;
@@ -56,7 +57,7 @@ public class DocumentLayout {
         protected Float parentWidth = 800.0f;
         protected Float offsetX = 0.0f;
         protected Float offsetY = 0.0f;
-        protected Float lineHeightMultiplier = 1.0f;
+        protected Float lineHeightAdd = 0.0f;
         protected Boolean hyphenated = false;
         protected Boolean reverse = false;
         protected Integer maxLines = Integer.MAX_VALUE;
@@ -70,7 +71,7 @@ public class DocumentLayout {
 
         public int hashCode() {
             return Arrays.hashCode(new Object[]{hyphenator, paddingLeft, paddingTop, paddingBottom, paddingRight, parentWidth, offsetX, offsetX,
-                    lineHeightMultiplier, hyphenated, reverse, maxLines, hyphen, textAlignment});
+                    lineHeightAdd, hyphenated, reverse, maxLines, hyphen, textAlignment});
         }
 
         public TextAlignment getTextAlignment() {
@@ -184,16 +185,16 @@ public class DocumentLayout {
             this.offsetY = offsetY;
         }
 
-        public float getLineHeightMultiplier() {
-            return lineHeightMultiplier;
+        public float getLineHeightAdd() {
+            return lineHeightAdd;
         }
 
-        public void setLineHeightMultiplier(float lineHeightMultiplier) {
-            if (this.lineHeightMultiplier == lineHeightMultiplier) {
+        public void setLineHeightAdd(float lineHeightAdd) {
+            if (this.lineHeightAdd == lineHeightAdd) {
                 return;
             }
 
-            this.lineHeightMultiplier = lineHeightMultiplier;
+            this.lineHeightAdd = lineHeightAdd;
             this.changed = true;
         }
 
@@ -309,6 +310,9 @@ public class DocumentLayout {
         }
     }
 
+    // Debugging
+    protected boolean debugging = false;
+
     // Basic client-set properties
     protected LayoutParams params;
 
@@ -321,17 +325,17 @@ public class DocumentLayout {
     private LinkedList<String> chunks;
 
     // Rendering
-    protected Paint paint;
+    protected TextPaint paint;
 
     // Measurement output
     protected int measuredHeight;
 
-    public DocumentLayout(Paint paint) {
+    public DocumentLayout(TextPaint paint) {
 
         this.paint = paint;
 
         params = new LayoutParams();
-        params.setLineHeightMultiplier(1.0f);
+        params.setLineHeightAdd(1.0f);
         params.setHyphenated(false);
         params.setReverse(false);
 
@@ -339,6 +343,15 @@ public class DocumentLayout {
 
         tokens = new LinkedList<Token>();
         chunks = new LinkedList<String>();
+    }
+
+
+    public boolean isDebugging() {
+        return debugging;
+    }
+
+    public void setDebugging(boolean debugging) {
+        this.debugging = debugging;
     }
 
     public Paint getPaint() {
@@ -359,11 +372,11 @@ public class DocumentLayout {
     }
 
     private float getFontAscent() {
-        return -paint.ascent() * params.lineHeightMultiplier;
+        return -paint.ascent() * params.lineHeightAdd;
     }
 
     private float getFontDescent() {
-        return paint.descent() * params.lineHeightMultiplier;
+        return paint.descent() * params.lineHeightAdd;
     }
 
     public int getMeasuredHeight() {
@@ -399,7 +412,10 @@ public class DocumentLayout {
         int lineNumber = 0;
         float width = params.parentWidth - params.paddingRight - params.paddingLeft;
         float lineHeight = getFontAscent() + getFontDescent();
-        float x, y = lineHeight + params.paddingTop, spaceOffset = paint.measureText(" ");
+        float halfLineHeight = lineHeight / 2;
+        float x;
+        float y = params.paddingTop + halfLineHeight;
+        float spaceOffset = paint.measureText(" ");
 
         for (String paragraph : chunks) {
 
@@ -506,7 +522,7 @@ public class DocumentLayout {
         }
 
         params.changed = false;
-        measuredHeight = (int) (y + params.paddingBottom);
+        measuredHeight = (int) (y - getFontAscent() + params.paddingBottom);
     }
 
     public void draw(Canvas canvas) {

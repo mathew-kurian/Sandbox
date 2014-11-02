@@ -1,5 +1,3 @@
-package com.text.style;
-
 /*
  * Copyright 2014 Mathew Kurian
  *
@@ -17,7 +15,7 @@ package com.text.style;
  *
  * -------------------------------------------------------------------------
  *
- * RightSpan.java
+ * ArticleBuilder.java
  * @author Mathew Kurian
  *
  * From TextJustify-Android Library v2.0
@@ -26,13 +24,25 @@ package com.text.style;
  * Please report any issues
  * https://github.com/bluejamesbond/TextJustify-Android/issues
  *
- * Date: 10/27/14 1:36 PM
+ * Date: 11/1/14 3:03 PM
  */
 
-public class RightSpan extends TextAlignmentSpan {
+package com.text.test.helper;
 
-    @Override
-    public TextAlignment getTextAlignment() {
-        return TextAlignment.RIGHT;
+import android.text.Html;
+import android.text.SpannableStringBuilder;
+import android.text.Spanned;
+
+/**
+ * Created by Mathew Kurian on 10/31/2014.
+ */
+public class ArticleBuilder extends SpannableStringBuilder {
+    public ArticleBuilder append(CharSequence text, boolean newline, Object... spans) {
+        int start = this.length();
+        this.append(Html.fromHtml(text + "<br/>" + (newline ? "<br/>" : "")));
+        for (Object span : spans) {
+            this.setSpan(span, start, this.length(), Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
+        }
+        return this;
     }
 }
