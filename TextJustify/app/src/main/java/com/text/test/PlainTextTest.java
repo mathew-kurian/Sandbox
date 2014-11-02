@@ -46,6 +46,7 @@ public class PlainTextTest extends TestActivity {
                         "DocumentLayout supports just plain Strings just like the text you are reading. However, Spannables require the " +
                         "constructor to have SpannedDocumentLayout.class as a parameter. For now, DocumentLayout will offer significant speed improvements " +
                         "compared to SpannedDocumentLayout, so use each class accordingly. DocumentLayout also supports hyphenation. To learn more about" +
-                        "these layouts and what they have to offer visit the link in the titlebar above. And please report all the issues on GitHub!").toString(), DocumentView.PLAIN_TEXT);
+                        "these layouts and what they have to offer visit the link in the titlebar above. And please report all the issues on GitHub!")
+                .toString(), DocumentView.PLAIN_TEXT);
     }
 }

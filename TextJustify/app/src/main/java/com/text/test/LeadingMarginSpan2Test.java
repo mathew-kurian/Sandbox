@@ -47,13 +47,17 @@ public class LeadingMarginSpan2Test extends TestActivity {
         super.onCreate(savedInstanceState);
 
         ArticleBuilder amb = new ArticleBuilder();
-        amb.append(testName, false, new RelativeSizeSpan(2f), new StyleSpan(Typeface.BOLD), new LeftSpan());
-        amb.append("<font color=0xFFC801>@levifan</font><font color=0x888888> Oct 9. 28, 2014</font>",
+        amb.append(testName, false, new RelativeSizeSpan(2f), new StyleSpan(Typeface.BOLD),
+                new LeftSpan());
+        amb.append(
+                "<font color=0xFFC801>@levifan</font><font color=0x888888> Oct 9. 28, 2014</font>",
                 true, new RelativeSizeSpan(0.8f), new StyleSpan(Typeface.BOLD));
-        amb.append("现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始，<font color=0xFFC801>现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始</font>，" +
-                "但实际情况是在访问特定变量的时候经一定的规则在空间上排列，而不是顺序的一个接一个的排放，这就是对齐。现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始，但实际情况是在访问特定变量的时候" +
-                "经一定的规则在空间上排列，而不是顺序的一个接一个的排放，这就是对齐。"
-                , false, new RelativeSizeSpan(1f), new JustifiedSpan(), new MyLeadingMarginSpan2(2, 100));
+        amb.append(
+                "现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始，<font color=0xFFC801>现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始</font>，" +
+                        "但实际情况是在访问特定变量的时候经一定的规则在空间上排列，而不是顺序的一个接一个的排放，这就是对齐。现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始，但实际情况是在访问特定变量的时候" +
+                        "经一定的规则在空间上排列，而不是顺序的一个接一个的排放，这就是对齐。"
+                , false, new RelativeSizeSpan(1f), new JustifiedSpan(),
+                new MyLeadingMarginSpan2(2, 100));
 
         addDocumentView(amb
 

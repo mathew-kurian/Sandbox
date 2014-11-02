@@ -46,12 +46,14 @@ public class LineBreakTest extends TestActivity {
         SpannableStringBuilder result = new SpannableStringBuilder();
         result.append(testName + "\n");
         result.append("SpaceBug\n");
-        result.append("现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始，<font color=0xFFC801>现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始</font>，" +
-                "但实际情况是在访问特定变量的时候经一定的规则在空间上排列，而不是顺序的一个接一个的排放，这就是对齐。现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始，但实际情况是在访问特定变量的时候" +
-                "经一定的规则在空间上排列，而不是顺序的一个接一个的排放，这就是对齐。\n");
+        result.append(
+                "现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始，<font color=0xFFC801>现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始</font>，" +
+                        "但实际情况是在访问特定变量的时候经一定的规则在空间上排列，而不是顺序的一个接一个的排放，这就是对齐。现代计算机中内存空间都是按照byte划分的，从理论上讲似乎对任何类型的变量的访问可以从任何地址开始，但实际情况是在访问特定变量的时候" +
+                        "经一定的规则在空间上排列，而不是顺序的一个接一个的排放，这就是对齐。\n");
         result.append("现代计算机\n");
         result.setSpan(new JustifiedSpan(), 0, result.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-        result.setSpan(new MyLeadingMarginSpan2(2, 100), 0, result.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        result.setSpan(new MyLeadingMarginSpan2(2, 100), 0, result.length(),
+                Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
         addDocumentView(result, DocumentView.FORMATTED_TEXT);
 

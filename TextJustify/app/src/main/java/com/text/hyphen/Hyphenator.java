@@ -48,20 +48,10 @@ import java.util.regex.Pattern;
 @SuppressLint("UseSparseArrays")
 public class Hyphenator {
 
-    public enum Language {
-        EN_US, PT
-    }
-
-    private class TrieNode {
-        Map<Integer, TrieNode> codePoint = new HashMap<Integer, TrieNode>();
-        ArrayList<Integer> _points;
-    }
-
     HyphenPattern hyphenationPattern;
     TrieNode trie;
     int leftMin;
     int rightMin;
-
     public Hyphenator(HyphenPattern pattern) {
 
         this.hyphenationPattern = pattern;
@@ -80,7 +70,8 @@ public class Hyphenator {
         ArrayList<String> patterns = new ArrayList<String>();
 
         for (Map.Entry<Integer, String> entry : patternObject.entrySet()) {
-            Matcher matcher = Pattern.compile(".{1," + String.valueOf(entry.getKey()) + "}").matcher(entry.getValue());
+            Matcher matcher = Pattern.compile(".{1," + String.valueOf(entry.getKey()) + "}")
+                    .matcher(entry.getValue());
             while (matcher.find()) {
                 patterns.add(matcher.group(0));
             }
@@ -92,8 +83,9 @@ public class Hyphenator {
                 t = tree;
 
                 for (c = 0; c < chars.length; c++) {
-                    if (chars[c].isEmpty())
+                    if (chars[c].isEmpty()) {
                         continue;
+                    }
 
                     codePoint = chars[c].codePointAt(0);
 
@@ -156,7 +148,8 @@ public class Hyphenator {
                     nodePoints = node._points;
 
                     if (nodePoints != null) {
-                        for (k = 0, nodePointsLength = nodePoints.size(); k < nodePointsLength; k++) {
+                        for (k = 0, nodePointsLength =
+                                nodePoints.size(); k < nodePointsLength; k++) {
                             points.set(i + k, Math.max(points.get(i + k), nodePoints.get(k)));
                         }
                     }
@@ -170,10 +163,20 @@ public class Hyphenator {
             if (i > this.leftMin && i < (wordLength - this.rightMin) && points.get(i) % 2 > 0) {
                 result.add(originalCharacters.get(i));
             } else {
-                result.set(result.size() - 1, result.get(result.size() - 1) + originalCharacters.get(i));
+                result.set(result.size() - 1,
+                        result.get(result.size() - 1) + originalCharacters.get(i));
             }
         }
 
         return result;
+    }
+
+    public enum Language {
+        EN_US, PT
+    }
+
+    private class TrieNode {
+        Map<Integer, TrieNode> codePoint = new HashMap<Integer, TrieNode>();
+        ArrayList<Integer> _points;
     }
 }
