@@ -29,7 +29,6 @@
 
 package com.text.test;
 
-import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.text.style.ForegroundColorSpan;
@@ -44,7 +43,7 @@ import com.text.test.helper.ArticleBuilder;
 import com.text.test.helper.MyQuoteSpan;
 import com.text.test.helper.TestActivity;
 
-public class QuoteSpanTest extends TestActivity{
+public class QuoteSpanTest extends TestActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,13 +51,19 @@ public class QuoteSpanTest extends TestActivity{
 
         addDocumentView(new ArticleBuilder()
                 .append(testName,
-                        false, new RelativeSizeSpan(2f), new StyleSpan(Typeface.BOLD), new LeftSpan())
+                        false, new RelativeSizeSpan(2f), new StyleSpan(Typeface.BOLD),
+                        new LeftSpan())
                 .append("<font color=0xFFC801>Jon Brodkin</font><font color=0x888888> Oct. 28, 2014</font>",
                         true, new RelativeSizeSpan(0.8f), new StyleSpan(Typeface.BOLD))
                 .append("But now we have more numbers on the performance declines, thanks to a new report from the Measurement Lab Consortium (M-Lab). M-Lab hosts measuring equipment at Internet exchange points to analyze connections between network operators and has more than five years' worth of measurements. A report released today examines connections between consumer Internet service providers (\"Access ISPs\" in M-Lab parlance) and backbone operators (\"Transit ISPs\"), including the ones that sent traffic from Netflix to ISPs while the money fights were still going on."
-                        , true, new RelativeSizeSpan(0.8f), new JustifiedSpan(), new MyQuoteSpan(0xFFFFC801, 2, 50), new StyleSpan(Typeface.ITALIC), new ForegroundColorSpan(0xFF555555))
-                .append("Using Measurement Lab (M-Lab) data, and constraining our research to the United States, we observed sustained performance degradation experienced by customers of Access ISPs AT&T, Comcast, CenturyLink, Time Warner Cable, and Verizon when their traffic passed over interconnections with Transit ISPs Cogent Communications (Cogent), Level 3 Communications (Level 3), and XO Communications (XO),\" researchers wrote. \"In a large number of cases we observed similar patterns of performance degradation whenever and wherever specific pairs of Access/Transit ISPs interconnected. From this we conclude that ISP interconnection has a substantial impact on consumer internet performance—sometimes a severely negative impact—and that business relationships between ISPs, and not major technical problems, are at the root of the problems we observed.", true, new RelativeSizeSpan(1f), new JustifiedSpan())
+                        , true, new RelativeSizeSpan(0.8f), new JustifiedSpan(),
+                        new MyQuoteSpan(0xFFFFC801, 2, 50), new StyleSpan(Typeface.ITALIC),
+                        new ForegroundColorSpan(0xFF555555))
+                .append("Using Measurement Lab (M-Lab) data, and constraining our research to the United States, we observed sustained performance degradation experienced by customers of Access ISPs AT&T, Comcast, CenturyLink, Time Warner Cable, and Verizon when their traffic passed over interconnections with Transit ISPs Cogent Communications (Cogent), Level 3 Communications (Level 3), and XO Communications (XO),\" researchers wrote. \"In a large number of cases we observed similar patterns of performance degradation whenever and wherever specific pairs of Access/Transit ISPs interconnected. From this we conclude that ISP interconnection has a substantial impact on consumer internet performance—sometimes a severely negative impact—and that business relationships between ISPs, and not major technical problems, are at the root of the problems we observed.",
+                        true, new RelativeSizeSpan(1f), new JustifiedSpan())
                 .append("Using Measurement Lab (M-Lab) data, and constraining our research to the United States, we observed sustained performance degradation experienced by customers of Access ISPs AT&T, Comcast, CenturyLink, Time Warner Cable, and Verizon when their traffic passed over interconnections with Transit ISPs Cogent Communications (Cogent), Level 3 Communications (Level 3), and XO Communications (XO),\" researchers wrote. \"In a large number of cases we observed similar patterns of performance degradation whenever and wherever specific pairs of Access/Transit ISPs interconnected. From this we conclude that ISP interconnection has a substantial impact on consumer internet performance—sometimes a severely negative impact—and that business relationships between ISPs, and not major technical problems, are at the root of the problems we observed."
-                        , false, new RelativeSizeSpan(0.8f), new RightSpan(), new MyQuoteSpan(0xFFFFC801, 2, 50), new StyleSpan(Typeface.ITALIC), new ForegroundColorSpan(0xFF555555)), DocumentView.FORMATTED_TEXT);
+                        , false, new RelativeSizeSpan(0.8f), new RightSpan(),
+                        new MyQuoteSpan(0xFFFFC801, 2, 50), new StyleSpan(Typeface.ITALIC),
+                        new ForegroundColorSpan(0xFF555555)), DocumentView.FORMATTED_TEXT);
     }
 }

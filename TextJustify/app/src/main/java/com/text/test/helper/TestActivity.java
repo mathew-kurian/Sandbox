@@ -92,7 +92,9 @@ public class TestActivity extends Activity {
 
         LinearLayout linearLayout = new LinearLayout(this);
         linearLayout.setOrientation(LinearLayout.VERTICAL);
-        linearLayout.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
+        linearLayout.setLayoutParams(
+                new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
+                        LinearLayout.LayoutParams.WRAP_CONTENT));
         linearLayout.addView(documentView);
 
         LinearLayout articleList = (LinearLayout) findViewById(R.id.articleList);
@@ -100,7 +102,7 @@ public class TestActivity extends Activity {
 
         Button debugButton = (Button) findViewById(R.id.debugButton);
 
-        if(debugButton != null){
+        if (debugButton != null) {
             debugButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {

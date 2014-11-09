@@ -32,33 +32,32 @@ import android.text.style.ReplacementSpan;
  *
  * @hide
  */
-public class Styled
-{
+public class Styled {
     /**
      * Draws and/or measures a uniform run of text on a single line. No span of
      * interest should start or end in the middle of this run (if not
      * drawing, character spans that don't affect metrics can be ignored).
      * Neither should the run direction change in the middle of the run.
-     *
+     * <p/>
      * <p>The x position is the leading edge of the text. In a right-to-left
      * paragraph, this will be to the right of the text to be drawn. Paint
      * should not have an Align value other than LEFT or positioning will get
      * confused.
-     *
+     * <p/>
      * <p>On return, workPaint will reflect the original paint plus any
      * modifications made by character styles on the run.
-     *
+     * <p/>
      * <p>The returned width is signed and will be < 0 if the paragraph
      * direction is right-to-left.
      */
     private static float drawUniformRun(Canvas canvas,
-                              Spanned text, int start, int end,
-                              int dir, boolean runIsRtl,
-                              float x, int top, int y, int bottom,
-                              Paint.FontMetricsInt fmi,
-                              TextPaint paint,
-                              TextPaint workPaint,
-                              boolean needWidth) {
+                                        Spanned text, int start, int end,
+                                        int dir, boolean runIsRtl,
+                                        float x, int top, int y, int bottom,
+                                        Paint.FontMetricsInt fmi,
+                                        TextPaint paint,
+                                        TextPaint workPaint,
+                                        boolean needWidth) {
 
         boolean haveWidth = false;
         float ret = 0;
@@ -78,9 +77,8 @@ public class Styled
                 CharacterStyle span = spans[i];
 
                 if (span instanceof ReplacementSpan) {
-                    replacement = (ReplacementSpan)span;
-                }
-                else {
+                    replacement = (ReplacementSpan) span;
+                } else {
                     span.updateDrawState(workPaint);
                 }
             }
@@ -117,10 +115,11 @@ public class Styled
                         haveWidth = true;
                     }
 
-                    if (dir == Layout.DIR_RIGHT_TO_LEFT)
+                    if (dir == Layout.DIR_RIGHT_TO_LEFT) {
                         canvas.drawRect(x - ret, top, x, bottom, workPaint);
-                    else
+                    } else {
                         canvas.drawRect(x, top, x + ret, bottom, workPaint);
+                    }
 
                     workPaint.setStyle(s);
                     workPaint.setColor(c);
@@ -133,7 +132,7 @@ public class Styled
                     }
 
                     canvas.drawText(tmp, tmpstart, tmpend,
-                                    x - ret, y + workPaint.baselineShift, workPaint);
+                            x - ret, y + workPaint.baselineShift, workPaint);
                 } else {
                     if (needWidth) {
                         if (!haveWidth) {
@@ -143,7 +142,7 @@ public class Styled
                     }
 
                     canvas.drawText(tmp, tmpstart, tmpend,
-                                    x, y + workPaint.baselineShift, workPaint);
+                            x, y + workPaint.baselineShift, workPaint);
                 }
             } else {
                 if (needWidth && !haveWidth) {
@@ -155,19 +154,21 @@ public class Styled
             ret = replacement.getSize(workPaint, text, start, end, fmi);
 
             if (canvas != null) {
-                if (dir == Layout.DIR_RIGHT_TO_LEFT)
+                if (dir == Layout.DIR_RIGHT_TO_LEFT) {
                     replacement.draw(canvas, text, start, end,
-                                     x - ret, top, y, bottom, workPaint);
-                else
+                            x - ret, top, y, bottom, workPaint);
+                } else {
                     replacement.draw(canvas, text, start, end,
-                                     x, top, y, bottom, workPaint);
+                            x, top, y, bottom, workPaint);
+                }
             }
         }
 
-        if (dir == Layout.DIR_RIGHT_TO_LEFT)
+        if (dir == Layout.DIR_RIGHT_TO_LEFT) {
             return -ret;
-        else
+        } else {
             return ret;
+        }
     }
 
     /**
@@ -176,15 +177,15 @@ public class Styled
      * text, the first character will get the width of the replacement and the
      * remaining characters will get a width of 0.
      *
-     * @param paint the paint, will not be modified
+     * @param paint     the paint, will not be modified
      * @param workPaint a paint to modify; on return will reflect the original
-     *        paint plus the effect of all spans on the run
-     * @param text the text
-     * @param start the start of the run
-     * @param end the limit of the run
-     * @param widths array to receive the advance widths of the characters. Must
-     *        be at least a large as (end - start).
-     * @param fmi FontMetrics information; can be null
+     *                  paint plus the effect of all spans on the run
+     * @param text      the text
+     * @param start     the start of the run
+     * @param end       the limit of the run
+     * @param widths    array to receive the advance widths of the characters. Must
+     *                  be at least a large as (end - start).
+     * @param fmi       FontMetrics information; can be null
      * @return the actual number of widths returned
      */
     public static int getTextWidths(TextPaint paint,
@@ -192,7 +193,7 @@ public class Styled
                                     Spanned text, int start, int end,
                                     float[] widths, Paint.FontMetricsInt fmi) {
         MetricAffectingSpan[] spans =
-            text.getSpans(start, end, MetricAffectingSpan.class);
+                text.getSpans(start, end, MetricAffectingSpan.class);
 
         ReplacementSpan replacement = null;
         workPaint.set(paint);
@@ -200,9 +201,8 @@ public class Styled
         for (int i = 0; i < spans.length; i++) {
             MetricAffectingSpan span = spans[i];
             if (span instanceof ReplacementSpan) {
-                replacement = (ReplacementSpan)span;
-            }
-            else {
+                replacement = (ReplacementSpan) span;
+            } else {
                 span.updateMeasureState(workPaint);
             }
         }
@@ -215,8 +215,9 @@ public class Styled
 
             if (end > start) {
                 widths[0] = wid;
-                for (int i = start + 1; i < end; i++)
+                for (int i = start + 1; i < end; i++) {
                     widths[i - start] = 0;
+                }
             }
         }
         return end - start;
@@ -226,26 +227,26 @@ public class Styled
      * Renders and/or measures a directional run of text on a single line.
      * Unlike {@link #drawUniformRun}, this can render runs that cross style
      * boundaries.  Returns the signed advance width, if requested.
-     *
+     * <p/>
      * <p>The x position is the leading edge of the text. In a right-to-left
      * paragraph, this will be to the right of the text to be drawn. Paint
      * should not have an Align value other than LEFT or positioning will get
      * confused.
-     *
+     * <p/>
      * <p>This optimizes for unstyled text and so workPaint might not be
      * modified by this call.
-     *
+     * <p/>
      * <p>The returned advance width will be < 0 if the paragraph
      * direction is right-to-left.
      */
     private static float drawDirectionalRun(Canvas canvas,
-                                 CharSequence text, int start, int end,
-                                 int dir, boolean runIsRtl,
-                                 float x, int top, int y, int bottom,
-                                 Paint.FontMetricsInt fmi,
-                                 TextPaint paint,
-                                 TextPaint workPaint,
-                                 boolean needWidth) {
+                                            CharSequence text, int start, int end,
+                                            int dir, boolean runIsRtl,
+                                            float x, int top, int y, int bottom,
+                                            Paint.FontMetricsInt fmi,
+                                            TextPaint paint,
+                                            TextPaint workPaint,
+                                            boolean needWidth) {
 
         // XXX: It looks like all calls to this API match dir and runIsRtl, so
         // having both parameters is redundant and confusing.
@@ -260,18 +261,22 @@ public class Styled
                 // the text
                 int tmpend = end - start;
 
-                if (canvas != null || needWidth)
+                if (canvas != null || needWidth) {
                     ret = paint.measureText(tmp, 0, tmpend);
+                }
 
-                if (canvas != null)
+                if (canvas != null) {
                     canvas.drawText(tmp, 0, tmpend,
-                                    x - ret, y, paint);
+                            x - ret, y, paint);
+                }
             } else {
-                if (needWidth)
+                if (needWidth) {
                     ret = paint.measureText(text, start, end);
+                }
 
-                if (canvas != null)
+                if (canvas != null) {
                     canvas.drawText(text, start, end, x, y, paint);
+                }
             }
 
             if (fmi != null) {
@@ -287,10 +292,11 @@ public class Styled
         Spanned sp = (Spanned) text;
         Class<?> division;
 
-        if (canvas == null)
+        if (canvas == null) {
             division = MetricAffectingSpan.class;
-        else
+        } else {
             division = CharacterStyle.class;
+        }
 
         int next;
         for (int i = start; i < end; i = next) {
@@ -304,15 +310,19 @@ public class Styled
                     needWidth || next != end);
 
             if (fmi != null) {
-                if (fmi.ascent < minAscent)
+                if (fmi.ascent < minAscent) {
                     minAscent = fmi.ascent;
-                if (fmi.descent > maxDescent)
+                }
+                if (fmi.descent > maxDescent) {
                     maxDescent = fmi.descent;
+                }
 
-                if (fmi.top < minTop)
+                if (fmi.top < minTop) {
                     minTop = fmi.top;
-                if (fmi.bottom > maxBottom)
+                }
+                if (fmi.bottom > maxBottom) {
                     maxBottom = fmi.bottom;
+                }
             }
         }
 
@@ -335,16 +345,17 @@ public class Styled
      * returns the signed advance.  Unlike drawDirectionalRun, the paragraph
      * direction and run direction can be different.
      */
-    /* package */ static float drawText(Canvas canvas,
-                                       CharSequence text, int start, int end,
-                                       int dir, boolean runIsRtl,
-                                       float x, int top, int y, int bottom,
-                                       TextPaint paint,
-                                       TextPaint workPaint,
-                                       boolean needWidth) {
+    /* package */
+    static float drawText(Canvas canvas,
+                          CharSequence text, int start, int end,
+                          int dir, boolean runIsRtl,
+                          float x, int top, int y, int bottom,
+                          TextPaint paint,
+                          TextPaint workPaint,
+                          boolean needWidth) {
         // XXX this logic is (dir == DIR_LEFT_TO_RIGHT) == runIsRtl
         if ((dir == Layout.DIR_RIGHT_TO_LEFT && !runIsRtl) ||
-            (runIsRtl && dir == Layout.DIR_LEFT_TO_RIGHT)) {
+                (runIsRtl && dir == Layout.DIR_LEFT_TO_RIGHT)) {
             // TODO: this needs the real direction
             float ch = drawDirectionalRun(null, text, start, end,
                     Layout.DIR_LEFT_TO_RIGHT, false, 0, 0, 0, 0, null, paint,
@@ -367,7 +378,7 @@ public class Styled
      * Draws a run of text on a single line, with its
      * origin at (x,y), in the specified Paint. The origin is interpreted based
      * on the Align setting in the Paint.
-     *
+     * <p/>
      * This method considers style information in the text (e.g. even when text
      * is an instance of {@link android.text.Spanned}, this method correctly
      * draws the text). See also
@@ -376,20 +387,20 @@ public class Styled
      * {@link android.graphics.Canvas#drawRect(float, float, float, float,
      * Paint)}.
      *
-     * @param canvas The target canvas
-     * @param text The text to be drawn
-     * @param start The index of the first character in text to draw
-     * @param end (end - 1) is the index of the last character in text to draw
+     * @param canvas    The target canvas
+     * @param text      The text to be drawn
+     * @param start     The index of the first character in text to draw
+     * @param end       (end - 1) is the index of the last character in text to draw
      * @param direction The direction of the text. This must be
-     *        {@link android.text.Layout#DIR_LEFT_TO_RIGHT} or
-     *        {@link android.text.Layout#DIR_RIGHT_TO_LEFT}.
-     * @param x The x-coordinate of origin for where to draw the text
-     * @param top The top side of the rectangle to be drawn
-     * @param y The y-coordinate of origin for where to draw the text
-     * @param bottom The bottom side of the rectangle to be drawn
-     * @param paint The main {@link TextPaint} object.
+     *                  {@link android.text.Layout#DIR_LEFT_TO_RIGHT} or
+     *                  {@link android.text.Layout#DIR_RIGHT_TO_LEFT}.
+     * @param x         The x-coordinate of origin for where to draw the text
+     * @param top       The top side of the rectangle to be drawn
+     * @param y         The y-coordinate of origin for where to draw the text
+     * @param bottom    The bottom side of the rectangle to be drawn
+     * @param paint     The main {@link TextPaint} object.
      * @param workPaint The {@link TextPaint} object used for temporal
-     *        workspace.
+     *                  workspace.
      * @param needWidth If true, this method returns the width of drawn text
      * @return Width of the drawn text if needWidth is true
      */
@@ -409,7 +420,7 @@ public class Styled
         // XXX: the runIsRtl probably ought to be the same as direction, then
         // this could draw rtl text.
         return drawText(canvas, text, start, end, direction, false,
-                        x, top, y, bottom, paint, workPaint, needWidth);
+                x, top, y, bottom, paint, workPaint, needWidth);
     }
 
     /**
@@ -418,13 +429,13 @@ public class Styled
      * instance of {@link android.text.Spanned}, this method correctly measures
      * the width of the text).
      *
-     * @param paint the main {@link TextPaint} object; will not be modified
+     * @param paint     the main {@link TextPaint} object; will not be modified
      * @param workPaint the {@link TextPaint} object available for modification;
-     *        will not necessarily be used
-     * @param text the text to measure
-     * @param start the index of the first character to start measuring
-     * @param end 1 beyond the index of the last character to measure
-     * @param fmi FontMetrics information; can be null
+     *                  will not necessarily be used
+     * @param text      the text to measure
+     * @param start     the index of the first character to start measuring
+     * @param end       1 beyond the index of the last character to measure
+     * @param fmi       FontMetrics information; can be null
      * @return The width of the text
      */
     public static float measureText(TextPaint paint,

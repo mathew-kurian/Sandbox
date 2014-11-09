@@ -8,7 +8,6 @@ package com.text.test.helper;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.text.Layout;
-import android.text.style.LeadingMarginSpan;
 
 public class MyLeadingMarginSpan2 implements
         android.text.style.LeadingMarginSpan.LeadingMarginSpan2 {
@@ -21,21 +20,15 @@ public class MyLeadingMarginSpan2 implements
         this.margin = margin;
     }
 
-    /**
-     * Apply the margin
-     *
-     * @param first
-     * @return
-     */
     @Override
     public int getLeadingMargin(boolean first) {
         return margin;
     }
 
     @Override
-    public void drawLeadingMargin(Canvas c, Paint p, int x, int dir, int top,
-                                  int baseline, int bottom, CharSequence text, int start, int end,
-                                  boolean first, Layout layout) {
+    public void drawLeadingMargin(Canvas c, Paint p, int x, int dir, int top, int baseline,
+                                  int bottom, CharSequence text, int start, int end, boolean first,
+                                  Layout layout) {
     }
 
     @Override

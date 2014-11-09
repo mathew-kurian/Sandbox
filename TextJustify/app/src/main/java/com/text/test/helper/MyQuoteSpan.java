@@ -79,20 +79,15 @@ public class MyQuoteSpan implements LeadingMarginSpan, ParcelableSpan {
         return mStripeWidth + mGapWidth;
     }
 
-    public void drawLeadingMargin(Canvas c, Paint p, int x, int dir,
-                                  int top, int baseline, int bottom,
-                                  CharSequence text, int start, int end,
-                                  boolean first, Layout layout) {
+    public void drawLeadingMargin(Canvas c, Paint p, int x, int dir, int top, int baseline,
+                                  int bottom, CharSequence text, int start, int end, boolean first,
+                                  Layout layout) {
 
         float strokeWidth = p.getStrokeWidth();
         int color = p.getColor();
 
         p.setStrokeWidth(mStripeWidth);
         p.setColor(mColor);
-
-//        if (dir == -1) {
-//            x = x - mStripeWidth;
-//        }
 
         c.drawLine(x, top, x, bottom, p);
 

@@ -29,11 +29,11 @@
 
 package com.text.test.helper;
 
-/**
- * Created by Mathew Kurian on 11/1/2014.
- */
 public class Utils {
 
+    /*
+     * Refer to http://stackoverflow.com/a/2560017/1100536
+     */
     public static String splitCamelCase(String s) {
         return s.replaceAll(
                 String.format("%s|%s|%s",
