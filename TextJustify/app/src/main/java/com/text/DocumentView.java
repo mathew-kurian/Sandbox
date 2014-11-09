@@ -68,9 +68,9 @@ public class DocumentView extends View {
         init(PLAIN_TEXT);
     }
 
-    public DocumentView(Context context, int layoutClass) {
+    public DocumentView(Context context, int type) {
         super(context);
-        init(layoutClass);
+        init(type);
     }
 
     private void init(int type) {
@@ -97,7 +97,7 @@ public class DocumentView extends View {
         paint.setTypeface(typeface);
     }
 
-    public void initPaint(Paint paint) {
+    protected void initPaint(Paint paint) {
         paint.setTypeface(Typeface.defaultFromStyle(Typeface.NORMAL));
         paint.setTextSize(34);
         paint.setAntiAlias(true);
