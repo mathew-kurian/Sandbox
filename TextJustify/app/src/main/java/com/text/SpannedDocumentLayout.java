@@ -66,6 +66,9 @@ public class SpannedDocumentLayout extends DocumentLayout {
 
     private static int pushToken(int[] tokens, int index, int start, int end, float x, float y,
                                  float ascent, float descent) {
+
+        assert index % TOKEN_LENGTH == 0;
+
         tokens[index + TOKEN_START] = start;
         tokens[index + TOKEN_END] = end;
         tokens[index + TOKEN_X] = (int) x;
@@ -166,6 +169,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
         float lastDescent;
 
         boolean isParaStart = true;
+        boolean isReverse = getLayoutParams().isReverse();
 
         for (int i = 0; i < lines; i++) {
 
@@ -374,28 +378,63 @@ public class SpannedDocumentLayout extends DocumentLayout {
             else {
 
                 int m = 1;
+                int indexOffset = 0;
                 int startIndex = index;
+                int reqSpaces = (tokenized.size() - 1) * TOKEN_LENGTH;
+                int rtlZero = 0;
+                float rtlRight = 0;
+                float rtlMul = 1;
                 float lineWidth = 0;
                 float offset;
 
-                for (int stop : tokenized) {
-                    index = pushToken(newTokens, index, start, stop, x + lineWidth, y, lastAscent,
-                            lastDescent);
-                    newTokens = ammortizeArray(newTokens, index);
+                if (isReverse) {
+                    indexOffset = -2 * TOKEN_LENGTH;
+                    rtlRight = parentWidth;
+                    rtlMul = -1;
+                    rtlZero = 1;
 
-                    lineWidth += Styled.measureText(paint, workPaint, text,
+                    // reverse index
+                    index += reqSpaces;
+                }
+
+                // more space
+                newTokens = ammortizeArray(newTokens, index + reqSpaces);
+
+                for (int stop : tokenized) {
+
+                    float wordWidth = Styled.measureText(paint, workPaint, text,
                             start, stop, fmi);
+
+                    // add word
+                    index = pushToken(newTokens, index, start, stop, rtlRight + rtlMul * (x + lineWidth + rtlZero * wordWidth), y, lastAscent,
+                            lastDescent);
+
+                    lineWidth += wordWidth;
+
                     start = stop + 1;
+
+                    // based on if rtl
+                    index += indexOffset;
+                }
+
+                if (isReverse) {
+                    index = startIndex + reqSpaces + TOKEN_LENGTH;
                 }
 
                 offset =
-                        (realWidth - lineWidth) / (float) ((index - startIndex) / TOKEN_LENGTH - 1);
+                        (realWidth - lineWidth) / (float) (tokenized.size() - 1);
 
-                for (int pos = startIndex + TOKEN_LENGTH; pos < index; pos += TOKEN_LENGTH) {
-                    newTokens[pos + TOKEN_X] =
-                            (int) (((float) newTokens[pos + TOKEN_X]) + (offset * (float) m++));
+                if (isReverse) {
+                    for (int pos = index - TOKEN_LENGTH * 2; pos >= startIndex; pos -= TOKEN_LENGTH) {
+                        newTokens[pos + TOKEN_X] =
+                                (int) (((float) newTokens[pos + TOKEN_X]) - (offset * (float) m++));
+                    }
+                } else {
+                    for (int pos = startIndex + TOKEN_LENGTH; pos < index; pos += TOKEN_LENGTH) {
+                        newTokens[pos + TOKEN_X] =
+                                (int) (((float) newTokens[pos + TOKEN_X]) + (offset * (float) m++));
+                    }
                 }
-
             }
 
             y += lastDescent;
@@ -409,6 +448,8 @@ public class SpannedDocumentLayout extends DocumentLayout {
 
     @Override
     public void draw(Canvas canvas) {
+
+        boolean isReverse = getLayoutParams().isReverse();
 
         if (debugging) {
             int lastColor = paint.getColor();
@@ -439,7 +480,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
 
         for (int index = 0; index < tokens.length; index += TOKEN_LENGTH) {
             Styled.drawText(canvas, text, tokens[index + TOKEN_START],
-                    tokens[index + TOKEN_END], Layout.DIR_LEFT_TO_RIGHT, false,
+                    tokens[index + TOKEN_END], Layout.DIR_LEFT_TO_RIGHT, isReverse,
                     tokens[index + TOKEN_X], 0,
                     tokens[index + TOKEN_Y], 0, paint, workPaint, false);
             if (debugging) {

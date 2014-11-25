@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:text="TOGGLE DEBUG"
             android:textAllCaps="true"
-            android:textColor="#777777"
+            android:textColor="#aaaaaa"
             android:textSize="10dp"
             android:textStyle="bold" />
     </LinearLayout>

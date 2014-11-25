@@ -32,6 +32,7 @@ package com.text.test;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.util.TypedValue;
 import android.view.View;
@@ -53,7 +54,8 @@ public class TestList extends TestActivity {
             LeadingMarginSpan2Test.class,
             LineBreakTest.class,
             PlainTextTest.class,
-            QuoteSpanTest.class
+            QuoteSpanTest.class,
+            RTLTest.class
     };
 
     @Override
@@ -61,7 +63,7 @@ public class TestList extends TestActivity {
         super.onCreate(savedInstanceState);
 
         // Set default app font
-        FontsOverride.setDefaultFont(this, "DEFAULT", "fonts/notosans.ttf");
+        // FontsOverride.setDefaultFont(this, "DEFAULT", "fonts/notosans.ttf");
 
         // Set layout
         setContentView(R.layout.testlist);
@@ -85,6 +87,7 @@ public class TestList extends TestActivity {
                 View view = super.getView(position, convertView, parent);
                 TextView textView = (TextView) view.findViewById(android.R.id.text1);
                 textView.setTypeface(Typeface.DEFAULT_BOLD);
+                textView.setBackgroundColor(Color.parseColor("#111111"));
                 textView.setTextColor(Color.WHITE);
                 textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
                 return view;

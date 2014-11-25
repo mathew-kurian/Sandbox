@@ -587,6 +587,10 @@ public class DocumentLayout {
                 return;
             }
 
+            if(reverse){
+                textAlignment = TextAlignment.RIGHT;
+            }
+
             this.reverse = reverse;
             this.changed = true;
         }

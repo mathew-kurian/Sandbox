@@ -10,24 +10,26 @@
         <activity
             android:name=".TestList"
             android:label="@string/app_name"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            android:theme="@android:style/Theme.Material">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".FormattedTextTest"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+            android:theme="@android:style/Theme.Material" />
         <activity android:name=".LeadingMarginSpan2Test"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+            android:theme="@android:style/Theme.Material" />
         <activity android:name=".LineBreakTest"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+            android:theme="@android:style/Theme.Material" />
         <activity android:name=".PlainTextTest"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+            android:theme="@android:style/Theme.Material" />
         <activity android:name=".QuoteSpanTest"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+            android:theme="@android:style/Theme.Material" />
         <activity android:name=".ChineseCharacterTest"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+            android:theme="@android:style/Theme.Material" />
+        <activity android:name=".RTLTest"
+            android:theme="@android:style/Theme.Material" />
     </application>
 
 </manifest>

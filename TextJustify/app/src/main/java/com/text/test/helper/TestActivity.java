@@ -29,8 +29,11 @@
 
 package com.text.test.helper;
 
+import android.app.ActionBar;
 import android.app.Activity;
+import android.graphics.Color;
 import android.graphics.Typeface;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -54,29 +57,14 @@ public class TestActivity extends Activity {
 
         testName = Utils.splitCamelCase(getClass().getSimpleName());
 
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        ActionBar bar = getActionBar();
+        bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#e74c3c")));
+        bar.setTitle("Samples");
 
         setContentView(R.layout.testlayout);
     }
 
-    @Override
-    public void onWindowFocusChanged(boolean hasFocus) {
-        super.onWindowFocusChanged(hasFocus);
-        if (Build.VERSION.SDK_INT >= 19) {
-            if (hasFocus) {
-                getWindow().getDecorView().setSystemUiVisibility(
-                        View.SYSTEM_UI_FLAG_LAYOUT_STABLE
-                                | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
-                                | View.SYSTEM_UI_FLAG_FULLSCREEN
-                                | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
-            }
-        }
-    }
-
-    public void addDocumentView(CharSequence article, int type) {
-
+    public void addDocumentView(CharSequence article, int type, boolean rtl){
         final DocumentView documentView = new DocumentView(this, type);
         documentView.setColor(0xffffffff);
         documentView.setTypeface(Typeface.DEFAULT);
@@ -87,6 +75,7 @@ public class TestActivity extends Activity {
         documentView.getDocumentLayoutParams().setPaddingTop(50);
         documentView.getDocumentLayoutParams().setPaddingBottom(50);
         documentView.getDocumentLayoutParams().setLineHeightAdd(1);
+        documentView.getDocumentLayoutParams().setReverse(rtl);
         documentView.getLayout().setDebugging(debugging);
         documentView.setText(article, true); // true: enable justification
 
@@ -112,7 +101,9 @@ public class TestActivity extends Activity {
                 }
             });
         }
+    }
 
-
+    public void addDocumentView(CharSequence article, int type) {
+        addDocumentView(article, type, false);
     }
 }
