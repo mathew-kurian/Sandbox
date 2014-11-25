@@ -304,15 +304,8 @@ public class SpannedDocumentLayout extends DocumentLayout {
             isParaStart = isParaEnd;
 
             // TextAlignmentSpan block
-            if (isParaEnd) {
-                switch (lineTextAlignment) {
-                    case LEFT:
-                    case JUSTIFIED:
-                        index = pushToken(newTokens, index, start, end, x, y, lastAscent,
-                                lastDescent);
-                        y += lastDescent;
-                        continue;
-                }
+            if (isParaEnd && lineTextAlignment == TextAlignment.JUSTIFIED) {
+                lineTextAlignment = isReverse ? TextAlignment.RIGHT : TextAlignment.LEFT;
             }
 
             if (debugging) {
