@@ -58,6 +58,7 @@ public class DocumentLayout {
     // Parsing objects
     private LinkedList<Token> tokens;
     private LinkedList<String> chunks;
+
     public DocumentLayout(TextPaint paint) {
 
         this.paint = paint;

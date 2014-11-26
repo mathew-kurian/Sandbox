@@ -169,7 +169,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
         float lastDescent;
 
         boolean isParaStart = true;
-        boolean isReverse = getLayoutParams().isReverse();
+        boolean isReverse = params.reverse;
 
         for (int i = 0; i < lines; i++) {
 
@@ -442,7 +442,7 @@ public class SpannedDocumentLayout extends DocumentLayout {
     @Override
     public void draw(Canvas canvas) {
 
-        boolean isReverse = getLayoutParams().isReverse();
+        boolean isReverse = params.reverse;
 
         if (debugging) {
             int lastColor = paint.getColor();
