@@ -93,19 +93,19 @@ build/
 
 # Built application files
 /*/build/
- 
+
 # Crashlytics configuations
 com_crashlytics_export_strings.xml
- 
+
 # Local configuration file (sdk path, etc)
 local.properties
- 
+
 # Gradle generated files
 .gradle/
- 
+
 # Signing files
 .signing/
- 
+
 # User-specific configurations
 .idea/libraries/
 .idea/workspace.xml
@@ -119,7 +119,7 @@ local.properties
 .idea/scopes/scope_settings.xml
 .idea/vcs.xml
 *.iml
- 
+
 # OS-specific files
 .DS_Store
 .DS_Store?
@@ -135,3 +135,4 @@ Thumbs.db
 /.idea/libraries
 .DS_Store
 /build
+manifest-merger-release-report.txt
