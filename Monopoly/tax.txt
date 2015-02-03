@@ -1,0 +1,5 @@
+Income Tax Rules in MONOPOLY:
+
+When a player lands on the "Income Tax" space of the MONOPOLY game board, he has two options: he may estimate his tax at $200 and pay the Bank, or he may pay 10% of his total worth to the Bank. His total worth is all his cash on hand, printed prices of mortgaged and unmortgaged MONOPOLY properties and cost price of all buildings he owns.
+
+The player must decide which option he will take before he adds up his total worth.

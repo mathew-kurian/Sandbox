@@ -1,0 +1,30 @@
+Electric Company
+13
+150
+0000000000001
+Utilities
+Water Works
+29
+150
+0000000000001
+Utilities
+Reading Railroad
+6
+200
+0000000000000000000000001
+Railroad
+Pennsylvania Railroad
+16
+200
+0000000000000000000000001
+Railroad
+B. & O. Railroad
+26
+200
+0000000000000000000000001
+Railroad
+Short Line Railroad
+36
+200
+0000000000000000000000001
+Railroad

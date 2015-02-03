@@ -1,0 +1,9 @@
+Mortgage Rules in the Game of MONOPOLY:
+
+Unimproved MONOPOLY properties can be mortgaged through the Bank at any time. Before an improved property can be mortgaged, all the buildings on all the properties of its color-group must be sold back to the Bank at half price. The mortgage value is printed on each Title Deed card.
+
+No rent can be collected on mortgaged MONOPOLY properties or utilities, but rent can be collected on unmortgaged properties in the same group.
+
+In order to lift the mortgage, the owner must pay the Bank the amount of mortgage plus 10% interest. When all the properties of a color-group are no longer mortgaged, the owner may begin to buy back houses at full price.
+
+The player who mortgages property retains possession of it and no other player may secure it by lifting the mortgage from the Bank. However, the owner may sell this mortgaged property to another player at any agreed price. If you are the new owner, you may lift the mortgage at once if you wish by paying off the mortgage plus 10% interest to the Bank. If the mortgage if not lifted at once, you must pay the Bank 10% interest when you buy the property and if you lift the mortgage later you must pay the Bank an additional 10% interest as well as the amount of the mortgage.

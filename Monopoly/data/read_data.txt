@@ -1,0 +1,41 @@
+--------------------Configuration: <Default>--------------------
+Name: Go Start Color: NA Location: 1 Cost: 2000 Rent: 8192
+Name: Mediterranean Avenue Color: Navy Location: 2 Cost: 60 Rent: 2
+Name: Community Chest Color: NA Location: 3 Cost: 8192 Rent: 8192
+Name: Baltic Avenue Color: Navy Location: 4 Cost: 60 Rent: 4
+Name: Income Tax Color: NA Location: 5 Cost: 200 Rent: 8192
+Name: Reading Railroad Color: NA Location: 6 Cost: 200 Rent: 8192
+Name: Oriental Avenue Color: Purple Location: 7 Cost: 100 Rent: 6
+Name: Chance Color: NA Location: 8 Cost: 8192 Rent: 8192
+Name: Vermont Avenue Color: Purple Location: 9 Cost: 100 Rent: 6
+Name: Connecticut Avenue Color: Purple Location: 10 Cost: 120 Rent: 8
+Name: Just Visiting Color: NA Location: 11 Cost: 8192 Rent: 8192
+Name: St. Charles Place Color: Pink Location: 12 Cost: 140 Rent: 10
+Name: Electric Company Color: NA Location: 13 Cost: 8192 Rent: 8192
+Name: States Avenue Color: Pink Location: 14 Cost: 140 Rent: 10
+Name: Virginia Avenue Color: Pink Location: 15 Cost: 160 Rent: 12
+Name: Pennsylvania Railroad Color: NA Location: 16 Cost: 8192 Rent: 8192
+Name: St. James Place Color: Orange Location: 17 Cost: 180 Rent: 14
+Name: Community Chest Color: NA Location: 18 Cost: 8192 Rent: 8192
+Name: Tennessee Avenue Color: Orange Location: 19 Cost: 180 Rent: 14
+Name: New York Avenue Color: Orange Location: 20 Cost: 200 Rent: 16
+Name: Free Parking Color: NA Location: 21 Cost: 8192 Rent: 8192
+Name: Kentucky Avenue Color: Red Location: 22 Cost: 220 Rent: 18
+Name: Chance Color: NA Location: 23 Cost: 8192 Rent: 8192
+Name: Indiana Avenue Color: Red Location: 24 Cost: 220 Rent: 18
+Name: Illinois Avenue Color: Red Location: 25 Cost: 240 Rent: 20
+Name: B and O Railroad Color: NA Location: 26 Cost: 200 Rent: 8192
+Name: Atlantic Avenue Color: Yellow Location: 27 Cost: 260 Rent: 22
+Name: Ventnor Avenue Color: Yellow Location: 28 Cost: 260 Rent: 22
+Name: Water Works Color: NA Location: 29 Cost: 150 Rent: 8192
+Name: Marvin Gardens Color: Yellow Location: 30 Cost: 280 Rent: 22
+Name: Go to Jail Color: NA Location: 31 Cost: 8192 Rent: 8192
+Name: Pacific Avenue Color: Green Location: 32 Cost: 300 Rent: 26
+Name: North Caroli88888 Avenue Color: Green Location: 33 Cost: 300 Rent: 26
+Name: Community Chest Color: NA Location: 34 Cost: 8192 Rent: 8192
+Name: Pennsylvania Avenue Color: Green Location: 35 Cost: 320 Rent: 28
+Name: Short Line Color: NA Location: 36 Cost: 200 Rent: 8192
+Name: Chance Color: NA Location: 37 Cost: 8192 Rent: 8192
+Name: Park Place Color: Blue Location: 38 Cost: 350 Rent: 35
+Name: Luxury Tax Color: NA Location: 39 Cost: 200 Rent: 8192
+Name: Boardwalk Color: Blue Location: 40 Cost: 400 Rent: 50

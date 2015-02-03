@@ -1,0 +1,146 @@
+Name
+Position
+Price
+Rent
+Group
+
+Mediterranean Avenue
+2
+60
+2
+Purple
+Baltic Avenue
+4
+60
+4
+Purple
+Oriental Avenue
+7
+100
+6
+Light-Green
+Vermont Avenue
+9
+100
+6
+Light-Green
+Connecticut Avenue
+10
+120
+8
+Light-Green
+St. Charles Place
+12
+140
+10
+Violet
+States Avenue
+14
+140
+10
+Violet
+Virginia Avenue
+15
+160
+12
+Violet
+St. James Place
+17
+180
+14
+Orange
+Tennessee Avenue
+19
+180
+14
+Orange
+New York Avenue
+20
+200
+16
+Orange
+Kentucky Avenue
+22
+220
+18
+Red
+Indiana Avenue
+24
+220
+18
+Red
+Illinois Avenue
+25
+240
+20
+Red
+Atlantic Avenue
+27
+260
+22
+Yellow
+Ventnor Avenue
+28
+260
+22
+Yellow
+Marvin Gardens
+30
+280
+22
+Yellow
+Pacific Avenue
+32
+300
+26
+Dark-Green
+North Carolina Avenue
+33
+300
+26
+Dark-Green
+Pennsylvania Avenue
+35
+320
+28
+Dark-Green
+Park Place
+38
+350
+35
+Dark-Blue
+Boardwalk
+40
+400
+50
+Dark-Blue
+Electric Company
+13
+150
+*
+Utilities
+Water Works
+29
+150
+*
+Utilities
+Reading Railroad
+6
+200
+**
+Railroad
+Pennsylvania Railroad
+16
+200
+**
+Railroad
+B. & O. Railroad
+26
+200
+**
+Railroad
+Short Line Railroad
+36
+200
+**
+Railroad

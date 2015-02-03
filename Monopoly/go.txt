@@ -1,0 +1,5 @@
+MONOPOLY Game Board - "Go"
+
+Each time a player's MONOPOLY token lands on or passes over "GO", whether by throw of the dice or by drawing a card, the Banker pays him $200 salary.
+
+However, $200 is paid only once each time around the game board. If a player, passing "GO" on the throw of the dice, lands 2 spaces beyond it on "Community Chest", or 7 spaces beyond it on "Chance", and draws the card "Advance to GO", he collects $200 for passing "GO" the first time and another $200 for reaching it the second time by instructions on the card.
