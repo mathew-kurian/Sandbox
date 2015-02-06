@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	<topMargin>140</topMargin>
+	<bottomMargin>50</bottomMargin>
+	<!--
+		alignX Options 
+		The alignX is the distance from the left your page will start
+		Static X    				  eg.  <alignX>175</alignX>      	(this will make your content start 175 pixels from the left)
+		Left aligned X    	  eg.  <alignX>left</alignX>    		(this will make your content be left aligned)
+		Center aligned X      eg.  <alignX>center</alignX>  		(this will make your content be centered)
+		Right aligned X    	  eg.  <alignX>right</alignX>			(this will make your content be right aligned)
+	-->
+	<alignX>center</alignX><!--Horizontal Alignment-->
+	<!--
+		alignY Options 
+		The alignY is the distance from the top your page will start
+		Static Y    				  eg.  <alignY>175</alignY>      	(this will make your content start 175 pixels from the top)
+		Top aligned Y    	  	eg.  <alignY>top</alignY>     	(this will make your content be aligned vertically under the topMargin)
+		Bottom aligned Y      eg.  <alignY>bottom<alignY>   	(this will make your content be aligned vertically and sit on the bottomMargin)
+		Center aligned Y    	eg.  <alignY>center<alignY>			(this will make your content be aligned vertically between the topMargin and bottomMargin)
+	-->
+	<alignY>center</alignY><!-- Vertical Alignment-->
+	
+	
+	<contentWidth>973</contentWidth>
+	<contentHeight>2075</contentHeight>
+	<contentBgColor>0x0c0c0c</contentBgColor>
+	<contentBgOpacity>0</contentBgOpacity>
+	
+	
+	<useHoverScroll>false</useHoverScroll>
+	<useManualScroll>true</useManualScroll>
+	
+	<!-- 	These settings apply 
+				if useManualScroll is true 
+				and useHoverScroll is false   -->
+	<scrollBarWidth>15</scrollBarWidth>
+	<scrollBarHeight>200</scrollBarHeight>
+	<scrollBaseColor>0x000000</scrollBaseColor>
+	<addTiledPatternToScrollBase>false</addTiledPatternToScrollBase>
+	<patternUrl>site_images/patterns/edgePattern.png</patternUrl>
+	<scrollBaseOpacity>.5</scrollBaseOpacity>
+	<scrollerColor>0xC20800</scrollerColor>
+	<scrollerOpacity>1</scrollerOpacity>
+	
+	<!-- End of Scroll Bar Features -->
+	
+	<!-- Used for pop up content -->
+		<dimWallPaperColor>0xffffff</dimWallPaperColor>
+		<dimWallPaperAlpha>.85</dimWallPaperAlpha>
+		<!-- set the size of the font used in the image preloader -->
+		<preloaderTextSize>140</preloaderTextSize>
+		<!-- set the color of the font used in the image preloader -->
+		<preloaderTextColor>0xC20800</preloaderTextColor>
+		<!-- set the opacity of the font used in the image preloader -->
+		<preloaderTextOpacity>1</preloaderTextOpacity>
+		
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>true</displayHtmlArticles>
+	<displaySlideShow>false</displaySlideShow>
+	<displaySWF>false</displaySWF>
+	
+	
+	
+	
+<image>
+	<x>0</x>
+	<y>0</y>
+	<imageURL>site_images/pages/services/bg1.png</imageURL>	
+</image>
+<image>
+	<x>0</x>
+	<y>431</y>
+	<imageURL>site_images/pages/services/bg2.png</imageURL>
+</image>
+<image>
+	<x>0</x>
+	<y>862</y>
+	<imageURL>site_images/pages/services/bg3.png</imageURL>
+</image>
+<image>
+	<x>0</x>
+	<y>1293</y>
+	<imageURL>site_images/pages/services/bg4.png</imageURL>
+</image>
+<image>
+	<x>0</x>
+	<y>1724</y>
+	<imageURL>site_images/pages/services/bg5.png</imageURL>
+</image>
+
+<image>
+	<x>0</x>
+	<y>0</y>
+	<imageURL>site_images/pages/services/mk_p.jpg</imageURL>
+</image>
+
+<image>
+	<x>504</x>
+	<y>32</y>
+	<imageURL>site_images/pages/services/mk.png</imageURL>
+</image>
+<image>
+	<x>510</x>
+	<y>68</y>
+	<imageURL>site_images/pages/services/mk_d.png</imageURL>
+</image>
+<article>
+	<x>510</x>
+	<y>108</y>
+	<width>425</width>
+	<articleText><![CDATA[<p class="leading2">Hey guys! My name is Mathew Kurian. To begin with, I partake in a variety of activities including FBLA, Mu Alpha Theta, NHS, NSHS, and the Varsity Speech and Debate Team. One of my favorite pastimes is playing tennis and so I have been playing in the USTA League Tennis here in Houston. I also enjoy spending time with my family. And I also enjoy graphics and web desiging  and programming. During my current junior year, I found myself busy with school work and other extracurricular that I hardly ever have time to do the one thing I love to do: humanitarian work. So, Naman Modi (below) and I decided to start this association as a means to which we, the students of Seven Lakes High School, can extend our reach to the communities here in Katy as well as the world itself. (Please don’t hesitate to email me with any questions, concerns, or critiques regarding the website or anything else. My email is bluejamesbond@gmail.com or just go to  <a href="event:CONTACT">CONTACT</a>)</p>]]></articleText>
+</article>
+
+
+<image>
+	<x>0</x>
+	<y>431</y>
+	<imageURL>site_images/pages/services/nm_p.jpg</imageURL>
+</image>
+<image>
+	<x>504</x>
+	<y>463</y>
+	<imageURL>site_images/pages/services/nm.png</imageURL>
+</image>
+<image>
+	<x>510</x>
+	<y>499</y>
+	<imageURL>site_images/pages/services/nm_d.png</imageURL>
+</image>
+<article>
+	<x>510</x>
+	<y>540</y>
+	<width>425</width>
+	<articleText><![CDATA[<p class="leading2">Hey Guys! My name is Naman Modi and I'm a junior at Seven Lakes High School. Along with regular coursework, I participate in NHS, NSHS, Mu Alpha Theta, SOS and Chess Club. For the last 8 years I have dedicated myself in the art of music and trumpet-playing. As a member of the Wind Symphony at Seven Lakes High School for the last 3 years, I have not only enjoyed working with my fellow classmates but also have become part of the Leadership Team to help my colleagues. One day last year I started thinking about what key ingredient was missing from my high school recipe. Academics and extracurricular activities were no concern of mine, and volunteering was not a concern of mine as well. Volunteering at carnivals and the textbook is no doubt beneficial, but I wanted to do something for the people, something that would help people that are needy in this community and in the world. So we decided to create an association for the betterment of the society and to help those who are restricted by unfortunate circumstances.</p>]]></articleText>
+</article>
+<image>
+	<x>0</x>
+	<y>862</y>
+	<imageURL>site_images/pages/services/pv_p.jpg</imageURL>
+</image>
+<image>
+	<x>504</x>
+	<y>894</y>
+	<imageURL>site_images/pages/services/pv.png</imageURL>
+</image>
+<image>
+	<x>510</x>
+	<y>930</y>
+	<imageURL>site_images/pages/services/pv_d.png</imageURL>
+</image>
+<article>
+	<x>510</x>
+	<y>971</y>
+	<width>425</width>
+
+	<articleText><![CDATA[<p class="leading2">Hello, my name is Parth Vyas and I am currently a junior at Seven Lakes High School. Some of my hobbies include playing tennis for our Junior Varsity tennis team, participating in various school activities and relaxing with friends and family on the weekends. I also play an Indian classical instrument called the Tabla and have been doing so for the past 7 years. One thing that truly interests me, however, is being involved in my community. Helping the less fortunate has always been a passion of mine and I have participated in many volunteer events that promotes just that. For example, I actively volunteer at an organization called Project C.U.R.E. which helps donate medical supplies to third world countries. By becoming part of this organization, I hope to reach out to the community in a multitude of ways.</p>]]></articleText>
+</article>
+
+<image>
+	<x>0</x>
+	<y>1293</y>
+	<imageURL>site_images/pages/services/am_p.jpg</imageURL>
+</image>
+<image>
+	<x>504</x>
+	<y>1325</y>
+	<imageURL>site_images/pages/services/am.png</imageURL>
+</image>
+<image>
+	<x>510</x>
+	<y>1361</y>
+	<imageURL>site_images/pages/services/am_d.png</imageURL>
+</image>
+<article>
+	<x>510</x>
+	<y>1402</y>
+	<width>425</width>
+
+	<articleText><![CDATA[<p class="leading2">Hi!! My name is Aggie Migut and I am a junior at Seven Lakes High School. I am in NHS, SOS, NSHS, and FBLA, but in general I just like to learn. I enjoy spending time with family and friends, playing basketball, reading, and rapping J I have played basketball for 8 years, but quit playing competitively after freshman year. I joined the cross country team sophomore year and realized how much I enjoy running also. Overall, I just love exercise and being healthy. And pertaining to this club, I have wanted to be in the medical field ever since I was 3 or 4 years old; even though it sounds cliché, I want to help other people and make a difference wherever I can. I also plan on going to Haiti this summer to help the Haitians to rebuild their community.
+</p>]]></articleText>
+</article>
+<image>
+	<x>0</x>
+	<y>1724</y>
+	<imageURL>site_images/pages/services/tp_p.jpg</imageURL>
+</image>
+<image>
+	<x>504</x>
+	<y>1756</y>
+	<imageURL>site_images/pages/services/tp.png</imageURL>
+</image>
+<image>
+	<x>510</x>
+	<y>1792</y>
+	<imageURL>site_images/pages/services/tp_d.png</imageURL>
+</image>
+<article>
+	<x>510</x>
+	<y>1833</y>
+	<width>425</width>
+
+	<articleText><![CDATA[<p class="leading2">Hi. My name is Tiraj Parikh, and I am a sophmore at Seven Lakes High School. I am currently a part of the speech and debate team, HOSA, FBLA, Mu Alpha Theta, Academic Octathalon, NHS, NSHS, and SOS. I enjoy spending time with my family and friends, and playing uncompetetive golf, tennis, and basketball. Out of school, I spend a large amount of my time volunteering and tutoring. I am in this association, for the reason that i enjoy making a difference in our world, and would like to help out those who need it. There are billions of people in our world, and we ought to make life fair and just for all of them. I am also a part of many orginizations which serve the same purpose. One example includes ProjectCURE, an orginization which packages and ships out medical supplies donated from hospitals to third world countries.</p>]]></articleText>
+</article>
+				
+
+</xmlObject>

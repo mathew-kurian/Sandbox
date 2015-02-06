@@ -1,0 +1,76 @@
+video_gallery.xml
+
+-----------------------------------------------
+How do I add my videos?
+-----------------------------------------------
+
+Encode your videos in the .flv format. Save your flv's inside the flv folder.
+Open video_gallery.xml in Notepad or Dreamveaver. In the xml go to the lgimage attribute for each node and update the path.
+
+Example:
+  	
+lgimage="flv/top_of_the_town_preview.flv"
+
+-----------------------------------------------
+How do I add my thumbnail images?
+-----------------------------------------------
+
+Make your images 166 wide x 166 high. Save your images inside images/video_gallery/thumbs folder.
+In the xml go to the thumb attribute for each node and update the path.
+
+Example:
+
+thumb="images/video_gallery/thumbs/thumb1.jpg"
+
+--------------------------------------------------
+How do I edit the description text for each image?
+--------------------------------------------------
+
+For each node go to the description tag, and edit the text between the <![CDATA[ ]]> tags.
+
+Example:
+
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+
+You can use html tags to change color, font size, add links etc. If you change font sizes I suggest changing the dynamic text field from bitmap to anti-alias for readability and use a non pixel font, otherwise you will get blurry text.
+
+--------------------------------------------------
+How do I add more videos?
+--------------------------------------------------
+
+To add more videos simply add more videoData nodes.
+
+Example:
+
+<videoData thumb="images/video_gallery/thumbs/thumb1.jpg" lgimage="flv/top_of_the_town_preview.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+To remove videos simply remove videoData nodes.
+
+--------------------------------------------------
+How do I change the preloader color?
+--------------------------------------------------
+
+Go to the preloaderColor attribute and edit the color value.
+
+Example:
+
+preloaderColor = "0xffff00"
+
+--------------------------------------------------
+How do I change the scrub bar and volume bar color?
+--------------------------------------------------
+
+Go to the scrubColor attribute and edit the color value.
+
+Example:
+
+scrubColor = "0xffff00"
+
+--------------------------------------------------
+Note
+--------------------------------------------------
+
+The video gallery can also be a combination of video and images. To add images simply change the attribute image_movie="video" to image_movie="image". Then for the lgimage attribute change the path to your image instead of video.
+

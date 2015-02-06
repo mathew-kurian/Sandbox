@@ -1,0 +1,5 @@
+<flash_project name="~preview" version="1">
+    <project_file path="./~preview.fla" filetype="fla" profile="" />
+    <project_file path="./.\colorwheelPreloader_fla\MainTimeline.as" filetype="as" />
+    <project_file path="./.\colorwheelPreloader_fla\statusText_1.as" filetype="as" />
+</flash_project>

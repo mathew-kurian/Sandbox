@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Album3>
+	<gallery>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery3/1_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery3/1_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>COLD WINTER</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery3/2_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery3/2_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>MOUNTAIN PEAKS</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery3/3_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery3/3_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>RAIN DROPPING</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery3/4_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery3/4_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>SKI LODGE</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery3/5_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery3/5_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>SET SAIL</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery3/6_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery3/6_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>BREAKING IN</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery3/7_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery3/7_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>TROPHY WINNER</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery3/9_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery3/9_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>NEW SUIT</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery3/10_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery3/10_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>PINE COMB</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery3/11_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery3/11_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>TOMB ENTRANCE</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery3/12_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery3/12_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>INTERIOR DESIGN</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery3/13_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery3/13_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>3D Architecture</thumbCaption>
+		</image>
+	</gallery>
+</Album3>

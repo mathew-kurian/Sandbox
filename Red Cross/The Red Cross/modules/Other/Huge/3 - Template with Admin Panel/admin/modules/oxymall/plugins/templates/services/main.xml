@@ -1,0 +1,55 @@
+<!--S:Main-->
+<Services>
+	<settings>
+		<imageWidth>{SET_IMAGEWIDTH}</imageWidth>
+		<imageHeight>{SET_IMAGEHEIGHT}</imageHeight>
+		<slideshowInterval>{SET_SLIDESHOWINTERVAL}</slideshowInterval>
+		<fadeInAnimationTime>{SET_FADEINANIMATIONTIME}</fadeInAnimationTime>
+		<dafeInAnimationType>{SET_FADEINANIMATIONTYPE}</dafeInAnimationType>
+		<textHeight>{SET_TEXTHEIGHT}</textHeight>
+	</settings>
+
+	<content title="{MOD_TITLE}" urlTitle="{MOD_URLTITLE}" url="/{MOD_URL}">
+		{ITEMS}
+	</content>
+
+</Services>
+<!--E:Main-->
+
+
+<!--S:CatsGroup-->	
+		{DATA}
+<!--E:CatsGroup-->
+
+<!--S:CatsGroupEmpty-->
+
+<!--E:CatsGroupEmpty-->
+
+<!--S:CatsElement-->
+		<button title="{CAT_TITLE}" urlTitle="{CAT_URLTITLE}" url="/{CAT_URL}-{CAT_ID}/">
+			<description><![CDATA[{CAT_DESCRIPTION}]]></description>
+			{ITEMS}
+		</button>
+<!--E:CatsElement-->
+
+<!--S:CatsEmpty-->
+
+<!--E:CatsEmpty-->
+
+<!--S:ItemsGroup-->
+			<items>
+		{DATA}
+			</items>
+<!--E:ItemsGroup-->
+
+<!--S:ItemsGroupEmpty-->
+
+<!--E:ItemsGroupEmpty-->
+
+<!--S:ItemsElement-->
+			<item src="../../services/{ITEM_ID}.jpg" />
+<!--E:ItemsElement-->
+
+<!--S:ItemsEmpty-->
+
+<!--E:ItemsEmpty-->

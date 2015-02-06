@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	
+	<speed>5000</speed><!-- Time in milliseconds 5000 = 5 seconds -->
+	<width>885</width>
+	<height>350</height>
+	
+	<displayInfoText>false</displayInfoText>
+	
+	<displayButtons>true</displayButtons>
+	
+	<hoverTextBgColor>0xffffff</hoverTextBgColor>
+	<hoverTextBgOpacity>.55</hoverTextBgOpacity>
+	<hoverTextBgHeight>62</hoverTextBgHeight>
+	
+	<buttonBgColor>0x545454</buttonBgColor>
+	<buttonBgColorOpacity>0</buttonBgColorOpacity>
+	<buttonTextColor>0xcfcfcf</buttonTextColor>
+	<buttonSelBgColor>0x00b7dc</buttonSelBgColor>
+	<buttonSelBgColorOpacity>0</buttonSelBgColorOpacity>
+	<buttonSelTextColor>0x00b7dc</buttonSelTextColor>
+	
+	<slide>
+		<url>site_images/pages/home/slide1.gif</url>
+		<ImageTitle><![CDATA[<h1>Enable / Disable</h1><p>This Information Text from XML</p>]]></ImageTitle>
+	</slide>
+	<slide>
+		<url>site_images/pages/home/slide2.gif</url>
+		<ImageTitle><![CDATA[<h1>Enable / Disable</h1><p>This Information Text from XML</p>]]></ImageTitle>
+	</slide>
+	<slide>
+		<url>site_images/pages/home/slide3.gif</url>
+		<ImageTitle><![CDATA[<h1>Enable / Disable</h1><p>This Information Text from XML</p>]]></ImageTitle>
+	</slide>
+	<slide>
+		<url>site_images/pages/home/slide4.gif</url>
+		<ImageTitle><![CDATA[<h1>Enable / Disable</h1><p>This Information Text from XML</p>]]></ImageTitle>
+	</slide>
+	<slide>
+		<url>site_images/pages/home/slide5.gif</url>
+		<ImageTitle><![CDATA[<h1>Enable / Disable</h1><p>This Information Text from XML</p>]]></ImageTitle>
+	</slide>
+	<slide>
+		<url>site_images/pages/home/slide6.gif</url>
+		<ImageTitle><![CDATA[<h1>Enable / Disable</h1><p>This Information Text from XML</p>]]></ImageTitle>
+	</slide>
+	<slide>
+		<url>site_images/pages/home/slide7.gif</url>
+		<ImageTitle><![CDATA[<h1>Enable / Disable</h1><p>This Information Text from XML</p>]]></ImageTitle>
+	</slide>
+	<slide>
+		<url>site_images/pages/home/slide8.gif</url>
+		<ImageTitle><![CDATA[<h1>Enable / Disable</h1><p>This Information Text from XML</p>]]></ImageTitle>
+	</slide>
+</xmlObject>
+
+
+			

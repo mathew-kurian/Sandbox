@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+  <name>TP Box Office</name>
+  <author>TemplatePlazza.com</author>
+	<creationDate>Desember 2009</creationDate>
+	<copyright>Copyright (C) 2009 - Present. www.templateplazza.com. All rights reserved.</copyright>
+	<authorEmail>info@templateplazza.com</authorEmail>
+	<authorUrl>www.templateplazza.com</authorUrl>
+  <version>1.0.0</version>
+  <description></description>
+  <files>
+    <filename>mod_tpboxoffice.xml</filename>
+    <filename module="mod_tpboxoffice">mod_tpboxoffice.php</filename>
+    <filename module="mod_tpboxoffice">helper.php</filename>
+    <filename module="mod_tpboxoffice">index.html</filename>
+    <folder>tmpl</folder>
+    <folder>assets</folder>
+  </files>
+  <params>
+		<param name="toggle" type="radio" default="1" label="Use Toggle" description="">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+         <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="@spacer" type="spacer" default="---- ITEM 1 ----" label="" description="" />
+		<param name="icon1" type="imagelist" default="" label="Icon" description="" directory="modules/mod_tpboxoffice/assets/images/" exclude="" stripext="" />
+		<param name="title1" type="text" default="" label="Title" description="" />
+		<param name="url1" type="text" default="" label="URL" description="" />
+		<param name="revenue1" type="text" default="" label="Revenue" description="" />
+		<param name="order1" type="text" default="1" label="Ordering" description="" />
+
+		<param name="@spacer" type="spacer" default="---- ITEM 2 ----" label="" description="" />
+		<param name="icon2" type="imagelist" default="" label="Icon" description="" directory="modules/mod_tpboxoffice/assets/images/" exclude="" stripext="" />
+		<param name="title2" type="text" default="" label="Title" description="" />
+		<param name="url2" type="text" default="" label="URL" description="" />
+		<param name="revenue2" type="text" default="" label="Revenue" description="" />
+		<param name="order2" type="text" default="2" label="Ordering" description="" />
+
+		<param name="@spacer" type="spacer" default="---- ITEM 3 ----" label="" description="" />
+		<param name="icon3" type="imagelist" default="" label="Icon" description="" directory="modules/mod_tpboxoffice/assets/images/" exclude="" stripext="" />
+		<param name="title3" type="text" default="" label="Title" description="" />
+		<param name="url3" type="text" default="" label="URL" description="" />
+		<param name="revenue3" type="text" default="" label="Revenue" description="" />
+		<param name="order3" type="text" default="3" label="Ordering" description="" />
+
+		<param name="@spacer" type="spacer" default="---- ITEM 4 ----" label="" description="" />
+		<param name="icon4" type="imagelist" default="" label="Icon" description="" directory="modules/mod_tpboxoffice/assets/images/" exclude="" stripext="" />
+		<param name="title4" type="text" default="" label="Title" description="" />
+		<param name="url4" type="text" default="" label="URL" description="" />
+		<param name="revenue4" type="text" default="" label="Revenue" description="" />
+		<param name="order4" type="text" default="4" label="Ordering" description="" />
+
+		<param name="@spacer" type="spacer" default="---- ITEM 5 ----" label="" description="" />
+		<param name="icon5" type="imagelist" default="" label="Icon" description="" directory="modules/mod_tpboxoffice/assets/images/" exclude="" stripext="" />
+		<param name="title5" type="text" default="" label="Title" description="" />
+		<param name="url5" type="text" default="" label="URL" description="" />
+		<param name="revenue5" type="text" default="" label="Revenue" description="" />
+		<param name="order5" type="text" default="5" label="Ordering" description="" />
+
+		<param name="@spacer" type="spacer" default="---- ITEM 6 ----" label="" description="" />
+		<param name="icon6" type="imagelist" default="" label="Icon" description="" directory="modules/mod_tpboxoffice/assets/images/" exclude="" stripext="" />
+		<param name="title6" type="text" default="" label="Title" description="" />
+		<param name="url6" type="text" default="" label="URL" description="" />
+		<param name="revenue6" type="text" default="" label="Revenue" description="" />
+		<param name="order6" type="text" default="6" label="Ordering" description="" />
+
+		<param name="@spacer" type="spacer" default="---- ITEM 7 ----" label="" description="" />
+		<param name="icon7" type="imagelist" default="" label="Icon" description="" directory="modules/mod_tpboxoffice/assets/images/" exclude="" stripext="" />
+		<param name="title7" type="text" default="" label="Title" description="" />
+		<param name="url7" type="text" default="" label="URL" description="" />
+		<param name="revenue7" type="text" default="" label="Revenue" description="" />
+		<param name="order7" type="text" default="7" label="Ordering" description="" />
+
+		<param name="@spacer" type="spacer" default="---- ITEM 8 ----" label="" description="" />
+		<param name="icon8" type="imagelist" default="" label="Icon" description="" directory="modules/mod_tpboxoffice/assets/images/" exclude="" stripext="" />
+		<param name="title8" type="text" default="" label="Title" description="" />
+		<param name="url8" type="text" default="" label="URL" description="" />
+		<param name="revenue8" type="text" default="" label="Revenue" description="" />
+		<param name="order8" type="text" default="8" label="Ordering" description="" />
+
+		<param name="@spacer" type="spacer" default="---- ITEM 9 ----" label="" description="" />
+		<param name="icon9" type="imagelist" default="" label="Icon" description="" directory="modules/mod_tpboxoffice/assets/images/" exclude="" stripext="" />
+		<param name="title9" type="text" default="" label="Title" description="" />
+		<param name="url9" type="text" default="" label="URL" description="" />
+		<param name="revenue9" type="text" default="" label="Revenue" description="" />
+		<param name="order9" type="text" default="9" label="Ordering" description="" />
+
+		<param name="@spacer" type="spacer" default="---- ITEM 10 ----" label="" description="" />
+		<param name="icon10" type="imagelist" default="" label="Icon" description="" directory="modules/mod_tpboxoffice/assets/images/" exclude="" stripext="" />
+		<param name="title10" type="text" default="" label="Title" description="" />
+		<param name="url10" type="text" default="" label="URL" description="" />
+		<param name="revenue10" type="text" default="" label="Revenue" description="" />
+		<param name="order10" type="text" default="10" label="Ordering" description="" />
+  </params>
+</install>

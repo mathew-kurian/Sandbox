@@ -1,0 +1,35 @@
+track.xml
+
+-----------------------------------------
+How do I change the music track?
+-----------------------------------------
+Save your mp3 track inside the "track folder. Open "track.xml" and update the path.
+
+Example:
+
+<trackData>
+
+<track 
+       loop = "true"
+       btnColor = "0xffff00"
+       >track/solidbeats_clear_blue_skies.mp3</track>
+
+</trackData>
+
+-----------------------------------------
+How do I turn looping on or off?
+-----------------------------------------
+Change the attribute loop in the xml to true or false.
+
+Example:
+
+       loop = "true"
+
+-----------------------------------------
+How do I change the color?
+-----------------------------------------
+Change the attribute btnColor in the xml to your new hexidecimal color value.
+
+Example:
+
+       btnColor = "0x00CCff"

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	<topMargin>140</topMargin>
+	<bottomMargin>50</bottomMargin>
+	<!--
+		alignX Options 
+		The alignX is the distance from the left your page will start
+		Static X    				  eg.  <alignX>175</alignX>      		(this will make your content start 175 pixels from the left)
+		Left aligned X    	  eg.  <alignX>left</alignX>    		(this will make your content be left aligned)
+		Center aligned X      eg.  <alignX>center</alignX>  		(this will make your content be centered)
+		Right aligned X    	  eg.  <alignX>right</alignX>				(this will make your content be right aligned)
+	-->
+	<alignX>center</alignX><!--Horizontal Alignment-->
+	<!--
+		alignY Options 
+		The alignY is the distance from the top your page will start
+		Static Y    				  eg.  <alignY>175</alignY>      		(this will make your content start 175 pixels from the top)
+		Top aligned Y    	  	eg.  <alignY>top</alignY>     		(this will make your content be aligned vertically under the topMargin)
+		Bottom aligned Y      eg.  <alignY>bottom<alignY>   		(this will make your content be aligned vertically and sit on the bottomMargin)
+		Center aligned Y    	eg.  <alignY>center<alignY>				(this will make your content be aligned vertically between the topMargin and bottomMargin)
+	-->
+	<alignY>center</alignY><!-- Vertical Alignment-->
+	
+	
+	<!--Set your content pages width / height / color and opacity here -->
+	<contentWidth>709</contentWidth>
+	<contentHeight>1785</contentHeight>
+	<contentBgColor>0x0c0c0c</contentBgColor>
+	<contentBgOpacity>0.6</contentBgOpacity>
+	
+	<!-- Select the type of scrolling to use -->
+	<useHoverScroll>false</useHoverScroll>
+	<useManualScroll>true</useManualScroll>
+	
+	
+	<!-- Skin Your Scroll Bar Features  *these settings apply if useManualScroll is true and useHoverScroll is false-->
+	<scrollBarWidth>15</scrollBarWidth>
+	<scrollBarHeight>200</scrollBarHeight>
+	<scrollBaseColor>0x000000</scrollBaseColor>
+	<addTiledPatternToScrollBase>true</addTiledPatternToScrollBase>
+	<patternUrl>site_images/patterns/edgePattern.png</patternUrl>
+	<scrollBaseOpacity>0.5</scrollBaseOpacity>
+	<scrollerColor>0xC20800</scrollerColor>
+	<scrollerOpacity>1</scrollerOpacity>
+	<!-- End of Scroll Bar Features -->
+	
+	
+	<!-- Used for pop up content -->
+	<dimWallPaperColor>#000000</dimWallPaperColor>
+	<dimWallPaperAlpha>.6</dimWallPaperAlpha>
+	<!-- set the size of the font used in the image preloader -->
+	<preloaderTextSize>140</preloaderTextSize>
+	<!-- set the color of the font used in the image preloader -->
+	<preloaderTextColor>0xC20800</preloaderTextColor>
+	<!-- set the opacity of the font used in the image preloader -->
+	<preloaderTextOpacity>1</preloaderTextOpacity>
+
+
+
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>true</displayHtmlArticles>
+	<displaySlideShow>false</displaySlideShow>
+	<displaySWF>false</displaySWF>
+	
+	
+	<!--Opening Image and article-->
+	<image>
+		<x>40</x>
+		<y>40</y>
+		<imageURL>site_images/pages/layout3/layout3_05.jpg</imageURL>
+		<addSuperSizedImagePopUp>true</addSuperSizedImagePopUp>
+		<superSizedImageUrl>site_images/pages/layout3/layout3_05_enlarged.jpg</superSizedImageUrl>
+	</image>
+	<image>
+		<x>40</x>
+		<y>313</y>
+		<imageURL>site_images/pages/layout3/layout3_08.png</imageURL>
+	</image>
+	<image>
+		<x>40</x>
+		<y>428</y>
+		<imageURL>site_images/pages/layout3/layout3_11.png</imageURL>
+	</image>
+	<article>
+		<x>40</x>
+		<y>474</y>
+		<width>629</width>
+		<articleText><![CDATA[<p>Red Cross is an internationally- connected foundation, which works for the general welfare of all. In 1864, Jean- Henri Dunant worked to this organization as a relief society for all. Through his efforts, Dunant received the Nobel Peace Prize in 1901, with the Red Cross following in 1917, 1944, 1963. The name Red Crescent, adopted in 1906 at the insistence of the Ottoman Empire, is used in Muslim countries. Originally purposed for a battlefield hospital, Red Cross has now expanded beyond casualty care into more wider categories such as prevention of human suffering. Red Cross operates in a duality of both peacetime and wartime. In wartime, it mediates with POW camps to provide relief and assist the prisoners. Its peacetime methods include aiding victims of disasters, maintaining blood banks, and providing complementary health care. Its mission includes the service of humanity, impartiality, and neutrality. Through their central hub in Genva, Red Cross continues to provide benevolent aid through national organization running subsidiary community programs.
+Clara Barton, "Lady of the Light", found Red Cross in 1881; Congress chartered it in 1900. It runs the world's largest donor service. Ever since WWII, Red Cross has greatly expanded into many areas. Many countries such as Hungary, Somalia, Rwanda owe the Red Cross for extensive refuge shelter and mediating for ethnic conflicts around the world. For example, during the Korean War, the International Red Cross mediated the first exchange of prisoners and sick combatants. Many people, who have suffered from natural disasters, around the world have been aided in great lengths with Red Cross.</p>]]></articleText>
+	</article>
+
+	<!--Spots-->
+	<image>
+		<x>327</x>
+		<y>934</y>
+		<imageURL>site_images/pages/layout3/layout3_p2_07.gif</imageURL>
+		<addSuperSizedImagePopUp>true</addSuperSizedImagePopUp>
+		<superSizedImageUrl>site_images/pages/layout3/layout3_p2_07.jpg</superSizedImageUrl>
+	</image>
+	<image>
+		<x>327</x>
+		<y>1220</y>
+		<imageURL>site_images/pages/layout3/layout3_p2_23.gif</imageURL>
+		<addSuperSizedImagePopUp>true</addSuperSizedImagePopUp>
+		<superSizedImageUrl>site_images/pages/layout3/layout3_p2_23.jpg</superSizedImageUrl>
+	</image>
+	<image>
+		<x>327</x>
+		<y>1506</y>
+		<imageURL>site_images/pages/layout3/layout3_p2_15.gif</imageURL>
+		<addSuperSizedImagePopUp>true</addSuperSizedImagePopUp>
+		<superSizedImageUrl>site_images/pages/layout3/layout3_p2_15.jpg</superSizedImageUrl>
+	</image>
+	
+	<!--Events-->
+	<image>
+		<x>43</x>
+		<y>960</y>
+		<imageURL>site_images/pages/layout3/layout3_p3_07.png</imageURL>
+	</image>
+	<article>
+		<x>43</x>
+		<y>1025</y>
+		<width>210</width>
+		<articleText><![CDATA[<h1>The Birth of an Organization</h1><h2>May 21, 1881</h2><h3>Clara Barton and associates establish the American Red Cross.</h3><a href="http://www.redcross.org/museum/history/brief.asp">More Info</a>]]></articleText>
+	</article>
+	<article>
+		<x>43</x>
+		<y>1210</y>
+		<width>210</width>
+		<articleText><![CDATA[<h1>Japanese Earthquake</h1><h2>September 1, 1923</h2><h3>Red Cross aids thousands of earthquake and fire victims in Tokyo and Yokohama, Japan.</h3><a href="http://www.japan-guide.com/a/earthquake/">More Info</a>]]></articleText>
+	</article>
+	<article>
+		<x>43</x>
+		<y>1408</y>
+		<width>210</width>
+		<articleText><![CDATA[<h1>Adoption of Values</h1><h2>October 8, 1965</h2><h3>Red Cross Movement adopts its Seven Fundamental Principles: Humanity, Impartiality, Neutrality, Independence, Voluntary Service, Unity and Universality.</h3><a href="http://www.ifrc.org/what/values/principles/index.asp">More Info</a>]]></articleText>
+	</article>
+	<article>
+		<x>43</x>
+		<y>1599</y>
+		<width>210</width>
+		<articleText><![CDATA[<h1>HIV Testing</h1><h2>March 1985</h2><h3>Immediately after the Food and Drug Administration (FDA) licenses the first test to detect the antibody to HIV on March 3rd, Red Cross Blood Services regions begin testing all newly donated blood.</h3><a href="http://www.wcredcross.org/bloodmobile/qa_hivantigen.html">More Info</a>]]></articleText>
+	</article>
+
+</xmlObject>

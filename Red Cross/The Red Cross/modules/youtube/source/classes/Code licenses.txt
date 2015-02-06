@@ -1,0 +1,4 @@
+Classes used and their original sources:
+- Tweener (MIT License): http://code.google.com/p/tweener/
+- ascb library: http://www.person13.com/ascb/
+- JSON: http://json.org/

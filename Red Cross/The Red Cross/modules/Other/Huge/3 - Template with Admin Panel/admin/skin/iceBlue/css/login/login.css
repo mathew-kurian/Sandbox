@@ -1,0 +1,261 @@
+div.clear{
+	padding:0;
+	margin:0;
+	clear:both;
+}
+
+body {
+	background: repeat-x url("images/bg.gif");
+	background-position: center;
+	background-color: #3b3b3b;
+	padding: 0;
+	margin: 0;
+}
+
+#wraper {
+	height: 100%;
+	vertical-align: middle;
+}
+
+.reset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#content {
+	width: 459px;
+	height: 600px;
+	background: url("images/login-box.png");
+}
+
+#logo {
+	position: relative;
+	left: 71px;
+	top: 103px;
+	width: 317px;
+	text-align: center;
+	height: 100px;
+
+
+}
+
+#name {
+	position: relative;
+	top: 55px;
+	left: 163px;
+	font: 16px tahoma;
+	color: white;
+	font-weight: bold;
+	text-align: left;
+}
+#name span{
+	font-weight: normal;
+	font-size: 14px;
+}
+
+#form {
+	position: relative;
+	top: 152px;
+	left: 97px;
+	width: 275px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+#form span.text {
+	background: url("images/input.gif") no-repeat scroll left top;
+	height: 24px;
+	display: block;
+
+}
+
+#form input::-moz-selection{
+	background: red;
+	
+}
+
+
+
+#form span.text input{
+	width: 268px;
+	height: 24px;
+	border: 0;
+	padding-top: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: transparent;
+}
+
+
+#form .username{
+	width: 126px;
+	height: 21px;
+	font: 17px tahoma;
+	color: white;
+	background: url("images/username.gif");
+	text-indent: -5000;
+}
+
+#form .password{
+	width: 126px;
+	height: 32px;
+	font: 17px tahoma;
+	color: white;
+	background: url("images/password.gif");
+	text-indent: -5000;
+}
+
+#form div.code{
+	width: 150px;
+	height: 32px;
+	font: 17px tahoma;
+	color: white;
+	background: url("images/code.gif");
+	text-indent: -5000;
+	display: none;
+}
+
+
+#form span.code {
+	background: url("images/input-code.gif") no-repeat scroll left top;
+	height: 24px;
+	display: none;
+	floaT: left;
+	
+
+}
+
+#security{
+	display: none;
+}
+
+#form span.code input{
+	width: 149px;
+	height: 24px;
+	border: 0;
+	padding-top: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: transparent;
+}
+
+
+
+#form .submit{
+	width: 88px;
+	height: 34px;
+	background: url("images/submit.gif");
+	background-position: 0px 0px;
+	floaT: right;
+	position: relative;
+	right: 6px;
+	top: 14px;
+	border: 0;
+	cursor: pointer;
+}
+
+#form .submit:HOVER{
+	background-position: 0px 34px;
+}
+
+#form .forgot{
+	padding-top: 12px;
+	floaT: left;
+	width: 150px;
+	font: 11px verdana;
+	color: white;
+	line-height: 16px;
+}
+
+#form .forgot input{
+	position: relative;
+	top: 2px;
+
+}
+
+#form .forgot a{
+	display: block;
+	color: #88beff;
+	text-decoration: none;
+	text-indent: 24px;
+}
+
+#form .forgot a:HOVER{
+	color: #88beff;
+	text-decoration: underline;
+}
+
+#errorMsg {
+	width: 223px;
+	position: absolute;
+	padding-top: 40px;
+	z1-index: 1001;
+	display: none;
+}
+
+#errorMsg .header{
+	background: url("images/error-top.png") no-repeat;
+	height: 24px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/error-top.png", sizingMethod="scale");	
+}
+
+#errorMsg .footer{
+	background: url("images/error-bottom.png") no-repeat;
+	height: 13px;	
+}
+
+#errorContent {
+	background: url("images/error-bg.png") repeat-y;
+	width: 223px;
+	text-align: center;
+	font: 12px verdana;
+	color: #fb4d00;
+}
+
+#errorPos{
+	height: 0px;
+	position:relative;
+	left: 120px;
+	top: 50px;
+	z-index: 10021;
+}
+
+#title{
+	background: red;
+	position: relative;
+	z-index:20;
+	background: url("images/signin.gif");
+	width: 126px;
+	height: 48px;
+	top: 130px;
+	left: 166px;
+}
+
+.fullform #logo{
+	top: 93px!important;
+}
+
+.fullform #title{
+	top: 110px!important;
+}
+
+.fullform #form {
+	top: 110px!important;
+}
+
+.fullform .forgot{
+	position: relative;
+	top: -10px;
+}
+
+.fullform .submit{
+	position: relative;
+	top: 4px!important;
+}
+
+.fullform .code,
+.fullform #security{
+	display: block!important;
+}

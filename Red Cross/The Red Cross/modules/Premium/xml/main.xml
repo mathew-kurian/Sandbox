@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<content name="HOME" type="BannerPage" xml="xml/homepage.xml" showInMainMenu="true"/>
+	<content name="PHOTOGRAPHS" type="PhotoGallery" xml="xml/gallery.xml" showInMainMenu="true"/>
+	<content name="NEWS" type="NewsPage" xml="xml/news.xml" showInMainMenu="true"/>
+	<content name="PORTFOLIO" type="PortfolioPage" xml="xml/portfolio.xml" showInMainMenu="true"/>
+	<content name="ABOUT US" type="StandartPage" xml="xml/about_us.xml" showInMainMenu="true"/>
+	<content name="ALTERNATIVE CONTENT" type="StandartPage" xml="xml/testpage.xml" showInMainMenu="true"/>
+	<content name="EXTERNAL SWF" type="SWF" link="images/sample.swf" showInMainMenu="true"/>
+	<content name="CONTACT" type="ContactPage" xml="xml/contact.xml" showInMainMenu="true"/>
+	<content name="OUTGOING LINK" type="Link" link="http://www.flashden.net/user/lydian" showInMainMenu="true" target="_blank"/>
+	<content name="TEST PAGE" type="StandartPage" xml="xml/testpage.xml" showInMainMenu="false"/>
+</main>

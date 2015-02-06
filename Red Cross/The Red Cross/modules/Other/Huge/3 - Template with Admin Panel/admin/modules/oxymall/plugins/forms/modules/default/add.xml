@@ -1,0 +1,44 @@
+<form>
+	<title>{SELF.TITLE} Module Settings</title>
+	<action>{SELF.URI.STORE}</action>
+	<name>edit_cat</name>
+	<width>100%</width>
+	<alternance>true</alternance>
+	<encoding>multipart/form-data</encoding>
+
+
+	<formtag>true</formtag>
+	<border>true</border>
+	
+	<buttons>		
+		<set>
+			<header>true</header>
+		</set>
+
+
+		<button_back onclick="" button="return">
+			<location>{PRIVATE.FORM_PREVIOUS_PAGE}</location>
+		</button_back>
+
+		<button_edit onclick="" button="edit">
+			<location>{SELF.URI.EDIT}</location>
+		</button_edit>
+
+		<button_save button="saveall">
+			<location>javascript:document.forms[0].submit();</location>
+		</button_save>
+
+	</buttons>
+
+	<redirect>{PHP}?sub=accounts</redirect>
+
+	<fields>
+
+		<module_id type="hidden"/>
+		
+		<module_name type="textbox" size="60:200" title="Name" editable="false"/>
+		<module_code type="textbox" size="50:50" title="Code" editable="false"/>
+
+		<module_unique_enabled type="checkbox" checked="1" label="enabled" protected="module_unique" />
+	</fields>
+</form>

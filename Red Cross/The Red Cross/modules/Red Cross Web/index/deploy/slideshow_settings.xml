@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings
+	
+	width="590"
+	height="300"
+	
+	preloaderColor="0xffffff"
+	
+	textBackColor="0x000000"
+	textBackOpacity="50"
+	textSpeed="2"
+	
+	slideshowOn="true"
+	
+	nextButton="slideshow_assets/buttons/next.png"
+	prevButton="slideshow_assets/buttons/prev.png"
+	playButton="slideshow_assets/buttons/play.png"
+	pauseButton="slideshow_assets/buttons/pause.png"
+	
+>
+
+	<image src="slideshow_assets/photos/cockroach-other.jpg" transition="2" kenBurns="130;100;MC;MC" time="5" url="http://www.flashden.net/user/flasher3015" target="_blank"><![CDATA[<font color="#99ff00">Medicine</font><br>What if you could go to those hospitals and help the needy? But what if you were given the chance?]]></image>
+	<image src="slideshow_assets/photos/golden_clock_pointer-other.jpg" transition="1" kenBurns="100;100;TC;BC" time="5" url="http://www.flashden.net/user/flasher3015" target="_blank"><![CDATA[<font color="#ff3300">Be Part of the Story</font><br>What if you could be a part of the bigger picture?<br>What if you could be a part of that story?]]></image>
+	<image src="slideshow_assets/photos/inside_a_dandelion-other.jpg" transition="2" kenBurns="100;120;TL;BR" time="4" url="http://www.flashden.net/user/flasher3015" target="_blank"><![CDATA[<font color="#FFCC00">What if you could make one smile? What if you could?</font>]]></image>
+	<image src="slideshow_assets/photos/water_drop_on_top-other.jpg" transition="2" kenBurns="140;100;MC;MC" time="4" url="http://www.flashden.net/user/flasher3015" target="_blank"><![CDATA[<font color="#00ccff">Imagine the Possiblities</font><br>What if what you do saves a life? And thirty years from now, you can look back and feel a sense of completion.]]></image>
+	<image src="slideshow_assets/photos/yellow_flower_water_drop-other.jpg" transition="3" kenBurns="130;100;BR;MC" time="7" url="http://www.flashden.net/user/flasher3015" target="_blank"><![CDATA[<font color="#ff3300">Scuplting Clay</font><br>But what if you could scuplt the lives of men?]]></image>
+	
+</settings>

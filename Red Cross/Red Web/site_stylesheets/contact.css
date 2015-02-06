@@ -1,0 +1,72 @@
+h1{
+   font-family:"Helvetica LT Light", Helvetica, Arial, sans-serif;
+   font-size:18;
+   color:#C20800;
+}
+p{
+   font-family:"Helvetica LT Light", Helvetica, Arial, sans-serif;
+   font-size:12;
+   text-indent: 0;
+	 color: #d9d9d9;
+}
+h2{
+   font-family:"Helvetica LT Light", Helvetica, Arial, sans-serif;
+   font-size:12;
+   color:#dcdcdc;
+}
+h3{
+   font-family:"Helvetica LT Light", Helvetica, Arial, sans-serif;
+   font-size:12;
+   color:#A2A2A2;
+}
+h4{
+   font-family:"Helvetica LT Light", Helvetica, Arial, sans-serif;
+   font-size:11;
+   color:#CAC9C9;
+}
+
+
+a{
+   font-family:"Helvetica LT Light", Helvetica, Arial, sans-serif;
+   font-size:11;
+   color:#606060;
+}
+a:link {
+   color:#606060;
+   text-decoration: none;
+}
+a:visited {
+   color:#606060;
+   text-decoration: none;
+}
+a:hover {
+   color:#606060;
+   text-decoration: none;
+}
+a:active {
+   color:#606060;
+   text-decoration: none;
+}
+
+
+a.big{
+   font-family:"Helvetica LT Light", Helvetica, Arial, sans-serif;
+   font-size:12;
+   color:#363636;
+}
+a.big:link {
+   color:#363636;
+   text-decoration: none;
+}
+a.big:visited {
+   color:#363636;
+   text-decoration: none;
+}
+a.big:hover {
+   color:#363636;
+   text-decoration: none;
+}
+a.big:active {
+   color:#363636;
+   text-decoration: none;
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!-- <com.dEVELdRONE.GForce_Arena.AdPreference
+		android:layout="@layout/ad_layout" /> -->
+
+	<ListPreference android:title="Color of Particles"
+		android:key="color_select" android:entries="@array/choices"
+		android:entryValues="@array/values" android:defaultValue="G"
+		android:summary="Does not affect Star Dust" />
+
+	<ListPreference android:title="Color of Tails"
+		android:key="tail_select" android:entries="@array/tails"
+		android:entryValues="@array/tail_values" android:defaultValue="G"
+		android:summary="Does not affect Star Dust" />
+
+	<ListPreference android:title="Walls" android:key="wall_select"
+		android:entries="@array/walls" android:entryValues="@array/wall_values"
+		android:defaultValue="bounce" android:summary="How your particles will react to walls"/>
+		
+	<ListPreference android:title="Particle Style" android:key="style_select"
+		android:entries="@array/styles" android:entryValues="@array/style_values"
+		android:defaultValue="classic" android:summary="The type of particles in your Universe"/>
+
+	<!-- <ListPreference android:title="Number of Particles"
+		android:key="num_particles" android:entries="@array/particles"
+		android:entryValues="@array/particle_values" android:defaultValue="150" /> -->
+
+	<EditTextPreference android:title="Number of Particles"
+		android:key="num_particles_text" android:defaultValue="@string/num_particles_default"
+		android:summary="1 - 1000" />
+
+	<!-- <ListPreference android:title="Tail Length" android:key="num_tails"
+		android:entries="@array/tail_lengths" android:entryValues="@array/tail_length_values"
+		android:defaultValue="5" /> -->
+		
+	<EditTextPreference android:title="Tail Length"
+		android:key="tails_text" android:defaultValue="@string/tails_default"
+		android:summary="Length of the trail behind the particle, or the blur amount of Star Dust (0 - 10)" />
+		
+	<EditTextPreference android:title="GForce"
+		android:key="gforce_text" android:defaultValue="@string/gforce_default"
+		android:summary="The Gravitational Power of your Finger (1 - 20)" />
+
+	<CheckBoxPreference android:title="AntiGravity"
+		android:key="anti" android:defaultValue="false" />
+
+	<!-- <CheckBoxPreference android:title="Lose Momentum"
+		android:key="momentum" android:defaultValue="true" /> -->
+		
+	<com.dEVELdRONE.GForce_Arena.AdPreference
+		android:layout="@layout/ad_layout" />
+
+	<!-- <CheckBoxPreference android:title="Enable Multitouch"
+		android:summary="May cause app to run more slowly" android:key="multitouch"
+		android:defaultValue="false" /> -->
+
+	<!-- <CheckBoxPreference android:title="Exclusion Principle" android:key="exclude" 
+		android:defaultValue="false" /> <com.google.ads.AdView android:id="@+id/adPrefs" 
+		android:layout_width="wrap_content" android:layout_height="wrap_content" 
+		ads:adUnitId="a14f07b2ea24afd" ads:loadAdOnCreate="true" ads:adSize="BANNER" 
+		android:layout_alignParentBottom="true"></com.google.ads.AdView> -->
+
+</PreferenceScreen>

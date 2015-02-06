@@ -1,0 +1,33 @@
+<!--S:MenuGroup-->
+	<ul>
+		{DATA}
+	</ul>
+<!--E:MenuGroup-->
+
+<!--S:MenuElement-->
+		<li>{TITLE}</li>
+		{SUBITEMS}
+<!--E:MenuElement-->
+
+<!--S:MenuEmpty-->
+
+<!--E:MenuEmpty-->
+
+
+<!--S:SubMenuGroupEmpty-->
+
+<!--E:SubMenuGroupEmpty-->
+<!--S:SubMenuGroup-->
+				{DATA}
+<!--E:SubMenuGroup-->
+
+<!--S:SubMenuElement-->
+				<li class="sub">&raquo;&nbsp;<a href="{MOD_URL}" target="{ITEM_TARGET}" title="{MOD_URLTITLE}">{MOD_LONG_NAME}</a></li>
+<!--E:SubMenuElement-->
+
+<!--S:SubMenuEmpty-->
+
+<!--E:SubMenuEmpty-->
+
+<!--S:Link--><a href="{MOD_URL}" target="{ITEM_TARGET}" title="{MOD_URLTITLE}">{MOD_LONG_NAME}</a><!--E:Link-->
+<!--S:NoLink--><span>{MOD_LONG_NAME}</span><!--E:NoLink-->

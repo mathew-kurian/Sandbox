@@ -1,0 +1,22 @@
+<form
+	
+	b_order="true"
+	alternance="true"
+	title="Login into your account"
+	width="500"
+	f_ormtag="true"
+	>
+
+	<action>{SELF.LINK}</action>
+	<name>edit</name>
+
+	<redirect>{SELF.LINK}</redirect>
+
+	<fields>
+
+		<email type="textbox" size="53" title="Email" required="true" validate="A:2:200">		
+			<description>If you forgot your user and/or password enter the email address you entered in your profile, and the recover info will be mailed to you.</description>
+		</email>
+	</fields>
+
+</form>

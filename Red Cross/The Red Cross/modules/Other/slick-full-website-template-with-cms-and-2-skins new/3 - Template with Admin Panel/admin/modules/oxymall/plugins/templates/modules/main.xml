@@ -1,0 +1,28 @@
+<!--S:Group-->
+<main>
+	<content>
+		{DATA}
+	</content>
+	
+	<copyright title="{SET_COPYRIGHT}"></copyright>
+
+	<logoGraphic>{LOGO}</logoGraphic>
+
+	<mp3Player mp3PlayerSwf="mp3Player.swf" mp3PlayerXml="../../../xml.php?code=mp3player" xPos="90" yPos="-10"></mp3Player>
+
+	<toggleFixedMenu>{SHOW_MENU}</toggleFixedMenu>
+	<menuPosition>{MENU_ALIGN}</menuPosition>
+	<maxWidth>{MAX_WIDTH}</maxWidth>
+	<maxHeight>{MAX_HEIGHT}</maxHeight>
+
+</main>
+<!--E:Group-->
+
+<!--S:Element-->
+		<button title="{MOD_NAME}" swf="{MODULE_FILE}" xml="{SOURCE}" urlTitle="{MOD_URLTITLE}" url="{MOD_URL}" {EXTERNAL} {HIDDEN} {TARGET}></button>
+<!--E:Element-->
+		
+
+<!--S:Empty-->
+
+<!--E:Empty-->

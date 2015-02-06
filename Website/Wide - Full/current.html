@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8" />
+<title>mklive</title>
+<link rel="stylesheet" href="slider/nivo/nivo-slider.css" />
+<link rel="stylesheet" href="slider/nivo/nivo-style.css" />
+<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/colors.css" />
+<!--[if IE]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="slider/nivo/jquery.nivo.slider.pack.js"></script>
+<script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script src="js/jquery.jtweetsanywhere-1.2.1.min.js"></script>
+<script src="js/default.js"></script>
+</head>
+
+<body>
+<header>
+  <div id="top_header">
+    <div class="wrap">
+      <div id="logo"> <a href="index.html">
+        <h1>mklive</h1>
+        </a> </div>
+      <ul id="social_networks">
+        <li><a href="#" class="network1"></a></li>
+        <li><a href="#" class="network2"></a></li>
+        <li><a href="#" class="network3"></a></li>
+        <li><a href="#" class="network4"></a></li>
+        <li><a href="#" class="network5"></a></li>
+        <li><a href="#" class="network6"></a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="bottom_header">
+    <div class="wrap">
+      <nav>
+        <ul id="top_nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="life.html"   class = "active">About</a>
+            <ul>
+              <li><a href="life.html">Life</a></li>
+              <li><a href="education.html">Education</a></li>
+              <li><a href="current.html"  class = "active">Current Studies</a></li>
+              <li><a href="services.html">Achievements</a></li>
+            </ul>
+          </li>
+          <li><a href="portfolio.html">Design and Portfolio</a></li>
+          <li><a>Field Experience</a>
+            <ul>
+              <li><a href="universe.html">Java</a>
+                <ul class="lower_level">
+                  <li><a href="universe.html">Universe 2D Game Engine with Custom Interface</a></li>
+                  <li><a href="conqueror.html">Conqueror Software Development IDE</a></li>
+                  <li><a href="monopoly.html">Monopoly: World Edition</a></li>
+                </ul>
+              </li>
+              <li><a href="utapp.html">Android</a>
+                <ul class="lower_level">
+                  <li><a href="utapp.html">University of Texas: Austin App</a></li>
+                </ul>
+              </li>
+              <li><a href="heli.html">Lisp</a>
+                <ul class="lower_level">
+                  <li><a href="heli.html">Heli Attack 3 Revamped</a></li>
+                </ul>
+              </li>
+              <li><a href="redweb.html">HTML/Flash/Actionscript</a>
+                <ul class="lower_level">
+                  <li><a href="redweb.html">The Red Cross</a></li>
+                </ul>
+              </li>
+              <li><a href = "other.html">Other languages and Industry-Standard Software</a></li>
+            </ul>
+          </li>
+          <li><a href="partnerships.html">Partnerships</a></li>
+          <li><a href="curvespanel.html"   class = "active">Open Source</a>
+            <ul>
+              <li><a href="curvespanel.html">Fading Color Panel</a></li>
+              <li><a href="animation_extender.html">Consecutive Animation (Extender)</a></li>
+              <li><a href="gpacalc.html">GPA Calculator for College Students</a></li>
+              <li><a href="current.html"   class = "active">Android FRAME_BUFFER Access Code</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+          </li>
+        </ul>
+      </nav>
+      <form id="search" action="#">
+        <fieldset>
+          <input type="text" name="search" />
+          <input type="submit" value="" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</header>
+<section class="wrap container">
+  <div class="content center">
+    <h1>Current Studies</h1>
+    <div class="separator small empty"></div>
+    <ul class="blog article_list small">
+      <li>
+        <div class="img_frame left">
+          <div class="container">
+            <ul>
+              <li><img src="images/current/0.jpg" alt="" /></li>
+              <li><a class="description">Native code</a></li>
+            </ul>
+          </div>
+        </div>
+        <article>
+          <h3>C/C++</h3>
+          Currently, I am attempting to master the techniques of C/C++. Although, most languages are similar in structure, the C language has always seemed a bit more messy for me. Nevertheless, in time, I hope to have control of the langauge as I do of Java and HTML. <br>
+        </article>
+      <li>
+        <div class="img_frame left">
+          <div class="container">
+            <ul>
+              <li><img src="images/current/1.jpg" alt="" /></li>
+              <li><a class="description">Native code</a></li>
+            </ul>
+          </div>
+        </div>
+        <article>
+          <h3>Native Code Access</h3>
+          My current study revolves around accessing the phone's internal methods/files which are run in C/C++. Hopefully, my study can later allow me to run services that will allow me to avoid the use of a superuser and directly access the phone's internals. But now, I have forced to used a rooted phone to complete the actions. An example of my current code which access the FRAME_BUFFER: <br>
+        </article>
+      </li>
+      <li>
+        <h3>FRAME_BUFFER Access Code (with Superuser/Root access)</h3>
+        <pre><code>try {
+process = 
+   Runtime.getRuntime().exec("su -c cat /dev/graphics/fb0");
+process.waitFor();
+} catch (IOException e) {
+   e.printStackTrace();
+} catch (InterruptedException e) {
+   e.printStackTrace();
+}</code></pre>
+      </li>
+      <li>
+        <div class="img_frame left">
+          <div class="container">
+            <ul>
+              <li><img src="images/current/2.jpg" alt="" /></li>
+              <li><a class="description">OpenGL</a></li>
+            </ul>
+          </div>
+        </div>
+        <article>
+          <h3>OpenGL</h3>
+          I am looking to combine the knowledge of 3Ds Max with OpenGL to create scenery and gaming environments. In addition, I would like to advance the <a href = "utapp.html">University of Texas Android</a> application with OpenGL to smoothen user-interface and user-interactivity. </article>
+      </li>
+    </ul>
+  </div>
+</section>
+<footer>
+  <div id="middle_footer">
+    <div class="wrap">
+      <div class="content left">
+        <div class="third">
+          <h3>Links to my work</h3>
+          <ul>
+            <li><a href="http://bluejamesbond.deviantart.com/">bluejamesbond.deviantart.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <aside class="right no_border">
+        <h3>About mklive.org</h3>
+        <p>This is a live resume and place to collaborate and share information. I have serveral items in here that require credit if used in your project.</p>
+        <p>All images are owned by me. Please let me know if there are any problems with copyrights. No copyright infrigement intended.</p>
+      </aside>
+    </div>
+  </div>
+  <div id="bottom_footer">
+    <div class="wrap"> <img src="images/logo_footer.png" class="left" alt="" />
+      <p class="right">Mathew Kurian -Live Resume- University of Texas: Austin</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

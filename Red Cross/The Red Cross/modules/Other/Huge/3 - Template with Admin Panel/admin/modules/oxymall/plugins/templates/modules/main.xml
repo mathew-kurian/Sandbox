@@ -1,0 +1,52 @@
+<!--S:Group-->
+<main>
+	<content>
+		{DATA}
+	</content>
+
+	 
+	<copyright><![CDATA[{SET_COPYRIGHT}]]></copyright>
+
+	<logoGraphic>{LOGO}</logoGraphic>
+
+	<mp3Player mp3PlayerSwf="mp3player.swf" mp3PlayerXml="../../../xml.php?code=mp3player" xPos="90" yPos="-10"></mp3Player>
+
+	<toggleFixedMenu>{SHOW_MENU}</toggleFixedMenu>
+	<menuPosition>{MENU_ALIGN}</menuPosition>
+	<maxWidth>{MAX_WIDTH}</maxWidth>
+	<maxHeight>{MAX_HEIGHT}</maxHeight>
+	<alignXCorrection>{SET_MENU_CORRECTION}</alignXCorrection>
+</main>
+<!--E:Group-->
+
+<!--S:Element-->
+		<button title="{MOD_NAME}" swf="{MODULE_FILE}" xml="{SOURCE}" urlTitle="{MOD_URLTITLE}" url="{MOD_URL}" {EXTERNAL} {HIDDEN} {TARGET}>{SUBITEMS}</button>
+<!--E:Element-->
+		
+
+<!--S:Empty-->
+
+<!--E:Empty-->
+
+<!--S:SubGroup-->
+			<subMenu toggleSubMenu="1" subMenuXPos="0">
+				{DATA}
+			</subMenu>
+<!--E:SubGroup-->
+
+<!--S:SubElement-->
+		<button title="{MOD_NAME}" swf="{MODULE_FILE}" xml="{SOURCE}" urlTitle="{MOD_URLTITLE}" url="{MOD_URL}" {EXTERNAL} {HIDDEN} {TARGET}></button>
+<!--E:SubElement-->
+
+<!--S:SubEmpty-->
+
+<!--E:SubEmpty-->
+				<button title="About Us" swf="aboutus.swf" xml="about.xml" urlTitle="About Us" url="/about/" externalLink="0" externalTarget="_blank" hiddenModule="0"></button>
+				<button title="News" swf="news.swf" xml="news.xml" urlTitle="News" url="/news/" externalLink="0" externalTarget="_blank" hiddenModule="0"></button>
+				<button title="Services" swf="services.swf" xml="services.xml" urlTitle="Services" url="/services/" externalLink="0" externalTarget="_blank" hiddenModule="0"></button>
+				<button title="Our Portfolio" swf="portfolio.swf" xml="portfolio.xml" urlTitle="Portfolio" url="/portfolio/" externalLink="0" externalTarget="_blank" hiddenModule="0"></button>
+				<button title="Clients" swf="clients.swf" xml="clients.xml" urlTitle="Clients" url="/clients/" externalLink="0" externalTarget="_blank" hiddenModule="0"></button>
+				<button title="Media Gallery" swf="gallery.swf" xml="gallery.xml" urlTitle="Gallery" url="/gallery/" externalLink="0" externalTarget="_blank" hiddenModule="0"></button>
+				<button title="Careers" swf="jobs.swf" xml="jobs.xml" urlTitle="Careers" url="/careers/" externalLink="0" externalTarget="_blank" hiddenModule="0"></button>
+				<button title="Banner Rotator" swf="banner.swf" xml="banner.xml" urlTitle="Banner" url="/banner/" externalLink="0" externalTarget="_blank" hiddenModule="0"></button>
+				<button title="Contact" swf="contactus.swf" xml="contact.xml" urlTitle="Contact" url="/contact/" externalLink="0" externalTarget="_blank" hiddenModule="0"></button>

@@ -1,0 +1,15 @@
+﻿<flash_project name="news" version="1">
+    <project_folder name="Classes" expanded="true">
+        <project_file path="./ScrollBar.as" filetype="as" />
+        <project_file path="./IndexButton.as" filetype="as" />
+        <project_file path="./News.as" filetype="as" />
+        <project_file path="./XMLDate.as" filetype="as" />
+    </project_folder>
+    <project_folder name="Fla" expanded="true">
+        <project_file path="./news.fla" filetype="fla" profile="" def_file="true" />
+    </project_folder>
+    <project_folder name="XML" expanded="true">
+        <project_file path="../test/news.xml" filetype="xml" />
+    </project_folder>
+    <project_file path="../mc_tween2.as" filetype="as" />
+</flash_project>

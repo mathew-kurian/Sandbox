@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/module-install.dtd">
+<install type="module" version="1.5.0">
+	<name>TP Style Switcher</name>
+	<creationDate>October 2009</creationDate>
+	<author>Jerry Wijaya</author>
+	<authorEmail>me@jerrywijaya.com</authorEmail>
+	<authorUrl>http://www.templateplazza.com</authorUrl>
+	<copyright>http://www.templateplazza.com</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>
+		<![CDATA[
+		TP Style Switcher
+		]]>
+	 </description>
+	<files>
+		<filename module="mod_tpstyleswitcher">index.html</filename>
+		<filename module="mod_tpstyleswitcher">mod_tpstyleswitcher.php</filename>
+		<filename module="mod_tpstyleswitcher">helper.php</filename>
+		<folder>tmpl</folder>
+	</files>
+</install>

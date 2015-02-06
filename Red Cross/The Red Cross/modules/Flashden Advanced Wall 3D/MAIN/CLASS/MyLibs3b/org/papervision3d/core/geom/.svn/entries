@@ -1,0 +1,79 @@
+8
+
+dir
+535
+http://papervision3d.googlecode.com/svn/trunk/branches/GreatWhite/src/org/papervision3d/core/geom
+http://papervision3d.googlecode.com/svn
+
+
+
+2008-04-09T10:46:46.062882Z
+527
+r.hauwert
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+071aa1e1-232a-0410-a790-59abb25ab4c3
+
+Lines3D.as
+file
+
+
+
+
+2008-03-26T08:40:45.530339Z
+9c2e75048bf95fe935f425fd66e8e130
+2008-03-14T03:35:01.278696Z
+446
+r.hauwert
+
+renderables
+dir
+
+Particles.as
+file
+
+
+
+
+2008-04-15T09:24:56.195580Z
+7924604e6ee519eef6809f47064dc10d
+2008-04-08T12:00:58.770101Z
+514
+r.hauwert
+
+TriangleMesh3D.as
+file
+
+
+
+
+2008-04-15T09:24:56.205345Z
+17e6354de9afaff15ac3eec4d5fa893f
+2008-04-08T11:02:52.720276Z
+513
+r.hauwert
+
+Vertices3D.as
+file
+
+
+
+
+2008-04-15T09:24:56.236593Z
+881df92888a82554a55db449e112a80d
+2008-04-08T04:05:05.747975Z
+512
+tim.knip
+

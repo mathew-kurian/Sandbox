@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	<topMargin>50</topMargin>
+	<bottomMargin>50</bottomMargin>
+	<!--
+		alignX Options 
+		The alignX is the distance from the left your page will start
+		Static X    				  eg.  <alignX>175</alignX>      	(this will make your content start 175 pixels from the left)
+		Left aligned X    	  eg.  <alignX>left</alignX>    		(this will make your content be left aligned)
+		Center aligned X      eg.  <alignX>center</alignX>  		(this will make your content be centered)
+		Right aligned X    	  eg.  <alignX>right</alignX>			(this will make your content be right aligned)
+	-->
+	<alignX>center</alignX><!--Horizontal Alignment-->
+	<!--
+		alignY Options 
+		The alignY is the distance from the top your page will start
+		Static Y    				  eg.  <alignY>175</alignY>      	(this will make your content start 175 pixels from the top)
+		Top aligned Y    	  	eg.  <alignY>top</alignY>     	(this will make your content be aligned vertically under the topMargin)
+		Bottom aligned Y      eg.  <alignY>bottom<alignY>   	(this will make your content be aligned vertically and sit on the bottomMargin)
+		Center aligned Y    	eg.  <alignY>center<alignY>			(this will make your content be aligned vertically between the topMargin and bottomMargin)
+	-->
+	<alignY>center</alignY><!-- Vertical Alignment-->
+	
+	
+	<contentWidth>973</contentWidth>
+	<contentHeight>1660</contentHeight>
+	<contentBgColor>0x0c0c0c</contentBgColor>
+	<contentBgOpacity>0</contentBgOpacity>
+	
+	
+	<useHoverScroll>true</useHoverScroll>
+	<useManualScroll>false</useManualScroll>
+	
+	<!-- 	These settings apply 
+				if useManualScroll is true 
+				and useHoverScroll is false   -->
+	<scrollBarWidth>15</scrollBarWidth>
+	<scrollBarHeight>200</scrollBarHeight>
+	<scrollBaseColor>0x000000</scrollBaseColor>
+	<addTiledPatternToScrollBase>false</addTiledPatternToScrollBase>
+	<patternUrl>site_images/patterns/edgePattern.png</patternUrl>
+	<scrollBaseOpacity>.67</scrollBaseOpacity>
+	<scrollerColor>0xcfcfcf</scrollerColor>
+	<scrollerOpacity>1</scrollerOpacity>
+	
+	<!-- End of Scroll Bar Features -->
+	
+	<!-- Used for pop up content -->
+		<dimWallPaperColor>0xffffff</dimWallPaperColor>
+		<dimWallPaperAlpha>.85</dimWallPaperAlpha>
+		<!-- set the size of the font used in the image preloader -->
+		<preloaderTextSize>140</preloaderTextSize>
+		<!-- set the color of the font used in the image preloader -->
+		<preloaderTextColor>0x000000</preloaderTextColor>
+		<!-- set the opacity of the font used in the image preloader -->
+		<preloaderTextOpacity>1</preloaderTextOpacity>
+		
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>true</displayHtmlArticles>
+	<displaySlideShow>false</displaySlideShow>
+	<displaySWF>false</displaySWF>
+	
+	
+	
+	
+<image>
+	<x>0</x>
+	<y>0</y>
+	<imageURL>site_images/pages/services/bg1.gif</imageURL>
+</image>
+<image>
+	<x>0</x>
+	<y>431</y>
+	<imageURL>site_images/pages/services/bg2.gif</imageURL>
+</image>
+<image>
+	<x>0</x>
+	<y>862</y>
+	<imageURL>site_images/pages/services/bg3.gif</imageURL>
+</image>
+<image>
+	<x>0</x>
+	<y>1293</y>
+	<imageURL>site_images/pages/services/bg4.gif</imageURL>
+</image>
+	
+
+<image>
+	<x>0</x>
+	<y>0</y>
+	<imageURL>site_images/pages/services/services_11.png</imageURL>
+	<addInternalPageLink>true</addInternalPageLink>
+	<pageName>PAGE LAYOUTS/PORTFOLIO LAYOUT</pageName>
+</image>
+
+<image>
+	<x>504</x>
+	<y>32</y>
+	<imageURL>site_images/pages/services/services_21.png</imageURL>
+</image>
+<image>
+	<x>510</x>
+	<y>68</y>
+	<imageURL>site_images/pages/services/services_29.png</imageURL>
+</image>
+<article>
+	<x>510</x>
+	<y>108</y>
+	<width>425</width>
+	<articleText><![CDATA[<p class="leading2">All content pages feature the optional hover scroll, which this page uses.  The background width & height is editable right from XML. The background opacity has been set to 0 from XML.  The width, height, x, and y for each of these html text blocks have been set from XML, and font has been styled by the external style sheet content.css. The font-family, font-size, color, leading, and any other .css property that flash recognizes can all be set from this style sheet. The page's top margin, bottom margin, X alignment, and Y alignment has also been set from XML. You can also choose to link your images to 10 different pop-ups or internal/external links that have been outlined in layout 2 under the content tab.</p>]]></articleText>
+</article>
+<image>
+	<x>806</x>
+	<y>314</y>
+	<imageURL>site_images/pages/services/services_52.png</imageURL>
+	<addInternalPageLink>true</addInternalPageLink>
+	<pageName>PAGE LAYOUTS/PORTFOLIO LAYOUT</pageName>
+</image>
+
+
+<image>
+	<x>0</x>
+	<y>431</y>
+	<imageURL>site_images/pages/services/services_74.png</imageURL>
+	<addInternalPageLink>true</addInternalPageLink>
+	<pageName>PAGE LAYOUTS/PORTFOLIO LAYOUT</pageName>
+</image>
+<image>
+	<x>504</x>
+	<y>462</y>
+	<imageURL>site_images/pages/services/services_84.png</imageURL>
+</image>
+<image>
+	<x>510</x>
+	<y>498</y>
+	<imageURL>site_images/pages/services/services_90.png</imageURL>
+</image>
+<article>
+	<x>510</x>
+	<y>540</y>
+	<width>425</width>
+	<articleText><![CDATA[<p class="leading2">All content pages feature the optional hover scroll, which this page uses.  The background width & height is editable right from XML. The background opacity has been set to 0 from XML.  The width, height, x, and y for each of these html text blocks have been set from XML, and font has been styled by the external style sheet content.css. The font-family, font-size, color, leading, and any other .css property that flash recognizes can all be set from this style sheet. The page's top margin, bottom margin, X alignment, and Y alignment has also been set from XML. You can also choose to link your images to 10 different pop-ups or internal/external links that have been outlined in layout 2 under the content tab.</p>]]></articleText>
+</article>
+<image>
+	<x>806</x>
+	<y>744</y>
+	<imageURL>site_images/pages/services/services_102.png</imageURL>
+	<addInternalPageLink>true</addInternalPageLink>
+	<pageName>PAGE LAYOUTS/PORTFOLIO LAYOUT</pageName>
+</image>
+
+
+<image>
+	<x>0</x>
+	<y>862</y>
+	<imageURL>site_images/pages/services/services_126.png</imageURL>
+	<addInternalPageLink>true</addInternalPageLink>
+	<pageName>PAGE LAYOUTS/PORTFOLIO LAYOUT</pageName>
+</image>
+<image>
+	<x>504</x>
+	<y>902</y>
+	<imageURL>site_images/pages/services/services_136.png</imageURL>
+</image>
+<image>
+	<x>510</x>
+	<y>943</y>
+	<imageURL>site_images/pages/services/services_145.png</imageURL>
+</image>
+<article>
+	<x>510</x>
+	<y>980</y>
+	<width>425</width>
+	<articleText><![CDATA[<p class="leading2">All content pages feature the optional hover scroll, which this page uses.  The background width & height is editable right from XML. The background opacity has been set to 0 from XML.  The width, height, x, and y for each of these html text blocks have been set from XML, and font has been styled by the external style sheet content.css. The font-family, font-size, color, leading, and any other .css property that flash recognizes can all be set from this style sheet. The page's top margin, bottom margin, X alignment, and Y alignment has also been set from XML. You can also choose to link your images to 10 different pop-ups or internal/external links that have been outlined in layout 2 under the content tab.</p>]]></articleText>
+</article>
+<image>
+	<x>806</x>
+	<y>1170</y>
+	<imageURL>site_images/pages/services/services_159.png</imageURL>
+	<addInternalPageLink>true</addInternalPageLink>
+	<pageName>PAGE LAYOUTS/PORTFOLIO LAYOUT</pageName>
+</image>
+
+
+<image>
+	<x>0</x>
+	<y>1293</y>
+	<imageURL>site_images/pages/services/services_180.png</imageURL>
+	<addInternalPageLink>true</addInternalPageLink>
+	<pageName>PAGE LAYOUTS/PORTFOLIO LAYOUT</pageName>
+</image>
+<image>
+	<x>504</x>
+	<y>1340</y>
+	<imageURL>site_images/pages/services/services_190.png</imageURL>
+</image>
+<image>
+	<x>510</x>
+	<y>1376</y>
+	<imageURL>site_images/pages/services/services_199.png</imageURL>
+</image>
+<article>
+	<x>510</x>
+	<y>1416</y>
+	<width>425</width>
+	<articleText><![CDATA[<p class="leading2">All content pages feature the optional hover scroll, which this page uses.  The background width & height is editable right from XML. The background opacity has been set to 0 from XML.  The width, height, x, and y for each of these html text blocks have been set from XML, and font has been styled by the external style sheet content.css. The font-family, font-size, color, leading, and any other .css property that flash recognizes can all be set from this style sheet. The page's top margin, bottom margin, X alignment, and Y alignment has also been set from XML. You can also choose to link your images to 10 different pop-ups or internal/external links that have been outlined in layout 2 under the content tab.</p>]]></articleText>
+</article>
+<image>
+	<x>806</x>
+	<y>1610</y>
+	<imageURL>site_images/pages/services/services_212.png</imageURL>
+	<addInternalPageLink>true</addInternalPageLink>
+	<pageName>PAGE LAYOUTS/PORTFOLIO LAYOUT</pageName>
+</image>
+
+				
+
+</xmlObject>

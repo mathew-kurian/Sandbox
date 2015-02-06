@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<videoData>
+
+<video       
+       buffTime = "2"
+       scrubColor = "0xffff00"  
+       path = "flv/top2.flv"
+       ><![CDATA[<font color = "#ffff00">XML Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></video>
+
+</videoData>

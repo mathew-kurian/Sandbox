@@ -1,0 +1,28 @@
+<form>
+
+	<forms>
+		<list>folders/list.xml</list>
+	</forms>
+
+	<URIdata>
+		<action>action</action>
+		<add>add</add>
+		<details>details</details>
+		<delete>delete</delete>
+		<edit>edit</edit>
+		<list>details</list>
+		<search>search</search>
+
+		<reject>reject</reject>
+		<approve>approve</approve>
+
+		<store>store</store>
+	</URIdata>
+
+
+	<URIlinks>
+	</URIlinks>
+
+
+
+</form>

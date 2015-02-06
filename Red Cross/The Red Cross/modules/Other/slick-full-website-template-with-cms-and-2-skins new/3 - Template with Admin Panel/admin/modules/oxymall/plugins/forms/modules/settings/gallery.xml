@@ -1,0 +1,29 @@
+<form>
+	<tabs>
+		<t active="true" width="100" title="Module Settings" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.user&action=details&mod_id={MODULE_ID}" />
+		<t1 width="80" title="Albums" link="index.php?mod=oxymall&sub=oxymall.plugin.gallery.landing&module_id={MODULE_ID}&action=details&returnurl={SELF.PREVIOUS_ENC}" />
+		<t2 width="80" title="Images" link="index.php?mod=oxymall&sub=oxymall.plugin.gallery.images&module_id={MODULE_ID}&returnurl={SELF.PREVIOUS_ENC}" />
+		<t_video width="80" title="Video Tutorial" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.help&module_id={MODULE_ID}" restricted="eval:$GLOBALS['no_tutorials'];"/>
+
+	</tabs>
+	
+
+	<fields>
+		<settings_title type="subtitle" title="Settings" />
+	
+		<set_distancebetweenmenubuttons type="textbox" size="5" suffix="px" title="Distance between buttons" />
+		
+		<set_thumbwidth type="textbox" size="5" suffix="px" title="Thumb Width" />
+		
+		<set_thumbheight type="textbox" size="5" suffix="px" title="Thumb Height" />
+		
+		<set_horizontalthumbspace type="textbox" size="5" suffix="px" title="Horizontal Thumb Space" />
+		
+		<set_verticalthumbspace type="textbox" size="5" suffix="px" title="Vertical Thumb Space" />
+
+		<settings_mis type="subtitle" title="Misc" />
+		
+		<set_reverseorder type="checkbox" checked="1" title="Reverse Images Order" label="yes|no" description="If you check this the last added image will appear the first."/>
+
+	</fields>
+</form>

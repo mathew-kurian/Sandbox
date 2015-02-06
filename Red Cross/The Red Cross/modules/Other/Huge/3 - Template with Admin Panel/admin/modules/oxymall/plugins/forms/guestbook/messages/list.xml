@@ -1,0 +1,72 @@
+<form>
+	<title>{TITLE} Messages</title>
+	<border>true</border>
+
+	<alternance>true</alternance>
+	<valternance>true</valternance>
+
+
+	<vars>
+		<module_id type="eval" import="$_GET[module_id]" />
+	</vars>
+
+	<fields>
+
+		<_count header="No." width="20" align="right" suffix="."/>
+
+		<item_name header="Name" />	
+
+		<item_date header="Date" type="date" params="m/d/Y" width="80" align="center" />	
+
+		<item_status type="relation" header="Status" align="center" width="100">
+			<options>
+				<option name="1">pending</option>
+				<option name="2">approved</option>
+				<option name="3">deleted</option>
+			</options>
+		</item_status>
+
+		
+		<button_delete type="button" width="20" align="center" onclick="" button="/small/delete" protected="promo_default">
+			<location>{SELF.URI.DELETE}</location>
+		</button_delete>
+
+		<button_details type="button" width="20" align="center" onclick="" button="/small/edit">
+			<location>{SELF.URI.EDIT}</location>
+		</button_details>
+
+	</fields>
+
+	<header>
+		<titles>true</titles>
+		<buttons>
+			<add button="addnew">
+				<location>{SELF.URI.ADD}</location>
+			</add>
+		</buttons>
+	</header>
+
+	<items>50</items>
+
+	<sql>
+		<vars>
+
+			<table type="table"/>
+
+			<page type="page"/>
+			<items type="form" var="items"/>
+			<module_id type="eval" import="$_GET[module_id];" />
+
+			<condition type="var" import="WHERE module_id={MODULE_ID} " />
+
+			<order type="var" import="item_date" />
+			<order_mode type="var" import="DESC" />
+
+		</vars>
+		<query>select * from {TABLE} {CONDITION} ORDER BY {ORDER} {ORDER_MODE} LIMIT {PAGE} , {ITEMS} </query>
+		<count table="{TABLE}" condition="{CONDITION}" />
+
+	</sql> 
+
+
+</form>

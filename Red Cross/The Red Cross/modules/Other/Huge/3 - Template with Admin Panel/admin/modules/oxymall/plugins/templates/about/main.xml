@@ -1,0 +1,44 @@
+<!--S:Main-->
+<AboutUs>
+
+	<settings>
+		
+		<imageWidth>{SET_IMAGEWIDTH}</imageWidth>
+		
+		<imageHeight>{SET_IMAGEHEIGHT}</imageHeight>
+		
+		<slideshowInterval>{SET_SLIDESHOWINTERVAL}</slideshowInterval>
+		
+		<fadeInAnimationTime>{SET_FADEINANIMATIONTIME}</fadeInAnimationTime>
+		
+		<dafeInAnimationType>{SET_FADEINANIMATIONTYPE}</dafeInAnimationType>
+		
+	</settings>
+	
+	<content title="{MOD_TITLE}" urltitle="{MOD_URL_TITLE}" url="/{MOD_URL}/">
+		<![CDATA[
+			{HEADER}
+		]]>
+	</content>
+	
+	{IMAGES}
+</AboutUs>
+<!--E:Main-->
+
+<!--S:ImagesGroup-->
+	<images>
+		{DATA}
+	</images>
+<!--E:ImagesGroup-->
+
+<!--S:ImagesGroupEmpty-->
+
+<!--E:ImagesGroupEmpty-->
+
+<!--S:ImagesElement-->
+		<item src="../../about/{ITEM_ID}.jpg" ></item>
+<!--E:ImagesElement-->
+
+<!--S:ImagesEmpty-->
+
+<!--E:ImagesEmpty-->

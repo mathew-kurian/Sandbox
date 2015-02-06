@@ -1,0 +1,49 @@
+8
+
+dir
+535
+http://papervision3d.googlecode.com/svn/trunk/branches/GreatWhite/src/org/papervision3d/objects
+http://papervision3d.googlecode.com/svn
+
+
+
+2008-04-24T14:36:23.167673Z
+533
+tim.knip
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+071aa1e1-232a-0410-a790-59abb25ab4c3
+
+parsers
+dir
+
+special
+dir
+
+DisplayObject3D.as
+file
+
+
+
+
+2008-04-15T09:24:59.881867Z
+30f4cc19750a25ed88a78e5d636f43b5
+2008-04-11T16:16:40.640517Z
+531
+tim.knip
+
+primitives
+dir
+

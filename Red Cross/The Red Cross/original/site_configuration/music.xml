@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tracks>
+
+	<!-- Background color -->
+	<bgColor>0xffffff</bgColor>
+	
+	<!-- CLOSE BUTTON -->
+	<closeBtnTxt>close</closeBtnTxt>
+	<closeBtnTxtClr>0xffffff</closeBtnTxtClr>
+	<closeBtnTxtSize>12</closeBtnTxtSize>
+	<closeBtnX>361</closeBtnX>
+	<closeBtnY>0</closeBtnY>
+	
+	<!-- TIME BAR -->
+	<timeBarBgColor>0x000000</timeBarBgColor>
+	<elapsedTimeTxtColor>0xb7b7b7</elapsedTimeTxtColor>
+	<divider>0x555555</divider>
+	<totalTimeTxtColor>0x555555</totalTimeTxtColor>
+	
+	<!-- VOLUME -->
+	<volumeBarColor>0x3e3e3e</volumeBarColor>
+	<volumeScrubberColor>0x000000</volumeScrubberColor>
+	
+	<!-- CONTROLS -->
+	<playPauseClr>0x0c0c0c</playPauseClr>
+	<playPauseOverClr>0x00b7dc</playPauseOverClr>
+	<stopClr>0x0c0c0c</stopClr>
+	<stopOverClr>0x00b7dc</stopOverClr>
+	<reverseClr>0x0c0c0c</reverseClr>
+	<reverseOverClr>0x00b7dc</reverseOverClr>
+	<forwardClr>0x0c0c0c</forwardClr>
+	<forwardOverClr>0x00b7dc</forwardOverClr>
+	
+	<!--Now Playing Track Info Layered on top of Album Art thumbnail-->
+	<nowPlayingTxtInfoClr>0xa5a5a5</nowPlayingTxtInfoClr>
+	<nowPlayingBgColor>0x000000</nowPlayingBgColor>
+	
+	<!-- Playlist Track Button -->
+	<trackBgColor>0xe9e9e9</trackBgColor>
+	<trackOverBgColor>0xd0d0d0</trackOverBgColor>
+	<artistTextClr>0x0c0c0c</artistTextClr>
+	<titleTextClr>0x0c0c0c</titleTextClr>
+	<artistOverTextClr>0x000000</artistOverTextClr>
+	<titleOverTextClr>0x000000</titleOverTextClr>
+	
+	
+	
+	
+	<!-- SONG #1 -->
+	<track>
+		<artist>Soundroll</artist>
+		<album>Audio Jungle</album>
+		<title>Protest</title>
+		<url>mp3s/adg3.com_coreIssues.mp3</url>
+		<thumb>site_images/music/album1_thumb.gif</thumb>
+	</track>
+	
+	<!-- SONG #2 -->
+	<track>
+		<artist>Soundroll</artist>
+		<album>Audio Jungle</album>
+		<title>Still Waiting For You</title>
+		<url>mp3s/adg3.com_coreIssues.mp3</url>
+		<thumb>site_images/music/album2_thumb.gif</thumb>
+	</track>
+	
+	<!-- SONG #3 -->
+	<track>
+		<artist>Soundroll</artist>
+		<album>Audio Jungle</album>
+		<title>Stain</title>
+		<url>mp3s/adg3.com_coreIssues.mp3</url>
+		<thumb>site_images/music/album3_thumb.gif</thumb>
+	</track>
+
+	<!-- SONG #4 -->
+	<track>
+		<artist>Soundroll</artist>
+		<album>Audio Jungle</album>
+		<title>Adriens Elektro</title>
+		<url>mp3s/adg3.com_coreIssues.mp3</url>
+		<thumb>site_images/music/album1_thumb.gif</thumb>
+	</track>
+	
+	<!-- SONG #5 -->
+	<track>
+		<artist>Soundroll</artist>
+		<album>Audio Jungle</album>
+		<title>Fun</title>
+		<url>mp3s/adg3.com_coreIssues.mp3</url>
+		<thumb>site_images/music/album2_thumb.gif</thumb>
+	</track>
+	
+	<!-- SONG #6 -->
+	<track>
+		<artist>Soundroll</artist>
+		<album>Audio Jungle</album>
+		<title>Horizon</title>
+		<url>mp3s/adg3.com_coreIssues.mp3</url>
+		<thumb>site_images/music/album3_thumb.gif</thumb>
+	</track>
+
+	<!-- SONG #7 -->
+	<track>
+		<artist>Soundroll</artist>
+		<album>Audio Jungle</album>
+		<title>Protest</title>
+		<url>mp3s/adg3.com_coreIssues.mp3</url>
+		<thumb>site_images/music/album1_thumb.gif</thumb>
+	</track>
+	
+	<!-- SONG #8 -->
+	<track>
+		<artist>Soundroll</artist>
+		<album>Audio Jungle</album>
+		<title>Still Waiting For You</title>
+		<url>mp3s/adg3.com_coreIssues.mp3</url>
+		<thumb>site_images/music/album2_thumb.gif</thumb>
+	</track>
+	
+	<!-- SONG #9 -->
+	<track>
+		<artist>Soundroll</artist>
+		<album>Audio Jungle</album>
+		<title>Stain</title>
+		<url>mp3s/adg3.com_coreIssues.mp3</url>
+		<thumb>site_images/music/album3_thumb.gif</thumb>
+	</track>
+	
+	<!-- SONG #10 -->
+	<track>
+		<artist>Soundroll</artist>
+		<album>Audio Jungle</album>
+		<title>Adriens Elektro</title>
+		<url>mp3s/adg3.com_coreIssues.mp3</url>
+		<thumb>site_images/music/album1_thumb.gif</thumb>
+	</track>
+	
+	<!-- SONG #11 -->
+	<track>
+		<artist>Soundroll</artist>
+		<album>Audio Jungle</album>
+		<title>Fun</title>
+		<url>mp3s/adg3.com_coreIssues.mp3</url>
+		<thumb>site_images/music/album2_thumb.gif</thumb>
+	</track>
+	
+	<!-- SONG #12 -->
+	<track>
+		<artist>Soundroll</artist>
+		<album>Audio Jungle</album>
+		<title>Horizon</title>
+		<url>mp3s/adg3.com_coreIssues.mp3</url>
+		<thumb>site_images/music/album3_thumb.gif</thumb>
+	</track>
+	
+	
+</tracks>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>TemplatePlaza FLV Player</name>
+	<author>TemplatePlazza</author>
+	<creationDate>2009</creationDate>
+	<copyright>2009</copyright>
+	<license>www.templateplazza.com</license>
+	<authorEmail>info@templateplazza.com</authorEmail>
+	<authorUrl>www.templateplazza.com</authorUrl>
+	<version>1</version>
+	
+	<files>
+		<filename module="mod_tpplayer">mod_tpplayer.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_tpplayer.xml</filename>
+		<folder>tmpl</folder>
+	</files>
+	<params>
+		<param name="menupos" type="list" default="bottom" label="Menu Position"  description="Menu position">
+			<option value="bottom">Bottom</option>
+			<option value="top">Top</option>
+			<option value="left">Left</option>
+			<option value="right">Right</option>
+		</param>
+		
+		<param name="skin" type="list" default="blue" label="Skin"  description="Player skin">
+			<option value="red">Red</option>
+			<option value="green">Green</option>
+			<option value="blue">Blue</option>
+		</param>
+		
+		<param name="logopos" type="radio" default="left" label="Logo position"  description="Logo position">
+			<option value="left">Left</option>
+			<option value="right">Right</option>
+		</param>
+		
+		<param name="textcolor" type="text" default="FFFFFF" size="20" label="Text Color" description="Text color in HEXA e.g. FF6600 (without #)" />
+		
+		<param name="showtitle" type="radio" default="1" label="Show Title"  description="Show title">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="showdesc" type="radio" default="1" label="Show Description"  description="Show description">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="showthumb" type="radio" default="0" label="Show Thumbnail"  description="Show thumbnail">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+	<!--	<param name="highquality" type="radio" default="1" label="High Quality for YouTube"  description="High Quality video mode for YouTube">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param> -->
+		
+		<param name="previewimageresizemode" type="list" default="0" label="Preview Image Resize Mode"  description="Preview image resize mode">
+			<option value="0">Fit into player area / mind aspect ratio</option>
+			<option value="1">Fit into player area</option>
+			<option value="2">Fill out player area</option>
+			<option value="3">Center in player area</option>
+			<option value="4">Center in player area / shrink if necessary</option>
+			<option value="5">Resize player to the video size</option>
+		</param>
+		
+		<param name="videoresizemode" type="list" default="0" label="Video Resize Mode"  description="Video resize mode">
+			<option value="0">Fit into player area / mind aspect ratio</option>
+			<option value="1">Fit into player area</option>
+			<option value="2">Fill out player area</option>
+			<option value="3">Center in player area</option>
+			<option value="4">Center in player area / shrink if necessary</option>
+			<option value="5">Resize player to the video size</option>
+		</param>
+		 <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="@spacer" type="spacer" default="--- Movie 1 ---" label="" description="" />
+		<param name="flv0" type="text" default="" size="75" label="Movie URL" description="Movie FLV file" />
+		<param name="title0" type="text" default="" size="75" label="Title" description="Title" />
+		<param name="desc0" type="textarea" rows="3" cols="50" default="" label="Description" description="Description" />
+		<param name="thumb0" type="text" size="75" default="" label="Thumbnail" description="Thumbnail (Absolute URL, start with http://, 70x50 pixels size)" />
+		
+		<param name="@spacer" type="spacer" default="--- Movie 2 ---" label="" description="" />
+		<param name="flv1" type="text" default="" size="75" label="Movie URL" description="Movie FLV file" />
+		<param name="title1" type="text" default="" size="75" label="Title" description="Title" />
+		<param name="desc1" type="textarea" rows="3" cols="50" default="" label="Description" description="Description" />
+		<param name="thumb1" type="text" size="75" default="" label="Thumbnail" description="Thumbnail (Absolute URL, start with http://, 70x50 pixels size)" />
+		
+		<param name="@spacer" type="spacer" default="--- Movie 3 ---" label="" description="" />
+		<param name="flv2" type="text" default="" size="75" label="Movie URL" description="Movie FLV file" />
+		<param name="title2" type="text" default="" size="75" label="Title" description="Title" />
+		<param name="desc2" type="textarea" rows="3" cols="50" default="" label="Description" description="Description" />
+		<param name="thumb2" type="text" size="75" default="" label="Thumbnail" description="Thumbnail (Absolute URL, start with http://, 70x50 pixels size)" />
+		
+		<param name="@spacer" type="spacer" default="--- Movie 4 ---" label="" description="" />
+		<param name="flv3" type="text" default="" size="75" label="Movie URL" description="Movie FLV file" />
+		<param name="title3" type="text" default="" size="75" label="Title" description="Title" />
+		<param name="desc3" type="textarea" rows="3" cols="50" default="" label="Description" description="Description" />
+		<param name="thumb3" type="text" size="75" default="" label="Thumbnail" description="Thumbnail (Absolute URL, start with http://, 70x50 pixels size)" />
+		
+		<param name="@spacer" type="spacer" default="--- Movie 5 ---" label="" description="" />
+		<param name="flv4" type="text" default="" size="75" label="Movie URL" description="Movie FLV file" />
+		<param name="title4" type="text" default="" size="75" label="Title" description="Title" />
+		<param name="desc4" type="textarea" rows="3" cols="50" default="" label="Description" description="Description" />
+		<param name="thumb4" type="text" size="75" default="" label="Thumbnail" description="Thumbnail (Absolute URL, start with http://, 70x50 pixels size)" />
+		
+		<param name="@spacer" type="spacer" default="--- Movie 6 ---" label="" description="" />
+		<param name="flv5" type="text" default="" size="75" label="Movie URL" description="Movie FLV file" />
+		<param name="title5" type="text" default="" size="75" label="Title" description="Title" />
+		<param name="desc5" type="textarea" rows="3" cols="50" default="" label="Description" description="Description" />
+		<param name="thumb5" type="text" size="75" default="" label="Thumbnail" description="Thumbnail (Absolute URL, start with http://, 70x50 pixels size)" />
+		
+		<param name="@spacer" type="spacer" default="--- Movie 7 ---" label="" description="" />
+		<param name="flv6" type="text" default="" size="75" label="Movie URL" description="Movie FLV file" />
+		<param name="title6" type="text" default="" size="75" label="Title" description="Title" />
+		<param name="desc6" type="textarea" rows="3" cols="50" default="" label="Description" description="Description" />
+		<param name="thumb6" type="text" size="75" default="" label="Thumbnail" description="Thumbnail (Absolute URL, start with http://, 70x50 pixels size)" />
+		
+		<param name="@spacer" type="spacer" default="--- Movie 8 ---" label="" description="" />
+		<param name="flv7" type="text" default="" size="75" label="Movie URL" description="Movie FLV file" />
+		<param name="title7" type="text" default="" size="75" label="Title" description="Title" />
+		<param name="desc7" type="textarea" rows="3" cols="50" default="" label="Description" description="Description" />
+		<param name="thumb7" type="text" size="75" default="" label="Thumbnail" description="Thumbnail (Absolute URL, start with http://, 70x50 pixels size)" />
+		
+		<param name="@spacer" type="spacer" default="--- Movie 9 ---" label="" description="" />
+		<param name="flv8" type="text" default="" size="75" label="Movie URL" description="Movie FLV file" />
+		<param name="title8" type="text" default="" size="75" label="Title" description="Title" />
+		<param name="desc8" type="textarea" rows="3" cols="50" default="" label="Description" description="Description" />
+		<param name="thumb8" type="text" size="75" default="" label="Thumbnail" description="Thumbnail (Absolute URL, start with http://, 70x50 pixels size)" />
+		
+		<param name="@spacer" type="spacer" default="--- Movie 10 ---" label="" description="" />
+		<param name="flv9" type="text" default="" size="75" label="Movie URL" description="Movie FLV file" />
+		<param name="title9" type="text" default="" size="75" label="Title" description="Title" />
+		<param name="desc9" type="textarea" rows="3" cols="50" default="" label="Description" description="Description" />
+		<param name="thumb9" type="text" size="75" default="" label="Thumbnail" description="Thumbnail (Absolute URL, start with http://, 70x50 pixels size)" />
+       
+	</params>
+</install>

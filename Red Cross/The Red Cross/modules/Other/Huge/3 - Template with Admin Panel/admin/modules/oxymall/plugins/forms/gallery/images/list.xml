@@ -1,0 +1,76 @@
+<form>
+	<alternance>true</alternance>
+	<valternance>true</valternance>
+	
+	<fields>
+
+		<_count header="No." width="20" align="right" suffix="."/>
+
+		<item_image  type="image" path="./galleries/" header="Image" width="50" nolink="true">
+			<file default="admin_tn_" field="item_id" ext=".jpg" />			
+		</item_image>
+
+		<item_title header="Name" link="{SELF.URI.EDIT}"/>
+
+		<item_cat header="Album" type="relation" restricted="eval:$_GET[item_cat];">
+			<relation table="plugin:gallery_cats" id="cat_id" text="cat_title" order="cat_order ASC" />
+		</item_cat>
+
+		<button_move_down type="button" width="20" align="center" onclick="" button="/small/down" title="Move Down" restricted="eval:!$_GET[item_cat];">
+			<location>{SELF.URI.MOVE_DOWN}</location>
+		</button_move_down>
+
+		<button_move_up type="button" width="20" align="center" onclick="" button="/small/up" title="Move Up" restricted="eval:!$_GET[item_cat];">
+			<location>{SELF.URI.MOVE_UP}</location>
+		</button_move_up>
+
+		<button_delete type="button" width="20" align="center" onclick="" button="/small/delete" protected="promo_default">
+			<location>{SELF.URI.DELETE}</location>
+		</button_delete>
+
+		<button_details type="button" width="20" align="center" onclick="" button="/small/edit">
+			<location>{SELF.URI.EDIT}</location>
+		</button_details>
+
+	</fields>
+
+	<header>
+		<titles>true</titles>
+		<nolinks>true</nolinks>
+		<buttons>
+			<add button="addnew">
+				<location>{SELF.URI.ADD}</location>
+			</add>
+		</buttons>
+	</header>
+
+	<vars>
+		<module_id type="eval" import="(int)$_GET[module_id]" />
+		<item_cat type="eval" import="(int)$_GET[item_cat]" />
+	</vars>
+
+
+	<sql>
+		<vars>
+
+			<table type="table"/>
+
+			<page type="page"/>
+			<items type="form" var="items"/>
+			<module_id type="eval" import="$_GET[module_id]" />
+
+			<condition type="var" import="" />
+			<req_condition type="var" import="WHERE module_id={MODULE_ID} " />
+			<order type="var" import="item_order" />
+			<order_mode type="var" import="ASC" />
+
+		</vars>
+		<query>select * from {TABLE} {CONDITION} ORDER BY {ORDER} {ORDER_MODE} LIMIT {PAGE} , {ITEMS} </query>
+		<count table="{TABLE}" condition="{CONDITION}" />
+
+	</sql> 
+
+	<items>50</items>
+
+
+</form>

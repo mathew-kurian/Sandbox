@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<videogallery
+	highlight_color="0x01A9D3"
+	width="900"
+	height="325"
+	widescreen="1"
+>
+	<playlist title="Music videos" youtube_id="06E0FBF510910772" />
+	<playlist title="Movie trailers" youtube_id="DADCCF368734FF0C" />
+	<playlist title="Car commercials" youtube_id="77E2441FE0000C81" />
+	<playlist title="Remi Gaillard">
+		<video youtube_id="MytfhzcSF-Y" title="Video title 1">
+			<description><![CDATA[HTML formatted text including <a href="http://activeden.net/user/Avalonweb"><u><font color="#01A9D3">links</font></u></a> and <b>bold</b> text for exmaple. Can also contain special chars like: æ, ä, å and ø for  example.]]></description>
+		</video>
+		<video youtube_id="g1dxNsjYeIs" title="Video title 2">
+			<description><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.]]></description>
+		</video>
+		<video youtube_id="UkSPUDpe0U8" title="Video title 3">
+			<description><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.]]></description>
+		</video>
+		<video youtube_id="dM-5jEAfonc" title="Video title 4">
+			<description><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.]]></description>
+		</video>
+	</playlist>
+</videogallery>

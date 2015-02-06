@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mk.universityoftexas.austin.LightingLayoutRelative xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/log"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blog_web_bg"
+        android:orientation="vertical" >
+
+        <mk.universityoftexas.austin.OverlayProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="-20dp"
+            android:background="@drawable/blog_web_paper"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/blog_web_refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="45dp"
+                android:background="#000000"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="REFRESH"
+                android:textColor="#FFFFFF"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <WebView
+                android:id="@+id/blog_web_webview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="55dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</mk.universityoftexas.austin.LightingLayoutRelative>

@@ -1,0 +1,40 @@
+8
+
+dir
+535
+http://papervision3d.googlecode.com/svn/trunk/branches/GreatWhite/src/org/papervision3d/core/render/project/basic
+http://papervision3d.googlecode.com/svn
+
+
+
+2008-03-24T16:15:14.343517Z
+497
+r.hauwert
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+071aa1e1-232a-0410-a790-59abb25ab4c3
+
+IProjector.as
+file
+
+
+
+
+2008-03-26T08:40:42.949450Z
+31dc713d627797b3f126409f41aa696c
+2008-03-24T16:15:14.343517Z
+497
+r.hauwert
+

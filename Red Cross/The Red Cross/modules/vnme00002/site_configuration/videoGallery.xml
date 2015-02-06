@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	
+	<contentWidth>700</contentWidth>
+	<contentHeight>1990</contentHeight>
+	<contentBgColor>0xE1E1E1</contentBgColor>
+	<contentBgOpacity>1</contentBgOpacity>
+	<scrollBaseColor>0x0C0C0C</scrollBaseColor>
+	<scrollerColor>0xD60001</scrollerColor>
+	
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>true</displayHtmlArticles>
+	<displaySlideShow>true</displaySlideShow>									
+	<displaySWF>false</displaySWF>
+
+	<!-- Background Image -->
+	<image>
+		<x>0</x>
+		<y>0</y>
+		<imageURL>site_images/vidGalBack.gif</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink></includePageLink>
+		<page></page>
+	</image>
+	
+	<!-- PAGE TITLE -->
+	<image>
+		<x>40</x>
+		<y>40</y>
+		<imageURL>site_images/videoGalleryTitle.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink></includePageLink>
+		<page></page>
+	</image>
+	
+	
+	<!-- Video PopUp -->
+	<image>
+		<x>40</x>
+		<y>120</y>
+		<imageURL>site_images/videoGalleryClip.gif</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>true</includeVideo>
+		<videoURL>site_videos/intro.flv</videoURL>
+		<videoWidth>604</videoWidth>
+		<videoHeight>340</videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	
+	<!-- TITLE -->
+		<image>
+		<x>40</x>
+		<y>405</y>
+		<imageURL>site_images/videoArticleTitle.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	
+	<!-- Text Block -->
+	<article>
+		<x>40</x>
+		<y>428</y>
+		<width>620</width>
+		<articleText><![CDATA[<p align="justify" class="extraLeading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae posuere libero. Nulla facilisi. Fusce eget ipsum ante, in malesuada elit. Proin at tincidunt augue. In hac habitasse platea dictumst. Cras eget lacus enim. Nam imperdiet dui sit amet orci gravida id porttitor mauris scelerisque.</p>]]>
+		</articleText>
+	</article>
+	
+
+
+	<!-- Video PopUp -->
+	<image>
+		<x>40</x>
+		<y>600</y>
+		<imageURL>site_images/videoGalleryClip.gif</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>true</includeVideo>
+		<videoURL>site_videos/intro.flv</videoURL>
+		<videoWidth>604</videoWidth>
+		<videoHeight>340</videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	
+		<!-- TITLE -->
+		<image>
+		<x>40</x>
+		<y>885</y>
+		<imageURL>site_images/videoArticleTitle.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	
+	<!-- Text Block -->
+	<article>
+		<x>40</x>
+		<y>908</y>
+		<width>620</width>
+		<articleText><![CDATA[<p align="justify" class="extraLeading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae posuere libero. Nulla facilisi. Fusce eget ipsum ante, in malesuada elit. Proin at tincidunt augue. In hac habitasse platea dictumst. Cras eget lacus enim. Nam imperdiet dui sit amet orci gravida id porttitor mauris scelerisque.</p>]]>
+		</articleText>
+	</article>
+
+
+	<!-- Video PopUp -->
+	<image>
+		<x>40</x>
+		<y>1080</y>
+		<imageURL>site_images/videoGalleryClip.gif</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>true</includeVideo>
+		<videoURL>site_videos/intro.flv</videoURL>
+		<videoWidth>604</videoWidth>
+		<videoHeight>340</videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	
+		<!-- TITLE -->
+		<image>
+		<x>40</x>
+		<y>1365</y>
+		<imageURL>site_images/videoArticleTitle.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	
+	<!-- Text Block -->
+	<article>
+		<x>40</x>
+		<y>1388</y>
+		<width>620</width>
+		<articleText><![CDATA[<p align="justify" class="extraLeading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae posuere libero. Nulla facilisi. Fusce eget ipsum ante, in malesuada elit. Proin at tincidunt augue. In hac habitasse platea dictumst. Cras eget lacus enim. Nam imperdiet dui sit amet orci gravida id porttitor mauris scelerisque.</p>]]>
+		</articleText>
+	</article>
+	
+	
+	
+		<!-- Video PopUp -->
+	<image>
+		<x>40</x>
+		<y>1560</y>
+		<imageURL>site_images/videoGalleryClip.gif</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>true</includeVideo>
+		<videoURL>site_videos/intro.flv</videoURL>
+		<videoWidth>604</videoWidth>
+		<videoHeight>340</videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	
+		<!-- TITLE -->
+		<image>
+		<x>40</x>
+		<y>1845</y>
+		<imageURL>site_images/videoArticleTitle.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	
+	<!-- Text Block -->
+	<article>
+		<x>40</x>
+		<y>1863</y>
+		<width>620</width>
+		<articleText><![CDATA[<p align="justify" class="extraLeading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae posuere libero. Nulla facilisi. Fusce eget ipsum ante, in malesuada elit. Proin at tincidunt augue. In hac habitasse platea dictumst. Cras eget lacus enim. Nam imperdiet dui sit amet orci gravida id porttitor mauris scelerisque.</p>]]>
+		</articleText>
+	</article>
+	
+	
+</xmlObject>

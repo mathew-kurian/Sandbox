@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Album1>
+		
+	<gallery>
+		
+		<!-- CONFIGURATION OPTIONS -->
+		
+				<!-- choose if you want to include tooltips when you hover over thumbnails -->
+				<showThumbToolTips>true</showThumbToolTips>
+				
+				<!-- set the top margin for your photo gallery -->
+				<topMargin>75</topMargin>
+				
+				<!-- set the bottom margin for your photo gallery -->
+				<bottomMargin>0</bottomMargin>
+				
+				<!-- set the border width you would like to surround your large images -->
+				<imageBorderWidth>0</imageBorderWidth>
+				
+				<!-- set the color of the rectangle under your large images -->
+				<imageBorderColor>0x0c0c0c</imageBorderColor>
+				
+				<!-- set the opacity of the rectangle under your large images -->
+				<imageBorderOpacity>1</imageBorderOpacity>
+				
+				<!-- set the size of the font used in the image preloader -->
+				<preloaderTextSize>140</preloaderTextSize>
+				
+				<!-- set the color of the font used in the image preloader -->
+				<preloaderTextColor>0xC20800</preloaderTextColor>
+				
+				<!-- set the opacity of the font used in the image preloader -->
+				<preloaderTextOpacity>1</preloaderTextOpacity>
+				
+				<!-- set the color and opacity for your forward and reverse buttons -->
+				<frwdRevBtnColor>0x0c0c0c</frwdRevBtnColor>
+				<frwdRevBtnOpacity>1</frwdRevBtnOpacity>
+				<frwdRevArrowColor>0xC20800</frwdRevArrowColor>
+				
+				<!-- set the color and opacity for your fullscreen image button -->
+				<fsBtnColor>0x0c0c0c</fsBtnColor>
+				<fsBtnOpacity>1</fsBtnOpacity>
+				<fsIconColor>0xC20800</fsIconColor>
+				
+				<!-- set the color and opacity for your image info button -->
+				<infoBtnColor>0x0c0c0c</infoBtnColor>
+				<infoIconColor>0xC20800</infoIconColor>
+				<infoBtnOpacity>1</infoBtnOpacity>
+				
+				<!-- Choose the scroll type for your information pop-up -->
+				<useHoverScroll>true</useHoverScroll>
+				<useManualScroll>false</useManualScroll>
+				
+				<!-- 	These settings apply 
+							if useManualScroll is true 
+							and useHoverScroll is false   -->
+					<scrollBarWidth>19</scrollBarWidth>
+					<scrollBarHeight>200</scrollBarHeight>
+					<scrollBaseColor>0xffffff</scrollBaseColor>
+					<addTiledPatternToScrollBase>false</addTiledPatternToScrollBase>
+					<patternUrl>site_images/patterns/edgePattern.png</patternUrl>
+					<scrollBaseOpacity>1</scrollBaseOpacity>
+					<scrollerColor>0x0c0c0c</scrollerColor>
+					<scrollerOpacity>1</scrollerOpacity>
+					
+				<!-- set the color, opacity, and text color for your thumbnail tooltips-->
+				<!-- these tooltip settings will be ignored if <showThumbToolTips> is set to false-->
+				<tooltipColor>0x0c0c0c</tooltipColor>
+				<tooltipOpacity>1</tooltipOpacity>
+				<tooltipTextColor>0xC20800</tooltipTextColor>
+				<!-- set the color and opacity that is used when your screen is dimmed -->
+				<dimBgColor>0x000000</dimBgColor>
+				<dimBgOpacity>1</dimBgOpacity>
+				<!-- point this tag to an image url for a close button -->
+				<closeBtnImageUrl>site_images/pages/photoGallery/infoCloseBtn.gif</closeBtnImageUrl>
+
+
+	<!-- CONFIGURATION OPTIONS END -->
+		
+		
+		
+		
+		
+		<image>
+			<!-- Points to your main image url -->
+			<ImageUrl>site_images/pages/photoGallery/01_full.jpg</ImageUrl>
+			<!-- Points to your thumb image url -->
+			<ThumbUrl>site_images/pages/photoGallery/01_thumb.jpg</ThumbUrl>
+			<!-- this thumb caption will be ignored if <showThumbToolTips> is set to false-->
+			<thumbCaption>Homeless...We Can Help</thumbCaption>
+			<!-- option for adding a full size image button -->
+			<addFullScreenButton>true</addFullScreenButton>
+			<!-- option for adding an information pop up page -->
+			<addImageInfo>false</addImageInfo>
+		<!-- IMAGE #1 END-->
+		</image>
+			
+		<!-- IMAGE #1-->
+		<image>
+			<ThumbUrl>site_images/pages/photoGallery/03_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/pages/photoGallery/03_full.jpg</ImageUrl>
+			<thumbCaption>Homes in Africa</thumbCaption>
+			<addFullScreenButton>true</addFullScreenButton>		
+		</image>
+		
+		
+		
+		<!-- IMAGE #2-->
+		<image>
+			<ThumbUrl>site_images/pages/photoGallery/02_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/pages/photoGallery/02_full.jpg</ImageUrl>
+			<thumbCaption>Children Around the World Go Hungry Every Night</thumbCaption>
+			<addFullScreenButton>true</addFullScreenButton>
+			<addImageInfo>true</addImageInfo>
+			<!-- All of the settings inbetween the <infoPopUp></infoPopUp> tags specify
+					 the settings for the information pop up window if addImageInfo above is set to true -->
+							<infoPopUp>
+								<!-- set the width of your information pop up -->
+								<width>800</width>
+								<!-- set the height of your information pop up -->
+								<height>1500</height>
+								<!-- set the color of your information pop up -->
+								<bgClr>0xFFFFFF</bgClr>
+								<!-- set the opacity of your information pop up -->
+								<bgOpac>0</bgOpac>
+								<!-- Set addImages to true if you would like to include image in your info pop up -->
+								<addImages>true</addImages>
+								<!-- Set addHtml to true if you would like to include html text blocks to your info pop up -->
+								<addHtml>true</addHtml>
+					
+								<!--IMAGE TAGS FOR PHOTO INFO POPUP -->
+								<image>
+									<x>37</x>
+									<y>27</y>
+									<imageURL>site_images/pages/photoGallery/infoTitle.png</imageURL>
+								</image>
+								<image>
+									<x>36</x>
+									<y>131</y>
+									<imageURL>site_images/pages/photoGallery/infoSubTitle.png</imageURL>
+								</image>
+								<image>
+									<x>42</x>
+									<y>199</y>
+									<imageURL>site_images/pages/photoGallery/infoThirdTitle.png</imageURL>
+								</image>
+								
+								<!--HTML TEXT BLOCKS FOR PHOTO INFO POPUP -->
+								<textBlock>
+									<x>41</x>
+									<y>250</y>
+									<width>520</width>
+									<articleText>
+<![CDATA[<p>Statistics on poverty & food wastage in America 
+By Samana Siddiqi
+Poverty in America? One of the richest countries in the world?
+Yes, poverty is a reality in America, just as it is for millions of other human beings on the planet. According to the US Census Bureau, 35.9 million people live below the poverty line in America, including 12.9 million children.
+This is despite abundance of food resources. Almost 100 billion pounds of food is wasted in America each year. 700 million hungry human beings in different parts of the world would have gladly accepted this food.
+Here are some statistics on the nature of poverty and the waste of food and money in America.
+-In 2004, requests for emergency food assistance increased by an average of 14 percent during the year, according to a 27-city study by the United States Conference of Mayors.
+-Also in this study, it was noted that on average, 20 percent of requests for emergency food assistance have gone unmet in 2004.
+-According to the Bread for the World Institute 3.5 percent of U.S. households experience hunger. Some people in these households frequently skip meals or eat too little, sometimes going without food for a whole day. 9.6 million people, including 3 million children, live in these homes.
+-<a class="alt" target="_blank" href="http://www.secondharvest.org/">America's Second Harvest</a>, the nation's largest network of food banks, reports that 23.3 million people turned to the agencies they serve in 2001, an increase of over 2 million since 1997. Forty percent were from working families.
+33 million Americans continue to live in households that did not have an adequate supply of food. Nearly one-third of these households contain adults or children who went hungry at some point in 2000.
+U.S. Dept. of Agriculture, March 2002, "Household Food Security in the United States, 2000"</p>
+]]>
+									</articleText>
+								</textBlock>
+							</infoPopUp>
+		</image>
+		
+		
+		<!-- IMAGE #3-->
+		<image>
+			<ThumbUrl>site_images/pages/photoGallery/04_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/pages/photoGallery/04_full.jpg</ImageUrl>
+			<addImageInfo>true</addImageInfo>
+			<thumbCaption>India's Slums</thumbCaption>
+			<addFullScreenButton>true</addFullScreenButton>
+			<!-- All of the settings inbetween the <infoPopUp></infoPopUp> tags specify
+					 the settings for the information pop up window if addImageInfo above is set to true -->
+							<infoPopUp>
+								<!-- set the width of your information pop up -->
+								<width>800</width>
+								<!-- set the height of your information pop up -->
+								<height>1500</height>
+								<!-- set the color of your information pop up -->
+								<bgClr>0xFFFFFF</bgClr>
+								<!-- set the opacity of your information pop up -->
+								<bgOpac>0</bgOpac>
+								<!-- Set addImages to true if you would like to include image in your info pop up -->
+								<addImages>true</addImages>
+								<!-- Set addHtml to true if you would like to include html text blocks to your info pop up -->
+								<addHtml>true</addHtml>
+					
+								<!--IMAGE TAGS FOR PHOTO INFO POPUP -->
+								<image>
+									<x>37</x>
+									<y>27</y>
+									<imageURL>site_images/pages/photoGallery/infoTitle.png</imageURL>
+								</image>
+								<image>
+									<x>36</x>
+									<y>131</y>
+									<imageURL>site_images/pages/photoGallery/infoSubTitle.png</imageURL>
+								</image>
+								<image>
+									<x>42</x>
+									<y>199</y>
+									<imageURL>site_images/pages/photoGallery/infoThirdTitle.png</imageURL>
+								</image>
+								
+								<!--HTML TEXT BLOCKS FOR PHOTO INFO POPUP -->
+								<textBlock>
+									<x>41</x>
+									<y>250</y>
+									<width>520</width>
+									<articleText>
+<![CDATA[<p>A Playful, Yet Powerful, Presence
+April 02, 2007 by Seane Corn
+We were led to what was probably the “Main Street” of Dharavi. It was a fairly wide dirt roadway filled with garbage, of course, and a lot of activity. There were chickens, goats, dogs, children holding even smaller children, men working and loitering, and women in saris and burkas (the Hindi and Muslim population live quite peacefully together in Dhavari and often celebrate each others festivals) all milling about. The programs directors led us to a street performance already in progress. These young men perform on a daily basis in strategically located hot spots. In alignment with cultural traditions and Indian heritage, the Street Play Team employ folklore and ancient storytelling techniques to captivate its audience. The central focus of this team, through storytelling and entertainment, is to offer pertinent information related to HIV/AIDS and STIs. The content of the street plays usually include information on correct and consistent condom use and the features and benefits of STI treatment services at Key Clinics.
+The performers spoke in Hindi, and there was a large crowd gathered around, mostly men and children. The characters were dressed colorfully and very animated and dramatic. This particular play was about three friends celebrating one young man's birthday. They decided he should visit a sex worker. Of course, the young man contracts an STI (I couldn't understand anything, but I got the general idea when the actor kept scratching himself). According to the crowd reaction, it was was hysterical, and they all seemed caught up in the storyline.
+We were then taken to another area where we met Condom Man�an Indian man dressed in a large, red, inflatable plastic condom costume, complete with a smiley face, large shoes, and over-sized hands. He was dancing to music until a crowd formed around him. Then, other men began engaging the crowd to play simple awareness-related games. They used drawings or photos to illustrate, since most of the people in Dhavari are illiterate with little or, more likely, no education. Next to the table was a small tent where, in groups of eight, men were led inside and shown examples of what the different STIs looked like.
+Sadly, we left Condom Man dancing in the dirt and continued walking through Dhavari. The people, like most of the people I've meet in India, were sweet and kind to us. I made eye contact and said hi often, since I was a guest in their home. It was important to me these people felt respected by our presence. Most of my "hellos" were met by smiles, handshakes, and offers of their precious, small supply of food.
+We went to another area to watch another play. This one had men in drag, dressed in black wigs and colorful saris. Their makeup was running in the heat. This play was to raise awareness about having sex with male partners and transsexual street workers. I have seen transsexual sex workers and they are often quite attractive. But these street performers were the ugliest pretend women I have ever seen! I suppose it was deliberate, because the crowd laughed at their feeble attempt at femininity and stayed involved long enough to get the message.
+I was incredibly impressed by the visibility and access that YouthAIDS has in this environment. YouthAIDS workers wear a blue or yellow coat to identify themselves to the people in the area. It has taken years of one-on-one and group outreach practices to cultivate trust among the men and women of Dharavi. They seem to understand that the intention of YouthAIDS is not to judge, exploit, or even rehabilitate. YouthAIDS is there to serve, educate, and encourage each person to take responsibility for his or her health and the wellness of the community in which they work and live.
+Next, we were taken to one of the Key Clinics. The Key Clinic franchise was launched in 2004 to facilitate high quality STI screening and treatment. It is made up of qualified medical practitioners who operate their own clinics and provide affordable and accurate STI training for target groups. There are 12 Key Clinics in and around Dharavi, which are identified by a brand logo marketed toward target populations. The doctors are subjected to extensive quarterly thematic training on STI-related issues and sensitivity towards the needs of high-risk populations.
+The office was clean and well-lit. We were broken into a few groups to meet the doctor because the room was too small to accommodate all of us. He was a middle age man who was polite and very confident in his role. He explained the different treatments he preforms. He sees mostly the male clients of sex workers treats thrush, genital herpes and warts, gonorrhea, HIV/AIDS, as well as, the common cold, scrapes, bruises, etc. He was very kind as he explained how he discusses condom use with the gentlemen and offered all of us a packet of Masti Condoms (marketed by PSI/YouthAIDS) to take with us.
+We left the Key Clinic and were directed down the block to the local video parlor where a film was to be interrupted and a demonstration of condom use would take place. We were taken down a small road and led to a wrought iron ladder. It was completely rusted and flakes of metal fell off in my hands as I gripped it. I thought how grateful I am that I had that tetanus shot after all! We climbed the ladder up through a large hole and entered a fairly large, very dark space where a film was in progress. There were all men crowded in the dark space sitting on the floor. I walked towards the back and sat down on the floor before thinking about what usually goes on in this place. With my hands touching the bare floor, I got a little squeamish realizing that normally this dank theater shows nothing but porn. I couldn't imagine the things that go on in this room, and I was certain that there was no one mopping up afterwards! The energy was very creepy and dark, and I was uncomfortable sitting there among all those men even though I knew I was safe. I was grateful to leave once the YouthAIDS peer educators stopped the film and began their demonstration. They asked us to leave because they didn't want to make the men uncomfortable by having women present to watch.
+This finally concluded our time in Dharavi. As we climbed back through the alleyway and onto the main roadway, I took inventory on my feelings and realized I felt sad, inspired, tired, hopeful, angry, and excited. I thought of Hala’s statement about "a country of contradictions." I knew precisely what she meant. We left and drove back toward the area in Mumbai where we were staying.
+We were then taken to a large public movie theater where Bollywood movies play all day. The theatre was lively and everyone was talking and singing over the soundtrack. It was pretty wild. Everyone was very dressed up. It was clearly a more middle class crowd. We were escorted to the front and sat down to watch the film. It was hysterical. Bollywood films are elaborate and kitsch and completely delightful! The audience was almost as interesting as the film itself, with people talking in full voice, clearly enjoying themselves. YouthAIDS had staged another interruption at this theater as well. I asked, "Don't these people mind that their film is being interrupted?" Actually, no, they just go with it. They have no issue as long as it is entertaining. I could only imagine our reaction to something like in L.A. When they stopped the movie some members of Sanghamitra (a sex workers empowerment collective) got on stage and acted out scenarios from their lives. They showed police batterings, clients refusing to wear condoms, and being denied medical treatment. Then they showed how the collective supports one another, and what they are trying to do to empower themselves, each other, and fight for their rights. It was an amazing and inspiring demonstration and I got very curious about this collective of women, disenfranchised and illiterate, coming together to create change. I will find out much more about them later.
+After they were done, Ashley went on stage and spoke about HIV/AIDS, correct and consistent use, and Key Clinics. She, as always, was articulate, humane, heartfelt, and clear.
+When we got back to the hotel, through the glass door and into the grand lobby, standing on the polish marble floor, I was incredibly grateful to have this refuge to come back to. Walking through the main corridor to my room, I was looking forward to taking the bath that would remove the filth and stank of Dharavi from my skin. I was saddened by the thought though, of all the men, women, and children I met that day that will call that filth and stank, forevermore, their home. </p>
+]]>
+									</articleText>
+								</textBlock>
+							</infoPopUp>
+		</image>	
+		
+
+	</gallery>
+</Album1>

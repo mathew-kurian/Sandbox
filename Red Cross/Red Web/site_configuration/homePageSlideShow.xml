@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	
+	<speed>5000</speed><!-- Time in milliseconds 5000 = 5 seconds -->
+	<width>885</width>
+	<height>350</height>
+	
+	<displayInfoText>true</displayInfoText>
+	
+	<displayButtons>true</displayButtons>
+	
+	<hoverTextBgColor>0xffffff</hoverTextBgColor>
+	<hoverTextBgOpacity>.55</hoverTextBgOpacity>
+	<hoverTextBgHeight>120</hoverTextBgHeight>
+	
+	<buttonBgColor>0x545454</buttonBgColor>
+	<buttonBgColorOpacity>0</buttonBgColorOpacity>
+	<buttonTextColor>0xcfcfcf</buttonTextColor>
+	<buttonSelBgColor>0x00b7dc</buttonSelBgColor>
+	<buttonSelBgColorOpacity>0</buttonSelBgColorOpacity>
+	<buttonSelTextColor>0xC20800</buttonSelTextColor>
+	
+	<slide>
+		<url>site_images/pages/home/slide1.jpg</url>
+		<ImageTitle><![CDATA[<h1>Middle School Students Participate</h1><p>In the spirit of the season, Congressman Joe Sestak (PA-07); VFW Post 3460; and students, faculty and administrators at Drexel Hill Middle School (DHMS) collaborated to send over 1000 holiday greetings to wounded US Military Personnel at Landstuhl Regional Medical Center (LRMC) in Germany.</p>]]></ImageTitle>
+	</slide>
+	<slide>
+		<url>site_images/pages/home/slide2.jpg</url>
+		<ImageTitle><![CDATA[<h1>Our Lady of Mount Carmel School</h1><p>The Good Counsel students also paired up with the students of Our Lady of Mount Carmel School in Elmsford to collect $2200 more. This additional sum was sent to Catholic Relief Services for the Haitian relief efforts. The Mount Carmel students, led by Sr. Ruth Murphy, RDC, raised $525 of the total.</p>]]></ImageTitle>
+	</slide>
+	<slide>
+		<url>site_images/pages/home/slide3.jpg</url>
+		<ImageTitle><![CDATA[<h1>CUSUSM Local Chapter</h1><p>PAT sponsored and hosted the American Red Cross Blood Drive on March 20, 2008. Nineteen students and Professors came out to support the blood drive. Professors Lombard and Engen gave of their time to support PAT and each gave a unit of blood for the cause. It was the first time to donate blood for both of them. From the nineteen people who came out and wanted to give--we were able to get 13 units of whole blood which is enough to impact, if not save, the lives of 39 people. We sponsored the drive during midterms week and the campus was a bit light on foot traffic on the day of the event, but we were happy to do our part for such an important cause. Every unit of blood that is donated is important in the overall goal of saving lives.</p>]]></ImageTitle>
+	</slide>
+	<slide>
+		<url>site_images/pages/home/slide4.jpg</url>
+		<ImageTitle><![CDATA[<h1>Eastern Hemisphere Red Cross Groups</h1><p>In extra-curricular activities, our students have brought honour to Hong Kong by winning many prizes in both local and overseas competitions. In 2001, five Form 3 students from Hong Kong Red Cross Princess Alexandra School won the Second Prize of the first Secondary Schools Technology Innovation Competition in Hong Kong.</p>]]></ImageTitle>
+	</slide>
+	<slide>
+		<url>site_images/pages/home/slide5.jpg</url>
+		<ImageTitle><![CDATA[<h1>SUNY Canton Students Recognized for Excellence</h1><p>Several SUNY Canton student organizations were awarded by the American Red Cross for the highest percentage of growth in volunteer blood donations among four-year colleges in the SUNY System.</p>]]></ImageTitle>
+	</slide>
+	<slide>
+		<url>site_images/pages/home/slide6.jpg</url>
+		<ImageTitle><![CDATA[<h1>University Wisconsin Green Bay</h1><p>Thursday, April 23, the American Red Cross Club of the University Wisconsin Green Bay, hosted an awareness campaign on campus to let people know about the mission of the American Red Cross and students can be apart of the mission by joining the Red Cross Club. The club is a new student organization on campus and we are thrill to have 15 current members.</p>]]></ImageTitle>
+	</slide>
+	<slide>
+		<url>site_images/pages/home/slide7.jpg</url>
+		<ImageTitle><![CDATA[<h1>Aid for Africa</h1><p>Tis the season of giving. So this Christmas season, the STU/UNB Canadian Red Cross Club is encouraging people to donate to the Malaria Christmas Card Campaign. The campaign focuses on raising money for bed nets for those threatened by malaria in sub-Saharan Africa.
+</p>]]></ImageTitle>
+	</slide>
+	<slide>
+		<url>site_images/pages/home/slide8.jpg</url>
+		<ImageTitle><![CDATA[<h1>Informative Lectures</h1><p>St. Nessan’s Community College Students being presented with their Irish Red Cross Society Certificates, having successfully completed their Basic CPR Course (Defibrillator) in the University of Limerick.</p>]]></ImageTitle>
+	</slide>
+</xmlObject>
+
+
+			

@@ -1,0 +1,6 @@
+
+#protect some files
+		
+<Files ~ ".xml">
+	Allow from all
+</Files>

@@ -1,0 +1,83 @@
+<form>
+	<title>{TITLE} Categories</title>
+	<border>true</border>
+
+	<alternance>true</alternance>
+	<valternance>true</valternance>
+
+	<tabs>
+		<t width="100" title="Module Settings" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.user&action=details&mod_id={MODULE_ID}" restricted="eval:$GLOBALS[_USER]['user_level'];"/>
+
+		<t1 active="true" width="80" title="Categories" link="index.php?mod=oxymall&sub=oxymall.plugin.services.landing&module_id={MODULE_ID}&action=details&returnurl={SELF.PREVIOUS_ENC}" />
+		<t2 width="80" title="Images" link="index.php?mod=oxymall&sub=oxymall.plugin.services.images&module_id={MODULE_ID}&returnurl={SELF.PREVIOUS_ENC}" />
+
+		<t_video width="80" title="Video Tutorial" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.help&module_id={MODULE_ID}" restricted="eval:$GLOBALS['no_tutorials'];"/>
+
+	</tabs>
+
+	<vars>
+		<module_id type="eval" import="$_GET[module_id]" />
+	</vars>
+
+	<fields>
+
+		<_count header="No." width="20" align="right" suffix="."/>
+
+		<cat_title header="Name" link="index.php?mod=oxymall&sub=oxymall.plugin.services.images&module_id={MODULE_ID}&advanced=0&item_cat={CAT_ID}"/>
+	
+		<button_move_down type="button" width="20" align="center" onclick="" button="/small/down" title="Move Down">
+			<location>{SELF.URI.MOVE_DOWN}</location>
+		</button_move_down>
+
+		<button_move_up type="button" width="20" align="center" onclick="" button="/small/up" title="Move Up">
+			<location>{SELF.URI.MOVE_UP}</location>
+		</button_move_up>
+
+		<button_delete type="button" width="20" align="center" onclick="" button="/small/delete" protected="promo_default">
+			<location>{SELF.URI.DELETE}</location>
+		</button_delete>
+
+		<button_details type="button" width="20" align="center" onclick="" button="/small/edit">
+			<location>{SELF.URI.EDIT}</location>
+		</button_details>
+
+	</fields>
+
+	<vars>
+		<cat_promo type="eval" import="$_GET[promo_id];"/>
+	</vars>
+
+	<header>
+		<titles>true</titles>
+		<nolinks>true</nolinks>
+		<buttons>
+			<add button="addnew">
+				<location>{SELF.URI.ADD}</location>
+			</add>
+		</buttons>
+	</header>
+
+	<items>50</items>
+
+	<sql>
+		<vars>
+
+			<table type="table"/>
+
+			<page type="page"/>
+			<items type="form" var="items"/>
+			<module_id type="eval" import="$_GET[module_id];" />
+
+			<condition type="var" import="WHERE module_id={MODULE_ID} " />
+
+			<order type="var" import="cat_order" />
+			<order_mode type="var" import="ASC" />
+
+		</vars>
+		<query>select * from {TABLE} {CONDITION} ORDER BY {ORDER} {ORDER_MODE} LIMIT {PAGE} , {ITEMS} </query>
+		<count table="{TABLE}" condition="{CONDITION}" />
+
+	</sql> 
+
+
+</form>

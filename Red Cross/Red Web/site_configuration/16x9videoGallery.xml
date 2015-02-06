@@ -1,0 +1,292 @@
+<xml>
+	
+	<configSettings>
+		
+		
+		
+		<!-- Step 1 Choose 4x3 Mode or 6x9 Mode -->
+				<use4x3player>false</use4x3player>
+				<use16x9player>true</use16x9player>
+		
+				
+		<!--Step 2 Choose Video Module Type -->
+				<!--set singleVideoModule to true if you just have one video to display -->
+				<singleVideoModule>false</singleVideoModule>
+				<!--set minimalVideoModule to true if you have multiple videos in a single 
+				category and do not want the large description area to be displayed-->
+				<minimalVideoModule>false</minimalVideoModule>
+				<!--set fullVideoModule to true if you have multiple video categories 
+				and want the video description area to be displayed -->
+				<fullVideoModule>true</fullVideoModule>
+		
+		
+		
+		<!--Step 3 set your margins.  -->
+				<topMargin>130</topMargin>
+				<bottomMargin>130</bottomMargin>
+			
+			
+			
+		<!--Step 4 Align your video gallery on the stage -->
+				<!--
+					alignX Options 
+					The alignX is the distance from the left your videoGallery will start
+					Static X    				  eg.  <alignX>175</alignX>      		(this will make your videoGallery start 175 pixels from the left)
+					Left aligned X    	  eg.  <alignX>left</alignX>    		(this will make your videoGallery be left aligned)
+					Center aligned X      eg.  <alignX>center</alignX>  		(this will make your videoGallery be centered)
+					Right aligned X    	  eg.  <alignX>right</alignX>				(this will make your videoGallery be right aligned)
+				-->
+				<alignX>center</alignX>
+				<!--
+					alignY Options 
+					The alignY is the distance from the top your videoGallery will start
+					static Y    				  eg.  <alignY>175</alignY>      	(this will make your videoGallery always start 175 pixels from the top)
+					top aligned Y    	  	eg.  <alignY>top</alignY>     	(this will make your videoGallery be aligned vertically under the topMargin)
+					bottom aligned Y      eg.  <alignY>bottom<alignY>   	(this will make your videoGallery be aligned vertically and sit on the bottomMargin)
+					center aligned Y    	eg.  <alignY>center<alignY>			(this will make your videoGallery be aligned vertically between the topMargin and bottomMargin)
+				-->
+				<alignY>center</alignY> 
+	
+	
+	
+		<!--Step 5 set your video width and height-->	
+				<videoWidth>639</videoWidth>
+				<videoHeight>360</videoHeight>
+				
+				
+				
+		<!--Step 6 set your content area width and the x and width for your content area text fields-->			
+				<contentWidth>385</contentWidth>
+				<!--Main title text field-->
+				<titleX>670</titleX>
+				<titleWidth>355</titleWidth>
+				<!--Sub title text field-->
+				<subTitleX>674</subTitleX>
+				<subTitleWidth>343</subTitleWidth>
+				<!--Description text field-->
+				<descriptionX>674</descriptionX>
+				<descriptionWidth>295</descriptionWidth>
+				
+
+		<!--Step 7 set video playback configuration options-->
+				<!-- Set initial volume 0 is the lowest and 1 the highest -->
+				<initialVolume>.3</initialVolume>
+				<!-- Number of seconds to buffer video -->
+				<buffer>5</buffer>
+				<!-- Should the video keep a 4x3 or 16x9 ratio when in full screen-->
+				<keepAspectRatio>true</keepAspectRatio>
+				
+				
+		
+		<!--Step 8 skin your categories & sub categories buttons-->
+			<categoryButton>
+				<!-- Should Categories be displayed (true/false) -->
+				<enableCatSelection>true</enableCatSelection>
+				<!-- Name of Category Button & Position-->
+				<name>select a category</name>
+				<x>852</x>
+				<y>0</y>
+				<!-- Main Category Button & Text Properties -->
+				<backgroundColor>0x0C0C0C</backgroundColor>
+				<btnOpacity>1</btnOpacity>
+				<catTextColor>0xbababa</catTextColor>
+				<overStateBackgroundColor>0x0C0C0C</overStateBackgroundColor>
+				<overStateTextColor>0xC20800</overStateTextColor>
+				<!-- SubCategory Buttons & Text Properties -->
+					<subBtnOpacity>1</subBtnOpacity>
+					<!--NORMAL-->
+					<subBgColor>0x0C0C0C</subBgColor>
+					<subTextColor>0xbababa</subTextColor>
+					<!--OVER-->
+					<subOverBgColor>0x121212</subOverBgColor>
+					<subOverTextColor>0xC20800</subOverTextColor>
+					<!--CLICKED-->
+					<subClickBgColor>0x121212</subClickBgColor>
+					<subClickTextColor>0xC20800</subClickTextColor>
+			</categoryButton>
+			
+			
+				
+		<!--Step 9 skin the colors of your video controls-->
+			<!-- play pause button -->
+			<playPauseBtnColor>0x000000</playPauseBtnColor>
+			<playPauseIconColor>0xC20800</playPauseIconColor>
+			<!-- full screen button -->
+			<fullScreenBtnColor>0x000000</fullScreenBtnColor>
+			<fullScreenIconColor>0xC20800</fullScreenIconColor>
+			<!-- volume button -->
+			<volumeBtnColor>0x000000</volumeBtnColor>
+			<volumeIconColor>0xC20800</volumeIconColor>
+			<volumeBaseColor>0x0C0C0C</volumeBaseColor>
+			<volumeLevelColor>0xC20800</volumeLevelColor>
+			<!-- time button -->
+			<timeBarBtnColor>0x000000</timeBarBtnColor>
+			<timePlayedTextColor>0xC20800</timePlayedTextColor>
+			<timeTotalTextColor>0x555555</timeTotalTextColor>
+			<!-- seek bar -->
+			<videoPlayedColor>0xC20800</videoPlayedColor>
+			<videoLoadedColor>0x0C0C0C</videoLoadedColor>
+			<videoLengthColor>0x161616</videoLengthColor>
+			<!-- Scroll Bar Properties -->
+			<scrollerColor>0xC20800</scrollerColor>
+			<scrollBaseColor>0x000000</scrollBaseColor>
+			<!-- Back and Forward Thumbnail Button Color -->
+			<btnColor>0x0c0c0c</btnColor>
+			<btnArrowColor>0xC20800</btnArrowColor>
+			<!-- Thumbnail Background (Dimensions of this image should be the width of you video by 92) -->
+			<!-- eg.  above the video width is set to <videoWidth>480</videoWidth>  so your thum background
+								image should be 480x92 -->
+			<thumbnailBgImage>site_images/video/16x9thumbBack.gif</thumbnailBgImage>
+		
+		
+	</configSettings>
+<!--END OF CONFIGURATION SETTINGS-->
+
+
+
+<categories>
+	
+	<!--CATEGORY NUMBER 1  elements portfolio-->
+	<category>
+		
+		<name>creative themes</name>
+		
+		<!-- CATEGORY 1 video 1-->
+		<video>
+			<videoUrl>site_videos/theme.flv</videoUrl>
+			<autoStartVideo>true</autoStartVideo>
+			<bgImage>site_images/video/descriptionBack.jpg</bgImage>
+			
+			<title>Fill the Gaps</title>
+			<subTitle>an inspirational video</subTitle>
+			<description>This is a great song for a great organization. It was part of a corporate video we made for the Red Cross after 9/11.</description>
+			
+			<titleY>69</titleY>
+			<subTitleY>119</subTitleY>
+			<descriptionY>156</descriptionY>
+			<titleTextColor>0x141414</titleTextColor>
+			<subTitleTextColor>0xC20800</subTitleTextColor>
+			<descriptionTextColor>0x313131</descriptionTextColor>
+			
+			<thumbImage>site_images/video/prometheusThumb.jpg</thumbImage><!-- 75px x 75px -->
+			<thumbDescription><![CDATA[<h1>Fill the Gaps</h1><p>This is a video from youtube. This may interest you.</p><a class="alt" target="_blank" href="http://www.youtube.com/watch?v=z0b83hXXTmk">Click Here to Original</a>]]></thumbDescription>
+		</video>
+		<!-- CATEGORY 1 video 2-->
+		<video>
+			<videoUrl>site_videos/theme2.flv</videoUrl>
+			<autoStartVideo>true</autoStartVideo>
+			<bgImage>site_images/video/descriptionBack.jpg</bgImage>
+			
+			<title>Count On Us</title>
+			<subTitle>can change you</subTitle>
+			<description>This is an example of how some go beyond the call of duty to share their knowledge to the viewers.</description>
+			
+			<titleY>69</titleY>
+			<subTitleY>119</subTitleY>
+			<descriptionY>156</descriptionY>
+			<titleTextColor>0x141414</titleTextColor>
+			<subTitleTextColor>0xC20800</subTitleTextColor>
+			<descriptionTextColor>0x313131</descriptionTextColor>
+			
+			<thumbImage>site_images/video/prometheusThumb.jpg</thumbImage><!-- 75px x 75px -->
+			<thumbDescription><![CDATA[<h1>Count on Us</h1><p>This is another video from youtube. </p><a class="alt" target="_blank" href="http://www.youtube.com/watch?v=Wb6jrHb4K8s">Click Here to Original</a>]]></thumbDescription>
+		</video>
+	</category>
+	<!--END OF category number 1 elements portfolio-->
+	
+	
+	
+	<!--CATEGORY NUMBER 2  pl cv design portfolio-->
+	<category>
+		<name>news</name>
+		
+		<video>
+			<videoUrl>site_videos/haiti.flv</videoUrl>
+			<autoStartVideo>true</autoStartVideo>
+			<bgImage>site_images/video/descriptionBack.jpg</bgImage>
+			
+			<title>Tragedy</title>
+			<subTitle>aide is on its way</subTitle>
+			<description>The Red Cross supplementing the fragmented nation like Haiti.</description>
+			
+			<titleY>69</titleY>
+			<subTitleY>119</subTitleY>
+			<descriptionY>156</descriptionY>
+			<titleTextColor>0x141414</titleTextColor>
+			<subTitleTextColor>0xC20800</subTitleTextColor>
+			<descriptionTextColor>0x313131</descriptionTextColor>
+			
+			<thumbImage>site_images/video/magicriverThumb.jpg</thumbImage><!-- 75px x 75px -->
+			<thumbDescription><![CDATA[<h1>Tragedy</h1><p>A video showing the current situation in Haiti after the devastating earthquake.</p>]]></thumbDescription>
+		</video>
+		<video>
+			<videoUrl>site_videos/ARC president.flv</videoUrl>
+			<autoStartVideo>true</autoStartVideo>
+			<bgImage>site_images/video/descriptionBack.jpg</bgImage>
+			
+			<title>Red Cross President</title>
+			<subTitle>a word from the wise</subTitle>
+			<description>The Red Cross President talking about the current needs of Haiti and other countries alike.</description>
+			
+			<titleY>69</titleY>
+			<subTitleY>119</subTitleY>
+			<descriptionY>156</descriptionY>
+			<titleTextColor>0x141414</titleTextColor>
+			<subTitleTextColor>0xC20800</subTitleTextColor>
+			<descriptionTextColor>0x313131</descriptionTextColor>
+			
+			<thumbImage>site_images/video/vermillionThumb.jpg</thumbImage><!-- 75px x 75px -->
+			<thumbDescription><![CDATA[<h1>Red Cross President</h1><p>Some encouraging words.</p>]]></thumbDescription>
+		</video>		
+
+	</category>
+	
+	<!--CATEGORY NUMBER 3  pl cv design portfolio-->
+	
+	<category>
+		<name>inspiration</name>
+		
+		<video>
+			<videoUrl>site_videos/bother.flv</videoUrl>
+			<autoStartVideo>true</autoStartVideo>
+			<bgImage>site_images/video/descriptionBack.jpg</bgImage>
+			
+			<title>Does This Bother You?</title>
+			<subTitle>lets make changes</subTitle>
+			<description>A compilation of images that might seem disturbing, but actually exists in the world.</description>
+			
+			<titleY>69</titleY>
+			<subTitleY>119</subTitleY>
+			<descriptionY>156</descriptionY>
+			<titleTextColor>0x141414</titleTextColor>
+			<subTitleTextColor>0xC20800</subTitleTextColor>
+			<descriptionTextColor>0x313131</descriptionTextColor>
+			
+			<thumbImage>site_images/video/spectrumThumb.jpg</thumbImage><!-- 75px x 75px -->
+			<thumbDescription><![CDATA[<h1>Does This Bother You?</h1><p>Can't we all help rid the world of all this?</p><a class="alt" target="_blank" href="http://www.youtube.com/watch?v=HNbQexZpiKY">Here is the original video.</a>]]></thumbDescription>
+		</video>
+		
+		<video>
+			<videoUrl>site_videos/ARC president.flv</videoUrl>
+			<autoStartVideo>true</autoStartVideo>
+			<bgImage>site_images/video/descriptionBack.jpg</bgImage>
+			
+			<title>Change</title>
+			<subTitle>bring it</subTitle>
+			<description>I am sure you have heard this a million times, but poverty is a constant issue. We need your help to change that.</description>
+			
+			<titleY>69</titleY>
+			<subTitleY>119</subTitleY>
+			<descriptionY>156</descriptionY>
+			<titleTextColor>0x141414</titleTextColor>
+			<subTitleTextColor>0xC20800</subTitleTextColor>
+			<descriptionTextColor>0x313131</descriptionTextColor>
+			
+			<thumbImage>site_images/video/vermillionThumb.jpg</thumbImage><!-- 75px x 75px -->
+			<thumbDescription><![CDATA[<h1>Change</h1><p>We can be a part of it.</p>]]></thumbDescription>
+		</video>
+	</category>
+
+
+</categories>
+</xml>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--MAIN VARIABLES-->
+<content 
+playerType="retro"
+bgImage="retroBG.jpg"
+gradientColor1="0xFFFFFF" 
+gradientColor2="0xE4e4e4" 
+gradientShape="linear" 
+skinColor="0x333333"
+skinColor2="0xDFD9E5" 
+autoPlaySongs="no" 
+autoPlayNextSong="yes"
+autoPlayNextAlbum="yes"
+>
+<!--KEEP ROTATION BETWEEN 19-39 -- SEE HELP.TXT AND THE VIDEO TUTORIALS FOR MORE INFO -->
+<!--REGULAR/NON-COMPILATION ALBUM EXAMPLE -->
+<album albumName="Cha Cha Boom" compilationAlbum="no" artistName="Dominic Halpin & the Honey B's " albumInfo="" albumCover="chacha.jpg" recordImage="vinyl.png">
+<song songPath="americanopreview.mp3" songName="Americano "  needleRotation="19" albumCover="" albumName="" artistName=""/>
+<song songPath="bimbampreview.mp3" songName="Bim Bam "  needleRotation="22" albumCover="" albumName="" artistName=""/>
+<song songPath="iminthemoodpreview.mp3" songName="Im in the mood for love "  needleRotation="25" albumCover="" albumName="" artistName=""/>
+<song songPath="thirteenpreview.mp3" songName="Thirteen Women "  needleRotation="26" albumCover="" albumName="" artistName=""/>
+<song songPath="chelalunapreview.mp3" songName="Che La Luna "  needleRotation="27" albumCover="" albumName="" artistName=""/>
+<song songPath="coffeepreview.mp3" songName="The Coffee Song "  needleRotation="29" albumCover="" albumName="" artistName=""/>
+<song songPath="sitrightdownpreview.mp3" songName="Im Gonna Sit Right Down "  needleRotation="30" albumCover="" albumName="" artistName=""/>
+<song songPath="feverpreview.mp3" songName="Fever "  needleRotation="31" albumCover="" albumName="" artistName=""/>
+<song songPath="mackypreview.mp3" songName="Mack the Knife "  needleRotation="32" albumCover="" albumName="" artistName=""/>
+<song songPath="youbelongpreview.mp3" songName="You Belong to Me "  needleRotation="33" albumCover="" albumName="" artistName=""/>
+<song songPath="cariocapreview.mp3" songName="Carioca "  needleRotation="34" albumCover="" albumName="" artistName=""/>
+<song songPath="crazypreview.mp3" songName="Crazy Little Thing Called Love "  needleRotation="35" albumCover="" albumName="" artistName=""/>
+<song songPath="ifyouwannbehappypreview.mp3" songName="If You Wanna Be Happy "  needleRotation="36" albumCover="" albumName="" artistName=""/>
+<song songPath="kingoftheswingerspreview.mp3" songName="King of the Swingers "  needleRotation="37" albumCover="" albumName="" artistName=""/>
+<song songPath="boulevardpreview.mp3" songName="The Boulevard of Broken Dreams "  needleRotation="38" albumCover="" albumName="" artistName=""/>
+<song songPath="beyond the seapreview.mp3" songName="Beyond the Sea "  needleRotation="38" albumCover="" albumName="" artistName=""/>
+</album>
+<album albumName="Paris Dumper" compilationAlbum="no" artistName="Dominic Halpin" albumInfo="" albumCover="paris.jpg" recordImage="vinyl1.png">
+<song songPath="onesidedpreview.mp3" songName="One Sided Love Affair "  needleRotation="19" albumCover="" albumName="" artistName=""/>
+<song songPath="comeonpreview.mp3" songName="Come On A My House "  needleRotation="20" albumCover="" albumName="" artistName=""/>
+<song songPath="buonapreview.mp3" songName="Buona Sera "  needleRotation="21" albumCover="" albumName="" artistName=""/>
+<song songPath="joesaphinepreview.mp3" songName="Yes Tonight, Josephine "  needleRotation="22" albumCover="" albumName="" artistName=""/>
+<song songPath="istanbulpreview.mp3" songName="Istanbul "  needleRotation="23" albumCover="" albumName="" artistName=""/>
+<song songPath="ireallydontpreview.mp3" songName="I Wonder "  needleRotation="24" albumCover="" albumName="" artistName=""/>
+<song songPath="lovesickpreview.mp3" songName="Lovesick Blues "  needleRotation="25" albumCover="" albumName="" artistName=""/>
+<song songPath="lonelyblueboypreview.mp3" songName="Lonely Blue Boy "  needleRotation="26" albumCover="" albumName="" artistName=""/>
+<song songPath="carelesshandspreview.mp3" songName="Careless Hands "  needleRotation="27" albumCover="" albumName="" artistName=""/>
+<song songPath="walkingpreview.mp3" songName="Walking My Baby Back Home "  needleRotation="28" albumCover="" albumName="" artistName=""/>
+<song songPath="crazyeyespreview.mp3" songName="Crazy Eyes "  needleRotation="29" albumCover="" albumName="" artistName=""/>
+<song songPath="myblueheavenpreview.mp3" songName="My Blue Heaven "  needleRotation="30" albumCover="" albumName="" artistName=""/>
+<song songPath="besamepreview.mp3" songName="Besame Mucho "  needleRotation="32" albumCover="" albumName="" artistName=""/>
+<song songPath="pretendpreview.mp3" songName="Pretend "  needleRotation="33" albumCover="" albumName="" artistName=""/>
+<song songPath="singpreview.mp3" songName="Sing Sing Sing "  needleRotation="34" albumCover="" albumName="" artistName=""/>
+<song songPath="tisketpreview.mp3" songName="A Tisket A Tasket "  needleRotation="35" albumCover="" albumName="" artistName=""/>
+<song songPath="swaypreview.mp3" songName="Sway "  needleRotation="36" albumCover="" albumName="" artistName=""/>
+<song songPath="icantstoplovingyoupreview.mp3" songName="I Cant Stop Loving You "  needleRotation="38" albumCover="" albumName="" artistName=""/>
+<song songPath="suchanightpreview.mp3" songName="Such a Night "  needleRotation="37" albumCover="" albumName="" artistName=""/>
+<song songPath="ohlookatmepreview.mp3" songName="Oh look at me now "  needleRotation="38" albumCover="" albumName="" artistName=""/>
+</album>
+<album albumName="Dominic Halpin & the Suspects" compilationAlbum="no" artistName="Dominic Halpin" albumInfo="" albumCover="suspects.jpg" recordImage="vinyl2.png">
+<song songPath="bringdownpreview.mp3" songName="Bring Down the Sails "  needleRotation="19" albumCover="" albumName="" artistName=""/>
+<song songPath="mambopreview.mp3" songName="Mambo "  needleRotation="20" albumCover="" albumName="" artistName=""/>
+<song songPath="isittonightpreview.mp3" songName="Is It Tonight "  needleRotation="22" albumCover="" albumName="" artistName=""/>
+<song songPath="outofthebluepreview.mp3" songName="Out of the Blue "  needleRotation="24" albumCover="" albumName="" artistName=""/>
+<song songPath="20thpreview.mp3" songName="20th Century Kiss "  needleRotation="25" albumCover="" albumName="" artistName=""/>
+<song songPath="francispreview.mp3" songName="Francis "  needleRotation="26" albumCover="" albumName="" artistName=""/>
+<song songPath="jumpingpreview.mp3" songName="Jumping "  needleRotation="28" albumCover="" albumName="" artistName=""/>
+<song songPath="hitmanpreview.mp3" songName="Hitman Stix "  needleRotation="29" albumCover="" albumName="" artistName=""/>
+<song songPath="greenwaterpreview.mp3" songName="Green Water Pistol "  needleRotation="30" albumCover="" albumName="" artistName=""/>
+<song songPath="valetspreview.mp3" songName="Valet's Dream "  needleRotation="33" albumCover="" albumName="" artistName=""/>
+<song songPath="tellherpreview.mp3" songName="Tell Her "  needleRotation="34" albumCover="" albumName="" artistName=""/>
+<song songPath="startrunningpreview.mp3" songName="Start Running "  needleRotation="35" albumCover="" albumName="" artistName=""/>
+</album>
+<album albumName="After 2am" compilationAlbum="no" artistName="Dominic Halpin & the Suspects" albumInfo="" albumCover="after2am.jpg" recordImage="vinyl3.png">
+<song songPath="swaypreview.mp3" songName="Sway "  needleRotation="19" albumCover="" albumName="" artistName=""/>
+<song songPath="ireallydontpreview.mp3" songName="I really don't want to know "  needleRotation="20" albumCover="" albumName="" artistName=""/>
+<song songPath="mambopreview.mp3" songName="Mambo "  needleRotation="22" albumCover="" albumName="" artistName=""/>
+<song songPath="outofthebluepreview.mp3" songName="Out of the Blue "  needleRotation="24" albumCover="" albumName="" artistName=""/>
+<song songPath="letmegopreview.mp3" songName="Let me go lover "  needleRotation="25" albumCover="" albumName="" artistName=""/>
+<song songPath="buonapreview.mp3" songName="Buona Sera "  needleRotation="26" albumCover="" albumName="" artistName=""/>
+<song songPath="besamepreview.mp3" songName="Besame Mucho "  needleRotation="27" albumCover="" albumName="" artistName=""/>
+<song songPath="bringdownpreview.mp3" songName="Bring Down the Sails "  needleRotation="28" albumCover="" albumName="" artistName=""/>
+<song songPath="dontfantheflamepreview.mp3" songName="Don't fan the flame "  needleRotation="29" albumCover="" albumName="" artistName=""/>
+<song songPath="lonelyblueboypreview.mp3" songName="Lonely Blue Boy "  needleRotation="29" albumCover="" albumName="" artistName=""/>
+<song songPath="carelesshandspreview.mp3" songName="Careless Hands "  needleRotation="31" albumCover="" albumName="" artistName=""/>
+<<song songPath="cesibonpreview.mp3" songName="C'est si Bon "  needleRotation="32" albumCover="" albumName="" artistName=""/>
+<song songPath="myblueheavenpreview.mp3" songName="My Blue Heaven "  needleRotation="33" albumCover="" albumName="" artistName=""/>
+<song songPath="comeonpreview.mp3" songName="Come on a my house "  needleRotation="34" albumCover="" albumName="" artistName=""/>
+<song songPath="istanbulpreview.mp3" songName="Istanbul "  needleRotation="36" albumCover="" albumName="" artistName=""/>
+<song songPath="nighingalepreview.mp3" songName="A Nightingale sang in Berkeley Square "  needleRotation="38" albumCover="" albumName="" artistName=""/>
+</album>
+<album albumName="Christmas Inside" compilationAlbum="no" artistName="Dominic Halpin & the Sleigh Riders" albumInfo="" albumCover="xmas.jpg" recordImage="vinyl4.png">
+<song songPath="letitsnow.mp3" songName="Let it Snow, Let it Snow, Let it Snow "  needleRotation="19" albumCover="" albumName="" artistName=""/>
+<song songPath="christmaswaltz.mp3" songName="The Christmas Waltz "  needleRotation="20" albumCover="" albumName="" artistName=""/>
+<song songPath="whatare.mp3" songName="What are you doing New Year's Eve "  needleRotation="22" albumCover="" albumName="" artistName=""/>
+<song songPath="christmasblues.mp3" songName="The Christmas Blues "  needleRotation="24" albumCover="" albumName="" artistName=""/>
+<song songPath="illbehome.mp3" songName="I'll be Home for Christmas "  needleRotation="25" albumCover="" albumName="" artistName=""/>
+<song songPath="christmastime.mp3" songName="Christmas Time is Here "  needleRotation="26" albumCover="" albumName="" artistName=""/>
+<song songPath="christmassong.mp3" songName="The Christmas Song "  needleRotation="28" albumCover="" albumName="" artistName=""/>
+<song songPath="silverbells.mp3" songName="Silver Bells "  needleRotation="29" albumCover="" albumName="" artistName=""/>
+<song songPath="auldlang.mp3" songName="Christmas Auld Lang Syne "  needleRotation="30" albumCover="" albumName="" artistName=""/>
+<song songPath="andtheangles.mp3" songName="And the Angels Sing "  needleRotation="33" albumCover="" albumName="" artistName=""/>
+<song songPath="happynew.mp3" songName="Happy New Year Baby "  needleRotation="34" albumCover="" albumName="" artistName=""/>
+<song songPath="jinglebells.mp3" songName="Jingle Bells "  needleRotation="35" albumCover="" albumName="" artistName=""/>
+<song songPath="haveyourself.mp3" songName="Have Yourself a Merry Little Christmas "  needleRotation="37" albumCover="" albumName="" artistName=""/>
+</album>
+<!--COMPILATION ALBUM EXAMPLE -->
+
+<!-- -->
+</content>

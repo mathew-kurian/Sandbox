@@ -1,0 +1,187 @@
+body{
+	padding: 0;
+	margin:0;
+	background: url("bg.png");
+}
+
+*{
+	font-family: arial;
+}
+
+a{
+	text-decoration: none;
+	font-size: 10px;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+ul#images-list{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+
+ul#images-list li{
+	float:left;
+	padding: 3px;
+	
+}
+
+ul#images-list li img{
+	width:80px;
+	
+
+
+}
+
+#header {
+	text-align: center;
+	padding:10px;
+	background: black;
+	border-bottom: 2px solid #333333;
+}
+
+#header ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width: 940px;
+}
+
+#header ul li{
+	float: left;
+	padding: 5px;
+	margin: 1px;
+	font-size: 16px;
+	color: #eeeeee;
+}
+
+#header ul li span{
+	color: #AAAAAA;
+}
+
+#header ul li a{
+	color: #eeeeee;
+	font-size: 16px;
+}
+
+#header ul li.sub{
+	
+}
+
+#header ul li.sub a{
+	font-size: 12px;
+}
+
+#content{
+	width: 940px;
+	padding:10px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+#content{
+	clear: both;
+}
+
+#content h1{
+	font-size: 26px;
+	color: white;
+	text-align: left;
+}
+
+#content h2{
+	font-size: 16px;
+	color: white;
+	text-align: left;
+}
+
+#content p {
+	font-size: 12px;
+	line-height: 16pt;
+	color: #aaaaaa;
+	text-align: left;
+}
+
+#content ul {
+	text-align: left;
+}
+
+#content ul a{
+	color: white;
+	font-size: 16px;
+}
+
+#content dl {
+	color: white;
+	text-align: left;
+}
+
+#content dl a{
+	font-size: 12px;
+	color: white;
+}
+
+#content div{
+	font-size: 12px;
+	color: white;
+	text-align: left;
+}
+
+#content dl dt{
+	float: left;
+}
+
+#content dl dd{
+	float: left;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+#content dl:after{
+	clear: both;
+}
+
+
+
+#container {
+	height: 100%;
+
+}
+
+#footer{
+	border-top: 2px solid #333333;
+	clear: both;
+	background: black;
+	font-size: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-indent: 10px;
+	width: 100%;
+	bottom:0px;
+	color: #dddddd;
+}
+
+#footer a{
+	color: white;
+}
+
+#items-list {
+	font-size: 10px;
+	color: white;
+}
+
+img{
+	max-width: 400px;
+	border: 1px solid #888888;
+	margin:0px;
+	background: white;
+	padding: 3px;
+
+}
+
+#footer-container {
+	width: 940px;
+}

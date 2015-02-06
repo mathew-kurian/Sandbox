@@ -1,0 +1,25 @@
+/* USED IN THE XML */
+h5 		{ font-family: Arial; font-size: 12px; color: #ffffff;  display: block; font-weight:bold; }
+p 		{ font-family: Arial; font-size: 12px; color: #999999;  display: inline; }
+
+a:link 		{ text-decoration: none; }
+a:hover		{ text-decoration: none; }
+
+li 		{ font-family: Arial; font-size: 12px; color: #999999; }
+
+/* USED IN THE FLASH */
+
+/* menu */
+menuTxt 	{ font-family: myFont; font-size: 8px; color: #ffffff;  display: inline; }
+
+/* footer */
+footTxt 	{ font-family: myFont; font-size: 8px; color: #999999;  display: inline; }
+
+/* close [x] */
+closeTxt 	{ font-family: myFont; font-size: 8px; color: #ffffff;  display: inline; }
+
+/* light box */
+lbTxt		{ font-family: Arial; font-size: 12px; color: #333333;  display: inline; }
+
+/* tool tips */
+toolTxt 	{ font-family:Arial; font-size: 12px; color: #ffffff;  display: inline; }

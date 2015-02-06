@@ -1,0 +1,55 @@
+<form>
+	<title>{SELF.TITLE} {TITLE} Image</title>
+	<action>{SELF.URI.STORE}</action>
+	<name>edit_cat</name>
+	<width>100%</width>
+	<alternance>true</alternance>
+	<encoding>multipart/form-data</encoding>
+
+
+	<formtag>true</formtag>
+	<border>true</border>
+	
+	<buttons>		
+		<set>
+			<header>true</header>
+		</set>
+
+
+		<button_back onclick="" button="return">
+			<location>{PRIVATE.FORM_PREVIOUS_PAGE}</location>
+		</button_back>
+
+		<button_edit onclick="" button="edit">
+			<location>{SELF.URI.EDIT}</location>
+		</button_edit>
+
+		<button_save button="saveall">
+			<location>javascript:document.forms[0].submit();</location>
+		</button_save>
+
+	</buttons>
+
+	<redirect>{PHP}?sub=accounts</redirect>
+
+	<fields>
+		<item_id type="hidden"/>		
+		<item_order type="hidden"/>		
+		<module_id type="hidden" default="eval:$_GET[module_id]"/>		
+
+		<item_image  valign="top" adminwidth="100" type="image" path="./about/" absolute="false" editable="true" >
+			<file default="" field="item_id" ext=".jpg" />			
+			<title>Image ({SIZE}px)</title>
+			<error>No photo available.</error>						
+			<thumbnails>
+				<resize preffix="" generate="true" width="" height="" />
+				<tn preffix="admin_" generate="true" width="50" height="50" />
+			</thumbnails>
+		</item_image>
+
+
+		<subtitle_after title="&nbsp;" type="subtitle" />
+		<after_save type="after_save" />
+
+	</fields>
+</form>

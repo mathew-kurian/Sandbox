@@ -1,0 +1,28 @@
+<form>
+	<title>Auth Settings</title>
+	<action>{SELF.LINK}action=store</action>
+	<name>edit</name>
+	<width>100%</width>
+
+	<formtag>true</formtag>
+	<border>true</border>
+	
+	<buttons>		
+		<set>
+			<header>true</header>
+			<footer>true</footer>
+		</set>
+
+		<back location="{SELF.PREVIOUS}" button="return" />
+		<save onclick="" location="javascript:document.forms[0].submit();" button="save" />
+		<edit location="{SELF.LINK}action=edit&returnurl={SELF.LOCATION}" button="edit" />
+
+	</buttons>
+
+	<redirect>{SELF.LINK}</redirect>
+
+	<fields>
+		<comment type="comment" padding="10" description="Under Construction "/>
+	</fields>
+
+</form>

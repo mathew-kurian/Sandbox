@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<News>
+
+	<settings>
+		
+		<blurXAmount>60</blurXAmount>
+		
+		<blurYAmount>0</blurYAmount>
+		
+		<animationTime>0.5</animationTime>
+		
+		<animationType>easeoutquart</animationType>
+
+		
+	</settings>
+	
+	<content title="News" urlTitle="News" url="/news">
+	
+		
+		<item mainTitle="News Details" title="Clinton: Road to health reform easier now" date="June 27, 2009" urlTitle="Clinton: Road to health reform easier now" url="/clinton-road-to-health-reform-easier-now-1/">
+			<![CDATA[<p><b>Full HTML support, you can format your text however you preffer.</b><br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada imperdiet sem. Nam urna ligula, pellentesque eu. 	<br />
+<br />
+<font size="14" color="#FFFFFF"><u><a target="_blank" href="http://www.google.com">This is a sample link</a></u><br />
+</font> 	Donec nec mi quis dui rutrum pretium. Maecenas dapibus tellus in odio. haretra, urna lacus congue dolor, ut ultricies diam est quis tellus. Phasellus odio erat, ultrices eu, convallis eu, consequat id, est. <img width="208" height="108" alt="" src="images/pages/image/pic.jpg" /> Aliquam vehicula, sem dapibus massa lectus pellentesque lacus, et consectetur enim nibh at tellus. 	sto, consequat eu, pharetra sed, suscipit a, erat.Curabitur eu felis et ligula sodales consequat.Suspendisse ligula. Morbi neque orci, interdum a, facilisis et, consectetur a, metus. Phasellus luctus auctor erat. Nullam nec purus id odio malesuada placerat. consectetur elit, a molestie nibh ante a purus. In hac habitasse platea dictumst.  	Praesent sodales cursus ante. Sed sapien ligula, elementum id, imperdiet sit amet, fermentum in, mauris. Sed sapien augue, feugiat viverra, semper id, placerat vel, felis. Etiam semper, sem eu pellentesque tempus, dui mi pellentesque turpis, vitae</p>]]>
+		</item>
+
+		<item mainTitle="News Details" title="Donation chain has led to 10 kidney transplants" date="June 27, 2009" urlTitle="Donation chain has led to 10 kidney transplants" url="/donation-chain-has-led-to-10-kidney-transplants-2/">
+			<![CDATA[<p><a target="_blank" href="http://www.google.com"><img hspace="8" vspace="8" align="left" width="415" height="150" alt="" src="images/pages/image/pic2.jpg" /></a></p>
+<p>&nbsp;</p>
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<font size="18" color="#b8e1f2">Photos can be placed anywhere - html subtitle</font><br />
+Lorem ipsum am nec purus id odio malesuada placerat. consectetur elit, a molestie nibh ante a purus. In hac habitasse platea dictumst. 	em ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada imperdiet sem. Nam urna ligula, pellentesque eu, iaculis vitae, tincidunt a, nunc. Sed convallis, risus id congue faucibus, est lorem molestie elit, <b>accumsan</b> suscipit nunc leo sit amet justo. Donec nec mi quis dui rutrum pretium. Maecenas dapibus tellus in odio. haretra, urna lacus congue dolor, ut ultricies diam est quis tellus. Phasellus odio erat, ultrices eu, convallis eu, consequat id, est. Aliquam vehicula, sem dapibus massa lectus pellentesque lacus, et consectetur enim nibh at tellus. 	sto, consequat eu, pharetra sed, suscipit a, erat. Curabitur eu felis et ligula sodales consequat. Suspendisse ligula. Morbi neque orci, interdum a, facilisis et, consectetur a, metus. Phasellus luctus auctor erat. Nullam nec purus id odio malesuada placerat. consectetur elit, a molestie nibh ante a purus. In hac habitasse platea dictumst.<br />
+<br />
+Praesent sodales cursus ante. Sed sapien ligula, elementum id,em ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada imperdiet sem. Nam urna ligula, pellentesque eu, iaculis vitae, tincidunt a, nunc. Sed convallis, risus id congue faucibus, est lorem molestie elit, <b>accumsan</b> suscipit nunc leo sit amet justo. Donec nec mi quis dui rutrum pretium. Maecenas dapibus tellus in odio. haretra, urna lacus congue dolor, ut ultricies diam est quis tellus. Phasellus odio erat, ultrices eu, convallis eu, consequat id, est. Aliquam vehicula, sem dapibus massa lectus pellentesque lacus, et consectetur enim nibh at tellus. 	sto, consequat eu, pharetra sed, suscipit a, erat. <br />
+<br />
+Curabitur eu felis et ligula sodales consequat. Suspendisse ligula. Morbi neque orci, interdum a, facilisis et, consectetur a, metus. Phasellus luctus auctor erat. Nullam nec purus id odio malesuada placerat. consectetur elit, a molestie nibh ante a purus. In hac habitasse platea dictumst.<br />
+<br />
+Praesent sodales cursus ante. Sed sapien ligula, elementum id,cursus ante. Sed sapien ligula, elementum id, imperdiet sit amet, fermentum in, mauris. Sed sapien augue, feugiat viverra, semper id, placerat vel, felis. Etiam semper, sem eu pellentesque tempus, dui mi pellentesque turpis, vitae</p>]]>
+		</item>
+
+		<item mainTitle="News Details" title="Supports special characters À ÈèÙùÂâÊêÎîÉéÍíÓóÚúÆæÇçŒœ€₣ß£ê etc." date="June 27, 2009" urlTitle="Supports special characters À ÈèÙùÂâÊêÎîÉéÍíÓóÚúÆæÇçŒœ€₣ß£ê etc." url="/supports-special-characters-etc-3/">
+			<![CDATA[<p>All textfields designed to support 90% of the most common special characters so you can use this with no hassle what so ever. Sed sapien ligula, elementum id, imperdiet sit amet, fermentum in, mauris. Sed sapien augue, feugiat viverra, semper id, placerat vel, felis. Etiam semper, sem eu pellentesque tempus, dui mi pellentesque turpis, vitae  <br />
+<br />
+À ÈèÙùÂâÊêÎîÉéÍíÓóÚúËëÄäÏïÖöÜüÔôÛûÑñÆæÇçŒœ€₣ß£ê ăîşţ</p>]]>
+		</item>
+
+		<item mainTitle="News Details" title="Model for health care reform?" date="June 27, 2009" urlTitle="Model for health care reform?" url="/model-for-health-care-reform-4/">
+			<![CDATA[<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada imperdiet sem. Nam urna ligula, pellentesque eu, iaculis vitae, tincidunt a, nunc. Sed convallis, risus id congue faucibus, est lorem molestie elit, &lt;b&gt;accumsan&lt;/b&gt; suscipit nunc leo sit amet justo. Donec nec mi quis dui rutrum pretium. Maecenas dapibus tellus in odio. haretra, urna lacus congue dolor, ut ultricies diam est quis tellus. Phasellus odio erat, ultrices eu, convallis eu, consequat id, est. Aliquam vehicula, sem dapibus massa lectus pellentesque lacus, et consectetur enim nibh at tellus.<span class="Apple-tab-span" style="white-space:pre">	</span>sto, consequat eu, pharetra sed, suscipit a, erat. Curabitur eu felis et ligula sodales consequat. Suspendisse ligula. Morbi neque orci, interdum a, facilisis et, consectetur a, metus. Phasellus luctus auctor erat. Nullam nec purus id odio malesuada placerat. consectetur elit, a molestie nibh ante a purus. In hac habitasse platea dictumst.</div>
+<div>&nbsp;</div>
+<p><span class="Apple-tab-span" style="white-space:pre">	</span>Praesent sodales cursus ante. Sed sapien ligula, elementum id, imperdiet sit amet, fermentum in, mauris. Sed sapien augue, feugiat viverra, semper id, placerat vel, felis. Etiam semper, sem eu pellentesque tempus, dui mi pellentesque turpis, vitae&nbsp;&nbsp;</p>]]>
+		</item>
+
+		<item mainTitle="News Details" title="Clinton: Road to health reform easier now" date="June 27, 2009" urlTitle="Clinton: Road to health reform easier now" url="/clinton-road-to-health-reform-easier-now-5/">
+
+			<![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada imperdiet sem. Nam urna ligula, pellentesque eu, iaculis vitae, tincidunt a, nunc. Sed convallis, risus id congue faucibus, est lorem molestie elit, <b>accumsan</b> suscipit nunc leo sit amet justo. Donec nec mi quis dui rutrum pretium. Maecenas dapibus tellus in odio. haretra, urna lacus congue dolor, ut ultricies diam est quis tellus. Phasellus odio erat, ultrices eu, convallis eu, consequat id, est. Aliquam vehicula, sem dapibus massa lectus pellentesque lacus, et consectetur enim nibh at tellus. 	sto, consequat eu, pharetra sed, suscipit a, era id, imperdiet sit amet, fermentum in, mauris. Sed sapien augue, feugiat viverra, semper id, placerat vel, felis. Etiam semper, sem eu pellentesque tempus, dui mi pellentesque turpis, vitae<br />
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada imperdiet sem. Nam urna ligula, pellentesque eu, iaculis vitae, tincidunt a, nunc. Sed convallis, risus id congue faucibus, est lorem molestie elit, <b>accumsan</b> suscipit nunc leo sit amet justo. Donec nec mi quis dui rutrum pretium. Maecenas dapibus tellus in odio. haretra, urna lacus congue dolor, ut ultricies diam est quis tellus. Phasellus odio erat, ultrices eu, convallis eu, consequat id, est. Aliquam vehicula, sem dapibus massa lectus pellentesque lacus, et consectetur enim nibh at tellus. 	sto, consequat eu, pharetra sed, suscipit a, era id, imperdiet sit amet, fermentum in, mauris. Sed sapien augue, feugiat viverra, semper id, placerat vel, felis. Etiam semper, sem eu pellentesque tempus, dui mi pellentesque turpis, vitae</p>]]>
+		</item>
+
+		<item mainTitle="News Details" title="Donation chain has led to 10 kidney transplants" date="June 27, 2009" urlTitle="Donation chain has led to 10 kidney transplants" url="/donation-chain-has-led-to-10-kidney-transplants-6/">
+			<![CDATA[<p>ullam nec purus id odio malesuada placerat. consectetur elit, a molestie nibh ante a purus. In hac habitasse platea dictumst.  	Praesent sodales cursus ante. Sed sapien ligula, elementum id, imperdiet sit amet, fermentum in, mauris. Sed sapien augue, feugiat viverra, semper id, placerat vel, felis. Etiam semper, sem eu pellentesque tempus, dui mi pellentesque turpis, vitae</p>]]>
+		</item>
+
+		<item mainTitle="News Details" title="Very long news content inside" date="June 27, 2009" urlTitle="Very long news content inside" url="/very-long-news-content-inside-7/">
+			<![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada imperdiet sem. Nam urna ligula, pellentesque eu, iaculis vitae, tincidunt a, nunc. Sed convallis, risus id congue faucibus, est lorem molestie elit, <b>accumsan</b> suscipit nunc leo sit amet justo. Donec nec mi quis dui rutrum pretium. <br />
+<br />
+Maecenas dapibus tellus in odio. haretra, urna lacus congue dolor, ut ultricies diam est quis tellus. Phasellus odio erat, ultrices eu, convallis eu, consequat id, est. Aliquam vehicula, sem dapibus massa lectus pellentesque lacus, et consectetur enim nibh at tellus. sto, consequat eu, pharetra sed, suscipit a, erat. Curabitur eu felis et ligula sodales consequat. Suspendisse ligula. Morbi neque orci, interdum a, facilisis et, consectetur a, metus. Phasellus luctus auctor erat. Nullam nec purus id odio malesuada placerat. consectetur elit, a molestie nibh ante a purus. In hac habitasse platea dictumst. Praesent sodales cursus ante. Sed sapien ligula, elementum id, imperdiet sit amet, fermentum in, mauris. Sed sapien augue, feugiat viverra, semper id, placerat vel, felis. Etiam semper, sem eu pellentesque tempus, dui mi pellentesque turpis, vitae<br />
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada imperdiet sem. Nam urna ligula, pellentesque eu, iaculis vitae, tincidunt a, nunc. Sed convallis, risus id congue faucibus, est lorem molestie elit, <b>accumsan</b> suscipit nunc leo sit amet justo. Donec nec mi quis dui rutrum pretium. <br />
+<br />
+Maecenas dapibus tellus in odio. haretra, urna lacus congue dolor, ut ultricies diam est quis tellus. Phasellus odio erat, ultrices eu, convallis eu, consequat id, est. Aliquam vehicula, sem dapibus massa lectus pellentesque lacus, et consectetur enim nibh at tellus. sto, consequat eu, pharetra sed, suscipit a, erat. Curabitur eu felis et ligula sodales consequat. Suspendisse ligula. Morbi neque orci, interdum a, facilisis et, consectetur a, metus. Phasellus luctus auctor erat. Nullam nec purus id odio malesuada placerat. consectetur elit, a molestie nibh ante a purus. In hac habitasse platea dictumst. Praesent sodales cursus ante. Sed sapien ligula, elementum id, imperdiet sit amet, fermentum in, mauris. Sed sapien augue, feugiat viverra, semper id, placerat vel, felis. Etiam semper, sem eu pellentesque tempus, dui mi pellentesque turpis, vitae<br />
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada imperdiet sem. Nam urna ligula, pellentesque eu, iaculis vitae, tincidunt a, nunc. Sed convallis, risus id congue faucibus, est lorem molestie elit, <b>accumsan</b> suscipit nunc leo sit amet justo. Donec nec mi quis dui rutrum pretium. <br />
+<br />
+Maecenas dapibus tellus in odio. haretra, urna lacus congue dolor, ut ultricies diam est quis tellus. Phasellus odio erat, ultrices eu, convallis eu, consequat id, est. Aliquam vehicula, sem dapibus massa lectus pellentesque lacus, et consectetur enim nibh at tellus. sto, consequat eu, pharetra sed, suscipit a, erat. Curabitur eu felis et ligula sodales consequat. Suspendisse ligula. Morbi neque orci, interdum a, facilisis et, consectetur a, metus. Phasellus luctus auctor erat. Nullam nec purus id odio malesuada placerat. consectetur elit, a molestie nibh ante a purus. In hac habitasse platea dictumst. Praesent sodales cursus ante. Sed sapien ligula, elementum id, imperdiet sit amet, fermentum in, mauris. Sed sapien augue, feugiat viverra, semper id, placerat vel, felis. Etiam semper, sem eu pellentesque tempus, dui mi pellentesque turpis, vitae</p>]]>
+		</item>
+
+		<item mainTitle="News Details" title="Model for health care reform?" date="June 27, 2009" urlTitle="Model for health care reform?" url="/model-for-health-care-reform-8/">
+			<![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada imperdiet sem. Nam urna ligula, pellentesque eu, iaculis vitae, tincidunt a, nunc. Sed convallis, risus id congue faucibus, est lorem molestie elit, <b>accumsan</b> suscipit nunc leo sit amet justo. Donec nec mi quis dui rutrum pretium. <br />
+<br />
+Maecenas dapibus tellus in odio. haretra, urna lacus congue dolor, ut ultricies diam est quis tellus. Phasellus odio erat, ultrices eu, convallis eu, consequat id, est. <img align="right" alt="" src="images/pages/image/pic.jpg" /> Aliquam vehicula, sem dapibus massa lectus pellentesque lacus, et consectetur enim nibh at tellus. sto, consequat eu, pharetra sed, suscipit a, erat. Curabitur eu felis et ligula sodales consequat. Suspendisse ligula. Morbi neque orci, interdum a, facilisis et, consectetur a, metus. Phasellus luctus auctor erat. Nullam nec purus id odio malesuada placerat. consectetur elit, a molestie nibh ante a purus. In hac habitasse platea dictumst. Praesent sodales cursus ante. Sed sapien ligula, elementum id, imperdiet sit amet, fermentum in, mauris. Sed sapien augue, feugiat viverra, semper id, placerat vel, felis. Etiam semper, sem eu pellentesque tempus, dui mi pellentesque turpis, vitae<br />
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada imperdiet sem. Nam urna ligula, pellentesque eu, iaculis vitae, tincidunt a, nunc. Sed convallis, risus id congue faucibus, est lorem molestie elit, <b>accumsan</b> suscipit nunc leo sit amet justo. Donec nec mi quis dui rutrum pretium. <br />
+<br />
+Maecenas dapibus tellus in odio. haretra, urna lacus congue dolor, ut ultricies diam est quis tellus. Phasellus odio erat, ultrices eu, convallis eu, consequat id, est. Aliquam vehicula, sem dapibus massa lectus pellentesque lacus, et consectetur enim nibh at tellus. sto, consequat eu, pharetra sed, suscipit a, erat. Curabitur eu felis et ligula sodales consequat. Suspendisse ligula. Morbi neque orci, interdum a, facilisis et, consectetur a, metus. Phasellus luctus auctor erat. Nullam nec purus id odio malesuada placerat. consectetur elit, a molestie nibh ante a purus. In hac habitasse platea dictumst. Praesent sodales cursus ante. Sed sapien ligula, elementum id, imperdiet sit amet, fermentum in, mauris. Sed sapien augue, feugiat viverra, semper id, placerat vel, felis. Etiam semper, sem eu pellentesque tempus, dui mi pellentesque turpis, vitae<br />
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada imperdiet sem. Nam urna ligula, pellentesque eu, iaculis vitae, tincidunt a, nunc. Sed convallis, risus id congue faucibus, est lorem molestie elit, <b>accumsan</b> suscipit nunc leo sit amet justo. Donec nec mi quis dui rutrum pretium. <br />
+<br />
+Maecenas dapibus tellus in odio. haretra, urna lacus congue dolor, ut ultricies diam est quis tellus. Phasellus odio erat, ultrices eu, convallis eu, consequat id, est. Aliquam vehicula, sem dapibus massa lectus pellentesque lacus, et consectetur enim nibh at tellus. sto, consequat eu, pharetra sed, suscipit a, erat. Curabitur eu felis et ligula sodales consequat. Suspendisse ligula. Morbi neque orci, interdum a, facilisis et, consectetur a, metus. Phasellus luctus auctor erat. Nullam nec purus id odio malesuada placerat. consectetur elit, a molestie nibh ante a purus. In hac habitasse platea dictumst. Praesent sodales cursus ante. Sed sapien ligula, elementum id, imperdiet sit amet, fermentum in, mauris. Sed sapien augue, feugiat viverra, semper id, placerat vel, felis. Etiam semper, sem eu pellentesque tempus, dui mi pellentesque turpis, vitae<br />
+<br />
+&nbsp;</p>]]>
+		</item>
+
+
+	</content>
+</News>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	<topMargin>140</topMargin>
+	<bottomMargin>50</bottomMargin>
+	<!--
+		alignX Options 
+		The alignX is the distance from the left your page will start
+		Static X    				  eg.  <alignX>175</alignX>      	(this will make your content start 175 pixels from the left)
+		Left aligned X    	  eg.  <alignX>left</alignX>    		(this will make your content be left aligned)
+		Center aligned X      eg.  <alignX>center</alignX>  		(this will make your content be centered)
+		Right aligned X    	  eg.  <alignX>right</alignX>			(this will make your content be right aligned)
+	-->
+	<alignX>center</alignX>
+	<!--
+		alignY Options 
+		The alignY is the distance from the top your page will start
+		Static Y    				  eg.  <alignY>175</alignY>      	(this will make your content start 175 pixels from the top)
+		Top aligned Y    	  	eg.  <alignY>top</alignY>     	(this will make your content be aligned vertically under the topMargin)
+		Bottom aligned Y      eg.  <alignY>bottom<alignY>   	(this will make your content be aligned vertically and sit on the bottomMargin)
+		Center aligned Y    	eg.  <alignY>center<alignY>			(this will make your content be aligned vertically between the topMargin and bottomMargin)
+	-->
+	<alignY>center</alignY> 
+	
+	<contentWidth>1074</contentWidth>
+	<contentHeight>407</contentHeight>
+	<contentBgColor>0x0C0C0C</contentBgColor>
+	<contentBgOpacity>0</contentBgOpacity>
+	
+	
+	<useHoverScroll>false</useHoverScroll>
+	<useManualScroll>true</useManualScroll>
+	
+	<!-- 	These settings apply 
+				if useManualScroll is true 
+				and useHoverScroll is false   -->
+	<scrollBarWidth>12</scrollBarWidth>
+	<scrollBarHeight>65</scrollBarHeight>
+	<scrollBaseColor>0xe4e4e4</scrollBaseColor>
+	<addTiledPatternToScrollBase>false</addTiledPatternToScrollBase>
+	<patternUrl>site_images/home/scrollPattern.gif</patternUrl>
+	<scrollBaseOpacity>1</scrollBaseOpacity>
+	<scrollerColor>0x000000</scrollerColor>
+	<scrollerOpacity>1</scrollerOpacity>
+	
+	<!-- End of Scroll Bar Features -->
+	
+	<!-- Used for pop up content -->
+		<dimWallPaperColor>0xFFFFFF</dimWallPaperColor>
+		<dimWallPaperAlpha>.9</dimWallPaperAlpha>
+		<!-- set the size of the font used in the image preloader -->
+		<preloaderTextSize>140</preloaderTextSize>
+		<!-- set the color of the font used in the image preloader -->
+		<preloaderTextColor>0x000000</preloaderTextColor>
+		<!-- set the opacity of the font used in the image preloader -->
+		<preloaderTextOpacity>1</preloaderTextOpacity>
+	
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>true</displayHtmlArticles>
+	<displaySlideShow>false</displaySlideShow>									
+	<displaySWF>true</displaySWF>
+	
+	
+	<!-- three panel background images -->
+	<image>
+		<x>0</x>
+		<y>0</y>
+		<imageURL>site_images/pages/contact/infoBackground.gif</imageURL>
+	</image>
+	<image>
+		<x>353</x>
+		<y>0</y>
+		<imageURL>site_images/pages/contact/formBackground.gif</imageURL>
+	</image>
+	<image>
+		<x>706</x>
+		<y>0</y>
+		<imageURL>site_images/pages/contact/mapBackground.gif</imageURL>
+	</image>	
+	
+
+
+	<!-- INFORMATION PANEL -->
+			<image>
+				<x>24</x>
+				<y>28</y>
+			<imageURL>site_images/pages/contact/contact_10.png</imageURL>
+			</image>
+			<article>
+				<x>27</x>
+				<y>53</y>
+				<width>297</width>
+				<articleText><![CDATA[<p class="leading2">If you have any questions regarding this club and/or the Red Cross itself, please don't hesitate to drop us a word. Just fill out the form or contact us via mail or phone. Hope you enjoyed viewing this website.</p>]]></articleText>
+			</article>
+			<image>
+				<x>24</x>
+				<y>145</y>
+			<imageURL>site_images/pages/contact/contact_32.png</imageURL>
+			</image>
+			<article>
+				<x>26</x>
+				<y>167</y>
+				<width>293</width>
+				<articleText><![CDATA[<p>9251 South Fry Road<br>Katy, Texas 77450<br>t. <font color="#757575">281.237.2800</font><br>f. <font color="#757575">281.644.1785</font></p>]]></articleText>
+			</article>
+			<image>
+				<x>24</x>
+				<y>273</y>
+			<imageURL>site_images/pages/contact/contact_53.png</imageURL>
+			</image>
+			<article>
+				<x>26</x>
+				<y>298</y>
+				<width>163</width>
+				<articleText><![CDATA[<p>6301 South Stadium Lane<br>Katy, Texas 77494<br>t. <font color="#757575">281.396.6000</font></p>]]></articleText>
+			</article>
+
+
+
+	<!-- EMAIL FORM PANEL -->
+			<!-- FORM TITLE AS IMAGE-->
+			<image>
+				<x>392</x>
+				<y>29</y>
+				<imageURL>site_images/pages/contact/sendUsAmessage.png</imageURL>
+			</image>	
+			<!-- Name Input Field -->
+				<article>
+					<x>392</x>
+					<y>97</y>
+					<width>70</width>
+					<articleText><![CDATA[<p class="fields">name</p>]]></articleText>
+				</article>
+				<!--form field seperator image -->
+				<image>
+					<x>394</x>
+					<y>117</y>
+					<imageURL>site_images/pages/contact/seperator1.gif</imageURL>
+				</image>
+				<!-- actual input text style and position-->
+				<nameInputX>432</nameInputX>
+				<nameInputY>97</nameInputY>
+				<nameInputWidth>230</nameInputWidth>
+				<nameInputTextColor>0xC20800</nameInputTextColor>
+				<nameInputTextFont>Arial</nameInputTextFont>
+				<nameInputTextSize>12</nameInputTextSize>
+			<!-- Email Input Field -->
+				<article>
+					<x>392</x>
+					<y>139</y>
+					<width>70</width>
+					<articleText><![CDATA[<p class="fields">email</p>]]></articleText>
+				</article>		
+				<!--form field seperator image -->
+				<image>
+					<x>394</x>
+					<y>160</y>
+					<imageURL>site_images/pages/contact/seperator2.gif</imageURL>
+				</image>
+				<!-- actual input text style and position-->
+				<emailInputX>432</emailInputX>
+				<emailInputY>139</emailInputY>
+				<emailInputWidth>230</emailInputWidth>
+				<emailInputTextColor>0xC20800</emailInputTextColor>
+				<emailInputTextFont>Arial</emailInputTextFont>
+				<emailInputTextSize>12</emailInputTextSize>
+			<!-- Message Input Field-->
+				<article>
+					<x>392</x>
+					<y>181</y>
+					<width>70</width>
+					<articleText><![CDATA[<p class="fields">message</p>]]></articleText>
+				</article>		
+				<!--form field seperator image -->
+				<image>
+					<x>394</x>
+					<y>323</y>
+					<imageURL>site_images/pages/contact/seperator3.gif</imageURL>
+				</image>
+				<!-- actual input text style and position-->
+				<messageInputX>455</messageInputX>
+				<messageInputY>180</messageInputY>
+				<messageInputWidth>210</messageInputWidth>
+				<messageInputTextColor>0xC20800</messageInputTextColor>
+				<messageInputTextFont>Arial</messageInputTextFont>
+				<messageInputTextSize>12</messageInputTextSize>
+			<!-- Response Text Field Style & Position-->
+				<responseTextX>392</responseTextX>
+				<responseTextY>346</responseTextY>
+				<responseTextWidth>350</responseTextWidth>
+				<responseTextColor>0xC20800</responseTextColor>
+				<responseTextFont>Arial</responseTextFont>
+				<responseTextSize>12</responseTextSize>
+			<!-- Send and Clear Buttons -->
+				<image>
+					<x>572</x>
+					<y>365</y>
+					<imageURL>site_images/pages/contact/contact_76.png</imageURL>
+					<sendBtn>true</sendBtn>
+				</image>
+				<image>
+					<x>619</x>
+					<y>365</y>
+					<imageURL>site_images/pages/contact/contact_77.png</imageURL>
+					<clearBtn>true</clearBtn>
+				</image>
+
+<!--External Swf with Map -->
+				<swfs>
+					<swf>
+						<x>706</x>
+						<y>0</y>
+						<swfUrl>externalMap.swf</swfUrl>
+							<!--  
+							It is highly recommended that when unloading your external swf, that any and all event listeners
+							that have been set be removed, and all objects are removed from the stage, and bitmap data is 
+							disposed of. This clears your visitors memory and prevents your template from running into errors
+							that can arise from unremoved event listeners. If you are flash beginner set the following 
+							<useFunctionForGarbageCollection> to false, if you are somewhat good with actionscript set the 
+							following <useFunctionForGarbageCollection> to true and then include the name of the function
+							that takes care of removing your movieclip assets from memory. Make sure that this function is 
+							located on the first frame of the external swf that you are loading. 
+							-->
+					<useFunctionForGarbageCollection>true</useFunctionForGarbageCollection>
+						<!-- if you are a begginer and have set <useFunctionForGarbageCollection> to false then you can leave <functionName> empty. -->
+					<functionName>destroySwf</functionName>
+				</swf>
+			</swfs>
+	
+	
+	
+
+
+	
+</xmlObject>

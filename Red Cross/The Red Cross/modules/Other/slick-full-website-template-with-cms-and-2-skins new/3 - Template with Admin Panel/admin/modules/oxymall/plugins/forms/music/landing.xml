@@ -1,0 +1,44 @@
+<form>
+
+	<forms>
+		<add>items/add.xml</add>
+		<details>SHOW::add</details>
+		<edit>items/add.xml</edit>
+		<list>items/list.xml</list>
+	</forms>
+
+	<table>plugin:music_items</table>
+	<table_uid>item_id</table_uid>
+
+
+	<URIdata>
+		<action>action</action>
+
+		<add>add</add>
+		<details>itemdetails</details>
+		<delete>delete</delete>
+		<edit>edit</edit>
+		<list>details</list>
+		<search>search</search>
+		
+		<mup>moveup</mup>
+		<mdw>movedown</mdw>
+
+		<store>store</store>
+	</URIdata>
+
+
+	<URIlinks>
+		<add>{SELF.LINK.ADD}&returnurl={SELF.LOCATION}</add>
+		<edit>{SELF.LINKUID.EDIT}&returnurl={SELF.LOCATION}</edit>
+		<details>{SELF.LINKUID.DETAILS}&returnurl={SELF.LOCATION}</details>
+		<delete>javascript:if(confirm('Are you sure you want to delete this record ?')) window.location='{SELF.LINKUID.DELETE}&returnURL={SELF.LOCATION}'</delete>
+		<store>{SELF.LINK}{SELF.ACTION.STORE}</store>
+
+		<move_down>{SELF.LINKUID.MDW}&item_order={ITEM_ORDER}&&returnurl={SELF.LOCATION}</move_down>
+		<move_up>{SELF.LINKUID.MUP}&item_order={ITEM_ORDER}&returnurl={SELF.LOCATION}</move_up>
+
+	</URIlinks>
+
+
+</form>

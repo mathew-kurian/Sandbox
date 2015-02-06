@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss>
+<channel>
+<item id="1">
+<title>Demolition - 1</title>
+<thumb_image>images/machines/thumb_image/demolition1.jpg</thumb_image>
+<video>videos/troy_harbour.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="2">
+<title>Demolition - 2</title>
+<thumb_image>images/machines/thumb_image/demolition2.jpg</thumb_image>
+<video>videos/ship.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="3">
+<title>Demolition - 3</title>
+<thumb_image>images/machines/thumb_image/demolition3.jpg</thumb_image>
+<video>videos/fish_boats.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="4">
+<title>Demolition - 4</title>
+<thumb_image>images/machines/thumb_image/demolition4.jpg</thumb_image>
+<video>videos/fisher.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="5">
+<title>Demolition - 5</title>
+<thumb_image>images/machines/thumb_image/demolition5.jpg</thumb_image>
+<video>videos/light_house.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="6">
+<title>Hydrant - 1</title>
+<thumb_image>images/machines/thumb_image/hydrant_01.jpg</thumb_image>
+<video>videos/seashore2.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="7">
+<title>Hydrant - 02</title>
+<thumb_image>images/machines/thumb_image/hydrant_02.jpg</thumb_image>
+<video>videos/seashore3.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="8">
+<title>Machiery - 2</title>
+<thumb_image>images/machines/thumb_image/machiery2.jpg</thumb_image>
+<video>videos/seashore.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="9">
+<title>Machiery - 3</title>
+<thumb_image>images/machines/thumb_image/machinery3.jpg</thumb_image>
+<video>videos/ship.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="10">
+<title>Machiery - 4</title>
+<thumb_image>images/machines/thumb_image/machinery4.jpg</thumb_image>
+<video>videos/troy1.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="11">
+<title>Machiery - 5</title>
+<thumb_image>images/machines/thumb_image/machinery5.jpg</thumb_image>
+<video>videos/troy2.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="12">
+<title>Machiery - 6</title>
+<thumb_image>images/machines/thumb_image/machinery6.jpg</thumb_image>
+<video>videos/troy_harbour.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="13">
+<title>Machiery - 7</title>
+<thumb_image>images/machines/thumb_image/machinery7.jpg</thumb_image>
+<video>videos/ship.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="14">
+<title>Machiery - 9</title>
+<thumb_image>images/machines/thumb_image/machinery9.jpg</thumb_image>
+<video>videos/fish_boats.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="15">
+<title>Machiery - 11</title>
+<thumb_image>images/machines/thumb_image/machinery11.jpg</thumb_image>
+<video>videos/ship.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="16">
+<title>Machinery - 1</title>
+<thumb_image>images/machines/thumb_image/machinery.jpg</thumb_image>
+<video>videos/troy2.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="17">
+<title>Rusty</title>
+<thumb_image>images/machines/thumb_image/rusty.jpg</thumb_image>
+<video>videos/troy_harbour.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="18">
+<title>Tyre</title>
+<thumb_image>images/machines/thumb_image/tyre.jpg</thumb_image>
+<video>videos/ship.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	
+	<contentWidth>900</contentWidth>
+	<contentHeight>420</contentHeight>
+	<contentBgColor>0x000000</contentBgColor>
+	<contentBgOpacity>0</contentBgOpacity>
+	<scrollBaseColor>0x141414</scrollBaseColor>
+	<scrollerColor>0x29DB00</scrollerColor>
+	
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>false</displayHtmlArticles>
+	<displaySlideShow>true</displaySlideShow>	
+	
+	<image>
+		<x>780</x>
+		<y>0</y>
+		<imageURL>site_images/goBack.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>true</includePageLink>
+		<page>03_01</page><!-- back button can only go back to the page it came from-->
+	</image>
+
+	<slideShow>
+		<x>0</x>
+		<y>35</y>
+		<width>900</width>
+		<height>350</height>
+		<bgColor>0x0C0C0C</bgColor>
+		<xmlURL>./site_configuration/featuresSlideShow.xml</xmlURL>
+	</slideShow>
+
+</xmlObject>

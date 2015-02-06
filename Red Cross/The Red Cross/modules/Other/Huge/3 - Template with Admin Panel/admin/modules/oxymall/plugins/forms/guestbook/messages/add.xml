@@ -1,0 +1,56 @@
+<form>
+	<title>{SELF.TITLE} {TITLE} Message</title>
+	<action>{SELF.URI.STORE}</action>
+	<name>edit</name>
+	<width>100%</width>
+	<alternance>true</alternance>
+	<encoding>multipart/form-data</encoding>
+
+
+	<formtag>true</formtag>
+	<border>true</border>
+
+	
+	<buttons>		
+		<set>
+			<header>true</header>
+		</set>
+
+
+		<button_back onclick="" button="return">
+			<location>{PRIVATE.FORM_PREVIOUS_PAGE}</location>
+		</button_back>
+
+		<button_edit onclick="" button="edit">
+			<location>{SELF.URI.EDIT}</location>
+		</button_edit>
+
+		<button_save button="saveall">
+			<location>javascript:document.forms[0].submit();</location>
+		</button_save>
+
+	</buttons>
+
+	<redirect>{PHP}?sub=accounts</redirect>
+
+	<fields>
+		<item_id type="hidden"/>		
+		<module_id type="hidden" default="eval:$_GET[module_id]"/>		
+
+		<item_status type="droplist" title="Status">
+			<options>
+				<option name="1">pending</option>
+				<option name="2">approved</option>
+				<option name="3">deleted</option>
+			</options>
+		</item_status>
+
+		<item_date type="calendar" title="Date"	default="eval:time();">
+					<calendar align="Bl" range="2007:2020"/>
+		</item_date>
+		
+		<item_name type="textbox" size="40:200" title="Name" required="true" validate="A:2:200" />
+		<item_body type="textarea" size="60:4" title="Message"/>
+
+	</fields>
+</form>

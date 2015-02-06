@@ -1,0 +1,14 @@
+ /* 
+=================================================
+# Filename : georgia.css
+# Description : Font Family Css rules 
+# Author : TemplatePlazza
+# Author Url : http://www.templateplazza.com
+# Copyright (C) 2009 TemplatePlazza.com
+# All rights reserved.
+=================================================
+*/
+ td,p,div,tr{
+	font-family:Georgia,"Bitstream Charter","Century Schoolbook L","Liberation Serif",Times,serif;
+	line-height:160%;
+	}

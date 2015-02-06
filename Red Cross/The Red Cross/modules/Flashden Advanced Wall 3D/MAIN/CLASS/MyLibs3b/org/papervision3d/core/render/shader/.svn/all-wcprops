@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/core/render/shader
+END
+ShaderRenderer.as
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/core/render/shader/ShaderRenderer.as
+END
+IShaderRenderer.as
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/core/render/shader/IShaderRenderer.as
+END
+ShaderObjectData.as
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/core/render/shader/ShaderObjectData.as
+END

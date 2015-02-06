@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flash_parameters>
+    <preferences>
+        <golbal>
+            <basic_property movieWidth="270" movieHeight="365" html_title="" loadStyle="Pie" anvsoftMenu="false" waitMusicLoad="false" hideAdobeMenu="false" photoDynamicShow="false"/>
+            <title_property photoTitle="false" photoTitleX="0" photoTitleY="0" photoTitleSize="15" photoTitleFont="Verdana" photoTitleColor="0xffffff"/>
+            <music_property path="" stream="false" loop="false"/>
+            <photo_property topPadding="0" bottomPadding="0" leftPadding="0" rightPadding="0"/>
+        </golbal>
+        <thumbnail>
+            <basic_property showPrview="true" prviewWidth="100" prviewHeight="75" lineColor="0x362d1d" numberColor="0x312818" hovrColor="0xd2c587" prviewBorderColor="0xd2c587"/>
+        </thumbnail>
+    </preferences>
+    <album>
+        <slide jpegURL="thumbs/t_0001.jpg" d_URL="slides/p_0001.jpg" comm="" transition="29" panzoom="1" phototime="3" url="" title="PW2452_l"/>
+        <slide jpegURL="thumbs/t_0002.jpg" d_URL="slides/p_0002.jpg" comm="" transition="29" panzoom="1" phototime="3" url="" title="pw2787_l"/>
+        <slide jpegURL="thumbs/t_0003.jpg" d_URL="slides/p_0003.jpg" comm="" transition="29" panzoom="1" phototime="3" url="" title="PW2428_l"/>
+        <slide jpegURL="thumbs/t_0004.jpg" d_URL="slides/p_0004.jpg" comm="" transition="29" panzoom="1" phototime="3" url="" title="PW2427_l"/>
+        <slide jpegURL="thumbs/t_0005.jpg" d_URL="slides/p_0005.jpg" comm="" transition="29" panzoom="1" phototime="3" url="" title="PW2127_l"/>
+        <slide jpegURL="thumbs/t_0006.jpg" d_URL="slides/p_0006.jpg" comm="" transition="29" panzoom="1" phototime="3" url="" title="PW2004_l"/>
+        <slide jpegURL="thumbs/t_0007.jpg" d_URL="slides/p_0007.jpg" comm="" transition="29" panzoom="1" phototime="3" url="" title="PW1811_l"/>
+        <slide jpegURL="thumbs/t_0008.jpg" d_URL="slides/p_0008.jpg" comm="" transition="29" panzoom="1" phototime="3" url="" title="PW1112_l"/>
+        <slide jpegURL="thumbs/t_0009.jpg" d_URL="slides/p_0009.jpg" comm="" transition="29" panzoom="1" phototime="3" url="" title="everythingfurniture_1972_98846166"/>
+        <slide jpegURL="thumbs/t_0010.jpg" d_URL="slides/p_0010.jpg" comm="" transition="29" panzoom="1" phototime="3" url="" title="PW2015_l"/>
+    </album>
+</flash_parameters>

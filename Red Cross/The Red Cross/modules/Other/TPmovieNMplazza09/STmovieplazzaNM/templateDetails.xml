@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>movie_plazza</name>
+	<creationDate>08/02/2009</creationDate>
+	<author>TemplatePlazza</author>
+	<copyright>2008 - TemplatePlazza.com</copyright>
+	<authorEmail>plazza@templateplazza.com</authorEmail>
+	<authorUrl>www.templateplazza.com</authorUrl>
+	<version>1.0</version>
+	<description><![CDATA[<img src="../templates/movie_plazza/template_thumbnail.png" alt="Movie Plazza"/><br/><br/><h1>Movie Plazza</h1>Another Commercial Template from TemplatePlazza.com Template Club<p><strong> Available Skeletons for this template : </strong> </p><img src="../templates/movie_plazza/images/skeleton1.png" alt="Skeleton 1"/><img src="../templates/movie_plazza/images/skeleton2.png" alt="skeleton 2"/><img src="../templates/movie_plazza/images/skeleton3.png" alt="Skeleton 3"/><img src="../templates/movie_plazza/images/skeleton4.png" alt="Skeleton 4"/> <img src="../templates/movie_plazza/images/skeleton5.png" alt="Skeleton 5"/>]]></description>
+	<files>
+		<filename>template_thumbnail.png</filename>
+		<filename>params.ini</filename>
+		<filename>index.html</filename>
+		<filename>favicon.ico</filename>
+		<filename>component.php</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>htaccess.txt</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>scripts</folder>
+		<folder>skeletons</folder>
+	</files>
+
+	<positions>
+		<position>left</position>
+		<position>beforeleft</position>
+		<position>afterleft</position>
+		<position>beforeright</position>
+		<position>right</position>
+		<position>afterright</position>
+		<position>header</position>	
+		<position>breadcrumb</position>	
+		<position>banner</position>		
+		<position>advert1</position>
+		<position>advert2</position>
+		<position>advert3</position>
+		<position>advert4</position>
+		<position>banner</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user8</position>
+		<position>user11</position>
+		<position>user12</position>
+		<position>user13</position>
+		<position>user14</position>
+		<position>user21</position>
+		<position>user22</position>
+		<position>user23</position>
+		<position>user24</position>
+		<position>mobiletop</position>
+		<position>mobilebottom</position>
+        <position>extra1</position>
+        <position>extra2</position>
+        <position>extra3</position>
+        <position>extra4</position>
+        <position>extra5</position>
+        
+	</positions>
+	
+	<params>	
+		<param type="spacer" default="&lt;strong&gt;Width Settings&lt;/strong&gt;" />
+	
+			<param name="tp_templatewidth" type="text" default="960" label="Template Width" description="Template width in px" />
+			<param name="tp_blockleftwidth" type="text" default="200" label="Block Left Width" description="Block Left width in px" />
+			<param name="tp_blockrightwidth" type="text" default="200" label="Block Right Width" description="Block Right width in px" />
+			<param name="tp_gutter" type="text" default="10" label="Gutter / Spacing Width" description="Gutter / Block spacing width in px" />
+		<param type="spacer" default="&lt;strong&gt;Style Related Settings&lt;/strong&gt;" />			
+			<param name="tp_styleswitcherstate" type="radio" default="1" label="Activate Style Swithcher" description="Choose Yes , if you  want to disable option to change your website style by accessing url like this : http://www.yourdomainname.com/index.php?tpstyle=style6 ">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+
+			<!-- <param name="tp_templateorientation" type="radio" default="1" label="Template Orientation" description="RTL Option ">
+				<option value="0">Left</option>
+				<option value="1">Right</option>
+			</param>
+			-->
+			
+			<param name="tp_templatetheme" type="list" default="style1" label="Theme" description="Template Theme">
+				<option value="bright">Bright</option>
+				<option value="dark">Dark</option>
+			</param>
+
+			<param name="tp_skeleton" type="list" default="skeleton1" label="Theme Skeleton" description="Choose Template Skeleton">
+				<option value="skeleton1">Skeleton 1</option>
+				<option value="skeleton2">Skeleton 2</option>
+				<option value="skeleton3">Skeleton 3</option>
+				<option value="skeleton4">Skeleton 4</option>
+				<option value="skeleton5">Skeleton 5</option>
+                <option value="skeleton6">Skeleton 6</option>
+                <option value="skeleton7">Skeleton 7</option>
+                <option value="skeleton8">Skeleton 8</option>
+			</param>
+			
+			<param name="tp_skeletonitemid" type="text" size="75" default="" label="Skeleton for Itemid" description="sample: itemid1=skeleton1, itemid2=skeleton2 for use skeleton1 in Menu ID 1 and skeleton2 in Menu ID 2" />
+			
+			<param name="tp_backgroundimgpath" type="text" size="75" default="" label="Background Image Path" description="Background Image Path" />
+			<param name="tp_backgroundcolor" type="text" size="75" default="" label="Background Color" description="Background Color" />
+			
+			<param name="tp_logoplacement" type="radio" default="1" label="Logo Placement" description="Logo Placement ">
+				<option value="0">Left</option>
+				<option value="1">Right</option>
+			</param>
+            <param name="tp_logotext" type="text" default="My Website Title" label="Logo text" description="Your Logo Text" />	
+			<param name="tp_blockheadheight" type="text" default="100" label="Block HEAD Height" description="Define Height for Block HEAD (logo section)" />	
+			
+            <param name="tp_logowidth" type="text" default="400" label="Logo Box Width" description="Logo Box Width" />
+			<!-- <param name="tp_logotype" type="radio" default="0" label="Logo Type" description="Logo Type ">
+				<option value="0">Images</option>
+				<option value="1">Text Only</option>
+			</param>
+			<param name="tp_logotext" type="text" size="75" default="" label="Logo Text" description="Text for Logo" />	
+			 -->
+			
+			<param name="tp_blocktoptype" type="list" default="1" label="Block TOP Type" description="Block B Type">
+				<option value="0">2 * 1/2</option>
+				<option value="1">1/4</option>
+			</param>
+			
+			<param name="tp_blockbottype" type="list" default="1" label="Block BOTTOM Type" description="Block I Type">
+				<option value="0">2 * 1/2</option>
+				<option value="1">1/4</option>
+			</param>
+			<param type="spacer" default="&lt;strong&gt;Font Settings&lt;/strong&gt;" />
+			<param name="tp_primaryfontfam" type="list" default="arial" label="Primary Font Family" description="The changes affect to body and general text">
+				<option value="arial">Arial</option>
+				<option value="verdana">Verdana</option>
+				<option value="tahoma">Tahoma</option>
+				<option value="trebuchet">Trebuchet</option>
+				<option value="georgia">Georgia</option>
+				<option value="courier">Courier</option>
+				<option value="palatino">Palatino</option>
+				<option value="optima">Optima</option>
+				<option value="times">Times New Romans</option>
+				<option value="lucida-grande">Lucida Grande</option>
+				<option value="lucida-sans">Lucida Sans</option>
+			</param>	
+			
+			<param name="tp_secondaryfontfam" type="list" default="arial" label="Secondary Font Family" description="The changes affect to Content Title, Component Heading, H1, H2,and H3">
+				<option value="arial">Arial</option>
+				<option value="verdana">Verdana</option>
+				<option value="tahoma">Tahoma</option>
+				<option value="trebuchet">Trebuchet</option>
+				<option value="georgia">Georgia</option>
+				<option value="courier">Courier</option>
+				<option value="palatino">Palatino</option>
+				<option value="optima">Optima</option>
+				<option value="times">Times New Romans</option>
+				<option value="lucida-grande">Lucida Grande</option>
+				<option value="lucida-sans">Lucida Sans</option>
+			</param>
+	
+			<param name="tp_tertieryfontfam" type="list" default="arial" label="Tertiery Font Family" description="The changes affect to .small,.smalldark,.createdate,.modifydate,.createdate,.modifydate">
+				<option value="arial">Arial</option>
+				<option value="verdana">Verdana</option>
+				<option value="tahoma">Tahoma</option>
+				<option value="trebuchet">Trebuchet</option>
+				<option value="georgia">Georgia</option>
+				<option value="courier">Courier</option>
+				<option value="palatino">Palatino</option>
+				<option value="optima">Optima</option>
+				<option value="times">Times New Romans</option>
+				<option value="lucida-grande">Lucida Grande</option>
+				<option value="lucida-sans">Lucida Sans</option>
+			</param>
+			
+			
+			<param name="tp_primaryfontsize" type="list" default="standard" label="Primary Font Size" description="The changes affect to body and general text">
+				<option value="small">Small</option>
+				<option value="standard">Standard</option>
+				<option value="big">Big</option>
+			</param>	
+			
+			<param name="tp_secondaryfontsize" type="list" default="standard" label="Secondary Font Size" description="The changes affect to Content Title, Component Heading, Module Title">
+				<option value="small">Small</option>
+				<option value="standard">Standard</option>
+				<option value="big">Big</option>
+			</param>
+	
+			<param name="tp_tertieryfontsize" type="list" default="standard" label="Tertiery Font Size" description="The changes affect to .small,.smalldark,.createdate,.modifydate,.createdate,.modifydate">
+				<option value="small">Small</option>
+				<option value="standard">Standard</option>
+				<option value="big">Big</option>
+			</param>
+			<param type="spacer" default="&lt;strong&gt;Mootab Settings&lt;/strong&gt;" />
+			
+			<param name="tp_mootabspos" type="list" default="none" label="Mootabs Block Positions" description="Choose Mootabs Position">
+				<option value="none">None</option>
+				<option value="user11">user11</option>
+				<option value="user12">user12</option>
+				<option value="user13">user13</option>
+				<option value="user14">user14</option>
+				<option value="user21">user21</option>
+				<option value="user22">user22</option>
+				<option value="user23">user23</option>
+				<option value="user24">user24</option>
+			</param>
+			
+			<param name="tp_mootabsstyle" type="list" default="1" label="Mootabs Style" description="Choose Mootabs Style">
+				<option value="1">Style 1</option>
+				<option value="2">Style 2</option>
+				<option value="3">Style 3</option>
+				<option value="4">Style 4</option>
+			</param>
+			
+			<param name="tp_mootabsmode" type="list" default="horizontal" label="Mootabs Animation Direction" description="">
+				<option value="horizontal">Horizontal</option>
+				<option value="vertical">Vertical</option>
+			</param>
+			<param name="tp_mootabsautoplay" type="list" default="1" label="Mootabs Auto Play" description="">
+				<option value="1">Yes</option>
+				<option value="0">No</option>
+			</param>
+			<param name="tp_mootabsinterval" type="text" size="4" default="3000" label="Mootabs Interval" description="" />
+
+			<param name="tp_mootabstransition" type="list" default="" label="Mootabs Transition" description="">
+				<option value="Fx.Transitions.linear">Fx.Transitions.linear</option>
+				<option value="Fx.Transitions.Quad.easeIn">Fx.Transitions.Quad.easeIn</option>
+				<option value="Fx.Transitions.Quad.easeOut">Fx.Transitions.Quad.easeOut</option>
+				<option value="Fx.Transitions.Quad.easeInOut">Fx.Transitions.Quad.easeInOut</option>
+				<option value="Fx.Transitions.Cubic.easeIn">Fx.Transitions.Cubic.easeIn</option>
+				<option value="Fx.Transitions.Cubic.easeOut">Fx.Transitions.Cubic.easeOut</option>
+				<option value="Fx.Transitions.Cubic.easeInOut">Fx.Transitions.Cubic.easeInOut</option>
+				<option value="Fx.Transitions.Quart.easeIn">Fx.Transitions.Quart.easeIn</option>
+				<option value="Fx.Transitions.Quart.easeOut">Fx.Transitions.Quart.easeOut</option>
+				<option value="Fx.Transitions.Quart.easeInOut">Fx.Transitions.Quart.easeInOut</option>
+				<option value="Fx.Transitions.Quint.easeIn">Fx.Transitions.Quint.easeIn</option>
+				<option value="Fx.Transitions.Quint.easeOut">Fx.Transitions.Quint.easeOut</option>
+				<option value="Fx.Transitions.Quint.easeInOut">Fx.Transitions.Quint.easeInOut</option>
+				<option value="Fx.Transitions.Pow.easeIn">Fx.Transitions.Pow.easeIn</option>
+				<option value="Fx.Transitions.Pow.easeOut">Fx.Transitions.Pow.easeOut</option>
+				<option value="Fx.Transitions.Pow.easeInOut">Fx.Transitions.Pow.easeInOut</option>
+				<option value="Fx.Transitions.Expo.easeIn">Fx.Transitions.Expo.easeIn</option>
+				<option value="Fx.Transitions.Expo.easeOut">Fx.Transitions.Expo.easeOut</option>
+				<option value="Fx.Transitions.Expo.easeInOut">Fx.Transitions.Expo.easeInOut</option>
+				<option value="Fx.Transitions.Circ.easeIn">Fx.Transitions.Circ.easeIn</option>
+				<option value="Fx.Transitions.Pow.easeInOut">Fx.Transitions.Pow.easeInOut</option>
+				<option value="Fx.Transitions.Expo.easeIn">Fx.Transitions.Expo.easeIn</option>
+				<option value="Fx.Transitions.Expo.easeOut">Fx.Transitions.Expo.easeOut</option>
+				<option value="Fx.Transitions.Expo.easeInOut">Fx.Transitions.Expo.easeInOut</option>
+				<option value="Fx.Transitions.Circ.easeIn">Fx.Transitions.Circ.easeIn</option>
+				<option value="Fx.Transitions.Circ.easeOut">Fx.Transitions.Circ.easeOut</option>
+				<option value="Fx.Transitions.Circ.easeInOut">Fx.Transitions.Circ.easeInOut</option>
+				<option value="Fx.Transitions.Sine.easeIn">Fx.Transitions.Sine.easeIn</option>
+				<option value="Fx.Transitions.Sine.easeOut">Fx.Transitions.Sine.easeOut</option>
+				<option value="Fx.Transitions.Sine.easeInOut">Fx.Transitions.Sine.easeInOut</option>
+				<option value="Fx.Transitions.Back.easeIn">Fx.Transitions.Back.easeIn</option>
+				<option value="Fx.Transitions.Back.easeOut">Fx.Transitions.Back.easeOut</option>
+				<option value="Fx.Transitions.Back.easeInOut">Fx.Transitions.Back.easeInOut</option>
+				<option value="Fx.Transitions.Bounce.easeIn">Fx.Transitions.Bounce.easeIn</option>
+				<option value="Fx.Transitions.Bounce.easeOut">Fx.Transitions.Bounce.easeOut</option>
+				<option value="Fx.Transitions.Bounce.easeInOut">Fx.Transitions.Bounce.easeInOut</option>
+				<option value="Fx.Transitions.Elastic.easeIn">Fx.Transitions.Elastic.easeIn</option>
+				<option value="Fx.Transitions.Elastic.easeOut">Fx.Transitions.Elastic.easeOut</option>
+				<option value="Fx.Transitions.Elastic.easeInOut">Fx.Transitions.Elastic.easeInOut</option>
+			</param>
+
+			<param name="tp_mootabsduration" type="text" size="4" default="1000" label="Mootabs Transition Duration" description="" />
+
+			<param name="tp_mootabswidth" type="text" size="3" default="900" label="Mootabs Width" description="" />
+			<param name="tp_mootabsheight" type="text" size="3" default="180" label="Mootabs Height" description="" />
+		<param type="spacer" default="&lt;strong&gt;Accordion Settings&lt;/strong&gt;" />
+			<param name="tp_accordionmodpos" type="list" default="noaccordion" label="Accordion FX Module Position" description="Choose Accordion Module FX">
+				<option value="noaccordion">No Accordion FX</option>
+				<option value="accblockleft">Block Left</option>
+				<option value="accblockright">Block Right</option>
+			</param>
+
+			<param name="tp_accordiondefaultdisplay" type="list" default="none" label="Default Opened Accordion" description="">
+				<option value="none">None</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+			</param>
+			
+			<param name="tp_accordioncanhideall" type="list" default="0" label="Accordion Can Hide All" description="">
+				<option value="1">Yes</option>
+				<option value="0">No</option>
+			</param>
+
+			<param name="tp_accordionopacity" type="list" default="0" label="Accordion Opacity" description="">
+				<option value="1">Yes</option>
+				<option value="0">No</option>
+			</param>
+
+			<param type="spacer" default="&lt;strong&gt;TPMenu Settings&lt;/strong&gt;" />
+			<param name="tp_menustyle" type="list" default="dropdown" label="Menu Style" description="">
+				<option value="none">- Disable TPMenu -</option>
+				<option value="dropdown">DropDown</option>
+				<option value="dropcolumn">DropColumn</option>
+                <option value="dropxtd">DropXtd</option>
+				<option value="dropline">DropLine</option>
+				<option value="dolphin">Dolphin</option>
+			</param>
+			<param name="tp_dropcolumnwidth" type="text" default="200" label="Column Width" description="Column Width for Dropxtd and dropcolumn" />
+			<param name="tp_tpmenutype" type="mos_menu" default="mainmenu" label="Menu" description="The name of the menu you wish the module to display - if no menu is selected the mainmenu is loaded" />
+			<param name="tp_tpmenu_animated" type="radio" default="1" label="Animated" description="">
+				<option value="0">Static</option>
+				<option value="1">Animated</option>
+			</param>
+
+
+			<param name="tp_tpmenu_show_image" type="radio" default="1" label="Show Image" description="">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param name="tp_tpmenu_show_image_position" type="radio" default="right" label="Show Image Position" description="">
+				<option value="left">Left</option>
+				<option value="right">Right</option>
+			</param>
+			<param name="tp_tpmenu_show_menu_text" type="radio" default="1" label="Show Menu Text" description="">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param name="tp_dropcolumnnum" type="text" size="2" default="2" label="Drop Column Number" description="" />
+				
+		<param type="spacer" default="&lt;strong&gt;Mobile Settings&lt;/strong&gt;" />	
+			<param name="tp_mobilemode" type="radio" default="1" label="Enable Mobile Mode" description="Enabling Mobile Mode will display different template layout when your website is opened with mobile devices such as iPhone, PDA etc ">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+
+			<param name="tp_enablemobilephoneswitch" type="radio" default="1" label="Enable Mobile Phone Switch" description="">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+
+			<param name="mobilemenu" type="mos_menu" default="mainmenu" label="Menu for Mobile Browser" description="The name of the menu you wish the module to display - if no menu is selected the mainmenu is loaded" />
+			<param name="mobilemenudisplay" type="list" default="text" label="Mobile Menu Display" description="">
+				<option value="text">Text Only</option>
+				<option value="image">Image Only</option>		
+				<option value="textimage">Text and Image</option>		
+			</param>
+
+			<param name="mobilemenumaxcount" type="text" default="4" label="Max Number of Menu Items for Mobile Mode" description="" />
+			<param type="spacer" default="&lt;strong&gt;Cufon (Text Replacement) Settings&lt;/strong&gt;" />
+			<param name="tp_cufon_in_content" type="list" default="" label="Font in Content Title" description="Font in Content Title">
+				<option value="">- Disable -</option>
+				<option value="Vegur">Vegur</option>
+				<option value="Aurulent Sans">Aurulent Sans</option>
+                <option value="PreussischeIV44Ausgabe3">PreussischeIV44Ausgabe3</option>
+                <option value="Tuffy">Tuffy</option>
+			</param>
+
+			<param name="tp_cufon_in_module_block" type="text" size="75" default="" label="Activate Cufon on these Modules Blocks " description="Fill with 'all' to activate it on all blocks" />
+			<param name="tp_cufon_in_module_font" type="list" default="" label="Cufon Font for Module Title" description="">
+				<option value="">- Disable -</option>
+        <option value="Vegur">Vegur</option>
+				<option value="Aurulent Sans">Aurulent Sans</option>
+        <option value="PreussischeIV44Ausgabe3">PreussischeIV44Ausgabe3</option>
+        <option value="Tuffy">Tuffy</option>
+			</param>
+
+			<param name="tp_cufon_in_accordion_font" type="list" default="" label="Cufon Font for Accordion Module Title" description="">
+				<option value="">- Disable -</option>
+        <option value="Vegur">Vegur</option>
+				<option value="Aurulent Sans">Aurulent Sans</option>
+        <option value="PreussischeIV44Ausgabe3">PreussischeIV44Ausgabe3</option>
+        <option value="Tuffy">Tuffy</option>
+			</param>
+
+			<param name="tp_cufon_in_tpmenu_parent" type="list" default="" label="TPMenu TopLevel" description="Cufont in TPMenu">
+				<option value="">- Disable -</option>
+				<option value="Vegur">Vegur</option>
+				<option value="Aurulent Sans">Aurulent Sans</option>
+                <option value="PreussischeIV44Ausgabe3">PreussischeIV44Ausgabe3</option>
+                <option value="Tuffy">Tuffy</option>
+			</param>
+
+			<param name="tp_cufon_in_tpmenu_parent_sub" type="list" default="" label="TPMenu TopLevel>Sub Title" description="Cufont in TPMenu Sub Title">
+				<option value="">- Disable -</option>
+				<option value="Vegur">Vegur</option>
+				<option value="Aurulent Sans">Aurulent Sans</option>
+                <option value="PreussischeIV44Ausgabe3">PreussischeIV44Ausgabe3</option>
+                <option value="Tuffy">Tuffy</option>
+			</param>
+
+			<param name="tp_cufon_in_tpmenu_child" type="list" default="" label="TPMenu SubLevel" description="Cufont in TPMenu Sub Level">
+				<option value="">- Disable -</option>
+				<option value="Vegur">Vegur</option>
+				<option value="Aurulent Sans">Aurulent Sans</option>
+                <option value="PreussischeIV44Ausgabe3">PreussischeIV44Ausgabe3</option>
+                <option value="Tuffy">Tuffy</option>
+			</param>
+
+			<param name="tp_cufon_in_tpmenu_child_sub" type="list" default="" label="TPMenu SubLevel>SubTitle" description="Cufont in TPMenu Sub Level Sub Title">
+				<option value="">- Disable -</option>
+				<option value="Vegur">Vegur</option>
+				<option value="Aurulent Sans">Aurulent Sans</option>
+                <option value="PreussischeIV44Ausgabe3">PreussischeIV44Ausgabe3</option>
+                <option value="Tuffy">Tuffy</option>
+			</param>
+			
+			<param name="tp_cufon_in_tpaccordion" type="hidden" default="" label="Cufont in TP Accordion" description="">
+				<option value="">- Disable -</option>
+				<option value="Vegur">Vegur</option>
+				<option value="Aurulent Sans">Aurulent Sans</option>
+                <option value="PreussischeIV44Ausgabe3">PreussischeIV44Ausgabe3</option>
+                <option value="Tuffy">Tuffy</option>
+			</param>
+
+			<!-- <param name="tp_mootipstyle" type="list" default="mootips1" label="Mootips Style" description="Choose Mootips Style">
+				<option value="moostips1">Style 1</option>
+				<option value="moostips2">Style 2</option>
+				<option value="moostips3">Style 3</option>
+				<option value="moostips4">Style 4</option>		
+			</param>
+			
+			<param name="tp_lightboxstyle" type="list" default="lbox1" label="Lightbox Style" description="Choose Lightbox FX Style">
+				<option value="lbox1">Style 1</option>
+				<option value="lbox2">Style 2</option>
+				<option value="lbox3">Style 3</option>
+				<option value="lbox4">Style 4</option>		
+			</param>
+			-->
+			
+
+			<param type="spacer" default="&lt;strong&gt;SEO Settings&lt;/strong&gt;" />
+			<param name="tp_metagen" type="text" size="75" default="" label="Meta Generator" description="Override meta generator" />
+			<param name="tp_googlekey" type="text" size="75" default="" label="Google Key" description="Google Key" />
+			<param name="tp_yahookey" type="text" size="75" default="" label="Yahoo Key" description="Yahoo Key" />
+			<param name="tp_msnkey" type="text" size="75" default="" label="MSN Key" description="MSN Key" />
+			
+			<param name="tp_enablemootool" type="radio" default="1" label="Enable Mootools" description="You need to enable mootools to use all available mootool FX">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			
+			<param name="tp_enablecapyionjs" type="radio" default="1" label="Enable CaptionJS" description="Enable CaptionJS">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param type="spacer" default="&lt;strong&gt;Other Settings&lt;/strong&gt;" />
+			<param name="tp_ie6checker" type="radio" default="1" label="Enable IE6 Alert" description="Enable IE6 Alert">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+
+			<param name="tp_cachecss" type="radio" default="1" label="Cache CSS" description="If you select Yes, the system will create temporary css files under your css/saved folder. Please make sure the 'saved' folder has all the correct permission (writable) ">
+				<option value="0">No </option>
+				<option value="1">Yes</option>
+			</param>
+			
+		</params>
+</install>

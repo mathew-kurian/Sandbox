@@ -1,0 +1,51 @@
+<form>
+	<add>
+		<subtitle type="subtitle" title="Contact Fields" />
+
+		<user_contact_phone type="phone" title="Cell Phone" />
+		<user_contact_phone2 type="phone" title="Work Phone" />
+		<user_contact_phone3 type="phone" title="Home Phone" />
+
+		<subtitle_address type="subtitle" title="Address" />
+
+		<user_contact_addr type="textarea" size="40:3" title="Street" />
+		<user_contact_city type="textbox" size="20" title="City" />
+		<user_contact_state type="USstates" empty="true" title="State" />
+		<user_contact_zip type="textbox" size="20" title="Zip" />
+		<user_contact_country type="countries" empty="true" title="Country" />
+
+		<subtitle_ym type="subtitle" title="Instant Messengers" />
+		<user_contact_ym type="textbox" size="20" title="Yahoo!" />
+		<user_contact_icq type="textbox" size="20" title="ICQ" />
+		<user_contact_aol type="textbox" size="20" title="AOL" />
+		<user_contact_msn type="textbox" size="20" title="Msn" />
+		<user_contact_google type="textbox" size="20" title="Google" />
+
+<!--		<after_save type="after_save" />-->
+	</add>
+
+	<details>
+		<subtitle type="subtitle" title="Contact Fields" />
+
+		<user_contact_phone type="text" size="20" title="Cell Phone" />
+		<user_contact_phone2 type="text" size="20" title="Work Phone" />
+		<user_contact_phone3 type="text" size="20" title="Home Phone" />
+
+		<subtitle_address type="subtitle" title="Address" />
+
+		<user_contact_addr type="text" size="40:3" title="Street" />
+		<user_contact_city type="text" size="20" title="City" />
+		<user_contact_state type="text" empty="true" size="20" title="State" />
+		<user_contact_zip type="text" size="20" title="Zip" />
+		<user_contact_country type="text" empty="true" size="20" title="Country" />
+
+		<subtitle_ym type="subtitle" title="Instant Messengers" />
+		<user_contact_ym type="text" size="20" title="Yahoo!" />
+		<user_contact_icq type="text" size="20" title="ICQ" />
+		<user_contact_aol type="text" size="20" title="AOL" />
+		<user_contact_msn type="text" size="20" title="Msn" />
+		<user_contact_google type="text" size="20" title="Google" />
+
+	</details>
+
+</form>

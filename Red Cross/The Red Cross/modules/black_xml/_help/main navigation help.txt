@@ -1,0 +1,175 @@
+navigaion.xml
+
+-----------------------------------------------
+How do I change the button labels?
+-----------------------------------------------
+
+Open navigation.xml in Notepad or Dreamveaver. In the xml go to the "label" attribute for each btn node and change to your label.
+
+Example:
+  	
+label="HOME"
+
+
+-----------------------------------------------
+How do I add more buttons to the navigation?
+-----------------------------------------------
+
+To add more buttons add more btn nodes to the xml structure.
+
+Example:
+
+<navigation>
+  	
+<btn label="HOME" url="intro.swf" goto="load" xcord="" ycord="" lockRoot = "false" audio = ""/>
+
+<btn label="ABOUT" url="aboutus.swf" goto="load" xcord="" ycord="" lockRoot = "true" audio = ""/>
+   
+</navigation>
+
+
+------------------------------------------
+How do I go to a frame number and stop?
+------------------------------------------
+
+
+In the xml, go to the attribute "url" for the button and enter the frame number.
+Example:
+
+url="2"
+
+Then go to the attribute "goto" and enter stopframe.
+Example:
+goto="stopframe"
+
+------------------------------------------
+How do I go to a frame number and play?
+------------------------------------------
+
+In the xml, go to the attribute "url" for the button and enter the frame number.
+Example:
+
+url="2"
+
+Then go to the attribute "goto" and enter playframe.
+Example:
+
+goto="playframe"
+
+------------------------------------------
+How do I go to a frame label and stop?
+------------------------------------------
+
+In the xml, go to the attribute "url" for the button and enter the frame label.
+Example:
+
+url="myframelabel"
+
+Then go to the attribute "goto" and enter stopframe.
+Example:
+
+goto="stopframe"
+
+------------------------------------------
+How do I go to a frame label and play?
+------------------------------------------
+
+In the xml, go to the attribute "url" for the button and enter the frame label.
+Example:
+
+url="s2"
+
+Then go to the attribute "goto" and enter playframe.
+Example:
+
+goto="playframe"
+
+------------------------------------------
+How do I go to a website url?
+------------------------------------------
+
+In the xml, go to the attribute "url" for the button and enter the website url.
+Example:
+
+url="http://www.flashden.net/user/robwes19"
+
+Then go to the attribute "goto" and enter url.
+Example:
+
+goto="url"
+
+------------------------------------------
+How do I load a swf?
+------------------------------------------
+
+In the xml, go to the attribute "url" and enter the path to your swf.
+Example:
+
+url="video_gallery.swf"
+
+Then go to the attribute "goto" and enter load.
+Example:
+
+goto="load"
+
+You can load a swf, jpg, png or gif.
+
+-----------------------------------------------------------
+How do I change the x and y coordinate of each loaded swf?
+-----------------------------------------------------------
+
+In the xml, go to the attributes "xcord" and "ycord" for the button loading the swf and enter the x y coordinates.
+Example:
+
+xcord="130" ycord="58"
+
+Each loaded swf can be positioned anywhere on stage, for buttons not loading a swf leave the xcord and ycord attributes blank.
+Example:
+xcord="" ycord=""
+
+-----------------------------------------------------------
+What is the attirbute lockRoot for?
+-----------------------------------------------------------
+
+Often when using external apps they can be troublsome to load into your main swf. Commonly this is caused by _root references in the code of the external app. Setting "lockRoot = true" in the xml will turn on the _lockroot = true function in the actionscript, and fix this problem, potentially saving you hours of frustration fixing code.
+
+Alternatively you can set it to false, which will allow your loaded swf to communicate with the main swf if need be. 
+
+-----------------------------------------------------------
+What is the attirbute audio for?
+-----------------------------------------------------------
+
+Simply this allows you too turn off the background audio track by setting the audio attribute to off.
+I added this so you could painlessly load other media with audio. You'll notice this feature working when you click on the video gallery.
+
+-------------------------------------------------------------------
+How do I change the x and y coordinate of the xml navigation menu?
+-------------------------------------------------------------------
+
+Open template.fla, click inside the movieclip mainSite, go to the layer "Actions (Navigation)" and open your actions panel (F9).
+Go to lines 20 and 22 and change the coordinates.
+
+-------------------------------------------------------------------
+How do I change the button text rollover color?
+-------------------------------------------------------------------
+
+In the xml, go to the attributes "btnColor" and change the hexidecimal value to your new color.
+Make sure to keep 0x before your 6 digit color.
+
+Example: 0xffff00
+
+-------------------------------------------------------------------
+How do I change the spacing between buttons?
+-------------------------------------------------------------------
+
+Open template.fla, click inside the movieclip mainSite, go to the layer "Actions (Navigation)" and open your actions panel (F9).
+Go to lines 24 and change the setting.
+
+-------------------------------------------------------
+Why won't my special characters show up?
+-------------------------------------------------------
+
+There are 3 common reasons why special characters won't show up.
+1. XML file saved with the wrong verion and encoding.
+2. You failed to embed your special characters in your Flash file.
+3. You are using a font that doesen't support special characters. If you use a common font like Arial you shoulden't have a problem.

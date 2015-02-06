@@ -1,0 +1,130 @@
+<form>
+
+	<tabs>
+		<t active="true" width="100" title="Module Settings" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.user&action=details&mod_id={MODULE_ID}" />
+		<t0 width="80" title="Header" link="index.php?mod=oxymall&sub=oxymall.plugin.portfolio.landing&module_id={MODULE_ID}&action=details" />
+		<t1 width="80" title="Categories" link="index.php?mod=oxymall&sub=oxymall.plugin.portfolio.cats&module_id={MODULE_ID}" />
+		<t2 width="80" title="Projects" link="index.php?mod=oxymall&sub=oxymall.plugin.portfolio.projects&module_id={MODULE_ID}" />
+		<t_video width="80" title="Video Tutorial" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.help&module_id={MODULE_ID}" restricted="eval:$GLOBALS['no_tutorials'];"/>
+
+	</tabs>
+
+
+	<fields>
+		<set_misc_subtitle type="subtitle" title="Misc" />		
+		<set_reverseorder type="checkbox" checked="1" title="Reverse Images Order" label="yes|no" description="If you check this the last added image will appear the first."/>
+		<set_reverseorderp type="checkbox" checked="1" title="Reverse Projects Order" label="yes|no" description="If you check this the last added project will appear the first."/>
+
+
+		<settings_gen type="subtitle" title="General Settings" />
+			
+		<set_blurxamount type="textbox" size="5" suffix="px" title="Blur X Amount" />
+		
+		<set_bluryamount type="textbox" size="5" suffix="px" title="Blur Y Amount" />
+		
+		<set_animationtime type="textbox" size="5" suffix="Secconds" title="Animaiton Time" />
+		
+		<set_animationtype type="droplist" title="Animation Type" empty="true">
+			<options>
+				<option name="linear">linear</option>
+				<option name="easeInSine">easeInSine</option>
+				<option name="easeOutSine">easeOutSine</option>
+				<option name="easeInQuad">easeInQuad</option>
+				<option name="easeOutQuad">easeOutQuad</option>
+				<option name="easeInCubic">easeInCubic</option>
+				<option name="easeOutCubic">easeOutCubic</option>
+				<option name="easeInQuart">easeInQuart</option>
+				<option name="easeOutQuart">easeOutQuart</option>
+				<option name="easeInQuint">easeInQuint</option>
+				<option name="easeOutQuint">easeOutQuint</option>
+				<option name="easeInExpo">easeInExpo</option>
+				<option name="easeOutExpo">easeOutExpo</option>
+				<option name="easeInCirc">easeInCirc</option>
+				<option name="easeOutCirc">easeOutCirc</option>
+				<option name="easeInElastic">easeInElastic</option>
+				<option name="easeOutElastic">easeOutElastic</option>
+				<option name="easeInBack">easeInBack</option>
+				<option name="easeOutBack">easeOutBack</option>
+				<option name="easeInBounce">easeInBounce</option>
+				<option name="easeOutBounce">easeOutBounce</option>
+			</options>
+		</set_animationtype>
+
+		<settings_index type="subtitle" title="Portfolio Index" />
+					
+		<set_thumbwidth type="textbox" size="5" suffix="px" title="Thumb Width" />
+	
+		<set_thumbheight type="textbox" size="5" suffix="px" title="Thumb Height" />
+		
+		<set_distancebetweenthumbs type="textbox" size="5" suffix="px" title="Distance between Thumbs" />
+	
+		<set_thumbsonslider type="textbox" size="5" title="Thuumbs on Slider" />
+	
+		<set_scrollingblurx type="textbox" size="5" title="Scrolling Blur X" />
+	
+		<set_fadeinanimationtime type="textbox" size="5" suffix="secconds" title="Fadein Animation Time" />
+	
+		<set_maxtextwidth type="textbox" size="5" suffix="px" title="Max Text Width" />
+
+		<settings_pl type="subtitle" title="Projects Listing" />
+			
+		<set_thumbwidthprojecttypelisting type="textbox" size="5" suffix="px" title="Thumb Width" />
+	
+		<set_thumbheightprojecttypelisting type="textbox" size="5" suffix="px" title="Thumb Height" />
+		
+		<set_horizontalspace type="textbox" size="5" suffix="px" title="Horizontal Space" />
+		
+		<set_verticalspace type="textbox" size="5" suffix="px" title="Vertical Space" />
+
+
+		<set_projectslistingmaskwidth type="textbox" size="5" suffix="px" title="Mask Width" />
+
+		<set_projectslistingmaskheight type="textbox" size="5" suffix="px" title="Mask Height" />
+
+		<set_projectslistingtextwidth type="textbox" size="5" suffix="px" title="Text Width" />
+
+		<set_backxpos type="textbox" size="5" suffix="px" title="Back X Pos" />
+
+
+		<settings_pd type="subtitle" title="Project Details" />
+
+		<set_thumbwidthprojectdetails type="textbox" size="5" suffix="px" title="Thumb Width" />
+	
+		<set_thumbheightprojectdetails type="textbox" size="5" suffix="px" title="Thumb Height" />
+						
+		<settings_pp type="subtitle" title="Popup" />
+			
+		<set_popupblurxamount type="textbox" size="5" suffix="px" title="Blur X Amount" />
+		
+		<set_popupbluryamount type="textbox" size="5" suffix="px" title="Blur Y Amount" />
+		
+		<set_popupanimationtime type="textbox" size="5" suffix="Secconds" title="Animaiton Time" />
+		
+		<set_popupanimationtype type="droplist" title="Animation Type" empty="true">
+			<options>
+				<option name="linear">linear</option>
+				<option name="easeInSine">easeInSine</option>
+				<option name="easeOutSine">easeOutSine</option>
+				<option name="easeInQuad">easeInQuad</option>
+				<option name="easeOutQuad">easeOutQuad</option>
+				<option name="easeInCubic">easeInCubic</option>
+				<option name="easeOutCubic">easeOutCubic</option>
+				<option name="easeInQuart">easeInQuart</option>
+				<option name="easeOutQuart">easeOutQuart</option>
+				<option name="easeInQuint">easeInQuint</option>
+				<option name="easeOutQuint">easeOutQuint</option>
+				<option name="easeInExpo">easeInExpo</option>
+				<option name="easeOutExpo">easeOutExpo</option>
+				<option name="easeInCirc">easeInCirc</option>
+				<option name="easeOutCirc">easeOutCirc</option>
+				<option name="easeInElastic">easeInElastic</option>
+				<option name="easeOutElastic">easeOutElastic</option>
+				<option name="easeInBack">easeInBack</option>
+				<option name="easeOutBack">easeOutBack</option>
+				<option name="easeInBounce">easeInBounce</option>
+				<option name="easeOutBounce">easeOutBounce</option>
+			</options>
+		</set_popupanimationtype>
+			
+	</fields>
+</form>			

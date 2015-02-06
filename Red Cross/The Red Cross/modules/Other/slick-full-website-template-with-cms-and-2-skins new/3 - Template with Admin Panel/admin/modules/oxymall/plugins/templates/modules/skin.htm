@@ -1,0 +1,17 @@
+<!--S:Main-->
+	<div id="flashcontent"> You need to upgrade your Flash Player</div>
+	<script type="text/javascript">
+		// <![CDATA[				
+		var so = new SWFObject(OX_BASE_URL + "upload/skins/{SKIN_CODE}/index.swf", "flash", "100%", "100%", "8", "#000000");
+		so.addParam("scale","noscale");
+		so.addParam("swLiveConnect", "true");
+		so.addParam("allowscriptaccess", "always");
+		so.addParam('base', OX_BASE_URL + 'upload/skins/{SKIN_CODE}/');
+		so.addParam("allowFullScreen", "true");
+		so.addVariable("xml", "../../../xml.php?code=main&")
+		so.write("flashcontent");
+		// ]]>
+	</script>
+<!--E:Main-->
+
+<!--S:Cache--> + "time="+new Date().getTime()<!--E:Cache-->

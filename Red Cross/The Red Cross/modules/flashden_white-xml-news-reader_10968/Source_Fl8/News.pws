@@ -1,0 +1,26 @@
+<package>
+	<workspace Schema="1.1" ActiveProject="News" ActiveConfiguration="Debug">
+		<project name="News" type="Generic" FolderBased="no" ProjectGuid="{A2995685-9FCB-4D40-A0F9-9A07DFDDA7D0}">
+			<command name="View">
+				<![CDATA["C:\Program Files\Internet Explorer\IEXPLORE.EXE" "F:\Lucru\Flash\OXYLUS\task2\news\source"]]>
+			</command>
+			<description>
+This project was  generated with Primalscript 4.0
+			</description>
+			<Settings />
+			<Config
+			Name="Debug"
+			>
+			</Config>
+			<Config
+			Name="Release"
+			>
+			</Config>
+			<file path="IndexButton.as" transfer="true"/>
+			<file path="ButtonTable.as" transfer="true" build="true"/>
+			<file path="News.as" transfer="true" build="true"/>
+			<file path="ScrollBar.as" transfer="true" build="true"/>
+			<file path="XMLDate.as" transfer="true" build="true"/>
+		</project>
+	</workspace>
+</package>

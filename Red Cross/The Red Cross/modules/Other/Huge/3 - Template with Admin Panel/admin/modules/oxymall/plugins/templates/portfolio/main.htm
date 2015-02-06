@@ -1,0 +1,123 @@
+<!--S:Main-->
+	<h1>{MOD_TITLE}</h1>
+	{HEADER}
+
+	{ITEMS}
+<!--E:Main-->
+
+<!--S:CatsGroup-->	
+		{DATA}
+<!--E:CatsGroup-->
+
+<!--S:CatsGroupEmpty-->
+
+<!--E:CatsGroupEmpty-->
+
+<!--S:CatsElement-->
+
+			<a href="{MOD_URL}/{CAT_URL}-{CAT_ID}/" title="{CAT_TITLE}"><h2>{CAT_TITLE}</h2></a>
+			<a href="{MOD_URL}/{CAT_URL}-{CAT_ID}/" title="{CAT_TITLE}"><img alt="{CAT_TITLE}" src="upload/portfolio/cat_{CAT_ID}.jpg"/></a>
+
+			{CAT_DESCRIPTION}
+
+<!--E:CatsElement-->
+
+<!--S:CatsEmpty-->
+
+<!--E:CatsEmpty-->
+
+
+
+<!--S:MainCat-->
+	<h1>{CAT_CONTENT_TITLE}</h1>
+	{CAT_DESCRIPTION}
+	{ITEMS}
+
+	<div style="clear:both"></div>
+	<br><a href="{MOD_URL}/">&laquo; Back</a>
+
+<!--E:MainCat-->
+
+
+
+
+<!--S:ProjectsGroup-->
+		<ul id="images-list">
+						{DATA}
+		</ul>
+<!--E:ProjectsGroup-->
+
+<!--S:ProjectsElement-->
+
+		<li>
+			<centeR>
+				<a href="{MOD_URL}/{CAT_URL}-{CAT_ID}/{PROJECT_URL}-{PROJECT_ID}/" title="{PROJECT_TITLE}"><img src="upload/portfolio/project_{PROJECT_ID}.jpg" alt="{PROJECT_TITLE}"/></a><br>
+				<span><a href="{MOD_URL}/{CAT_URL}-{CAT_ID}/{PROJECT_URL}-{PROJECT_ID}/" title="{PROJECT_TITLE}">{PROJECT_TITLE}</a></span>
+			</center>
+		</li>
+<!--E:ProjectsElement-->
+
+<!--S:ProjectsEmpty-->
+
+<!--E:ProjectsEmpty-->
+
+
+<!--S:MainProject-->
+	<h1>{PROJECT_DETAILS_TITLE}</h1>
+	<img src="upload/portfolio/project_{PROJECT_ID}.jpg" alt="{PROJECT_DETAILS_TITLE}" style="align: left">
+	{PROJECT_DESCRIPTION}
+
+	{ITEMS}
+
+	<div style="clear:both"></div>
+	<br><a href="{MOD_URL}/{CAT_URL}-{CAT_ID}/">&laquo; Back</a>
+
+<!--E:MainProject-->
+
+
+<!--S:ItemsGroup-->
+		<ul id="images-list">
+						{DATA}
+		</ul>
+<!--E:ItemsGroup-->
+
+<!--S:ItemsGroupEmpty-->
+
+<!--E:ItemsGroupEmpty-->
+
+<!--S:ItemsElement-->
+			<li>
+				<a href="{MOD_URL}/{CAT_URL}-{CAT_ID}/{PROJECT_URL}-{PROJECT_ID}/{ITEM_URL}-{ITEM_ID}/" title="{ITEM_TITLE}"><img src="upload/portfolio/tn_img_{ITEM_ID}.jpg" alt="{ITEM_TITLE}"/></a>
+			</li>
+<!--E:ItemsElement-->
+
+<!--S:ItemsEmpty-->
+
+<!--E:ItemsEmpty-->
+
+
+<!--S:MainImage-->
+	<h1>{ITEM_TITLE}</h1>
+	{ITEM_DESCRIPTION}
+
+	{LINK}
+	<div style="clear:both"></div>
+	<br><a href="{MOD_URL}/{CAT_URL}-{CAT_ID}/{PROJECT_URL}-{PROJECT_ID}/">&laquo; Back</a>
+<!--E:MainImage-->
+
+<!--S:Jpg--><img src="upload/portfolio/img_{ITEM_ID}.jpg" alt="{ITEM_TITLE}" /><!--E:Jpg-->
+<!--S:Video--><p>Download video: <a href="upload/portfolio/video_{ITEM_ID}.flv" title="{ITEM_TITLE}">{ITEM_TITLE}</a></p><!--E:Video-->
+
+<img src="upload/portfolio/project_{PROJECT_ID}.jpg" alt="{PROJECT_DETAILS_TITLE}" style="align: left">
+
+								<item src="../../portfolio/tn_img_{ITEM_ID}.jpg" title="{ITEM_TITLE}"  urlTitle="{ITEM_URLTITLE}" url="/{ITEM_URL}-{ITEM_ID}">
+									<popup>
+										<image 
+											src="../../portfolio/{SOURCE}" 
+											pan="{ITEM_PAN}" 
+											maxWidth="{ITEM_PAN_MAX_WIDTH}" 
+											maxHeight="{ITEM_PAN_MAX_HEIGHT}"
+										/>
+										<description><![CDATA[{ITEM_DESCRIPTION}]]></description>
+									</popup>
+								</item>

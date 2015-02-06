@@ -1,0 +1,57 @@
+package com.digitlondon.ui.osx
+{
+	import flash.system.Security;
+	import flash.external.ExternalInterface;
+	import flash.display.DisplayObject;
+	
+	public final  class MacMouseWheelControl
+	{
+		private static var instance:MacMouseWheelControl;
+		
+		private var root:DisplayObject;
+		
+		public static function getInstance():MacMouseWheelControl
+		{
+			if( instance == null ) instance = new MacMouseWheelControl( MacMouseWheelControl.getInstance );
+			return instance;	
+		}
+		
+		public function MacMouseWheelControl( caller:Function )
+		{
+			if( caller == MacMouseWheelControl.getInstance )
+			{
+				init();
+			}
+			else
+			{
+				throw new Error( 'MacMouseWheelControl is a singleton, use getInstance();' );	
+			}
+		}
+		
+		public function setApplicationRoot( appRoot:DisplayObject ):void
+		{
+			if( appRoot.root != null )
+			{
+				root = appRoot;
+			}
+			else
+			{
+				throw new ArgumentError( '\'appRoot\' argument does not have valid root' );
+			}	
+		}
+		
+		private function init():void
+		{
+			var sandboxType:String = Security.sandboxType;
+			if( ( sandboxType == Security.LOCAL_TRUSTED || sandboxType == Security.REMOTE ) && ExternalInterface.available )
+			{
+				ExternalInterface.addCallback( 'externalMouseEvent', handleDelta );
+			}
+		}
+		
+		private function handleDelta( delta:Number ):void
+		{
+//			var intDelta:int = Math.round( delta );
+		}
+	}
+}

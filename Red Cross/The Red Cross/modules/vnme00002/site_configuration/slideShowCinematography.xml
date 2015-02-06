@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+		<speed>5000</speed><!-- Time in milliseconds 3000 = 3 seconds -->
+		<width>620</width>
+		<height>275</height>
+		<displayInfoText>true</displayInfoText>
+		<hoverTextBgColor>0xe0e0e0</hoverTextBgColor>
+		<hoverTextBgOpacity>1</hoverTextBgOpacity>
+		<hoverTextBgHeight>75</hoverTextBgHeight>
+		<buttonBgColor>0x000000</buttonBgColor>
+		<buttonTextColor>0xf5fe00</buttonTextColor>
+		<buttonSelBgColor>0xf5fe00</buttonSelBgColor>
+		<buttonSelTextColor>0x000000</buttonSelTextColor>
+		<slide>
+			<url>site_images/slideShowCinematography/slide1.gif</url>
+			<ImageTitle><![CDATA[<h6>Your Slide Title</h6><p class="cinematography">Your slide second line subtitle goes here on the second line.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/slideShowCinematography/slide2.gif</url>
+			<ImageTitle><![CDATA[<h6>Your Slide Title</h6><p class="cinematography">Your slide second line subtitle goes here on the second line.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/slideShowCinematography/slide3.gif</url>
+			<ImageTitle><![CDATA[<h6>Your Slide Title</h6><p class="cinematography">Your slide second line subtitle goes here on the second line.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/slideShowCinematography/slide4.gif</url>
+			<ImageTitle><![CDATA[<h6>Your Slide Title</h6><p class="cinematography">Your slide second line subtitle goes here on the second line.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/slideShowCinematography/slide5.gif</url>
+			<ImageTitle><![CDATA[<h6>Your Slide Title</h6><p class="cinematography">Your slide second line subtitle goes here on the second line.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/slideShowCinematography/slide6.gif</url>
+			<ImageTitle><![CDATA[<h6>Your Slide Title</h6><p class="cinematography">Your slide second line subtitle goes here on the second line.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/slideShowCinematography/slide7.gif</url>
+			<ImageTitle><![CDATA[<h6>Your Slide Title</h6><p class="cinematography">Your slide second line subtitle goes here on the second line.</p>]]></ImageTitle>
+		</slide>
+</xmlObject>
+
+
+			

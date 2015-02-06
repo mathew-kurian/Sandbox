@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	<topMargin>140</topMargin>
+	<bottomMargin>50</bottomMargin>
+	<!--
+		alignX Options 
+		The alignX is the distance from the left your page will start
+		Static X    				  eg.  <alignX>175</alignX>      		(this will make your content start 175 pixels from the left)
+		Left aligned X    	  eg.  <alignX>left</alignX>    		(this will make your content be left aligned)
+		Center aligned X      eg.  <alignX>center</alignX>  		(this will make your content be centered)
+		Right aligned X    	  eg.  <alignX>right</alignX>				(this will make your content be right aligned)
+	-->
+	<alignX>center</alignX><!--Horizontal Alignment-->
+	<!--
+		alignY Options 
+		The alignY is the distance from the top your page will start
+		Static Y    				  eg.  <alignY>175</alignY>      		(this will make your content start 175 pixels from the top)
+		Top aligned Y    	  	eg.  <alignY>top</alignY>     		(this will make your content be aligned vertically under the topMargin)
+		Bottom aligned Y      eg.  <alignY>bottom<alignY>   		(this will make your content be aligned vertically and sit on the bottomMargin)
+		Center aligned Y    	eg.  <alignY>center<alignY>				(this will make your content be aligned vertically between the topMargin and bottomMargin)
+	-->
+	<alignY>center</alignY><!-- Vertical Alignment-->
+	
+	
+	<!--Set your content pages width / height / color and opacity here -->
+	<contentWidth>933</contentWidth>
+	<contentHeight>970</contentHeight>
+	<contentBgColor>0x0c0c0c</contentBgColor>
+	<contentBgOpacity>0.6</contentBgOpacity>
+	
+	<!-- Select the type of scrolling to use -->
+	<useHoverScroll>false</useHoverScroll>
+	<useManualScroll>true</useManualScroll>
+	
+	
+	<!-- Skin Your Scroll Bar Features  *these settings apply if useManualScroll is true and useHoverScroll is false-->
+	<scrollBarWidth>15</scrollBarWidth>
+	<scrollBarHeight>200</scrollBarHeight>
+	<scrollBaseColor>0x000000</scrollBaseColor>
+	<addTiledPatternToScrollBase>true</addTiledPatternToScrollBase>
+	<patternUrl>site_images/patterns/edgePattern.png</patternUrl>
+	<scrollBaseOpacity>.5</scrollBaseOpacity>
+	<scrollerColor>0xC20800</scrollerColor>
+	<scrollerOpacity>1</scrollerOpacity>
+	<!-- End of Scroll Bar Features -->
+	
+	
+	<!-- Used for pop up content -->
+	<dimWallPaperColor>#000000</dimWallPaperColor>
+	<dimWallPaperAlpha>.85</dimWallPaperAlpha>
+	<!-- set the size of the font used in the image preloader -->
+	<preloaderTextSize>140</preloaderTextSize>
+	<!-- set the color of the font used in the image preloader -->
+	<preloaderTextColor>0xC20800</preloaderTextColor>
+	<!-- set the opacity of the font used in the image preloader -->
+	<preloaderTextOpacity>1</preloaderTextOpacity>
+
+
+
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>true</displayHtmlArticles>
+	<displaySlideShow>false</displaySlideShow>
+	<displaySWF>false</displaySWF>
+	
+	
+	<image>
+		<x>30</x>
+		<y>40</y>
+		<imageURL>site_images/pages/about/about_20.png</imageURL>	
+
+	</image>
+	<image>
+		<x>550</x>
+		<y>58</y>
+		<imageURL>site_images/pages/about/about_39.jpg</imageURL>
+		<addSuperSizedImagePopUp>true</addSuperSizedImagePopUp>
+		<superSizedImageUrl>site_images/pages/about/footprints-sand-beach-sunrise.jpg</superSizedImageUrl>
+		
+	</image>
+	<image>
+		<x>42</x>
+		<y>885</y>		
+		<imageURL>site_images/adobe/getAdobe.gif</imageURL>
+		<addLink>true</addLink>
+		<linkUrl>http://get.adobe.com/reader/</linkUrl>
+		<linkOpenType>_blank</linkOpenType>
+	</image>
+	<image>
+		<x>30</x>
+		<y>90</y>
+		<imageURL>site_images/pages/about/about_43.png</imageURL>
+	</image>
+	<article>
+		<x>40</x>
+		<y>191</y>
+		<width>500</width>
+		<articleText><![CDATA[<p class="leading3">We truly appreciate your interest in this association, however to be part of it there are a few applications to be filled out.
+1. Please fill out the  <a href="http://www.houstonredcross.org/attachments/wysiwyg/28/YouthVolunteerApplicationForm.pdf">YOUTH VOLUNTEER APPLICATION FORM</a>.
+2. View the  <a href="http://www.redcross.org/flash/course01_v01/">AMERICAN RED CROSS ONLINE DISASTER TRAINING</a>.
+3. Then fill out the Online Disaster Training course, please completely fill out this  <a href="http://westernct.redcross.org/documents/5898H.pdf">APPLICATION FOR DISASTER TRAINING SYSTEM</a>.
+4. As part of the membership completion, you will need to attend an official Red Cross orientation. (More information will added for this later.)
+6. There will be a fee for this club. Fees have not been decided yet, but it will be around $15.00.
+7. We will be having a t-shirt as well. Designs will be added as the next school year approaches.
+All of these items must be enclosed in an envelope with your name, grade level, and a checklist of all of your items on the front. If you do not have everything within this envelope, it will be considered invalid. (This will be edited with more accurate information, for now this should provide abdurate  the process. This application was adapted from that of Hightower’s Red Cross Association)
+
+</p>)
+]]></articleText>
+	</article>
+
+</xmlObject>

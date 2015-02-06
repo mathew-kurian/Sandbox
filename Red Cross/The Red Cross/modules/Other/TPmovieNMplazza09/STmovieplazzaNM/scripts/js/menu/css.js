@@ -1,0 +1,1 @@
+sfHover=function(){var a=document.getElementById("tp-cssmenu").getElementsByTagName("li");for(var b=0;b<a.length;++b){a[b].onmouseover=function(){this.className+=" sfhover"};a[b].onmouseout=function(){this.className=this.className.replace(new RegExp("sfhover\\b"),"")}}};if(window.attachEvent)window.attachEvent("onload",sfHover)

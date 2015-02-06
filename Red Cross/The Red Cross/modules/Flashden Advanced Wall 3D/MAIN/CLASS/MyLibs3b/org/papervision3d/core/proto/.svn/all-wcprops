@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/526/trunk/branches/GreatWhite/src/org/papervision3d/core/proto
+END
+LightObject3D.as
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/364/trunk/branches/GreatWhite/src/org/papervision3d/core/proto/LightObject3D.as
+END
+CameraObject3D.as
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/492/trunk/branches/GreatWhite/src/org/papervision3d/core/proto/CameraObject3D.as
+END
+DisplayObjectContainer3D.as
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/514/trunk/branches/GreatWhite/src/org/papervision3d/core/proto/DisplayObjectContainer3D.as
+END
+GeometryObject3D.as
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/513/trunk/branches/GreatWhite/src/org/papervision3d/core/proto/GeometryObject3D.as
+END
+SceneObject3D.as
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/492/trunk/branches/GreatWhite/src/org/papervision3d/core/proto/SceneObject3D.as
+END
+MaterialObject3D.as
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/526/trunk/branches/GreatWhite/src/org/papervision3d/core/proto/MaterialObject3D.as
+END

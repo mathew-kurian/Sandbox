@@ -1,0 +1,10 @@
+file: 02-Asteroide-Melody_Attack.mp3
+file: 04-Scrovinsky-Infinite_Eldorado.mp3
+file: 08-Rusty_Wave-The_Maniac_Psycho.mp3
+file: 09-Psychoactive-Move_Your_Brain.mp3
+
+credits: Psydom Revolutions
+license: Creative Commons Attribution (CC-BY)
+http://creativecommons.org/licenses/by/2.0/deed.en
+
+url: http://www.jamendo.com/en/album/11538

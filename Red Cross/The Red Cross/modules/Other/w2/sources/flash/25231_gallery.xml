@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+  <section name="imagesData">
+ <category name="PEOPLE" folderID="1">
+		<image>
+			<item name="imageUrl">1.jpg</item>
+			<item name="imageComment"><![CDATA[]]></item>
+		</image>
+		<image>
+			<item name="imageUrl">2.jpg</item>
+                        <item name="imageComment"><![CDATA[]]></item>
+		</image>
+		<image>
+			<item name="imageUrl">3.jpg</item>
+                        <item name="imageComment"><![CDATA[]]></item>
+		</image>
+		<image>
+			<item name="imageUrl">4.jpg</item>
+                        <item name="imageComment"><![CDATA[]]></item>
+		</image>
+		<image>
+			<item name="imageUrl">5.jpg</item>
+                        <item name="imageComment"><![CDATA[]]></item>
+		</image>
+		<image>
+			<item name="imageUrl">6.jpg</item>
+                        <item name="imageComment"><![CDATA[]]></item>
+		</image>
+		<image>
+			<item name="imageUrl">7.jpg</item>
+                        <item name="imageComment"><![CDATA[]]></item>
+		</image>
+		<image>
+			<item name="imageUrl">8.jpg</item>
+                        <item name="imageComment"><![CDATA[]]></item>
+		</image>
+
+
+
+	</category>
+ <category name="INTERIOR" folderID="2">
+		<image>
+			<item name="imageUrl">1.jpg</item>
+			<item name="imageComment"><![CDATA[]]></item>
+		</image>
+                <image>
+			<item name="imageUrl">2.jpg</item>
+                        <item name="imageComment"><![CDATA[]]></item>
+		</image>
+		<image>
+			<item name="imageUrl">3.jpg</item>
+                        <item name="imageComment"><![CDATA[]]></item>
+		</image>
+		<image>
+			<item name="imageUrl">4.jpg</item>
+                        <item name="imageComment"><![CDATA[]]></item>
+		</image>
+		<image>
+			<item name="imageUrl">5.jpg</item>
+                        <item name="imageComment"><![CDATA[]]></item>
+		</image>
+		<image>
+			<item name="imageUrl">6.jpg</item>
+                        <item name="imageComment"><![CDATA[]]></item>
+		</image>
+		<image>
+			<item name="imageUrl">7.jpg</item>
+                        <item name="imageComment"><![CDATA[]]></item>
+		</image>
+		<image>
+			<item name="imageUrl">8.jpg</item>
+                        <item name="imageComment"><![CDATA[]]></item>
+		</image>
+
+
+
+
+	</category>
+
+ <category name="NATURE" folderID="3">
+		<image>
+			<item name="imageUrl">1.jpg</item>
+			<item name="imageComment"><![CDATA[]]></item>
+		</image>
+                <image>
+			<item name="imageUrl">2.jpg</item>
+                        <item name="imageComment"><![CDATA[]]></item>
+		</image>
+		<image>
+			<item name="imageUrl">3.jpg</item>
+                        <item name="imageComment"><![CDATA[]]></item>
+		</image>
+		<image>
+			<item name="imageUrl">4.jpg</item>
+                        <item name="imageComment"><![CDATA[]]></item>
+		</image>
+		<image>
+			<item name="imageUrl">5.jpg</item>
+                        <item name="imageComment"><![CDATA[]]></item>
+		</image>
+		<image>
+			<item name="imageUrl">6.jpg</item>
+                        <item name="imageComment"><![CDATA[]]></item>
+		</image>
+		<image>
+			<item name="imageUrl">7.jpg</item>
+                        <item name="imageComment"><![CDATA[]]></item>
+		</image>
+		<image>
+			<item name="imageUrl">8.jpg</item>
+                        <item name="imageComment"><![CDATA[]]></item>
+		</image>
+
+
+
+	</category>
+
+
+
+
+  </section>
+  <section name="settings">
+    <option name="previewPosition">top</option>
+    <option name="previewOffset">8</option>
+    <option name="imageWidth">192</option>
+    <option name="imageHeight">88</option>
+    <option name="hSpace">8</option>
+    <option name="vSpace">8</option>
+    <option name="colls">1</option>
+    <option name="rows">1</option>
+    <option name="listingOffset">5</option>
+    <option name="openInBrowser">false</option>
+    <option name="commentPosition">stretched</option>
+  </section>
+  <!-- Do not edit anything below this line instead you know what are you doing -->
+  <section name="systemOptions">
+    <option name="killCache">false</option>
+    <option name="stageWidth">980</option>
+    <option name="stageHeight">750</option>
+    <option name="galleryWidth">792</option>
+    <option name="galleryHeight">571</option>
+    <option name="previewXCorrection">2</option>
+    <option name="previewYCorrection">4</option>
+    <option name="previewHeightCorrection">0</option>
+    <option name="previewWidthCorrection">0</option>
+    <option name="zoomX">15</option>
+    <option name="zoomY">15</option>
+    <option name="menuPosition">horizontal</option>
+    <option name="menuWidthOrHeight">230</option>
+    <option name="galleryButtonCorrection">0</option>
+    <option name="pageBackCorrection">-67</option>
+    <option name="pageNextCorrection">93</option>
+    <option name="commentXCorrection">0</option>
+    <option name="commentYCorrection">0</option>
+    <option name="commentLeft">5</option>
+    <option name="commentRight">55</option>
+    <option name="menuOffset">0</option>
+    <option name="smallPictureXCorrection">0</option>
+    <option name="smallPictureYCorrection">0</option>
+    <option name="smallPictureHeightCorrection">1</option>
+    <option name="smallPictureWidthCorrection">1</option>
+    <option name="templateHelpPreview">true</option>
+  </section>
+  <section name="galleryAdminDefaults">
+    <option name="maxGalleriesAllowed">100</option>
+    <option name="minImageWidth">50</option>
+    <option name="minImageHeight">50</option>
+    <option name="maxImageWidth">300</option>
+    <option name="maxImageHeight">300</option>
+    <option name="minPreviewWidth">100</option>
+    <option name="minPreviewHeight">100</option>
+    <option name="maxPreviewWidth">1024</option>
+    <option name="maxPreviewHeight">768</option>
+    <option name="minPreviewOffset">0</option>
+    <option name="maxPreviewOffset">30</option>
+    <option name="minHSpace">0</option>
+    <option name="maxHSpace">20</option>
+    <option name="minVSpace">0</option>
+    <option name="maxVSpace">20</option>
+    <option name="minListingOffset">0</option>
+    <option name="maxListingOffset">30</option>
+    <option name="minColsNumber">0</option>
+    <option name="maxColsNumber">5</option>
+    <option name="minRowsNumber">0</option>
+    <option name="maxRowsNumber">5</option>
+    <option name="maxCommentChars">1000</option>
+    <!-- Gallery Preferences Defaults -->
+    <option name="previewPosition">top</option>
+    <option name="previewOffset">8</option>
+    <option name="imageWidth">192</option>
+    <option name="imageHeight">88</option>
+    <option name="hSpace">8</option>
+    <option name="vSpace">8</option>
+    <option name="openInBrowser">false</option>
+    <option name="commentPosition">stretched</option>
+    <option name="colls">1</option>
+    <option name="rows">1</option>
+    <option name="listingOffset">5</option>
+  </section>
+  <!-- Do not edit anything below this line instead you know what are you doing -->
+</content>

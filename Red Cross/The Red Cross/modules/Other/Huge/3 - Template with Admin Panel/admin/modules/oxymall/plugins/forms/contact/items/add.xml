@@ -1,0 +1,38 @@
+<form>
+	<title>{SELF.TITLE} {TITLE} Message</title>
+	<action>{SELF.URI.STORE}</action>
+	<name>edit_cat</name>
+	<width>100%</width>
+	<alternance>true</alternance>
+	<encoding>multipart/form-data</encoding>
+
+
+	<formtag>true</formtag>
+	<border>true</border>
+	
+	<buttons>		
+		<set>
+			<header>true</header>
+		</set>
+
+
+		<button_back onclick="" button="return">
+			<location>{PRIVATE.FORM_PREVIOUS_PAGE}</location>
+		</button_back>
+
+	</buttons>
+
+	<redirect>{PHP}?sub=accounts</redirect>
+
+	<fields>
+		<item_id type="hidden"/>		
+
+		
+		<item_date type="date" title="Date" params="F j, Y g:i a"/>
+		<item_name type="text" title="Name"/>
+		<item_email type="text" title="E-Mail"/>
+		<item_subject type="text" title="Subject"/>
+		<item_message type="text" title="Message"/>
+		<item_file type="text" title="Attachment" restricted="eval:!$_GET[item_file];" forcevalue="Download file" link="../contact-download.php?file={ITEM_CODE}" />
+	</fields>
+</form>

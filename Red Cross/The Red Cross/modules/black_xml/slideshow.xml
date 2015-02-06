@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<news preloaderColor = "0xffff00" buttonColor = "0xffff00">
+
+<imageData>
+<image>images/slideshow/image_slideshow1.jpg</image>
+<title><![CDATA[Complete XML Website]]></title>
+<desc><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pellentesque, enim nec volutpat facilisis, felis dui molestie mi, pellentesque tristique lacus velit vitae purus. Duis mollis congue aliquet. Integer ac turpis arcu, id dapibus nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi a enim odio. Nam bibendum diam eu ante vestibulum eget consectetur diam pulvinar. Vestibulum in nibh at neque mollis molestie non at lacus. Nunc iaculis justo et enim facilisis tempor. Proin non libero augue, in tincidunt mauris. Integer posuere enim at sem dictum mollis. Quisque accumsan dictum facilisis. Nulla in nisi ut justo accumsan porttitor eu nec sem. ]]></desc>
+<xcord>-450</xcord>
+<ycord>-200</ycord>
+</imageData>
+	
+<imageData>
+<image>images/slideshow/image_slideshow2.jpg</image>
+<title><![CDATA[XML Image Gallery]]></title>
+<desc><![CDATA[Sed interdum volutpat magna at convallis. Aenean nec neque commodo odio mattis tincidunt. Sed placerat aliquam turpis, nec porttitor arcu blandit ut. Nam rutrum ante nec ante faucibus suscipit. Mauris elit lacus, pharetra non ultricies a, feugiat non eros. In commodo euismod sapien. Mauris ullamcorper laoreet nulla ac pulvinar. Nulla id justo id mauris convallis semper et eu nisi.]]></desc>
+<xcord>-50</xcord>
+<ycord>-200</ycord>
+</imageData>
+
+<imageData>
+<image>images/slideshow/image_slideshow3.jpg</image>
+<title><![CDATA[XML Video Gallery]]></title>
+<desc><![CDATA[Curabitur a eros vitae felis posuere porttitor vitae ac diam. Praesent sodales metus eu augue lacinia sit amet eleifend nisi sagittis. Ut arcu dolor, convallis quis tincidunt a, vehicula at lorem.]]></desc>
+<xcord>-50</xcord>
+<ycord>-50</ycord>
+</imageData>
+
+<imageData>
+<image>images/slideshow/image_slideshow4.jpg</image>
+<title><![CDATA[XML Smart Navigation]]></title>
+<desc><![CDATA[Sed interdum volutpat magna at convallis. Aenean nec neque commodo odio mattis tincidunt. Sed placerat aliquam turpis, nec porttitor arcu blandit ut. Nam rutrum ante nec ante faucibus suscipit. Mauris elit lacus, pharetra non ultricies a, feugiat non eros. In commodo euismod sapien. Mauris ullamcorper laoreet nulla ac pulvinar. <br><br>Nulla id justo id mauris convallis semper et eu nisi. Nam bibendum diam eu ante vestibulum eget consectetur diam pulvinar. Vestibulum in nibh at neque mollis molestie non at lacus. Nunc iaculis justo et enim facilisis tempor. Proin non libero augue, in tincidunt mauris. Integer posuere enim at sem dictum mollis. Quisque accumsan dictum facilisis. Nulla in nisi ut justo accumsan porttitor eu nec sem. ]]></desc>
+<xcord>-450</xcord>
+<ycord>-200</ycord>
+</imageData>
+
+</news>

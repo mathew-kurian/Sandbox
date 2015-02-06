@@ -1,0 +1,19 @@
+<form>
+
+	<tabs>
+		<t active="true" width="100" title="Module Settings" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.user&action=details&mod_id={MODULE_ID}" />		
+		<t_video width="80" title="Video Tutorial" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.help&module_id={MODULE_ID}" restricted="eval:$GLOBALS['no_tutorials'];"/>
+	</tabs>
+
+	<fields>
+		<subtitle title="Settings" type="subtitle"/>
+		<set_link type="textbox" size="60" title="Link/Target" referers="set_target" />
+		<set_target type="droplist" referer="set_link">
+			<options>
+				<option name="_blank">new window</option>
+				<option name="_self">same window</option>
+			</options>
+		</set_target>
+
+	</fields>
+</form>

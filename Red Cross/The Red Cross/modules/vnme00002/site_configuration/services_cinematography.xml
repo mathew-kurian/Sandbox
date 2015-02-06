@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	
+	<contentWidth>700</contentWidth>
+	<contentHeight>690</contentHeight>
+	<contentBgColor>0x0c0c0c</contentBgColor>
+	<contentBgOpacity>1</contentBgOpacity>
+	<scrollBaseColor>0x2e2e2e</scrollBaseColor>
+	<scrollerColor>0xf5fe00</scrollerColor>
+	
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>true</displayHtmlArticles>
+	<displaySlideShow>true</displaySlideShow>	
+	
+	<slideShow>
+		<x>40</x>
+		<y>40</y>
+		<width>620</width>
+		<height>275</height>
+		<bgColor>0xf5fe00</bgColor>
+		<xmlURL>./site_configuration/slideShowCinematography.xml</xmlURL>
+	</slideShow>
+
+	<image>
+		<x>40</x>
+		<y>371</y>
+		<imageURL>site_images/services_cinematography.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+
+	<article>
+		<x>40</x>
+		<y>445</y>
+		<width>605</width>
+		<articleText><![CDATA[<p align="justify" class="extraLeading">Content Module features: Add / Position / Style from XML an unlimited number of HTML text blocks, images, or video spots. You can also add a slideshow or swf to each content page. Each image that you add from XML can have a video popup / swf popup / slideshow popup / image popup / full content page popup / or internal page link attached to it's click event. You can specify your page's width / height / background color / background opacity / scroll base color / and scroller color from XML. Navigation features include: Ability to mix & match page/sub-pages however you like. Everytime a page/sub-page is clicked, the button remains highlighted. This ensures your visitors never forget what page they are on. Also if you add internal page links throughout your content, the smart navigation automatically highlights the new page/sub-page that the user has landed on.  You can also add external links as page/sub-page buttons, or add an external swf.</p>]]>
+		</articleText>
+	</article>
+	
+</xmlObject>

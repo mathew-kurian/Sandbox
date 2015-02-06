@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<gallery>
+	<path>assets/3d/</path>
+	<threedim>
+		<tmbtitle>MONKHOOD</tmbtitle>
+		<thumbnail>3d0.jpg</thumbnail>
+		<video>monk.flv</video>
+		<client>THE EGG REPUBLIC</client>
+		<company>THE EGG REPUBLIC</company>
+		<body>Despite the commonalities shared by the two monks, they still value things differently. &lt;br /&gt;Poor ladybug... The monks were brought to life through CG.</body>
+		<clickable>true</clickable>
+	</threedim>
+	<threedim>
+		<tmbtitle>ALLTEL MOTOROLA</tmbtitle>
+		<thumbnail>3d1.jpg</thumbnail>
+		<video>Alltel_Motorola.flv</video>
+		<client>ALLTEL WIRELESS</client>
+		<company>SPECIAL BRANCH</company>
+		<body>The new features of the Motokrazr, a slick new phone designed by Motorola for Alltel, &lt;br /&gt;are accentuated by the hot and flashy hues of red and orange, a CG phone, and 2D cloud effects.</body>
+		<clickable>true</clickable>
+	</threedim>
+	<threedim>
+		<tmbtitle>CALLAWAY BEST GOLF</tmbtitle>
+		<thumbnail>3d2.jpg</thumbnail>
+		<video>BestGolf.flv</video>
+		<client>CALLAWAY GOLF</client>
+		<company>SPECIAL BRANCH</company>
+		<body>We were able to utilize CG to showcase the artful architecture of Callaway Golf's fusion FT Driver.  &lt;br /&gt;As we all know the design of the golfer's extended arm is the secret to having the perfect game. &lt;br /&gt;What's your choice?</body>
+		<clickable>true</clickable>
+	</threedim>
+	<threedim>
+		<tmbtitle>DENTYNE ICE STRIPTEASE</tmbtitle>
+		<thumbnail>3d3.jpg</thumbnail>
+		<video>DentyneIce_Striptease.flv</video>
+		<client>DENTYNE</client>
+		<company>MANIC, SPECIAL BRANCH</company>
+		<body>Using a complex character rig and cloth simulation, we delivered the message &lt;br /&gt;that Dentyne Ice stripped its old image to reveal a more tantalizing product, the new Dentyne Ice soft chew. &lt;br /&gt;It will make your taste buds come to life.</body>
+		<clickable>true</clickable>
+	</threedim>
+	<threedim>
+		<tmbtitle>GLASSMEN</tmbtitle>
+		<thumbnail>3d4.jpg</thumbnail>
+		<video>GlassCharacter.flv</video>
+		<client>SPECIAL BRANCH</client>
+		<company>SPECIAL BRANCH</company>
+		<body>VFX Company Special Branch, a company known for their "No Photography" trademark &lt;br /&gt;showcased their abilities in product rendering and 3D character animation in this promotional piece.</body>
+		<clickable>true</clickable>
+	</threedim>	
+	<threedim>
+		<tmbtitle>ACURA GRAPPLING HOOK</tmbtitle>
+		<thumbnail>3d5.jpg</thumbnail>
+		<video>Grappling_RDX.flv</video>
+		<client>ACURA</client>
+		<company>AVSO, SPECIAL BRANCH</company>
+		<body>The Acura RDX is able to make smooth tight turns as if was attached to a grappling hook, &lt;br /&gt;a concept that was cost effectively carried out by the use of CG.</body>
+		<clickable>true</clickable>
+	</threedim>
+	<threedim>
+		<tmbtitle>NIKE SLINGSHOT</tmbtitle>
+		<thumbnail>3d6.jpg</thumbnail>
+		<video>NikeSlingShot.flv</video>
+		<client>NIKE</client>
+		<company>SPECIAL BRANCH</company>
+		<body>Nike Slingshot's sexy curvaceous contour and unique geometric design was accentuated &lt;br /&gt;through the use of reflective effects.</body>
+		<clickable>true</clickable>
+	</threedim>
+	<threedim>
+		<tmbtitle>A NINGNONG HOLIDAY</tmbtitle>
+		<thumbnail>3d7.jpg</thumbnail>
+		<video>NingNongHolidays.flv</video>
+		<client>THE EGG REPUBLIC</client>
+		<company>THE EGG REPUBLIC</company>
+		<body>One of The Egg Republic's earlier characters wishes you a happy holiday with his butt shaking moves. &lt;br /&gt;The character was designed on paper and then finished in CG with CG hair.</body>
+		<clickable>true</clickable>
+	</threedim>
+	<threedim>
+		<tmbtitle>PONTIAC GROW</tmbtitle>
+		<thumbnail>3d8.jpg</thumbnail>
+		<video>PN_GROW.flv</video>
+		<client>PONTIAC</client>
+		<company>SPECIAL BRANCH</company>
+		<body>Pontiacs are becoming increasingly popular in major cities, a concept carried out by &lt;br /&gt;abstractly reflecting cityscapes on the CG generated car models.</body>
+		<clickable>true</clickable>
+	</threedim>
+	<threedim>
+		<tmbtitle>PONTIAC SOLSTICE PAINT</tmbtitle>
+		<thumbnail>3d9.jpg</thumbnail>
+		<video>Pontiac_Solstice_Paint_vp6.flv</video>
+		<client>PONTIAC</client>
+		<company>SPECIAL BRANCH</company>
+		<body>Pontiac Solstice's tagline “passion comes in many colors” was brought to life through lighting, &lt;br /&gt;shading and paint effects.</body>
+		<clickable>true</clickable>
+	</threedim>
+	<threedim>
+		<tmbtitle>CALLAWAY POPULAR</tmbtitle>
+		<thumbnail>3d10.jpg</thumbnail>
+		<video>Popular.flv</video>
+		<client>CALLAWAY GOLF</client>
+		<company>SPECIAL BRANCH</company>
+		<body>Callaway golf balls are known for its technologically advanced intricate design. In order to do it justice, &lt;br /&gt;we utilized our modeling skills to deliver a realistic close up of the product.</body>
+		<clickable>true</clickable>
+	</threedim>
+	<threedim>
+		<tmbtitle>SMIRNOFF BLINDFOLD</tmbtitle>
+		<thumbnail>3d11.jpg</thumbnail>
+		<video>Smirnoff_BlindFold.flv</video>
+		<client>SMIRNOFF</client>
+		<company>SPECIAL BRANCH</company>
+		<body>Winning a New York Times taste test in the highly competitive vodka market is a prestigious honor. &lt;br /&gt;We created an elegant, blindfold animation to accentuate the monologue &lt;br /&gt;using CG products and simulated cloth.</body>
+		<clickable>true</clickable>
+	</threedim>
+	<threedim>
+		<tmbtitle>SMIRNOFF NORTH</tmbtitle>
+		<thumbnail>3d12.jpg</thumbnail>
+		<video>Smirnoff_North.flv</video>
+		<client>SMIRNOFF</client>
+		<company>SPECIAL BRANCH</company>
+		<body>The sky is the limit when it comes to new products like Smirnoff's North. &lt;br /&gt;The same can be said of CG. Anything is possible.</body>
+		<clickable>true</clickable>
+	</threedim>
+	<threedim>
+		<tmbtitle>SAND</tmbtitle>
+		<thumbnail>3d13.jpg</thumbnail>
+		<video></video>
+		<client>THE EGG REPUBLIC</client>
+		<company>THE EGG REPUBLIC</company>
+		<body>"Beauty is in the eyes of the beholder." Like other forms of art, &lt;br /&gt;3D animation combines the artist's imagination &lt;br /&gt;and technical skills to create a piece that others can admire.</body>
+		<clickable>false</clickable>
+	</threedim>
+	<threedim>
+		<tmbtitle>DESIRE</tmbtitle>
+		<thumbnail>3d14.jpg</thumbnail>
+		<video></video>
+		<client>THE EGG REPUBLIC</client>
+		<company>THE EGG REPUBLIC</company>
+		<body>The ultimate question that arises from this piece is, when will there be a machine that feels? &lt;br /&gt;We created this piece through subsurface scattering, a shader algorithm from mental ray. &lt;br /&gt;Something simple yet complicated.</body>
+		<clickable>false</clickable>
+	</threedim>
+	
+	
+<!------- web files -------->
+
+	<path>assets/web/</path>
+	<web>
+		<tmbtitle>ABSOLUT GLOBAL COOLING</tmbtitle>
+		<thumbnail>web1.jpg</thumbnail>
+		<url>http://www.absolut.com/globalcooling/Home/</url>
+		<client>ABSOLUT</client>
+		<company>G2 INTERACTIVE</company>
+		<body>Absolut Global Cooling was Absolut's way of giving back to mother nature. For Every bottle purchased, &lt;br /&gt;Absolut donated one dollar to one of three charities. The Egg Republic led the design of the site &lt;br /&gt;as well as produced and integrated all 3D.</body>
+		<clickable>true</clickable>
+	</web>
+	<web>
+		<tmbtitle>M&M'S HOMEPAGE</tmbtitle>
+		<thumbnail>web2.jpg</thumbnail>
+		<url>http://www.mms.com/us/</url>
+		<client>M&M'S</client>
+		<company>G2 INTERACTIVE</company>
+		<body>M&M's, one of America's favorite chocolate candies was due for an overhaul. It needed to keep its fun, &lt;br /&gt;boyish charm, while catering to those who've grown up with the brand. Here we created the homepage &lt;br /&gt;to resonate with a broad age group.</body>
+		<clickable>true</clickable>
+	</web>
+	<web>
+		<tmbtitle>CASK 16</tmbtitle>
+		<thumbnail>web3.jpg</thumbnail>
+		<url>http://www.theeggrepublic.com/cask16/web/tempshell.html</url>
+		<client>CROWN ROYAL</client>
+		<company>SHAW WUNDERMAN</company>
+		<body>Crown Royal needed to let their audience know that they've created a smooth new whiskey. &lt;br /&gt;We expanded their site to showcase the new product.</body>
+		<clickable>true</clickable>
+	</web>
+	<web>
+		<tmbtitle>2046</tmbtitle>
+		<thumbnail>web4.jpg</thumbnail>
+		<url>http://www.sonypictures.com/classics/2046/main.html</url>
+		<client>SONY PICTURES</client>
+		<company>KLIMATE</company>
+		<body>2046 is a gut wrenching film begging for a website with the same emotional characteristics. &lt;br /&gt;A series of kaleidoscopic effects were used in conjunction with movie stills to mimic the mood &lt;br /&gt;and emotions the movie stirs in its viewers.</body>
+		<clickable>true</clickable>
+	</web>
+	<web>
+		<tmbtitle>ZHOU YU'S TRAIN</tmbtitle>
+		<thumbnail>web5.jpg</thumbnail>
+		<url>http://www.sonyclassics.com/zhou/main.html</url>
+		<client>SONY PICTURES</client>
+		<company>KLIMATE</company>
+		<body>As with most movies, promotional media such as websites and posters need to entice the audience &lt;br /&gt;as well as allude to the story line. Here, the images from the site mirror each other to symbolize the dichotomy &lt;br /&gt;of the protagonist while ever expanding landscapes capture the mood and scenery of the films Chinese landscape.</body>
+		<clickable>true</clickable>
+	</web>
+	<web>
+		<tmbtitle>MY BLUE ZEBRA</tmbtitle>
+		<thumbnail>web6.jpg</thumbnail>
+		<url>http://www.mybluezebra.com/</url>
+		<client>MY BLUE ZEBRA</client>
+		<company>THE EGG REPUBLIC</company>
+		<body>Mybluezebra.com is My Blue Zebra's portal to the world. Here, thousands of consumers around the world &lt;br /&gt;connect via VOP everyday. We extended the same clean and lovable feel that the &lt;br /&gt;My Blue Zebra logo and brand identity carries.</body>
+		<clickable>true</clickable>
+	</web>
+	<web>
+		<tmbtitle>VROENGARD ACADEMY</tmbtitle>
+		<thumbnail>web7.jpg</thumbnail>
+		<url>http://www.vroengardacademy.com/</url>
+		<client>RANDOM HOUSE INC.</client>
+		<company>DEEP FOCUS</company>
+		<body>Vroengard Academy was an intricate website created to heighten anticipation for the fantasy book, Brisingr. &lt;br /&gt;Interactive games, puzzles, and treasure hunts were all created to entice return users.</body>
+		<clickable>true</clickable>
+	</web>
+	<web>
+		<tmbtitle>DEAD SPACE</tmbtitle>
+		<thumbnail>web8.jpg</thumbnail>
+		<url>http://www.noknownsurvivors.com/#/hub</url>
+		<client>EA GAMES</client>
+		<company>DEEP FOCUS</company>
+		<body>noknownsurvivors.com was created to promote a new EA Games release, Dead Space; &lt;br /&gt;an action/horror 3rd person shooter.</body>
+		<clickable>true</clickable>
+	</web>
+	<web>
+		<tmbtitle>UNIQUE</tmbtitle>
+		<thumbnail>web9.jpg</thumbnail>
+		<url>http://unique.rasterboy.com/</url>
+		<client>THE EGG REPUBLIC</client>
+		<company>THE EGG REPUBLIC</company>
+		<body>Unique, a cool, fun, character customizer was created for pure fun. Check it out and enjoy.</body>
+		<clickable>true</clickable>
+	</web>
+	<web>
+		<tmbtitle>TAMMY ECKENSWILLER</tmbtitle>
+		<thumbnail>web10.jpg</thumbnail>
+		<url>http://www.tammyeckenswiller.com/newsite/</url>
+		<client>TAMMY ECKENSWILLER</client>
+		<company>THE EGG REPUBLIC</company>
+		<body>Tammy Eckenswiller, fashion photographer, was in need of a online portfolio. &lt;br /&gt;We created a simple functional and stylish online gallery.</body>
+		<clickable>true</clickable>
+	</web>
+	<web>
+		<tmbtitle>MOVE COLLECTION TEASER SITE</tmbtitle>
+		<thumbnail>web11.jpg</thumbnail>
+		<url>http://www.move-collective.com/</url>
+		<client>MOVE COLLECTION</client>
+		<company>BOND</company>
+		<body>A teaser site for travel collection designer, Karim Rashid. Simple and smooth animation work &lt;br /&gt;capture audience attention and motivate viewers to sign up for a newsletter.</body>
+		<clickable>true</clickable>
+	</web>
+	
+<!------- brand files -------->
+
+	<path>assets/branding/</path>
+	<brand>
+		<tmbtitle>MY BLUE ZEBRA LOGO</tmbtitle>
+		<thumbnail>brand1.jpg</thumbnail>
+		<url></url>
+		<client>MY BLUE ZEBRA</client>
+		<company>THE EGG REPUBLIC</company>
+		<body>My Blue Zebra, a telecommunications company, was looking for a solid brand image.  &lt;br /&gt;They came to us to create it. Young, hip, and lovable, the My Blue Zebra logo &lt;br /&gt;caters to the masses with a friendly and inviting aura.</body>
+		<clickable>false</clickable>
+	</brand>
+	<brand>
+		<tmbtitle>WITIE</tmbtitle>
+		<thumbnail>brand2.jpg</thumbnail>
+		<url></url>
+		<client>WITIE</client>
+		<company>THE EGG REPUBLIC</company>
+		<body>Witie, a wireless network company, needed a logo that would align the brand with the service &lt;br /&gt;it provides, Witie's logo signifies an "Always On" signal that connects a network of users.</body>
+		<clickable>false</clickable>
+	</brand>
+	<brand>
+		<tmbtitle>UNIQFORM LOGO</tmbtitle>
+		<thumbnail>brand3.jpg</thumbnail>
+		<url></url>
+		<client>UNIQFORM</client>
+		<company>THE EGG REPUBLIC</company>
+		<body>As a small start-up focusing on urban apparel, Uniqform sought and identity that was clean yet catchy.  &lt;br /&gt;One crucial point was to make sure the logo would never interfere with any clothing designs. &lt;br /&gt;Here, we created a logo that did just that.</body>
+		<clickable>false</clickable>
+	</brand>
+	<brand>
+		<tmbtitle>REIGN THREADS</tmbtitle>
+		<thumbnail>brand4.jpg</thumbnail>
+		<url></url>
+		<client>REIGN CLOTHING</client>
+		<company>THE EGG REPUBLIC</company>
+		<body>Reign Threads, an upcoming t-shirt company needed a logo for their witty designer &lt;br /&gt;shirts. We created a character that people could associate with the brand. &lt;br /&gt;One that would stand out beyond today's crowded t-shirt design market.</body>
+		<clickable>false</clickable>
+	</brand>
+	<brand>
+		<tmbtitle>NJCAA LOGO</tmbtitle>
+		<thumbnail>brand5.jpg</thumbnail>
+		<url></url>
+		<client>NJCAA</client>
+		<company>THE EGG REPUBLIC</company>
+		<body>The National Junior Collegiate Atheltic Association needed a logo that gave them an air of professionalism. &lt;br /&gt;We gave them a logo that encompassed all sports and makes the NJCAA professional and unique.</body>
+		<clickable>false</clickable>
+	</brand>
+	<brand>
+		<tmbtitle>ALONE IN THE DARK LOGO TYPE</tmbtitle>
+		<thumbnail>brand6.jpg</thumbnail>
+		<url></url>
+		<client>ATARI</client>
+		<company>AGENT16.LLC</company>
+		<body>Alone In The Dark is a first-in-its-class,  genre defining, action horror video game series. &lt;br /&gt;Atari was looking to take the genre to new heights with the latest release in the series, &lt;br /&gt;with a total overhaul of the game.</body>
+		<clickable>false</clickable>
+	</brand>
+	<brand>
+		<tmbtitle>CANDOPORTAL LOGO</tmbtitle>
+		<thumbnail>brand7.jpg</thumbnail>
+		<url></url>
+		<client>CANDOPORTAL</client>
+		<company>THE EGG REPUBLIC</company>
+		<body>CanDoPortal is a directory based service, providing a portal to local restaurants, bars, and clubs. &lt;br /&gt;They wanted a fresh and appetizing brand that would attract a web savvy 16-40 year old audience.</body>
+		<clickable>false</clickable>
+	</brand>
+	<brand>
+		<tmbtitle>NEOMIND STUDIO LOGO</tmbtitle>
+		<thumbnail>brand8.jpg</thumbnail>
+		<url></url>
+		<client>NEOMIND STUDIO</client>
+		<company>THE EGG REPUBLIC</company>
+		<body>Neomind Studio is an interactive development shop based out of Philadelphia.</body>
+		<clickable>false</clickable>
+	</brand>
+	<brand>
+		<tmbtitle>SPÄK LOGO</tmbtitle>
+		<thumbnail>brand9.jpg</thumbnail>
+		<url></url>
+		<client>SPÄK</client>
+		<company>THE EGG REPUBLIC</company>
+		<body>Späk is ATV retail shop selling aftermarket accessories, gears, and performance parts.</body>
+		<clickable>false</clickable>
+	</brand>
+	<brand>
+		<tmbtitle>JOA - Korean BBQ & TERIYAKI LOGO</tmbtitle>
+		<thumbnail>brand10.jpg</thumbnail>
+		<url></url>
+		<client>JOA - KOREAN BBQ & TERIYAKI</client>
+		<company>THE EGG REPUBLIC</company>
+		<body>Joa is a take-out Korean BBQ booth located in the upper west of New York City.</body>
+		<clickable>false</clickable>
+	</brand>
+	<brand>
+		<tmbtitle>BASE NYC LOGO</tmbtitle>
+		<thumbnail>brand11.jpg</thumbnail>
+		<url></url>
+		<client> BASE PRODUCTIONS</client>
+		<company>THE EGG REPUBLIC</company>
+		<body>Base NYC a promotion company needed a mark to represent their company on all their media. &lt;br /&gt;We created a simple and subtle logo to stand out against typical nightlife design.</body>
+		<clickable>false</clickable>
+	</brand>
+
+<!------- about main files -------->
+
+	<aboutpath>assets/about/</aboutpath>
+	<about>
+		<img>mainabout1.jpg</img>
+	</about>
+	<about>
+		<img>mainabout2.jpg</img>
+	</about>
+	<about>
+		<img>mainabout3.jpg</img>
+	</about>
+	<about>
+		<img>mainabout4.jpg</img>
+	</about>
+	<about>
+		<img>mainabout5.jpg</img>
+	</about>
+
+<!------- meet crew files -------->
+
+	<crewpath>assets/crew/</crewpath>
+	<crewaudiopath>assets/crew/_soundbites/</crewaudiopath>
+	<meetcrew>
+		<name>XIU - 3D DIRECTOR</name>
+		<img>xiu.jpg</img>
+		<sndbite>haduken.mp3</sndbite>
+		<txt>"HADUUUUKEN!"</txt>
+		<txt>I hate rude people...</txt>
+		<txt>3D</txt>
+		<txt>Street Fighter</txt>
+		<txt>Shrimp</txt>
+	</meetcrew>
+	<meetcrew>
+		<name>TOM - DESIGN DIRECTOR</name>
+		<img>tom.jpg</img>
+		<sndbite>fart.mp3</sndbite>
+		<txt>"pull my finger..."</txt>
+		<txt>Love Lido Beach, and hate ppl that can't make left turns</txt>
+		<txt>Costa Rica</txt>
+		<txt>Rock N Roll Racing on the SNES</txt>
+		<txt>PHOOOO!!!</txt>
+	</meetcrew>
+	<meetcrew>
+		<name>CEASAR - CREATIVE DIRECTOR</name>
+		<img>ceasar.jpg</img>
+		<sndbite>ceasar.mp3</sndbite>
+		<txt>"SING IT BILLY!"</txt>
+		<txt>Anything you want. Anytime you want it. </txt>
+		<txt>Surfing</txt>
+		<txt>Tekken, SF4, Tomb Raider, COD4</txt>
+		<txt>Spicy Sweet Chili Doritos</txt>
+	</meetcrew>
+	<meetcrew>
+		<name>DAVE - CREATIVE DIRECTOR</name>
+		<img>dave.jpg</img>
+		<sndbite>dave.mp3</sndbite>
+		<txt>"OOEY!"</txt>
+		<txt>24-hour deli baby.</txt>
+		<txt>Gadgets, Food & Photography</txt>
+		<txt>SF4, Little Big Planet</txt>
+		<txt>Anything with lots of butter, cream, or sugar</txt>
+	</meetcrew>
+	<meetcrew>
+		<name>YOUNG - 3D ARTIST</name>
+		<img>young.jpg</img>
+		<sndbite>whatareyoudoing.mp3</sndbite>
+		<txt>"what are you dooiinnnng..."</txt>
+		<txt>I love nyc because of passionate people</txt>
+		<txt>3D, NBA</txt>
+		<txt>Half Life 2, Tekken, Tomb raider</txt>
+		<txt>Small pork fried rice</txt>
+	</meetcrew>
+	<meetcrew>
+		<name>GEORGE - DESIGNER</name>
+		<img>george.jpg</img>
+		<sndbite>lottamercy.mp3</sndbite>
+		<txt>"LOTTA MERRRRCY"</txt>
+		<txt>I hate NYC transit</txt>
+		<txt>Left & Right Combination</txt>
+		<txt>Soul Caliber 4</txt>
+		<txt>General Tso's Chicken</txt>
+	</meetcrew>
+	<meetcrew>
+		<name>TIGER (aka. Bolo Young) - MASCOT</name>
+		<img>tiger.jpg</img>
+		<sndbite>tiger.mp3</sndbite>
+		<txt>"aaAArrf... arf arf arf arf"</txt>
+		<txt>I love cute girls but hate mean dogs</txt>
+		<txt>Balls</txt>
+		<txt>Street Fighter 4</txt>
+		<txt>Anything in your hand</txt>
+	</meetcrew>
+	
+<!------- homepage character animations -------->
+	<charpath>assets/character/</charpath>
+	<charanims>
+		<swffile>laser01.swf</swffile>
+	</charanims>
+	<charanims>
+		<swffile>pickup01.swf</swffile>
+	</charanims>
+	<charanims>
+		<swffile>headscratch01.swf</swffile>
+	</charanims>
+
+<!------- homepage features -------->
+	<homepath>assets/home/</homepath>
+	<homefeatures>
+		<img>hp1.jpg</img>
+		<headline>we landed!</headline>
+		<subline>GOT OURSELVES A COMFY LITTLE SPOT RIGHT ABOVE SOHO</subline>
+		<btntext>click to see photos</btntext>
+		<linkto>http://www.flickr.com/photos/36486212@N04/3364990566/in/set-72157615582195378/</linkto><!-- type in false if no link -->
+		<jumpto>false</jumpto><!-- choices: web, 3d, brand, false -->
+		<gtracking>welanded</gtracking><!-- place 1-3 word description for google analytics. NO SPACES!!! -->
+	</homefeatures>
+	<homefeatures>
+		<img>hp2.jpg</img>
+		<headline>launch party</headline>
+		<subline>WERE READY TO CELEBRATE OUR SITE LAUNCH! PHEW... GLAD THAT'S DONE</subline>
+		<btntext>see photos next week</btntext>
+		<linkto>false</linkto><!-- type in false if no link -->
+		<jumpto>false</jumpto><!-- choices: web, 3d, brand, false -->
+		<gtracking>launchparty</gtracking><!-- place 1-3 word description for google analytics. NO SPACES!!! -->
+	</homefeatures>
+	<homefeatures>
+		<img>hp3.jpg</img>
+		<headline>monkhood</headline>
+		<subline>A SHORT LIL' SKIT OF TWO MONKS BY THE 3D TEAM</subline>
+		<btntext>click to check it out</btntext>
+		<linkto>false</linkto><!-- type in false if no link -->
+		<jumpto>3d</jumpto><!-- choices: web, 3d, brand, false -->
+		<gtracking>monkhood</gtracking><!-- place 1-3 word description for google analytics. NO SPACES!!! -->
+	</homefeatures>	
+</gallery>

@@ -1,0 +1,20 @@
+ /* 
+=================================================
+# Filename : ie8.css
+# Description : Specific IE8 css hacks
+# Author : TemplatePlazza
+# Author Url : http://www.templateplazza.com
+# Copyright (C) 2009 TemplatePlazza.com
+# All rights reserved.
+=================================================
+*/
+
+
+#tpwrapper-page-inner {
+	height:1%;}
+	
+#tp-cssmenu .tpsubtitle canvas{
+	margin-top:10px;
+	padding-top:10px;
+	}
+	

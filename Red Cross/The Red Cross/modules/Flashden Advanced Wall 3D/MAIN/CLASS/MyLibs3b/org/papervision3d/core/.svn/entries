@@ -1,0 +1,64 @@
+8
+
+dir
+535
+http://papervision3d.googlecode.com/svn/trunk/branches/GreatWhite/src/org/papervision3d/core
+http://papervision3d.googlecode.com/svn
+
+
+
+2008-04-28T20:28:14.534184Z
+535
+tim.knip
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+071aa1e1-232a-0410-a790-59abb25ab4c3
+
+animation
+dir
+
+render
+dir
+
+ns
+dir
+
+utils
+dir
+
+proto
+dir
+
+components
+dir
+
+geom
+dir
+
+data
+dir
+
+math
+dir
+
+view
+dir
+
+culling
+dir
+
+material
+dir
+

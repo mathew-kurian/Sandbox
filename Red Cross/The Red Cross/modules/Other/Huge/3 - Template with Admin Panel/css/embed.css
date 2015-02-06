@@ -1,0 +1,31 @@
+#flashcontent {
+	height: 100%;
+	width: 100%;
+	font: 12px 'Trebuchet MS', arial, sans-serif;
+	font-weight: bold;
+	color: #000000;
+	text-align:center;
+	line-height: 200px;
+}
+#flash{
+display: block;
+}
+
+html{
+	margin:0;
+	padding:0;
+	height:100%;
+	width: 100%;
+}
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+	height:100%;
+	width: 100%;
+	min-width: 1000px;
+	min-height: 700px;
+}

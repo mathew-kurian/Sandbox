@@ -1,0 +1,7 @@
+License: Creative Commons - Attribution (CC-BY)
+http://creativecommons.org/licenses/by/2.0/deed.en
+
+files: team01.png, team02.png, team03.png, team04.png, team05.png, team06.png, team07.png
+credits: takomabibelot
+license: CC-BY
+url: http://flickr.com/photos/takomabibelot/689811626/

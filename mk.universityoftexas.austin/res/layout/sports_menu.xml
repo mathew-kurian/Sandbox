@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mk.universityoftexas.austin.LightingLayoutRelative xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/log"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sports_menu_bg"
+        android:orientation="vertical" >
+
+        <mk.universityoftexas.austin.OverlayProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/coffee2" />
+
+                <ScrollView
+                    android:id="@+id/scrollView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="258dp"
+                    android:layout_marginRight="-40dp"
+                    android:background="@drawable/notepad"
+                    android:orientation="vertical"
+                    android:paddingBottom="40dp"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="50dp"
+                    android:scrollbars="none" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <mk.universityoftexas.austin.HighlightedTextView
+                            android:id="@+id/soccer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:background="#00000000"
+                            android:clickable="true"
+                            android:gravity="left|fill_horizontal"
+                            android:onClick="onClick"
+                            android:text="Soccer"
+                            android:textColor="#2F2F4F" />
+
+                        <mk.universityoftexas.austin.HighlightedTextView
+                            android:id="@+id/msd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:background="#00000000"
+                            android:clickable="true"
+                            android:gravity="left|fill_horizontal"
+                            android:onClick="onClick"
+                            android:text="Men&apos;s Swimming and Diving"
+                            android:textColor="#2F2F4F" />
+
+                        <mk.universityoftexas.austin.HighlightedTextView
+                            android:id="@+id/wsd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:background="#00000000"
+                            android:clickable="true"
+                            android:gravity="left|fill_horizontal"
+                            android:onClick="onClick"
+                            android:text="Women&apos;s Swimming and Diving"
+                            android:textColor="#2F2F4F" />
+
+                        <mk.universityoftexas.austin.HighlightedTextView
+                            android:id="@+id/mtf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:background="#00000000"
+                            android:clickable="true"
+                            android:gravity="left|fill_horizontal"
+                            android:onClick="onClick"
+                            android:text="Men&apos;s Track and Field"
+                            android:textColor="#2F2F4F" />
+
+                        <mk.universityoftexas.austin.HighlightedTextView
+                            android:id="@+id/wtf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:background="#00000000"
+                            android:clickable="true"
+                            android:gravity="left|fill_horizontal"
+                            android:onClick="onClick"
+                            android:text="Women&apos;s Track and Field"
+                            android:textColor="#2F2F4F" />
+
+                        <mk.universityoftexas.austin.HighlightedTextView
+                            android:id="@+id/softball"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:background="#00000000"
+                            android:clickable="true"
+                            android:gravity="left|fill_horizontal"
+                            android:onClick="onClick"
+                            android:text="Softball"
+                            android:textColor="#2F2F4F" />
+
+                        <mk.universityoftexas.austin.HighlightedTextView
+                            android:id="@+id/mgolf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:background="#00000000"
+                            android:clickable="true"
+                            android:gravity="left|fill_horizontal"
+                            android:onClick="onClick"
+                            android:text="Men&apos;s Golf"
+                            android:textColor="#2F2F4F" />
+
+                        <mk.universityoftexas.austin.HighlightedTextView
+                            android:id="@+id/wgolf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:background="#00000000"
+                            android:clickable="true"
+                            android:gravity="left|fill_horizontal"
+                            android:onClick="onClick"
+                            android:text="Women&apos;s Golf"
+                            android:textColor="#2F2F4F" />
+                    </LinearLayout>
+                </ScrollView>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-150dp"
+            android:background="@drawable/sports_menu_paper" android:layout_marginTop="-50dp" android:paddingBottom="160dp" android:paddingLeft="15dp">
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="27dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="50dp"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:orientation="vertical" >
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/football"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:text="Football"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/baseball"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:text="Baseball"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/wvolleyball"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:text="Women&apos;s Volleyball"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/mbball"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:text="Men&apos;s Basketball"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/mtennis"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:text="Men&apos;s Tennis"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/wtennis"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:text="Women&apos;s Tennis"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/wbball"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:text="Women&apos;s Basketball"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/rowing"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:text="Rowing"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </ScrollView>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/scrollView1"
+                android:layout_marginTop="29dp"
+                android:src="@drawable/timer" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</mk.universityoftexas.austin.LightingLayoutRelative>

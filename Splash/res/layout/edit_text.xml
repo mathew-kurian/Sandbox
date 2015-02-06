@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<TextView android:text="Amount of Particles"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" 
+		android:textSize="25dp" android:textColor="#ffffff" 
+		android:paddingLeft="10dp" android:paddingTop="10dp"/>
+	
+	<TextView android:text="Max 500 (higher amounts may slow app)"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" 
+		android:textSize="10dp" android:textColor="#aaaaaa" 
+		android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingBottom="10dp"/>
+
+	<EditText android:orientation="horizontal"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:inputType="number" android:id="@+id/intEditText">
+
+	</EditText>
+</LinearLayout>

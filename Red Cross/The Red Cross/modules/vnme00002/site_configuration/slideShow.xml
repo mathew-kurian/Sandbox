@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+		<speed>7000</speed><!-- Time in milliseconds 3000 = 3 seconds -->
+		<width>655</width>
+		<height>328</height>
+		<displayInfoText>false</displayInfoText>
+		<hoverTextBgColor>0xFFFFFF</hoverTextBgColor>
+		<hoverTextBgOpacity>1</hoverTextBgOpacity>
+		<hoverTextBgHeight>75</hoverTextBgHeight>
+		<buttonBgColor>0x545454</buttonBgColor>
+		<buttonTextColor>0xd1d1d1</buttonTextColor>
+		<buttonSelBgColor>0xfe00d7</buttonSelBgColor>
+		<buttonSelTextColor>0xd1d1d1</buttonSelTextColor>
+		<slide>
+			<url>site_images/slideShow/slide9.gif</url>
+		</slide>
+		<slide>
+			<url>site_images/slideShow/slide1.gif</url>
+		</slide>
+		<slide>
+			<url>site_images/slideShow/slide2.gif</url>
+		</slide>
+		<slide>
+			<url>site_images/slideShow/slide3.gif</url>
+		</slide>
+		<slide>
+			<url>site_images/slideShow/slide4.gif</url>
+		</slide>
+		<slide>
+			<url>site_images/slideShow/slide5.gif</url>
+		</slide>
+		<slide>
+			<url>site_images/slideShow/slide6.gif</url>
+		</slide>
+		<slide>
+			<url>site_images/slideShow/slide8.gif</url>
+		</slide>
+</xmlObject>
+
+
+			

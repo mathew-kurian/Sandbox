@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<content>
+
+<gallery Name="MIXED MEDIA">
+    <item Thumb="media_gallery/image/thumb4.jpg" Large="media_gallery/image/image4.jpg" Title="Cold Steel">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Cold Steel</b></font><br>You can add any size image file to this gallery such has JPG, GIF and PNG.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/video/thumb1.jpg" Large="media_gallery/video_player.swf" toLoad="media_gallery/video/video2.flv" Width="600" Height="338" Title="16:9 video Example">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>16:9 video Example</b></font><br>You can add any size video to this gallery and it will always maintain aspect ratio in fullscreen mode. The width and height of each video can be defined in the XML. You can add video formats such as FLV, MP4 and MOV.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/audio/thumb1.jpg" Large="media_gallery/audio_player.swf" toLoad="media_gallery/audio/track2.mp3" Title="ADG3 Studios - Digital Science">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>ADG3 Studios - Digital Science</b></font><br>audio track produced by <a href="http://www.audiojungle.net/user/ADG3studios" target="_blank">ADG3studios</a>. To listen and to purchase more tracks from this artist, <a href="http://www.audiojungle.net/user/ADG3studios/portfolio" target="_blank">click here</a>.]]></copy>
+    </item>
+    <item Thumb="media_gallery/swf/thumb1.jpg" Large="media_gallery/swf/flash1.swf" Title="Flash Animation Example: Circles">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Flash Animation Example: Circles</b></font><br>You can add any size Flash swf file to this gallery. The width and height of the swf is defined in the XML.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+</gallery>
+
+</content>

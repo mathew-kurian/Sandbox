@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	<videoAlbum>
+		<name>VIDEO ALBUM 1</name>
+			<clip>
+				<videoURL>site_videos/intro.flv</videoURL>	
+				<width>600</width>
+				<height>338</height>	
+			</clip>
+	</videoAlbum>
+</xmlObject>

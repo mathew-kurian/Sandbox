@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Extended Articles Like This One Cannot inlcude internal page links -->
+<!-- The only internal page link that will work is to go back to the original page this popup was called from-->
+<xmlObject>
+	
+	<contentWidth>1200</contentWidth>
+	<contentHeight>1430</contentHeight>
+	<contentBgColor>0x0C0C0C</contentBgColor>
+	<contentBgOpacity>1</contentBgOpacity>
+	<scrollBaseColor>0xFFFFFF</scrollBaseColor>
+	<scrollerColor>0xD60001</scrollerColor>
+	
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>true</displayHtmlArticles>
+	<displaySlideShow>true</displaySlideShow>									
+	<displaySWF>true</displaySWF>
+
+	<!-- Go Back Button -->
+	<image>
+		<x>1038</x>
+		<y>20</y>
+		<imageURL>site_images/goBack.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>true</includePageLink>
+		<page>03_01</page><!-- back button can only go back to the page it came from-->
+	</image>
+	
+	<!-- TITLE -->
+		<image>
+		<x>38</x>
+		<y>40</y>
+		<imageURL>site_images/folioExtTitle.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page><!-- back button can only go back to the page it came from-->
+	</image>
+	
+	<!--Description Title -->
+	<image>
+		<x>40</x>
+		<y>293</y>
+		<imageURL>site_images/selectedProjectDescription.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page><!-- back button can only go back to the page it came from-->
+	</image>
+	
+	<!-- Text Block -->
+	<article>
+		<x>38</x>
+		<y>316</y>
+		<width>450</width>
+		<articleText><![CDATA[<p align="justify" class="extraLeading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus tellus in lacus euismod molestie. Sed condimentum nisl eu justo porta a lacinia dolor eleifend. Nullam vel lacus id purus suscipit semper. Cras nec aliquam leo. Phasellus leo libero, hendrerit quis imperdiet at, tempor ac metus. Aliquam id nisi quis metus egestas viverra. Integer vel lorem est. Nulla nec sapien odio, molestie sollicitudin odio. Integer venenatis lorem ut nunc placerat id consequat arcu bibendum. Proin dictum, elit id pretium rhoncus, nulla leo porta massa, quis auctor nibh metus vitae elit. Vestibulum sapien eros, consequat quis venenatis quis, viverra nec urna. Sed at mi id leo lacinia faucibus. In hendrerit sodales commodo. Curabitur tellus metus, pretium vitae sagittis id, semper fringilla libero. Aliquam in nibh sed libero luctus consequat eget eget diam. Etiam ornare, dolor quis posuere elementum, urna leo faucibus lacus, nec dictum orci orci eu libero. Donec rutrum, odio vel lobortis auctor, enim mauris tincidunt sapien, varius cursus lacus diam sed justo. Aliquam erat volutpat. Donec ullamcorper turpis eget risus suscipit sit amet mollis diam commodo. Quisque mi sem, dictum a placerat eu, malesuada et turpis. Nullam sollicitudin tellus nec metus accumsan non dapibus ante commodo. Duis dui nibh, hendrerit id malesuada nec, condimentum eu nunc. Suspendisse ornare, dui et vulputate euismod, dolor risus facilisis lacus, non faucibus urna lacus sed nisl. Sed sed enim nunc. Donec elementum tincidunt lacinia. Proin sit amet vulputate sapien. Pellentesque pharetra sollicitudin imperdiet. Etiam vitae libero ac tortor bibendum fringilla eget in lacus. Proin fringilla elementum eleifend. Curabitur placerat adipiscing pretium. Cras posuere pulvinar facilisis. Morbi ut lectus arcu, eu laoreet nisi. Aenean et nisi quis arcu fermentum scelerisque in a lacus. Aenean sit amet nibh dui. Fusce nec metus erat, non posuere lorem. Nam tortor dui, eleifend eu bibendum nec, vestibulum id massa. Donec sollicitudin hendrerit sapien, eget accumsan neque ultrices vitae. Ut nec dolor sit amet nisi ullamcorper feugiat vel sit amet orci. In congue elementum dui, vitae convallis lacus bibendum at. Nulla nec sollicitudin nisi. Vestibulum vitae scelerisque justo.</p>
+<a class="aAlt2" href="http://flashden.net/user/FLASHdriven/portfolio">LAUNCH WEBSITE</a>]]>
+		</articleText>
+	</article>
+	
+	<!-- SlideShow -->
+	<slideShow>
+		<x>540</x>
+		<y>70</y>
+		<width>620</width>
+		<height>275</height>
+		<bgColor>0x0C0C0C</bgColor>
+		<xmlURL>./site_configuration/folioSlide.xml</xmlURL>
+	</slideShow>
+	
+	<!-- SWIFFY -->
+	<swf>
+		<x>540</x>
+		<y>417</y>
+		<swfURL>folio.swf</swfURL>
+	</swf>
+	
+	<!-- Video PopUp -->
+	<image>
+		<x>540</x>
+		<y>764</y>
+		<imageURL>site_images/videoFolio.jpg</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>true</includeVideo>
+		<videoURL>site_videos/intro.flv</videoURL>
+		<videoWidth>604</videoWidth>
+		<videoHeight>340</videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	
+	<!-- Image PopUp -->
+	<image>
+		<x>540</x>
+		<y>1111</y>
+		<imageURL>site_images/folioImage.jpg</imageURL>
+		<includeLargeImage>true</includeLargeImage>
+		<largeURL>site_images/PhotoGallery2/5_full.jpg</largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	
+	
+
+</xmlObject>

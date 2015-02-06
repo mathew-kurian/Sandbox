@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Sample Help File - Help</title>
+<style type="text/css">
+<!--
+.generalText {
+	font-family: tahoma, verdana, arial, helvetica, sans-serif;
+	font-size: 11px;
+}
+.style1 {color: #0000FF}
+-->
+</style>
+</head>
+
+<body class="generalText">
+<p>Thank you for purchasing:<br /> 
+<strong> MP3 Player XML  </strong><br />
+Author: Ryan Terry -<a href="mailto:ryanterry@gmail.com"> ryanterry@gmail.com</a> |<a href="http://www.ry-guy.com" target="_blank"> www.ry-guy.com</a> </p>
+<p>Included are:</p>
+<ul>
+  <li>mp3Player_white.fla (Flash 8 Flash File)</li>
+  <li>mp3Player_black.fla (Flash 8 Flash File)</li>
+  <li>mp3Player_white.swf</li>
+  <li>mp3Player_black.swf</li>
+  <li>mp3Player.xml</li>
+  <li>AnimTween.as (this must be in the same directory as your .fla file to export new .swf files properly) </li>
+</ul>
+<p>Font(s) used:</p>
+<ul>
+	<li>Arial Greek (for Black player only) </li>
+    <li>Arial</li>
+</ul>
+<p>How to modify the file: </p>
+<ol>
+  <li><strong>Adding/Removing Music:</strong> Open mp3Player.xml and inside the &quot;&lt;music&gt;&lt;/music&gt;&quot; tags add a new XML item to the list. They will play in this order. The following code should be added. Make sure your title and song file text is inside the <span class="style1">&lt;![CDATA[</span> ... <span class="style1">]]&gt;</span> tags. To delete a song, delete it's XML item from the list. <br />
+    <br />
+    <span class="style1">&lt;song&gt;<br />
+&lt;title&gt;&lt;![CDATA[Title of Song]]&gt;&lt;/title&gt;<br />
+&lt;mp3File&gt;&lt;![CDATA[music/adg3.com_bustedChump.mp3]]&gt;&lt;/mp3File&gt;<br />
+&lt;/song&gt;    </span><br />  
+    <br />
+  </li>
+    <li><strong>Set Player to Automatically Play First Song :</strong> Open mp3Player.xml and on line 3 change the &quot;autoPlay&quot; to equal &quot;true&quot;. If you do not want it to play automatically set &quot;autoPlay&quot; equal to &quot;false&quot;. <br />
+		<br />
+    </li>
+  <li><strong>Set Player to Automatically Play Next Song  :</strong>Open mp3Player.xml and on line 3 change the &quot;autoNextSong&quot; to equal &quot;true&quot;. If you do not want it to play automatically set &quot;autoNextSong&quot; equal to &quot;false&quot;. <br />
+    <br />
+  </li>
+  <li><strong>Add/Remove buttons: </strong>This player is built to easily move around buttons and customize the look-and-feel of the player. If you don't want to have the &quot;next&quot; and &quot;back&quot; buttons showing, simply delete them or set that layer as a &quot;guide&quot; in Flash by right-clicking on that layer and selecting &quot;guide&quot;. This applies to all buttons and graphics. <br />
+    <br />
+  </li>
+  <li><strong>Play a Song Without Using XML Data:</strong> If you would like to play a song from another button on your website you simply this code:<br />
+    <span class="style1"><br />
+    mp3InstanceName.loadMP3(&quot;yourFile.mp3&quot;,&quot;title of song&quot;);    </span> //'mp3InstanceName' is the name you apply to the entire mp3 player movie clip on your stage. <br />
+    <br />
+  </li>
+  <li><strong>Adding to your Flash Site:</strong> Copy/paste the movie clip in the main timeline of the given .fla file. Your Flash site must be written in Actionscript 2. Make sure your .xml and music files are in the same directory as this new flash movie you're adding the player to. <br />
+    <br />
+  </li>
+  <li><strong>Adding to your website:</strong> If you are not adding this player to an existing Flash site then you can add this as a stand-alone .swf on your html page. Add the mp3Player_white.swf or mp3Player_black.swf to your html page using Dreamweaver or any html editor that you are comfortable with. Make sure that the mp3Player.xml file and your music files are located in the same location as your mp3Player .swfs.<br />
+    <br />
+  </li>
+</ol>
+<p> If you have any questions, please e-mail me.<strong> Ryan Terry</strong> -<a href="mailto:ryanterry@gmail.com"> ryanterry@gmail.com</a> |<a href="http://www.ry-guy.com" target="_blank"> www.ry-guy.com</a> </p>
+</body>
+</html>

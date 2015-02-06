@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	
+	<settings
+		
+		line2Color="0xeaeaea"
+		
+		background="0x181818"
+		border="0x880033"
+		text="0xffffff"
+			
+		backgroundRoll="0x000000"
+		borderRoll="0xFF0066"
+		textRoll="0xffffff"
+			
+		backgroundSelect="0x000000"
+		borderSelect="0xFF0066"
+		textSelect="0xffffff"
+		
+		required="0xFF0066"
+	
+	/>
+	
+	<form 
+	
+		subject="Your website" 
+		email="youremail@domain.com"
+		
+		sentLk="Sending.. Please wait."
+		sentOk="Your message was sent. You will get an anwser in the next days."
+		sentNok="There was an error with your message. Please try again later."
+		
+		fullNok="To use the contact form please exit fullscreen mode"
+		
+		>
+	
+		<item label="Name: " wrong="Please enter your full name" />
+		<item label="Email: " wrong="Please enter a correct email address" />
+		<item label="Message: " wrong="Please enter a message here" />
+		<item label="Send" />
+	
+	</form>
+	
+	<text>
+	
+		<![CDATA[ html here ]]>
+	
+	</text>
+	
+</form>

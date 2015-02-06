@@ -1,0 +1,74 @@
+breadcrumbs.xml
+
+-----------------------------------------------
+Note
+-----------------------------------------------
+
+This navigation is set up for web links only.
+
+-----------------------------------------------
+How do I change the button labels?
+-----------------------------------------------
+
+Open breadcrumbs.xml in Notepad or Dreamveaver. In the xml go to the "label" attribute for each btn node and change to your label.
+
+Example:
+  	
+<btn label="COMPANY" url="http://www.flashden.net/user/robwes19" btnColor="0xffff00"/>
+
+
+-----------------------------------------------
+How do I add more buttons to the navigation?
+-----------------------------------------------
+
+To add more buttons add more btn nodes to the xml structure.
+
+Example:
+
+<navigation>
+  	
+<btn label="COMPANY" url="http://www.flashden.net/user/robwes19" btnColor="0xffff00"/>
+
+<btn label="TEAM" url="http://www.flashden.net/user/robwes19" btnColor="0xffff00"/>
+   
+</navigation>
+
+------------------------------------------
+How do I add a web link?
+------------------------------------------
+
+In the xml, go to the attribute "url" for the button and enter the website url.
+Example:
+
+url="http://www.flashden.net/user/robwes19" 
+
+-------------------------------------------------------------------
+How do I change the x and y coordinate of the xml navigation menu?
+-------------------------------------------------------------------
+
+Open breadcrumbs.fla, go to the layer "Actions" and open your actions panel (F9).
+Go to lines 14 and 16 and change the coordinates.
+
+-------------------------------------------------------------------
+How do I change the button text rollover color?
+-------------------------------------------------------------------
+
+In the xml, go to the attributes "btnColor" and change the hexidecimal value to your new color.
+Make sure to keep 0x before your 6 digit color.
+
+Example: 0xffff00
+
+-------------------------------------------------------------------
+How do I change the spacing between buttons?
+-------------------------------------------------------------------
+Open breadcrumbs.fla, go to the layer "Actions" and open your actions panel (F9).
+Go to line 18 and change the setting.
+
+-------------------------------------------------------
+Why won't my special characters show up?
+-------------------------------------------------------
+
+There are 3 common reasons why special characters won't show up.
+1. XML file saved with the wrong verion and encoding.
+2. You failed to embed your special characters in your Flash file.
+3. You are using a font that doesen't support special characters. If you use a common font like Arial you shoulden't have a problem.

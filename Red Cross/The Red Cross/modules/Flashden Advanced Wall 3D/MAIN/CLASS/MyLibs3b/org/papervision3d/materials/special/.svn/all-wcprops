@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/526/trunk/branches/GreatWhite/src/org/papervision3d/materials/special
+END
+BitmapParticleMaterial.as
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/materials/special/BitmapParticleMaterial.as
+END
+CompositeMaterial.as
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/513/trunk/branches/GreatWhite/src/org/papervision3d/materials/special/CompositeMaterial.as
+END
+ParticleMaterial.as
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/501/trunk/branches/GreatWhite/src/org/papervision3d/materials/special/ParticleMaterial.as
+END
+MovieAssetParticleMaterial.as
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/526/trunk/branches/GreatWhite/src/org/papervision3d/materials/special/MovieAssetParticleMaterial.as
+END
+LineMaterial.as
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/477/trunk/branches/GreatWhite/src/org/papervision3d/materials/special/LineMaterial.as
+END

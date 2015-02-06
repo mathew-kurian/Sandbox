@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings
+
+	totalWidth="650"
+
+	playerWidth="420"
+	playerHeight="236"
+
+	slideTime="5"
+	
+	titleBack="0x000000"
+	titleText="0xffffff"
+	navButtonsBack="0x000000"
+	navButtonsText="0xffffff"
+	
+	scrollbarBack="0x000000"
+	scrollbarHandle="0xf129b0"
+	
+	videoBack="0x000000"
+	videoButtons="0xffffff"
+	videoButtonsRoll="0xf129b0"
+	videoSeekBack="0xffffff"
+	videoSeekBuffered="0xfcd8f3"
+	videoSeekPlayed="0xf129b0"
+	videoSeekHandle="0x000000"
+	videoCurrentTime="0xffffff"
+	videoTotalTime="0xf129b0"
+
+>
+	<folio>
+	
+		<project>
+			<title><![CDATA[Cool Video]]></title>
+			<description><![CDATA[<font color="#ff0066">Client: </font>FlashDen<br><font color="#ff0066">Year: </font>2009<br><font color="#ff0066">Type: </font>After Effects<br><br><font color="#ff0066">Description: </font>This is the description for the current project. Regular html text, that gives you the possibility to change the color of the text and add <u><a href="http://www.flashden.net" target="_blank">hyperlinks</a></u>. You can also have unordered lists and special characters(with a different font family of course).<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></description>
+			<assets type="video">
+				<item src="folio_assets/video/video.flv" />
+			</assets>
+		</project>
+	
+		<project>
+			<title><![CDATA[Cool Video]]></title>
+			<description><![CDATA[<font color="#ff0066">Client: </font>FlashDen<br><font color="#ff0066">Year: </font>2009<br><font color="#ff0066">Type: </font>After Effects<br><br><font color="#ff0066">Description: </font>This is the description for the current project. Regular html text, that gives you the possibility to change the color of the text and add <u><a href="http://www.flashden.net" target="_blank">hyperlinks</a></u>. You can also have unordered lists and special characters(with a different font family of course).<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></description>
+			<assets type="video">
+				<item src="folio_assets/video/video.flv" />
+				<item src="folio_assets/video/video.flv" />
+			</assets>
+		</project>
+		
+	</folio>
+
+</settings>

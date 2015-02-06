@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Homepage>
+	
+	<settings>
+
+		<thumbWidth>199</thumbWidth>
+		
+		<thumbHeight>111</thumbHeight>
+		
+		<distanceBetweenThumbs>13</distanceBetweenThumbs>
+		
+		<thumbsOnSlider>4</thumbsOnSlider>
+
+		
+		<scrollingBlurX>60</scrollingBlurX>
+
+	</settings>
+
+	<content title="Welcome to our site" url="/homepage" urlTitle="Homepage">
+		<![CDATA[<p>Please check out all the modules on top, and if you want to view the other skin press back on your browser and select it. We sure hope you enjoy this wonderful template, we've put a lot of work and effort into it. Also please keep in mind that all content text is fully <b>html editable</b> so you can use whatever style you wish, <a target="_blank" href="http://www.google.com"><u>links</u></a>, <font color="#ffffff" size="13">size and colors</font>, embed images or swf inside these text areas and so much more. Also don't forget to check out the powerful CMS Admin bundled with this template, it is a huge time saver and selling point for your clients.<br />
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada imperdiet sem. Nam urna ligula, pellentesque eu, iaculis vitae, tincidunt a, nunc. Sed convallis, risus id congue faucibus, est consequat id, est. Aliquam vehicula, sem dapibus massa lectus pellentesque lacus, et consectetur enim nibh at tellus.<br />
+<br />
+Donec nunc magna, feugiat et, varius ut, semper sed, neque. Aenean semper, lacus eget ullamcorper cursus, velit augue ullamcorper odio, sit amet dictum tortor tellus non ligula. In hac habitasse platea dictumst. Sed odio justo, consequat eu, pharetra sed, suscipit a, erat. Curabitur eu felis et ligula sodales consequat. Suspendisse ligula. Morbi neque orci, interdum.</p>]]>
+	</content>
+
+	<slider title="Latest Projects">
+		<item src="images/homepage/8.jpg" title="Emersis Quertes v2" url="/yellow-flower-4" target="_blank" urlTitle="Yellosdfw Flower" toggleLaunchPopup="1" thumb="images/galleries/tn_4.jpg" image="images/galleries/video_2.flv" >
+			<![CDATA[<font color="#00bad5" size="20">Gallery Item Description (html formatted)</font><br />
+				Each photo/video in the gallery can have an extensive description text that is of course html formatted. If the text is longer a scrollbar appears, so no limits here ! The description text is not mandatory, if there is no description text entered, then the window will be nicely resized acordingly to acomodate just the photo/video and it will have equal black margins all around.<br />
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis rhoncus diam, ac mattis est porttitor id. Vestibulum non turpis sed nunc pharetra pharetra sit amet nec libero. Vestibulum suscipit, nunc vel vulputate blandit, purus nulla lobortis elit, eget elementum lectus magna ut magna. Proin et leo ac lorem ultrices rhoncus in at nisl. Integer id massa urna, eu posuere leo. Mauris tristique imperdiet velit sed blandit. Etiam nec augue non velit ornare malesuada. In posuere ornare tincidunt. Ut suscipit commodo imperdiet. Maecenas scelerisque, neque vel aliquam condimentum, ipsum arcu faucibus magna, id tincidunt justo turpis et metus. In ut tellus eu mauris convallis fermentum sit amet a nunc. Donec aliquet euismod lacinia. Maecenas sit amet suscipit justo. Sed euismod, turpis nec facilisis dignissim, nulla sapien fringilla sapien, at adipiscing arcu mi ac lacus. Nullam in ante odio. 
+			]]>
+		</item>
+
+		<item src="images/homepage/9.jpg" title="Random title" url="/yellow-flowerasdasd" target="_blank" urlTitle="Yellow sdfFloasdasdwer" toggleLaunchPopup="1" thumb="images/galleries/tn_5.jpg" image="images/galleries/5.jpg" ></item>
+	
+		
+		
+		<item src="images/homepage/8.jpg" title="Emersis Quertes v2" url="/yellow-flowesdfr-4" target="_blank" urlTitle="Yellosfdw Flower" toggleLaunchPopup="1" thumb="images/galleries/tn_4.jpg" image="images/galleries/4.jpg" >
+			<![CDATA[<font color="#00bad5" size="20">Gallery Item Description (html formatted)</font><br />
+				Each photo/video in the gallery can have an extensive description text that is of course html formatted. If the text is longer a scrollbar appears, so no limits here ! The description text is not mandatory, if there is no description text entered, then the window will be nicely resized acordingly to acomodate just the photo/video and it will have equal black margins all around.<br />
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis rhoncus diam, ac mattis est porttitor id. Vestibulum non turpis sed nunc pharetra pharetra sit amet nec libero. Vestibulum suscipit, nunc vel vulputate blandit, purus nulla lobortis elit, eget elementum lectus magna ut magna. Proin et leo ac lorem ultrices rhoncus in at nisl. Integer id massa urna, eu posuere leo. Mauris tristique imperdiet velit sed blandit. Etiam nec augue non velit ornare malesuada. In posuere ornare tincidunt. Ut suscipit commodo imperdiet. Maecenas scelerisque, neque vel aliquam condimentum, ipsum arcu faucibus magna, id tincidunt justo turpis et metus. In ut tellus eu mauris convallis fermentum sit amet a nunc. Donec aliquet euismod lacinia. Maecenas sit amet suscipit justo. Sed euismod, turpis nec facilisis dignissim, nulla sapien fringilla sapien, at adipiscing arcu mi ac lacus. Nullam in ante odio. 
+			]]>
+		</item>
+
+		<item src="images/homepage/9.jpg" title="Random title" url="/yellow-flowerasdddddasd" target="_blank" urlTitle="Yellosdfw Floasdasdwer" toggleLaunchPopup="1" thumb="images/galleries/tn_5.jpg" image="images/galleries/5.jpg" ></item>
+		
+		
+		
+		
+		
+		
+		<item src="images/homepage/8.jpg" title="Emersis Quertes v2" url="/yelldfow-flower-4" target="_blank" urlTitle="Yellowsdf Flower" toggleLaunchPopup="1" thumb="images/galleries/tn_4.jpg" image="images/galleries/4.jpg" >
+			<![CDATA[<font color="#00bad5" size="20">Gallery Item Description (html formatted)</font><br />
+				Each photo/video in the gallery can have an extensive description text that is of course html formatted. If the text is longer a scrollbar appears, so no limits here ! The description text is not mandatory, if there is no description text entered, then the window will be nicely resized acordingly to acomodate just the photo/video and it will have equal black margins all around.<br />
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis rhoncus diam, ac mattis est porttitor id. Vestibulum non turpis sed nunc pharetra pharetra sit amet nec libero. Vestibulum suscipit, nunc vel vulputate blandit, purus nulla lobortis elit, eget elementum lectus magna ut magna. Proin et leo ac lorem ultrices rhoncus in at nisl. Integer id massa urna, eu posuere leo. Mauris tristique imperdiet velit sed blandit. Etiam nec augue non velit ornare malesuada. In posuere ornare tincidunt. Ut suscipit commodo imperdiet. Maecenas scelerisque, neque vel aliquam condimentum, ipsum arcu faucibus magna, id tincidunt justo turpis et metus. In ut tellus eu mauris convallis fermentum sit amet a nunc. Donec aliquet euismod lacinia. Maecenas sit amet suscipit justo. Sed euismod, turpis nec facilisis dignissim, nulla sapien fringilla sapien, at adipiscing arcu mi ac lacus. Nullam in ante odio. 
+			]]>
+		</item>
+
+		<item src="images/homepage/9.jpg" title="Random title" url="/yellow-flowersdfssasdasd" target="_blank" urlTitle="Yellow Floasdasdwer" toggleLaunchPopup="1" thumb="images/galleries/tn_5.jpg" image="images/galleries/5.jpg" ></item>
+		
+		
+	</slider>
+</Homepage>

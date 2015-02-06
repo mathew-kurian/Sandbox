@@ -1,0 +1,108 @@
+/*
+########################################
+How to upgrade old mini fp module
+########################################
+
+Simply extract the new MiniFp module zip file, then upload them into your server, replace the old Mini FP files (overwrite them)
+Then go to your mini fp backend from joomla administrator panel, click the save button to re-save your the minfp parameter
+That's all ;)
+
+########################################
+Change Log in version 1.2.2
+########################################
+
+1. Use ContentHelperRoute::_findItem function to get itemid of article links
+2. Fixed the undefined var $offset on default.php
+using
+echo JHTML::_('date', $row->publish_up,$params->get( 'date_format' ), $mainframe->getCfg('offset')); 
+instead
+echo JHTML::_('date', $row->publish_up,$params->get( 'date_format' ), $offset); 
+
+3. add option for select name/alias or username at creator field
+4. add number intro skip
+5. Fix thumb image height & width when image loaded from menu image
+6. Set all generated image to folder images/stories/minifp
+7. remove function fptn_get_id(), get Itemid is used default joomla function
+8. add new parameter: "Show default thumbnails when article have no image"
+9. update function fptn_thumb_size()
+10. Fixing coding structure
+11. Add function fix_tags() and renew function fptn_limittext(), now, the introtext will be limited without counting the html tag contained. enjoy it :D
+12. add new parameter for custom date format
+
+problem:
+Incompability with Joomla SEO? (X)HTML Standard
+
+url:
+http://www.templateplazza.com/component/option,com_fireboard/Itemid,6/func,view/id,22107/catid,20/limit,6/limitstart,0/
+
+update default.php and style.css
+use addCustomTag function to add style.css to header
+
+
+problem:
+Preserve Aspect not working
+
+url:
+http://www.templateplazza.com/component/option,com_fireboard/Itemid,6/func,view/id,23034/catid,20/
+
+
+use
+$size = 'width="'.$wx.'" height="'.$hy.'"';
+instead
+$size = 'width="'.$wdth.'" height="'.$hgth.'"';
+
+on helper.php line 256
+
+
+problem:
+J1.5 Thumbnail & intro text problem
+url:
+http://www.templateplazza.com/component/option,com_fireboard/Itemid,6/func,view/id,28729/catid,20/
+
+use
+preg_match_all("/<img[^>]*>/Ui", $rows[$r]->introtext . $rows[$r]->fulltext, $txtimg);
+instead
+preg_match_all("#<img(.*)>#", $rows[$r]->introtext . $rows[$r]->fulltext, $txtimg);
+
+on helper.php line 134
+
+
+problem:
+Is it possible to link to the heading category?
+
+url:
+http://www.templateplazza.com/component/option,com_fireboard/Itemid,6/func,view/id,27578/catid,20/limit,6/limitstart,0/
+
+add new parameter at mod_minifrontpage.xml ( cat_title_link )
+update mod_minifrontpage.php, helper.php, and default.php for handle this parameter
+
+problem:
+No thumbnails showing in J1.5 with FCK editor
+
+url:
+http://www.templateplazza.com/component/option,com_fireboard/Itemid,6/func,view/id,29502/catid,20/
+
+hack the helper.php to serve image file from another url / site
+
+
+problem:
+Link in intro text
+
+url:
+http://www.templateplazza.com/component/option,com_fireboard/Itemid,6/func,view/id,30035/catid,20/
+
+use
+$allowed_tags =  "<i><b><strong><br><a>"; 
+instead
+$allowed_tags =  "<i><b><strong>"; 
+at helper.php
+
+problem:
+How to set ordering to ordering?
+
+url:
+http://www.templateplazza.com/component/option,com_fireboard/Itemid,6/func,view/id,25868/catid,20/
+
+added new option on ordering parameter
+
+*/

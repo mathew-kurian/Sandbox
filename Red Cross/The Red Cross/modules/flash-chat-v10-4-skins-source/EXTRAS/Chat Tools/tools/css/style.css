@@ -1,0 +1,116 @@
+/* CSS Document */
+
+.label_text {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 11px;
+	COLOR: #97B2CB; 
+	FONT-FAMILY: Verdana;
+}
+
+.content_text {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 12px;
+	LINE-HEIGHT: 20px;
+	COLOR: #CCCCCC; 
+	FONT-FAMILY: Arial;
+}
+
+.content_text_orange {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 12px;
+	LINE-HEIGHT: 20px;
+	COLOR: #FF6600; 
+	FONT-FAMILY: Arial;
+}
+
+
+.list_text {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 12px;
+	LINE-HEIGHT: 23px;
+	COLOR: #CCCCCC; 
+	FONT-FAMILY: Arial;
+}
+
+
+.code_text {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 11px;
+	LINE-HEIGHT: 18px;
+	COLOR: #FFFFFF; 
+	FONT-FAMILY: Arial;
+}
+
+.h1 {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 20px;
+	COLOR: #FFFFFF; 
+	FONT-FAMILY: Arial;
+	margin: 0px;
+}
+
+.h2 {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 14px;
+	COLOR: #CCCCCC; 
+	FONT-FAMILY: Arial;
+	margin: 0px;
+}
+
+.h3 {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 14px;
+	COLOR: #FF6600; 
+	FONT-FAMILY: Arial;
+	margin: 0px;
+}
+
+A.big_link_bold:link {
+	FONT-FAMILY: Arial; FONT-SIZE: 20px; COLOR: #FF6600; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.big_link_bold:hover {
+	FONT-FAMILY: Arial; FONT-SIZE: 20px; COLOR: #FFFFFF; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.big_link_bold:visited {
+	FONT-FAMILY: Arial; FONT-SIZE: 20px; COLOR: #FF6600; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+
+A.medium_link_bold:link {
+	FONT-FAMILY: Arial; FONT-SIZE: 14px; COLOR: #FF6600; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.medium_link_bold:hover {
+	FONT-FAMILY: Arial; FONT-SIZE: 14px; COLOR: #FFFFFF; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.medium_link_bold:visited {
+	FONT-FAMILY: Arial; FONT-SIZE: 14px; COLOR: #FF6600; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+
+A.content_link_bold:link {
+	FONT-FAMILY: Arial; FONT-SIZE: 12px; COLOR: #FF6600; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.content_link_bold:hover {
+	FONT-FAMILY: Arial; FONT-SIZE: 12px; COLOR: #FF6600; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.content_link_bold:visited {
+	FONT-FAMILY: Arial; FONT-SIZE: 12px; COLOR: #FF6600; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+
+A.content_link:link {
+	FONT-FAMILY: Arial; FONT-SIZE: 12px; COLOR: #FF6600; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+A.content_link:hover {
+	FONT-FAMILY: Arial; FONT-SIZE: 12px; COLOR: #FF6600; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.content_link:visited {
+	FONT-FAMILY: Arial; FONT-SIZE: 12px; COLOR: #FF6600; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+
+A.content_link_grey:link {
+	FONT-FAMILY: Arial; FONT-SIZE: 12px; COLOR: #CCCCCC; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.content_link_grey:hover {
+	FONT-FAMILY: Arial; FONT-SIZE: 12px; COLOR: #CCCCCC; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.content_link_grey:visited {
+	FONT-FAMILY: Arial; FONT-SIZE: 12px; COLOR: #CCCCCC; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}

@@ -1,0 +1,49 @@
+<form>
+	<tabs>
+		<t active="true" width="100" title="Module Settings" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.user&action=details&mod_id={MODULE_ID}" />
+		<t0 width="80" title="News Items" link="index.php?mod=oxymall&sub=oxymall.plugin.news.landing&module_id={MODULE_ID}&action=details&returnurl={SELF.PREVIOUS_ENC}" />
+		<t_video width="80" title="Video Tutorial" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.help&module_id={MODULE_ID}" restricted="eval:$GLOBALS['no_tutorials'];"/>
+	</tabs>
+
+
+	<fields>
+		<settings_title type="subtitle" title="Settings" />
+		
+		<set_blurxamount type="textbox" size="5" suffix="px" title="Blur X Amount" />
+		
+		<set_bluryamount type="textbox" size="5" suffix="px" title="Blur Y Amount" />
+		
+		<set_animationtime type="textbox" size="5" suffix="Secconds" title="Animaiton Time" />
+		
+		<set_animationtype type="droplist" title="Animation Type" empty="true">
+			<options>
+				<option name="linear">linear</option>
+				<option name="easeInSine">easeInSine</option>
+				<option name="easeOutSine">easeOutSine</option>
+				<option name="easeInQuad">easeInQuad</option>
+				<option name="easeOutQuad">easeOutQuad</option>
+				<option name="easeInCubic">easeInCubic</option>
+				<option name="easeOutCubic">easeOutCubic</option>
+				<option name="easeInQuart">easeInQuart</option>
+				<option name="easeOutQuart">easeOutQuart</option>
+				<option name="easeInQuint">easeInQuint</option>
+				<option name="easeOutQuint">easeOutQuint</option>
+				<option name="easeInExpo">easeInExpo</option>
+				<option name="easeOutExpo">easeOutExpo</option>
+				<option name="easeInCirc">easeInCirc</option>
+				<option name="easeOutCirc">easeOutCirc</option>
+				<option name="easeInElastic">easeInElastic</option>
+				<option name="easeOutElastic">easeOutElastic</option>
+				<option name="easeInBack">easeInBack</option>
+				<option name="easeOutBack">easeOutBack</option>
+				<option name="easeInBounce">easeInBounce</option>
+				<option name="easeOutBounce">easeOutBounce</option>
+			</options>
+		</set_animationtype>
+		
+		<set_date_format type="textbox" size="20" title="Date Format" />
+
+		<set_popup_title type="textbox" size="60" title="Popup Title" description="You can overwrite this setting for each item individualy" />
+
+	</fields>
+</form>

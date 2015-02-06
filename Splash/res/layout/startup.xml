@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		android:layout_alignParentTop="true" xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" 
+		android:weightSum="160" android:layout_above="@+id/adView"> -->
+
+	<ImageView android:layout_width="300dp"
+		android:layout_height="200dp" android:layout_marginLeft="10dp"
+		android:layout_marginRight="0dp" android:layout_marginTop="0dp"
+		android:background="@drawable/symbol" android:gravity="center"
+		android:layout_weight="30" android:id="@+id/pic"
+		android:layout_centerHorizontal="true" />
+	
+	<!-- android:background="@drawable/symbol" -->
+	
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginLeft="50dp"
+		android:layout_marginRight="50dp" android:layout_marginTop="10dp"
+		android:background="@drawable/start_button" android:id="@+id/bStart"
+		android:gravity="center" android:layout_weight="40"
+		android:layout_below="@+id/pic" android:layout_centerHorizontal="true" />
+
+
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginLeft="50dp"
+		android:layout_marginRight="50dp" android:layout_marginTop="10dp"
+		android:background="@drawable/pref_button" android:id="@+id/bPref"
+		android:gravity="center" android:layout_weight="40"
+		android:layout_below="@+id/bStart" android:layout_centerHorizontal="true" />
+
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginLeft="50dp"
+		android:layout_marginRight="50dp" android:layout_marginTop="10dp"
+		android:background="@drawable/rate_button" android:id="@+id/bRateIt"
+		android:gravity="center" android:layout_weight="40"
+		android:layout_below="@+id/bPref" android:layout_centerHorizontal="true" />
+
+	<com.google.ads.AdView android:id="@+id/adView"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		ads:adUnitId="a14f07b2ea24afd" ads:loadAdOnCreate="true" ads:adSize="BANNER"
+		android:layout_alignParentBottom="true"></com.google.ads.AdView>
+
+</RelativeLayout>

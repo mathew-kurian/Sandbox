@@ -1,0 +1,25 @@
+ /* 
+=================================================
+# Filename : transparent.css
+# Description : Specific CSS rules transparent theme 
+# Author : TemplatePlazza
+# Author Url : http://www.templateplazza.com
+# Copyright (C) 2009 TemplatePlazza.com
+# All rights reserved.
+=================================================
+*/
+#tpwrapper-page-inner ,
+td.sectiontableheader ,
+.sectiontableentry1 td ,
+div.blog_more ,
+.leading_article,
+.leading_article .heading_content,
+.inputbox,
+.button,
+.contenttoc th,
+.pagenavbar a:link, .pagenavbar a:visited, .pagenavbar a:active,
+a.readon:link, a.readon:visited, a.readon:active,
+a.readon:hover, .pagenavbar a:hover ,
+#tpblock-top-inner  {
+	background-color:transparent;
+	background-image:none;}

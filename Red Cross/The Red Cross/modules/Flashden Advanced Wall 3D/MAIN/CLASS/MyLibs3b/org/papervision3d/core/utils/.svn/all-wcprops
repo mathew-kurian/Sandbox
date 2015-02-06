@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/527/trunk/branches/GreatWhite/src/org/papervision3d/core/utils
+END
+InteractiveUtils.as
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/492/trunk/branches/GreatWhite/src/org/papervision3d/core/utils/InteractiveUtils.as
+END
+Mouse3D.as
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/492/trunk/branches/GreatWhite/src/org/papervision3d/core/utils/Mouse3D.as
+END
+InteractiveSceneManager.as
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/527/trunk/branches/GreatWhite/src/org/papervision3d/core/utils/InteractiveSceneManager.as
+END
+MeshUtil.as
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/459/trunk/branches/GreatWhite/src/org/papervision3d/core/utils/MeshUtil.as
+END
+StopWatch.as
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/core/utils/StopWatch.as
+END

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Services>
+	<settings>
+		<imageWidth>411</imageWidth>
+		<imageHeight>367</imageHeight>
+		<slideshowInterval>3</slideshowInterval>
+		<fadeInAnimationTime>1</fadeInAnimationTime>
+		<dafeInAnimationType>easeoutcubic</dafeInAnimationType>
+
+		<textHeight>367</textHeight>
+	</settings>
+
+	<content title="Services" urlTitle="Services" url="/services">
+			
+		
+		<button title="Web design" urlTitle="" url="/web-design-1/">
+			<description><![CDATA[<p>You can add/edit/delete all the subcategories, all the text and slideshow photos. If there are no photos, the textfield will expand to the entire width of the content area. Of couse, all the text can be formatted though <strong>html tags</strong>.<br />
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet dui pharetra tortor ultricies varius. In nunc ligula, vestibulum in placerat vel, luctus vitae leo. Sed sagittis, urna ac elementum sodales, enim tortor consequat est, sed aliquam eros sem eget eros. In scelerisque ultricies, quam est pretium nunc, ac dapibus nibh mauris nec eros. Quisque ultrices vulputate ligula et semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent id dui nec tortor lobortis commodo. Etiam molestie magna a nulla faucibus placerat.<br />
+<br />
+Fusce ut mi lacus. Curabitur urna ligula, semper ac pretium non, mattis sit amet urna. Sed in tempus ligula. In hac habitasse platea dictumst. Phasellus nisi libero, fringilla id viverra eget, condimentum at neque. Aliquam erat volutpat. Quisque imperdiet urna sem, vel suscipit libero. Vestibulum at purus leo. Nam sed urna elit. Suspendisse malesuada laoreet pharetra. Phasellus feugiat feugiat nibh, ac hendrerit urna condimentum blandit. Etiam ipsum nulla, condimentum sed mollis in, aliquam eleifend turpis. Curabitur sit amet est ligula, sed interdum ante. Vivamus suscipit mauris ut orci euismod eu vulputate lacus mattis. Donec purus urna, semper sit amet egestas sagittis, posuere feugiat nisi. Vivamus metus lectus, gravida in interdum quis, placerat vitae neque. Praesent sit amet sem a lacus lacinia pulvinar. Nunc posuere suscipit nibh tincidunt vehicula.</p>
+<p>Proin odio lorem, gravida sed ultrices eu, auctor ut augue. Curabitur malesuada rutrum nisl in consequat. Curabitur adipiscing aliquet est, et auctor nibh hendrerit in. Vestibulum sit amet consequat dolor. Curabitur urna mi, pellentesque sed porttitor in, vehicula nec arcu. Ut sed augue eros, ut tempus nisl. Etiam tempus tincidunt purus at interdum. Curabitur in nunc massa. Sed nec massa et dolor luctus sagittis. Sed volutpat mauris vel enim consequat vehicula. Vivamus sem tortor, vestibulum in porta nec, condimentum et erat. Nullam vitae mauris mi.</p>]]></description>
+			
+			<items>
+		
+			<item src="images/services/5.jpg" />
+
+			<item src="images/services/6.jpg" />
+
+			</items>
+
+		</button>
+
+		<button title="Corporate identity" urlTitle="" url="/corporate-id-2/">
+			<description><![CDATA[<p>Scrollbar will disapear if the text is smaller than the minimum scroll area. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet dui pharetra tortor ultricies varius. In nunc ligula, vestibulum in placerat vel, luctus vitae leo. Sed sagittis, urna ac elementum sodales, enim tortor consequat est, sed aliquam eros sem eget eros. In scelerisque ultricies, quam est pretium nunc, ac dapibus nibh mauris nec eros. Quisque ultrices vulputate ligula et semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent id dui nec tortor lobortis commodo. Etiam molestie magna a nulla faucibus placerat.<br />
+<br />
+Proin odio lorem, gravida sed ultrices eu, auctor ut augue. Curabitur malesuada rutrum nisl in consequat. Curabitur adipiscing aliquet est, et auctor nibh hendrerit in. Vestibulum sit amet consequat dolor. Curabitur urna mi, pellentesque sed porttitor in, vehicula nec arcu. Ut sed augue eros, ut tempus nisl. Etiam tempus tincidunt purus at interdum. Curabitur in nunc massa. Sed nec massa et dolor luctus sagittis. Sed volutpat mauris vel enim consequat vehicula. Vivamus sem tortor, vestibulum in porta nec, condimentum et erat. Nullam vitae mauris mi.</p>]]></description>
+			
+			<items>
+		
+			<item src="images/services/7.jpg" />
+
+			</items>
+
+		</button>
+
+		<button title="Flash Development" urlTitle="" url="/flash-3/">
+			<description><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet dui pharetra tortor ultricies varius. In nunc ligula, vestibulum in placerat vel, luctus vitae leo. Sed sagittis, urna ac elementum sodales, nunc, ac dapibus nibh mauris nec eros. Quisque ultrices vulputate ligula et semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent id dui nec tortor lobortis commodo. Etiam molestie magna a nulla faucibus placerat.<br />
+<br />
+Curabitur urna ligula, semper ac pretium non, mattis sit amet urna. Sed in tempus ligula. In hac habitasse platea dictumst. Phasellus nisi libero, fringilla id viverra eget, condimentum at neque. Aliquam erat volutpat. Purus urna, semper sit amet egestas sagittis, posuere feugiat nisi. Vivamus metus lectus, gravida in interdum quis, placerat vitae neque. Praesent sit amet sem a lacus lacinia pulvinar. Nunc posuere suscipit nibh tincidunt vehicula.<br />
+<br />
+Proin odio lorem, gravida sed ultrices eu, auctor ut augue. Curabitur malesuada rutrum nisl in consequat. Curabitur adipiscing aliquet est, et auctor nibh hendrerit in. Vestibulum sit amet consequat dolor. Curabitur urna mi, pellentesque sed porttitor in, vehicula nec arcu. Ut sed augue eros, ut tempus nisl. Etiam tempus tincidunt purus at interdum. Curabitur in nunc massa. Sed nec massa et dolor luctus sagittis. Sed volutpat mauris vel enim consequat vehicula. Vivamus sem tortor, vestibulum in porta nec, condimentum et erat. Nullam vitae mauris mi.</p>]]></description>
+			
+			<items>
+		
+			<item src="images/services/8.jpg" />
+
+			<item src="images/services/9.jpg" />
+
+			</items>
+
+		</button>
+
+
+	</content>
+
+</Services>

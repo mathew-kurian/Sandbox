@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Portfolio>
+	<settings>
+		<portfolioIndex>
+			<thumbWidth>271</thumbWidth>
+			<thumbHeight>236</thumbHeight>
+			<distanceBetweenThumbs>18</distanceBetweenThumbs>
+			<thumbsOnSlider>3</thumbsOnSlider>
+
+			<scrollingBlurX>60</scrollingBlurX>
+			<fadeInAnimationTime>0.5</fadeInAnimationTime>
+			<maxTextWidth>800</maxTextWidth>
+		</portfolioIndex>
+	
+		<projectsListing>
+			<thumbWidthProjectTypeListing>199</thumbWidthProjectTypeListing>
+			<thumbHeightProjectTypeListing>111</thumbHeightProjectTypeListing>
+
+			<horizontalSpace>13</horizontalSpace>
+			<verticalSpace>13</verticalSpace>
+			<projectsListingMaskHeight>312</projectsListingMaskHeight>
+			<projectsListingMaskWidth>900</projectsListingMaskWidth>
+			<projectsListingTextWidth>900</projectsListingTextWidth>
+			<backXPos>770</backXPos>
+
+		</projectsListing>
+		
+		<projectDetails>
+			<thumbWidthProjectDetails>409</thumbWidthProjectDetails>
+			<thumbHeightProjectDetails>365</thumbHeightProjectDetails>
+		</projectDetails>
+		
+		<popup>
+			<popupBlurXAmount>60</popupBlurXAmount>
+
+			<popupBlurYAmount>0</popupBlurYAmount>
+			<popupAnimationTime>1</popupAnimationTime>
+			<popupAnimationType>easeinquint</popupAnimationType>
+			
+		</popup>
+		
+		<general>
+			<blurXAmount>40</blurXAmount>
+			<blurYAmount>0</blurYAmount>
+
+			<animationType>easeoutquart</animationType>
+			<animationTime>0.3</animationTime>
+		</general>
+	</settings>
+
+	<content title="Portfolio" urlTitle="Portfolio" url="/portfolio">
+		<![CDATA[<p>Welcome to the Portfolio module, one of the largest modules in the template. It supports unlimited categories (like the ones below), each category can host an unlimited amount of projects and each project can have unlimited html text description as well as unlimited photos and/or videos. This gives you the freedom to arrange your portfolio however you feel is better and there is no need to skimp on the number of projects you showcase.</p>]]>
+	</content>
+
+	<portfolio>
+			
+		
+			<projectCategory src="images/portfolio/cat_1.jpg" title="Web Design" urlTitle="Web Design" url="/web-design-1/">
+				<content title="Web Design Portfolio">
+					<description><![CDATA[<p>Each Portfolio category can have it's own html text description where you can outline some of the distinguishing features that section of your folio has. You should also note that there is no need for this description text, if none is entered the elements will just rearrange into place and keep the site looking nice (see the other categories for a demo).</p>]]></description>
+					
+					<projects>
+						
+						<item src="images/portfolio/project_1.jpg" title="Emersis Quertes v2"  urlTitle="Emersis Quertes v2" url="/emersis-quertes-v2-1/">
+							<description><![CDATA[<p>Each of the unlimited number of portfolio items can host as much <strong>html formatted</strong> description text as you need, unlimited number of photos and/or videos as well as html descriptions for each of these items. Click on the teaser photo on the right to open up the details. <br />
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in massa dui. Sed ut lectus et erat faucibus cursus condimentum et risus. Ut tristique porttitor ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce aliquet nisi non nunc accumsan id Maecenas hendrerit convallis aliquet. Cras et orci eu mauris rutrum gravida. Nam ut quam vestibulum lectus scelerisque ultricies ut et sapien. Proin aliquet metus nec odio interdum tincidunt.<br />
+<br />
+Aenean pellentesque leo eget turpis suscipit venenatis. Sed sed lacus non ligula cursus dictum. Nullam venenatis augue at magna iaculis dignissim. Phasellus vehicula consectetur quam a fermentum. Vivamus tellus mauris, tempus et fringilla id, mattis varius nisi. Quisque lacinia euismod magna a varius. Maecenas sit amet sapien lorem, vel rhoncus nunc. Suspendisse nec posuere metus. Vestibulum orci elit, laoreet non imperdiet a, aliquet sit amet eros. Fusce sed posuere quam. Sed vel placerat dolor. Nulla facilisi.<br />
+<br />
+Aliquam erat volutpat. Duis orci tellus, adipiscing malesuada auctor vitae, luctus a est. Duis nunc massa, lobortis eget auctor eget, vulputate a nunc. In augue metus, congue a egestas sit amet, dictum eget risus. Mauris lectus erat, pretium non scelerisque at, egestas eu turpis. Duis sed velit in enim posuere arcu ac porta. Donec euismod, est id pellentesque pellentesque, urna nibh facilisis quam, in vestibulum dolor mauris consequat est. Proin eu nibh cursus odio suscipit sagittis at at elit. Sed et orci a leo euismod condimentum eu vitae ipsum.</p>
+<p>Donec rutrum neque ac elit dictum ut tincidunt ante vehicula. Suspendisse imperdiet tortor at urna cursus tincidunt sollicitudin dolor lacinia. Pellentesque leo lorem, tempor vel ultricies eu, consectetur et massa. Suspendisse ac bibendum massa. Etiam tortor urna, ultricies ut ullamcorper sit amet, molestie ut sem. Fusce posuere ullamcorper tellus non porttitor. Maecenas cursus consectetur ante in hendrerit. massa, aliquam in luctus ac, ullamcorper quis elit. Suspendisse sit amet dolor ac sapien gravida lobortis id sit amet dui. In vel placerat mauris. Integer commodo odio in neque rhoncus facilisis. Quisque eu purus ac augue tincidunt blandit at at arcu.</p>]]></description>
+
+							<projectDetails title="Emersis Quertes v2">
+
+								
+		
+								<item src="images/portfolio/tn_img_1.jpg" title="Homepage Shot"  urlTitle="Homepage Shot" url="/homepage-shot-1/">
+									<popup>
+										<image src="images/portfolio/img_1.jpg" pan="1" maxWidth="400" maxHeight="300"></image>
+										<description><![CDATA[<font color="#00bad5" size="20">Item Description (html formatted subtitle)</font><br />Each photo/video can have an extensive description text that is of course html formatted. If the text is longer a scrollbar appears, so no limits here ! The description text is not mandatory, if there is no description text entered, then the window will be nicely resized acordingly to acomodate just the photo/video and it will have equal black margins all around. ]]></description>
+									</popup>
+								</item>
+
+								<item src="images/portfolio/tn_img_2.jpg" title="Portfolio"  urlTitle="Portfolio" url="/portfolio-2/">
+									<popup>
+
+										<image src="images/portfolio/img_2.jpg"  pan="1" maxWidth="500" maxHeight="500"></image>
+										<description><![CDATA[<font color="#00bad5" size="20">Item Description (html formatted subtitle)</font><br />Each photo/video can have an extensive description text that is of course html formatted. If the text is longer a scrollbar appears, so no limits here ! The description text is not mandatory, if there is no description text entered, then the window will be nicely resized acordingly to acomodate just the photo/video and it will have equal black margins all around. ]]></description>
+									</popup>
+								</item>
+
+								<item src="images/portfolio/tn_img_3.jpg" title="Price List"  urlTitle="Price List" url="/price-list-3/">
+									<popup>
+										<image src="images/portfolio/img_3.jpg"  pan="0" maxWidth="400" maxHeight="300"></image>
+										<description><![CDATA[<font color="#00bad5" size="20">Item Description (html formatted subtitle)</font><br />Each photo/video can have an extensive description text that is of course html formatted. If the text is longer a scrollbar appears, so no limits here ! The description text is not mandatory, if there is no description text entered, then the window will be nicely resized acordingly to acomodate just the photo/video and it will have equal black margins all around. ]]></description>
+
+									</popup>
+								</item>
+
+							</projectDetails>
+						</item>
+
+					</projects>
+
+				</content>
+			</projectCategory>
+			
+			
+			
+			
+			
+			
+			
+			<projectCategory src="images/portfolio/cat_1.jpg" title="Web Design" urlTitle="Web Design" url="/web-dfsfsdfdesign-1/">
+				<content title="Web Design Portfolio">
+					<description><![CDATA[<p>Each Portfolio category can have it's own html text description where you can outline some of the distinguishing features that section of your folio has. You should also note that there is no need for this description text, if none is entered the elements will just rearrange into place and keep the site looking nice (see the other categories for a demo).</p>]]></description>
+					
+					<projects>
+						
+						<item src="images/portfolio/project_1.jpg" title="Emersis Quertes v2"  urlTitle="Emersis Quertes v2" url="/emersis-quesdfsdfrtes-v2-1/">
+							<description><![CDATA[<p>Each of the unlimited number of portfolio items can host as much <strong>html formatted</strong> description text as you need, unlimited number of photos and/or videos as well as html descriptions for each of these items. Click on the teaser photo on the right to open up the details. <br />
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in massa dui. Sed ut lectus et erat faucibus cursus condimentum et risus. Ut tristique porttitor ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce aliquet nisi non nunc accumsan id Maecenas hendrerit convallis aliquet. Cras et orci eu mauris rutrum gravida. Nam ut quam vestibulum lectus scelerisque ultricies ut et sapien. Proin aliquet metus nec odio interdum tincidunt.<br />
+<br />
+Aenean pellentesque leo eget turpis suscipit venenatis. Sed sed lacus non ligula cursus dictum. Nullam venenatis augue at magna iaculis dignissim. Phasellus vehicula consectetur quam a fermentum. Vivamus tellus mauris, tempus et fringilla id, mattis varius nisi. Quisque lacinia euismod magna a varius. Maecenas sit amet sapien lorem, vel rhoncus nunc. Suspendisse nec posuere metus. Vestibulum orci elit, laoreet non imperdiet a, aliquet sit amet eros. Fusce sed posuere quam. Sed vel placerat dolor. Nulla facilisi.<br />
+<br />
+Aliquam erat volutpat. Duis orci tellus, adipiscing malesuada auctor vitae, luctus a est. Duis nunc massa, lobortis eget auctor eget, vulputate a nunc. In augue metus, congue a egestas sit amet, dictum eget risus. Mauris lectus erat, pretium non scelerisque at, egestas eu turpis. Duis sed velit in enim posuere arcu ac porta. Donec euismod, est id pellentesque pellentesque, urna nibh facilisis quam, in vestibulum dolor mauris consequat est. Proin eu nibh cursus odio suscipit sagittis at at elit. Sed et orci a leo euismod condimentum eu vitae ipsum.</p>
+<p>Donec rutrum neque ac elit dictum ut tincidunt ante vehicula. Suspendisse imperdiet tortor at urna cursus tincidunt sollicitudin dolor lacinia. Pellentesque leo lorem, tempor vel ultricies eu, consectetur et massa. Suspendisse ac bibendum massa. Etiam tortor urna, ultricies ut ullamcorper sit amet, molestie ut sem. Fusce posuere ullamcorper tellus non porttitor. Maecenas cursus consectetur ante in hendrerit. massa, aliquam in luctus ac, ullamcorper quis elit. Suspendisse sit amet dolor ac sapien gravida lobortis id sit amet dui. In vel placerat mauris. Integer commodo odio in neque rhoncus facilisis. Quisque eu purus ac augue tincidunt blandit at at arcu.</p>]]></description>
+
+							<projectDetails title="Emersis Quertes v2">
+
+								
+		
+								<item src="images/portfolio/tn_img_1.jpg" title="Homepage Shot"  urlTitle="Homepage Shot" url="/homepasdfsdfge-shot-1/">
+									<popup>
+										<image src="images/portfolio/img_1.jpg" pan="0" maxWidth="400" maxHeight="300"></image>
+										<description><![CDATA[<font color="#00bad5" size="20">Item Description (html formatted subtitle)</font><br />Each photo/video can have an extensive description text that is of course html formatted. If the text is longer a scrollbar appears, so no limits here ! The description text is not mandatory, if there is no description text entered, then the window will be nicely resized acordingly to acomodate just the photo/video and it will have equal black margins all around. ]]></description>
+									</popup>
+								</item>
+
+								<item src="images/portfolio/tn_img_2.jpg" title="Portfolio"  urlTitle="Portfolio" url="/portfosdfsdflio-2/">
+									<popup>
+
+										<image src="images/portfolio/img_2.jpg"  pan="0" maxWidth="500" maxHeight="500"></image>
+										<description><![CDATA[<font color="#00bad5" size="20">Item Description (html formatted subtitle)</font><br />Each photo/video can have an extensive description text that is of course html formatted. If the text is longer a scrollbar appears, so no limits here ! The description text is not mandatory, if there is no description text entered, then the window will be nicely resized acordingly to acomodate just the photo/video and it will have equal black margins all around. ]]></description>
+									</popup>
+								</item>
+
+								<item src="images/portfolio/tn_img_3.jpg" title="Price List"  urlTitle="Price List" url="/prisdfsdfdsce-list-3/">
+									<popup>
+										<image src="images/portfolio/img_3.jpg"  pan="0" maxWidth="400" maxHeight="300"></image>
+										<description><![CDATA[<font color="#00bad5" size="20">Item Description (html formatted subtitle)</font><br />Each photo/video can have an extensive description text that is of course html formatted. If the text is longer a scrollbar appears, so no limits here ! The description text is not mandatory, if there is no description text entered, then the window will be nicely resized acordingly to acomodate just the photo/video and it will have equal black margins all around. ]]></description>
+
+									</popup>
+								</item>
+
+							</projectDetails>
+						</item>
+
+					</projects>
+
+				</content>
+			</projectCategory>
+
+	</portfolio>
+</Portfolio>

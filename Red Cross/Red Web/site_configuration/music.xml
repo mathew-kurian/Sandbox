@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tracks>
+
+	<!-- Background color -->
+	<bgColor>0x000000</bgColor>
+	
+	<!-- CLOSE BUTTON -->
+	<closeBtnTxt>close</closeBtnTxt>
+	<closeBtnTxtClr>0xC20800</closeBtnTxtClr>
+	<closeBtnTxtSize>24</closeBtnTxtSize>
+	<closeBtnX>330</closeBtnX>
+	<closeBtnY>-45</closeBtnY>
+	
+	<!-- TIME BAR -->
+	<timeBarBgColor>0x0c0c0c</timeBarBgColor>
+	<elapsedTimeTxtColor>0xC20800</elapsedTimeTxtColor>
+	<divider>0x555555</divider>
+	<totalTimeTxtColor>0x555555</totalTimeTxtColor>
+	
+	<!-- VOLUME -->
+	<volumeBarColor>0x3e3e3e</volumeBarColor>
+	<volumeScrubberColor>0xC20800</volumeScrubberColor>
+	
+	<!-- CONTROLS -->
+	<playPauseClr>0x303030</playPauseClr>
+	<playPauseOverClr>0xC20800</playPauseOverClr>
+	<stopClr>0x303030</stopClr>
+	<stopOverClr>0xC20800</stopOverClr>
+	<reverseClr>0x303030</reverseClr>
+	<reverseOverClr>0xC20800</reverseOverClr>
+	<forwardClr>0x303030</forwardClr>
+	<forwardOverClr>0xC20800</forwardOverClr>
+	
+	<!--Now Playing Track Info Layered on top of Album Art thumbnail-->
+	<nowPlayingTxtInfoClr>0xa5a5a5</nowPlayingTxtInfoClr>
+	<nowPlayingBgColor>0x000000</nowPlayingBgColor>
+	
+	<!-- Playlist Track Button -->
+	<trackBgColor>0x060606</trackBgColor>
+	<trackOverBgColor>0x111111</trackOverBgColor>
+	<artistTextClr>0xa5a5a5</artistTextClr>
+	<titleTextClr>0xa5a5a5</titleTextClr>
+	<artistOverTextClr>0xC20800</artistOverTextClr>
+	<titleOverTextClr>0xC20800</titleOverTextClr>
+	
+	
+	<!-- SONG #1 -->
+	<track>
+		<artist>Paul Kelly</artist>
+		<album>Greatest Hits</album>
+		<title>Peace</title>
+		<url>mp3s/peace.mp3</url>
+		<thumb>site_images/music//album10_thumb.jpg</thumb>
+	</track>
+	<track>
+		<artist>U2</artist>
+		<album>chtung Baby</album>
+		<title>One</title>
+		<url>mp3s/one.mp3</url>
+		<thumb>site_images/music//album7_thumb.jpg</thumb>
+	</track>
+	<track>
+		<artist>Kevin Rudolf</artist>
+		<album>Single</album>
+		<title>I Made It</title>
+		<url>mp3s/made.mp3</url>
+		<thumb>site_images/music//album9_thumb.jpg</thumb>
+	</track>
+	<track>
+		<artist>PostHaste</artist>
+		<album>Single</album>
+		<title>Above the City</title>
+		<url>mp3s/above.mp3</url>
+		<thumb>site_images/music//album5_thumb.jpg</thumb>
+	</track>
+	<!-- SONG #1 -->
+	<track>
+		<artist>Avatar</artist>
+		<album>OST</album>
+		<title>The Island</title>
+		<url>mp3s/avatar.mp3</url>
+		<thumb>site_images/music//album6_thumb.jpg</thumb>
+	</track>
+	<!-- SONG #2 -->
+	<track>
+		<artist>Five For Fighting</artist>
+		<album>Two Lights</album>
+		<title>The Riddle</title>
+		<url>mp3s/riddle.mp3</url>
+		<thumb>site_images/music//album8_thumb.jpg</thumb>
+	</track>
+	<!-- SONG #2 -->
+	<track>
+		<artist>The Verve</artist>
+		<album>Urban Hymns</album>
+		<title>Bittersweet Symphony</title>
+		<url>mp3s/bittersweet.mp3</url>
+		<thumb>site_images/music//album1_thumb.jpg</thumb>
+	</track>
+	
+	<!-- SONG #2 -->
+	<track>
+		<artist>Coldplay</artist>
+		<album>Parachute</album>
+		<title>Trouble</title>
+		<url>mp3s/trouble.mp3</url>
+		<thumb>site_images/music//album2_thumb.jpg</thumb>
+	</track>
+	
+	<!-- SONG #3 -->
+	<track>
+		<artist>The Fray</artist>
+		<album>How to Save a Life</album>
+		<title>How to Save a Life</title>
+		<url>mp3s/savealife.mp3</url>
+		<thumb>site_images/music//album3_thumb.jpg</thumb>
+	</track>
+	<!-- SONG #4 -->
+	<track>
+		<artist>Thomas Newman</artist>
+		<album>Wall - E</album>
+		<title>Down to Earth</title>
+		<url>mp3s/earth.mp3</url>
+		<thumb>site_images/music//album4_thumb.jpg</thumb>
+	</track>
+	<!-- SONG #3 -->
+	<track>
+		<artist>The Fray</artist>
+		<album>How to Save a Life</album>
+		<title>Vienna</title>
+		<url>mp3s/vienna.mp3</url>
+		<thumb>site_images/music//album3_thumb.jpg</thumb>
+	</track>
+	<!-- SONG #4 -->	
+	
+</tracks>

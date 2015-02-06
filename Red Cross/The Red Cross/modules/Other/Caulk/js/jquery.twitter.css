@@ -1,0 +1,67 @@
+.twitted {
+	margin:0px;
+	border: none;
+}
+.twitted a {
+	display:inline !important;
+	padding:0px !important;
+}
+.twitted a:hover {
+	background:none !important;
+}
+.twitted h2 {
+	margin: 0;
+	padding: 0em 0em .5em 0em;
+	font-size: 1em;
+	display:none;
+}
+
+.twitted p.preLoader {
+	margin: 0;
+	padding: 1em 1em 1em 3em;
+	background: transparent url("loader.gif") 1em center no-repeat;
+	/* generate your own loader gif: http://www.ajaxload.info */
+}
+
+.twitted ul#twitter_update_list {
+	margin: 0;
+	padding: 0em;
+	list-style-type: none;
+}
+
+.twitted ul#twitter_update_list li {
+	margin: 0;
+	padding: 0px 0px 10px 0px;
+}
+
+.twitted ul#twitter_update_list li span {
+	/* tweet content */
+	display: block;
+	font-size:.9em;
+}
+
+.twitted ul#twitter_update_list li span a {
+	/* links in tweet content */
+	color:#C5CDD8;
+}
+
+.twitted ul#twitter_update_list li a {
+	/* timestamp link */
+	color:#777;
+}
+.twitted ul#twitter_update_list li a:hover {
+	color:#FFF;
+}
+
+.twitted ul#twitter_update_list li.firstTweet {
+}
+
+.twitted ul#twitter_update_list li.lastTweet {
+	border-bottom: none;
+}
+
+.twitted p.profileLink {
+	display: block;
+	margin: 10px 0px 0px 0px;
+	font-size:.9em;
+}

@@ -1,0 +1,56 @@
+<!--S:Main-->
+	<h1>{MOD_TITLE}</h1>
+	{MENU}
+	
+	{CONTENT}
+
+
+<!--E:Main-->
+
+
+<!--S:CatsGroup-->	
+		<ul>
+			{DATA}
+		</ul>
+<!--E:CatsGroup-->
+
+<!--S:CatsGroupEmpty-->
+
+<!--E:CatsGroupEmpty-->
+
+<!--S:CatsElement-->
+		<li><a href="{MOD_URL}/{CAT_URL}-{CAT_ID}/" title="{CAT_URLTITLE}">{CAT_TITLE}</a></li>
+<!--E:CatsElement-->
+
+<!--S:CatsEmpty-->
+
+<!--E:CatsEmpty-->
+
+
+
+<!--S:Category-->
+		<h2>{CAT_TITLE}</h2>
+
+		{CAT_DESCRIPTION}
+
+		{IMAGES}
+<!--E:Category-->
+
+
+<!--S:ItemsGroup-->
+	<ul id="images-list">
+		{DATA}
+	</ul>
+<!--E:ItemsGroup-->
+
+<!--S:ItemsGroupEmpty-->
+
+<!--E:ItemsGroupEmpty-->
+
+<!--S:ItemsElement-->
+		<li><img src="upload/services/{ITEM_ID}.jpg" alt="{ITEM_TITLE}"/></li>			
+<!--E:ItemsElement-->
+
+<!--S:ItemsEmpty-->
+
+<!--E:ItemsEmpty-->

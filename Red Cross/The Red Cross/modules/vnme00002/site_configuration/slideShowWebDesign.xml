@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+		<speed>5000</speed><!-- Time in milliseconds 3000 = 3 seconds -->
+		<width>620</width>
+		<height>275</height>
+		<displayInfoText>true</displayInfoText>
+		<hoverTextBgColor>0xe0e0e0</hoverTextBgColor>
+		<hoverTextBgOpacity>1</hoverTextBgOpacity>
+		<hoverTextBgHeight>75</hoverTextBgHeight>
+		<buttonBgColor>0xe0e0e0</buttonBgColor>
+		<buttonTextColor>0xff3000</buttonTextColor>
+		<buttonSelBgColor>0xff3000</buttonSelBgColor>
+		<buttonSelTextColor>0xe0e0e0</buttonSelTextColor>
+		<slide>
+			<url>site_images/slideShowWebDesign/slide1.gif</url>
+			<ImageTitle><![CDATA[<h3>Your Slide Title</h3><p class="website">Your slide second line subtitle goes here on the second line.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/slideShowWebDesign/slide2.gif</url>
+			<ImageTitle><![CDATA[<h3>Your Slide Title</h3><p class="website">Your slide second line subtitle goes here on the second line.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/slideShowWebDesign/slide3.gif</url>
+			<ImageTitle><![CDATA[<h3>Your Slide Title</h3><p class="website">Your slide second line subtitle goes here on the second line.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/slideShowWebDesign/slide4.gif</url>
+			<ImageTitle><![CDATA[<h3>Your Slide Title</h3><p class="website">Your slide second line subtitle goes here on the second line.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/slideShowWebDesign/slide5.gif</url>
+			<ImageTitle><![CDATA[<h3>Your Slide Title</h3><p class="website">Your slide second line subtitle goes here on the second line.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/slideShowWebDesign/slide6.gif</url>
+			<ImageTitle><![CDATA[<h3>Your Slide Title</h3><p class="website">Your slide second line subtitle goes here on the second line.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/slideShowWebDesign/slide7.gif</url>
+			<ImageTitle><![CDATA[<h3>Your Slide Title</h3><p class="website">Your slide second line subtitle goes here on the second line.</p>]]></ImageTitle>
+		</slide>
+</xmlObject>
+
+
+			

@@ -1,0 +1,59 @@
+<form>
+	<title>{TITLE}</title>
+	<action>{SELF.LINK}&module_id={MODULE_ID}&action=store</action>
+	<name>edit</name>
+	<width>100%</width>
+	<alternance>true</alternance>
+
+	<formtag>true</formtag>
+	<border>true</border>
+	
+	<buttons>		
+		<set>
+			<header>true</header>
+		</set>
+
+		<back location="{SELF.PREVIOUS}" button="return" />
+		<save onclick="" location="javascript:document.forms[0].submit();" button="save" />
+		<edit location="{SELF.LINK}action=edit&module_id={MODULE_ID}&returnurl={SELF.LOCATION}" button="edit" />
+
+	</buttons>
+
+	<redirect>{SELF.LINK}&module_id={GLOBAL.GET.MODULE_ID}</redirect>
+
+	<tabs>
+		<t width="100" title="Module Settings" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.user&action=details&mod_id={MODULE_ID}" restricted="eval:$GLOBALS[_USER]['user_level'];"/>
+		<t0 active="true" width="80" title="Texts" link="index.php?mod=oxymall&sub=oxymall.plugin.contact.landing&module_id={MODULE_ID}&returnurl={SELF.PREVIOUS_ENC}" />
+		<t1 width="100" title="Received Messages" link="index.php?mod=oxymall&sub=oxymall.plugin.contact.items&module_id={MODULE_ID}&returnurl={SELF.PREVIOUS_ENC}" />
+		<t_video width="80" title="Video Tutorial" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.help&module_id={MODULE_ID}" restricted="eval:$GLOBALS['no_tutorials'];"/>
+	</tabs>
+
+	<vars>
+		<module_id type="eval" import="$_GET[module_id]" />
+	</vars>
+
+	<fields>
+
+		<header type="textarea" html="true" width="600" height="200" title="Header" toolbar="Basic"/>
+
+		<subtitle title="Contact" type="subtitle" />
+
+		<email type="textbox" size="40" title="Email"/>
+		<email_url type="textbox" size="60" title="Email Url"/>
+
+		<web type="textbox" size="40" title="Web"/>
+		<web_url type="textbox" size="60" title="Web Url"/>
+
+		<ym type="textbox" size="40" title="YM!" />
+		<ym_url type="textbox" size="60" title="YM! Url" />
+
+		<msn type="textbox" size="40" title="MSN" />
+		<msn_url type="textbox" size="60" title="MSN Url" />
+
+		<skype type="textbox" size="40" title="Skype" />
+		<skype_url type="textbox" size="60" title="Skype Url" />
+
+
+	</fields>
+
+</form>

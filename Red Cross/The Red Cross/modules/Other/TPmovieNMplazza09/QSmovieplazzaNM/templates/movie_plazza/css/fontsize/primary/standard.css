@@ -1,0 +1,14 @@
+ /* 
+=================================================
+# Filename : standard.css
+# Description : Font Size Css rules 
+# Author : TemplatePlazza
+# Author Url : http://www.templateplazza.com
+# Copyright (C) 2009 TemplatePlazza.com
+# All rights reserved.
+=================================================
+*/
+ td,p,div,tr, form, input{
+	font-size:13px;
+	color:#404040;
+	}

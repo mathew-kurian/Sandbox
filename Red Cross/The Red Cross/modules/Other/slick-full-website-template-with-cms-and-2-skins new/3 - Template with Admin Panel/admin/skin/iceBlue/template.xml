@@ -1,0 +1,11 @@
+<template>
+
+	<title>Light Blue</title>
+
+	<templates path="/templates/">
+		<template name="menus">menus.htm</template>
+		<template name="user">user.htm</template>
+		<template name="welcome">welcome.htm</template>
+	</templates>
+
+</template>

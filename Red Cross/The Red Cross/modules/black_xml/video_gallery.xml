@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<videoGallery preloaderColor = "0xffff00" scrubColor = "0xffff00">
+
+<videoData thumb="images/video_gallery/thumbs/thumb1.jpg" lgimage="flv/top_of_the_town_preview.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb2.jpg" lgimage="flv/scifi.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb3.jpg" lgimage="flv/3dlogo.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb4.jpg" lgimage="flv/top2.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb5.jpg" lgimage="flv/preview_card_wipe_tunnel.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb6.jpg" lgimage="flv/top_of_the_town_preview.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb7.jpg" lgimage="flv/scifi.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb8.jpg" lgimage="flv/3dlogo.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb9.jpg" lgimage="flv/top2.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb1.jpg" lgimage="flv/top_of_the_town_preview.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb2.jpg" lgimage="flv/scifi.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb3.jpg" lgimage="flv/3dlogo.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb4.jpg" lgimage="flv/top2.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb5.jpg" lgimage="flv/preview_card_wipe_tunnel.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb6.jpg" lgimage="flv/top_of_the_town_preview.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb7.jpg" lgimage="flv/scifi.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb8.jpg" lgimage="flv/3dlogo.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb9.jpg" lgimage="flv/top2.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb1.jpg" lgimage="flv/top_of_the_town_preview.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb2.jpg" lgimage="flv/scifi.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb3.jpg" lgimage="flv/3dlogo.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb4.jpg" lgimage="flv/top2.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb5.jpg" lgimage="flv/preview_card_wipe_tunnel.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb6.jpg" lgimage="flv/top_of_the_town_preview.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb7.jpg" lgimage="flv/scifi.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb8.jpg" lgimage="flv/3dlogo.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb9.jpg" lgimage="flv/top2.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb1.jpg" lgimage="flv/top_of_the_town_preview.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb2.jpg" lgimage="flv/scifi.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb3.jpg" lgimage="flv/3dlogo.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb4.jpg" lgimage="flv/top2.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb5.jpg" lgimage="flv/preview_card_wipe_tunnel.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb6.jpg" lgimage="flv/top_of_the_town_preview.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb7.jpg" lgimage="flv/scifi.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb8.jpg" lgimage="flv/3dlogo.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb9.jpg" lgimage="flv/top2.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb1.jpg" lgimage="flv/top_of_the_town_preview.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb2.jpg" lgimage="flv/scifi.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb3.jpg" lgimage="flv/3dlogo.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb4.jpg" lgimage="flv/top2.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb5.jpg" lgimage="flv/preview_card_wipe_tunnel.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb6.jpg" lgimage="flv/top_of_the_town_preview.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb7.jpg" lgimage="flv/scifi.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb8.jpg" lgimage="flv/3dlogo.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+
+<videoData thumb="images/video_gallery/thumbs/thumb9.jpg" lgimage="flv/top2.flv" image_movie="video" >
+<description><![CDATA[<font color = "#ffff00">XML Video Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</videoData>
+		
+</videoGallery>

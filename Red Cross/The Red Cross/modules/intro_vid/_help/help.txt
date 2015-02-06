@@ -1,0 +1,107 @@
+----------------------------------------------------------------------------
+AS 2.0 XML Background Video Intro V2 by robwes19
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+FAQs
+----------------------------------------------------------------------------
+
+---------------------------------------- 
+How do I update with my video?:
+---------------------------------------- 
+
+1. Save your flv video in the "flv" folder.
+
+2. Open "video.xml" in Notepad or Dreamweaver.
+
+3. Update the path to your new video file.
+
+Example: flv/name_of_your_video.flv 
+
+---------------------------------------- 
+How do I change the buffer time?:
+---------------------------------------- 
+
+1. Open "video.xml" in Notepad or Dreamweaver.
+
+2. Go to the attribute buffTime = "2".
+
+3. Change the value 2 to whatever you want. 2 equals the amount of seconds of playback to preload before the video starts. For larger file sizes you will want to increase the number.
+
+--------------------------------------------------------
+How do I turn looping off so the video plays only once?
+-------------------------------------------------------- 
+
+1. Open "video.xml" in Notepad or Dreamweaver.
+
+2. Go to the attribute loop = "true".
+
+3. Set it to false for no looping, and true for looping.
+
+--------------------------------------------------------
+How do I add my logo?
+-------------------------------------------------------- 
+
+1. First save your logo in the "images"folder. It can be a jpg, png, gif or animated swf.
+
+2. Open "video.xml" in Notepad or Dreamweaver.
+
+3. Go to the attribute logo = "images/logo.png" and change the path.
+
+--------------------------------------------------------
+How do I turn off/on the logo intro?
+-------------------------------------------------------- 
+
+1. Open "video.xml" in Notepad or Dreamweaver.
+
+2. Go to the attribute logoIntro = "true".
+
+3. Set it to false for no logo, and true for logo intro.
+
+--------------------------------------------------------
+How do change the url for my enter button?
+-------------------------------------------------------- 
+
+1. Open "video.xml" in Notepad or Dreamweaver.
+
+2. Go to the attribute url = "http://activeden.net/user/robwes19" and change the url path
+
+--------------------------------------------------------
+How do change the url target window?
+-------------------------------------------------------- 
+
+1. Open "video.xml" in Notepad or Dreamweaver.
+
+2. Go to the attribute target = "_self" and change the target to _blank, _parent, _top or _self.
+
+--------------------------------------------------------
+How do turn off the fullscreen button?
+-------------------------------------------------------- 
+
+1. Open "video.xml" in Notepad or Dreamweaver.
+
+2. Go to the attribute maxScreen = "true" and change true to false.
+
+--------------------------------------------------------
+How do change the fullscreen button color?
+-------------------------------------------------------- 
+
+1. Open "video.xml" in Notepad or Dreamweaver.
+
+2. Go to the attribute btnColor = "0x663399" and change 663399 to your new hecidecimal color value.
+
+--------------------------------------------------------
+How do I get the preview video without a watermark?
+--------------------------------------------------------
+ 
+The video seen in the preview is for demonstration purposes only.
+If you want to use the video seen in the preview without a watermark you can purchase it at this address:
+http://videohive.net/item/3d-logo-reveal/74568
+
+--------------------------------------------------------------------
+I want to use the preview video, but how do I edit it with my logo?
+--------------------------------------------------------------------
+ 
+The video seen in the preview is for demonstration purposes only.
+If you want to edit the video with your logo you must first purchase the video, see above.
+The video will come with instructions on how to edit. You will need Adobe After Effects CS4.

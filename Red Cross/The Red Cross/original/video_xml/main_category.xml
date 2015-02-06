@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss>
+<channel>
+<item id="1">
+<title>Animals</title>
+<thumb_image>images/animals/thumb_image/daytime.jpg</thumb_image>
+<description>Animals are amazing! I love them. They are always nice, wild and funny. These are Australian animals. </description>
+<sub_category>video_xml/animals.xml</sub_category>
+</item>
+<item id="2">
+<title>Black White</title>
+<thumb_image>images/black_white/thumb_image/01.jpg</thumb_image>
+<description>An entity is something that has a distinct, separate existence, though it need not be a material existence. </description>
+<sub_category>video_xml/black_white.xml</sub_category>
+</item>
+<item id="3">
+<title>Nature Moment</title>
+<thumb_image>images/nature/thumb_image/01.jpg</thumb_image>
+<description>Nature refers to the phenomena of the physical universe, and life. Earth is the only planet known to support life, and the study of natural phenomena of living organisms: their origins, diversity, evolution, and interaction is therefore limited to Earth, while extraterrestrial life remains hypothetical. As such, the natural phenomena of Earth itself including its formation and history, weather, and geology are the subject of many fields of research.</description>
+<sub_category>video_xml/natural.xml</sub_category>
+</item>
+<item id="4">
+<title>Buildings</title>
+<thumb_image>images/building/thumb_image/01.jpg</thumb_image>
+<description>Structural height in technical usage is the height to the highest architectural detail on building from street-level. Depending on how they are classified, spires and masts may or may not be included in this height.</description>
+<sub_category>video_xml/building.xml</sub_category>
+</item>
+<item id="5">
+<title>Objects</title>
+<thumb_image>images/object/thumb_image/01.jpg</thumb_image>
+<description>An entity is something that has a distinct, separate existence, though it need not be a material existence. </description>
+<sub_category>video_xml/object.xml</sub_category>
+</item>
+<item id="6">
+<title>Plants</title>
+<thumb_image>images/plant/thumb_image/01.jpg</thumb_image>
+<description>An entity is something that has a distinct, separate existence, though it need not be a material existence. </description>
+<sub_category>video_xml/plant.xml</sub_category>
+</item>
+<item id="7">
+<title>Industrial Machines</title>
+<thumb_image>images/machines/thumb_image/demolition1.jpg</thumb_image>
+<description>A machine is anything that makes work easier. People have used mechanisms to, or transform one form of motion or energy into another. </description>
+<sub_category>video_xml/machines.xml</sub_category>
+</item>
+</channel>
+</rss>

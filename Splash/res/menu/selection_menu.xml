@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+   <item 
+  android:title="Preferences"
+  android:id = "@+id/preferences"
+  />
+  
+  <item 
+  android:title="Rate It"
+  android:id = "@+id/menu_rate_it"
+  />
+  
+  <!-- <item 
+  android:title="Rotating Stuff"
+  android:id="@+id/menu_rotating"
+  /> -->
+  
+</menu>

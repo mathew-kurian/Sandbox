@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/383/trunk/branches/GreatWhite/src/org/papervision3d/core/material
+END
+AbstractLightShadeMaterial.as
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/383/trunk/branches/GreatWhite/src/org/papervision3d/core/material/AbstractLightShadeMaterial.as
+END
+AbstractSmoothShadeMaterial.as
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/core/material/AbstractSmoothShadeMaterial.as
+END
+TriangleMaterial.as
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/381/trunk/branches/GreatWhite/src/org/papervision3d/core/material/TriangleMaterial.as
+END

@@ -1,0 +1,82 @@
+/* 
+=================================================
+# Filename : reset.css
+# Description : CSS rules to reduce browser inconsistencies based on meyerweb CSS reset
+=================================================
+*/
+
+html, body, div, span, applet, object, iframe, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ul,ol,li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	background: transparent;
+}
+a {	
+	outline-width: 0; 
+	} /* remove firefox image link outline */
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	font-weight:normal;
+	}
+blockquote, q {
+	quotes: none;
+    font-style: italic;
+    font-size: 120%;
+
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+	content: none;
+}
+:focus {
+	outline: 0;
+}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+table {
+	border-spacing: 0;
+}
+abbr, acronym, fieldset, img{
+	border:0
+	}
+
+p, fieldset{
+	margin: 1em 0;
+}
+
+html {
+	height: 100%;
+	margin-bottom: 1px; /* force vertical scrollbar */}
+.clrfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}
+
+.clrfix {
+	clear: both; 
+}

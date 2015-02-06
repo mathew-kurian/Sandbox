@@ -1,0 +1,27 @@
+FontName (HelveticaNeue-ThinItalic)
+FullName (Helvetica 36 Thin Italic)
+AppleName (Helvetica 36 ThinItalic)
+AppleFONDID 14771
+FamilyName (Helvetica Neue)
+version (001.003)
+isFixedPitch false
+CharacterSet (isoadobe)
+Encoding (StandardEncoding)
+ItalicAngle -12
+CapHeight 714
+UnderlinePosition -100
+UnderlineThickness 50
+StemWidth 38
+Serif false
+Pi false
+SuperiorBaseline 275
+MSMenuName (Helvetica 35 Thin)
+VPMenuName (Helvetica 35 Thin)
+WORDMenuName (Helvetica35Thin)
+VPTypefaceID 205
+VPStyle (I)
+PCFileNamePrefix (HLTI_)
+PCLTypefaceID 20996
+PCLStrokeWeight -5
+PCLStyle 1
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mk.universityoftexas.austin.LightingLayoutRelative xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/log"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/campus_life_web_bg"
+        android:orientation="vertical" >
+
+        <mk.universityoftexas.austin.OverlayProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <RelativeLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-20dp"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginRight="-25dp"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="-20dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/texture1" >
+
+                <mk.universityoftexas.austin.OverlayWebView
+                    android:id="@+id/campus_life_web_webview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="18dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="43dp"
+                    android:layout_marginTop="20dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:id="@+id/campus_life_web_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/campus_life_web_back"
+                    android:onClick="onClick" />
+
+                <ImageButton
+                    android:id="@+id/campus_life_web_refresh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/campus_life_web_refresh"
+                    android:onClick="onClick" />
+
+                <ImageButton
+                    android:id="@+id/campus_life_web_forward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/campus_life_web_forward"
+                    android:onClick="onClick" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</mk.universityoftexas.austin.LightingLayoutRelative>

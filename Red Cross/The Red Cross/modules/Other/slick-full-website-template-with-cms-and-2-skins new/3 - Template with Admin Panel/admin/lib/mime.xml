@@ -1,0 +1,215 @@
+<content-type>
+	<mime name="323">text/h323</mime> 
+	<mime name="acx">application/internet-property-stream</mime> 
+	<mime name="ai">application/postscript</mime> 
+	<mime name="aif">audio/x-aiff</mime> 
+	<mime name="aifc">audio/x-aiff</mime> 
+	<mime name="aiff">audio/x-aiff</mime> 
+	<mime name="asf">video/x-ms-asf</mime> 
+	<mime name="asr">video/x-ms-asf</mime> 
+	<mime name="asx">video/x-ms-asf</mime> 
+	<mime name="flv">video/x-flv</mime> 
+
+	<mime name="au">audio/basic</mime> 
+	<mime name="avi">video/x-msvideo</mime> 
+	<mime name="axs">application/olescript</mime> 
+	<mime name="bas">text/plain</mime> 
+	<mime name="bcpio">application/x-bcpio</mime> 
+	<mime name="bin">application/octet-stream</mime> 
+	<mime name="bmp">image/bmp</mime> 
+	<mime name="c">text/plain</mime> 
+	<mime name="cat">application/vnd.ms-pkiseccat</mime> 
+
+	<mime name="cdf">application/x-cdf</mime> 
+	<mime name="cer">application/x-x509-ca-cert</mime> 
+	<mime name="class">application/octet-stream</mime> 
+	<mime name="clp">application/x-msclip</mime> 
+	<mime name="cmx">image/x-cmx</mime> 
+	<mime name="cod">image/cis-cod</mime> 
+	<mime name="cpio">application/x-cpio</mime> 
+	<mime name="crd">application/x-mscardfile</mime> 
+	<mime name="crl">application/pkix-crl</mime> 
+
+	<mime name="crt">application/x-x509-ca-cert</mime> 
+	<mime name="csh">application/x-csh</mime> 
+	<mime name="css">text/css</mime> 
+	<mime name="dcr">application/x-director</mime> 
+	<mime name="der">application/x-x509-ca-cert</mime> 
+	<mime name="dir">application/x-director</mime> 
+	<mime name="dll">application/x-msdownload</mime> 
+	<mime name="dms">application/octet-stream</mime> 
+	<mime name="doc">application/msword</mime> 
+
+	<mime name="dot">application/msword</mime> 
+	<mime name="dvi">application/x-dvi</mime> 
+	<mime name="dxr">application/x-director</mime> 
+	<mime name="eps">application/postscript</mime> 
+	<mime name="etx">text/x-setext</mime> 
+	<mime name="evy">application/envoy</mime> 
+	<mime name="exe">application/octet-stream</mime> 
+	<mime name="fif">application/fractals</mime> 
+	<mime name="flr">x-world/x-vrml</mime> 
+
+	<mime name="gif">image/gif</mime> 
+	<mime name="gtar">application/x-gtar</mime> 
+	<mime name="gz">application/x-gzip</mime> 
+	<mime name="h">text/plain</mime> 
+	<mime name="hdf">application/x-hdf</mime> 
+	<mime name="hlp">application/winhlp</mime> 
+	<mime name="hqx">application/mac-binhex40</mime> 
+	<mime name="hta">application/hta</mime> 
+	<mime name="htc">text/x-component</mime> 
+
+	<mime name="htm">text/html</mime> 
+	<mime name="html">text/html</mime> 
+	<mime name="htt">text/webviewhtml</mime> 
+	<mime name="ico">image/x-icon</mime> 
+	<mime name="ief">image/ief</mime> 
+	<mime name="iii">application/x-iphone</mime> 
+	<mime name="ins">application/x-internet-signup</mime> 
+	<mime name="isp">application/x-internet-signup</mime> 
+	<mime name="jfif">image/pipeg</mime> 
+
+	<mime name="jpe">image/jpeg</mime> 
+	<mime name="jpeg">image/jpeg</mime> 
+	<mime name="jpg">image/jpeg</mime> 
+	<mime name="js">application/x-javascript</mime> 
+	<mime name="latex">application/x-latex</mime> 
+	<mime name="lha">application/octet-stream</mime> 
+	<mime name="lsf">video/x-la-asf</mime> 
+	<mime name="lsx">video/x-la-asf</mime> 
+	<mime name="lzh">application/octet-stream</mime> 
+
+	<mime name="m13">application/x-msmediaview</mime> 
+	<mime name="m14">application/x-msmediaview</mime> 
+	<mime name="m3u">audio/x-mpegurl</mime> 
+	<mime name="man">application/x-troff-man</mime> 
+	<mime name="mdb">application/x-msaccess</mime> 
+	<mime name="me">application/x-troff-me</mime> 
+	<mime name="mht">message/rfc822</mime> 
+	<mime name="mhtml">message/rfc822</mime> 
+	<mime name="mid">audio/mid</mime> 
+
+	<mime name="mny">application/x-msmoney</mime> 
+	<mime name="mov">video/quicktime</mime> 
+	<mime name="movie">video/x-sgi-movie</mime> 
+	<mime name="mp2">video/mpeg</mime> 
+	<mime name="mp3">audio/mpeg</mime> 
+	<mime name="mpa">video/mpeg</mime> 
+	<mime name="mpe">video/mpeg</mime> 
+	<mime name="mpeg">video/mpeg</mime> 
+	<mime name="mpg">video/mpeg</mime> 
+
+	<mime name="mpp">application/vnd.ms-project</mime> 
+	<mime name="mpv2">video/mpeg</mime> 
+	<mime name="ms">application/x-troff-ms</mime> 
+	<mime name="mvb">application/x-msmediaview</mime> 
+	<mime name="nws">message/rfc822</mime> 
+	<mime name="oda">application/oda</mime> 
+	<mime name="p10">application/pkcs10</mime> 
+	<mime name="p12">application/x-pkcs12</mime> 
+	<mime name="p7b">application/x-pkcs7-certificates</mime> 
+
+	<mime name="p7c">application/x-pkcs7-mime</mime> 
+	<mime name="p7m">application/x-pkcs7-mime</mime> 
+	<mime name="p7r">application/x-pkcs7-certreqresp</mime> 
+	<mime name="p7s">application/x-pkcs7-signature</mime> 
+	<mime name="pbm">image/x-portable-bitmap</mime> 
+	<mime name="pdf">application/pdf</mime> 
+	<mime name="pfx">application/x-pkcs12</mime> 
+	<mime name="pgm">image/x-portable-graymap</mime> 
+	<mime name="pko">application/ynd.ms-pkipko</mime> 
+
+	<mime name="pma">application/x-perfmon</mime> 
+	<mime name="pmc">application/x-perfmon</mime> 
+	<mime name="pml">application/x-perfmon</mime> 
+	<mime name="pmr">application/x-perfmon</mime> 
+	<mime name="pmw">application/x-perfmon</mime> 
+	<mime name="pnm">image/x-portable-anymap</mime> 
+	<mime name="pot,">application/vnd.ms-powerpoint</mime> 
+	<mime name="ppm">image/x-portable-pixmap</mime> 
+	<mime name="pps">application/vnd.ms-powerpoint</mime> 
+
+	<mime name="ppt">application/vnd.ms-powerpoint</mime> 
+	<mime name="prf">application/pics-rules</mime> 
+	<mime name="ps">application/postscript</mime> 
+	<mime name="pub">application/x-mspublisher</mime> 
+	<mime name="qt">video/quicktime</mime> 
+	<mime name="ra">audio/x-pn-realaudio</mime> 
+	<mime name="ram">audio/x-pn-realaudio</mime> 
+	<mime name="ras">image/x-cmu-raster</mime> 
+	<mime name="rgb">image/x-rgb</mime> 
+
+	<mime name="rmi">audio/mid</mime> 
+	<mime name="roff">application/x-troff</mime> 
+	<mime name="rtf">application/rtf</mime> 
+	<mime name="rtx">text/richtext</mime> 
+	<mime name="scd">application/x-msschedule</mime> 
+	<mime name="sct">text/scriptlet</mime> 
+	<mime name="setpay">application/set-payment-initiation</mime> 
+	<mime name="setreg">application/set-registration-initiation</mime> 
+	<mime name="sh">application/x-sh</mime> 
+
+	<mime name="shar">application/x-shar</mime> 
+	<mime name="sit">application/x-stuffit</mime> 
+	<mime name="snd">audio/basic</mime> 
+	<mime name="spc">application/x-pkcs7-certificates</mime> 
+	<mime name="spl">application/futuresplash</mime> 
+	<mime name="src">application/x-wais-source</mime> 
+	<mime name="sst">application/vnd.ms-pkicertstore</mime> 
+	<mime name="stl">application/vnd.ms-pkistl</mime> 
+	<mime name="stm">text/html</mime> 
+
+	<mime name="svg">image/svg+xml</mime> 
+	<mime name="sv4cpio">application/x-sv4cpio</mime> 
+	<mime name="sv4crc">application/x-sv4crc</mime> 
+	<mime name="t">application/x-troff</mime> 
+	<mime name="tar">application/x-tar</mime> 
+	<mime name="tcl">application/x-tcl</mime> 
+	<mime name="tex">application/x-tex</mime> 
+	<mime name="texi">application/x-texinfo</mime> 
+	<mime name="texinfo">application/x-texinfo</mime> 
+
+	<mime name="tgz">application/x-compressed</mime> 
+	<mime name="tif">image/tiff</mime> 
+	<mime name="tiff">image/tiff</mime> 
+	<mime name="tr">application/x-troff</mime> 
+	<mime name="trm">application/x-msterminal</mime> 
+	<mime name="tsv">text/tab-separated-values</mime> 
+	<mime name="txt">text/plain</mime> 
+	<mime name="uls">text/iuls</mime> 
+	<mime name="ustar">application/x-ustar</mime> 
+
+	<mime name="vcf">text/x-vcard</mime> 
+	<mime name="vrml">x-world/x-vrml</mime> 
+	<mime name="wav">audio/x-wav</mime> 
+	<mime name="wcm">application/vnd.ms-works</mime> 
+	<mime name="wdb">application/vnd.ms-works</mime> 
+	<mime name="wks">application/vnd.ms-works</mime> 
+	<mime name="wmf">application/x-msmetafile</mime> 
+	<mime name="wps">application/vnd.ms-works</mime> 
+	<mime name="wri">application/x-mswrite</mime> 
+
+	<mime name="wrl">x-world/x-vrml</mime> 
+	<mime name="wrz">x-world/x-vrml</mime> 
+	<mime name="xaf">x-world/x-vrml</mime> 
+	<mime name="xbm">image/x-xbitmap</mime> 
+	<mime name="xla">application/vnd.ms-excel</mime> 
+	<mime name="xlc">application/vnd.ms-excel</mime> 
+	<mime name="xlm">application/vnd.ms-excel</mime> 
+	<mime name="xls">application/vnd.ms-excel</mime> 
+	<mime name="xlt">application/vnd.ms-excel</mime> 
+
+	<mime name="xlw">application/vnd.ms-excel</mime> 
+	<mime name="xof">x-world/x-vrml</mime> 
+	<mime name="xpm">image/x-xpixmap</mime> 
+	<mime name="xwd">image/x-xwindowdump</mime> 
+	<mime name="z">application/x-compress</mime> 
+	<mime name="zip">application/zip</mime> 
+	
+	<mime name="swf">application/x-shockwave-flash</mime>
+	<mime name="xml">text/xml</mime>
+
+	<mime name="unknown">application/octet-stream</mime> 
+
+</content-type>

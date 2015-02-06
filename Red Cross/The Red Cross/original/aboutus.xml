@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<aboutData>
+
+<lgimage path = "images/about/gun.jpg"><![CDATA[<font color = "#ffff00">XML About us Description Header</font><br>Set a description for the splash page in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></lgimage>
+
+<header><![CDATA[<font color = "#ffffff" size ="35">Every aspect of this template is controlled via xml</font>]]></header>
+
+<subheader><![CDATA[<font color = "#111111">All of the colored buttons, text, loaders, scrub bars can be skinned in xml</font>]]></subheader>
+
+</aboutData>

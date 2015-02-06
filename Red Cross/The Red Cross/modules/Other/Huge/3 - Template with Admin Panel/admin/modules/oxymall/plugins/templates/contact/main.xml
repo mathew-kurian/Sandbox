@@ -1,0 +1,37 @@
+<!--S:Main-->
+<contactUs>
+	<settingsScript>		
+		<text>{SET_TEXT}</text>		
+		<upload>{SET_UPLOAD}</upload>	
+	</settingsScript>
+	
+	<content title="{TITLE}" url="/{MOD_URL}/">	
+		<![CDATA[{HEADER}]]>		
+		<contactData
+			
+			email="{EMAIL}"  
+			emailUrl="{EMAIL_URL}"
+			toggleEmail="{EMAIL_TOGLE}"
+
+			web="{WEB}"  
+			webUrl="{WEB_URL}"
+			toggleWeb="{WEB_TOGLE}"
+			
+			ym="{YM}"  
+			ymUrl="{YM_URL}"
+			toggleYm="{YM_TOGLE}"
+
+			msn="{MSN}"  
+			msnUrl="{MSN_URL}"
+			toggleMsn="{MSN_TOGLE}"
+
+			skype="{SKYPE}"  
+			skypeUrl="{SKYPE_URL}"
+			toggleSkype="{SKYPE_TOGLE}"
+						
+		></contactData>
+		
+	</content>
+	
+</contactUs>
+<!--E:Main-->

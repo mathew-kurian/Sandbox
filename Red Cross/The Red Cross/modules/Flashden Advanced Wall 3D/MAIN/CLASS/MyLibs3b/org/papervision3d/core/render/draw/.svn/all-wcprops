@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/419/trunk/branches/GreatWhite/src/org/papervision3d/core/render/draw
+END
+IParticleDrawer.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/419/trunk/branches/GreatWhite/src/org/papervision3d/core/render/draw/IParticleDrawer.as
+END
+ITriangleDrawer.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/core/render/draw/ITriangleDrawer.as
+END
+ILineDrawer.as
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/core/render/draw/ILineDrawer.as
+END

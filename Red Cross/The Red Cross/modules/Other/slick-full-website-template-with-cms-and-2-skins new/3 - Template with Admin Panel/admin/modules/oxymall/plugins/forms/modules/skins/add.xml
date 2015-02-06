@@ -1,0 +1,64 @@
+<form>
+	<title>{SELF.TITLE} Skin</title>
+	<action>{SELF.URI.STORE}</action>
+	<name>edit</name>
+	<width>100%</width>
+	<alternance>true</alternance>
+	<encoding>multipart/form-data</encoding>
+
+
+	<formtag>true</formtag>
+	<border>true</border>
+	
+	<buttons>		
+		<set>
+			<header>true</header>
+		</set>
+
+
+		<button_back onclick="" button="return">
+			<location>{PRIVATE.FORM_PREVIOUS_PAGE}</location>
+		</button_back>
+
+		<button_edit onclick="" button="edit">
+			<location>{SELF.URI.EDIT}</location>
+		</button_edit>
+
+		<button_save button="saveall">
+			<location>javascript:document.forms[0].submit();</location>
+		</button_save>
+
+	</buttons>
+
+	<redirect>{PHP}?sub=accounts</redirect>
+
+	<fields>
+
+		<skin_id type="hidden"/>
+		
+		<skin_name type="textbox" size="60:200" title="Name" required="true" validate="A:1:200" unique="true" onblur="AddPageCode(this.value);"/>
+		<skin_code type="textbox" size="20:20" title="Folder" required="true" validate="A:1:200" unique="true" preffix="/upload/skins/" suffix="/" restricted="eval:$_REQUEST[skin_id];"/>
+
+		<comment_auto padding="20" type="comment" align="center" subtype="extern" file="add.htm" /> 
+
+		<skin_file valign="top" adminwidth="100" type="upload" path="./skins/" absolute="false" editable="true">
+			<file default="" field="skin_id" ext=".zip" />			
+			<title>Skin (.zip)</title>
+			<error>No file uploaded.</error>						
+		</skin_file>
+
+	</fields>
+
+	<javascript>
+		<after>
+			function AddPageCode(txt) {
+				if (document.forms['edit'].skin_code.value == '') {
+					var url = Name2Url(txt.trim());
+					document.forms['edit'].skin_code.value = url.toLowerCase();
+				}
+
+			}
+		</after>
+	</javascript>
+
+</form>

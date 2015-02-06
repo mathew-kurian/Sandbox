@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<content>
+
+<gallery Name="SWF">
+    <item Thumb="media_gallery/swf/thumb1.jpg" Large="media_gallery/swf/flash1.swf" Title="Flash Animation Example: Circles">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Flash Animation Example: Circles</b></font><br>You can add any size Flash swf file to this gallery. The width and height of the swf is defined in the XML.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/swf/thumb1.jpg" Large="media_gallery/swf/flash2.swf" Title="Flash Animation Example: Stars">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Flash Animation Example: Stars</b></font><br>You can add any size Flash swf file to this gallery. The width and height of the swf is defined in the XML.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/swf/thumb1.jpg" Large="media_gallery/swf/flash3.swf" Title="Flash Animation Example: Music Notes">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Flash Animation Example: Music Notes</b></font><br>You can add any size Flash swf file to this gallery. The width and height of the swf is defined in the XML.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+</gallery>
+
+</content>

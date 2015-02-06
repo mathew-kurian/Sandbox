@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<XMLobject>
+	
+	<header>
+		<url>site_images/header.png</url>
+	</header>
+	<footer>
+		<url>site_images/footer.gif</url>
+	</footer>
+	<logo>
+		<url>site_images/nulogo.png</url>
+	</logo>
+	<logoX>49</logoX>
+	<logoY>27</logoY>
+	
+	<startingVolume>.5</startingVolume><!-- 0 being the lowest volume  1 being 100% -->
+	
+	<copyright>Copyright 2009 Your Company All Rights Reserved</copyright>
+	<copyrightColor>0x333333</copyrightColor>
+	
+	<displayTransparentImageOverBackground>false</displayTransparentImageOverBackground>
+	<transparentImage>site_images/transparentScreen.png</transparentImage>
+	
+<!-- PAGE 1 -->
+	<page>
+		<name>Content</name>
+		<hasSubPages>true</hasSubPages>
+		<subPage>
+			<name>Layout Style 1</name>
+			<xmlPath>site_configuration/layout1.xml</xmlPath>
+			<cssPath>site_stylesheets/content.css</cssPath>
+			<utilityType>content</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Layout Style 2</name>
+			<xmlPath>site_configuration/layout2.xml</xmlPath>
+			<cssPath>site_stylesheets/content.css</cssPath>
+			<utilityType>content</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Layout Style 3</name>
+			<xmlPath>site_configuration/layout3.xml</xmlPath>
+			<cssPath>site_stylesheets/content.css</cssPath>
+			<utilityType>content</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+	</page>
+
+<!-- PAGE 2 -->
+	<page>
+		<name>Services</name>
+		<hasSubPages>true</hasSubPages>
+		<subPage>
+			<name>Flash Development</name>
+			<xmlPath>site_configuration/services_flash.xml</xmlPath>
+			<cssPath>site_stylesheets/content.css</cssPath>
+			<utilityType>content</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Brand Creation</name>
+			<xmlPath>site_configuration/services_brand.xml</xmlPath>
+			<cssPath>site_stylesheets/content.css</cssPath>
+			<utilityType>content</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Website Design</name>
+			<xmlPath>site_configuration/services_web.xml</xmlPath>
+			<cssPath>site_stylesheets/content.css</cssPath>
+			<utilityType>content</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Photography</name>
+			<xmlPath>site_configuration/services_photography.xml</xmlPath>
+			<cssPath>site_stylesheets/content.css</cssPath>
+			<utilityType>content</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Website Hosting</name>
+			<xmlPath>site_configuration/services_hosting.xml</xmlPath>
+			<cssPath>site_stylesheets/content.css</cssPath>
+			<utilityType>content</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Cinematography</name>
+			<xmlPath>site_configuration/services_cinematography.xml</xmlPath>
+			<cssPath>site_stylesheets/content.css</cssPath>
+			<utilityType>content</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+	</page>
+
+<!-- PAGE 3-->
+	<page>
+		<name>Portfolio</name>
+		<hasSubPages>true</hasSubPages>
+		<subPage>
+			<name>Flash Portfolio</name>
+			<xmlPath>site_configuration/portfolio_flash2.xml</xmlPath>
+			<cssPath>site_stylesheets/content.css</cssPath>
+			<utilityType>portfolio</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Brand Portfolio</name>
+			<xmlPath>site_configuration/portfolio_brand.xml</xmlPath>
+			<cssPath>site_stylesheets/content.css</cssPath>
+			<utilityType>portfolio</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Web Design Portfolio</name>
+			<xmlPath>site_configuration/portfolio_web.xml</xmlPath>
+			<cssPath>site_stylesheets/content.css</cssPath>
+			<utilityType>portfolio</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Photography Portfolio</name>
+			<xmlPath>site_configuration/portfolio_photography.xml</xmlPath>
+			<cssPath>site_stylesheets/content.css</cssPath>
+			<utilityType>portfolio</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+	</page>
+
+
+<!-- PAGE 4 -->
+	<page>
+		<name>Gallery</name>
+		<hasSubPages>true</hasSubPages>
+		<subPage>
+			<name>Album 1</name>
+			<xmlPath>site_configuration/PhotoGallery2.xml</xmlPath>
+			<utilityType>photos</utilityType>
+			<cssPath>site_stylesheets/photo.css</cssPath>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Album 2</name>
+			<xmlPath>site_configuration/PhotoGallery1.xml</xmlPath>
+			<utilityType>photos</utilityType>
+			<cssPath>site_stylesheets/photo.css</cssPath>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Album 2</name>
+			<xmlPath>site_configuration/PhotoGallery4.xml</xmlPath>
+			<utilityType>photos</utilityType>
+			<cssPath>site_stylesheets/photo.css</cssPath>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Album 3</name>
+			<xmlPath>site_configuration/PhotoGallery1.xml</xmlPath>
+			<utilityType>photos</utilityType>
+			<cssPath>site_stylesheets/photo.css</cssPath>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+	</page>
+	
+<!-- PAGE 5 -->
+	<page>
+		<name>Blog</name>
+		<hasSubPages>true</hasSubPages>
+		<subPage>
+			<name>Large Articles</name>
+			<xmlPath>site_configuration/newsLarge.xml</xmlPath>
+			<cssPath>site_stylesheets/content.css</cssPath>
+			<utilityType>blog</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Small Articles</name>
+			<xmlPath>site_configuration/news.xml</xmlPath>
+			<cssPath>site_stylesheets/content.css</cssPath>
+			<utilityType>blog</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+	</page>
+	
+<!-- PAGE 6 -->
+	<page>
+		<name>The Crew</name>
+		<hasSubPages>true</hasSubPages>
+		<subPage>
+			<name>Management</name>
+			<xmlPath>site_configuration/team1.xml</xmlPath>
+			<utilityType>team</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Directors</name>
+			<xmlPath>site_configuration/team1.xml</xmlPath>
+			<utilityType>team</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Developers</name>
+			<xmlPath>site_configuration/team1.xml</xmlPath>
+			<utilityType>team</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Artists</name>
+			<xmlPath>site_configuration/team1.xml</xmlPath>
+			<utilityType>team</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+	</page>
+
+<!-- PAGE 7 -->
+	<page>
+		<name>Sub Pages</name>
+		<hasSubPages>true</hasSubPages>
+		<subPage>
+			<name>Features</name>
+			<xmlPath>site_configuration/features.xml</xmlPath>
+			<utilityType>slideshow</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+			<cssPath>site_stylesheets/content.css</cssPath>
+		</subPage>
+		<subPage>
+			<name>Photos</name>
+			<utilityType>photos</utilityType>
+			<xmlPath>site_configuration/PhotoGallery3.xml</xmlPath>
+			<cssPath>site_stylesheets/photo.css</cssPath>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Content</name>
+			<utilityType>content</utilityType>
+			<xmlPath>site_configuration/layout1.xml</xmlPath>
+			<cssPath>site_stylesheets/content.css</cssPath>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Contact</name>
+			<utilityType>contact</utilityType>
+			<xmlPath>site_configuration/contact.xml</xmlPath>
+			<cssPath>site_stylesheets/contact.css</cssPath>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Your SWF</name>
+			<utilityType>externalSwf</utilityType>
+			<xmlPath>site_configuration/externalSWF2.xml</xmlPath>
+			<cssPath>site_stylesheets/contact.css</cssPath>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Link</name>
+			<utilityType>link</utilityType>
+			<externalURL>http://flashden.net/user/FLASHdriven/portfolio</externalURL>
+		</subPage>
+	</page>
+
+<!-- PAGE 8 -->
+	<page>
+		<name>Videos</name>
+		<hasSubPages>true</hasSubPages>
+		<subPage>
+			<name>Single Video</name>
+			<xmlPath>site_configuration/intro.xml</xmlPath>
+			<utilityType>video</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+		<subPage>
+			<name>Video Gallery</name>
+			<xmlPath>site_configuration/videoGallery.xml</xmlPath>
+			<cssPath>site_stylesheets/content.css</cssPath>
+			<utilityType>content</utilityType>
+			<bgImage>site_images/bg1.jpg</bgImage>
+			<tileBgImage>true</tileBgImage>
+		</subPage>
+	</page>
+
+	<!-- PAGE 9 -->
+	<page>
+		<name>SlideShow</name>
+		<hasSubPages>false</hasSubPages>
+		<xmlPath>site_configuration/features.xml</xmlPath>
+		<utilityType>slideshow</utilityType>
+		<bgImage>site_images/bg1.jpg</bgImage>
+		<tileBgImage>true</tileBgImage>
+		<cssPath>site_stylesheets/content.css</cssPath>
+	</page>
+	
+	<!-- PAGE 10 -->
+	<page>
+		<name>Your SWF</name>
+		<hasSubPages>false</hasSubPages>
+		<utilityType>externalSwf</utilityType>
+		<xmlPath>site_configuration/externalSWF2.xml</xmlPath>
+		<cssPath>site_stylesheets/contact.css</cssPath>
+		<bgImage>site_images/bg1.jpg</bgImage>
+		<tileBgImage>true</tileBgImage>
+	</page>
+
+	<!-- PAGE 11 -->
+	<page>
+		<name>Link</name>
+		<hasSubPages>false</hasSubPages>
+		<utilityType>link</utilityType>
+		<externalURL>http://flashden.net/user/FLASHdriven/portfolio</externalURL>
+	</page>
+	
+<!-- PAGE 12 -->
+	<page>
+		<name>Contact</name>
+		<hasSubPages>false</hasSubPages>
+		<utilityType>contact</utilityType>
+		<xmlPath>site_configuration/contact.xml</xmlPath>
+		<cssPath>site_stylesheets/contact.css</cssPath>
+		<bgImage>site_images/bg1.jpg</bgImage>
+		<tileBgImage>true</tileBgImage>
+	</page>
+	
+
+</XMLobject>

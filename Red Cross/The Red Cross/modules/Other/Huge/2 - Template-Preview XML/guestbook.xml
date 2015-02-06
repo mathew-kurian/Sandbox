@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AboutUs>
+
+	<settings>
+		
+		<contentWidth>400</contentWidth>
+		
+		<contentHeight>300</contentHeight>
+
+		<formXPos>100</formXPos>
+		
+		<smilyWidth>35</smilyWidth>
+		
+		<smilyHeight>35</smilyHeight>
+		
+		<script>something.php</script>
+		
+	</settings>
+	
+	<content title="Guestbook" titleForm="Send a comment">
+		<entry name="The name" approved="1">
+			<![CDATA[You can enter as much text as you wish and let the scroller handle it. Also keep in mind you can use&nbsp; <b>html tags</b> to format it, add links, images etc One other interesting feature is the fact that if no photos are specified for the slideshow on the left, this text field will expand on the entire display width so there are no nasty looking empty spaces.]]>
+		</entry>
+		
+		<entry name="Claudio" approved="0">
+			<![CDATA[You can enter as much text as you wish and let the scroller handle it. Also keep in mind you can use&nbsp; <b>html tags</b> to format it, add links, images etc One other interesting feature is the fact that if no photos are specified for the slideshow on the left, this text field will expand on the entire display width so there are no nasty looking empty spaces.]]>
+		</entry>
+		
+		
+		<entry name="Claudio" approved="1">
+			<![CDATA[You can enter as much text as you wish and let the scroller handle it. Also keep in mind you can use&nbsp; <b>html tags</b> to format it, add links, images etc One other interesting feature is the fact that if no photos are specified for the slideshow on the left, this text field will expand on the entire display width so there are no nasty looking empty spaces.]]>
+		</entry>
+		
+		
+		<entry name="Claudio" approved="1">
+			<![CDATA[This is a test with some smilies <img src="smilies/burn.png" width="35" height="35">
+Enter pressed and here comes a smily <img src="smilies/fire.png" width="35" height="35">Cheers !
+
+<img src="smilies/cool.png" width="35" height="35">]]>
+		</entry>
+	</content>
+	
+	
+	<smilies>
+		
+		<item src="smilies/anger.PNG" identifier=":)"></item>
+
+		<item src="smilies/burn.PNG" identifier=":D"></item>
+		
+		<item src="smilies/confused.PNG" identifier=":))"></item>
+		
+		<item src="smilies/cool.PNG" identifier=":L"></item>
+		
+		<item src="smilies/cry.PNG" identifier=":S"></item>
+		
+		<item src="smilies/fire.PNG" identifier=":C"></item>
+		
+		<item src="smilies/grimace.PNG" identifier="=))"></item>
+		
+		
+		
+		<item src="smilies/anger.PNG" identifier=":C"></item>
+
+		<item src="smilies/burn.PNG" identifier=":B"></item>
+		
+		<item src="smilies/confused.PNG" identifier=":D"></item>
+		
+		<item src="smilies/cool.PNG" identifier=":E" ></item>
+		
+		<item src="smilies/cry.PNG" identifier=":F"></item>
+		
+		<item src="smilies/fire.PNG" identifier=":G"></item>
+		
+		<item src="smilies/grimace.PNG" identifier=":M"></item>
+		
+		
+
+	</smilies>
+
+</AboutUs>

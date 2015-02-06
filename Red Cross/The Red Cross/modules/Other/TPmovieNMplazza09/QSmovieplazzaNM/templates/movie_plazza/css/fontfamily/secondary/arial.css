@@ -1,0 +1,19 @@
+ /* 
+=================================================
+# Filename : arial.css
+# Description : Font Family Css rules 
+# Author : TemplatePlazza
+# Author Url : http://www.templateplazza.com
+# Copyright (C) 2009 TemplatePlazza.com
+# All rights reserved.
+=================================================
+*/
+.contentheading,
+.contentpagetitle,
+.componentheading,
+td.contentheading,
+div.componentheading,
+h1,h2,h3
+ {
+	font-family:Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+	}

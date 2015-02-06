@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+
+	<display
+	
+		totalWidth="590"
+		totalHeight="300"
+	
+		tabTitle1="0xFFFFFF"
+		tabTitle2="0xF0F0F0"
+		
+		tabRollTitle1="0xFF0033"
+		tabRollTitle2="0xFF0033"
+		
+		htmlBackground="0x000000"
+		
+		scrollbarColor1="0x333333"
+		scrollbarColor2="0xDFDFDF"
+	
+	 />
+	
+	<news>
+	
+		<item title1="Awesome news rotator" title2="12.04.2008"><![CDATA[<img src="news_assets/1.png" width="130" height="90" vspace="0">This is a simple news module with tabs. It supports unlimited tabs and html text. This means that you can add as many news articles as you want here, or you can use this for any other purpose.<br><br>Because of the html text, you can embed pictures or even swf files and format your text in the way you want.]]></item>
+		<item title1="Supports html text and images" title2="12.04.2008"><![CDATA[HTML gives you much more advantages, such as hyperlinks : <a href="http://flashden.net" target="_blank">www.flashden.net</a>, and unordered lists:<ul><li>the entire design can be customized via xml</li><li>to use, you just need to embed it in your html page..</li><li>..and change the xml file(add your own articles)</li><li>never open the Flash file!</li></ul><br><img src="news_assets/2.png" width="130" height="90" hspace="115">]]></item>
+		<item title1="Scrollbar for long content" title2="12.04.2008"><![CDATA[Long content comes here only gibberish matters now because nothing makes sense. You are keep reading this because you think that's interesting, but it's not. House, dog, cat, tv, subwoofer, laptop, bugs, car, telephone, door, school, heart, shoe, hear, microsoft, these are only words. Words that make this text field look bigger so you can see the scrollbar in action. Do you like the scrollbar? Or it is just the scrollbar that likes you? Anyway, this is not enough for you to test the scrollbar, so i will use another thing to yes, no, long, speed, graphic, color, blue, eye, paper, lamp, and me saying words again. But i am really just typing whatever comes out of my mouth. Is this enough? No.. It is never enough. It doesn't matter what's the subject, it is in our nature to be music, bus, yellow, guitar, pedal, socks, plates, earth, human, window, wolf, game, ice cream, sun, rain, and a lot of other words that compose our vocabulary.<br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br><br><font color="#FF0066">As a conclusion .. yes, there is a scrollbar for long content</font><br><br>&nbsp;]]></item>
+		<item title1="Lorem Ipsum.." title2="12.04.2008"><![CDATA[Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.]]></item>
+		<item title1="..dolor sit amet" title2="12.04.2008"><![CDATA[It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).]]></item>
+		<item title1="Lorem Ipsum.." title2="12.04.2008"><![CDATA[Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.]]></item>
+		<item title1="..dolor sit amet" title2="12.04.2008"><![CDATA[It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).]]></item>
+		
+	</news>
+
+</settings>

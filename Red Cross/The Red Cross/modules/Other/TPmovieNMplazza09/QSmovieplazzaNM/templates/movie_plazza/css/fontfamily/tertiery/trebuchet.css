@@ -1,0 +1,43 @@
+ /* 
+=================================================
+# Filename : trebuchet.css
+# Description : Font Family Css rules 
+# Author : TemplatePlazza
+# Author Url : http://www.templateplazza.com
+# Copyright (C) 2009 TemplatePlazza.com
+# All rights reserved.
+=================================================
+*/
+small,
+.small,
+.smalldark,
+.createdate,
+.modifydate,
+span.createdate,
+td.modifydate,
+.author ,
+div.moduletable_inner,
+div.moduletable_inner  p,
+div.moduletable_inner  div,
+div.moduletable_inner  td,
+div.moduletable_inner  span,
+div.moduletable_inner  a,
+div.moduletable_inner  form *,
+div.tpaccordionelement-inner,
+div.tpaccordionelement-inner p,
+div.tpaccordionelement-inner div,
+div.tpaccordionelement-inner td,
+div.tpaccordionelement-inner span,
+div.tpaccordionelement-inner a,
+div.tpaccordionelement-inner form *,
+div.mootabs_inner,
+div.mootabs_inner p,
+div.mootabs_inner div,
+div.mootabs_inner td,
+div.mootabs_inner span,
+div.mootabs_inner a,
+div.mootabs_inner form *,
+.tp-authorline ,
+a.readon {
+	font-family:"Trebuchet MS",Arial,Tahoma,Verdana;
+	}

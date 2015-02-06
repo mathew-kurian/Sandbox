@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	
+	<contentWidth>700</contentWidth>
+	<contentHeight>1060</contentHeight>
+	<contentBgColor>0x0c0c0c</contentBgColor>
+	<contentBgOpacity>1</contentBgOpacity>
+	<scrollBaseColor>0x2e2e2e</scrollBaseColor>
+	<scrollerColor>0x656565</scrollerColor>
+	
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>true</displayHtmlArticles>
+	<displaySlideShow>false</displaySlideShow>									
+
+	<slideShow>
+		<x></x>
+		<y></y>
+		<width></width>
+		<height></height>
+		<bgColor></bgColor>
+		<xmlURL></xmlURL>
+	</slideShow>
+	
+	<!-- Opening Image -->
+	<image>
+		<x>40</x>
+		<y>40</y>
+		<imageURL>site_images/extendedArticlePic.jpg</imageURL>
+		<includeLargeImage>true</includeLargeImage>
+		<largeURL>site_images/pop-up.jpg</largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	
+	<!-- Heading 1 as Image -->
+	<image>
+		<x>40</x>
+		<y>343</y>
+		<imageURL>site_images/nuHomeTitle.png</imageURL>
+		<includeLargeImage></includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	
+	<!-- Page Article -->
+	<article>
+		<x>40</x>
+		<y>459</y>
+		<width>617</width>
+		<articleText><![CDATA[<p align="justify" class="extraLeading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus tellus in lacus euismod molestie. Sed condimentum nisl eu justo porta a lacinia dolor eleifend. Nullam vel lacus id purus suscipit semper. Cras nec aliquam leo. Phasellus leo libero, hendrerit quis imperdiet at, tempor ac metus. Aliquam id nisi quis metus egestas viverra. Integer vel lorem est. Nulla nec sapien odio, molestie sollicitudin odio. Integer venenatis lorem ut nunc placerat id consequat arcu bibendum. Proin dictum, elit id pretium rhoncus, nulla leo porta massa, quis auctor nibh metus vitae elit. Vestibulum sapien eros, consequat quis venenatis quis, viverra nec urna. Sed at mi id leo lacinia faucibus. In hendrerit sodales commodo. Curabitur tellus metus, pretium vitae sagittis id, semper fringilla libero. Aliquam in nibh sed libero luctus consequat eget eget diam. Etiam ornare, dolor quis posuere elementum, urna leo faucibus lacus, nec dictum orci orci eu libero. Donec rutrum, odio vel lobortis auctor, enim mauris tincidunt sapien, varius cursus lacus diam sed justo. Aliquam erat volutpat. Donec ullamcorper turpis eget risus suscipit sit amet mollis diam commodo. Quisque mi sem, dictum a placerat eu, malesuada et turpis. Nullam sollicitudin tellus nec metus accumsan non dapibus ante commodo. Duis dui nibh, hendrerit id malesuada nec, condimentum eu nunc. Suspendisse ornare, dui et vulputate euismod, dolor risus facilisis lacus, non faucibus urna lacus sed nisl. Sed sed enim nunc. Donec elementum tincidunt lacinia. Proin sit amet vulputate sapien. Pellentesque pharetra sollicitudin imperdiet. Etiam vitae libero ac tortor bibendum fringilla eget in lacus. Proin fringilla elementum eleifend. Curabitur placerat adipiscing pretium. Cras posuere pulvinar facilisis. Morbi ut lectus arcu, eu laoreet nisi. Aenean et nisi quis arcu fermentum scelerisque in a lacus. Aenean sit amet nibh dui. Fusce nec metus erat, non posuere lorem. Nam tortor dui, eleifend eu bibendum nec, vestibulum id massa. Donec sollicitudin hendrerit sapien, eget accumsan neque ultrices vitae. Ut nec dolor sit amet nisi ullamcorper feugiat vel sit amet orci. In congue elementum dui, vitae convallis lacus bibendum at. Nulla nec sollicitudin nisi. Vestibulum vitae scelerisque justo. Pellentesque ut ipsum eget est rutrum aliquam a vel sapien. Duis tincidunt nunc vitae ipsum fermentum sit amet aliquam justo auctor. Integer auctor scelerisque nulla, ut rhoncus dui semper quis. Etiam id massa sed massa lobortis mollis at in ante. Praesent viverra turpis at arcu porttitor quis viverra tellus hendrerit. Duis elit turpis, commodo vel venenatis quis, malesuada in lorem.</p>]]>
+		</articleText>
+	</article>
+
+</xmlObject>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contact>
+	<body>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi mi, cursus in, porttitor at, commodo non, est. In a tellus ac mauris auctor pellentesque. Maecenas tincidunt consequat dolor. Nulla rhoncus sodales leo. Vestibulum congue feugiat nisi. Quisque et lorem.</body>
+	<email>yourname@yourcompany.com</email>
+	<telephone>+1-234-567-8934</telephone>
+	<fax>+1-234-567-8935</fax>
+	<address>1167 Red Maple Drive, Los Angeles, CA</address>
+</contact>

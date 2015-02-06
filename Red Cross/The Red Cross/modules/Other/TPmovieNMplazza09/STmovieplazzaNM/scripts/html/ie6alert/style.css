@@ -1,0 +1,50 @@
+/* 
+=================================================
+# Filename : style.css
+# Description : IE6 Alert CSS rules
+# Author : TemplatePlazza
+# Author Url : http://www.templateplazza.com
+# Copyright (C) 2009 TemplatePlazza.com
+# All rights reserved.
+=================================================
+*/
+* {
+	margin:0;
+	padding:0;}
+body {
+	background:url(images/bg.jpg) no-repeat center top #786E6F;
+	text-align:center;
+	font-family:Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+	color:#FFFFFF;
+	}
+a:link {
+	color:#FFFFFF;
+	text-decoration:none;}
+a:link:hover {
+	color:#FF0000;}
+a:visited {
+	color:#666666;
+	text-decoration:none;}
+#tp-ie6-alert-wrapper {
+	margin:0 auto;
+}
+#tp-ie6-alert-message {
+	width:600px;
+	height:300px;
+	text-align:center;
+	margin-top:220px;}
+#tp-ie6-alert-message h1 {
+	font-size:30px;}
+#tp-ie6-alert-message p {
+	margin-top:15px;
+	font-size:13px;}
+#tp-ie6-alert-browser {
+	margin-top:55px;}
+.tp-ie6-alert-items {
+	width:120px;
+	float:left;
+	font-size:11px;
+	font-weight:700;}
+.tp-ie6-alert-items  img {
+	margin-bottom:5px;
+	border:none;}

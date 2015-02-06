@@ -1,0 +1,454 @@
+ /* 
+=================================================
+# Filename : tp_dropcolumn.css
+# Description : Specific CSS rules for Dropcolumn TP Menu 
+# Author : TemplatePlazza
+# Author Url : http://www.templateplazza.com
+# Copyright (C) 2009 TemplatePlazza.com
+# All rights reserved.
+=================================================
+*/
+#tp-cssmenu{
+	float: left;
+	margin: 0px;
+	background: none;
+	border: none;
+	font-size:11px;
+}
+
+#tp-cssmenu ul{
+	margin: 0; /* all lists */
+	padding: 0;
+
+}
+
+#tp-cssmenu li{
+	margin: 0; /* all list items */
+	padding: 0 0 0 0;
+	float: left;
+	display: block;
+	cursor: pointer;
+	position: relative;
+	z-index:100000;
+	
+}
+
+#tp-cssmenu li ul{
+	position: absolute; /* second-level lists */
+	z-index: 9999999;
+	width: 14.5em; 
+	margin-top:0px;
+	padding:0 0 0 0;
+	background-image:none;
+	margin-left:0;
+
+}
+
+#tp-cssmenu ul ul{
+	margin: -2em 0 0 16.3em; /* third-and-above-level lists */
+	padding-bottom:0;
+	padding:0 0 0 0;
+	
+}
+#tp-cssmenu li li,
+#tp-cssmenu li li.sfover{
+	padding: 0;
+	margin: 0;
+	width: 14.3em;
+    background: #111111;    
+}
+
+#tp-cssmenu ul a{
+}
+
+#tp-cssmenu li ul{
+	left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+}
+
+#tp-cssmenu li:hover ul ul, #tp-cssmenu li:hover ul ul ul, #tp-cssmenu li:hover ul ul ul ul,
+#tp-cssmenu li.sfhover ul ul, #tp-cssmenu li.havechildsfhover ul ul, #tp-cssmenu li.havechild-activesfhover ul ul, #tp-cssmenu li.activesfhover ul ul,
+#tp-cssmenu li.sfhover ul ul ul, #tp-cssmenu li.havechildsfhover ul ul ul, #tp-cssmenu li.havechild-activesfhover ul ul ul, #tp-cssmenu li.activesfhover ul ul ul,
+#tp-cssmenu li.sfhover ul ul ul ul, #tp-cssmenu li.havechildsfhover ul ul ul ul, #tp-cssmenu li.havechild-activesfhover ul ul ul ul, #tp-cssmenu li.activesfhover ul ul ul ul{
+	left: -999em;
+}
+
+/* This "unhides" the sub-menus (left: -999em is what hides them) */
+#tp-cssmenu li:hover ul, #tp-cssmenu li li:hover ul, #tp-cssmenu li li li:hover ul, #tp-cssmenu li li li li:hover ul,
+#tp-cssmenu li.sfhover ul, #tp-cssmenu li.havechildsfhover ul, #tp-cssmenu li.havechild-activesfhover ul, #tp-cssmenu li.activesfhover ul,
+#tp-cssmenu li li.sfhover ul, #tp-cssmenu li li.havesubchildsfhover ul, #tp-cssmenu li li.havesubchild-activesfhover ul, #tp-cssmenu li li.activesfhover ul,
+#tp-cssmenu li li li.sfhover ul, #tp-cssmenu li li li.havesubchildsfhover ul, #tp-cssmenu li li li.havesubchild-activesfhover ul, #tp-cssmenu li li li.activesfhover ul,
+#tp-cssmenu li li li li.sfhover ul, #tp-cssmenu li li li li.havesubchildsfhover ul, #tp-cssmenu li li li li.havesubchild-activesfhover ul, #tp-cssmenu li li li li.activesfhover ul{
+	left: auto;
+}
+
+/* STYLING THE MENU
+-----------------------------------*/
+/* 1st level */
+#tp-cssmenu li a{
+	display: block;
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+	text-align:left;
+	padding:15px 10px 10px 10px;
+	margin: 0;
+	font-family: Arial, Tahoma, Verdana;
+	line-height:40px;
+	font-weight:700;
+	text-transform:uppercase;
+	height:35px;
+
+
+}
+
+#tp-cssmenu li.active a{
+	display: block;
+}
+
+#tp-cssmenu li li a{
+	line-height:30px;
+	height:30px;
+
+}
+
+#tp-cssmenu li ul li a{
+} 
+
+#tp-cssmenu li ul li li a{
+}
+
+#tp-cssmenu li li a{
+	border-right:none;
+}
+
+#tp-cssmenu li a:hover,
+#tp-cssmenu li a:active,
+#tp-cssmenu li a:focus,
+#tp-cssmenu li li a:hover{
+
+}
+
+#tp-cssmenu li.active a,
+#tp-cssmenu li.activesfhover a{
+
+	color:#ff0000;
+	line-height:40px;
+	font-weight:700;
+}
+#tp-cssmenu li.active li a,
+#tp-cssmenu li.activesfhover li a {
+	background-image:none;
+	}
+#tp-cssmenu li li a:hover,
+#tp-cssmenu li li a:active,
+#tp-cssmenu li li a:focus,
+#tp-cssmenu li li li a:hover,
+#tp-cssmenu li li a.active,
+#tp-cssmenu li li a.active:hover,
+#tp-cssmenu li li a.active:active,
+#tp-cssmenu li li a.active:focus{
+}
+
+#tp-cssmenu li.fulltpmenuimages img,
+#tp-cssmenu li.fulltpmenuimagessfhover img,
+#tp-cssmenu li a.fulltpmenuimages, 
+#tp-cssmenu li.fulltpmenuimages a,
+#tp-cssmenu li.fulltpmenuimagessfhover a,
+#tp-cssmenu li.tpmenutextandimage a,
+#tp-cssmenu li.tpmenutextandimagesfhover a{
+	margin:0;
+	border-right:none;
+}
+
+#tp-cssmenu li.tpmenutextandimage li a{
+	padding-left:10px;
+	padding-right:0;
+}
+
+#tp-cssmenu li.tpmenutextandimagesfhover li a:hover{
+	padding-left:10px;
+	padding-right:0;
+	background: none;
+}
+
+#tp-cssmenu li.tpmenutextandimage li,
+#tp-cssmenu li.tpmenutextandimagesfhover li{
+	padding:0;
+}
+
+#tp-cssmenu li.tpmenutextandimage img,
+#tp-cssmenu li.tpmenutextandimagesfhover img{
+	vertical-align:middle;
+}
+
+#tp-cssmenu li.fulltpmenuimages ul li a,
+#tp-cssmenu li.fulltpmenuimagessfhover ul li a{
+	padding-left:10px;
+}
+
+#tp-cssmenu li.fulltpmenuimages a{
+	padding:0;
+	margin:0;
+}
+
+.tpmenutextandimage img,
+.tpmenutextandimagesfhover img{
+	display: block;
+	padding-top:10px;
+}
+
+.fulltpmenuimageschild{}
+.tpmenutextandimagechild{}
+#tp-cssmenu li a.fulltpmenuimages{
+	padding:0;
+	margin:0;
+}
+
+#tp-cssmenu li ul li.active{
+}
+
+#tp-cssmenu li.parent a{}
+#tp-cssmenu li.parent a:active{
+}
+
+#tp-cssmenu li ul li.parent a.haschild ,
+#tp-cssmenu li ul li.parentsfhover a.haschild,
+#tp-cssmenu li ul li.parent li.parent a.haschild ,
+#tp-cssmenu li ul li.parentsfhover li.parentsfhover li a.haschild,
+#tp-cssmenu li ul li.parent li.parent li.parent a.haschild ,
+#tp-cssmenu li ul li.parentsfhover li.parentsfhover li.parentsfhover li a.haschild{
+	font-weight:700;
+}
+
+#tp-cssmenu li ul li.parent a.haschild:hover ,
+#tp-cssmenu li ul li.parentsfhover a.haschild:hover,
+#tp-cssmenu li ul li.parent li.parent a.haschild:hover ,
+#tp-cssmenu li ul li.parentsfhover li.parentsfhover li a.haschild:hover,
+#tp-cssmenu li ul li.parent li.parent li.parent a.haschild:hover ,
+#tp-cssmenu li ul li.parentsfhover li.parentsfhover li.parentsfhover li a.haschild:hover {
+
+	}
+
+
+#tp-cssmenu li.parentsfhover li,
+#tp-cssmenu li.active li.parentsfhover,
+#tp-cssmenu li.parent li ,
+#tp-cssmenu li.active li ,
+#tp-cssmenu li.active li li{
+	
+}
+
+#tp-cssmenu li ul li.parentsfhover,
+#tp-cssmenu li.active ul li.parentsfhover ,
+#tp-cssmenu li.parent li.parent:hover{
+}
+
+#tp-cssmenu li{
+	padding: 0px;
+}
+
+#tp-cssmenu li li *{
+	padding: 0px;
+}
+
+#tp-cssmenu li.active,
+#tp-cssmenu li.activesfhover{
+
+
+}	
+
+#tp-cssmenu li li.active{
+	padding: 0px;
+	
+}
+
+#tp-cssmenu li.activesfhover:hover{
+	
+}
+
+
+#tp-cssmenu li li.activesfhover {
+	background-image:none;
+	padding-left:0;
+} 
+#tp-cssmenu li li.activesfhover a {
+	background-image:none;}
+#tp-cssmenu li.active li a{
+	line-height:30px;
+	font-weight:normal;
+    
+}
+
+
+#tp-cssmenu li.active ul ul {
+	margin-left:16.3em;}
+
+#tp-cssmenu li:hover,
+#tp-cssmenu li.sfhover,
+#tp-cssmenu li.havechildsfhover,
+#tp-cssmenu li.havechild-activesfhover{
+}
+
+#tp-cssmenu li:hover a,
+#tp-cssmenu li.sfhover a,
+#tp-cssmenu li.havechildsfhover a,
+#tp-cssmenu li.havechild-activesfhover a{
+	color:#000;
+
+	
+}
+
+/* 2nd level and above */
+#tp-cssmenu li ul li{
+    line-height:20px;
+
+}
+
+#tp-cssmenu li ul a,
+#tp-cssmenu li:hover ul a,
+#tp-cssmenu li.sfhover ul a,
+#tp-cssmenu li.havechildsfhover ul a,
+#tp-cssmenu li.havechild-activesfhover a{
+	display: block;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align:left;
+	padding: 5px 11px;
+	margin: 0;
+	text-transform: capitalize;
+    font-weight: 400;
+	/*background-color: #ffffff;*/
+	
+}
+
+#tp-cssmenu li.havesubchild,
+#tp-cssmenu li.havesubchild-active{
+}
+
+#tp-cssmenu li ul a:hover,
+#tp-cssmenu li ul a:active,
+#tp-cssmenu li ul a:focus,
+#tp-cssmenu li.parent li ul a:hover,
+#tp-cssmenu li.parent li ul a:active,
+#tp-cssmenu li.parent li ul a:focus {
+	background-color: #252525;
+	
+}
+
+
+
+
+
+#tp-cssmenu li.active ul li a:hover{
+}
+
+.tptopmenuhavesubtitle span {
+	display:block;
+	margin-top:-5px;
+	margin-bottom:5px;
+	}
+span.tpchildtitle   {
+	margin-top:0;
+	margin-bottom:0;
+ }
+span.tpparenttitle {
+
+}
+span.tpsubtitle {
+	position:absolute;
+	display:block;
+	font-size:11px;
+	margin:0;
+	padding:0 0 6px 0;
+	font-weight:400;
+	height:11px;
+	line-height:11px;
+	color:#FFFFFF;
+	margin-top:-10px;
+}
+
+.tpmenuid1 {
+	height:60px;
+	
+	}
+.tpmenuid2 {
+	height:60px;}
+.tpmenuid3 {
+	height:60px;}
+.tpmenuid4 {
+	height:60px;}
+.tpmenuid5 {
+	height:60px;}
+.tpmenuid6{
+	height:60px;
+	}
+.tpmenuid7{
+	height:60px;}
+.tpmenuid8 {
+	height:60px;}
+	
+	
+#tp-cssmenu  .tpparenttitle cufon{
+	padding: 0;
+	height:60px;
+	margin-top:8px;}
+#tp-cssmenu .tpsubtitle cufon{
+	margin-top:5px;
+	}
+
+.tpdropcolumn{
+	float: left;
+
+}
+
+.has-image-left, .has-image-leftsfhover {
+	display: block;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.has-image-right, .has-image-rightsfhover {
+	display: block;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.has-image-left span.tpparenttitle, 
+.has-image-leftsfhover span.tpparenttitle,
+.has-image-left span.tpsubtitle,
+.has-image-leftsfhover span.tpsubtitle
+ {
+	margin-left: 60px;
+}
+
+.has-image-right span.tpparenttitle, 
+.has-image-rightsfhover span.tpparenttitle,
+.has-image-right span.tpsubtitle,
+.has-image-rightsfhover span.tpsubtitle{
+	margin-right: 60px;
+}
+
+.has-image-left span.tpchildtitle,
+.has-image-leftsfhover span.tpchildtitle {
+    
+}
+
+#tp-cssmenu .has-image-left ul , #tp-cssmenu .has-image-leftsfhover ul ,
+#tp-cssmenu .has-image-right ul , #tp-cssmenu .has-image-rightsfhover ul  {
+    margin-top: 5px;
+}
+
+#tp-cssmenu .has-image-left ul li ul , #tp-cssmenu .has-image-leftsfhover ul li ul ,
+#tp-cssmenu .has-image-right ul li ul , #tp-cssmenu .has-image-rightsfhover ul li ul  {
+    margin-top: -40px;
+}
+
+#tp-cssmenu .has-image-left .tpdropcolumn , #tp-cssmenu .has-image-leftsfhover .tpdropcolumn,
+#tp-cssmenu .has-image-right .tpdropcolumn, #tp-cssmenu .has-image-rightsfhover .tpdropcolumn {
+     margin-top: 10px;
+}
+    
+span.tpchildsubtitle {
+    display: none;
+}    

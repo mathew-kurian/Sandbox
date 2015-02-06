@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+    name = "choices"
+    >
+    
+    <item>Green</item>
+    <item>Blue</item>
+    <item>Red</item>
+    <item>Yellow</item>
+    <item>Change Colors</item>
+    
+    </string-array>
+    
+    <string-array name="values">
+    
+    <item>G</item>
+    <item>B</item>
+    <item>R</item>
+    <item>Y</item>
+    <item>C</item>
+    
+    </string-array>
+    
+    <string-array
+    name = "tails"
+    >
+    
+    <item>Green</item>
+    <item>Blue</item>
+    <item>Red</item>
+    <item>Yellow</item>
+    
+    </string-array>
+    
+    <string-array name="tail_values">
+    
+    <item>G</item>
+    <item>B</item>
+    <item>R</item>
+    <item>Y</item>
+    
+    </string-array>
+    
+    <string-array
+    name = "walls"
+    >
+    
+    <item>Bounce Off</item>
+    <item>Loop</item>
+    <item>None</item>
+    
+    </string-array>
+    
+    <string-array name="wall_values">
+    
+    <item>bounce</item>
+    <item>loop</item>
+    <item>none</item>
+    
+    </string-array>
+    
+    <string-array
+    name = "particles"
+    >
+    
+    <item>50</item>
+    <item>100</item>
+    <item>150</item>
+    <item>200</item>
+    <item>300</item>
+    <item>400</item>
+    
+    </string-array>
+    
+    <string-array name="particle_values">
+    
+    <item>50</item>
+    <item>100</item>
+    <item>150</item>
+    <item>200</item>
+    <item>300</item>
+    <item>400</item>
+    
+    </string-array>
+    
+    <string-array
+    name = "tail_lengths"
+    >
+    
+    <item>0</item>
+    <item>2</item>
+    <item>5</item>
+    <item>7</item>
+    <item>10</item>
+    <item>15</item>
+    
+    </string-array>
+    
+    <string-array name="tail_length_values">
+    
+    <item>0</item>
+    <item>2</item>
+    <item>5</item>
+    <item>7</item>
+    <item>10</item>
+    <item>15</item>
+    
+    </string-array>
+    
+    <string-array
+    name = "gforce"
+    >
+    
+    <item>0.5</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>6</item>
+    
+    </string-array>
+    
+    <string-array name="gforce_values">
+    
+    <item>0.5</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>6</item>
+    
+    </string-array>
+    
+    <string-array
+    name = "styles"
+    >
+    
+    <item>Classic</item>
+    <item>Metro</item>
+    <item>Star Dust</item>
+    
+    </string-array>
+    
+    <string-array name="style_values">
+    
+    <item>classic</item>
+    <item>metro</item>
+    <item>star</item>
+    
+    </string-array>
+    
+</resources>

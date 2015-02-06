@@ -1,0 +1,794 @@
+<!--S:Border-->
+<script> draw_box("{WIDTH}",1,"{TITLE}");</script>
+	{_TEMPLATE_DATA}
+<script> draw_box("{WIDTH}",2,"{TITLE}");</script>
+<!--E:Border-->
+
+<!--S:Action-->
+	<form action="{ACTION}" method="{METHOD}" {ID} name="{NAME}" enctype="{ENCODING}">
+		{_TEMPLATE_DATA}
+	</form>
+<!--E:Action-->
+
+<!--S:Form-->
+	<table width="100%" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="FormInnerBorder">
+				
+				{_PRE_HTML}
+				{_PRE_JAVASCRIPT}
+				{_HEADER_BUTTONS}
+				{_PRE_TABS}
+				{_MIDDLE_HTML}
+				{_PRE_FORM}
+				{_ERROR}
+				{_TEMPLATE_DATA}
+				{_AFTER_FORM}
+				{_FOOTER_BUTTONS}
+				{_AFTER_JAVASCRIPT}
+				{_AFTER_HTML}
+			</td>
+		</tr>
+	</table>
+<!--E:Form--> 
+
+<!--S:Error-->
+	<table border="0" width="100%" cellpadding="3" cellspacing="0">
+		<tr>
+			<td colspan=2 class="FormElementError">{ERROR}</td>
+		</tr>
+	</table>
+<!--E:Error-->
+
+<!--S:HeaderButtons-->
+	<table border="0" width="100%" cellpadding="3" cellspacing="0">
+		
+		<tr>
+			<td align=left class="FormElementButtonsHeader">
+				<div class="FormDivL"><nobr>{SUBTITLE}</nobr></div>
+				<div class="FormDivR">{BUTTONS}</div>
+			</td>
+		</tr>
+	</table>
+<!--E:HeaderButtons-->
+
+<!--S:FooterButtons-->
+	<table border="0" width="100%" cellpadding="3" cellspacing="0">
+		<tr>
+			<td colspan="2" class="FormElementButtonsFooter">
+				{BUTTONS}
+			</td>
+		</tr>
+	</table>
+<!--E:FooterButtons-->
+
+<!--S:Button--><script>draw_button("{BUTTON}" , "{LOCATION}" , "{ONCLICK}" , "{TITLE}" , "{ONMOUSEOVER}" , "{ONMOUSEOUT}" , "{TARGET}");</script><!--E:Button-->
+
+<!--S:Element-->
+	<div id="XML_BODY_FIELD_{NAME}">
+	<table border="0" cellpadding="3" cellspacing="0" class="FormElement{_ALTERNANCE}">
+		<tr>
+			<td height="23" {_DESCRIPTION_ROWSPAN} {_EXTRA} class="FormElementTitle{_ALTERNANCE}" ><img src="images/dot.gif" width="1" height="1">{_REQUIRED_ERROR}{TITLE}{_REQUIRED}{_END_CHAR}</td>
+			<td class="FormElementContent{_ALTERNANCE}">
+				<table w1idth="100%" cellspacing=0 cellpadding=0 a1lign="{ALIGN}">
+					<tr>
+						<td width="1" class="FormElementContentData"><nobr>{_PREFFIX}</nobr></td>
+						<td class="FormElementContentData">{_ELEMENT}</td>
+						<td width="1" class="FormElementContentData"><nobr>{_SUFFIX}</nobr></td>
+						<td width="5"></td>
+						<td width="1" class="FormElementContentData">{_HELPTOPIC}</td>
+						<td>&nbsp;</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		{_DESCRIPTION}
+	</table>
+	{_EXTRA_CODE}
+	</div>
+<!--E:Element-->
+
+<!--S:ElementReferer-->
+				<table cellspacing=0 cellpadding=0>
+					<tr>
+						<td width="1" class="FormElementContentData"><nobr>{_PREFFIX}</nobr></td>
+						<td class="FormElementContentData">{_ELEMENT}</td>
+						<td width="1" class="FormElementContentData"><nobr>{_SUFFIX}</nobr></td>
+					</tr>
+				</table>
+<!--E:ElementReferer-->
+
+<!--S:ExtendElementTitle-->
+		<tr>
+			<td {_EXTRA} class="FormElementExtendTitle{_ALTERNANCE}" >{_REQUIRED_ERROR}{TITLE}{_REQUIRED}:</td>
+<!--E:ExtendElementTitle-->
+
+<!--S:ExtendElement-->
+	<div id="XML_BODY_FIELD_{NAME}">
+	<table border="0" width="100%" cellpadding="3" cellspacing="0" class="FormElement{_ALTERNANCE}">
+		{ELEMENT_TITLE}
+		<tr>
+			<td class="FormElementExtendContent{_ALTERNANCE}">
+				<table width="100%" cellspacing=0 cellpadding=0 align="{ALIGN}" class="FormElementContentData">
+					<tr>
+						<td width="1">{_PREFFIX}</td>
+						<td>{_ELEMENT}</td>
+						<td width="2">{_SUFFIX}</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		{_DESCRIPTION}
+	</table>
+	{_EXTRA_CODE}
+	</div>
+<!--E:ExtendElement-->
+
+
+<!--S:Subtitle-->
+	<div id="XML_BODY_FIELD_{NAME}"><table border="0" width="100%" cellpadding="3" cellspacing="0">
+		<tr>
+			<td colspan=2 class="FormItemSubtitle">
+				{TITLE}<!--<img src="images/forms/sub_{TITLE}.gif"/>-->
+			</td>
+		</tr>
+		{_DESCRIPTION}
+	</table>
+	{_EXTRA_CODE}
+	</div>
+<!--E:Subtitle-->
+
+<!--S:Comment-->
+	<table border="0" width="100%" cellpadding="3" cellspacing="0" class="FormItemComment">
+		<tr>
+			<td align="{ALIGN}" style="padding:{PADDING}px; text-align: {ALIGN}">{COMMENT}</td>
+		</tr>
+	</table>
+<!--E:Comment-->
+
+<!--S:ElementHelpTopic-->
+<script>draw_button("topichelp" , "javascript:void(XMLFormsPopup('{LOCATION}'));" , "" , "" , "" , "" , "");</script>
+<!--E:ElementHelpTopic>
+
+<!--S:ElementMultiple-->
+	<table border="0" width="100%" cellpadding="3" cellspacing="0">
+		<tr>
+			<td height="23" style="padding-top:5px" valign=top width=150 class="border-tr" align="right">{_REQUIRED_ERROR}{TITLE}{_REQUIRED}:</td>
+			<td class="border-t" style="padding:0px">
+				<table width=100% cellspacing=0 cellpadding=3>
+					{_ELEMENT}
+				</table>
+			</td>
+		</tr>
+	</table>
+	{_EXTRA_CODE}
+<!--E:ElementMultiple-->
+
+<!--S:ElementMultipleBody-->
+					<tr>
+						<td class="border-t">
+							<table cellspacing=0 cellpadding=0>
+								<tr>
+									<td>{_PREFFIX}</td><td>{_ELEMENT}</td><td>{_SUFFIX}</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					{_DESCRIPTION}
+<!--E:ElementMultipleBody-->
+
+<!--S:RequiredMark-->*<!--E:RequiredMark-->
+
+<!--S:Required--><font class="FormCommonRequired"><!--E:Required-->
+
+<!--S:Description-->
+		<tr>
+			<td class="FormElementDescription{_ALTERNANCE}">{DESCRIPTION}</td>
+		</tr>
+<!--E:Description-->
+
+<!--S:DescriptionRowspan-->rowspan="2"<!--E:DescriptionRowspan-->
+
+<!--S:TopAlign-->valign="top" style="padding-top:5px"<!--E:TopAlign-->
+
+<!--S:Alternance0-->style="background: #E9EDF2"<!--E:Alternance0-->
+<!--S:Alternance1-->style="background: #E1E6ED"<!--E:Alternance1-->
+
+<!--S:textarea-->
+	<textarea class="FormItemTextarea" {STYLE} name="{NAME}" rows="{_ROWS}" cols="{_COLS}">{VALUE}</textarea>
+<!--E:textarea-->
+
+<!--S:htmlareainit-->
+
+<!--E:htmlareainit-->
+
+<!--S:htmlarea-->
+
+<textarea style="display:none" id="fck_source_{NAME}">{VALUE}</textarea>
+<script type="text/javascript">
+
+	function saveContent{NAME}(){
+	}
+
+	var oFCKeditor = new FCKeditor( 
+							'{NAME}' , 
+							'{WIDTH}' , 
+							'{HEIGHT}' , 
+							'{TOOLBAR}' , 
+							document.getElementById("fck_source_{NAME}").value
+					) ;
+
+	oFCKeditor.BasePath	= "3rdparty/fck/" ;
+	oFCKeditor.portId = '{NAME}';
+	oFCKeditor.Create() ;
+</script>
+<!--E:htmlarea-->
+
+<!--S:htmlareaonload-->
+
+<!--E:htmlareaonload-->
+
+<!--S:textbox-->
+				<input {HANDLERS} {STYLE} class="FormItemTextbox" type="text" name="{NAME}" size="{_SIZE}" maxlength="{_MAXLENGTH}" value="{VALUE}">
+<!--E:textbox-->
+
+<!--S:cc-->
+				<input class="FormItemTextbox" type="text" name="{NAME}_arr[1]" size="4" maxlength="4" value="{VALUE_GROUP_1}">
+				<input class="FormItemTextbox" type="text" name="{NAME}_arr[2]" size="4" maxlength="4" value="{VALUE_GROUP_2}">
+				<input class="FormItemTextbox" type="text" name="{NAME}_arr[3]" size="4" maxlength="4" value="{VALUE_GROUP_3}">
+				<input class="FormItemTextbox" type="text" name="{NAME}_arr[4]" size="4" maxlength="4" value="{VALUE_GROUP_4}">
+<!--E:cc-->
+
+<!--S:cc_show-->
+				{VALUE_GROUP_1}-{VALUE_GROUP_2}-{VALUE_GROUP_3}-{VALUE_GROUP_4}
+<!--E:cc_show-->
+
+<!--S:button-->
+	<script>draw_button("{BUTTON}" , "{LOCATION}" , "{ONCLICK}" , "{TITLE}" , "{ONMOUSEOVER}" , "{ONMOUSEOUT}" , "{TARGET}");</script>
+<!--E:button-->
+
+<!--S:imgCheck-->
+				<table cellspacing="0" cellpadding="0">
+					<tr>
+						<td>
+							<img class="FormItemImgCheck" src="{SRC}" />
+						</td>						
+					</tr>
+					<tr>
+						<td height="5"></td>
+					<tr>
+						<td><input class="FormItemTextbox" type="text" name="{NAME}" size="8" maxlength="8">
+				</table>
+<!--E:imgCheck-->
+
+<!--S:password-->
+				<table cellspacing="0" cellpadding="0">
+					<tr>
+						<td>
+							<input {HANDLERS} style="display:inline;" class="FormItemTextbox" type="password" id="{NAME}" name="{NAME}" size="{_SIZE}" maxlength="{_MAXLENGTH}" value="{VALUE}"><input style="display:none;" class="FormItemTextbox" type="text" id="{NAME}_text" size="{_SIZE}" maxlength="{_MAXLENGTH}" value="{VALUE}">
+						</td>
+						{SHOW}
+					</tr>
+				</table>
+<!--E:password-->
+
+<!--S:password_show-->
+						<td><img src="images/dot.gif" width="3" height="0" /><script>draw_button("showpassword" , "javascript:void(0)" , "" , "Stay over to see / edit the password" , "javascript:ShowPassword(document.getElementById('{NAME}') , document.getElementById('{NAME}_text'))" , "javascript: HidePassword(document.getElementById('{NAME}') , document.getElementById('{NAME}_text'))");</script></td>
+<!--E:password_show-->
+
+<!--S:file-->
+				<input {HANDLERS} type="file" name="{NAME}" size="{_SIZE}">
+<!--E:file-->
+
+<!--S:hidden-->
+				<input {HANDLERS} type="hidden" name="{NAME}" value="{VALUE}">
+<!--E:hidden-->
+
+<!--S:checkbox-->
+				<table cellspacing=0 cellpadding=0>
+					<tr>
+						<td>
+							<input {HANDLERS} id="_form_check_{NAME}" class="FormItemCheckbox" type="checkbox" name="{NAME}" {CHECKED} value="{VALUE}">
+						</td>
+						<td width=3></td>
+						<td>
+							<label for="_form_check_{NAME}">{LABEL}</label>
+						</td>
+					</tr>
+				</table>
+<!--E:checkbox-->
+
+<!--S:checkbox_show-->
+				<table cellspacing=0 cellpadding=0>
+					<tr>
+						<td>
+							<img src="images/checkbox_{CHECK}.gif"/>
+						</td>
+						<td width=3></td>
+						<td>
+							{LABEL}
+						</td>
+					</tr>
+				</table>
+<!--E:checkbox_show-->
+
+<!--S:Select-->
+				<select class="FormItemSelect" {HANDLERS} {WIDTH} size="{SIZE}" {MULTIPLE} name="{NAME}" id="{NAME}" {DISABLED}>
+					{OPTIONS}
+				</select>
+<!--E:Select-->
+
+<!--S:SelectOption-->
+				<option value="{VALUE}"	{CHECKED}{DISABLED}>{LABEL}</option>
+<!--E:SelectOption-->
+
+<!--S:Double-->
+				<select class="FormItemSelect" {WIDTH} size="{SIZE}" multiple="true" id="{NAME}_orig" {DISABLED}>
+					{OPTIONS}
+				</select>
+
+				<center>
+					<input type="button" value="add" onclick="XMLFormsDoubleSelectAdd('{NAME}_orig','{NAME}_final','{NAME}')"/>
+					<input type="button" value="remove" onclick="XMLFormsDoubleSelectRem('{NAME}_final','{NAME}')">
+				</center>
+
+				<select class="FormItemSelect" {HANDLERS} {WIDTH} size="{SIZE}" multiple="true" id="{NAME}_final" {DISABLED}>
+					{OPTIONS2}
+				</select>
+
+				<textarea style="visibility: hidden; width:1px ;height:1px;" name="{NAME}" id="{NAME}">{VALUES}</textarea>
+
+<!--E:Double-->
+
+<!--S:DoubleOption-->
+				<option value="{VALUE}" {DISABLED}>{LABEL}</option>
+<!--E:DoubleOption-->
+
+
+<!--S:DoubleSmall-->
+
+				<table>
+					<tr>
+						<td>
+							<select class="FormItemSelect" {WIDTH} size="{SIZE}" multiple="true" id="{NAME}_orig" {DISABLED}>
+								{OPTIONS}
+							</select>
+						</td>
+						<td>
+							<center>
+								<input type="button" value="&gt;" onclick="XMLFormsDoubleSelectAdd('{NAME}_orig','{NAME}_final','{NAME}')"/><br/>
+								<input type="button" value="&lt;" onclick="XMLFormsDoubleSelectRem('{NAME}_final','{NAME}')">
+							</center>
+						</td>
+						<td>
+							<select class="FormItemSelect" {HANDLERS} {WIDTH} size="{SIZE}" multiple="true" id="{NAME}_final" {DISABLED}>
+								{OPTIONS2}
+							</select>
+						</td>
+					</tr>
+				</table>
+				<textarea style="visibility: hidden; width:1px ;height:1px;" name="{NAME}" id="{NAME}">{VALUES}</textarea>
+<!--E:DoubleSmall-->
+
+<!--S:DoubleSmallOption-->
+				<option value="{VALUE}" {DISABLED}>{LABEL}</option>
+<!--E:DoubleSmallOption-->
+
+
+<!--S:Radio-->
+			<table>
+			{OPTIONS}
+			</table>
+<!--E:Radio-->
+
+<!--S:RadioOption-->
+				{LINE_TOP}
+					<td><input id="{NAME}_{VALUE}" name="{NAME}" type="radio" value="{VALUE}" {CHECKED}{DISABLED}></td>
+					<td><label for="{NAME}_{VALUE}">{LABEL}</label></td>
+				{LINE_BOTTOM}
+<!--E:RadioOption-->
+
+
+
+<!--S:CheckBox-->	
+		<table>
+			{OPTIONS}
+		</table>
+<!--E:CheckBox-->
+
+<!--S:CheckBoxOption-->
+				{LINE_TOP}
+					<td><span style="vertical-align: middle;"><nobr><input id="{NAME}_{VALUE}" name="{NAME}" type="checkbox" class="FormItemCheckbox" value="{VALUE}" {CHECKED}{DISABLED} style="padding:0px"></td><td><label for="{NAME}_{VALUE}">{LABEL}</label></nobr></span></td>
+				{LINE_BOTTOM}
+<!--E:CheckBoxOption-->
+
+<!--S:CheckBoxOption_line_top-->
+				<tr>
+<!--E:CheckBoxOption_line_top-->
+
+<!--S:CheckBoxOption_line_bottom-->
+				</tr> 
+<!--E:CheckBoxOption_line_bottom-->
+
+
+<!--S:SelectDiv-->
+			<div style="overflow:scroll;background:#ffffff;width:{WIDTH};height:{HEIGHT};">
+				{SELECT_DATA}
+			</div>
+<!--E:SelectDiv-->
+
+<!--S:DateSelect-->
+				<select class="FormItemSelect" name="{NAME}" style="width: {WIDTH}" {DISABLED}>
+					{OPTIONS}
+				</select>
+<!--E:DateSelect-->
+
+<!--S:DateSelectOption-->
+				<option value="{VALUE}"	{SELECTED}>{NAME}</option>
+<!--E:DateSelectOption-->
+
+<!--S:selectempty-->
+				No options avaible.
+<!--E:selectempty-->
+
+<!--S:text-->
+				<!--<div style="text-align:{ALIGN};overflow:auto;">-->{VALUE}&nbsp;<!--</div>-->
+<!--E:text-->
+
+<!--S:image-->
+	<table cellspacing="0" cellpadding="2" class="FormElementContentData">	
+		<tr>
+			<td colspan="3" style="padding-bottom:5px;">{PREVIEW}</td>
+		</tr>
+			{EDITABLE}
+	</table>
+<!--E:image-->
+
+<!--S:phone-->
+	<table cellspacing="0" cellpadding="0">
+		<tr>
+			<td><input class="FormItemTextbox" onkeyup="XMLFormsPhone(1,'{NAME}',{SIZE_1},{SIZE_2},{SIZE_3});" size="{SIZE_1}" maxlength="{SIZE_1}" type="text" id="{NAME}_1" name="{NAME}_arr[]" value="{VALUE_1}"/></td>
+			<td>-</td>
+			<td><input class="FormItemTextbox" onkeyup="XMLFormsPhone(2,'{NAME}',{SIZE_1},{SIZE_2},{SIZE_3});" size="{SIZE_2}" maxlength="{SIZE_2}" type="text" id="{NAME}_2" name="{NAME}_arr[]" value="{VALUE_2}"/></td>
+			<td>-</td>
+			<td><input class="FormItemTextbox" onkeyup="XMLFormsPhone(3,'{NAME}',{SIZE_1},{SIZE_2},{SIZE_3});" size="{SIZE_3}" maxlength="{SIZE_3}" type="text" id="{NAME}_3" name="{NAME}_arr[]" value="{VALUE_3}"/></td>
+		</tr>
+	</table>
+<!--E:phone-->
+
+<!--S:phoneshow-->
+{VALUE_1}-{VALUE_2}-{VALUE_3}
+<!--E:phoneshow-->
+
+<!--S:imageshow-->
+	<a href="{SRC}" target="_new" onmouseover="XMLFormsPreviewImage(this,'{SRC}')" onmouseout="XMLFormsPreviewImage(this,null);"><img border="{BORDER}" {HEIGHT} title="Click to view enlarged image..." width="{WIDTH}" src="{SRC}"></a>
+<!--E:imageshow-->
+
+<!--S:fileshow-->
+	<a href="{SRC}" {TARGET}>{NAME}</a>
+<!--E:fileshow-->
+
+<!--S:imageshownolink-->
+	<img width="{WIDTH}" {HEIGHT} border="{BORDER}" title="No image avaible" src="{SRC}">
+<!--E:imageshownolink-->
+
+<!--S:imageedit-->
+		<tr>
+			<td colspan=3 class="border-t"><img src="" width=0 height=0></td>
+		</tr>
+
+		<input type="hidden" name="{NAME}_temp" value="{TEMP}">
+		<tr>
+			<td {REM_DISABLED}>Remove image:</td>
+			<td><input {REM_DISABLED} type="radio" name="{NAME}_radio_type" value="-1" checked></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Local upload:</td>
+			<td><input {CLIENT_CHECKED} type="radio" name="{NAME}_radio_type" value="0" checked></td>
+			<td><input onblur="RadioElement(document.forms[0].{NAME}_radio_type,2)" class="FormItemTextbox" style="width:230" type="file" name="{NAME}_upload_client" ></td>
+		</tr>
+		<tr>
+			<td >From web:</td>
+			<td ><input {WEB_CHECKED} type="radio" name="{NAME}_radio_type" value="1" ></td>
+			<td ><input  onblur="RadioElement(document.forms[0].{NAME}_radio_type,1)" class="FormItemTextbox" style="width:230" type="text" name="{NAME}_upload_web" value="{WEB_LINK}"></td>
+		</tr>
+<!--E:imageedit-->
+
+<!--S:Image2-->
+		<table width="100%" cellspacing="0" cellpadding="0">	
+		<tr>
+			<td style="padding:5px;">
+			<div class="FormItemImage"><img id="{NAME}_no_image" src="images/no_image.gif"/><img class="FormItemImage" id="{NAME}_preview_image" src=""/></div>
+			<!--{ERROR}-->
+			<!---->
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table cellspacing=0 cellpadding=3>
+					<input type="hidden" name="{NAME}_temp" value="{TEMP}">
+					<tr>
+						<td {REM_DISABLED}>Remove Image:</td>
+						<td><input {REM_DISABLED} type="radio" name="{NAME}_radio_type" value="-1" checked></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Local Upload:</td>
+						<td><input {CLIENT_CHECKED} type="radio" name="{NAME}_radio_type" value="0" checked></td>
+						<td><input style="width:230" type="file" onchange="FormItemImage(this.value , '{NAME}')" name="{NAME}_upload_client" ></td>
+					</tr>
+					<tr>
+						<td >From Web:</td>
+						<td ><input {WEB_CHECKED} type="radio" name="{NAME}_radio_type" value="1" ></td>
+						<td ><input  style="width:230" type="text" onchange="FormItemImage(this.value , '{NAME}')" name="{NAME}_upload_web" value="{WEB_LINK}"></td>
+					</tr>
+				</table>			
+			</td>
+		</tr>
+	</table>
+
+<!--E:Image2-->
+
+<!--S:uploadedit-->
+		<tr>
+			<td colspan=3 class="border-t"><img src="" width=0 height=0></td>
+		<input type="hidden" name="{NAME}_temp" value="{TEMP}">
+		<tr>
+			<td {REM_DISABLED}>
+			<input type="hidden" name="{NAME}_file" value="{FILE_NAME}">
+			REMOVE FILE:</td>
+			<td><input {REM_DISABLED} type="radio" name="{NAME}_radio_type" value="-1" checked></td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>UPLOAD:</td>
+			<td><input {CLIENT_CHECKED} type="radio" name="{NAME}_radio_type" value="0" checked></td>
+			<td><input style="width:230" type="file" name="{NAME}_upload_client" ></td>
+		</tr>
+		<tr>
+			<td >FROM WEB:</td>
+			<td ><input {WEB_CHECKED} type="radio" name="{NAME}_radio_type" value="1" ></td>
+			<td ><input  style="width:230" type="text" name="{NAME}_upload_web" value="{WEB_LINK}"></td>
+		</tr>
+<!--E:uploadedit-->
+
+<!--S:namesortGroup-->{DATA}<!--E:namesortGroup-->
+<!--S:namesortElement--><a href="{LINK}">{NAME}</a> <!--E:namesortElement-->
+
+<!--DEPRECATED S:Calendar-->
+<div id="{NAME}_DIVCalendar"></div>
+<div id="{NAME}_DIVCalendarEventPopup" style="position:absolute;visibility: hidden"></div>
+
+<script>
+var {NAME}_calendar = new CCalendar("{NAME}_DIVCalendar" , "{NAME}_calendar");
+{NAME}_calendar.OnClick("void(document.forms[\'{FORM}\'].{NAME}_year.value={NAME}_calendar.time_year);void(document.forms[\'{FORM}\'].{NAME}.value={NAME}_calendar.time);void(document.forms[\'{FORM}\'].{NAME}_day.value={NAME}_calendar.time_day);void(document.forms[\'{FORM}\'].{NAME}_month.value={NAME}_calendar.time_month);");
+{NAME}_calendar._setShowAllLinks = true;
+{NAME}_calendar.setTime({VALUE});
+{NAME}_calendar.Show();
+</script>
+
+<input type="hidden" name="{NAME}" value="{VALUE}" />
+<input type="hidden" name="{NAME}_day" value="{VALUE_DAY}" />
+<input type="hidden" name="{NAME}_month" value="{VALUE_MONTH}" />
+<input type="hidden" name="{NAME}_year" value="{VALUE_YEAR}" />
+
+<!--E:DEPRECATED Calendar-->
+
+<!--S:calendar-->
+		<div class="FormCalendarImage"><input align="absmiddle"  {HANDLERS} {STYLE} class="FormItemTextbox" readonly type="text" id="field_{NAME}" name="{NAME}" size="{BOXSIZE}" maxlength="{BOXSIZE}" value="{VALUE}"></div>
+		<div class="FormCalendarImage"><img src="images/common/calendar.gif" id="field_{NAME}_trigger" style="cursor: pointer; " title="Date selector" onmouseover="this.style.background='red';" onmouseout="this.style.background=''" /></div>
+
+		<script type="text/javascript">
+			Calendar.setup({
+				{_PARAMS}
+			});
+		</script>
+	
+<!--E:calendar-->
+
+<!--S:Temp-->
+Dont edit this, it will be dinamicaly overwriten with other crap.
+<!--E:Temp-->
+
+
+
+<!--S:ListGroup-->
+	<img src="images/spacer.gif" height="4" width="0"/>
+	<table width="100%" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+			<td class="FormInnerBorderList">
+				{_PRE_TABS}
+				{_HTML_PRE}
+				{PRE}
+				{_HEADER}
+				<table id="collapse_{COLLAPSE_ID}" width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="FormInnerBorderListElements">
+							<table border="0" width="100%" cellpadding="3" cellspacing="0">
+							{_TITLES}
+							{DATA}
+							{PAGING}
+							</table>	
+						</td>
+					</tr>
+				</table>
+				{COLLAPSE_INIT}
+				{EXTRA}
+				{AFTER}
+				{_HTML_AFTER}
+			</td>
+		</tr>
+	</table>
+<!--E:ListGroup-->
+
+
+<!--S:ListCollapse--><img onclick="javascript:XMLFormColapseList('{ID}','{COOKIE}')" style="cursor:pointer" src="images/common/button_collapse.gif" border="0" id="collapse_button_{ID}"><!--E:ListCollapse-->
+
+<!--S:ListCollapseInit-->
+	<script>XMLFormColapseInit('{ID}','{DEFAULT}');</script>
+<!--E:ListCollapseInit-->
+
+
+<!--S:ListHeader-->
+	<table border="0" width="100%" cellpadding="0" cellspacing="0">
+		<tr>
+			<td colspan="100" class="FormSimpleListHeaderButtons"><div class="FormDivL">{COLLAPSE}</div><div class="FormDivL">{SUBTITLE}</div><div class="FormDivR">{BUTTONS}</div></td>
+		</tr>
+	</table>
+<!--E:ListHeader-->
+
+<!--S:ListLink-->
+	<a href="{LINK}">{TITLE}</a>
+<!--E:ListLink-->
+
+<!--S:ListElement-->
+Dont edit this, will be generated dinamic from phpcode.
+<!--E:ListElement-->
+
+<!--S:ListEmpty-->	
+	<tr>
+		<td class="FormSimpleListEmpty" colspan=30>No records found.</td> 
+	</tr>
+<!--E:ListEmpty-->
+
+<!--S:ListCell-->
+	<td class="FormSimpleListCell{FIRST}{FINAL}{_ALTERNANCE}{_VALTERNANCE}" width="{WIDTH}" align="{ALIGN}" valign="{VALIGN}">{VALUE}</td> 
+<!--E:ListCell-->
+
+<!--S:ListTitle-->
+	<td {WIDTH} nowrap class="FormSimpleListTitle{FIRST}{FINAL}{_VALTERNANCE}"><img width=0 height=0>{TITLE}</td> 
+<!--E:ListTitle-->
+
+<!--S:ListTitleLink-->
+	<td {WIDTH} nowrap class="FormSimpleListTitle{FIRST}{FINAL}{_VALTERNANCE}">
+			<a href="{LINK}">{TITLE}</a><a href="{LINK}">{ORDER}</a>
+	</td> 
+<!--E:ListTitleLink-->
+
+<!--S:ListTitleLinkOrder-->
+<img src="images/order_{ORDER}.gif" border="0"/>
+<!--E:ListTitleLinkOrder-->
+
+<!--S:ListRow-->
+	<tr class="{CLASS}">
+		{ROW}
+	</tr> 
+<!--E:ListRow-->
+
+<!--S:SimpleListMultiple-->
+	<input type="checkbox" class="FormItemCheckbox" id="{NAME}_multiple_{_COUNT}" name="{FIELD}[{SUBFIELD}]" {CHECKED} value="{VALUE}">
+	<input type="hidden" id="{NAME}_multiple_{_COUNT}_hidd" name="{FIELD}_hidden[{SUBFIELD}]" {CHECKED} value="{VALUE}">
+<!--E:SimpleListMultiple-->
+
+<!--S:SimpleListMultipleHeader-->
+<img onclick="XMLFormSelectAll('{NAME}' , '{START}','{END}');" id="{NAME}_check_button" title="Click here to check/unckeck all." style="cursor: pointer;" src="images/common/button_checked.gif" border="0"/><input type="hidden" id="{NAME}_current" value="0" />
+<!--E:SimpleListMultipleHeader-->
+
+<!--S:SimpleListFieldInput-->
+	<input style="width:{SIZE}" {ALIGN} class="FormItemTextbox" type="{FIELD-TYPE}" name="{FIELD}[{ID}]{FIELD-SUB}" value="{VALUE}">
+<!--E:SimpleListFieldInput-->
+
+<!--S:Main-->
+		<tr>
+			<td colspan=100 class="FormSimpleListPage">
+				<div class="FormSimpleListPageL"><nobr>[Page {CURRENT_PAGE} of {PAGE_COUNT}]</nobr></div>
+				<div class="FormSimpleListPageR">{PAGES}</div>				
+			</td>
+		</tr>
+<!--E:Main-->
+
+<!--S:Page-->
+<a href="{BASE}page={PAGE}">{FACE}</a> 
+<!--E:Page-->
+
+<!--S:PageActive-->
+<b>{FACE}</b>
+<!--E:PageActive-->
+
+<!--S:Prev-->
+<b>Back</b>
+<!--E:Prev-->
+
+<!--S:Next-->
+<b>Next</b>
+<!--E:Next-->
+
+<!--S:Temp-->
+DO not edit, used for building other templates
+<!--E:Temp-->
+
+
+
+<!--S:TabsGroup-->
+	<script>
+		draw_tab_table(1);
+		{DATA}
+		draw_tab_table(2); 
+	</script>
+<!--E:TabsGroup-->
+
+<!--S:TabsElement-->		draw_tab({FIRSTROW},{ACTIVE},{LAST},{AFTERACTIVE},"{TITLE}","{ICON}","{LINK}","{WIDTH}","{ONMOUSEOVER}","{ONMOUSEOUT}","{ID}");
+<!--E:TabsElement-->
+
+
+
+
+
+
+
+
+
+#DEPRECATED
+<!--S:ButtonsCell-->
+	<td class="FormSimpleListButtons" width="1">
+		<table cellspacing=0 cellpadding=0>
+			<tr>				
+				{BUTTONS}
+			</tr>
+		</table>
+	</td> 
+<!--E:ButtonsCell-->
+
+
+#DEPRECATED
+<!--S:DeleteItem-->
+<script> draw_box("300",1,"{TITLE}");</script>
+	<table width="300">
+		<tr><td style="padding:20px">{DESCRIPTION}</tr></td>
+		<tr>
+			<td class="border-t" align=center>
+				<br><script>draw_button("no" , "{CANCEL_LOCATION}" , "");</script>
+				<script>draw_button("yes" , "{DELETE_LOCATION}" , "");</script>
+				<br><br>
+			</td>
+	</table>
+<script> draw_box("200",2,"{TITLE}");</script>
+<!--E:DeleteItem-->
+
+#DEPRECATED
+<!--S:SearchField-->
+<input type="hidden" name="{NAME}" value="{VALUE}">
+<!--E:SearchField-->
+
+
+#DEPRECATED
+<!--S:SearchForm-->
+	<table cellspacing=0 cellpadding=0>
+		<form action="{ACTION}" method="get" name="search">
+		{FIELDS}
+		<tr>
+			<!--<td>Search in:&nbsp;</td>-->
+			<td>{DROPLIST}</td>			
+			<!--<td>&nbsp;for&nbsp;</td>-->
+			<td><input type="text" name="search" size=10 value="{VALUE}"></td>			
+			<td>&nbsp;</td>
+			<!--<td><script>draw_button("search" , "javascript:document.search.submit()" , "");</script></td>-->
+		</tr>
+		</form>
+	</table>
+<!--E:SearchForm-->

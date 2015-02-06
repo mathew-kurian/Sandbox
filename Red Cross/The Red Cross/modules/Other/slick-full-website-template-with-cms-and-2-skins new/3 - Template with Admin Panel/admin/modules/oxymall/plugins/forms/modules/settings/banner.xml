@@ -1,0 +1,54 @@
+<form>
+	<tabs>
+		<t active="true" width="100" title="Module Settings" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.user&action=details&mod_id={MODULE_ID}" />
+		<t0 width="80" title="Items" link="index.php?mod=oxymall&sub=oxymall.plugin.banner.landing&module_id={MODULE_ID}&returnurl={SELF.PREVIOUS_ENC}" />
+		<t_video width="80" title="Video Tutorial" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.help&module_id={MODULE_ID}" restricted="eval:$GLOBALS['no_tutorials'];"/>
+	</tabs>
+	
+	<fields>
+		<settings_title type="subtitle" title="Settings" />
+
+		<set_totalwidth type="textbox" suffix=" px" size="10" title="Total Width" />
+		<set_totalheight type="textbox" suffix=" px" size="10" title="Total Height" />
+
+		<set_blurx type="textbox" size="5" title="Blur X" />
+		<set_blury type="textbox" size="5" title="Blur Y" />
+		<set_blurquality type="textbox" size="5" title="Blur Quality" />
+		
+		<set_slideanimationtime type="textbox" size="5" suffix=" secconds" title="Slide Animation Time" />
+		<set_slideanimationtype type="droplist" title="Animation Type" empty="true">
+			<options>
+				<option name="linear">linear</option>
+				<option name="easeInSine">easeInSine</option>
+				<option name="easeOutSine">easeOutSine</option>
+				<option name="easeInQuad">easeInQuad</option>
+				<option name="easeOutQuad">easeOutQuad</option>
+				<option name="easeInCubic">easeInCubic</option>
+				<option name="easeOutCubic">easeOutCubic</option>
+				<option name="easeInQuart">easeInQuart</option>
+				<option name="easeOutQuart">easeOutQuart</option>
+				<option name="easeInQuint">easeInQuint</option>
+				<option name="easeOutQuint">easeOutQuint</option>
+				<option name="easeInExpo">easeInExpo</option>
+				<option name="easeOutExpo">easeOutExpo</option>
+				<option name="easeInCirc">easeInCirc</option>
+				<option name="easeOutCirc">easeOutCirc</option>
+				<option name="easeInElastic">easeInElastic</option>
+				<option name="easeOutElastic">easeOutElastic</option>
+				<option name="easeInBack">easeInBack</option>
+				<option name="easeOutBack">easeOutBack</option>
+				<option name="easeInBounce">easeInBounce</option>
+				<option name="easeOutBounce">easeOutBounce</option>
+			</options>
+		</set_slideanimationtype>
+		
+		<set_descriptionblurx type="textbox" size="5" title="Description Blur X" />
+		<set_descriptionblury type="textbox" size="5" title="Description Blur Y" />
+		<set_descriptionblurquality type="textbox" size="5" title="Description Blur Quality" />
+		
+		<set_misc_subtitle type="subtitle" title="Misc" />		
+		<set_reverseorder type="checkbox" checked="1" title="Reverse Images Order" label="yes|no" description="If you check this the last added image will appear the first."/>
+
+	</fields>
+
+</form>

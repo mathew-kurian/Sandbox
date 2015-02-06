@@ -1,0 +1,13 @@
+
+Track      |   License URL
+----------------------------------------------
+ 01        |   http://creativecommons.org/licenses/by/3.0/
+ 02        |   http://creativecommons.org/licenses/by/3.0/
+ 03        |   http://creativecommons.org/licenses/by/3.0/
+ 04        |   http://creativecommons.org/licenses/by/3.0/
+ 05        |   http://creativecommons.org/licenses/by/3.0/
+ 06        |   http://creativecommons.org/licenses/by/3.0/
+ 07        |   http://creativecommons.org/licenses/by/3.0/
+ 08        |   http://creativecommons.org/licenses/by/3.0/
+ 09        |   http://creativecommons.org/licenses/by/3.0/
+ artwork   |   http://creativecommons.org/licenses/by/3.0/

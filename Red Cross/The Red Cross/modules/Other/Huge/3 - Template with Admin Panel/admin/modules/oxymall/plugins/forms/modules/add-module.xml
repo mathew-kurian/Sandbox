@@ -1,0 +1,43 @@
+<form>
+	<title>Add New Module</title>
+	<action>{SELF.LINK}action=store</action>
+	<name>edit</name>
+	<width>100%</width>
+	<alternance>true</alternance>
+
+	<formtag>true</formtag>
+	<border>true</border>
+	
+	<buttons>		
+		<set>
+			<footer>true</footer>
+		</set>
+
+		<back location="{SELF.PREVIOUS}" button="return" />
+		<save onclick="" location="javascript:document.forms[0].submit();" button="next" />
+
+	</buttons>
+
+	<redirect>{SELF.LINK}</redirect>
+
+	<fields>
+		<comment_auto padding="20" type="comment" align="center" subtype="extern" file="add-module.htm" /> 
+
+		<set_module type="droplist" empty="true" validate="A:1:20" required="true" title="Select Module Type">
+			<relation table="core:modules" id="module_id" text="module_name" order="module_name" condition="module_unique=1"/>
+		</set_module>
+
+		<set_parent action="eval" type="droplist" empty="true" empty_msg="[ main module ]">
+			<title>Parent Module</title>
+
+			<tree parent="mod_parent" separator="&nbsp;&nbsp;&nbsp;" s1eparator="   " />
+
+			<relation table="core:user_modules" id="mod_id" text="mod_name" condition="mod_parent=0 AND mod_module_code='category' "/>
+		</set_parent>
+
+		<set_title type="textbox" size="40" validate="A:1:200" required="true" title="Menu Title" />
+
+
+	</fields>
+
+</form>

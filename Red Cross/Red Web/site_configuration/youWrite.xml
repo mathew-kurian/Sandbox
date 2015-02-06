@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	<topMargin>140</topMargin>
+	<bottomMargin>50</bottomMargin>
+	<!--
+		alignX Options 
+		The alignX is the distance from the left your page will start
+		Static X    				  eg.  <alignX>175</alignX>      	(this will make your content start 175 pixels from the left)
+		Left aligned X    	  eg.  <alignX>left</alignX>    		(this will make your content be left aligned)
+		Center aligned X      eg.  <alignX>center</alignX>  		(this will make your content be centered)
+		Right aligned X    	  eg.  <alignX>right</alignX>			(this will make your content be right aligned)
+	-->
+	<alignX>center</alignX><!--Horizontal Alignment-->
+	<!--
+		alignY Options 
+		The alignY is the distance from the top your page will start
+		Static Y    				  eg.  <alignY>175</alignY>      	(this will make your content start 175 pixels from the top)
+		Top aligned Y    	  	eg.  <alignY>top</alignY>     	(this will make your content be aligned vertically under the topMargin)
+		Bottom aligned Y      eg.  <alignY>bottom<alignY>   	(this will make your content be aligned vertically and sit on the bottomMargin)
+		Center aligned Y    	eg.  <alignY>center<alignY>			(this will make your content be aligned vertically between the topMargin and bottomMargin)
+	-->
+	<alignY>center</alignY><!-- Vertical Alignment-->
+	
+	
+	<contentWidth>962</contentWidth>
+	<contentHeight>675</contentHeight>
+	<contentBgColor>0x0c0c0c</contentBgColor>
+	<contentBgOpacity>0.6</contentBgOpacity>
+	
+	
+	<useHoverScroll>true</useHoverScroll>
+	<useManualScroll>false</useManualScroll>
+	
+	<!-- 	These settings apply 
+				if useManualScroll is true 
+				and useHoverScroll is false   -->
+	<scrollBarWidth>15</scrollBarWidth>
+	<scrollBarHeight>200</scrollBarHeight>
+	<scrollBaseColor>0x000000</scrollBaseColor>
+	<addTiledPatternToScrollBase>true</addTiledPatternToScrollBase>
+	<patternUrl>site_images/patterns/edgePattern.png</patternUrl>
+	<scrollBaseOpacity>.67</scrollBaseOpacity>
+	<scrollerColor>0xcfcfcf</scrollerColor>
+	<scrollerOpacity>1</scrollerOpacity>
+	
+	<!-- End of Scroll Bar Features -->
+	
+	<!-- Used for pop up content -->
+		<dimWallPaperColor>0xffffff</dimWallPaperColor>
+		<dimWallPaperAlpha>.85</dimWallPaperAlpha>
+		<!-- set the size of the font used in the image preloader -->
+		<preloaderTextSize>140</preloaderTextSize>
+		<!-- set the color of the font used in the image preloader -->
+		<preloaderTextColor>0x000000</preloaderTextColor>
+		<!-- set the opacity of the font used in the image preloader -->
+		<preloaderTextOpacity>1</preloaderTextOpacity>
+		
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>true</displayHtmlArticles>
+	<displaySlideShow>true</displaySlideShow>
+	<displaySWF>false</displaySWF>
+	
+	<slideShow>
+		<x>40</x>
+		<y>34</y>
+		<xmlURL>site_configuration/homePageSlideShow.xml</xmlURL>
+		<cssURL>site_stylesheets/slideShow.css</cssURL>
+	</slideShow>
+	
+	<image>
+		<x>36</x>
+		<y>449</y>
+		<imageURL>site_images/pages/home/home_title.png</imageURL>
+	</image>
+	
+	<article>
+		<x>39</x>
+		<y>529</y>
+		<width>830</width>
+		<articleText><![CDATA[<p>The youth of this world has already taken the step to give aid to those in need. It is time for the students of Seven Lakes High School to do the same. We are not calling for ultimate devotion, although that would excellent and well appreciated, but we are instead asking you to sacrifice your time to help us. Many of us are busy with soccer, UIL, etc. that we forget to look at the images of poverty around the world. You can take a look at  <a href="event:THE PHOTOS">GALLERY</a>  and  <a href="event:THE VIDEOS/ALL VIDEOS">VIDEOS</a> to see the more convincing perspectives. Just wonder: what you do could actually bring a smile to those faces? And some thirty years from now, you won’t regret being a part of this story.</p>]]></articleText>
+	</article>
+
+				
+
+</xmlObject>

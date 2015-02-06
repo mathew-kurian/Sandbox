@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5.0" type="plugin" group="content">         
+	<name>TP Box 2 for Joomla 1.5</name>
+	<author>TemplatePlazza</author>
+	<creationDate>September 2008</creationDate>
+	<copyright></copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>aku@jerrywijaya.com</authorEmail>
+	<authorUrl>www.templateplazza.com</authorUrl>
+	<version>1.1.0</version>
+	<description>
+	<![CDATA[ <img src="../plugins/content/tpbox2/images/logo.gif" alt="TPBox2" align="left" hspace="10"/>]]>
+	</description>
+	<files>
+		<filename plugin="tpbox2">tpbox2.php</filename>
+		<folder>tpbox2</folder>
+	</files>
+	<params>
+		<param type="list" name="zoomopacity" default="1" label="Zoom Opacity" description="">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="list" name="overlayshow" default="1" label="Overlay Show" description="">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="list" name="hideoncontentclick" default="1" label="Hide On Content Click" description="">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="list" name="animatedoption" default="2" label="Animated" description="">
+			<option value="0">No</option>
+			<option value="1">Zoom Speed Only</option>
+			<option value="2">Zoom Speed with Easing</option>
+		</param>
+		<param type="text" name="zoomspeedin" default="500" label="Zoom Speed In" description="" />
+		<param type="text" name="zoomspeedout" default="500" label="Zoom Speed Out" description="" />
+		<param type="list" name="easingin" default="easeOutBack" label="Easing In" description="">
+			<option value="easeInQuad">InQuad</option>
+			<option value="easeOutQuad">OutQuad</option>
+			<option value="InOutQuad">InOutQuad</option>
+			<option value="easeInCubic">InCubic</option>
+			<option value="easeOutCubic">OutCubic</option>
+			<option value="easeInOutCubic">InOutCubic</option>
+			<option value="easeInQuart">InQuart</option>
+			<option value="easeOutQuart">OutQuart</option>
+			<option value="easeInOutQuart">InOutQuart</option>
+			<option value="easeInQuint">InQuint</option>
+			<option value="easeOutQuint">OutQuint</option>
+			<option value="easeInOutQuint">InOutQuint</option>
+			<option value="easeInSine">InSine</option>
+			<option value="easeOutSine">OutSine</option>
+			<option value="easeInOutSine">InOutSine</option>
+			<option value="easeInExpo">InExpo</option>
+			<option value="easeOutExpo">OutExpo</option>
+			<option value="easeInOutExpo">InOutExpo</option>
+			<option value="easeInCirc">InCirc</option>
+			<option value="easeOutCirc">OutCirc</option>
+			<option value="easeInOutCirc">InOutCirc</option>
+			<option value="easeInElastic">InElastic</option>
+			<option value="easeOutElastic">OutElastic</option>
+			<option value="easeInOutElastic">InOutElastic</option>
+			<option value="easeInBack">InBack</option>
+			<option value="easeOutBack">OutBack</option>
+			<option value="easeInOutBack">InOutBack</option>
+			<option value="easeInBounce">InBounce</option>
+			<option value="easeOutBounce">OutBounce</option>
+			<option value="easeInOutBounce">InOutBounce</option>
+		</param>
+		<param type="list" name="easingout" default="easeInBack" label="Easing Out" description="">
+			<option value="easeInQuad">InQuad</option>
+			<option value="easeOutQuad">OutQuad</option>
+			<option value="easeInOutQuad">InOutQuad</option>
+			<option value="easeInCubic">InCubic</option>
+			<option value="easeOutCubic">OutCubic</option>
+			<option value="easeInOutCubic">InOutCubic</option>
+			<option value="easeInQuart">InQuart</option>
+			<option value="easeOutQuart">OutQuart</option>
+			<option value="easeInOutQuart">InOutQuart</option>
+			<option value="easeInQuint">InQuint</option>
+			<option value="easeOutQuint">OutQuint</option>
+			<option value="easeInOutQuint">InOutQuint</option>
+			<option value="easeInSine">InSine</option>
+			<option value="easeOutSine">OutSine</option>
+			<option value="easeInOutSine">InOutSine</option>
+			<option value="easeInExpo">InExpo</option>
+			<option value="easeOutExpo">OutExpo</option>
+			<option value="easeInOutExpo">InOutExpo</option>
+			<option value="easeInCirc">InCirc</option>
+			<option value="easeOutCirc">OutCirc</option>
+			<option value="easeInOutCirc">InOutCirc</option>
+			<option value="easeInElastic">InElastic</option>
+			<option value="easeOutElastic">OutElastic</option>
+			<option value="easeInOutElastic">InOutElastic</option>
+			<option value="easeInBack">InBack</option>
+			<option value="easeOutBack">OutBack</option>
+			<option value="easeInOutBack">InOutBack</option>
+			<option value="easeInBounce">InBounce</option>
+			<option value="easeOutBounce">OutBounce</option>
+			<option value="easeInOutBounce">InOutBounce</option>
+		</param>
+	</params>
+</install>

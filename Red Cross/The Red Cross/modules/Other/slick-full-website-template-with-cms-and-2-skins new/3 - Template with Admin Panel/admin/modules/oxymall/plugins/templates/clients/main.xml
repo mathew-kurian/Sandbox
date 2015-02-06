@@ -1,0 +1,37 @@
+<!--S:Main-->
+<Clients>
+	<settings>		
+		<imageWidth>{SET_IMAGEWIDTH}</imageWidth>
+		<imageHeight>{SET_IMAGEHEIGHT}</imageHeight>
+		<horizontalSpace>{SET_HORIZONTALSPACE}</horizontalSpace>		
+		<verticalSpace>{SET_VERTICALSPACE}</verticalSpace>		
+	</settings>
+	
+	<description title="{TITLE}" url="/{MOD_URL}/">
+		<![CDATA[
+			{HEADER}
+		]]>
+	</description>
+
+	{IMAGES}
+
+</Clients>
+<!--E:Main-->
+
+<!--S:ImagesGroup-->
+	<content>
+		{DATA}
+	</content>
+<!--E:ImagesGroup-->
+
+<!--S:ImagesGroupEmpty-->
+
+<!--E:ImagesGroupEmpty-->
+
+<!--S:ImagesElement-->
+		<client src="../../clients/{ITEM_ID}.jpg" name="{ITEM_NAME}" description="{ITEM_DESCRIPTION}" url="{ITEM_URL}" target="{ITEM_TARGET}"></client>
+<!--E:ImagesElement-->
+
+<!--S:ImagesEmpty-->
+
+<!--E:ImagesEmpty-->

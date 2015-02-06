@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Album1>
+	<gallery>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery1/7_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery1/7_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>OPEN FIELD</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery1/5_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery1/5_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>GARDEN ENTRANCE</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery1/2_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery1/2_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>ARCHITECTURE</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery1/8_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery1/8_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>SAND CASTLES</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery1/1_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery1/1_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>KOALA SLEEPING</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery1/9_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery1/9_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>MOSSY</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery1/11_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery1/11_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>BARRELS OF FUN</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery1/12_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery1/12_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>OTTER CREEK</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery1/13_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery1/13_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>SHARK WEEK</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery1/3_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery1/3_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>HAWK EYES</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery1/4_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery1/4_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>BUFFALO BURGERS</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery1/10_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery1/10_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>JARS OF CLAY</thumbCaption>
+		</image>
+	</gallery>
+</Album1>

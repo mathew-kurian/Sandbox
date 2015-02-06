@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+		
+<horizontal_menu>
+
+<settings_normal_menu
+
+	menuX="18" menuY="62"
+	
+	normalFontColor="0x000000" overFontColor="0x14527e" fontSize="8" fontName="my_font" toggleAntiAlias="1"
+	
+	normalBgColor1="0xf6f6f6" normalBgColor2="0xf6f6f6" normalBgColor3="0xf6f6f6" normalBgCornerRadius="0"
+	
+	overBgColor1="0xe4e4e4" overBgColor2="0xe4e4e4" overBgColor3="0xe4e4e4" overBgCornerRadius="0"
+	
+	roundMainCornerRadiusAtExtremities="0"
+	
+	buttonHeight="20" addPixelsToDefaultWidth="15" adjustTextXPos="-1" adjustTexYPos="0"
+	
+	toggleTotalMainBg="1" totalMainBgColor1="0xcfcfcf" totalMainBgColor2="0xcfcfcf" totalMainBgColor3="0xcfcfcf" totalMainBgAlpha="100" mainBgRadius="0"
+	
+	spaceBetweenMainButtons="1"
+	
+	
+	
+	subButtonNormalFontColor="0x000000" subButtonOverTextColor="0x14527e" subButtonFontSize="8" subButtonFontName="my_font"
+	
+	subButtonNormalBgColor1="0xf6f6f6" subButtonNormalBgColor2="0xf6f6f6" subButtonNormalBgColor3="0xf6f6f6" subButtonNormalBgCornerRadius="0"
+	
+	subButtonOverBgColor1="0xe4e4e4" subButtonOverBgColor2="0xe4e4e4" subButtonOverBgColor3="0xe4e4e4" subButtonOverBgCornerRadius="0"
+	
+	roundSubMenuCornerRadiusAtExtremities="0"
+	
+	subButtonHeight="20" subButtonAddPixelsToDefaultWidth="15" subButtonAdjustTextXPos="-1" subButtonAdjustTexYPos="0"
+	
+	toggleTotalSubButtonBg="1" totalSubButtonBgColor1="0xcfcfcf" totalSubButtonBgColor2="0xcfcfcf" totalSubButtonBgColor3="0xcfcfcf" totalSubButtonBgAlpha="100" SubButtonBgRadius="0" 
+
+	spaceBetweenSubButtons="1"
+	
+	
+	
+	
+	transitionTime="0.2" transitionType="linear"
+	
+	toggleComeBackToCurrentMenu="1"
+	
+	useAlphaFadeForSubMenuLowAlphaVal="100"
+	
+	subMenuAtBottom="1"
+	 >
+	
+</settings_normal_menu>
+
+
+	<button title="HOME" toggleSubMenu="1" url="http://www.google.com/" target="_blank">
+			<submenu>
+				<subButton title="CLIENT LIST" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="HERITAGE" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="LOCATION" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="LEGAL INFO" url="http://www.google.com/" target="_blank"> </subButton>
+			</submenu>
+	</button>
+	
+	
+	<button title="PRODUCTS" toggleSubMenu="1" url="http://www.google.com/" target="_blank">
+			<submenu>
+				<subButton title="OUR FACTORY" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="BUILDING" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="STAIRS" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="HALL" url="http://www.google.com/" target="_blank"> </subButton>
+			</submenu>
+	</button>
+	
+	<button title="SERVICES" toggleSubMenu="1" url="http://www.google.com/" target="_blank">
+			<submenu>
+				<subButton title="DESIGN" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="FLASH" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="STOCK" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="COMPONENTS" url="http://www.google.com/" target="_blank"> </subButton>	
+			</submenu>
+	</button>
+	
+	<button title="OUR PORTFOLIO" toggleSubMenu="1" url="http://www.google.com/" target="_blank">
+			<submenu>
+				<subButton title="OUR PORTFOLIO" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="HERITAGE" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="LOCATION" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="LEGAL INFO" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="OUR HISTORY" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="HERITAGE" url="http://www.google.com/" target="_blank"> </subButton>
+				
+			</submenu>
+	</button>
+	
+	<button title="OUR COMPANY" toggleSubMenu="1" url="http://www.google.com/" target="_blank">
+			<submenu>
+				<subButton title="OUR COMPANY" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="HERITAGE" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="LOCATION" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="LEGAL INFO" url="http://www.google.com/" target="_blank"> </subButton>
+			</submenu>
+	</button>
+	
+	<button title="FAQ" toggleSubMenu="1" url="http://www.google.com/" target="_blank">
+			<submenu>
+				<subButton title="FAQ OUR HISTORY" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="HERITAGE" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="LOCATION" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="LEGAL INFO" url="http://www.google.com/" target="_blank"> </subButton>
+			</submenu>
+	</button>
+	
+	<button title="DOWNLOADS" toggleSubMenu="1" url="http://www.google.com/" target="_blank">
+			<submenu>
+				<subButton title="DOWNLOADS OUR HISTORY" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="HERITAGE" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="LOCATION" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="LEGAL INFO" url="http://www.google.com/" target="_blank"> </subButton>
+			</submenu>
+	</button>
+	
+	<button title="CONTACT" toggleSubMenu="0" url="http://www.google.com/" target="_blank">
+			<submenu>
+				<subButton title="CONTACT OUR HISTORY" url="http://www.google.com/" target="_blank"> </subButton>
+				</submenu>
+	</button>
+	
+</horizontal_menu>
+

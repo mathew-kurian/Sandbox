@@ -1,0 +1,59 @@
+package com.digitlondon.ui.osx
+{
+	import flash.events.MouseEvent;
+	import flash.events.Event;
+
+	public final class MacMouseEvent extends MouseEvent
+	{
+		private var _delta:int;
+		private var _stageX:Number;
+		private var _stageY:Number;
+		
+		public function MacMouseEvent( _type:String, _delta:int, _stageX:Number, _stageY:Number )
+		{
+			super( _type, true, false );
+			this._delta = _delta;
+			this._stageX = _stageX;
+			this._stageY = _stageY;
+		}
+		
+		/**
+		* @inheritDoc
+		*/
+		override public function clone():Event
+		{
+			return new MacMouseEvent( type, _delta, _stageX, _stageY );
+		}
+		
+		/**
+		* @inheritDoc
+		*/
+		override public function get stageX():Number
+		{
+			return _stageX;
+		}
+		
+		/**
+		* @inheritDoc
+		*/
+		override public function get stageY():Number
+		{
+			return _stageY;
+		}
+		
+		/**
+		* @inheritDoc
+		*/
+		override public function get delta():int
+		{
+			return _delta;
+		}
+		/**
+		* @private
+		*/
+		override public function set delta(aValue:int):void
+		{
+			_delta = aValue;
+		}
+	}
+}

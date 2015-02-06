@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/505/trunk/branches/GreatWhite/src/org/ascollada/core
+END
+DaeSampler.as
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/core/DaeSampler.as
+END
+DaeSkin.as
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/491/trunk/branches/GreatWhite/src/org/ascollada/core/DaeSkin.as
+END
+DaeVertexWeights.as
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/484/trunk/branches/GreatWhite/src/org/ascollada/core/DaeVertexWeights.as
+END
+DaeInstanceController.as
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/484/trunk/branches/GreatWhite/src/org/ascollada/core/DaeInstanceController.as
+END
+DaeChannel.as
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/505/trunk/branches/GreatWhite/src/org/ascollada/core/DaeChannel.as
+END
+DaePrimitive.as
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/core/DaePrimitive.as
+END
+DaeContributor.as
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/core/DaeContributor.as
+END
+DaeInstanceNode.as
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/core/DaeInstanceNode.as
+END
+DaeEntity.as
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/491/trunk/branches/GreatWhite/src/org/ascollada/core/DaeEntity.as
+END
+DaeDocument.as
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/484/trunk/branches/GreatWhite/src/org/ascollada/core/DaeDocument.as
+END
+DaeAsset.as
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/core/DaeAsset.as
+END
+DaeAnimation.as
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/490/trunk/branches/GreatWhite/src/org/ascollada/core/DaeAnimation.as
+END
+DaeInstanceGeometry.as
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/core/DaeInstanceGeometry.as
+END
+DaeVisualScene.as
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/484/trunk/branches/GreatWhite/src/org/ascollada/core/DaeVisualScene.as
+END
+DaeImage.as
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/484/trunk/branches/GreatWhite/src/org/ascollada/core/DaeImage.as
+END
+DaeController.as
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/484/trunk/branches/GreatWhite/src/org/ascollada/core/DaeController.as
+END
+DaeAnimationCurve.as
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/ascollada/core/DaeAnimationCurve.as
+END
+DaeVertices.as
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/ascollada/core/DaeVertices.as
+END
+DaeNode.as
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/505/trunk/branches/GreatWhite/src/org/ascollada/core/DaeNode.as
+END
+DaeMorph.as
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/484/trunk/branches/GreatWhite/src/org/ascollada/core/DaeMorph.as
+END
+DaeAnimationClip.as
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/484/trunk/branches/GreatWhite/src/org/ascollada/core/DaeAnimationClip.as
+END
+DaeCamera.as
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/core/DaeCamera.as
+END
+DaeSpline.as
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/core/DaeSpline.as
+END
+DaeGeometry.as
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/484/trunk/branches/GreatWhite/src/org/ascollada/core/DaeGeometry.as
+END
+DaeBlendWeight.as
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/ascollada/core/DaeBlendWeight.as
+END
+DaeMesh.as
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/core/DaeMesh.as
+END
+DaeInput.as
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/core/DaeInput.as
+END
+DaeSource.as
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/core/DaeSource.as
+END
+DaeAccessor.as
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/core/DaeAccessor.as
+END

@@ -1,0 +1,58 @@
+<form>
+	<title>Users</title>
+	<border>true</border>
+	<subtitle>Search Results ({TOP_TITLE})</subtitle>
+	
+	<fields>
+<!--		<msg field="user_id" value="user_id" align="center" width="20" type="multiple" />-->
+
+		<button_mail type="button" width="20" align="center" onclick="" button="ac_new">
+			<location>javascript:document.forms[0].submit();</location>
+		</button_mail>
+
+		<button_delete type="button" width="20" align="center" onclick="" button="ac_delete" protected="user_protect_delete">
+			<location>{SELF.URI.DELETE}</location>
+		</button_delete>
+
+		<button_details type="button" width="20" align="center" onclick="" button="edit_small" >
+			<location>{SELF.URI.DETAILS}</location>
+		</button_details>
+
+	</fields>
+
+	<header>
+		<titles>true</titles>
+		<buttons>
+			<mail onclick="" button="ac_new" >
+				<location>javascript:document.forms[0].method='post';document.forms[0].action='{SELF.FILE}?mod=mailer&sub=compose';document.forms[0].submit();</location>
+			</mail>
+
+			<add onclick="" button="addnew_small" >
+				<location>{SELF.URI.ADD}&returnurl={CURRENT_PAGE}</location>
+			</add>
+		</buttons>
+	</header>
+
+	<vars>
+		<top_title import="$GLOBALS['_MODULES']['auth']->_CONF['conf']['levels'][(int)($_GET['user_level'])]" type="eval" />
+		<user_level import="(int)$_GET[user_level]" type="eval" />
+	</vars>
+
+	<sql>
+		<vars>
+			<table type="table" />
+			<page type="page"/>
+			<items type="eval" import="$_GET[items] ? (int)$_GET[items] : 20"/>
+
+			<condition type="eval" import="' WHERE `user_level`=\'' . $_GET[user_level] . '\''" />
+		</vars>
+		<query>select * from {TABLE} {CONDITION} ORDER BY user_login LIMIT	{PAGE} , {ITEMS} </query>
+		<count table="{TABLE}" condition="{CONDITION}" />
+
+	</sql>
+
+ 
+
+	<items>50</items>
+
+</form>

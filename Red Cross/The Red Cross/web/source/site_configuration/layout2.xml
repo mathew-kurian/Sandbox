@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	<topMargin>140</topMargin>
+	<bottomMargin>50</bottomMargin>
+	<!--
+		alignX Options 
+		The alignX is the distance from the left your page will start
+		Static X    				  eg.  <alignX>175</alignX>      		(this will make your content start 175 pixels from the left)
+		Left aligned X    	  eg.  <alignX>left</alignX>    		(this will make your content be left aligned)
+		Center aligned X      eg.  <alignX>center</alignX>  		(this will make your content be centered)
+		Right aligned X    	  eg.  <alignX>right</alignX>				(this will make your content be right aligned)
+	-->
+	<alignX>center</alignX><!--Horizontal Alignment-->
+	<!--
+		alignY Options 
+		The alignY is the distance from the top your page will start
+		Static Y    				  eg.  <alignY>175</alignY>      		(this will make your content start 175 pixels from the top)
+		Top aligned Y    	  	eg.  <alignY>top</alignY>     		(this will make your content be aligned vertically under the topMargin)
+		Bottom aligned Y      eg.  <alignY>bottom<alignY>   		(this will make your content be aligned vertically and sit on the bottomMargin)
+		Center aligned Y    	eg.  <alignY>center<alignY>				(this will make your content be aligned vertically between the topMargin and bottomMargin)
+	-->
+	<alignY>center</alignY><!-- Vertical Alignment-->
+	
+	
+	<!--Set your content pages width / height / color and opacity here -->
+	<contentWidth>709</contentWidth>
+	<contentHeight>1964</contentHeight>
+	<contentBgColor>0x0c0c0c</contentBgColor>
+	<contentBgOpacity>1</contentBgOpacity>
+	
+	<!-- Select the type of scrolling to use -->
+	<useHoverScroll>false</useHoverScroll>
+	<useManualScroll>true</useManualScroll>
+	
+	
+	<!-- Skin Your Scroll Bar Features  *these settings apply if useManualScroll is true and useHoverScroll is false-->
+	<scrollBarWidth>15</scrollBarWidth>
+	<scrollBarHeight>200</scrollBarHeight>
+	<scrollBaseColor>0x000000</scrollBaseColor>
+	<addTiledPatternToScrollBase>true</addTiledPatternToScrollBase>
+	<patternUrl>site_images/patterns/edgePattern.png</patternUrl>
+	<scrollBaseOpacity>.67</scrollBaseOpacity>
+	<scrollerColor>0xcfcfcf</scrollerColor>
+	<scrollerOpacity>1</scrollerOpacity>
+	<!-- End of Scroll Bar Features -->
+	
+	
+	<!-- Used for pop up content -->
+	<dimWallPaperColor>0xffffff</dimWallPaperColor>
+	<dimWallPaperAlpha>.85</dimWallPaperAlpha>
+	<!-- set the size of the font used in the image preloader -->
+	<preloaderTextSize>140</preloaderTextSize>
+	<!-- set the color of the font used in the image preloader -->
+	<preloaderTextColor>0x000000</preloaderTextColor>
+	<!-- set the opacity of the font used in the image preloader -->
+	<preloaderTextOpacity>1</preloaderTextOpacity>
+
+
+
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>true</displayHtmlArticles>
+	<displaySlideShow>true</displaySlideShow>
+	<displaySWF>false</displaySWF>
+	
+	
+	
+	<!-- PAGE SLIDESHOW -->
+	<slideShow>
+		<x>41</x>
+		<y>54</y>
+		<xmlURL>site_configuration/layout2SlideShow.xml</xmlURL>
+		<cssURL>site_stylesheets/slideShow.css</cssURL>
+	</slideShow>
+	
+	
+	<!-- PAGE TITLE AS GRAPHIC -->
+	<image>
+		<x>42</x>
+		<y>405</y>
+		<imageURL>site_images/pages/layout2/title.png</imageURL>
+	</image>
+	
+	
+	<!-- Eg of how to link an image to a photogallery popup-->
+	<image>
+		<x>39</x>
+		<y>532</y>
+		<imageURL>site_images/pages/layout2/layout2_09.png</imageURL>
+		<addPhotoPopUp>true</addPhotoPopUp>
+		<photoXmlUrl>site_configuration/photoGalleryPopUp.xml</photoXmlUrl>
+		<photoCssUrl>site_stylesheets/photo.css</photoCssUrl>
+	</image>
+	
+	
+	<!-- Eg of how to link an image to a video gallery popup-->
+	<image>
+		<x>255</x>
+		<y>532</y>
+		<imageURL>site_images/pages/layout2/layout2_11.png</imageURL>
+		<addVideoPopUp>true</addVideoPopUp>
+		<videoXmlUrl>site_configuration/16x9videoGallery.xml</videoXmlUrl>
+		<videoCssUrl>site_stylesheets/videoGalleryStyle.css</videoCssUrl>
+	</image>
+	
+	
+	<!-- Eg of how to link an image to a content page popup-->
+	<image>
+		<x>471</x>
+		<y>532</y>
+		<imageURL>site_images/pages/layout2/layout2_13.png</imageURL>
+		<addContentPopUp>true</addContentPopUp>
+		<contentPopUpXmlUrl>site_configuration/contentPopUp.xml</contentPopUpXmlUrl>
+		<contentPopUpCssUrl>site_stylesheets/content.css</contentPopUpCssUrl>
+	</image>
+	
+	
+	<image>
+		<x>39</x>
+		<y>681</y>
+		<imageURL>site_images/pages/layout2/layout2_16.png</imageURL>
+	</image>
+	<image>
+		<x>255</x>
+		<y>681</y>
+		<imageURL>site_images/pages/layout2/layout2_18.png</imageURL>
+	</image>
+	<image>
+		<x>471</x>
+		<y>681</y>
+		<imageURL>site_images/pages/layout2/layout2_20.png</imageURL>
+	</image>
+	<article>
+		<x>39</x>
+		<y>715</y>
+		<width>167</width>
+		<articleText><![CDATA[<p class="layout">Now has 30 XML configuration options! Choose if you want to include tooltips when you hover over thumbnails. Set the top and bottom margin, set your images border width / color / and opacity, set your image preloader's size/color/ and opacity from XML.</p>]]></articleText>
+	</article>
+	<article>
+		<x>255</x>
+		<y>715</y>
+		<width>167</width>
+		<articleText><![CDATA[<p class="layout">Included with this template is a full featured video gallery. We have included XML Layouts for three different galleries. A 4x3 Gallery, A 16x9 Gallery, A Minimal One Category Gallery, and a Single Video Gallery.  Oh and you can load them as pop-ups too!</p>]]></articleText>
+	</article>
+	<article>
+		<x>471</x>
+		<y>715</y>
+		<width>167</width>
+		<articleText><![CDATA[<p class="layout">You can load a complete content page as a pop-up.  New XML features include: setting top & bottom margins, skinning scroll bar, setting the dim wallpaper color and opacity for pop-ups, and positioning your page  left center or a static x.</p>]]></articleText>
+	</article>
+	
+	
+	<!-- Eg of loading a super-sized image pop-up -->
+	<image>
+		<x>39</x>
+		<y>890</y>
+		<imageURL>site_images/pages/layout2/layout2_37.png</imageURL>
+		<addSuperSizedImagePopUp>true</addSuperSizedImagePopUp>
+		<superSizedImageUrl>site_images/pages/photoGallery/01_full.jpg</superSizedImageUrl>
+	</image>
+	
+	
+	<!-- Eg of loading a single video pop-up-->
+	<image>
+		<x>255</x>
+		<y>890</y>
+		<imageURL>site_images/pages/layout2/layout2_39.png</imageURL>
+		<addVideoPopUp>true</addVideoPopUp>
+		<videoXmlUrl>site_configuration/singleVideo.xml</videoXmlUrl>
+		<videoCssUrl>site_stylesheets/videoGalleryStyle.css</videoCssUrl>
+	</image>
+	
+	
+	<!-- Eg of loading a slideshow pop-up -->
+	<image>
+		<x>471</x>
+		<y>890</y>
+		<imageURL>site_images/pages/layout2/layout2_41.png</imageURL>
+		<addSlideshowPopUp>true</addSlideshowPopUp>
+		<slideShowXmlUrl>site_configuration/slideShow2.xml</slideShowXmlUrl>
+		<slideShowCssUrl>site_stylesheets/slideShow.css</slideShowCssUrl>
+	</image>
+	
+	
+	<image>
+		<x>39</x>
+		<y>1040</y>
+		<imageURL>site_images/pages/layout2/layout2_44.png</imageURL>
+	</image>
+	<image>
+		<x>255</x>
+		<y>1040</y>
+		<imageURL>site_images/pages/layout2/layout2_46.png</imageURL>
+	</image>
+	<image>
+		<x>471</x>
+		<y>1040</y>
+		<imageURL>site_images/pages/layout2/layout2_48.png</imageURL>
+	</image>
+	<article>
+		<x>39</x>
+		<y>1071</y>
+		<width>167</width>
+		<articleText><![CDATA[<p class="layout">We even upgraded this feature! Now you can not only load your supersized images, but if they are larger than the user's browser window, they will be automatically scrolled with the hover of the mouse! </p>]]></articleText>
+	</article>
+	<article>
+		<x>255</x>
+		<y>1071</y>
+		<width>167</width>
+		<articleText><![CDATA[<p class="layout">You can now skin this entire player right from XML.  No need to open flash for this at all.  You can skin every icon and bar in the player from XML.  Also set video width and height from XML.</p>]]></articleText>
+	</article>
+	<article>
+		<x>471</x>
+		<y>1071</y>
+		<width>167</width>
+		<articleText><![CDATA[<p class="layout">A slideshow can be added and positioned from XML to any of your content pages. You can also call a slideshow as a stand alone page, or as a pop up like the image above illustrates.</p>]]></articleText>
+	</article>
+	
+	<!-- Eg of linking your image to an external-swf -->
+	<image>
+		<x>39</x>
+		<y>1248</y>
+		<imageURL>site_images/pages/layout2/layout2_65.png</imageURL>
+				
+				<addExternalSwfPopUp>true</addExternalSwfPopUp>
+				<muteAudio>true</muteAudio>
+				<swfUrl>join.swf</swfUrl>
+				<!--  
+					It is highly recommended that when unloading your external swf, that any and all event listeners
+					that have been set be removed, and all objects are removed from the stage, and bitmap data is 
+					disposed of. This clears your visitors memory and prevents your template from running into errors
+					that can arise from unremoved event listeners. If you are flash beginner set the following 
+					<useFunctionForGarbageCollection> to false, if you are somewhat good with actionscript set the 
+					following <useFunctionForGarbageCollection> to true and then include the name of the function
+					that takes care of removing your movieclip assets from memory. Make sure that this function is 
+					located on the first frame of the external swf that you are loading. 
+				-->
+				<useFunctionForGarbageCollection>true</useFunctionForGarbageCollection>
+				<!-- if you are a begginer and have set <useFunctionForGarbageCollection> to false then you can leave <functionName> empty. -->
+				<functionName>destroySwf</functionName>
+				<!--If your external swf centers itself then set <useTemplateToCenterSwf> to false -->
+				<useTemplateToCenterSwf>true</useTemplateToCenterSwf>
+				<swfWidth>916</swfWidth>
+				<swfHeight>357</swfHeight>
+				
+				
+	</image>
+	
+	<!--Eg of linking your image to a non-indexed page, or a page that IS NOT part of your page/subpage buttons -->
+	<image>
+		<x>255</x>
+		<y>1248</y>
+		<imageURL>site_images/pages/layout2/layout2_67.png</imageURL>
+		<addInternalPageLink>true</addInternalPageLink>
+		<pageName>NON INDEXED PAGE</pageName>
+	</image>
+	
+	<!--Eg of linking your image to an indexed page, or a page that IS part of your page/subpage buttons -->
+	<image>
+		<x>471</x>
+		<y>1248</y>
+		<imageURL>site_images/pages/layout2/layout2_69.png</imageURL>
+		<addInternalPageLink>true</addInternalPageLink>
+		<pageName>CONTENT/LAYOUT STYLE 1</pageName>
+	</image>
+	
+	<image>
+		<x>39</x>
+		<y>1397</y>
+		<imageURL>site_images/pages/layout2/layout2_72.png</imageURL>
+	</image>
+	<image>
+		<x>255</x>
+		<y>1397</y>
+		<imageURL>site_images/pages/layout2/layout2_74.png</imageURL>
+	</image>
+	<image>
+		<x>471</x>
+		<y>1397</y>
+		<imageURL>site_images/pages/layout2/layout2_76.png</imageURL>
+	</image>
+	<article>
+		<x>39</x>
+		<y>1428</y>
+		<width>167</width>
+		<articleText><![CDATA[<p class="layout">The ActionScript 3 in this template now loops through your content pages and allows you to add as many swfs to each content page as you like.  You can also load external swfs as individual pages or as pop-ups.</p>]]></articleText>
+	</article>
+	<article>
+		<x>255</x>
+		<y>1428</y>
+		<width>167</width>
+		<articleText><![CDATA[<p class="layout">You can now set the click event on your images to point to non indexed pages, or simply pages that are not included in your page and sub page buttons.</p>
+<a href="event:NON INDEXED PAGE">Text Link</a>]]></articleText>
+	</article>
+	<article>
+		<x>471</x>
+		<y>1428</y>
+		<width>167</width>
+		<articleText><![CDATA[<p class="layout">Link your images to any page within your template.  Not a whole lot to say about this feature, other than it is really cool and will come in handy.</p>
+<a href="event:CONTACT">Text Link</a>]]></articleText>
+	</article>
+	
+	
+	<!-- Eg of how to link an image to an external url -->
+	<image>
+		<x>39</x>
+		<y>1609</y>
+		<imageURL>site_images/pages/layout2/layout2_93.png</imageURL>
+		<addLink>true</addLink>
+		<linkUrl>http://activeden.net/user/FLASHdriven/portfolio</linkUrl>
+		<linkOpenType>_blank</linkOpenType> <!-- or use  <linkOpenType>_self</linkOpenType>  to open up links in same window-->
+	</image>
+	
+
+	<image>
+		<x>39</x>
+		<y>1758</y>
+		<imageURL>site_images/pages/layout2/layout2_100.png</imageURL>
+	</image>
+	<article>
+		<x>39</x>
+		<y>1789</y>
+		<width>167</width>
+		<articleText><![CDATA[<p class="layout">You now also have the ability to link any of your images to external urls, and you also have the ability to specify in XML if you want the external url to open up in the same "self" window or a new "blank" page!</p>
+<a target="_blank" href="http://activeden.net/user/FLASHdriven/portfolio">Text Link</a>]]></articleText>
+	</article>
+
+
+
+
+
+
+
+				
+
+</xmlObject>

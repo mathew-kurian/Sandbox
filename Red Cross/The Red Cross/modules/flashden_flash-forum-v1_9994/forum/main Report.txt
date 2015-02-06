@@ -1,0 +1,365 @@
+main.swf Movie Report
+----------------------
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    ----------------
+      1         123627         123627    Scene 1 (AS 2.0 Classes Export Frame)
+
+Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+Scene 1                               18            64                  6337
+
+Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+Symbol 39                             55             0                     0
+Symbol 38                              0             0                     0
+slider_path                           20             0                     0
+slider                                14             0                     0
+Symbol 37                              0             0                     0
+img_holder                             0             0                     0
+are_you_shure                          0            28                   104
+are_you_shure copy                     0            28                   115
+Symbol 36                              0             0                     0
+Symbol 36 copy 2                       0            40                     0
+Symbol 36 copy                         0             0                     0
+Symbol 36 copy 3                      19            38                     0
+Symbol 35                              0             0                     0
+Symbol 35 copy 2                       0             0                     0
+Symbol 35 copy 3                       0             0                     0
+Symbol 35 copy                        28             0                     0
+Symbol 35 copy 4                      28             0                     0
+Symbol 34                              0            54                     0
+Symbol 34 copy 3                      42            58                     0
+Symbol 34 copy 2                       0             0                     0
+Symbol 34 copy                         0            58                     0
+Posts_admini                          94           137                   193
+Posts_admini copy 2                   38             0                    60
+Posts_admini copy                      0            74                   262
+Symbol 33                              0             0                     0
+Symbol 31                             20            23                     0
+Symbol 31 copy 6                       0            24                     0
+Symbol 31 copy 8                      40            24                     0
+Symbol 31 copy 7                       0            24                     0
+Symbol 31 copy 5                       0             0                     0
+Symbol 30                              0             0                     0
+Symbol 29                             16             0                     0
+Users_onlinett                         0            69                     0
+Symbol 28                             21             0                     0
+users_online                          51            21                    17
+Symbol 27                              0             0                     0
+Symbol 26                              0             0                     0
+Symbol 25                              0            85                    35
+loader                                 0             0                     0
+Symbol 24                              0             0                     0
+Symbol 23                             46             0                     0
+Symbol 23 copy                       212             0                     0
+Symbol 23 copy 2                      14            46                     0
+Symbol 22                             37             0                     0
+Symbol 22 copy                        37             0                     0
+Symbol 21 copy                        56             0                     0
+Symbol 20                              0             0                     0
+Symbol 19                              0             0                     0
+Tween 7                                0             0                     0
+Symbol 18                            104             0                     2
+Symbol 18 copy                         0             0                     0
+Symbol 17                             20             0                     0
+Symbol 16                             34             0                     0
+Symbol 15                             42            23                     0
+Symbol 14                              0             0                     0
+Symbol 13                              0             0                     0
+Symbol 13 copy 2                       0             0                     0
+Symbol 13 copy 4                      21             0                     0
+Symbol 13 copy                         0             0                     0
+Symbol 13 copy 3                       0             0                     0
+Symbol 12                              0            44                    99
+Symbol 12 copy 2                       0            42                   157
+Symbol 12 copy 4                       0            44                   157
+Symbol 12 copy                         0            44                   116
+Symbol 12 copy 3                       0            44                   157
+Symbol 12 copy 5                      21            47                   157
+Tween 6                                0            40                     0
+Tween 5                                0             0                     0
+Symbol 11                              0             0                    17
+Symbol 11 copy                         0             0                    23
+Symbol 10                              0            22                    18
+Symbol 9                              27             0                     0
+Symbol 8                              27             0                     0
+Symbol 8 copy 3                       22             0                     0
+Symbol 8 copy                          0             0                     0
+Symbol 8 copy 2                       24             0                     0
+Symbol 7                               0            23                     0
+Symbol 7 copy                          0             0                     0
+Symbol 6                               0             0                     0
+Tween 4                                0             0                     0
+Tween 3                                0             0                     0
+Symbol 5                              33             0                     0
+Symbol 5 copy 2                       24             0                     0
+Symbol 5 copy                          0             0                     0
+Symbol 4                             206             0                     0
+Symbol 3                              23             0                     0
+Symbol 2                              23             0                     0
+Tween 2                                0             0                     0
+Tween 1                                0             0                     0
+Symbol 1                               0             0                     0
+Symbol 176 copy 3                      0             0                     0
+Symbol 176 copy 4                      0             0                     0
+Symbol 186                             0             0                     0
+Symbol 67                              0             0                     0
+Symbol 67 copy 6                      20             0                     0
+Symbol 66                              0            53                   119
+main                                  46           131                     0
+Symbol 67 copy                        17             0                     0
+Symbol 67 copy 5                       0             0                     0
+Symbol 67 copy 4                       0             0                     0
+Symbol 67 copy 2                       0             0                     0
+Symbol 67 copy 3                       0             0                     0
+Symbol 66 copy                        30           148                   134
+Symbol 66 copy 2                      17            22                    17
+Login_register_box                     0           148                   848
+main copy                              0            22                     0
+main copy 2                            0             0                     0
+Symbol 62                             35             0                     0
+Symbol 59                              0             0                     0
+Symbol 59 copy 5                       0             0                     0
+Symbol 59 copy 4                       0             0                     0
+Symbol 59 copy 3                       0             0                     0
+Symbol 59 copy 2                       0             0                     0
+Symbol 59 copy                         0             0                     0
+Symbol 60                              0             0                     0
+Symbol 60 copy 5                      22             0                     0
+Symbol 60 copy 4                       0             0                     0
+Symbol 60 copy 3                       0             0                     0
+Symbol 60 copy 2                       0             0                     0
+Symbol 60 copy                         0             0                     0
+Symbol 61                              0          1391                   522
+Symbol 102133                          0             0                     0
+Symbol 712313123123                   18             0                     0
+Tween 14123123                        19             0                     0
+ScrollBar                            172             0                     0
+scrollbutton graphic                   0             0                     0
+Tween 15123                            0            12                     0
+Symbol 8123123123                      0             0                     0
+scrollbutton solid                    13             0                     0
+scrollbutton                           0            28                     0
+scrollbar unit                         0             0                     0
+mousedrag                            120             0                     0
+forum                                 32            64                   860
+Symbol 70                             42             0                     0
+Symbol 32                             32             0                     0
+Symbol 31 copy 2                       0             0                     0
+Button no.3 copy 6                     0            25                   122
+Symbol 31 copy                         0             0                     0
+Button no.3 copy 7                     0            22                    27
+new_thread                            89           109                    38
+Symbol 31 copy 4                       0             0                     0
+Button no.3 copy 9                     0            24                   126
+Symbol 31 copy 3                      21             0                     0
+Button no.3 copy 8                     0            22                    27
+new_post_reply                        77           177                     0
+Symbol 45123 copy                      0             0                     0
+Symbol 45123 copy 2                    0             0                     0
+Symbol 45123                           0             0                     0
+Symbol 12323123                        0             0                     0
+stevilka_strani_forum                  0            21                   112
+posts_pagination                      42            21                   140
+posts2                                 0           226                    40
+Symbol 64                             28             0                     0
+Symbol 63                             82           159                   133
+Fill                                   0             0                     0
+Top Shadow                             0             0                     0
+Bottom Shadow                          0             0                     0
+enterFrame Movie                       0             0                     0
+shape 2                               34             0                     0
+sprite 3                              35             0                     0
+shape 118                             63             0                     0
+Symbol 56                             35             0                     0
+sprite 119                             0             0                    58
+editProfileWindow                     98           301                  1715
+Symbol 21                             56             0                     0
+posts                                 22           226                    58
+
+
+Tweened Shapes: 1909 bytes
+
+Font Name                 Bytes        Characters    
+----------------------    ---------    --------------
+HelveticaLT-Light              6332     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ˆ˜–—‘’‚“”„†‡•…‰‹›€™
+ArialMT                         786     CNPadenoprstuw
+ArialMT   8 pts                  70     >
+TrebuchetMS-Bold Bold          4720     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ˆ˜–—‘’‚“”„†‡•…‰‹›€™
+TrebuchetMS                    4772     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ˆ˜–—‘’‚“”„†‡•…‰‹›€™
+
+ActionScript Bytes    Location
+------------------    --------
+                58    posts:Layer 5:1
+                37    Posts_admini:Layer 3:1
+                 9    Posts_admini:Layer 5:1:No instance name assigned(Symbol 35)
+                 4    Posts_admini:Layer 5:5:No instance name assigned(Symbol 35 copy 4)
+                 8    Posts_admini:Layer 4:9:btn(Symbol 34)
+                52    Posts_admini:Layer 6:10:No instance name assigned(Symbol 34 copy)
+                 0    Posts_admini:Layer 3:21
+                 2    Posts_admini:Layer 3:39
+                69    Posts_admini copy:Layer 4:42:btn(Symbol 34)
+                74    Posts_admini:Layer 8:47:btn(Symbol 35 copy 3)
+                 3    Posts_admini:Layer 5:47:No instance name assigned(Symbol 35 copy 2)
+                 0    Posts_admini:Layer 3:57
+                87    are_you_shure:Layer 1:1:No instance name assigned(Symbol 36)
+                17    are_you_shure:Layer 1:1:No instance name assigned(Symbol 36 copy)
+                 4    Posts_admini:Layer 5:62:No instance name assigned(Symbol 35 copy)
+                 0    Posts_admini:Layer 3:73
+                 0    Posts_admini:Layer 3:75
+               653    editProfileWindow:Layer 4:1
+              1043    editProfileWindow:Layer 6:1
+                80    
+                19    editProfileWindow:Layer 2:1:No instance name assigned(Symbol 31)
+                 0    Symbol 63:Layer 3:1
+               133    Symbol 63:Layer 4:1:No instance name assigned(Symbol 64)
+                37    Posts_admini copy 2:Layer 3:1
+                 9    Posts_admini copy 2:Layer 5:1:No instance name assigned(Symbol 35)
+                 4    Posts_admini copy 2:Layer 5:5:No instance name assigned(Symbol 35 copy)
+                 8    Posts_admini copy 2:Layer 4:9:btn(Symbol 34 copy 3)
+                 0    Posts_admini copy 2:Layer 3:21
+                 2    Posts_admini copy 2:Layer 3:39
+                98    are_you_shure copy:Layer 1:1:No instance name assigned(Symbol 36 copy 2)
+                17    are_you_shure copy:Layer 1:1:No instance name assigned(Symbol 36 copy 3)
+                 0    Posts_admini copy 2:Layer 3:53
+                 0    Posts_admini copy 2:Layer 3:55
+                 0    Symbol 63:Layer 3:15
+                40    posts2:Layer 5:1
+                37    Posts_admini copy:Layer 3:1
+                 9    Posts_admini copy:Layer 5:1:No instance name assigned(Symbol 35)
+                 4    Posts_admini copy:Layer 5:5:No instance name assigned(Symbol 35 copy 4)
+                 8    Posts_admini copy:Layer 4:9:btn(Symbol 34)
+                52    Posts_admini copy:Layer 6:10:No instance name assigned(Symbol 34 copy)
+                 0    Posts_admini copy:Layer 3:21
+                 2    Posts_admini copy:Layer 3:39
+                74    Posts_admini copy:Layer 8:47:btn(Symbol 35 copy 3)
+                 3    Posts_admini copy:Layer 5:47:No instance name assigned(Symbol 35 copy 2)
+                 0    Posts_admini copy:Layer 3:57
+                 4    Posts_admini copy:Layer 5:62:No instance name assigned(Symbol 35 copy)
+                 0    Posts_admini copy:Layer 3:73
+                 0    Posts_admini copy:Layer 3:75
+                 0    posts_pagination:Layer 4:1
+               138    posts_pagination:Layer 5:1:btn(Symbol 45123 copy 2)
+                 0    posts_pagination:Layer 4:13
+                 2    posts_pagination:Layer 4:21
+                 0    posts_pagination:Layer 4:40
+                 0    stevilka_strani_forum:Layer 4:1
+               110    stevilka_strani_forum:Layer 5:1:btn(Symbol 45123 copy)
+                 0    stevilka_strani_forum:Layer 4:13
+                 2    stevilka_strani_forum:Layer 4:21
+                 0    stevilka_strani_forum:Layer 4:40
+                17    new_thread:Layer 4:1:btn(Symbol 2)
+                18    new_thread:Layer 3:1:handBtn(Symbol 70)
+                 0    Button no.3 copy 9:Layer 4:1
+               126    Button no.3 copy 9:Layer 2:1:btn(Symbol 31 copy 4)
+                 0    Button no.3 copy 9:Layer 4:15
+                 0    Button no.3 copy 8:Layer 4:1
+                27    Button no.3 copy 8:Layer 2:1:btn(Symbol 31 copy 3)
+                 0    Button no.3 copy 8:Layer 4:15
+                 0    Button no.3 copy 6:Layer 4:1
+               122    Button no.3 copy 6:Layer 2:1:btn(Symbol 31 copy 2)
+                 0    Button no.3 copy 6:Layer 4:15
+                 0    Button no.3 copy 7:Layer 4:1
+                27    Button no.3 copy 7:Layer 2:1:btn(Symbol 31 copy)
+                 0    Button no.3 copy 7:Layer 4:15
+                 3    new_thread:Layer 26:1:enterFrameMovie(enterFrame Movie)
+                14    forum:Actions:1
+                 0    Symbol 59:Layer 2:1
+                 0    Symbol 59:Layer 2:10
+                 0    Symbol 59 copy:Layer 2:1
+                 0    Symbol 59 copy:Layer 2:10
+                 0    Symbol 59 copy 2:Layer 2:1
+                 0    Symbol 59 copy 2:Layer 2:10
+                 0    Symbol 59 copy 3:Layer 2:1
+                 0    Symbol 59 copy 3:Layer 2:10
+                 0    Symbol 59 copy 4:Layer 2:1
+                 0    Symbol 59 copy 4:Layer 2:10
+                 0    Symbol 59 copy 5:Layer 2:1
+                 0    Symbol 59 copy 5:Layer 2:10
+                87    Symbol 61:buttons:1:No instance name assigned(Symbol 60)
+                87    Symbol 61:buttons:1:No instance name assigned(Symbol 60 copy)
+                87    Symbol 61:buttons:1:No instance name assigned(Symbol 60 copy 2)
+                87    Symbol 61:buttons:1:No instance name assigned(Symbol 60 copy 3)
+                87    Symbol 61:buttons:1:No instance name assigned(Symbol 60 copy 4)
+                87    Symbol 61:buttons:1:No instance name assigned(Symbol 60 copy 5)
+                24    Symbol 66:Layer 5:1
+                76    Symbol 66:Layer 3:1:No instance name assigned(Symbol 67)
+                19    Symbol 66:Layer 3:5:No instance name assigned(Symbol 67 copy 6)
+                 0    Symbol 66:Layer 5:14
+                71    forum:Threads:2:main(main)
+                 2    Symbol 18:Layer 17:70
+                 0    forum:closeBtn:20
+                 0    forum:Actions:26
+                 0    Symbol 66 copy 2:Layer 5:1
+                17    Symbol 66 copy 2:Layer 9:1:No instance name assigned(Symbol 67 copy 2)
+                 0    scrollbutton:Layer 3:1
+                 0    scrollbutton:Layer 3:4
+                 0    forum:Actions:29
+               614    forum:Labels:29
+                17    forum:Btn:29:btn(Symbol 3)
+                71    forum:Posts:29:post_main(main copy)
+                24    Symbol 66 copy:Layer 5:1
+                19    Symbol 66 copy:Layer 1:1:No instance name assigned(Symbol 67 copy 2)
+                25    Symbol 66 copy:Layer 7:1:No instance name assigned(Symbol 67 copy)
+                66    Symbol 66 copy:Layer 3:1:No instance name assigned(Symbol 67 copy)
+                 0    Symbol 66 copy:Layer 5:15
+                71    forum:Forum parts:29:pagesButtons(main copy 2)
+                 0    mousedrag:Layer 2:1
+                 0    mousedrag:Layer 2:2
+                 0    mousedrag:Layer 2:3
+                 0    mousedrag:Layer 2:4
+                 0    forum:Actions:38
+                 2    forum:Actions:41
+                17    users_online:Layer 3:1:btn(Symbol 29)
+                 0    Login_register_box:Actions:1
+                18    Symbol 10:Layer 1:1:No instance name assigned(Symbol 67 copy 5)
+                17    Symbol 11:Layer 1:1:No instance name assigned(Symbol 67 copy 3)
+                35    Symbol 25:Layer 3:1:No instance name assigned(Symbol 23 copy)
+                 7    Login_register_box:Main background2:9:No instance name assigned(Symbol 22)
+                23    Symbol 11 copy:Layer 1:1:No instance name assigned(Symbol 67 copy 3)
+                 7    Login_register_box:Main background2:12:No instance name assigned(Symbol 22 copy)
+                 2    Symbol 12:Layer 3:1
+                 0    Symbol 12:Layer 3:5
+                97    Symbol 12:Layer 4:14:btn(Symbol 13)
+                 0    Symbol 12:Layer 3:19
+                 2    Symbol 12 copy:Layer 3:1
+                17    Symbol 12 copy:Layer 3:5
+                97    Symbol 12 copy:Layer 4:14:btn(Symbol 13)
+                 0    Symbol 12 copy:Layer 3:19
+               370    Login_register_box:Actions:15
+                 2    Login_register_box:Actions:30
+                 0    sprite 3:Action Layer:1
+                 0    sprite 3:Action Layer:5
+                58    sprite 119:Layer 4:1:No instance name assigned(Symbol 56)
+                34    Login_register_box:Register passwords :47:No instance name assigned(Symbol 23 copy 2)
+                 0    Login_register_box:Actions:48
+                 2    Symbol 12 copy 2:Layer 3:1
+                 0    Symbol 12 copy 2:Layer 3:5
+               155    Symbol 12 copy 2:Layer 4:14:btn(Symbol 13 copy)
+                 0    Symbol 12 copy 2:Layer 3:19
+                 2    Symbol 12 copy 3:Layer 3:1
+                 0    Symbol 12 copy 3:Layer 3:5
+               155    Symbol 12 copy 3:Layer 4:14:btn(Symbol 13 copy 2)
+                 0    Symbol 12 copy 3:Layer 3:19
+                 0    Login_register_box:Actions:65
+                 0    Login_register_box:Actions:77
+                 2    Symbol 12 copy 4:Layer 3:1
+                 0    Symbol 12 copy 4:Layer 3:5
+               155    Symbol 12 copy 4:Layer 4:14:btn(Symbol 13 copy 3)
+                 0    Symbol 12 copy 4:Layer 3:19
+                 2    Symbol 12 copy 5:Layer 3:1
+                 0    Symbol 12 copy 5:Layer 3:5
+               155    Symbol 12 copy 5:Layer 4:14:btn(Symbol 13 copy 4)
+                 0    Symbol 12 copy 5:Layer 3:19
+               428    Login_register_box:Actions:94
+               375    Scene 1:EDIT THIS:1
+               270    Scene 1:Administration Actions:1
+              4249    Scene 1:Main Actions:1
+               771    Scene 1:New Post & Thread Actions:1
+               672    Scene 1:User Data Actionscript:1
+             73366    ActionScript 2.0 Classes
+
+
+
+

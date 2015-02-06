@@ -1,0 +1,84 @@
+<form>
+	<title>{SELF.TITLE} {TITLE} Job</title>
+	<action>{SELF.URI.STORE}</action>
+	<name>edit</name>
+	<width>100%</width>
+	<alternance>true</alternance>
+	<encoding>multipart/form-data</encoding>
+
+
+	<formtag>true</formtag>
+	<border>true</border>
+
+
+	
+	<buttons>		
+		<set>
+			<header>true</header>
+		</set>
+
+
+		<button_back onclick="" button="return">
+			<location>{PRIVATE.FORM_PREVIOUS_PAGE}</location>
+		</button_back>
+
+		<button_edit onclick="" button="edit">
+			<location>{SELF.URI.EDIT}</location>
+		</button_edit>
+
+		<button_save button="saveall">
+			<location>javascript:document.forms[0].submit();</location>
+		</button_save>
+
+	</buttons>
+
+	<redirect>{PHP}?sub=accounts</redirect>
+
+	<fields>
+		<item_id type="hidden"/>		
+		<item_order type="hidden"/>
+		<item_date type="hidden" default="eval:time();"/>
+  		<module_id type="hidden" default="eval:$_GET[module_id]"/>		
+
+		<item_status type="checkbox" checked="1" label="active" />
+		
+		<item_title type="textbox" size="60:200" title="Title" required="true" validate="A:2:200" onblur="AddPageCode(this.value);"/>
+		<item_url type="textbox" size="60:200" title="Url" required="true" validate="A:2:200" u_nique="true" preffix="/#/module-url/" suffix="-#id/"/>
+		<item_urltitle type="textbox" size="60:200" title="Browser Title" required="true" validate="A:2:200"/>
+
+		<item_location type="textbox" size="50" title="Location"/>
+
+		<item_small_description type="textarea" size="90:4" title="Brief" />
+
+		<item_big_description type="textarea" html="true" toolbar="Basic" width="600" height="200" title="Description" />
+
+		<subtitle_misc title="Misc" type="subtitle" />
+		<comment type="comment" padding="20" description="Fill in the following fields if you want to overwrite the global ones for this specific item." />
+		<item_main_title type="textbox" size="60" title="Popup Title"  />
+		<item_contact_title type="textbox" size="60" title="Contact Popup Title"  />
+		<item_upload_title type="textbox" size="60" title="Upload Button Title"  />
+		<item_readmore_title type="textbox" size="60" title="Readmore Button Title"  />
+
+
+		<subtitle_after title="&nbsp;" type="subtitle" />
+		<after_save type="after_save" />
+
+	</fields>
+
+	<javascript>
+		<after>
+			function AddPageCode(txt) {
+				if (document.forms['edit'].item_url.value == '') {
+					var url = Name2Url(txt.trim());
+					document.forms['edit'].item_url.value = url.toLowerCase();
+				}
+
+				if (document.forms['edit'].item_urltitle.value == '') {
+					document.forms['edit'].item_urltitle.value = txt;
+				}
+
+			}
+		</after>
+	</javascript>
+
+</form>

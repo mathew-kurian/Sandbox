@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<news preloaderColor = "0xffff00" buttonColor = "0xffff00">
+
+<imageData>
+<image>images/news/image_slideshow1.jpg</image>
+<title><![CDATA[Complete XML Website]]></title>
+<desc><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pellentesque, enim nec volutpat facilisis, felis dui molestie mi, pellentesque tristique lacus velit vitae purus. Duis mollis congue aliquet. Integer ac turpis arcu, id dapibus nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi a enim odio. Nam bibendum diam eu ante vestibulum eget consectetur diam pulvinar. Vestibulum in nibh at neque mollis molestie non at lacus. Nunc iaculis justo et enim facilisis tempor. Proin non libero augue, in tincidunt mauris. Integer posuere enim at sem dictum mollis. Quisque accumsan dictum facilisis. Nulla in nisi ut justo accumsan porttitor eu nec sem. ]]></desc>
+<xcord>-450</xcord>
+<ycord>-200</ycord>
+<date><![CDATA[January 15th, 2010]]></date>
+</imageData>
+	
+<imageData>
+<image>images/news/image_slideshow2.jpg</image>
+<title><![CDATA[XML Image Gallery]]></title>
+<desc><![CDATA[Vivamus purus libero, scelerisque ut lacinia ut, bibendum et felis. Vestibulum fermentum massa at velit vulputate adipiscing. Nam adipiscing lacinia purus at mattis. Suspendisse quam orci, tempor et venenatis in, rhoncus vitae eros. Duis eu risus vitae sem tempus sagittis eget non nulla. Vivamus nisi enim, posuere nec gravida in, pellentesque posuere nisi. Curabitur in accumsan nisl. Maecenas mi felis, tristique in lacinia sit amet, mattis vitae dui. ]]></desc>
+<xcord>-50</xcord>
+<ycord>-200</ycord>
+<date><![CDATA[November 10th, 2009]]></date>
+</imageData>
+
+<imageData>
+<image>images/news/image_slideshow3.jpg</image>
+<title><![CDATA[XML Video Gallery]]></title>
+<desc><![CDATA[Curabitur a eros vitae felis posuere porttitor vitae ac diam. Praesent sodales metus eu augue lacinia sit amet eleifend nisi sagittis. Ut arcu dolor, convallis quis tincidunt a, vehicula at lorem. Integer metus enim, convallis ut imperdiet pulvinar, interdum nec arcu. Aliquam consectetur dui id purus luctus pharetra. Mauris eget ante ac purus tincidunt convallis. Sed vel eros elit, sed sagittis felis. In eu diam quam. Vivamus purus libero, scelerisque ut lacinia ut, bibendum et felis. Vestibulum fermentum massa at velit vulputate adipiscing. Nam adipiscing lacinia purus at mattis. Suspendisse quam orci, tempor et venenatis in, rhoncus vitae eros. Duis eu risus vitae sem tempus sagittis eget non nulla. Vivamus nisi enim, posuere nec gravida in, pellentesque posuere nisi. Curabitur in accumsan nisl. Maecenas mi felis, tristique in lacinia sit amet, mattis vitae dui. ]]></desc>
+<xcord>-450</xcord>
+<ycord>-150</ycord>
+<date><![CDATA[September 21st, 2009]]></date>
+</imageData>
+
+<imageData>
+<image>images/news/image_slideshow4.jpg</image>
+<title><![CDATA[XML Smart Navigation]]></title>
+<desc><![CDATA[Sed interdum volutpat magna at convallis. Aenean nec neque commodo odio mattis tincidunt. Sed placerat aliquam turpis, nec porttitor arcu blandit ut. Nam rutrum ante nec ante faucibus suscipit. Mauris elit lacus, pharetra non ultricies a, feugiat non eros. In commodo euismod sapien. Mauris ullamcorper laoreet nulla ac pulvinar. Nulla id justo id mauris convallis semper et eu nisi.]]></desc>
+<xcord>-60</xcord>
+<ycord>-225</ycord>
+<date><![CDATA[August 12th, 2009]]></date>
+</imageData>
+
+</news>

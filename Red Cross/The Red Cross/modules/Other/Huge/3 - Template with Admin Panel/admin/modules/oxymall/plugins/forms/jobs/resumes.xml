@@ -1,0 +1,40 @@
+<form>
+
+	<forms>
+		<search>resumes/search.xml</search>
+		<details>resumes/edit.xml</details>
+		<list>resumes/list.xml</list>
+	</forms>
+
+	<table>plugin:jobs_resumes</table>
+	<table_uid>resume_id</table_uid>
+
+
+	<URIdata>
+		<action>action</action>
+
+		<add>add</add>
+		<details>details</details>
+		<delete>delete</delete>
+		<edit>edit</edit>
+		<list>details</list>
+		<search>search</search>
+
+		<reject>reject</reject>
+		<approve>approve</approve>
+
+		<store>store</store>
+	</URIdata>
+
+
+	<URIlinks>
+		<add>{SELF.LINK.ADD}&returnurl={SELF.LOCATION}</add>
+		<edit>{SELF.LINKUID.EDIT}&module_id={MODULE_ID}&returnurl={SELF.LOCATION}</edit>
+		<details>{SELF.LINKUID.DETAILS}&returnurl={SELF.LOCATION}&module_id={MODULE_ID}&resume_cv={RESUME_CV}</details>
+		<delete>javascript:if(confirm('Are you sure you want to delete this record ?')) window.location='{SELF.LINKUID.DELETE}&returnURL={SELF.LOCATION}&module_id={MODULE_ID}'</delete>
+		<store>{SELF.LINK}{SELF.ACTION.STORE}&module_id={MODULE_ID}</store>
+	</URIlinks>
+
+
+
+</form>

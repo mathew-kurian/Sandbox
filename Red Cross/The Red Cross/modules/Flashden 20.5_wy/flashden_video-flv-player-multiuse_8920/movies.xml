@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<content>
+	<movie name="first movie" link="movie1.flv" thumb_url="movie1.jpg"/>
+	<movie name="second movie" link="movie2.flv" thumb_url="movie2.jpg"/>
+	<movie name="another movie" link="movie1.flv" thumb_url="movie1.jpg"/>
+	<movie name="smovie title" link="movie2.flv" thumb_url="movie2.jpg"/>
+	<movie name="i'm bored" link="movie1.flv" thumb_url="movie1.jpg"/>
+	<movie name="mhahahaha" link="movie2.flv" thumb_url="movie2.jpg"/>
+	<movie name="still bored" link="movie1.flv" thumb_url="movie1.jpg"/>
+	<movie name="wtf" link="movie2.flv" thumb_url="movie2.jpg"/>
+</content>

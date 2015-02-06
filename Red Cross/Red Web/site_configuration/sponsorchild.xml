@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	<topMargin>0</topMargin>
+	<bottomMargin>0</bottomMargin>
+	<!--
+		alignX Options 
+		The alignX is the distance from the left your page will start
+		Static X    				  eg.  <alignX>175</alignX>      		(this will make your content start 175 pixels from the left)
+		Left aligned X    	  eg.  <alignX>left</alignX>    		(this will make your content be left aligned)
+		Center aligned X      eg.  <alignX>center</alignX>  		(this will make your content be centered)
+		Right aligned X    	  eg.  <alignX>right</alignX>				(this will make your content be right aligned)
+	-->
+	<alignX>center</alignX><!--Horizontal Alignment-->
+	<!--
+		alignY Options 
+		The alignY is the distance from the top your page will start
+		Static Y    				  eg.  <alignY>175</alignY>      		(this will make your content start 175 pixels from the top)
+		Top aligned Y    	  	eg.  <alignY>top</alignY>     		(this will make your content be aligned vertically under the topMargin)
+		Bottom aligned Y      eg.  <alignY>bottom<alignY>   		(this will make your content be aligned vertically and sit on the bottomMargin)
+		Center aligned Y    	eg.  <alignY>center<alignY>				(this will make your content be aligned vertically between the topMargin and bottomMargin)
+	-->
+	<alignY>center</alignY><!-- Vertical Alignment-->
+	
+	
+	<!--Set your content pages width / height / color and opacity here -->
+	<contentWidth>1283</contentWidth>
+	<contentHeight>809</contentHeight>
+	<contentBgColor>0x0c0c0c</contentBgColor>
+	<contentBgOpacity>1</contentBgOpacity>
+	
+	<!-- Select the type of scrolling to use -->
+	<useHoverScroll>true</useHoverScroll>
+	<useManualScroll>false</useManualScroll>
+	
+	
+	<!-- Skin Your Scroll Bar Features  *these settings apply if useManualScroll is true and useHoverScroll is false-->
+	<scrollBarWidth>15</scrollBarWidth>
+	<scrollBarHeight>200</scrollBarHeight>
+	<scrollBaseColor>0x000000</scrollBaseColor>
+	<addTiledPatternToScrollBase>true</addTiledPatternToScrollBase>
+	<patternUrl>site_images/patterns/edgePattern.png</patternUrl>
+	<scrollBaseOpacity>.67</scrollBaseOpacity>
+	<scrollerColor>0xcfcfcf</scrollerColor>
+	<scrollerOpacity>1</scrollerOpacity>
+	<!-- End of Scroll Bar Features -->
+	
+	
+
+
+
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>true</displayHtmlArticles>
+	<displaySlideShow>false</displaySlideShow>
+	<displaySWF>true</displaySWF>
+	
+	
+	<swfs>
+		<swf>
+			<x>604</x>
+			<y>421</y>
+			<swfUrl>portSwf.swf</swfUrl>
+				<!--  
+					It is highly recommended that when unloading your external swf, that any and all event listeners
+					that have been set be removed, and all objects are removed from the stage, and bitmap data is 
+					disposed of. This clears your visitors memory and prevents your template from running into errors
+					that can arise from unremoved event listeners. If you are flash beginner set the following 
+					<useFunctionForGarbageCollection> to false, if you are somewhat good with actionscript set the 
+					following <useFunctionForGarbageCollection> to true and then include the name of the function
+					that takes care of removing your movieclip assets from memory. Make sure that this function is 
+					located on the first frame of the external swf that you are loading. 
+				-->
+			<useFunctionForGarbageCollection>true</useFunctionForGarbageCollection>
+				<!-- if you are a begginer and have set <useFunctionForGarbageCollection> to false then you can leave <functionName> empty. -->
+			<functionName>destroySwf</functionName>
+		</swf>
+	</swfs>
+	
+	<image>
+		<x>604</x>
+		<y>44</y>
+		<imageURL>site_images/pages/extendedPortfolio/extendedPortfolio_21.gif</imageURL>
+	</image>
+	
+
+	<image>
+		<x>62</x>
+		<y>166</y>
+	<imageURL>site_images/pages/extendedPortfolio/extendedPortfolio_32.png</imageURL>
+	</image>
+	<article>
+		<x>62</x>
+		<y>210</y>
+		<width>459</width>
+		<articleText><![CDATA[<p class="leading13">World Vision, founded in the United States in 1950, is an international Christian relief and development organization whose stated goal is "to follow our Lord and Saviour Jesus Christ in working with the poor and oppressed to promote human transformation, seek justice and bear witness to the good news of the Kingdom of God." Working on six continents, World Vision is one of the largest relief and development organizations in the world with a 1.6 billion dollar budget (2007). The group’s total revenue, including grants, product and foreign donations is $2.6 billion (2008).</p>
+
+
+<a class="alt" target="_blank" href="http://en.wikipedia.org/wiki/World_Vision">ORIGINAL ARTICLE FOUND AT WIKIPEDIA</a>
+]]></articleText>
+	</article>		
+	<image>
+		<x>305</x>
+		<y>726</y>
+	<imageURL>site_images/pages/extendedPortfolio/extendedPortfolio_101.png</imageURL>
+	<addLink>true</addLink>
+	<linkUrl>http://www.worldvision.org/#/home/main/malaria-stop-this-killer-of-children/1/1148</linkUrl>
+	<linkOpenType>_blank</linkOpenType> <!-- or use  <linkOpenType>_self</linkOpenType>  to open up links in same window-->
+	</image>
+
+</xmlObject>

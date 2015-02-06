@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<content>
+		<button title="Homepage" swf="homepage.swf" xml="homepage.xml" urlTitle="Homepage" url="/homepage/" hiddenModule="0" externalLink="0"></button>
+		<button title="About Us" swf="aboutus.swf" xml="about.xml" urlTitle="About Us" url="/about/" hiddenModule="0" externalLink="0"></button>
+		<button title="News" swf="news.swf" xml="news.xml" urlTitle="News" url="/news/" hiddenModule="0" externalLink="0"></button>
+		<button title="Services" swf="services.swf" xml="services.xml" urlTitle="Services" url="/services/" hiddenModule="0" externalLink="0"></button>
+		<button title="Our Portfolio" swf="portfolio.swf" xml="portfolio.xml" urlTitle="Portfolio" url="/portfolio/" hiddenModule="0" externalLink="0"></button>
+		<button title="Clients" swf="clients.swf" xml="clients.xml" urlTitle="Clients" url="/clients/" hiddenModule="0" externalLink="0"></button>
+		<button title="Media Gallery" swf="gallery.swf" xml="gallery.xml" urlTitle="Gallery" url="/gallery/" hiddenModule="0" externalLink="0"></button>
+		<button title="Careers" swf="jobs.swf" xml="jobs.xml" urlTitle="Careers" url="/careers/" hiddenModule="0" externalLink="0"></button>
+		<button title="Banner Rotator" swf="banner.swf" xml="banner.xml" urlTitle="Banner" url="/banner/" hiddenModule="0" externalLink="0"></button>
+		<button title="Contact" swf="contactus.swf" xml="contact.xml" urlTitle="Contact" url="/contact/" hiddenModule="0" externalLink="0"></button>
+		<button title="Blog" swf="" xml="" urlTitle="blog" url="http://www.oxylusflash.com" hiddenModule="0" externalLink="1" externalTarget="_blank"></button>
+	</content>
+
+	<copyright title="Copyright 2009 Your Company. All rights reserved"></copyright>
+	<logoGraphic>images/logo/logo.png</logoGraphic>
+
+	<mp3Player mp3PlayerSwf="mp3Player.swf" mp3PlayerXml="mp3player.xml" xPos="90" yPos="-10"></mp3Player>
+	
+	<toggleFixedMenu>1</toggleFixedMenu>
+	
+	<menuPosition>left</menuPosition>
+
+	<maxWidth>980</maxWidth>
+	<maxHeight>600</maxHeight>
+
+</main>

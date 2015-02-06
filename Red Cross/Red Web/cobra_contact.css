@@ -1,0 +1,24 @@
+/*SET UP YOUR CSS HERE.  IN ORDER FOR THE FONTS TO SHOW UP CORRECTLY, THEY MUST BE EMBEDDED IN THE FLASH FILE*/
+/*THE FONT USED FOR THIS TEMPLATE IS 'ARIAL'.... CHANGE THEM AS NEEDED*/
+
+/***CHECK WITH FLASH DOCUMENATION ABOUT LIMITATIONS TO CSS...FLASH CAN ONLY USE CERTAIN CSS CODE, WHICH IS PRETTY LIMITED, BUT ALLOWS BASIC MANIPULATION*/
+
+h1{font-family: Arial Black; color: #333333; font-size: 12;}
+
+h2{font-family: Arial Black; color: #333333; font-size: 10;}
+
+h3{font-family: Arial Black; color: #333333; font-size: 10;}
+
+p{font-family: Arial; color: #555555; font-size: 10; leading:8;}
+
+li{font-family: Arial; color: #555555; font-size:12; font-weight:bold; leading:4;}
+
+img{display:inline;}
+
+a{leading:4; font-family: Arial; font-size: 10; color: #555555; text-decoration: none;}
+
+a:hover, a:active{color:#333333;}
+
+/* This is the style for the header */
+.header{font-family: Arial; color: #333333; font-size: 18; leading: 1;}
+.subheader{font-family: Fatboy Slim BLTC (BRK); color: #555555; font-size: 10; leading: 0;}

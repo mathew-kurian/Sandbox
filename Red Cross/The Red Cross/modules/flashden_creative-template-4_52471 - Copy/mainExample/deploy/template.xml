@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+
+	<settings
+	
+		mainTitle="Creative Template 4"
+	
+		menuButton="0xDE1E59"
+		menuText="0xFFFFFF"
+		menuButtonRoll="0x000000"
+		menuTextRoll="0xFF0066"
+		
+		title="Creative     Template    4"
+		subtitle="a creative template for creative people"
+		
+		titleColor="0xDE1E59"
+		titleText="0xFFFFFF"
+		subtitleText="0xFFFFFF"
+		
+		useOnlyOneBackground="false"
+		back="backgrounds/home.jpg"
+		backPattern="backgrounds/pattern.png"
+		backPatternOpacity="15"
+		backBrightness="85"
+		
+		preloaderColor="0xDE1E59"
+		preloaderText="0xFFFFFF"
+		
+		containerColor="0x000000"
+		containerOpacity="75"
+		containerPreloader="0xFFFFFF"
+		
+		backgroundMusic="music.mp3"
+		footerIconsColor="0xFF0066"
+	
+	/>
+	
+	<pages>
+	
+		<page title1="BIO" title2="A  FEW  LINES  ABOUT  ME" pageTitle="Bio" type="single" back="backgrounds/bio.jpg" height="400" src="html.swf" xmlPath="bio.xml" />
+		<page title1="NEWS" title2="WHAT  HAVE  I  DONE  IN  THE  LAST  WEEKS" pageTitle="News"  type="single" back="backgrounds/news.jpg" height="300" src="news.swf" xmlPath="news_settings.xml" />
+		<page title1="CLIENTS" title2="PEOPLE  THAT  I'VE  WORKED  WITH" pageTitle="Clients"  type="single" back="backgrounds/clients.jpg" height="363" src="clients.swf" xmlPath="clients_settings.xml" />
+		<page title1="GALLERY" title2="A  SELECTION  OF  PHOTOS" pageTitle="Gallery"  type="single" back="backgrounds/slideshow.jpg" height="300" src="slideshow.swf" xmlPath="slideshow_settings.xml" />
+		<page title1="FOLIO" title2="SOME  OF  MY  WORKS" pageTitle="Folio"  type="multiple">
+			
+			<subpage title="PHOTO" back="backgrounds/photo.jpg" pageTitle="Photo"  height="338" src="folio.swf" xmlPath="folio_photo_settings.xml" />
+			<subpage title="VIDEO" back="backgrounds/video.jpg" pageTitle="Video"  height="301" src="folio.swf" xmlPath="folio_video_settings.xml" />
+			
+		</page>
+		<page title1="CONTACT" title2="GET  A  FREE  QUOTE" pageTitle="Contact"  type="single" back="backgrounds/contact.jpg" height="260" src="contact.swf" />
+		<page title1="BLOG" title2="STAY  IN  TOUCH" type="link" src="http://www.flashden.net/user/flasher3015" />
+	
+	</pages>
+
+</template>

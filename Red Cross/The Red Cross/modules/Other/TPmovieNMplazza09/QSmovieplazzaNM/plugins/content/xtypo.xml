@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">         
+<name> Content - XTypo </name>
+<creationDate>Oct 2007</creationDate>
+<version>1.4</version>
+<author>TemplatePlazza</author>
+<copyright>Copyright 2007 - TemplatePlazza.com</copyright>
+<license>http://www.gnu.org/copyleft/lgpl.html</license>
+<authorEmail>sikumbang@gmail.com</authorEmail>
+<authorUrl>www.templateplazza.com</authorUrl>
+<description>MODULE : XTYPO</description>
+<params>
+		 
+   <!-- start {xtypo_alert parameter} -->  
+   <param name="@spacer_alert" type="spacer" default="**** ALERT SETTING ****" label="**** ALERT SETTING ****" description="" />   
+		<param name="bgimgalert" type="imagelist" directory="/plugins/content/xtypo/icon" default="alert.gif" label="Image for {xtypo_alert}" description="Background Image for related class" />
+		<param name="bgcoloralert" type="text" default="#FFF6BF" label="Background Color for {xtypo_alert}" description="Background color for related class. Fill with hex code. Eg. #C0C0C0" />
+		<param name="color_alert" type="text" default="#996666" label="Text Color for {xtypo_alert}" description="Background color for related class. Fill with hex code. Eg. #C0C0C0" />
+		<param name="pt_alert" type="text" default="5px" label="Text Top Padding for {xtypo_alert}" description="Text Padding from top " />
+		<param name="pr_alert" type="text" default="20px" label="Text Right Padding for {xtypo_alert}" description="Text Padding from right " />
+		<param name="pb_alert" type="text" default="5px" label="Text Bottom Padding for {xtypo_alert}" description="Text Padding from bottom " />
+		<param name="pl_alert" type="text" default="45px" label="Text Left Padding for {xtypo_alert}" description="Text Padding from left " />
+		<param name="bordertoptype_alert" type="list" default="solid" label="Top Border Style for {xtypo_alert}" description="Top border style" >
+		 <option value="dashed">dashed</option>
+     	 <option value="dotted">dotted</option>
+		 <option value="double">double</option>
+     	 <option value="groove">groove</option>
+		 <option value="inset">inset</option>
+     	 <option value="outset">outset</option>
+		 <option value="ridge">ridge</option>
+     	 <option value="solid">solid</option>
+		 </param>
+		<param name="bordertopsize_alert" type="text" default="2px" label="Top Border Size for {xtypo_alert}" description="Top border size" />
+		
+		<param name="bordertopcolor_alert" type="text" default="#ffd324" label="Top Border Color for {xtypo_alert}" description="Top border color" />
+		<param name="borderbottype_alert" type="list" default="solid" label="Bottom Border Style for {xtypo_alert}" description="Bottom border style" >
+		 <option value="dashed">dashed</option>
+     	 <option value="dotted">dotted</option>
+		 <option value="double">double</option>
+     	 <option value="groove">groove</option>
+		 <option value="inset">inset</option>
+     	 <option value="outset">outset</option>
+		 <option value="ridge">ridge</option>
+     	 <option value="solid">solid</option>
+		 </param>
+		 <param name="borderbotsize_alert" type="text" default="2px" label="Bottom Border Size for {xtypo_alert}" description="Bottom border size" />
+		<param name="borderbotcolor_alert" type="text" default="#ffd324" label="Bottom Border Color for {xtypo_alert}" description="Bottom border color" />
+		<param name="@spacer_info" type="spacer" default="**** INFO SETTING ****" label="**** INFO SETTING ****" description="" />
+		
+		<!-- start {xtypo_info parameter} -->
+				<param name="bgimginfo" type="imagelist" directory="/plugins/content/xtypo/icon" default="info.gif" label="Image for {xtypo_info}" description="Background Image for related class" />
+		<param name="bgcolorinfo" type="text" default="#F8FAFC" label="Background Color for {xtypo_info}" description="Background color for related class. Fill with hex code. Eg. #C0C0C0" />
+		<param name="color_info" type="text" default="#5E6273" label="Text Color for {xtypo_info}" description="Background color for related class. Fill with hex code. Eg. #C0C0C0" />
+		<param name="pt_info" type="text" default="5px" label="Text Top Padding for {xtypo_info}" description="Text Padding from top " />
+		<param name="pr_info" type="text" default="20px" label="Text Right Padding for {xtypo_info}" description="Text Padding from right " />
+		<param name="pb_info" type="text" default="5px" label="Text Bottom Padding for {xtypo_info}" description="Text Padding from bottom " />
+		<param name="pl_info" type="text" default="45px" label="Text Left Padding for {xtypo_info}" description="Text Padding from left " />
+		<param name="bordertoptype_info" type="list" default="solid" label="Top Border Style for {xtypo_info}" description="Top border style" >
+		 <option value="dashed">dashed</option>
+     	 <option value="dotted">dotted</option>
+		 <option value="double">double</option>
+     	 <option value="groove">groove</option>
+		 <option value="inset">inset</option>
+     	 <option value="outset">outset</option>
+		 <option value="ridge">ridge</option>
+     	 <option value="solid">solid</option>
+		 </param>
+		<param name="bordertopsize_info" type="text" default="2px" label="Top Border Size for {xtypo_info}" description="Top border size" />
+		
+		<param name="bordertopcolor_info" type="text" default="#B5D4FE" label="Top Border Color for {xtypo_info}" description="Top border color" />
+		<param name="borderbottype_info" type="list" default="solid" label="Bottom Border Style for {xtypo_info}" description="Bottom border style" >
+		 <option value="dashed">dashed</option>
+     	 <option value="dotted">dotted</option>
+		 <option value="double">double</option>
+     	 <option value="groove">groove</option>
+		 <option value="inset">inset</option>
+     	 <option value="outset">outset</option>
+		 <option value="ridge">ridge</option>
+     	 <option value="solid">solid</option>
+		 </param>
+		 <param name="borderbotsize_info" type="text" default="2px" label="Bottom Border Size for {xtypo_info}" description="Bottom border size" />
+		<param name="borderbotcolor_info" type="text" default="#B5D4FE" label="Bottom Border Color for {xtypo_info}" description="Bottom border color" />
+		<param name="@spacer_warning" type="spacer" default="**** WARNING SETTING ****" label="**** WARNING SETTING ****" description="" />
+		
+<!-- start {xtypo_warning parameter} -->
+
+		<param name="bgimgwarning" type="imagelist" directory="/plugins/content/xtypo/icon" default="warning.gif" label="Image for {xtypo_warning}" description="Background Image for related class" />
+		<param name="bgcolorwarning" type="text" default="#FBEEF1" label="Background Color for {xtypo_warning}" description="Background color for related class. Fill with hex code. Eg. #C0C0C0" />
+		<param name="color_warning" type="text" default="#8E6A64" label="Text Color for {xtypo_warning}" description="Background color for related class. Fill with hex code. Eg. #C0C0C0" />
+		<param name="pt_warning" type="text" default="5px" label="Text Top Padding for {xtypo_warning}" description="Text Padding from top " />
+		<param name="pr_warning" type="text" default="20px" label="Text Right Padding for {xtypo_warning}" description="Text Padding from right " />
+		<param name="pb_warning" type="text" default="5px" label="Text Bottom Padding for {xtypo_warning}" description="Text Padding from bottom " />
+		<param name="pl_warning" type="text" default="45px" label="Text Left Padding for {xtypo_warning}" description="Text Padding from left " />
+		<param name="bordertoptype_warning" type="list" default="solid" label="Top Border Style for {xtypo_warning}" description="Top border style" >
+		 <option value="dashed">dashed</option>
+     	 <option value="dotted">dotted</option>
+		 <option value="double">double</option>
+     	 <option value="groove">groove</option>
+		 <option value="inset">inset</option>
+     	 <option value="outset">outset</option>
+		 <option value="ridge">ridge</option>
+     	 <option value="solid">solid</option>
+		 </param>
+		<param name="bordertopsize_warning" type="text" default="2px" label="Top Border Size for {xtypo_warning}" description="Top border size" />
+		
+		<param name="bordertopcolor_warning" type="text" default="#FEABB9" label="Top Border Color for {xtypo_warning}" description="Top border color" />
+		<param name="borderbottype_warning" type="list" default="solid" label="Bottom Border Style for {xtypo_warning}" description="Bottom border style" >
+		 <option value="dashed">dashed</option>
+     	 <option value="dotted">dotted</option>
+		 <option value="double">double</option>
+     	 <option value="groove">groove</option>
+		 <option value="inset">inset</option>
+     	 <option value="outset">outset</option>
+		 <option value="ridge">ridge</option>
+     	 <option value="solid">solid</option>
+		 </param>
+		 <param name="borderbotsize_warning" type="text" default="2px" label="Bottom Border Size for {xtypo_warning}" description="Bottom border size" />
+		<param name="borderbotcolor_warning" type="text" default="#FEABB9" label="Bottom Border Color for {xtypo_warning}" description="Bottom border color" />
+		<param name="@spacer_sticky" type="spacer" default="**** STICKY SETTING ****" label="**** STICKY SETTING ****" description="" />
+<!-- start {xtypo_sticky parameter} -->	
+
+		<param name="bgimgsticky" type="imagelist" directory="/plugins/content/xtypo/icon" default="sun.gif" label="Image for {xtypo_sticky}" description="Background Image for related class" />
+		<param name="bgcolorsticky" type="text" default="#E6FFE1" label="Background Color for {xtypo_sticky}" description="Background color for related class. Fill with hex code. Eg. #C0C0C0" />
+		<param name="color_sticky" type="text" default="#48793F" label="Text Color for {xtypo_sticky}" description="Background color for related class. Fill with hex code. Eg. #C0C0C0" />
+		<param name="pt_sticky" type="text" default="5px" label="Text Top Padding for {xtypo_sticky}" description="Text Padding from top " />
+		<param name="pr_sticky" type="text" default="20px" label="Text Right Padding for {xtypo_sticky}" description="Text Padding from right " />
+		<param name="pb_sticky" type="text" default="5px" label="Text Bottom Padding for {xtypo_sticky}" description="Text Padding from bottom " />
+		<param name="pl_sticky" type="text" default="45px" label="Text Left Padding for {xtypo_sticky}" description="Text Padding from left " />
+		<param name="bordertoptype_sticky" type="list" default="solid" label="Top Border Style for {xtypo_sticky}" description="Top border style" >
+		 <option value="dashed">dashed</option>
+     	 <option value="dotted">dotted</option>
+		 <option value="double">double</option>
+     	 <option value="groove">groove</option>
+		 <option value="inset">inset</option>
+     	 <option value="outset">outset</option>
+		 <option value="ridge">ridge</option>
+     	 <option value="solid">solid</option>
+		 </param>
+		<param name="bordertopsize_sticky" type="text" default="2px" label="Top Border Size for {xtypo_sticky}" description="Top border size" />
+		
+		<param name="bordertopcolor_sticky" type="text" default="#FEABB9" label="Top Border Color for {xtypo_sticky}" description="Top border color" />
+		<param name="borderbottype_sticky" type="list" default="solid" label="Bottom Border Style for {xtypo_sticky}" description="Bottom border style" >
+		 <option value="dashed">dashed</option>
+     	 <option value="dotted">dotted</option>
+		 <option value="double">double</option>
+     	 <option value="groove">groove</option>
+		 <option value="inset">inset</option>
+     	 <option value="outset">outset</option>
+		 <option value="ridge">ridge</option>
+     	 <option value="solid">solid</option>
+		 </param>
+		 <param name="borderbotsize_sticky" type="text" default="2px" label="Bottom Border Size for {xtypo_sticky}" description="Bottom border size" />
+		<param name="borderbotcolor_sticky" type="text" default="#FEABB9" label="Bottom Border Color for {xtypo_sticky}" description="Bottom border color" />
+		<param name="@spacer_feed" type="spacer" default="**** FEED SETTING ****" label="**** FEED SETTING ****" description="" />	
+		
+		<!-- start {xtypo_feed parameter} -->	
+				<param name="bgimgfeed" type="imagelist" directory="/plugins/content/xtypo/icon" default="feed.gif" label="Image for {xtypo_feed}" description="Background Image for related class" />
+		<param name="bgcolorfeed" type="text" default="#E0E0E8" label="Background Color for {xtypo_feed}" description="Background color for related class. Fill with hex code. Eg. #C0C0C0" />
+		<param name="color_feed" type="text" default="#333333" label="Text Color for {xtypo_feed}" description="Background color for related class. Fill with hex code. Eg. #C0C0C0" />
+		<param name="pt_feed" type="text" default="5px" label="Text Top Padding for {xtypo_feed}" description="Text Padding from top " />
+		<param name="pr_feed" type="text" default="20px" label="Text Right Padding for {xtypo_feed}" description="Text Padding from right " />
+		<param name="pb_feed" type="text" default="5px" label="Text Bottom Padding for {xtypo_feed}" description="Text Padding from bottom " />
+		<param name="pl_feed" type="text" default="45px" label="Text Left Padding for {xtypo_feed}" description="Text Padding from left " />
+		<param name="bordertoptype_feed" type="list" default="solid" label="Top Border Style for {xtypo_feed}" description="Top border style" >
+		 <option value="dashed">dashed</option>
+     	 <option value="dotted">dotted</option>
+		 <option value="double">double</option>
+     	 <option value="groove">groove</option>
+		 <option value="inset">inset</option>
+     	 <option value="outset">outset</option>
+		 <option value="ridge">ridge</option>
+     	 <option value="solid">solid</option>
+		 </param>
+		<param name="bordertopsize_feed" type="text" default="2px" label="Top Border Size for {xtypo_feed}" description="Top border size" />
+		
+		<param name="bordertopcolor_feed" type="text" default="#85BBDB" label="Top Border Color for {xtypo_feed}" description="Top border color" />
+		<param name="borderbottype_feed" type="list" default="solid" label="Bottom Border Style for {xtypo_feed}" description="Bottom border style" >
+		 <option value="dashed">dashed</option>
+     	 <option value="dotted">dotted</option>
+		 <option value="double">double</option>
+     	 <option value="groove">groove</option>
+		 <option value="inset">inset</option>
+     	 <option value="outset">outset</option>
+		 <option value="ridge">ridge</option>
+     	 <option value="solid">solid</option>
+		 </param>
+		 <param name="borderbotsize_feed" type="text" default="2px" label="Bottom Border Size for {xtypo_feed}" description="Bottom border size" />
+		<param name="borderbotcolor_feed" type="text" default="#85BBDB" label="Bottom Border Color for {xtypo_feed}" description="Bottom border color" />
+		<param name="@spacer_dw" type="spacer" default="**** DOWNLOAD SETTING ****" label="**** DOWNLOAD SETTING ****" description="" />
+		
+		<!-- start {xtypo_download parameter} -->
+		
+				<param name="bgimgdownload" type="imagelist" directory="/plugins/content/xtypo/icon" default="download.gif" label="Image for {xtypo_download}" description="Background Image for related class" />
+		<param name="bgcolordownload" type="text" default="#F0F0F0" label="Background Color for {xtypo_download}" description="Background color for related class. Fill with hex code. Eg. #C0C0C0" />
+		<param name="color_download" type="text" default="#666666" label="Text Color for {xtypo_download}" description="Background color for related class. Fill with hex code. Eg. #C0C0C0" />
+		<param name="pt_download" type="text" default="5px" label="Text Top Padding for {xtypo_download}" description="Text Padding from top " />
+		<param name="pr_download" type="text" default="20px" label="Text Right Padding for {xtypo_download}" description="Text Padding from right " />
+		<param name="pb_download" type="text" default="5px" label="Text Bottom Padding for {xtypo_download}" description="Text Padding from bottom " />
+		<param name="pl_download" type="text" default="45px" label="Text Left Padding for {xtypo_download}" description="Text Padding from left " />
+		<param name="bordertoptype_download" type="list" default="solid" label="Top Border Style for {xtypo_download}" description="Top border style" >
+		 <option value="dashed">dashed</option>
+     	 <option value="dotted">dotted</option>
+		 <option value="double">double</option>
+     	 <option value="groove">groove</option>
+		 <option value="inset">inset</option>
+     	 <option value="outset">outset</option>
+		 <option value="ridge">ridge</option>
+     	 <option value="solid">solid</option>
+		 </param>
+		<param name="bordertopsize_download" type="text" default="2px" label="Top Border Size for {xtypo_download}" description="Top border size" />
+		
+		<param name="bordertopcolor_download" type="text" default="#c0c0c0" label="Top Border Color for {xtypo_download}" description="Top border color" />
+		<param name="borderbottype_download" type="list" default="solid" label="Bottom Border Style for {xtypo_download}" description="Bottom border style" >
+		 <option value="dashed">dashed</option>
+     	 <option value="dotted">dotted</option>
+		 <option value="double">double</option>
+     	 <option value="groove">groove</option>
+		 <option value="inset">inset</option>
+     	 <option value="outset">outset</option>
+		 <option value="ridge">ridge</option>
+     	 <option value="solid">solid</option>
+		 </param>
+		 <param name="borderbotsize_download" type="text" default="2px" label="Bottom Border Size for {xtypo_download}" description="Bottom border size" />
+		<param name="borderbotcolor_download" type="text" default="#c0c0c0" label="Bottom Border Color for {xtypo_download}" description="Bottom border color" />
+		<param name="@spacer_code" type="spacer" default="**** CODE SETTING ****" label="**** CODE SETTING ****" description="" />
+		
+	<!-- start {xtypo_code parameter} -->
+	
+			<param name="bgimgcode" type="imagelist" directory="/plugins/content/xtypo/icon" default="_no-image.gif" label="Image for {xtypo_code}" description="Background Image for related class" />
+		<param name="bgcolorcode" type="text" default="#F0F0F0" label="Background Color for {xtypo_code}" description="Background color for related class. Fill with hex code. Eg. #C0C0C0" />
+		<param name="color_code" type="text" default="#666666" label="Text Color for {xtypo_code}" description="Background color for related class. Fill with hex code. Eg. #C0C0C0" />
+		<param name="pt_code" type="text" default="5px" label="Text Top Padding for {xtypo_code}" description="Text Padding from top " />
+		<param name="pr_code" type="text" default="20px" label="Text Right Padding for {xtypo_code}" description="Text Padding from right " />
+		<param name="pb_code" type="text" default="5px" label="Text Bottom Padding for {xtypo_code}" description="Text Padding from bottom " />
+		<param name="pl_code" type="text" default="10px" label="Text Left Padding for {xtypo_code}" description="Text Padding from left " />
+		<param name="bordertype_code" type="list" default="solid" label="Border Style for {xtypo_code}" description="Border style" >
+		 <option value="dashed">dashed</option>
+     	 <option value="dotted">dotted</option>
+		 <option value="double">double</option>
+     	 <option value="groove">groove</option>
+		 <option value="inset">inset</option>
+     	 <option value="outset">outset</option>
+		 <option value="ridge">ridge</option>
+     	 <option value="solid">solid</option>
+		 </param>
+		<param name="bordersize_code" type="text" default="5px" label=" Border Size for {xtypo_code}" description="Border size" />
+		
+		<param name="bordercolor_code" type="text" default="#C3D7EA" label="Border Color for {xtypo_code}" description="Border color" />
+		
+		<param name="@spacer_quote" type="spacer" default="**** QUOTE SETTING ****" label="**** QUOTE SETTING ****" description="" />
+		
+		<!-- start {xtypo_quote parameter} -->
+		<param name="quote_fontstyle" type="list" default="italic" label=" Font Style for {xtypo_quote}" description="Font style" >
+		 <option value="italic">italic</option>
+     	 <option value="normal">normal</option>
+		 </param>
+		
+		<param name="bgimgquote1" type="imagelist" directory="/plugins/content/xtypo/icon" default="quote1.gif" label="Left Image for {xtypo_quote}" description="Background Image for related class" />
+		<param name="bgimgquote2" type="imagelist" directory="/plugins/content/xtypo/icon" default="quote2.gif" label="Right Image for {xtypo_quote}" description="Background Image for related class" />
+		<param name="bgcolorquote" type="text" default="#FFFFFF" label="Background Color for {xtypo_quote}" description="Background color for related class. Fill with hex quote. Eg. #C0C0C0" />
+		<param name="color_quote" type="text" default="#999999" label="Text Color for {xtypo_quote}" description="Background color for related class. Fill with hex quote. Eg. #C0C0C0" />
+		<param name="pt_quote" type="text" default="10px" label="Text Top Padding for {xtypo_quote}" description="Text Padding from top " />
+		<param name="pr_quote" type="text" default="20px" label="Text Right Padding for {xtypo_quote}" description="Text Padding from right " />
+		<param name="pb_quote" type="text" default="10px" label="Text Bottom Padding for {xtypo_quote}" description="Text Padding from bottom " />
+		<param name="pl_quote" type="text" default="60px" label="Text Left Padding for {xtypo_quote}" description="Text Padding from left " />
+		<param name="bordertoptype_quote" type="list" default="dotted" label="Top Border Style for {xtypo_quote}" description="Top border style" >
+		 <option value="dashed">dashed</option>
+     	 <option value="dotted">dotted</option>
+		 <option value="double">double</option>
+     	 <option value="groove">groove</option>
+		 <option value="inset">inset</option>
+     	 <option value="outset">outset</option>
+		 <option value="ridge">ridge</option>
+     	 <option value="solid">solid</option>
+		 </param>
+		<param name="bordertopsize_quote" type="text" default="2px" label="Top Border Size for {xtypo_quote}" description="Top border size" />
+		
+		<param name="bordertopcolor_quote" type="text" default="#CCCCCC" label="Top Border Color for {xtypo_quote}" description="Top border color" />
+		<param name="borderbottype_quote" type="list" default="dotted" label="Bottom Border Style for {xtypo_quote}" description="Bottom border style" >
+		 <option value="dashed">dashed</option>
+     	 <option value="dotted">dotted</option>
+		 <option value="double">double</option>
+     	 <option value="groove">groove</option>
+		 <option value="inset">inset</option>
+     	 <option value="outset">outset</option>
+		 <option value="ridge">ridge</option>
+     	 <option value="solid">solid</option>
+		 </param>
+		 <param name="borderbotsize_quote" type="text" default="2px" label="Bottom Border Size for {xtypo_quote}" description="Bottom border size" />
+		<param name="borderbotcolor_quote" type="text" default="#CCCCCC" label="Bottom Border Color for {xtypo_quote}" description="Bottom border color" />
+		<param name="@spacer_quote_set" type="spacer" default="**** QUOTE WIDTH SETTING ****" label="**** QUOTE WIDTH SETTING ****" description="" />
+			<!-- start {xtypo_quote_left parameter} -->	
+			<param name="quote_left_width" type="text" default="200px" label="Width Size for {xtypo_quote_left}" description="Width size for float left quote" />
+			<!-- start {xtypo_quote_right parameter} -->
+			<param name="quote_right_width" type="text" default="200px" label="Width Size for {xtypo_quote_right}" description="Width size for float right quote" />
+			<!-- start {xtypo_dropcap parameter} -->
+			<param name="@spacer_drop_cap" type="spacer" default="**** DROP CAP SETTING ****" label="**** DROP CAP SETTING ****" description="" />
+			<param name="dropcap_color" type="text" default="#333333" label="Color for Dropcap Letter {xtypo_dropcap}" description="Color for Dropcap Letter" />	
+			<param name="dropcap_fontsize" type="text" default="70px" label="Font Size for Dropcap Letter {xtypo_dropcap}" description="Font size for float right quote" />
+			<param name="dropcap_fontfamily" type="list" default="Georgia, Times New Roman, Trebuchet MS" label="Drop Cap Font Family{xtypo_dropcap}" description="Drop Cap Font Family" >
+		 <option value="Georgia, Times New Roman, Trebuchet MS">Georgia</option>
+     	 <option value="Times New Roman, Georgia,  Trebuchet MS">Times New Roman</option>
+		 <option value="Trebuchet MS, Times New Roman, Georgia">Trebuchet MS</option>
+     	 <option value="Verdana, Arial , Helvetica">Verdana</option>
+		 <option value="Arial , Verdana, Helvetica">Arial</option>
+     	 <option value="Helvetica, Arial , Verdana">Helvetica</option>
+		 <option value="Tahoma, Arial , Verdana">Tahoma</option>
+     	 <option value="Courier New, Monospace, mono,arial">Courier New</option>
+		 </param>
+		  <param name="@spacer_round_width" type="spacer" default="*** ROUNDED LEFT/RIGHT WIDTH SETTING ***" label="*** ROUNDED LEFT/RIGHT WIDTH SETTING ***" description="" />
+		 <!-- start {xtypo_round_left parameter} -->	
+			<param name="round_left_width" type="text" default="200px" label="Width Size for {xtypo_rounded_xxx}" description="Width size for float left rounded corner" />
+			<!-- start {xtypo_round_right parameter} -->
+			<param name="round_right_width" type="text" default="200px" label="Width Size for {xtypo_rounded_xxx}" description="Width size for float right rounded corner" />
+		 <!-- start {xtypo_rounded 1 parameter} -->
+		 <param name="@spacer_corner1" type="spacer" default="**** ROUNDED CORNER 1 SETTING ****" label="**** ROUNDED CORNER 1 SETTING ****" description="" />
+		 <param name="roundtxtbg1" type="text" default="#3E3E3E" label="Bg Color for Rounded Corner {xtypo_rounded1}" description="Backgound Color for Rounded Corner " />	
+		 <param name="roundtxtcolor1" type="text" default="#FFFFFF" label="Text Color for Rounded Corner {xtypo_rounded1}" description="Text Color for Rounded Corner " />			
+			
+			
+			<!-- start {xtypo_rounded 2 parameter} -->
+		 <param name="@spacer_corner2" type="spacer" default="**** ROUNDED CORNER 2 SETTING ****" label="**** ROUNDED CORNER 2 SETTING ****" description="" />
+		 <param name="roundtxtbg2" type="text" default="#FFFFFF" label="Bg Color for Rounded Corner {xtypo_rounded2}" description="Backgound Color for Rounded Corner " />	
+		 <param name="roundtxtcolor2" type="text" default="#333333" label="Text Color for Rounded Corner {xtypo_rounded2}" description="Text Color for Rounded Corner " />
+		 
+		 <!-- start {xtypo_rounded 3 parameter} -->
+		 <param name="@spacer_corner3" type="spacer" default="**** ROUNDED CORNER 3 SETTING ****" label="**** ROUNDED CORNER 3 SETTING ****" description="" />
+		 <param name="roundtxtbg3" type="text" default="#247FE6" label="Bg Color for Rounded Corner {xtypo_rounded3}" description="Backgound Color for Rounded Corner " />	
+		 <param name="roundtxtcolor3" type="text" default="#FFFFFF" label="Text Color for Rounded Corner {xtypo_rounded3}" description="Text Color for Rounded Corner " />
+		 
+		 <!-- start {xtypo_rounded 4 parameter} -->
+		 <param name="@spacer_corner4" type="spacer" default="**** ROUNDED CORNER 4 SETTING ****" label="**** ROUNDED CORNER 4 SETTING ****" description="" />
+		 <param name="roundtxtbg4" type="text" default="#ED2024" label="Bg Color for Rounded Corner {xtypo_rounded4}" description="Backgound Color for Rounded Corner " />	
+		 <param name="roundtxtcolor4" type="text" default="#FFFFFF" label="Text Color for Rounded Corner {xtypo_rounded4}" description="Text Color for Rounded Corner " />
+
+		 
+        </params>
+		
+		<files>		  
+		<filename plugin="xtypo">xtypo.php</filename>
+		<filename plugin="xtypo">xtypo/icon/feed.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/house.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/info.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/lock.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/print.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/search.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/star.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/sun.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/tux.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/user.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/warning.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/shield.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/download.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/lightning.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/quote2.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/add.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/alert.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/cancel.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/doc.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/_no-image.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/quote1.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/add2.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/check.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/next.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/redo.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/star2.gif</filename>
+		<filename plugin="xtypo">xtypo/icon/index.html</filename>
+		
+		<filename plugin="xtypo">xtypo/rounded1/bottomleft.gif</filename>
+		<filename plugin="xtypo">xtypo/rounded1/bottomright.gif</filename>
+		<filename plugin="xtypo">xtypo/rounded1/left.gif</filename>
+		<filename plugin="xtypo">xtypo/rounded1/right.gif</filename>
+		<filename plugin="xtypo">xtypo/rounded1/topleft.gif</filename>
+		<filename plugin="xtypo">xtypo/rounded1/topright.gif</filename>
+		
+		<filename plugin="xtypo">xtypo/rounded2/bottomleft.gif</filename>
+		<filename plugin="xtypo">xtypo/rounded2/bottomright.gif</filename>
+		<filename plugin="xtypo">xtypo/rounded2/left.gif</filename>
+		<filename plugin="xtypo">xtypo/rounded2/right.gif</filename>
+		<filename plugin="xtypo">xtypo/rounded2/topleft.gif</filename>
+		<filename plugin="xtypo">xtypo/rounded2/topright.gif</filename>
+		
+		
+		<filename plugin="xtypo">xtypo/rounded3/bottomleft.gif</filename>
+		<filename plugin="xtypo">xtypo/rounded3/bottomright.gif</filename>
+		<filename plugin="xtypo">xtypo/rounded3/left.gif</filename>
+		<filename plugin="xtypo">xtypo/rounded3/right.gif</filename>
+		<filename plugin="xtypo">xtypo/rounded3/topleft.gif</filename>
+		<filename plugin="xtypo">xtypo/rounded3/topright.gif</filename>
+		
+		
+		<filename plugin="xtypo">xtypo/rounded4/bottomleft.gif</filename>
+		<filename plugin="xtypo">xtypo/rounded4/bottomright.gif</filename>
+		<filename plugin="xtypo">xtypo/rounded4/left.gif</filename>
+		<filename plugin="xtypo">xtypo/rounded4/right.gif</filename>
+		<filename plugin="xtypo">xtypo/rounded4/topleft.gif</filename>
+		<filename plugin="xtypo">xtypo/rounded4/topright.gif</filename>
+		
+		<filename plugin="xtypo">xtypo/button1/left.gif</filename>
+		<filename plugin="xtypo">xtypo/button1/right.gif</filename>
+		
+		<filename plugin="xtypo">xtypo/button2/left.gif</filename>
+		<filename plugin="xtypo">xtypo/button2/right.gif</filename>
+		
+		<filename plugin="xtypo">xtypo/button3/left.gif</filename>
+		<filename plugin="xtypo">xtypo/button3/right.gif</filename>
+		
+		
+		<filename plugin="xtypo">xtypo/logo.gif</filename>	
+		<filename plugin="xtypo">xtypo/index.html</filename>
+		</files>		
+		
+		<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_content_xtypo.ini</language>
+		</languages>
+		
+		
+    	
+</install>

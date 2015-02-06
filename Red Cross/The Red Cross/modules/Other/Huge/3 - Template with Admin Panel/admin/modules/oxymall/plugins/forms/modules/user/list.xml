@@ -1,0 +1,86 @@
+<form>
+	<border>true</border>
+	<title>Enabled Modules</title>
+
+	<alternance>true</alternance>
+	<valternance>true</valternance>
+
+	<tabs>
+		<t0 width="100" title="Video Tutorial" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.help" restricted="eval:$GLOBALS['no_tutorials'];"/>
+		<t1 width="100" title="Global Settings" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.settings" />
+		<t2 width="100" title="Installed Skins" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.skins" />
+		<t3 width="100" title="Installed Modules" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.default" />
+		<t4 active="true" width="100" title="Enabled Modules" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.user" />
+		<t5 width="100" title="Storage Folders" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.folders" />
+	</tabs>
+
+	<fields>
+
+		<_count header="No." width="20" align="right" suffix="."/>
+		<mod_name header="Module" link="{SELF.URI.DETAILS}"/>
+		<mod_url header="Url" suffix="/" preffix="/" align="left" protected=""/>
+		<mod_status header="Active" align="center" width="70" type="relation">
+			<options>
+				<option name="1">yes</option>
+			</options>
+		</mod_status>
+
+		<mod_invisible header="Invisible" align="center" width="70" type="relation">
+			<options>
+				<option name="1">yes</option>
+			</options>
+		</mod_invisible>
+
+		<button_move_down type="button" width="20" align="center" onclick="" button="/small/down" title="Move Down">
+			<location>{SELF.URI.MOVE_DOWN}</location>
+		</button_move_down>
+
+		<button_move_up type="button" width="20" align="center" onclick="" button="/small/up" title="Move Up">
+			<location>{SELF.URI.MOVE_UP}</location>
+		</button_move_up>
+
+
+		<button_delete type="button" width="20" align="center" onclick="" button="/small/delete">
+			<location>{SELF.URI.DELETE}</location>
+		</button_delete>
+
+
+		<button_details type="button" width="20" align="center" onclick="" button="/small/edit">
+			<location>{SELF.URI.EDIT}</location>
+		</button_details>
+
+	</fields>
+
+	<header>
+		<nolinks>true</nolinks>
+		<titles>true</titles>
+		<buttons>
+
+			<add button="addnew">
+				<location>index.php?mod=oxymall&sub=oxymall.plugin.modules.add-module&action=edit&returnurl={SELF.LOCATION}</location>
+			</add>
+
+		</buttons>
+	</header>
+
+	<items>50</items>
+
+
+	<sql>
+		<vars>
+			<table type="table" />
+
+			<page type="page"/>
+			<items type="var" import="50"/>
+
+			<condition type="var" import="" />
+			
+			<order type="var" import="mod_order" />
+			<order_mode type="var" import="ASC" />
+		</vars>
+		<query>select * from {TABLE} {CONDITION} ORDER BY {ORDER} {ORDER_MODE} LIMIT {PAGE} , {ITEMS} </query>
+		<count table="{TABLE}" condition="{CONDITION}" />
+
+	</sql>
+
+</form>

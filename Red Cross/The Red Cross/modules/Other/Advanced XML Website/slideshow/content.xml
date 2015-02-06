@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<content Name="SLIDESHOW">
+    <item Image="slideshow/image1.jpg" Delay="3000" Link="http://www.flashden.net">
+        <copy><![CDATA[<font color="#FFFFFF" size="15"><b>Blue Turbine</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.]]></copy>
+    </item>
+    <item Image="slideshow/image2.jpg" Delay="3000" Link="http://www.flashden.net">
+        <copy><![CDATA[<font color="#FFFFFF" size="15"><b>Red Coils</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></copy>
+    </item>
+    <item Image="slideshow/image3.jpg" Delay="3000" Link="http://www.flashden.net">
+        <copy><![CDATA[<font color="#FFFFFF" size="15"><b>Looped Rings</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.]]></copy>
+    </item>
+    <item Image="slideshow/image4.jpg" Delay="3000" Link="http://www.flashden.net">
+        <copy><![CDATA[<font color="#FFFFFF" size="15"><b>Liquid Flow</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.]]></copy>
+    </item>
+    <item Image="slideshow/image5.jpg" Delay="3000" Link="http://www.flashden.net">
+        <copy><![CDATA[<font color="#FFFFFF" size="15"><b>Spiral Sphere</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.]]></copy>
+    </item>
+    <item Image="slideshow/image6.jpg" Delay="3000" Link="http://www.flashden.net">
+        <copy><![CDATA[<font color="#FFFFFF" size="15"><b>Code Steel</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.]]></copy>
+    </item>
+</content>

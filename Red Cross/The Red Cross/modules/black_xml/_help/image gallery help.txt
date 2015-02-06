@@ -1,0 +1,66 @@
+image_gallery.xml
+
+-----------------------------------------------
+How do I add my large images?
+-----------------------------------------------
+
+Make your images 1000 wide x 500 high. Save your images inside images/image_gallery/large folder.
+Open image_gallery.xml in Notepad or Dreamveaver. In the xml go to the lgimage attribute for each node and update the path.
+
+Example:
+  	
+lgimage="images/image_gallery/large/image_slideshow1.jpg"
+
+-----------------------------------------------
+How do I add my thumbnail images?
+-----------------------------------------------
+
+Make your images 166 wide x 166 high. Save your images inside images/image_gallery/thumbs folder.
+In the xml go to the thumb attribute for each node and update the path.
+
+Example:
+
+thumb="images/image_gallery/thumbs/thumb1.jpg"
+
+--------------------------------------------------
+How do I edit the description text for each image?
+--------------------------------------------------
+
+For each node go to the description tag, and edit the text between the <![CDATA[ ]]> tags.
+
+Example:
+
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+
+You can use html tags to change color, font size, add links etc. If you change font sizes I suggest changing the dynamic text field from bitmap to anti-alias for readability and use a non pixel font, otherwise you will get blurry text.
+
+--------------------------------------------------
+How do I add more images?
+--------------------------------------------------
+
+To add more images simply add more imageData nodes.
+
+Example:
+
+<imageData thumb="images/image_gallery/thumbs/thumb1.jpg" lgimage="images/image_gallery/large/image_slideshow1.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+To remove images simply remove imageData nodes.
+
+--------------------------------------------------
+How do I change the preloader color?
+--------------------------------------------------
+
+Go to the preloaderColor attribute and edit the color value.
+
+Example:
+
+preloaderColor = "0xffff00"
+
+--------------------------------------------------
+Note
+--------------------------------------------------
+
+The image gallery can also be a combination of images and video. To add video simply change the attribute image_movie="image" to image_movie="video". Then for the lgimage attribute change the path to your .flv instead of an image.
+

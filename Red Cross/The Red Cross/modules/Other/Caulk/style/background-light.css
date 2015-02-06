@@ -1,0 +1,12 @@
+body {
+background:#E6E6E6 url('../images/background-light.jpg') repeat-x center top;
+}
+.toplinks ul li a {
+color:#666;
+}
+.toplinks ul li a:hover {
+color:#BBB;
+}
+#main .excerpt .datewrapper {
+	background-image:url('../images/date-light.jpg');
+}

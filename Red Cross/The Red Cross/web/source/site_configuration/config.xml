@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<XMLobject>
+
+	<!-- MAIN TEMPLATE CONFIGURATION SETTINGS -->
+	
+	
+	<!-- Location of main cascading style sheet -->
+	<cssUrl>site_stylesheets/content.css</cssUrl>
+	
+	
+	<!-- Logo Setup -->
+	<logo>
+		<useImage>true</useImage>
+		<useSwf>false</useSwf>
+		<logoImageUrl>site_images/logo/circleLogo.png</logoImageUrl>
+		<logoSwfUrl>animatedLogo.swf</logoSwfUrl>
+		<!--
+		logoX Options 
+		The logoX is the distance in pixels from the left your logo will start
+		Static X    				<logoX>10</logoX>  			(this will make your logo start 10 pixels from the left)
+		Left aligned X    	<logoX>left</logoX>  		(this will make your logo be left aligned at 0)
+		Center aligned X    <logoX>center</logoX>  	(this will make your logo be centered)
+		Right aligned X    	<logoX>right</logoX>  	(this will make your logo be right aligned)
+		-->
+		<logoX>2</logoX>
+		
+		<!-- 
+		Logo Y Option
+		The logoY is the distance from the top your logo will start
+		Static Y  					<logoY>10</logoY>  			(this will start your logo 10 pixels from the top)
+		-->
+		<logoY>2</logoY>
+		
+		<addLinkToLogo>true</addLinkToLogo>
+		<logoLink>Content/Layout Style 1</logoLink>
+		
+	</logo>
+	
+	
+	<header>
+		<!--
+		Header Background Image
+		Point this URL to the background image you want to use for your header
+		-->
+		<headerBgImageUrl>site_images/header/header.png</headerBgImageUrl> 
+		<tileHeaderImage>true</tileHeaderImage>
+		<!--
+		Header Width Options
+		The Header Width Option will only apply if you have set tileHeaderImage to true
+		otherwise the width of your header will be the size of your headerBgImageUrl
+		Static Width    			eg.  <width>575</width>  								(this will make your header a set 575 pixels wide)
+		Dynamic Width   			eg.  <width>totalButtonWidth</width>  	(this will make your header the same width as the total width of all your buttons)
+		Total Width     			eg.  <width>stageWidth</width>  				(this will make your header the full width of your browser)  
+		-->
+		<width>totalButtonWidth</width>
+		<!-- 
+		Header Height Option
+		The Header Height Option will only apply if you have set tileHeaderImage to true
+		otherwise the height of your header will be the size of your headerBgImageUrl
+		Static height  				eg.  <height>36</height> 
+		-->
+		<height>21</height>
+		<!--
+		Header X Options 
+		The X is the distance from the left your header will start
+		Static X    				  eg.  <x>175</x>      	(this will make your header start 175 pixels from the left)
+		Left aligned X    	  eg.  <x>left</x>     	(this will make your header be left aligned)
+		Center aligned X      eg.  <x>center</x>   	(this will make your header be centered)
+		Right aligned X    	  eg.  <x>right</x>			(this will make your header be right aligned)
+		-->
+		<x>right</x>
+		<!-- 
+		Header Y Option
+		The Y is the distance from the top your header will start
+		Static Y    					eg.  <y>32</y>				(this will start your header 32 pixels from the top)
+		-->
+		<y>14</y>
+	</header>
+	
+	
+	<footer>
+		<!--
+		Footer Background Image Options
+		Point this URL to the bg image you want to use for your footer,
+		if you want to use a solid color for your footer bg image,
+		just fill footer.gif with the solid color of your choice and resave 
+		the image.
+		-->
+		<!--<footerBgImageUrl>site_images/transFooter.png</footerBgImageUrl> -->
+		<footerBgImageUrl>site_images/footer/footer.png</footerBgImageUrl>
+		<tileFooterImage>true</tileFooterImage>
+		<!--
+		Footer Width Options 
+		The Footer Width Option will only apply if you have set tileFooterImage to true
+		otherwise the width of your foter will be the size of your footerBgImageUrl
+		Static Width    			eg.  <width>575</width>  								(this will make your footer a set 575 pixels wide)
+		Dynamic Width   			eg.  <width>totalButtonWidth</width>  	(this will make your footer the same width as the total width of all your buttons)
+		Total Width     			eg.  <width>stageWidth</width>  				(this will make your footer the full width of your browser)  
+		-->
+		<width>stageWidth</width>
+		<!-- 
+		Footer Height Option
+		Static height  				eg.  <height>32</height> 
+		-->
+		<height>28</height>
+		<!--
+		Footer X Options 
+		The X is the distance from the left your footer will start
+		Static X    					eg.  <x>175</x>  			(this will make your footer start 175 pixels from the left)
+		Left aligned X    		eg.  <x>left</x>  		(this will make your footer be left aligned)
+		Center aligned X    	eg.  <x>center</x>  	(this will make your footer be centered)
+		Right aligned X    		eg.  <x>right</x>  		(this will make your footer be right aligned)
+		-->
+		<x>left</x>
+
+	</footer>
+	
+	
+	<audioSettings>
+		<!-- 
+		AUDIO OPTIONS
+		if you want mp3 player to be included    				<includeMp3Player>true</includeMp3Player> 	
+		if you do not want mp3 player to be included		<includeMp3Player>false</includeMp3Player> 
+		-->
+		<includeMp3Player>true</includeMp3Player> 
+		
+		<!--
+			Volume Settings
+			eg.  To start the volume at 0%  			<initialVolumeLevel>0</initialVolumeLevel>
+			eg.  To start the volume at 50%  			<initialVolumeLevel>.5</initialVolumeLevel>
+			eg.  To start the volume at 100%  		<initialVolumeLevel>1</initialVolumeLevel>
+		-->
+		<initialVolumeLevel>0.4</initialVolumeLevel>
+
+	</audioSettings>
+	
+	
+	
+	<footerButtons>
+		
+		<!--
+		Footer X Options 
+		The X is the distance from the starting X of your footer
+		Static X    					eg.  <x>175</x>  			(this will make your footer buttons start 175 pixels from the left of the start of your footer)
+		Left aligned X    		eg.  <x>left</x>  		(this will make your footer buttons be left aligned within at the start of your footer)
+		Center aligned X    	eg.  <x>center</x>  	(this will make your footer buttons be centered aligned within your footer)
+		Right aligned X    		eg.  <x>right</x>  		(this will make your footer buttons be right aligned within your footer)
+		-->
+		<x>right</x>
+		
+		<spaceBtwBtns>1</spaceBtwBtns>
+		
+		<!--
+			IF INCLUDE MP3 PLAYER BUTTON ABOVE IS SET TO FALSE THEN VOLUME BUTTON AND PLAYLIST BUTTONS WILL NOT APPEAR
+		 
+			The volumeBtnY is the distance from the bottom your button will start
+			Static Y  					eg.  <volumeBtnY>25</volumeBtnY>  			(this will start your buttons 25 pixels from the bottom)
+			
+			All of the Below volume button properties will be ignored if includeMp3player is set to false
+		-->
+		<volumeBtnY>28</volumeBtnY>
+		<volumeBtnText>VOLUME</volumeBtnText>
+		<volumeTextFieldY>5</volumeTextFieldY>
+		<volumeBtnWidth>60</volumeBtnWidth>
+		<volumeBtnHeight>23</volumeBtnHeight>
+		<volumeBtnOpacity>0</volumeBtnOpacity>
+		<volBtnTxtSize>12</volBtnTxtSize>
+		<!--Inactive State-->
+		<volumeBtnBgColor>0x000000</volumeBtnBgColor>
+		<volBtnTxtClr>0xd4d4d4</volBtnTxtClr>
+		<!--Over State-->
+		<volBtnOvBgClr>0x101010</volBtnOvBgClr>
+		<volBtnOvTxtClr>0xC20800</volBtnOvTxtClr>
+		<!--Volume Control Properties-->
+		<volumeControlHeight>74</volumeControlHeight>
+		<volumeControlBgColor>0xffffff</volumeControlBgColor>
+		<volumControlOpacity>.38</volumControlOpacity>
+		<!--Volume Control Level Base Properties-->
+		<volumeLevelBaseColor>0xd4d4d4</volumeLevelBaseColor>
+		<volumeLevelWidth>11</volumeLevelWidth>
+		<!--Volume Control Level Properties-->
+		<volumeLevelColor>0xC20800</volumeLevelColor>
+		
+		
+		<!-- 
+			The playlistBtnY is the distance from the bottom your button will start
+			Static Y  					eg.  <playlistBtnY>25</playlistBtnY>  			(this will start your playlist button 25 pixels from the bottom)
+		-->
+		<playlistBtnY>28</playlistBtnY>
+		<playlistBtnText>TUNES</playlistBtnText>
+		<playlistBtnWidth>65</playlistBtnWidth>
+		<playlistBtnHeight>23</playlistBtnHeight>
+		<playlistBtnOpacity>0</playlistBtnOpacity>
+		<playlistBtnTxtSize>12</playlistBtnTxtSize>
+		<playlistBtnTextFieldY>5</playlistBtnTextFieldY>
+		<!--Inactive State-->
+		<playlistBtnBgColor>0x000000</playlistBtnBgColor>
+		<playlistBtnTxtClr>0xd4d4d4</playlistBtnTxtClr>
+		<!--Over State-->
+		<playlistBtnOvBgClr>0x101010</playlistBtnOvBgClr>
+		<playlistBtnOvTxtClr>0xC20800</playlistBtnOvTxtClr>
+		
+		
+		<!-- 
+			The fullScreenBtnY is the distance from the bottom your button will start
+			Static Y  					eg.  <fullScreenBtnY>25</fullScreenBtnY>  			(this will start your fullScreen button 25 pixels from the bottom)
+		-->
+		<fullScreenBtnY>28</fullScreenBtnY>
+		<fullScreenBtnText>FULLSCREEN</fullScreenBtnText>
+		<fullScreenBtnWidth>90</fullScreenBtnWidth>
+		<fullScreenBtnHeight>23</fullScreenBtnHeight>
+		<fullScreenBtnOpacity>0</fullScreenBtnOpacity>
+		<fullScreenBtnTxtSize>12</fullScreenBtnTxtSize>
+		<fullScreenBtnTextFieldY>5</fullScreenBtnTextFieldY>
+		<!--Inactive State-->
+		<fullScreenBtnBgColor>0x000000</fullScreenBtnBgColor>
+		<fullScreenBtnTxtClr>0xd4d4d4</fullScreenBtnTxtClr>
+		<!--Over State-->
+		<fullScreenBtnOvBgClr>0x101010</fullScreenBtnOvBgClr>
+		<fullScreenBtnOvTxtClr>0xC20800</fullScreenBtnOvTxtClr>
+		
+	</footerButtons>
+	
+	
+	
+	<buttons>
+		<!--
+		Buttons X Options 
+		The X is the distance from the left your page/sub-page buttons will start
+		Static X    				eg.  <x>175</x>  			(this will make your buttons start 175 pixels from the left)
+		Left aligned X    	eg.  <x>left</x>  		(this will make your buttons be left aligned starting at 0px )
+		Center aligned X    eg.  <x>center</x>  	(this will make your buttons be centered)
+		Right aligned X    	eg.  <x>right</x>  		(this will make your buttons be right aligned)
+		-->
+		<x>right</x>
+		<!-- 
+		Buttons Y Option
+		The Y is the distance from the top your buttons will start
+		Static Y  					eg.  <y>32</y>  			(this will start your buttons 32 pixels from the top)
+		-->
+		<y>0</y>
+		
+		<PageButtons>
+			<!--
+			Add To Button Width
+			this option allows you to determine the amount 
+			of extra pixels to add to each button besides
+			the width of the text.
+			-->
+			<addToBtnWidth>20</addToBtnWidth>
+			<buttonHeight>21</buttonHeight>
+			<spaceBtwnBtns>1</spaceBtwnBtns>
+			<pgBtnOpacity>.8</pgBtnOpacity>
+			<!--
+			TextField Position Options
+			Left aligned    	<textFieldPosition>left</textFieldPosition>  (this will make the text on your buttons be left aligned)
+			Center aligned    <textFieldPosition>center</textFieldPosition>  (this will make the text on your buttons be centered)
+			Right aligned    	<textFieldPosition>right</textFieldPosition>  (this will make the text on your buttons be right aligned)
+			-->
+			<textFieldPosition>center</textFieldPosition>
+			<!--
+			TextField Y
+			This option lets you move your text on the button up or down 
+			eg. <textFieldY>-1</textFieldY>  (this moves the textfield up higher)
+			-->
+			
+			<textFieldY>0</textFieldY>
+			<fontSize>14</fontSize>
+			<!-- Inactive Button State -->
+			<bgColor>0x101010</bgColor>
+			<textColor>0xd4d4d4</textColor>
+			<!-- Hovered Button State -->
+			<overBgColor>0x101010</overBgColor>
+			<overTextColor>0xC20800</overTextColor>
+			<!-- Clicked or Selected State -->
+			<clickBgColor>0xC20800</clickBgColor>
+			<clickTextColor>0xffffff</clickTextColor>
+		</PageButtons>
+		
+		<SubPageButtons>
+			<buttonWidth>180</buttonWidth>
+			<buttonHeight>21</buttonHeight>
+			<subPgBtnOpacity>.7</subPgBtnOpacity>
+			<spaceBtwSubBtns>1</spaceBtwSubBtns>
+			<!--
+			TextField Position Options
+			Left aligned    	<textFieldPosition>left</textFieldPosition>  (this will make the text on your buttons be left aligned)
+			Center aligned    <textFieldPosition>center</textFieldPosition>  (this will make the text on your buttons be centered)
+			Right aligned    	<textFieldPosition>right</textFieldPosition>  (this will make the text on your buttons be right aligned)
+			-->
+			<textFieldPosition>left</textFieldPosition>
+			<textFieldY>1</textFieldY>
+			<textFieldXOffset>5</textFieldXOffset>
+			<fontSize>12</fontSize>
+			<!-- Inactive Button State -->
+			<bgColor>0x101010</bgColor>
+			<textColor>0xb7b7b7</textColor>
+			<!-- Hovered Button State -->
+			<overBgColor>0x101010</overBgColor>
+			<overTextColor>0xC20800</overTextColor>
+			<!-- Clicked or Selected State -->
+			<clickBgColor>0x101010</clickBgColor>
+			<clickTextColor>0xC20800</clickTextColor>
+		</SubPageButtons>
+	
+	</buttons>
+		
+	<socialIcons>
+		<addSocialButtons>true</addSocialButtons>
+		<spaceBetweenButtons>10</spaceBetweenButtons>
+		<!--
+		Buttons X Options 
+		The X is the distance from the left your page/sub-page buttons will start
+		Static X    		eg.  <x>175</x>  		(this will make your buttons start 175 pixels from the left)
+		Left aligned X    	eg.  <x>left</x>  		(this will make your buttons be left aligned starting at 0px )
+		Center aligned X    eg.  <x>center</x>  	(this will make your buttons be centered)
+		Right aligned X    	eg.  <x>right</x>  		(this will make your buttons be right aligned)
+		-->
+		<x>center</x>
+		<!-- 
+		Buttons Y Option
+		The Y is the distance from the top your buttons will start
+		Static Y  					eg.  <y>32</y>  			(this will start your buttons 32 pixels from the top)
+		-->
+		<y>23</y>
+		<useToolTips>true</useToolTips>
+		<toolTipColor>0xC20800</toolTipColor>
+		<toolTipOpacity>.6</toolTipOpacity>
+		<iconWidth>16</iconWidth>
+		<buttons>
+			<button>
+				<imageUrl>site_images/twitter.png</imageUrl>
+				<link>http://www.twitter.com//</link>
+				<linkOpenType>_blank</linkOpenType>
+				<toolTipText>twitter</toolTipText>
+			</button>
+			<button>
+				<imageUrl>site_images/rss.png</imageUrl>
+				<link>http://rss.com//</link>
+				<linkOpenType>_blank</linkOpenType>
+				<toolTipText>rss</toolTipText>
+			</button>
+			<button>
+				<imageUrl>site_images/facebook.png</imageUrl>
+				<link>http://www.facebook.com</link>
+				<linkOpenType>_blank</linkOpenType>
+				<toolTipText>facebook</toolTipText>
+			</button>
+			<button>
+				<imageUrl>site_images/myspace.png</imageUrl>
+				<link>http://www.myspace.com/</link>
+				<linkOpenType>_blank</linkOpenType>
+				<toolTipText>myspace</toolTipText>
+			</button>
+			<button>
+				<imageUrl>site_images/digg.png</imageUrl>
+				<link>http://digg.com/</link>
+				<linkOpenType>_blank</linkOpenType>
+				<toolTipText>digg</toolTipText>
+			</button>
+			<button>
+				<imageUrl>site_images/orkut.png</imageUrl>
+				<link>http://en.blog.orkut.com/</link>
+				<linkOpenType>_blank</linkOpenType>
+				<toolTipText>orkut</toolTipText>
+			</button>
+			<button>
+				<imageUrl>site_images/deli.png</imageUrl>
+				<link>https://www.delicious.com/start</link>
+				<linkOpenType>_blank</linkOpenType>
+				<toolTipText>delicious</toolTipText>
+			</button>
+			<button>
+				<imageUrl>site_images/hi5.png</imageUrl>
+				<link>http://hi5.com/</link>
+				<linkOpenType>_blank</linkOpenType>
+				<toolTipText>hi5</toolTipText>
+			</button>
+		</buttons>
+	</socialIcons>
+		
+	<copyrightText>
+		<addCopyrightText>true</addCopyrightText>
+		<!--
+		Copyright X Options 
+		The X is the distance from the left your page/sub-page text will start
+		Static X    		eg.  <x>175</x>  		(this will make your text start 175 pixels from the left)
+		Left aligned X    	eg.  <x>left</x>  		(this will make your text be left aligned starting at 0px )
+		Center aligned X    eg.  <x>center</x>  	(this will make your text be centered)
+		Right aligned X    	eg.  <x>right</x>  		(this will make your text be right aligned)
+		-->
+		<x>10</x>
+		<!-- 
+		Copyright Text Y Option
+		The Y is the distance from the top your text will start
+		Static Y  					eg.  <y>32</y>  			(this will start your text 32 pixels from the top)
+		-->
+		<y>22</y>
+		<articleText><![CDATA[<extra class="copyright">SLHS RED CROSS ASSOCIATION</extra>]]></articleText>
+		<width>300</width>
+	</copyrightText>
+	
+	<bgPreloader>
+		<x>2</x>
+		<!-- The background preloader text will always start at the bottom of the page, unless you edit the actionscript -->
+		<!-- The  <y>23</y> coordinate tells it how many pixels from the bottom to start-->
+		<y>50</y>
+	</bgPreloader>
+	
+	<!--screen dim color and opacity used when displaying mp3 player-->
+	<popUp>
+		<dimScreenColor>0x000000</dimScreenColor>
+		<dimScreenOpacity>.7</dimScreenOpacity>
+	</popUp>
+	
+	<!-- END OF CONFIGURATION SETTINGS -->
+
+
+	
+		<page>
+		<hasSubPages>false</hasSubPages>
+		<name>MISSION</name>
+			<title>Who We Are</title>
+			<xmlPath>site_configuration/about.xml</xmlPath>
+			<cssPath>site_stylesheets/content.css</cssPath>
+			<utilityType>content</utilityType>
+			<muteAudio>false</muteAudio>
+			<backgroundOptions>
+				<topMargin>0</topMargin>
+				<bottomMargin>0</bottomMargin>
+				<useImage>true</useImage>
+				<imageURL>site_images/backgroundImages/woodPattern.jpg</imageURL>
+				<tileImage>true</tileImage>
+				<fullScreenImage>false</fullScreenImage>				
+			</backgroundOptions>		
+	</page>
+
+	<page>
+		<hasSubPages>false</hasSubPages>
+		<name>PAST</name>
+			<title>History</title>
+			<xmlPath>site_configuration/layout3.xml</xmlPath>
+			<cssPath>site_stylesheets/content.css</cssPath>
+			<utilityType>content</utilityType>
+			<muteAudio>false</muteAudio>
+			<backgroundOptions>
+				<topMargin>0</topMargin>
+				<bottomMargin>0</bottomMargin>
+				<useImage>true</useImage>
+				<imageURL>site_images/backgroundImages/woodPattern.jpg</imageURL>
+				<tileImage>true</tileImage>
+				<fullScreenImage>false</fullScreenImage>
+			</backgroundOptions>		
+	</page>
+
+
+	<!-- PAGE 2 -->
+	
+	<page>
+			<name>PRESENT</name>
+			<hasSubPages>true</hasSubPages>	
+			<subPage>
+				<name>MAKE HISTORY</name>
+				<title>Join</title>
+				<xmlPath>site_configuration/youWrite.xml</xmlPath>
+				<cssPath>site_stylesheets/content.css</cssPath>
+				<utilityType>content</utilityType>
+				<muteAudio>false</muteAudio>
+				<backgroundOptions>
+					<topMargin>0</topMargin>
+					<bottomMargin>0</bottomMargin>
+					<useImage>true</useImage>
+					<imageURL>site_images/backgroundImages/woodPattern.jpg</imageURL>
+					<tileImage>true</tileImage>
+					<fullScreenImage>false</fullScreenImage>
+				</backgroundOptions>
+			</subPage>
+			<subPage>
+				<name>SOME INSTRUCTIONS</name>
+				<title>Instructions</title>
+				<xmlPath>site_configuration/joinInstruction.xml</xmlPath>
+				<cssPath>site_stylesheets/content.css</cssPath>
+				<utilityType>content</utilityType>
+				<muteAudio>false</muteAudio>
+				<backgroundOptions>
+					<topMargin>0</topMargin>
+					<bottomMargin>0</bottomMargin>
+					<useImage>true</useImage>
+					<imageURL>site_images/backgroundImages/woodPattern.jpg</imageURL>
+					<tileImage>true</tileImage>
+					<fullScreenImage>false</fullScreenImage>
+				</backgroundOptions>
+			</subPage>
+			<subPage>
+				<name>APPLICATION</name>
+				<title>Fill out the Form</title>				
+			<muteAudio>false</muteAudio>
+			
+			<backgroundOptions>
+				<topMargin>0</topMargin>
+				<bottomMargin>0</bottomMargin>
+				<useImage>true</useImage>
+				<imageURL>site_images/backgroundImages/woodPattern.jpg</imageURL>
+				<tileImage>true</tileImage>
+				<fullScreenImage>false</fullScreenImage>
+			</backgroundOptions>
+				<utilityType>externalSwf</utilityType>
+				<swfUrl>multiFile.swf</swfUrl>
+				<useFunctionForGarbageCollection>true</useFunctionForGarbageCollection>
+				<functionName>destroySwf</functionName>
+				<useTemplateToCenterSwf>true</useTemplateToCenterSwf>
+				<swfWidth>916</swfWidth>
+				<swfHeight>357</swfHeight>
+			</subPage>
+	</page>
+	<page>
+		<hasSubPages>false</hasSubPages>
+		<name>OUTREACH</name>
+		<title>Upcoming Events</title>
+		<xmlPath>site_configuration/portfolio.xml</xmlPath>
+		<cssPath>site_stylesheets/content.css</cssPath>
+		<utilityType>content</utilityType>
+		<muteAudio>false</muteAudio>
+			<backgroundOptions>
+				<topMargin>0</topMargin>
+				<bottomMargin>0</bottomMargin>
+				<useImage>true</useImage>
+				<imageURL>site_images/backgroundImages/woodPattern.jpg</imageURL>
+				<tileImage>true</tileImage>
+				<fullScreenImage>false</fullScreenImage>
+			</backgroundOptions>
+	</page>
+
+	<page>
+		<hasSubPages>false</hasSubPages>
+		<name>CREW</name>
+			<title>Crew</title>
+			<xmlPath>site_configuration/services.xml</xmlPath>
+			<cssPath>site_stylesheets/content.css</cssPath>
+			<utilityType>content</utilityType>
+			<muteAudio>false</muteAudio>
+			<backgroundOptions>
+				<topMargin>0</topMargin>
+				<bottomMargin>0</bottomMargin>
+				<useImage>true</useImage>
+				<imageURL>site_images/backgroundImages/woodPattern.jpg</imageURL>
+				<tileImage>true</tileImage>
+				<fullScreenImage>false</fullScreenImage>
+			</backgroundOptions>				
+
+	</page>	
+
+	<page>
+			<name>PHOTOS</name>
+			<hasSubPages>false</hasSubPages>
+				<title>Photos</title>
+				<xmlPath>site_configuration/photoGallery.xml</xmlPath>
+				<cssPath>site_stylesheets/photo.css</cssPath>
+				<utilityType>photos</utilityType>
+				<muteAudio>false</muteAudio>
+			<backgroundOptions>
+					<topMargin>0</topMargin>
+					<bottomMargin>0</bottomMargin>
+					<useImage>true</useImage>
+					<imageURL>site_images/backgroundImages/gradient.jpg</imageURL>
+					<tileImage>true</tileImage>
+					<fullScreenImage>false</fullScreenImage>
+				</backgroundOptions>
+	</page>	
+	
+	<page>
+			<name>VIDEOS</name>
+			<hasSubPages>true</hasSubPages>
+			
+			<!-- SINGLE VIDEO PAGE EXAMPLE -->
+			<subPage>
+				<name>FEATURED</name>
+				<title>Change the World</title>
+				<xmlPath>site_configuration/singleVideo.xml</xmlPath>
+				<cssPath>site_stylesheets/videoGalleryStyle.css</cssPath>
+				<utilityType>videoGallery</utilityType>
+				<muteAudio>false</muteAudio>
+			<backgroundOptions>
+				<topMargin>0</topMargin>
+				<bottomMargin>0</bottomMargin>
+				<useImage>true</useImage>
+				<imageURL>site_images/backgroundImages/gradient.jpg</imageURL>
+				<tileImage>true</tileImage>
+				<fullScreenImage>false</fullScreenImage>
+			</backgroundOptions>
+			</subPage>
+						
+			<!--  16x9 -->
+			<!-- FULL VIDEO PLAYER WITH THUMBNAILS CONTENT AREA AND MULTIPLE CATEGORIES -->
+			<subPage>
+				<name>ALL VIDEOS</name>
+				<title>Videos</title>
+				<xmlPath>site_configuration/16x9videoGallery.xml</xmlPath>
+				<cssPath>site_stylesheets/videoGalleryStyle.css</cssPath>
+				<utilityType>videoGallery</utilityType>
+				<muteAudio>true</muteAudio>
+				<backgroundOptions>
+					<topMargin>0</topMargin>
+					<bottomMargin>0</bottomMargin>
+					<useImage>true</useImage>
+					<imageURL>site_images/backgroundImages/gradient.jpg</imageURL>
+					<tileImage>true</tileImage>
+					<fullScreenImage>false</fullScreenImage>
+				</backgroundOptions>
+			</subPage>
+
+
+	</page>	
+	<page>
+			<name>CHATROOM</name>
+			<hasSubPages>false</hasSubPages>
+			<title>under construction</title>
+			<muteAudio>false</muteAudio>
+			<backgroundOptions>
+					<topMargin>0</topMargin>
+					<bottomMargin>0</bottomMargin>
+					<useImage>true</useImage>
+					<imageURL>site_images/backgroundImages/gradient.jpg</imageURL>
+					<tileImage>true</tileImage>
+					<fullScreenImage>false</fullScreenImage>
+				</backgroundOptions>
+		<utilityType>externalSwf</utilityType>
+		<swfUrl>chat/chat.swf</swfUrl>
+		<useFunctionForGarbageCollection>true</useFunctionForGarbageCollection>
+		<functionName>destroySwf</functionName>
+		<useTemplateToCenterSwf>true</useTemplateToCenterSwf>
+		<swfWidth>800</swfWidth>
+		<swfHeight>500</swfHeight>
+			
+	</page>
+
+	<page>
+			<name>CONTACT</name>
+			<hasSubPages>false</hasSubPages>
+			<title>Contact</title>
+			<xmlPath>site_configuration/contact.xml</xmlPath>
+			<cssPath>site_stylesheets/content.css</cssPath>
+			<utilityType>contact</utilityType>
+			<muteAudio>false</muteAudio>
+				<backgroundOptions>
+					<topMargin>0</topMargin>
+					<bottomMargin>0</bottomMargin>
+					<useImage>true</useImage>
+					<imageURL>site_images/backgroundImages/woodPattern.jpg</imageURL>
+					<tileImage>true</tileImage>
+					<fullScreenImage>false</fullScreenImage>
+				</backgroundOptions>
+	</page>
+	<page>
+			<name>UNDER CONSTRUCTION</name>
+			<hasSubPages>false</hasSubPages>
+			<title>Construction</title>
+			<muteAudio>false</muteAudio>
+			<backgroundOptions>
+				<topMargin>0</topMargin>
+				<bottomMargin>0</bottomMargin>
+				<useImage>true</useImage>
+				<imageURL>site_images/backgroundImages/woodPattern.jpg</imageURL>
+				<tileImage>true</tileImage>
+				<fullScreenImage>false</fullScreenImage>
+				</backgroundOptions>
+			<utilityType>externalSwf</utilityType>
+			<swfUrl>external.swf</swfUrl>
+			<useFunctionForGarbageCollection>false</useFunctionForGarbageCollection>
+			<functionName></functionName>
+			<useTemplateToCenterSwf>true</useTemplateToCenterSwf>
+			<swfWidth>916</swfWidth>
+			<swfHeight>357</swfHeight>
+	</page>	
+
+	<!-- THIS IS A NON-INDEXED PAGE, WHICH MEANS IT WILL NOT SHOW UP AS A PAGE BUTTON IN YOUR MENU,
+	BUT YOU CAN LINK TO IT FROM IMAGES WITHIN YOUR SITE -->
+	<page>
+		<nonIndexedPage>true</nonIndexedPage>
+		<hasSubPages>false</hasSubPages>
+		<name>NON INDEXED PAGE</name>
+		<title>The Edge NON INDEXED ARCHIVED PAGE</title>
+		<xmlPath>site_configuration/nonIndexedPage.xml</xmlPath>
+		<cssPath>site_stylesheets/content.css</cssPath>
+		<utilityType>content</utilityType>
+		<muteAudio>false</muteAudio>
+			<backgroundOptions>
+				<topMargin>0</topMargin>
+				<bottomMargin>0</bottomMargin>
+				<useImage>true</useImage>
+				<imageURL>site_images/backgroundImages/woodPattern.jpg</imageURL>
+				<tileImage>true</tileImage>
+				<fullScreenImage>false</fullScreenImage>
+			</backgroundOptions>
+	</page>
+	
+</XMLobject>

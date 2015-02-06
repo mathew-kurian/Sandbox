@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	
+	<contentWidth>700</contentWidth>
+	<contentHeight>3920</contentHeight>
+	<contentBgColor>0x0c0c0c</contentBgColor>
+	<contentBgOpacity>1</contentBgOpacity>
+	<scrollBaseColor>0xCCCCCC</scrollBaseColor>
+	<scrollerColor>0x00A2F9</scrollerColor>
+	
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>true</displayHtmlArticles>
+	<displaySlideShow>false</displaySlideShow>									
+
+	<slideShow>
+		<x></x>
+		<y></y>
+		<width></width>
+		<height></height>
+		<bgColor></bgColor>
+		<xmlURL></xmlURL>
+	</slideShow>
+	
+	<!-- Graphic used for Page Title -->
+	<image>
+		<x>40</x>
+		<y>40</y>
+		<imageURL>site_images/newsHeader.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+
+	<!-- Article 1 -->
+	<image>
+		<x>40</x>
+		<y>171</y>
+		<imageURL>site_images/slideshowSpot.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+		<includeArticle>true</includeArticle>
+		<articleUrl>site_configuration/extenedSlideShowArticle.xml</articleUrl>
+		<articleCss>site_stylesheets/content.css</articleCss>
+	</image>
+	<image>
+		<x>206</x>
+		<y>173</y>
+		<imageURL>site_images/articleTitle.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<article>
+		<x>210</x>
+		<y>230</y>
+		<width>450</width>
+		<articleText><![CDATA[<p align="justify">If you want to direct your visitors to send you a message, you can send them to the <a class="aAlt8" href="event:11">contact page</a>, but let’s say you want to direct them to your web hosting solutions, you can easily send them to the <a class="aAlt8" href="event:02_05">web hosting page</a> underneath the services tab.  You can basically create a html link to any page throughout the site. And the best part, is that the smart navigation will automatically highlight the new navigation and sub navigation page that your visitors are sent to, so that they are never confused as to what page they have landed on. Obviously <a class="aAlt8" href="http://flashden.net/user/FLASHdriven/portfolio">external links</a> are acceptable as well.</p>]]>
+		</articleText>
+	</article>
+	<image>
+		<x>40</x>
+		<y>394</y>
+		<imageURL>site_images/seperator.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<!-- End of Article 1 -->
+
+
+
+	<!-- Article 2 -->
+	<image>
+		<x>40</x>
+		<y>461</y>
+		<imageURL>site_images/videoArticle.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+		<includeArticle>true</includeArticle>
+		<articleUrl>site_configuration/extenedVideoArticle.xml</articleUrl>
+		<articleCss>site_stylesheets/content.css</articleCss>
+	</image>
+	<image>
+		<x>206</x>
+		<y>463</y>
+		<imageURL>site_images/articleTitle.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>40</x>
+		<y>684</y>
+		<imageURL>site_images/seperator.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<article>
+		<x>210</x>
+		<y>520</y>
+		<width>450</width>
+		<articleText><![CDATA[<p align="justify">If you want to direct your visitors to send you a message, you can send them to the <a class="aAlt8" href="event:11">contact page</a>, but let’s say you want to direct them to your web hosting solutions, you can easily send them to the <a class="aAlt8" href="event:02_05">web hosting page</a> underneath the services tab.  You can basically create a html link to any page throughout the site. And the best part, is that the smart navigation will automatically highlight the new navigation and sub navigation page that your visitors are sent to, so that they are never confused as to what page they have landed on. Obviously <a class="aAlt8" href="http://flashden.net/user/FLASHdriven/portfolio">external links</a> are acceptable as well.</p>]]>
+		</articleText>
+	</article>
+	<!-- End of Article 2 -->
+
+
+
+	<!-- Article 3 -->
+	<image>
+		<x>40</x>
+		<y>751</y>
+		<imageURL>site_images/supersizedImageSpot.png</imageURL>
+		<includeLargeImage>true</includeLargeImage>
+		<largeURL>site_images/imageOrVideoPopup.gif</largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>206</x>
+		<y>753</y>
+		<imageURL>site_images/superSizedTitle.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>40</x>
+		<y>974</y>
+		<imageURL>site_images/seperator.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<article>
+		<x>210</x>
+		<y>810</y>
+		<width>450</width>
+		<articleText><![CDATA[<p align="justify">If you want to direct your visitors to send you a message, you can send them to the <a class="aAlt8" href="event:11">contact page</a>, but let’s say you want to direct them to your web hosting solutions, you can easily send them to the <a class="aAlt8" href="event:02_05">web hosting page</a> underneath the services tab.  You can basically create a html link to any page throughout the site. And the best part, is that the smart navigation will automatically highlight the new navigation and sub navigation page that your visitors are sent to, so that they are never confused as to what page they have landed on. Obviously <a class="aAlt8" href="http://flashden.net/user/FLASHdriven/portfolio">external links</a> are acceptable as well.</p>]]>
+		</articleText>
+	</article>
+	<!-- End of Article 3 -->
+
+
+
+	<!-- Article 4 -->
+	<image>
+		<x>40</x>
+		<y>1041</y>
+		<imageURL>site_images/internalSpot.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>true</includePageLink>
+		<page>01_02</page>
+		<includeArticle>false</includeArticle>
+		<articleUrl></articleUrl>
+		<articleCss></articleCss>
+	</image>
+	<image>
+		<x>206</x>
+		<y>1043</y>
+		<imageURL>site_images/articleTitle.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>40</x>
+		<y>1264</y>
+		<imageURL>site_images/seperator.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<article>
+		<x>210</x>
+		<y>1100</y>
+		<width>450</width>
+		<articleText><![CDATA[<p align="justify">If you want to direct your visitors to send you a message, you can send them to the <a class="aAlt8" href="event:11">contact page</a>, but let’s say you want to direct them to your web hosting solutions, you can easily send them to the <a class="aAlt8" href="event:02_05">web hosting page</a> underneath the services tab.  You can basically create a html link to any page throughout the site. And the best part, is that the smart navigation will automatically highlight the new navigation and sub navigation page that your visitors are sent to, so that they are never confused as to what page they have landed on. Obviously <a class="aAlt8" href="http://flashden.net/user/FLASHdriven/portfolio">external links</a> are acceptable as well.
+<a href="event:05_04" class="big">READ MORE...</a> </p>]]>
+		</articleText>
+	</article>
+	<!-- End of Article 4 -->
+
+
+
+	<!-- Article 5 -->
+	<image>
+		<x>40</x>
+		<y>1331</y>
+		<imageURL>site_images/spot.png</imageURL>
+		<includeLargeImage>true</includeLargeImage>
+		<largeURL>site_images/imageOrVideoPopup.gif</largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>206</x>
+		<y>1333</y>
+		<imageURL>site_images/articleTitle.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>40</x>
+		<y>1554</y>
+		<imageURL>site_images/seperator.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<article>
+		<x>210</x>
+		<y>1390</y>
+		<width>450</width>
+		<articleText><![CDATA[<p align="justify">If you want to direct your visitors to send you a message, you can send them to the <a class="aAlt8" href="event:11">contact page</a>, but let’s say you want to direct them to your web hosting solutions, you can easily send them to the <a class="aAlt8" href="event:02_05">web hosting page</a> underneath the services tab.  You can basically create a html link to any page throughout the site. And the best part, is that the smart navigation will automatically highlight the new navigation and sub navigation page that your visitors are sent to, so that they are never confused as to what page they have landed on. Obviously <a class="aAlt8" href="http://flashden.net/user/FLASHdriven/portfolio">external links</a> are acceptable as well.</p>]]>
+		</articleText>
+	</article>
+	<!-- End of Article 5 -->
+
+
+
+	<!-- Article 6 -->
+	<image>
+		<x>40</x>
+		<y>1621</y>
+		<imageURL>site_images/spot.png</imageURL>
+		<includeLargeImage>true</includeLargeImage>
+		<largeURL>site_images/imageOrVideoPopup.gif</largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>206</x>
+		<y>1623</y>
+		<imageURL>site_images/articleTitle.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>40</x>
+		<y>1844</y>
+		<imageURL>site_images/seperator.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<article>
+		<x>210</x>
+		<y>1680</y>
+		<width>450</width>
+		<articleText><![CDATA[<p align="justify">If you want to direct your visitors to send you a message, you can send them to the <a class="aAlt8" href="event:11">contact page</a>, but let’s say you want to direct them to your web hosting solutions, you can easily send them to the <a class="aAlt8" href="event:02_05">web hosting page</a> underneath the services tab.  You can basically create a html link to any page throughout the site. And the best part, is that the smart navigation will automatically highlight the new navigation and sub navigation page that your visitors are sent to, so that they are never confused as to what page they have landed on. Obviously <a class="aAlt8" href="http://flashden.net/user/FLASHdriven/portfolio">external links</a> are acceptable as well.</p>]]>
+		</articleText>
+	</article>
+	<!-- End of Article 6 -->
+
+
+
+	<!-- Article 7 -->
+	<image>
+		<x>40</x>
+		<y>1911</y>
+		<imageURL>site_images/spot.png</imageURL>
+		<includeLargeImage>true</includeLargeImage>
+		<largeURL>site_images/imageOrVideoPopup.gif</largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>206</x>
+		<y>1913</y>
+		<imageURL>site_images/articleTitle.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>40</x>
+		<y>2134</y>
+		<imageURL>site_images/seperator.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<article>
+		<x>210</x>
+		<y>1970</y>
+		<width>450</width>
+		<articleText><![CDATA[<p align="justify">If you want to direct your visitors to send you a message, you can send them to the <a class="aAlt8" href="event:11">contact page</a>, but let’s say you want to direct them to your web hosting solutions, you can easily send them to the <a class="aAlt8" href="event:02_05">web hosting page</a> underneath the services tab.  You can basically create a html link to any page throughout the site. And the best part, is that the smart navigation will automatically highlight the new navigation and sub navigation page that your visitors are sent to, so that they are never confused as to what page they have landed on. Obviously <a class="aAlt8" href="http://flashden.net/user/FLASHdriven/portfolio">external links</a> are acceptable as well.</p>]]>
+		</articleText>
+	</article>
+	<!-- End of Article 7 -->
+
+
+
+	<!-- Article 8 -->
+	<image>
+		<x>40</x>
+		<y>2201</y>
+		<imageURL>site_images/spot.png</imageURL>
+		<includeLargeImage>true</includeLargeImage>
+		<largeURL>site_images/imageOrVideoPopup.gif</largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>206</x>
+		<y>2203</y>
+		<imageURL>site_images/articleTitle.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>40</x>
+		<y>2424</y>
+		<imageURL>site_images/seperator.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<article>
+		<x>210</x>
+		<y>2260</y>
+		<width>450</width>
+		<articleText><![CDATA[<p align="justify">If you want to direct your visitors to send you a message, you can send them to the <a class="aAlt8" href="event:11">contact page</a>, but let’s say you want to direct them to your web hosting solutions, you can easily send them to the <a class="aAlt8" href="event:02_05">web hosting page</a> underneath the services tab.  You can basically create a html link to any page throughout the site. And the best part, is that the smart navigation will automatically highlight the new navigation and sub navigation page that your visitors are sent to, so that they are never confused as to what page they have landed on. Obviously <a class="aAlt8" href="http://flashden.net/user/FLASHdriven/portfolio">external links</a> are acceptable as well.</p>]]>
+		</articleText>
+	</article>
+	<!-- End of Article 8 -->
+
+
+
+	<!-- Article 9 -->
+	<image>
+		<x>40</x>
+		<y>2491</y>
+		<imageURL>site_images/spot.png</imageURL>
+		<includeLargeImage>true</includeLargeImage>
+		<largeURL>site_images/imageOrVideoPopup.gif</largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>206</x>
+		<y>2493</y>
+		<imageURL>site_images/articleTitle.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>40</x>
+		<y>2714</y>
+		<imageURL>site_images/seperator.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<article>
+		<x>210</x>
+		<y>2550</y>
+		<width>450</width>
+		<articleText><![CDATA[<p align="justify">If you want to direct your visitors to send you a message, you can send them to the <a class="aAlt8" href="event:11">contact page</a>, but let’s say you want to direct them to your web hosting solutions, you can easily send them to the <a class="aAlt8" href="event:02_05">web hosting page</a> underneath the services tab.  You can basically create a html link to any page throughout the site. And the best part, is that the smart navigation will automatically highlight the new navigation and sub navigation page that your visitors are sent to, so that they are never confused as to what page they have landed on. Obviously <a class="aAlt8" href="http://flashden.net/user/FLASHdriven/portfolio">external links</a> are acceptable as well.</p>]]>
+		</articleText>
+	</article>
+	<!-- End of Article 9 -->
+
+
+
+	<!-- Article 10 -->
+	<image>
+		<x>40</x>
+		<y>2781</y>
+		<imageURL>site_images/spot.png</imageURL>
+		<includeLargeImage>true</includeLargeImage>
+		<largeURL>site_images/imageOrVideoPopup.gif</largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>206</x>
+		<y>2783</y>
+		<imageURL>site_images/articleTitle.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>40</x>
+		<y>3004</y>
+		<imageURL>site_images/seperator.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<article>
+		<x>210</x>
+		<y>2840</y>
+		<width>450</width>
+		<articleText><![CDATA[<p align="justify">If you want to direct your visitors to send you a message, you can send them to the <a class="aAlt8" href="event:11">contact page</a>, but let’s say you want to direct them to your web hosting solutions, you can easily send them to the <a class="aAlt8" href="event:02_05">web hosting page</a> underneath the services tab.  You can basically create a html link to any page throughout the site. And the best part, is that the smart navigation will automatically highlight the new navigation and sub navigation page that your visitors are sent to, so that they are never confused as to what page they have landed on. Obviously <a class="aAlt8" href="http://flashden.net/user/FLASHdriven/portfolio">external links</a> are acceptable as well.</p>]]>
+		</articleText>
+	</article>
+	<!-- End of Article 10 -->
+
+
+
+	<!-- Article 11 -->
+	<image>
+		<x>40</x>
+		<y>3071</y>
+		<imageURL>site_images/spot.png</imageURL>
+		<includeLargeImage>true</includeLargeImage>
+		<largeURL>site_images/imageOrVideoPopup.gif</largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>206</x>
+		<y>3073</y>
+		<imageURL>site_images/articleTitle.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>40</x>
+		<y>3294</y>
+		<imageURL>site_images/seperator.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<article>
+		<x>210</x>
+		<y>3130</y>
+		<width>450</width>
+		<articleText><![CDATA[<p align="justify">If you want to direct your visitors to send you a message, you can send them to the <a class="aAlt8" href="event:11">contact page</a>, but let’s say you want to direct them to your web hosting solutions, you can easily send them to the <a class="aAlt8" href="event:02_05">web hosting page</a> underneath the services tab.  You can basically create a html link to any page throughout the site. And the best part, is that the smart navigation will automatically highlight the new navigation and sub navigation page that your visitors are sent to, so that they are never confused as to what page they have landed on. Obviously <a class="aAlt8" href="http://flashden.net/user/FLASHdriven/portfolio">external links</a> are acceptable as well.</p>]]>
+		</articleText>
+	</article>
+	<!-- End of Article 11 -->
+
+
+
+	<!-- Article 12 -->
+	<image>
+		<x>40</x>
+		<y>3361</y>
+		<imageURL>site_images/spot.png</imageURL>
+		<includeLargeImage>true</includeLargeImage>
+		<largeURL>site_images/imageOrVideoPopup.gif</largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>206</x>
+		<y>3363</y>
+		<imageURL>site_images/articleTitle.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>40</x>
+		<y>3584</y>
+		<imageURL>site_images/seperator.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<article>
+		<x>210</x>
+		<y>3420</y>
+		<width>450</width>
+		<articleText><![CDATA[<p align="justify">If you want to direct your visitors to send you a message, you can send them to the <a class="aAlt8" href="event:11">contact page</a>, but let’s say you want to direct them to your web hosting solutions, you can easily send them to the <a class="aAlt8" href="event:02_05">web hosting page</a> underneath the services tab.  You can basically create a html link to any page throughout the site. And the best part, is that the smart navigation will automatically highlight the new navigation and sub navigation page that your visitors are sent to, so that they are never confused as to what page they have landed on. Obviously <a class="aAlt8" href="http://flashden.net/user/FLASHdriven/portfolio">external links</a> are acceptable as well.</p>]]>
+		</articleText>
+	</article>
+	<!-- End of Article 12 -->
+
+
+
+	<!-- Article 13 -->
+	<image>
+		<x>40</x>
+		<y>3651</y>
+		<imageURL>site_images/spot.png</imageURL>
+		<includeLargeImage>true</includeLargeImage>
+		<largeURL>site_images/imageOrVideoPopup.gif</largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>206</x>
+		<y>3653</y>
+		<imageURL>site_images/articleTitle.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<image>
+		<x>40</x>
+		<y>3874</y>
+		<imageURL>site_images/seperator.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<article>
+		<x>210</x>
+		<y>3710</y>
+		<width>450</width>
+		<articleText><![CDATA[<p align="justify">If you want to direct your visitors to send you a message, you can send them to the <a class="aAlt8" href="event:11">contact page</a>, but let’s say you want to direct them to your web hosting solutions, you can easily send them to the <a class="aAlt8" href="event:02_05">web hosting page</a> underneath the services tab.  You can basically create a html link to any page throughout the site. And the best part, is that the smart navigation will automatically highlight the new navigation and sub navigation page that your visitors are sent to, so that they are never confused as to what page they have landed on. Obviously <a class="aAlt8" href="http://flashden.net/user/FLASHdriven/portfolio">external links</a> are acceptable as well.</p>]]>
+		</articleText>
+	</article>
+	<!-- End of Article 13 -->
+	
+
+	
+
+</xmlObject>

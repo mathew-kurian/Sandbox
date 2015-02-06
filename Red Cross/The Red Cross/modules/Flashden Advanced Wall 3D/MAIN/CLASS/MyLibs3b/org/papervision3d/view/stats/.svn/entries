@@ -1,0 +1,52 @@
+8
+
+dir
+535
+http://papervision3d.googlecode.com/svn/trunk/branches/GreatWhite/src/org/papervision3d/view/stats
+http://papervision3d.googlecode.com/svn
+
+
+
+2008-03-19T23:06:33.526799Z
+475
+r.hauwert
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+071aa1e1-232a-0410-a790-59abb25ab4c3
+
+AbstractStatsView.as
+file
+
+
+
+
+2008-01-17T09:58:19.243742Z
+65e796f0e72af77b9c859915751ffc39
+2007-12-19T21:55:02.149225Z
+384
+r.hauwert
+
+StatsView.as
+file
+
+
+
+
+2008-03-26T08:40:52.459583Z
+59cc9326037ef9d499d0a17d3d00ebe9
+2008-03-19T23:06:33.526799Z
+475
+r.hauwert
+

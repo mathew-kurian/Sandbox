@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings
+	
+	width="590"
+	height="300"
+	
+	preloaderColor="0xffffff"
+	
+	textBackColor="0x000000"
+	textBackOpacity="50"
+	textSpeed="2"
+	
+	slideshowOn="true"
+	
+	nextButton="slideshow_assets/buttons/next.png"
+	prevButton="slideshow_assets/buttons/prev.png"
+	playButton="slideshow_assets/buttons/play.png"
+	pauseButton="slideshow_assets/buttons/pause.png"
+	
+>
+
+	<image src="imageHere.jpg" transition="2" kenBurns="130;100;MC;MC" time="5" url="http://www.flashden.net/" target="_blank"><![CDATA[ html here ]]></image>
+	
+</settings>

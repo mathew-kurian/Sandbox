@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings
+
+	totalWidth="650"
+
+	playerWidth="420"
+	playerHeight="300"
+
+	slideTime="5"
+	
+	titleBack="0x000000"
+	titleText="0xffffff"
+	navButtonsBack="0x000000"
+	navButtonsText="0xffffff"
+	
+	scrollbarBack="0x000000"
+	scrollbarHandle="0xf129b0"
+	
+	videoBack="0x000000"
+	videoButtons="0xffffff"
+	videoButtonsRoll="0xf129b0"
+	videoSeekBack="0xffffff"
+	videoSeekBuffered="0xfcd8f3"
+	videoSeekPlayed="0xf129b0"
+	videoSeekHandle="0x000000"
+	videoCurrentTime="0xffffff"
+	videoTotalTime="0xf129b0"
+
+>
+	<folio>
+	
+		<project>
+			<title><![CDATA[Photo/SWF Project]]></title>
+			<description><![CDATA[ html description ]]></description>
+			<assets type="photo">
+				<item src="photo.jpg" />
+				<item src="photo.jpg" />
+			</assets>
+		</project>
+		
+		
+		<project>
+			<title><![CDATA[Video Project]]></title>
+			<description><![CDATA[ html description ]]></description>
+			<assets type="video">
+				<item src="video.flv" />
+				<item src="video.flv" />
+			</assets>
+		</project>
+	
+	</folio>
+
+</settings>

@@ -1,0 +1,9 @@
+file: 01-Doc_Lena_Selyanina-Sleepless_in_Dresden.mp3
+credits: Doc & Lena Selyanina
+license: Creative Commons Attribution (CC-BY) http://creativecommons.org/licenses/by/2.0/deed.en
+url: http://www.jamendo.com/en/album/34105
+
+file: 01-The_Last_Days.mp3
+credits: DeE[J]LuX
+license: Creative Commons Attribution (CC-BY) http://creativecommons.org/licenses/by/2.0/deed.en
+url: http://www.jamendo.com/en/album/34806

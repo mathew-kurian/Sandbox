@@ -1,0 +1,41 @@
+<module>
+
+	<conf>
+		<levels>
+			<option name="0">Administrators</option>
+			<option name="1">Users</option>
+		</levels>
+
+		<protected>
+			<level_1 name="1">
+				<field name="user_login">true</field>
+				<field name="user_first_name">user_first_name</field>
+				<field name="user_last_name">user_last_name</field>
+				<field name="user_contact_phone2">user_contact_phone2</field>
+				<field name="user_contact_phone3">user_contact_phone3</field>
+			</level_1>
+		</protected>
+
+	</conf>
+
+	<tables>			
+<!--		<table name="messages">site_auth_messages</table>-->
+
+		<!-- we must kettp the table name site_users for compatibility w/ older modules -->
+		<table name="users">site_users</table>
+		<table name="core:user_modules">site_oxymall_core_modules_user</table>
+<!--		<table name="vars">site_auth_vars</table>-->
+	</tables>
+
+	<admin>
+		<templates>
+			<template name="403">403.htm</template>
+			<template name="mail">mail.htm</template>
+		</templates>
+
+	</admin>
+
+	<site>
+	</site>
+</module>
+

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	<topMargin>50</topMargin>
+	<bottomMargin>50</bottomMargin>
+	<!--
+		alignX Options 
+		The alignX is the distance from the left your page will start
+		Static X    				  eg.  <alignX>175</alignX>      		(this will make your content start 175 pixels from the left)
+		Left aligned X    	  eg.  <alignX>left</alignX>    		(this will make your content be left aligned)
+		Center aligned X      eg.  <alignX>center</alignX>  		(this will make your content be centered)
+		Right aligned X    	  eg.  <alignX>right</alignX>				(this will make your content be right aligned)
+	-->
+	<alignX>center</alignX><!--Horizontal Alignment-->
+	<!--
+		alignY Options 
+		The alignY is the distance from the top your page will start
+		Static Y    				  eg.  <alignY>175</alignY>      		(this will make your content start 175 pixels from the top)
+		Top aligned Y    	  	eg.  <alignY>top</alignY>     		(this will make your content be aligned vertically under the topMargin)
+		Bottom aligned Y      eg.  <alignY>bottom<alignY>   		(this will make your content be aligned vertically and sit on the bottomMargin)
+		Center aligned Y    	eg.  <alignY>center<alignY>				(this will make your content be aligned vertically between the topMargin and bottomMargin)
+	-->
+	<alignY>center</alignY><!-- Vertical Alignment-->
+	
+	
+	<!--Set your content pages width / height / color and opacity here -->
+	<contentWidth>933</contentWidth>
+	<contentHeight>569</contentHeight>
+	<contentBgColor>0x0c0c0c</contentBgColor>
+	<contentBgOpacity>1</contentBgOpacity>
+	
+	<!-- Select the type of scrolling to use -->
+	<useHoverScroll>true</useHoverScroll>
+	<useManualScroll>false</useManualScroll>
+	
+	
+	<!-- Skin Your Scroll Bar Features  *these settings apply if useManualScroll is true and useHoverScroll is false-->
+	<scrollBarWidth>15</scrollBarWidth>
+	<scrollBarHeight>200</scrollBarHeight>
+	<scrollBaseColor>0x000000</scrollBaseColor>
+	<addTiledPatternToScrollBase>true</addTiledPatternToScrollBase>
+	<patternUrl>site_images/patterns/edgePattern.png</patternUrl>
+	<scrollBaseOpacity>.67</scrollBaseOpacity>
+	<scrollerColor>0xcfcfcf</scrollerColor>
+	<scrollerOpacity>1</scrollerOpacity>
+	<!-- End of Scroll Bar Features -->
+	
+	
+	<!-- Used for pop up content -->
+	<dimWallPaperColor>0xffffff</dimWallPaperColor>
+	<dimWallPaperAlpha>.85</dimWallPaperAlpha>
+	<!-- set the size of the font used in the image preloader -->
+	<preloaderTextSize>140</preloaderTextSize>
+	<!-- set the color of the font used in the image preloader -->
+	<preloaderTextColor>0x000000</preloaderTextColor>
+	<!-- set the opacity of the font used in the image preloader -->
+	<preloaderTextOpacity>1</preloaderTextOpacity>
+
+
+
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>true</displayHtmlArticles>
+	<displaySlideShow>false</displaySlideShow>
+	<displaySWF>false</displaySWF>
+	
+	
+	<image>
+		<x>40</x>
+		<y>40</y>
+		<imageURL>site_images/pages/about/about_20.png</imageURL>
+	</image>
+	<image>
+		<x>440</x>
+		<y>58</y>
+		<imageURL>site_images/pages/about/about_39.gif</imageURL>
+	</image>
+	<image>
+		<x>40</x>
+		<y>100</y>
+		<imageURL>site_images/pages/about/about_43.png</imageURL>
+	</image>
+	<article>
+		<x>40</x>
+		<y>191</y>
+		<width>325</width>
+		<articleText><![CDATA[<p class="leading3">One of the biggest advantages of this template is the ability to customize almost everything from XML.  You can  choose on each and every page to use a tiled background image, a full size background image, a swf background, or a video background, you even have the option to use a tiled semi-transparent overlay on any of these background types, which gives your site a nice edgy look to it.  And just in-case your swf or video background has audio, you also have the option from XML to mute the audio player on each and every page.  If the user hits a page where you do not want audio to play, the audio is automatically faded out smoothly. Or if you don't want your site to have audio at all you can disable it's inclusion right from XML! You also now have the ability to left - center - or right align your logo from XML or give it a static X position.  The same goes for the header and footer, you can declare your header size and left align it, center align it, right align it, or give it a static X position. </p>]]></articleText>
+	</article>
+	<image>
+		<x>749</x>
+		<y>494</y>
+		<imageURL>site_images/pages/about/about_67.png</imageURL>
+	</image>
+
+</xmlObject>

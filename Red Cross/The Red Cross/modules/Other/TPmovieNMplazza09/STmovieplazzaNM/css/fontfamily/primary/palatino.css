@@ -1,0 +1,14 @@
+ /* 
+=================================================
+# Filename : palatino.css
+# Description : Font Family Css rules 
+# Author : TemplatePlazza
+# Author Url : http://www.templateplazza.com
+# Copyright (C) 2009 TemplatePlazza.com
+# All rights reserved.
+=================================================
+*/
+ td,p,div,tr{
+	font-family:Palatino,"Palatino Linotype",Palladio,"URW Palladio L","Book Antiqua","Liberation Serif",Times,serif;
+	line-height:160%;
+	}

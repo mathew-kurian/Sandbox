@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/Bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bold" android:onClick="onClick" android:textSize="11dp"/>
+
+        <Button
+            android:id="@+id/Italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Italic" android:onClick="onClick" android:textSize="11dp"/>
+
+        <Button
+            android:id="@+id/Underline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Underline" android:onClick="onClick" android:textSize="11dp"/>
+
+        <Button
+            android:id="@+id/Bold_italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bold Italic" android:onClick="onClick" android:textSize="11dp"/>
+
+        <Button
+            android:id="@+id/Normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Normal" android:onClick="onClick" android:textSize="11dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/Bullet1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+Bullet" android:onClick="onClick" android:textSize="11dp"/>
+
+        <Button
+            android:id="@+id/Bullet2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-Bullet" android:onClick="onClick" android:textSize="11dp"/>
+
+        <Button
+            android:id="@+id/Tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tab" android:onClick="onClick" android:textSize="11dp"/>
+
+        <Button
+            android:id="@+id/Margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Margin" android:onClick="onClick" android:textSize="11dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/Increase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A+" android:onClick="onClick" android:textSize="11dp"/>
+
+        <Button
+            android:id="@+id/Decrease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A-" android:onClick="onClick" android:textSize="11dp"/>
+
+        <SeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal" />
+
+        <Button
+            android:id="@+id/AddStar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Add Star"
+            android:textSize="9dp" />
+        <Button
+            android:id="@+id/ShowHtml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Show HTML"
+            android:textSize="9dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/HighlightRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red Highlight" android:onClick="onClick" android:textSize="9dp"/>
+
+        <Button
+            android:id="@+id/HighlightRemove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remove Highlight" android:onClick="onClick" android:textSize="9dp"/>
+
+        <Button
+            android:id="@+id/TextWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="White Text" android:onClick="onClick" android:textSize="9dp"/>
+
+        <Button
+            android:id="@+id/TextBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Black Text" android:onClick="onClick" android:textSize="9dp"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <tiffany.wordeditor.WordEditor
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:minLines="25"
+            android:gravity="top"
+            android:bufferType="spannable"/>
+
+    </FrameLayout>
+
+</LinearLayout>

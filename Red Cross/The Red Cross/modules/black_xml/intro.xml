@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<introData>
+
+<lgimage path = "images/intro/blonde_girl.jpg"><![CDATA[<font color = "#ffff00">XML Intro Description Header</font><br><font color = "#ffffff">Set a description for the splash page in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.</font>]]></lgimage>
+
+<header><![CDATA[<font color = "#ffffff">Black V2 XML Flash Template</font>]]></header>
+
+<subheader><![CDATA[<font color = "#111111">Complete xml solution template</font>]]></subheader>
+
+</introData>

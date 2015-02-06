@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/526/trunk/branches/GreatWhite/src/org/papervision3d/materials/shaders
+END
+EnvMapShader.as
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/materials/shaders/EnvMapShader.as
+END
+FlatShader.as
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/354/trunk/branches/GreatWhite/src/org/papervision3d/materials/shaders/FlatShader.as
+END
+GouraudShader.as
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/354/trunk/branches/GreatWhite/src/org/papervision3d/materials/shaders/GouraudShader.as
+END
+LightShader.as
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/materials/shaders/LightShader.as
+END
+IShader.as
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/materials/shaders/IShader.as
+END
+ShaderCompositeModes.as
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/materials/shaders/ShaderCompositeModes.as
+END
+PhongShader.as
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/materials/shaders/PhongShader.as
+END
+CellShader.as
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/materials/shaders/CellShader.as
+END
+Shader.as
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/materials/shaders/Shader.as
+END
+ILightShader.as
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/materials/shaders/ILightShader.as
+END
+ShadedMaterial.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/526/trunk/branches/GreatWhite/src/org/papervision3d/materials/shaders/ShadedMaterial.as
+END

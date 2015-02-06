@@ -1,0 +1,53 @@
+<form>
+	<title>{TITLE} Resumes</title>
+	<action>{SELF.FILE}</action>
+	<name>edit</name>
+	<width>100%</width>
+	<method>get</method>
+
+	<formtag>true</formtag>
+	<border>true</border>
+	<alternance>true</alternance>
+	
+	
+	<buttons>		
+		<set>
+			<header>true</header>
+		</set>
+
+	</buttons>
+
+	<redirect>index.php?sub=units</redirect>
+
+	<tabs>
+		<t width="100" title="Module Settings" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.user&action=details&mod_id={MODULE_ID}" restricted="eval:$GLOBALS[_USER]['user_level'];"/>
+		<t0 width="80" title="Jobs" link="index.php?mod=oxymall&sub=oxymall.plugin.jobs.landing&module_id={MODULE_ID}&returnurl={SELF.PREVIOUS_ENC}" />
+		<t1 active="true" width="80" title="Resumes" link="index.php?mod=oxymall&sub=oxymall.plugin.jobs.resumes&module_id={MODULE_ID}&returnurl={SELF.PREVIOUS_ENC}" />
+		<t_video width="80" title="Video Tutorial" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.help&module_id={MODULE_ID}" restricted="eval:$GLOBALS['no_tutorials'];"/>
+	</tabs>
+
+	<fields>
+
+		<mod type="hidden" default="$_GET['mod']" action="eval"/>
+		<sub type="hidden" default="$_GET['sub']" action="eval"/>
+		<module_id type="hidden" default="$_GET['module_id']" action="eval"/>
+		<advanced type="hidden" default="0" />
+	</fields>
+
+	<search>
+			<fields>
+
+				<resume_job title="Job" type="droplist" empty="true" onchange="document.forms[0].submit();">
+					<relation table="plugin:jobs_items" id="item_id" text="item_title" order="item_title">
+						<condition eval="true" import=" ' module_id=' . $_GET[module_id] . '';"/>
+					</relation>
+				</resume_job>
+
+			</fields>
+
+			<sql_fields>
+				<field name="resume_job">=</field>			
+			</sql_fields>
+
+	</search>
+</form>

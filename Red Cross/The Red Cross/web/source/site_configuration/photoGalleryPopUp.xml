@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Album1>
+		
+	<gallery>
+		
+		<!-- CONFIGURATION OPTIONS -->
+		
+				<!-- choose if you want to include tooltips when you hover over thumbnails -->
+				<showThumbToolTips>true</showThumbToolTips>
+				
+				<!-- set the top margin for your photo gallery -->
+				<topMargin>75</topMargin>
+				
+				<!-- set the bottom margin for your photo gallery -->
+				<bottomMargin>0</bottomMargin>
+				
+				<!-- set the border width you would like to surround your large images -->
+				<imageBorderWidth>0</imageBorderWidth>
+				
+				<!-- set the color of the rectangle under your large images -->
+				<imageBorderColor>0x0c0c0c</imageBorderColor>
+				
+				<!-- set the opacity of the rectangle under your large images -->
+				<imageBorderOpacity>1</imageBorderOpacity>
+				
+				<!-- set the size of the font used in the image preloader -->
+				<preloaderTextSize>140</preloaderTextSize>
+				
+				<!-- set the color of the font used in the image preloader -->
+				<preloaderTextColor>0xC20800</preloaderTextColor>
+				
+				<!-- set the opacity of the font used in the image preloader -->
+				<preloaderTextOpacity>1</preloaderTextOpacity>
+				
+				<!-- set the color and opacity for your forward and reverse buttons -->
+				<frwdRevBtnColor>0x0c0c0c</frwdRevBtnColor>
+				<frwdRevBtnOpacity>1</frwdRevBtnOpacity>
+				<frwdRevArrowColor>0xC20800</frwdRevArrowColor>
+				
+				<!-- set the color and opacity for your fullscreen image button -->
+				<fsBtnColor>0x0c0c0c</fsBtnColor>
+				<fsBtnOpacity>1</fsBtnOpacity>
+				<fsIconColor>0xC20800</fsIconColor>
+				
+				<!-- set the color and opacity for your image info button -->
+				<infoBtnColor>0x0c0c0c</infoBtnColor>
+				<infoIconColor>0xC20800</infoIconColor>
+				<infoBtnOpacity>1</infoBtnOpacity>
+				
+				<!-- Choose the scroll type for your information pop-up -->
+				<useHoverScroll>true</useHoverScroll>
+				<useManualScroll>false</useManualScroll>
+				
+				<!-- 	These settings apply 
+							if useManualScroll is true 
+							and useHoverScroll is false   -->
+					<scrollBarWidth>19</scrollBarWidth>
+					<scrollBarHeight>200</scrollBarHeight>
+					<scrollBaseColor>0xffffff</scrollBaseColor>
+					<addTiledPatternToScrollBase>false</addTiledPatternToScrollBase>
+					<patternUrl>site_images/patterns/edgePattern.png</patternUrl>
+					<scrollBaseOpacity>1</scrollBaseOpacity>
+					<scrollerColor>0x0c0c0c</scrollerColor>
+					<scrollerOpacity>1</scrollerOpacity>
+					
+				<!-- set the color, opacity, and text color for your thumbnail tooltips-->
+				<!-- these tooltip settings will be ignored if <showThumbToolTips> is set to false-->
+				<tooltipColor>0x0c0c0c</tooltipColor>
+				<tooltipOpacity>1</tooltipOpacity>
+				<tooltipTextColor>0xC20800</tooltipTextColor>
+				<!-- set the color and opacity that is used when your screen is dimmed -->
+				<dimBgColor>0x000000</dimBgColor>
+				<dimBgOpacity>.85</dimBgOpacity>
+				<!-- point this tag to an image url for a close button -->
+				<closeBtnImageUrl>site_images/pages/photoGallery/infoCloseBtn.gif</closeBtnImageUrl>
+		
+		
+		
+		<!-- CONFIGURATION OPTIONS END -->
+
+		
+		
+		
+		<!-- IMAGE #1-->
+		<image>
+			<ThumbUrl>site_images/pages/photoGallery/06_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/pages/photoGallery/06_full.jpg</ImageUrl>
+			<thumbCaption>Set tooltip color from XML</thumbCaption>
+			<addFullScreenButton>true</addFullScreenButton>
+			<addImageInfo>true</addImageInfo>
+							<infoPopUp>
+								<!-- set the width of your information pop up -->
+								<width>440</width>
+								<!-- set the height of your information pop up -->
+								<height>1500</height>
+								<!-- set the color of your information pop up -->
+								<bgClr>0xFFFFFF</bgClr>
+								<!-- set the opacity of your information pop up -->
+								<bgOpac>1</bgOpac>
+								<!-- Set addImages to true if you would like to include image in your info pop up -->
+								<addImages>true</addImages>
+								<!-- Set addHtml to true if you would like to include html text blocks to your info pop up -->
+								<addHtml>true</addHtml>
+					
+								<!--IMAGE TAGS FOR PHOTO INFO POPUP -->
+								<image>
+									<x>37</x>
+									<y>27</y>
+									<imageURL>site_images/pages/photoGallery/infoTitle.png</imageURL>
+								</image>
+								<image>
+									<x>36</x>
+									<y>131</y>
+									<imageURL>site_images/pages/photoGallery/infoSubTitle.png</imageURL>
+								</image>
+								<image>
+									<x>42</x>
+									<y>199</y>
+									<imageURL>site_images/pages/photoGallery/infoThirdTitle.png</imageURL>
+								</image>
+								
+								<!--HTML TEXT BLOCKS FOR PHOTO INFO POPUP -->
+								<textBlock>
+									<x>41</x>
+									<y>250</y>
+									<width>520</width>
+									<articleText>
+<![CDATA[
+<h4>&lt;!-- choose if you want to include tooltips when you hover over thumbnails --&gt;</h4>
+<h3>&lt;showThumbToolTips&gt;true&lt;/showThumbToolTips&gt;</h3>
+<h4>&lt;!-- set the top margin for your photo gallery --&gt;</h4>
+<h3>&lt;topMargin&gt;130&lt;/topMargin&gt;</h3>
+<h4>&lt;!-- set the bottom margin for your photo gallery --&gt;</h4>
+<h3>&lt;bottomMargin&gt;2&lt;/bottomMargin&gt;</h3>
+<h4>&lt;!-- set the border width you would like to surround your large images --&gt;</h4>
+<h3>&lt;imageBorderWidth&gt;0&lt;/imageBorderWidth&gt;</h3>
+<h4>&lt;!-- set the color of the rectangle under your large images --&gt;</h4>
+<h3>&lt;imageBorderColor&gt;0x0C0C0C&lt;/imageBorderColor&gt;</h3>
+<h4>&lt;!-- set the opacity of the rectangle under your large images --&gt;</h4>
+<h3>&lt;imageBorderOpacity&gt;1&lt;/imageBorderOpacity&gt;</h3>
+<h4>&lt;!-- set the size of the font used in the image preloader --&gt;</h4>
+<h3>&lt;preloaderTextSize&gt;140&lt;/preloaderTextSize&gt;</h3>
+<h4>&lt;!-- set the color of the font used in the image preloader --&gt;</h4>
+<h3>&lt;preloaderTextColor&gt;0x00b7dc&lt;/preloaderTextColor&gt;</h3>
+<h4>&lt;!-- set the opacity of the font used in the image preloader --&gt;</h4>
+<h3>&lt;preloaderTextOpacity&gt;1&lt;/preloaderTextOpacity&gt;</h3>
+<h4>&lt;!-- set the color and opacity for your forward and reverse buttons --&gt;</h4>
+<h3>&lt;frwdRevBtnColor&gt;0x0C0C0C&lt;/frwdRevBtnColor&gt;</h3>
+<h3>&lt;frwdRevBtnOpacity&gt;1&lt;/frwdRevBtnOpacity&gt;</h3>
+<h3>&lt;frwdRevArrowColor&gt;0x00b7dc&lt;/frwdRevArrowColor&gt;</h3>
+<h4>&lt;!-- set the color and opacity for your fullscreen image button --&gt;</h4>
+<h3>&lt;fsBtnColor&gt;0x0C0C0C&lt;/fsBtnColor&gt;</h3>
+<h3>&lt;fsBtnOpacity&gt;1&lt;/fsBtnOpacity&gt;</h3>
+<h3>&lt;fsIconColor&gt;0x00b7dc&lt;/fsIconColor&gt;</h3>
+<h4>&lt;!-- set the color and opacity for your image info button --&gt;</h4>
+<h3>&lt;infoBtnColor&gt;0x0C0C0C&lt;/infoBtnColor&gt;</h3>
+<h3>&lt;infoIconColor&gt;0x00b7dc&lt;/infoIconColor&gt;</h3>
+<h3>&lt;infoBtnOpacity&gt;1&lt;/infoBtnOpacity&gt;</h3>
+<h4>&lt;!-- Choose the scroll type for your information pop-up --&gt;</h4>
+<h3>&lt;useHoverScroll&gt;false&lt;/useHoverScroll&gt;</h3>
+<h3>&lt;useManualScroll&gt;true&lt;/useManualScroll&gt;</h3>
+<h4>&lt;!-- 	These settings apply if useManualScroll is true and useHoverScroll is false   --&gt;</h4>
+<h3>&lt;scrollBarWidth&gt;19&lt;/scrollBarWidth&gt;</h3>
+<h3>&lt;scrollBarHeight&gt;200&lt;/scrollBarHeight&gt;</h3>
+<h3>&lt;scrollBaseColor&gt;0xffffff&lt;/scrollBaseColor&gt;</h3>
+<h3>&lt;addTiledPatternToScrollBase&gt;true&lt;/addTiledPatternToScrollBase&gt;</h3>
+<h3>&lt;patternUrl&gt;site_images/CM_scrollPattern.gif&lt;/patternUrl&gt;</h3>
+<h3>&lt;scrollBaseOpacity&gt;1&lt;/scrollBaseOpacity&gt;</h3>
+<h3>&lt;scrollerColor&gt;0x0C0C0C&lt;/scrollerColor&gt;</h3>
+<h3>&lt;scrollerOpacity&gt;1&lt;/scrollerOpacity&gt;</h3>
+<h4>&lt;!-- set the color, opacity, and text color for your thumbnail tooltips--&gt;</h4>
+<h4>&lt;!-- these tooltip settings will be ignored if &lt;showThumbToolTips&gt; is set to false--&gt;</h4>
+<h3>&lt;tooltipColor&gt;0x0C0C0C&lt;/tooltipColor&gt;</h3>
+<h3>&lt;tooltipOpacity&gt;1&lt;/tooltipOpacity&gt;</h3>
+<h3>&lt;tooltipTextColor&gt;0x00b7dc&lt;/tooltipTextColor&gt;</h3>
+<h4>&lt;!-- set the color and opacity that is used when your screen is dimmed --&gt;</h4>
+<h3>&lt;dimBgColor&gt;0xFFFFFF&lt;/dimBgColor&gt;</h3>
+<h3>&lt;dimBgOpacity&gt;.85&lt;/dimBgOpacity&gt;</h3>
+<h4>&lt;!-- point this tag to an image url for a close button --&gt;</h4>
+<h3>&lt;closeBtnImageUrl&gt;site_images/infoCloseBtn.gif&lt;/closeBtnImageUrl&gt;</h3>
+]]>
+									</articleText>
+								</textBlock>
+							</infoPopUp>
+		</image>
+		
+		
+		<!-- IMAGE #2-->
+		<image>
+			<ThumbUrl>site_images/pages/photoGallery/08_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/pages/photoGallery/08_full.jpg</ImageUrl>
+			<addImageInfo>false</addImageInfo>
+			<thumbCaption>Tooltips Dynamicall Resize Based on text</thumbCaption>
+			<addFullScreenButton>false</addFullScreenButton>
+		</image>
+		
+
+		<!-- IMAGE #3-->
+		<image>
+			<ThumbUrl>site_images/pages/photoGallery/01_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/pages/photoGallery/01_full.jpg</ImageUrl>
+			<thumbCaption>optional supersize view</thumbCaption>
+			<addFullScreenButton>true</addFullScreenButton>
+			<addImageInfo>true</addImageInfo>
+							<infoPopUp>
+								<!-- set the width of your information pop up -->
+								<width>440</width>
+								<!-- set the height of your information pop up -->
+								<height>1500</height>
+								<!-- set the color of your information pop up -->
+								<bgClr>0xFFFFFF</bgClr>
+								<!-- set the opacity of your information pop up -->
+								<bgOpac>1</bgOpac>
+								<!-- Set addImages to true if you would like to include image in your info pop up -->
+								<addImages>true</addImages>
+								<!-- Set addHtml to true if you would like to include html text blocks to your info pop up -->
+								<addHtml>true</addHtml>
+					
+								<!--IMAGE TAGS FOR PHOTO INFO POPUP -->
+								<image>
+									<x>37</x>
+									<y>27</y>
+									<imageURL>site_images/pages/photoGallery/infoTitle.png</imageURL>
+								</image>
+								<image>
+									<x>36</x>
+									<y>131</y>
+									<imageURL>site_images/pages/photoGallery/infoSubTitle.png</imageURL>
+								</image>
+								<image>
+									<x>42</x>
+									<y>199</y>
+									<imageURL>site_images/pages/photoGallery/infoThirdTitle.png</imageURL>
+								</image>
+								
+								<!--HTML TEXT BLOCKS FOR PHOTO INFO POPUP -->
+								<textBlock>
+									<x>41</x>
+									<y>250</y>
+									<width>520</width>
+									<articleText>
+<![CDATA[
+<h4>&lt;!-- choose if you want to include tooltips when you hover over thumbnails --&gt;</h4>
+<h3>&lt;showThumbToolTips&gt;true&lt;/showThumbToolTips&gt;</h3>
+<h4>&lt;!-- set the top margin for your photo gallery --&gt;</h4>
+<h3>&lt;topMargin&gt;130&lt;/topMargin&gt;</h3>
+<h4>&lt;!-- set the bottom margin for your photo gallery --&gt;</h4>
+<h3>&lt;bottomMargin&gt;2&lt;/bottomMargin&gt;</h3>
+<h4>&lt;!-- set the border width you would like to surround your large images --&gt;</h4>
+<h3>&lt;imageBorderWidth&gt;0&lt;/imageBorderWidth&gt;</h3>
+<h4>&lt;!-- set the color of the rectangle under your large images --&gt;</h4>
+<h3>&lt;imageBorderColor&gt;0x0C0C0C&lt;/imageBorderColor&gt;</h3>
+<h4>&lt;!-- set the opacity of the rectangle under your large images --&gt;</h4>
+<h3>&lt;imageBorderOpacity&gt;1&lt;/imageBorderOpacity&gt;</h3>
+<h4>&lt;!-- set the size of the font used in the image preloader --&gt;</h4>
+<h3>&lt;preloaderTextSize&gt;140&lt;/preloaderTextSize&gt;</h3>
+<h4>&lt;!-- set the color of the font used in the image preloader --&gt;</h4>
+<h3>&lt;preloaderTextColor&gt;0x00b7dc&lt;/preloaderTextColor&gt;</h3>
+<h4>&lt;!-- set the opacity of the font used in the image preloader --&gt;</h4>
+<h3>&lt;preloaderTextOpacity&gt;1&lt;/preloaderTextOpacity&gt;</h3>
+<h4>&lt;!-- set the color and opacity for your forward and reverse buttons --&gt;</h4>
+<h3>&lt;frwdRevBtnColor&gt;0x0C0C0C&lt;/frwdRevBtnColor&gt;</h3>
+<h3>&lt;frwdRevBtnOpacity&gt;1&lt;/frwdRevBtnOpacity&gt;</h3>
+<h3>&lt;frwdRevArrowColor&gt;0x00b7dc&lt;/frwdRevArrowColor&gt;</h3>
+<h4>&lt;!-- set the color and opacity for your fullscreen image button --&gt;</h4>
+<h3>&lt;fsBtnColor&gt;0x0C0C0C&lt;/fsBtnColor&gt;</h3>
+<h3>&lt;fsBtnOpacity&gt;1&lt;/fsBtnOpacity&gt;</h3>
+<h3>&lt;fsIconColor&gt;0x00b7dc&lt;/fsIconColor&gt;</h3>
+<h4>&lt;!-- set the color and opacity for your image info button --&gt;</h4>
+<h3>&lt;infoBtnColor&gt;0x0C0C0C&lt;/infoBtnColor&gt;</h3>
+<h3>&lt;infoIconColor&gt;0x00b7dc&lt;/infoIconColor&gt;</h3>
+<h3>&lt;infoBtnOpacity&gt;1&lt;/infoBtnOpacity&gt;</h3>
+<h4>&lt;!-- Choose the scroll type for your information pop-up --&gt;</h4>
+<h3>&lt;useHoverScroll&gt;false&lt;/useHoverScroll&gt;</h3>
+<h3>&lt;useManualScroll&gt;true&lt;/useManualScroll&gt;</h3>
+<h4>&lt;!-- 	These settings apply if useManualScroll is true and useHoverScroll is false   --&gt;</h4>
+<h3>&lt;scrollBarWidth&gt;19&lt;/scrollBarWidth&gt;</h3>
+<h3>&lt;scrollBarHeight&gt;200&lt;/scrollBarHeight&gt;</h3>
+<h3>&lt;scrollBaseColor&gt;0xffffff&lt;/scrollBaseColor&gt;</h3>
+<h3>&lt;addTiledPatternToScrollBase&gt;true&lt;/addTiledPatternToScrollBase&gt;</h3>
+<h3>&lt;patternUrl&gt;site_images/CM_scrollPattern.gif&lt;/patternUrl&gt;</h3>
+<h3>&lt;scrollBaseOpacity&gt;1&lt;/scrollBaseOpacity&gt;</h3>
+<h3>&lt;scrollerColor&gt;0x0C0C0C&lt;/scrollerColor&gt;</h3>
+<h3>&lt;scrollerOpacity&gt;1&lt;/scrollerOpacity&gt;</h3>
+<h4>&lt;!-- set the color, opacity, and text color for your thumbnail tooltips--&gt;</h4>
+<h4>&lt;!-- these tooltip settings will be ignored if &lt;showThumbToolTips&gt; is set to false--&gt;</h4>
+<h3>&lt;tooltipColor&gt;0x0C0C0C&lt;/tooltipColor&gt;</h3>
+<h3>&lt;tooltipOpacity&gt;1&lt;/tooltipOpacity&gt;</h3>
+<h3>&lt;tooltipTextColor&gt;0x00b7dc&lt;/tooltipTextColor&gt;</h3>
+<h4>&lt;!-- set the color and opacity that is used when your screen is dimmed --&gt;</h4>
+<h3>&lt;dimBgColor&gt;0xFFFFFF&lt;/dimBgColor&gt;</h3>
+<h3>&lt;dimBgOpacity&gt;.85&lt;/dimBgOpacity&gt;</h3>
+<h4>&lt;!-- point this tag to an image url for a close button --&gt;</h4>
+<h3>&lt;closeBtnImageUrl&gt;site_images/infoCloseBtn.gif&lt;/closeBtnImageUrl&gt;</h3>
+]]>
+									</articleText>
+								</textBlock>
+							</infoPopUp>
+		</image>
+		
+
+		
+		<!-- IMAGE #4-->
+		<image>
+			<ThumbUrl>site_images/pages/photoGallery/03_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/pages/photoGallery/03_full.jpg</ImageUrl>
+			<thumbCaption>30 plus xml options</thumbCaption>
+			<addFullScreenButton>true</addFullScreenButton>
+						<addImageInfo>true</addImageInfo>
+						<!-- All of the settings inbetween the <infoPopUp></infoPopUp> tags specify
+					 	the settings for the information pop up window if addImageInfo above is set to true -->
+							<infoPopUp>
+								<!-- set the width of your information pop up -->
+								<width>440</width>
+								<!-- set the height of your information pop up -->
+								<height>1500</height>
+								<!-- set the color of your information pop up -->
+								<bgClr>0xFFFFFF</bgClr>
+								<!-- set the opacity of your information pop up -->
+								<bgOpac>1</bgOpac>
+								<!-- Set addImages to true if you would like to include image in your info pop up -->
+								<addImages>true</addImages>
+								<!-- Set addHtml to true if you would like to include html text blocks to your info pop up -->
+								<addHtml>true</addHtml>
+					
+								<!--IMAGE TAGS FOR PHOTO INFO POPUP -->
+								<image>
+									<x>37</x>
+									<y>27</y>
+									<imageURL>site_images/pages/photoGallery/infoTitle.png</imageURL>
+								</image>
+								<image>
+									<x>36</x>
+									<y>131</y>
+									<imageURL>site_images/pages/photoGallery/infoSubTitle.png</imageURL>
+								</image>
+								<image>
+									<x>42</x>
+									<y>199</y>
+									<imageURL>site_images/pages/photoGallery/infoThirdTitle.png</imageURL>
+								</image>
+								
+								<!--HTML TEXT BLOCKS FOR PHOTO INFO POPUP -->
+								<textBlock>
+									<x>41</x>
+									<y>250</y>
+									<width>520</width>
+									<articleText>
+<![CDATA[
+<h4>&lt;!-- choose if you want to include tooltips when you hover over thumbnails --&gt;</h4>
+<h3>&lt;showThumbToolTips&gt;true&lt;/showThumbToolTips&gt;</h3>
+<h4>&lt;!-- set the top margin for your photo gallery --&gt;</h4>
+<h3>&lt;topMargin&gt;130&lt;/topMargin&gt;</h3>
+<h4>&lt;!-- set the bottom margin for your photo gallery --&gt;</h4>
+<h3>&lt;bottomMargin&gt;2&lt;/bottomMargin&gt;</h3>
+<h4>&lt;!-- set the border width you would like to surround your large images --&gt;</h4>
+<h3>&lt;imageBorderWidth&gt;0&lt;/imageBorderWidth&gt;</h3>
+<h4>&lt;!-- set the color of the rectangle under your large images --&gt;</h4>
+<h3>&lt;imageBorderColor&gt;0x0C0C0C&lt;/imageBorderColor&gt;</h3>
+<h4>&lt;!-- set the opacity of the rectangle under your large images --&gt;</h4>
+<h3>&lt;imageBorderOpacity&gt;1&lt;/imageBorderOpacity&gt;</h3>
+<h4>&lt;!-- set the size of the font used in the image preloader --&gt;</h4>
+<h3>&lt;preloaderTextSize&gt;140&lt;/preloaderTextSize&gt;</h3>
+<h4>&lt;!-- set the color of the font used in the image preloader --&gt;</h4>
+<h3>&lt;preloaderTextColor&gt;0x00b7dc&lt;/preloaderTextColor&gt;</h3>
+<h4>&lt;!-- set the opacity of the font used in the image preloader --&gt;</h4>
+<h3>&lt;preloaderTextOpacity&gt;1&lt;/preloaderTextOpacity&gt;</h3>
+<h4>&lt;!-- set the color and opacity for your forward and reverse buttons --&gt;</h4>
+<h3>&lt;frwdRevBtnColor&gt;0x0C0C0C&lt;/frwdRevBtnColor&gt;</h3>
+<h3>&lt;frwdRevBtnOpacity&gt;1&lt;/frwdRevBtnOpacity&gt;</h3>
+<h3>&lt;frwdRevArrowColor&gt;0x00b7dc&lt;/frwdRevArrowColor&gt;</h3>
+<h4>&lt;!-- set the color and opacity for your fullscreen image button --&gt;</h4>
+<h3>&lt;fsBtnColor&gt;0x0C0C0C&lt;/fsBtnColor&gt;</h3>
+<h3>&lt;fsBtnOpacity&gt;1&lt;/fsBtnOpacity&gt;</h3>
+<h3>&lt;fsIconColor&gt;0x00b7dc&lt;/fsIconColor&gt;</h3>
+<h4>&lt;!-- set the color and opacity for your image info button --&gt;</h4>
+<h3>&lt;infoBtnColor&gt;0x0C0C0C&lt;/infoBtnColor&gt;</h3>
+<h3>&lt;infoIconColor&gt;0x00b7dc&lt;/infoIconColor&gt;</h3>
+<h3>&lt;infoBtnOpacity&gt;1&lt;/infoBtnOpacity&gt;</h3>
+<h4>&lt;!-- Choose the scroll type for your information pop-up --&gt;</h4>
+<h3>&lt;useHoverScroll&gt;false&lt;/useHoverScroll&gt;</h3>
+<h3>&lt;useManualScroll&gt;true&lt;/useManualScroll&gt;</h3>
+<h4>&lt;!-- 	These settings apply if useManualScroll is true and useHoverScroll is false   --&gt;</h4>
+<h3>&lt;scrollBarWidth&gt;19&lt;/scrollBarWidth&gt;</h3>
+<h3>&lt;scrollBarHeight&gt;200&lt;/scrollBarHeight&gt;</h3>
+<h3>&lt;scrollBaseColor&gt;0xffffff&lt;/scrollBaseColor&gt;</h3>
+<h3>&lt;addTiledPatternToScrollBase&gt;true&lt;/addTiledPatternToScrollBase&gt;</h3>
+<h3>&lt;patternUrl&gt;site_images/CM_scrollPattern.gif&lt;/patternUrl&gt;</h3>
+<h3>&lt;scrollBaseOpacity&gt;1&lt;/scrollBaseOpacity&gt;</h3>
+<h3>&lt;scrollerColor&gt;0x0C0C0C&lt;/scrollerColor&gt;</h3>
+<h3>&lt;scrollerOpacity&gt;1&lt;/scrollerOpacity&gt;</h3>
+<h4>&lt;!-- set the color, opacity, and text color for your thumbnail tooltips--&gt;</h4>
+<h4>&lt;!-- these tooltip settings will be ignored if &lt;showThumbToolTips&gt; is set to false--&gt;</h4>
+<h3>&lt;tooltipColor&gt;0x0C0C0C&lt;/tooltipColor&gt;</h3>
+<h3>&lt;tooltipOpacity&gt;1&lt;/tooltipOpacity&gt;</h3>
+<h3>&lt;tooltipTextColor&gt;0x00b7dc&lt;/tooltipTextColor&gt;</h3>
+<h4>&lt;!-- set the color and opacity that is used when your screen is dimmed --&gt;</h4>
+<h3>&lt;dimBgColor&gt;0xFFFFFF&lt;/dimBgColor&gt;</h3>
+<h3>&lt;dimBgOpacity&gt;.85&lt;/dimBgOpacity&gt;</h3>
+<h4>&lt;!-- point this tag to an image url for a close button --&gt;</h4>
+<h3>&lt;closeBtnImageUrl&gt;site_images/infoCloseBtn.gif&lt;/closeBtnImageUrl&gt;</h3>
+]]>
+									</articleText>
+								</textBlock>
+							</infoPopUp>
+		</image>
+		
+		<!-- IMAGE #5-->
+		<image>
+			<ThumbUrl>site_images/pages/photoGallery/10_thumb.jpg</ThumbUrl>
+			<ImageUrl>site_images/pages/photoGallery/10_full.jpg</ImageUrl>
+			<thumbCaption>optional supersize view</thumbCaption>
+			<addFullScreenButton>true</addFullScreenButton>
+			<addImageInfo>false</addImageInfo>
+		</image>
+
+	</gallery>
+</Album1>

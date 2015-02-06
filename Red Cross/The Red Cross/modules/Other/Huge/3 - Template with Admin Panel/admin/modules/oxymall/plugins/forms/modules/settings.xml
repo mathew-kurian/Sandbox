@@ -1,0 +1,86 @@
+<form>
+	<title>Global Settings</title>
+	<action>{SELF.LINK}action=store</action>
+	<name>edit</name>
+	<width>100%</width>
+	<alternance>true</alternance>
+	<encoding>multipart/form-data</encoding>
+
+	<formtag>true</formtag>
+	<border>true</border>
+
+
+	<tabs>
+		<t0 width="100" title="Video Tutorial" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.help" restricted="eval:$GLOBALS['no_tutorials'];"/>
+
+		<t1 active="true" width="100" title="Global Settings" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.settings" />
+		<t2 width="100" title="Installed Skins" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.skins" />
+		<t3 width="100" title="Installed Modules" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.default" />
+		<t4 width="100" title="Enabled Modules" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.user" />
+		<t5 width="100" title="Storage Folders" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.folders" />
+	</tabs>
+
+	
+	<buttons>		
+		<set>
+			<header>true</header>
+		</set>
+
+		<back location="{SELF.PREVIOUS}" button="return" />
+		<save onclick="" location="javascript:document.forms[0].submit();" button="save" />
+		<edit location="{SELF.LINK}action=edit&module_id={MODULE_ID}&returnurl={SELF.LOCATION}" button="edit" />
+
+	</buttons>
+
+	<redirect>{SELF.LINK}</redirect>
+
+	<fields>
+
+<!--		<comment type="comment" padding="20" description="put some instructions here" />-->
+		<set_skin type="droplist" empty="true" validate="A:1:20" required="true" title="Skin">
+			<relation table="core:skins" id="skin_id" text="skin_name" order="skin_name" />
+		</set_skin>
+
+		<set_logo valign="top" adminwidth="100" type="image" path="./" absolute="false" editable="true">
+			<file default="logo" ext=".png" />			
+			<title>Logo ( 250x127px)</title>
+			<error>No photo available.</error>						
+		</set_logo>
+
+		<set_misc type="subtitle" title="Misc" />
+
+		<set_menu_show type="checkbox" checked="1" title="Show Menu" label="yes|no" description="Check this if you want to see the menu all the time or uncheck to have it autohide."/>
+
+		<set_menu_align type="droplist" title="Menu Align/X Correction" referers="set_menu_correction">
+			<options>
+				<option name="left">left</option>
+				<option name="center">center</option>
+				<option name="right">right</option>
+			</options>
+		</set_menu_align>
+
+		<set_menu_correction type="textbox" size="5" suffix="&nbsp;px" referer="true"/>
+
+		<set_tpl_maxwidth title="Template MaxWidth" type="textbox" size="5" align="right" suffix="&nbsp;px" />
+		<set_tpl_maxheight title="Template MaxHeight" type="textbox" size="5" align="right" suffix="&nbsp;px" />
+
+		<set_copyright type="textarea" size="70:3" title="Copyright Text" />
+
+		<subtitle_seo2 type="subtitle" title="Site Ownership Verifications" />
+		<set_owner_google title="Google" type="textbox" size="90"/>
+		<set_owner_ms title="Microsoft" type="textbox" size="90"/>
+		<set_owner_yahoo title="Yahoo!" type="textbox" size="90"/>
+
+		<subtitle_seo type="subtitle" title="Default SEO Fields" />
+		<set_meta_title type="textbox" size="60" title="Browser Title" />
+		<set_meta_keys type="textarea" size="60:4" title="Keywords" />
+		<set_meta_desc type="textarea" size="60:4" title="Description" />
+
+		<subtitle_google type="subtitle" title="Google Analytics" />
+		<set_google_analytics type="checkbox" checked="1" label="enabled|disabled" />
+		<set_google_analytics_tracker type="textarea" size="90:4" title="Tracking Code" />
+
+
+	</fields>
+
+</form>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	
+	<contentWidth>920</contentWidth>
+	<contentHeight>394</contentHeight>
+	<contentBgColor>0x0c0c0c</contentBgColor>
+	<contentBgOpacity>01</contentBgOpacity>
+	<scrollBaseColor>0x141414</scrollBaseColor>
+	<scrollerColor>0xfe00d7</scrollerColor>
+	
+	<displayImages>false</displayImages>
+	<displayHtmlArticles>false</displayHtmlArticles>
+	<displaySlideShow>true</displaySlideShow>	
+	
+	<slideShow>
+		<x>10</x>
+		<y>10</y>
+		<width>900</width>
+		<height>350</height>
+		<bgColor>0x0C0C0C</bgColor>
+		<xmlURL>./site_configuration/featuresSlideShow.xml</xmlURL>
+	</slideShow>
+
+</xmlObject>

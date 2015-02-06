@@ -1,0 +1,52 @@
+8
+
+dir
+535
+http://papervision3d.googlecode.com/svn/trunk/branches/GreatWhite/src/org/papervision3d/core/view
+http://papervision3d.googlecode.com/svn
+
+
+
+2007-12-06T16:55:17.371458Z
+352
+r.hauwert@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+071aa1e1-232a-0410-a790-59abb25ab4c3
+
+IViewport3D.as
+file
+
+
+
+
+2007-12-11T06:12:38.620869Z
+4858db8452b63c6975b0d6fb8c997c8b
+2007-12-06T16:55:17.371458Z
+352
+r.hauwert@gmail.com
+
+IView.as
+file
+
+
+
+
+2007-12-11T06:12:38.626728Z
+cc553417adb5f4d930ec07c7cbd8d170
+2007-12-06T16:55:17.371458Z
+352
+r.hauwert@gmail.com
+

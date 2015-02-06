@@ -1,0 +1,152 @@
+ /* 
+=================================================
+# Filename : tp_dolphin.css
+# Description : Specific CSS rules for Dolphin TP Menu 
+# Author : TemplatePlazza
+# Author Url : http://www.templateplazza.com
+# Copyright (C) 2009 TemplatePlazza.com
+# All rights reserved.
+=================================================
+*/
+
+#tp-menu-container{
+	width: auto;
+	height:74px;
+	font-size: 11px;
+	color: #666666;
+/*	background-color: #111;*/
+	position: relative;
+    margin-top: 15px;
+}
+
+#tp-menu-nav{
+	position: relative;
+	height: 20px;
+	padding-left: 20px;
+/*	background:#ffffff;
+	border-left:1px solid #E4E0E0;
+	border-right:1px solid #E4E0E0;
+    */
+    margin-bottom:5px;
+	
+}
+
+#tp-menu-nav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: auto;
+	float: left;
+}
+
+#tp-menu-nav ul li{
+	display:block;
+	float: left;
+	margin: 0;
+}
+
+#tp-menu-nav ul li a{
+	display: block;
+	float: left;
+	height: 23px;
+	color: #666;
+	text-decoration: none;
+	font-weight:700;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+#tp-menu-nav ul li a span{
+	height: 13px;
+	float: left;
+	padding: 5px 15px;
+}
+
+#tp-menu-nav ul li a:hover{
+}
+
+#tp-menu-nav ul li a:hover span{
+	display: block;
+	width: auto;
+	cursor: pointer;
+}
+
+#tp-menu-nav ul li a.current,#tp-menu-nav ul li a.current:hover{
+	color: #ffffff;
+	background: #111;
+/*	line-height: 275%;*/
+	cursor: pointer;
+}
+
+#tp-menu-nav ul li a.current span{
+	display: block;
+	width: auto;
+	height: 33px;
+	padding: 5px 15px;
+}
+
+#tp-menu-inner{
+	color: #ffffff;
+	height: 1em;
+
+
+}
+
+#tp-menu-inner a:link, #tp-menu-inner a:visited{
+	display: block;
+	color: #ffffff;
+	font-size:11px;
+	line-height:15px;
+
+}
+
+#tp-menu-inner a:active{
+	color: #ffffff;
+}
+
+#tp-menu-inner a:hover{
+	text-decoration: underline;
+}
+
+div#tp-menu-inner, div#tp-menu-inner div{
+	height: 20px;
+	margin-top: 5px;
+}
+
+div#relhide{
+	display:none;
+}
+
+#tp-menu-nav li{
+	padding-left: 0;
+}
+
+#tp-menu-inner ul li{
+	float: left;
+	list-style-type: none;
+	line-height: normal;
+	padding: 0px 10px;
+	margin: 0px;
+	background: none;
+	
+}
+
+.innercontent{
+	display: none;
+}
+.menuwrp {
+	height:90px;}
+
+.has-image-left, .has-image-leftsfhover {
+	padding-left: 25px;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.has-image-right, .has-image-rightsfhover {
+	padding-right: 25px;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: right top;
+}

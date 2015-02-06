@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	<topMargin>50</topMargin>
+	<bottomMargin>50</bottomMargin>
+	<!--
+		alignX Options 
+		The alignX is the distance from the left your page will start
+		Static X    				  eg.  <alignX>175</alignX>      		(this will make your content start 175 pixels from the left)
+		Left aligned X    	  eg.  <alignX>left</alignX>    		(this will make your content be left aligned)
+		Center aligned X      eg.  <alignX>center</alignX>  		(this will make your content be centered)
+		Right aligned X    	  eg.  <alignX>right</alignX>				(this will make your content be right aligned)
+	-->
+	<alignX>center</alignX><!--Horizontal Alignment-->
+	<!--
+		alignY Options 
+		The alignY is the distance from the top your page will start
+		Static Y    				  eg.  <alignY>175</alignY>      		(this will make your content start 175 pixels from the top)
+		Top aligned Y    	  	eg.  <alignY>top</alignY>     		(this will make your content be aligned vertically under the topMargin)
+		Bottom aligned Y      eg.  <alignY>bottom<alignY>   		(this will make your content be aligned vertically and sit on the bottomMargin)
+		Center aligned Y    	eg.  <alignY>center<alignY>				(this will make your content be aligned vertically between the topMargin and bottomMargin)
+	-->
+	<alignY>center</alignY><!-- Vertical Alignment-->
+	
+	
+	<!--Set your content pages width / height / color and opacity here -->
+	<contentWidth>709</contentWidth>
+	<contentHeight>1798</contentHeight>
+	<contentBgColor>0x0c0c0c</contentBgColor>
+	<contentBgOpacity>1</contentBgOpacity>
+	
+	<!-- Select the type of scrolling to use -->
+	<useHoverScroll>false</useHoverScroll>
+	<useManualScroll>true</useManualScroll>
+	
+	
+	<!-- Skin Your Scroll Bar Features  *these settings apply if useManualScroll is true and useHoverScroll is false-->
+	<scrollBarWidth>15</scrollBarWidth>
+	<scrollBarHeight>200</scrollBarHeight>
+	<scrollBaseColor>0x000000</scrollBaseColor>
+	<addTiledPatternToScrollBase>true</addTiledPatternToScrollBase>
+	<patternUrl>site_images/patterns/edgePattern.png</patternUrl>
+	<scrollBaseOpacity>.67</scrollBaseOpacity>
+	<scrollerColor>0xcfcfcf</scrollerColor>
+	<scrollerOpacity>1</scrollerOpacity>
+	<!-- End of Scroll Bar Features -->
+	
+	
+	<!-- Used for pop up content -->
+	<dimWallPaperColor>0xffffff</dimWallPaperColor>
+	<dimWallPaperAlpha>.85</dimWallPaperAlpha>
+	<!-- set the size of the font used in the image preloader -->
+	<preloaderTextSize>140</preloaderTextSize>
+	<!-- set the color of the font used in the image preloader -->
+	<preloaderTextColor>0x000000</preloaderTextColor>
+	<!-- set the opacity of the font used in the image preloader -->
+	<preloaderTextOpacity>1</preloaderTextOpacity>
+
+
+
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>true</displayHtmlArticles>
+	<displaySlideShow>false</displaySlideShow>
+	<displaySWF>false</displaySWF>
+	
+	
+	<!--Opening Image and article-->
+	<image>
+		<x>40</x>
+		<y>40</y>
+		<imageURL>site_images/pages/layout3/layout3_05.jpg</imageURL>
+	</image>
+	<image>
+		<x>40</x>
+		<y>313</y>
+		<imageURL>site_images/pages/layout3/layout3_08.png</imageURL>
+	</image>
+	<image>
+		<x>40</x>
+		<y>428</y>
+		<imageURL>site_images/pages/layout3/layout3_11.png</imageURL>
+	</image>
+	<article>
+		<x>40</x>
+		<y>474</y>
+		<width>629</width>
+		<articleText><![CDATA[<p>One of the biggest advantages of this template is the ability to customize almost everything from XML.  You can choose on each and every page to use a tiled background image, a full size background image, a swf background, or a video background, you even have the option to use a tiled semi-transparent overlay on any of these background types, which gives your site a nice edgy look to it.  And just in-case your swf or video background has audio, you also have the option from XML to mute the audio player on each and every page.  If the user hits a page where you do not want audio to play, the audio is automatically faded out smoothly. Or if you don't want your site to have audio at all you can disable it's inclusion right from XML! You also now have the ability to left - center - or right align your logo from XML or give it a static X position.  The same goes for the header and footer, you can declare your header size and left align it, center align it, right align it, or give it a static X position.  Your page button and subpage buttons can be almost totally customized from XML, with the exception of changing the font or embedding special characters.  Your main navigation buttons are dynamic in size as the size of the textfield is determined first and then from XML you can choose how much extra  size to add to your buttons. So for example in this template we chose to add 20 pixels to the width of each button so in config.xml we set the addToBtnWidth parameter to 20.  You can also set the text field position for your buttons to  left / center / right, set the size, and the color for all three states, over, out, and clicked. You can also set your navigation buttons width, height, opacity, color, and space between buttons,  ALL FROM XML!    We packed six months of development into this template, to make sure it is the easiest for you to manage without being code freaks like we are!</p>]]></articleText>
+	</article>
+
+	<!--Spots-->
+	<image>
+		<x>327</x>
+		<y>934</y>
+		<imageURL>site_images/pages/layout3/layout3_p2_07.gif</imageURL>
+	</image>
+	<image>
+		<x>327</x>
+		<y>1220</y>
+		<imageURL>site_images/pages/layout3/layout3_p2_15.gif</imageURL>
+	</image>
+	<image>
+		<x>327</x>
+		<y>1506</y>
+		<imageURL>site_images/pages/layout3/layout3_p2_23.gif</imageURL>
+	</image>
+	
+	<!--Events-->
+	<image>
+		<x>43</x>
+		<y>934</y>
+		<imageURL>site_images/pages/layout3/layout3_p3_07.png</imageURL>
+	</image>
+	<article>
+		<x>43</x>
+		<y>1025</y>
+		<width>210</width>
+		<articleText><![CDATA[<h1>Event Title Goes Here</h1><h2>August 15, 2010 8:45pm</h2><h3>Event specifics can go here, like what time the doors open, the location, what special guests will be speaking, when tickets will go on sale, what is the last day you can purchase tickets, etc etc etc</h3><a href="http://activeden.net/user/FLASHdriven/portfolio">Directions</a>]]></articleText>
+	</article>
+	<article>
+		<x>43</x>
+		<y>1210</y>
+		<width>210</width>
+		<articleText><![CDATA[<h1>Event Title Goes Here</h1><h2>August 15, 2010 8:45pm</h2><h3>Event specifics can go here, like what time the doors open, the location, what special guests will be speaking, when tickets will go on sale, what is the last day you can purchase tickets, etc etc etc</h3><a href="http://activeden.net/user/FLASHdriven/portfolio">Directions</a>]]></articleText>
+	</article>
+	<article>
+		<x>43</x>
+		<y>1408</y>
+		<width>210</width>
+		<articleText><![CDATA[<h1>Event Title Goes Here</h1><h2>August 15, 2010 8:45pm</h2><h3>Event specifics can go here, like what time the doors open, the location, what special guests will be speaking, when tickets will go on sale, what is the last day you can purchase tickets, etc etc etc</h3><a href="http://activeden.net/user/FLASHdriven/portfolio">Directions</a>]]></articleText>
+	</article>
+	<article>
+		<x>43</x>
+		<y>1599</y>
+		<width>210</width>
+		<articleText><![CDATA[<h1>Event Title Goes Here</h1><h2>August 15, 2010 8:45pm</h2><h3>Event specifics can go here, like what time the doors open, the location, what special guests will be speaking, when tickets will go on sale, what is the last day you can purchase tickets, etc etc etc</h3><a href="http://activeden.net/user/FLASHdriven/portfolio">Directions</a>]]></articleText>
+	</article>
+
+</xmlObject>

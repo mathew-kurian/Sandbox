@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/479/trunk/branches/GreatWhite/src/org/papervision3d/core/render/material
+END
+IUpdateBeforeMaterial.as
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/core/render/material/IUpdateBeforeMaterial.as
+END
+MaterialManager.as
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/479/trunk/branches/GreatWhite/src/org/papervision3d/core/render/material/MaterialManager.as
+END
+IUpdateAfterMaterial.as
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/core/render/material/IUpdateAfterMaterial.as
+END

@@ -1,0 +1,131 @@
+h1{
+   font-family: Arial, "Helvetica LT Light", Helvetica, sans-serif;
+   font-size:16;
+   color:#00b7dc;
+   leading:6;
+}
+h2{
+   font-family: Arial, "Helvetica LT Light", Helvetica, sans-serif;
+   font-size:12;
+   color:#9b9b9b;
+   leading:3;
+}
+h3{
+	font-family: Arial, "Helvetica LT Light", Helvetica, sans-serif;
+   font-size:10;
+   color:#474747;
+   leading:1;
+}
+
+p{
+   font-family: Arial, "Helvetica LT Light", Helvetica, sans-serif;
+   font-size:12;
+   color:#474747;
+   text-indent: 0;
+   leading:8;
+}
+
+a{
+   font-family:Arial, Helvetica, "Helvetica LT Light", sans-serif;
+   font-size:10;
+   font-weight:bold;
+   color:#00b7dc;
+}
+
+.copyright{
+   font-size:10;
+   color:#373737;
+}
+.aCopyright{
+	color:#00b7dc;
+}
+
+a:link {
+   text-decoration: none;
+}
+
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+a:active {
+   text-decoration: none;
+}
+
+.aAlt{
+	color:#707070;
+	font-size:12;
+	font-weight:normal;
+}
+
+
+.fields{
+	color:#8d8d8d;
+}
+
+.layout{
+	leading:1;
+	font-size:11;	
+}
+
+
+.leading1{
+	leading:1;	
+}
+.leading2{
+	leading:2;
+}
+.leading3{
+	leading:3;
+}
+.leading4{
+	leading:4;
+}
+
+.leading5{
+	leading:5;	
+}
+
+.leading6{
+	leading:6;	
+}
+
+.leading7{
+	leading:7;
+}
+
+.leading8{
+	leading:8;
+}
+
+.leading9{
+	leading:9;
+}
+
+.leading10{
+	leading:10;
+}
+
+.leading11{
+	leading:11;
+}
+
+.leading12{
+	leading:12;
+}
+
+.leading13{
+	leading:13;
+}
+
+.leading14{
+	leading:14;
+}
+
+.leading15{
+	leading:15;
+}

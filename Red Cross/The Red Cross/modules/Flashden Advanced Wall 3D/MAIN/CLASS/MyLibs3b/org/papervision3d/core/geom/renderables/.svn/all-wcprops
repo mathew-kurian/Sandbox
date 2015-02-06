@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/527/trunk/branches/GreatWhite/src/org/papervision3d/core/geom/renderables
+END
+Line3D.as
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/477/trunk/branches/GreatWhite/src/org/papervision3d/core/geom/renderables/Line3D.as
+END
+Triangle3DInstance.as
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/core/geom/renderables/Triangle3DInstance.as
+END
+Particle.as
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/428/trunk/branches/GreatWhite/src/org/papervision3d/core/geom/renderables/Particle.as
+END
+Vertex3D.as
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/428/trunk/branches/GreatWhite/src/org/papervision3d/core/geom/renderables/Vertex3D.as
+END
+AbstractRenderable.as
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/428/trunk/branches/GreatWhite/src/org/papervision3d/core/geom/renderables/AbstractRenderable.as
+END
+Vertex3DInstance.as
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/core/geom/renderables/Vertex3DInstance.as
+END
+IRenderable.as
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/core/geom/renderables/IRenderable.as
+END
+Triangle3D.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/527/trunk/branches/GreatWhite/src/org/papervision3d/core/geom/renderables/Triangle3D.as
+END

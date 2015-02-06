@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss>
+<channel>
+<item id="1">
+<title>Buffalos</title>
+<thumb_image>images/animals/thumb_image/buffalo.jpg</thumb_image>
+<video>videos/troy_harbour.flv</video>
+<link></link>
+</item>
+<item id="2">
+<title>Butterfly</title>
+<thumb_image>images/animals/thumb_image/butterfly.jpg</thumb_image>
+<video>videos/ship.flv</video>
+<link>http://www.google.com</link>
+</item>
+<item id="3">
+<title>Curious Cat</title>
+<thumb_image>images/animals/thumb_image/cat.jpg</thumb_image>
+<video>videos/fish_boats.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="4">
+<title>Daytime Cat</title>
+<thumb_image>images/animals/thumb_image/daytime.jpg</thumb_image>
+<video>videos/fisher.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="5">
+<title>Hawk</title>
+<thumb_image>images/animals/thumb_image/hawk.jpg</thumb_image>
+<video>videos/light_house.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="6">
+<title>Shy Horse</title>
+<thumb_image>images/animals/thumb_image/horse.jpg</thumb_image>
+<video>videos/seashore2.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="7">
+<title>Kangaroo</title>
+<thumb_image>images/animals/thumb_image/kangaroo.jpg</thumb_image>
+<video>videos/seashore3.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="8">
+<title>Koala</title>
+<thumb_image>images/animals/thumb_image/koala.jpg</thumb_image>
+<video>videos/seashore.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="9">
+<title>Kookaburras</title>
+<thumb_image>images/animals/thumb_image/kookaburra.jpg</thumb_image>
+<video>videos/ship.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="10">
+<title>Cat Looking</title>
+<thumb_image>images/animals/thumb_image/looking_in.jpg</thumb_image>
+<video>videos/troy1.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="11">
+<title>Meercats</title>
+<thumb_image>images/animals/thumb_image/meercats.jpg</thumb_image>
+<video>videos/troy2.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="12">
+<title>Penguin</title>
+<thumb_image>images/animals/thumb_image/penguin.jpg</thumb_image>
+<video>videos/troy_harbour.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="13">
+<title>Spider</title>
+<thumb_image>images/animals/thumb_image/spider.jpg</thumb_image>
+<video>videos/ship.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="14">
+<title>Squirrel</title>
+<thumb_image>images/animals/thumb_image/squirrel.jpg</thumb_image>
+<video>videos/fish_boats.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="15">
+<title>Shark</title>
+<thumb_image>images/animals/thumb_image/underwater2_shark.jpg</thumb_image>
+<video>videos/ship.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="16">
+<title>Jellyfish</title>
+<thumb_image>images/animals/thumb_image/underwater4_jellyfish.jpg</thumb_image>
+<video>videos/troy_harbour.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+<item id="17">
+<title>Wallaby</title>
+<thumb_image>images/animals/thumb_image/wallaby.jpg</thumb_image>
+<video>videos/ship.flv</video>
+<link>http://www.flashden.net</link>
+</item>
+</channel>
+</rss>

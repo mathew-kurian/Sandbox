@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MediaGallery>
+	
+	<settings
+	
+		distanceBetweenMenuButtons="14"
+		
+		thumbWidth="90"
+		
+		thumbHeight="68"
+		
+		horizontalThumbSpace="9"
+		
+		verticalThumbSpace="9"
+		
+		scrollerBehavior="1"
+	
+	></settings>
+
+	<content title="Gallery" urlTitle="Gallery" url="/gallery">
+			
+		
+		<button title="Vacation Pictures" urlTitle="Vacation Pictures" url="/vacation-pictures-2/">
+			<item thumb="images/galleries/tn_2.jpg" image="images/galleries/video_2.flv" title="Video Player Demo" urlTitle="Video Player Demo" url="/video-player-demo-2/">
+				<![CDATA[<p>The Gallery supports images as well as video, as shown by this item. Video player supports h.264 playback of .flv, .mov etc. files.</p>]]>
+			</item>
+
+			<item thumb="images/galleries/tn_4.jpg" image="images/galleries/4.jpg" title="Yellow Flower" urlTitle="Yellow Flower" url="/yellow-flower-4/">
+				<![CDATA[<font color="#00bad5" size="20">Gallery Item Description (html formatted)</font><br />
+				Each photo/video in the gallery can have an extensive description text that is of course html formatted. If the text is longer a scrollbar appears, so no limits here ! The description text is not mandatory, if there is no description text entered, then the window will be nicely resized acordingly to acomodate just the photo/video and it will have equal black margins all around.<br />
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis rhoncus diam, ac mattis est porttitor id. Vestibulum non turpis sed nunc pharetra pharetra sit amet nec libero. Vestibulum suscipit, nunc vel vulputate blandit, purus nulla lobortis elit, eget elementum lectus magna ut magna. Proin et leo ac lorem ultrices rhoncus in at nisl. Integer id massa urna, eu posuere leo. Mauris tristique imperdiet velit sed blandit. Etiam nec augue non velit ornare malesuada. In posuere ornare tincidunt. Ut suscipit commodo imperdiet. Maecenas scelerisque, neque vel aliquam condimentum, ipsum arcu faucibus magna, id tincidunt justo turpis et metus. In ut tellus eu mauris convallis fermentum sit amet a nunc. Donec aliquet euismod lacinia. Maecenas sit amet suscipit justo. Sed euismod, turpis nec facilisis dignissim, nulla sapien fringilla sapien, at adipiscing arcu mi ac lacus. Nullam in ante odio. 
+			]]></item>
+
+			<item thumb="images/galleries/tn_5.jpg" image="images/galleries/5.jpg" title="Bee on Flowers" urlTitle="Bee on Flowers" url="/bee-on-flowers-5/"></item>
+			
+		</button>
+
+		<button title="The Office" urlTitle="The Office" url="/the-office-3/">
+			
+		
+			<item thumb="images/galleries/tn_2.jpg" image="images/galleries/video_2.flv" title="Video Player Demo" urlTitle="Video Player Demo" url="/video-player-demo-2/">
+				<![CDATA[<p>The Gallery supports images as well as video, as shown by this item. Video player supports h.264 playback of .flv, .mov etc. files.</p>]]>
+			</item>
+			<item thumb="images/galleries/tn_20.jpg" image="images/galleries/20.jpg" title="Rocky Beach in Sardegna" urlTitle="Rocky Beach in Sardegna" url="/rocky-beach-in-sardegna-20/"></item>
+			<item thumb="images/galleries/tn_21.jpg" image="images/galleries/21.jpg" title="Villasimius South Beach" urlTitle="Villasimius South Beach" url="/villasimius-south-beach-21/"></item>
+			<item thumb="images/galleries/tn_22.jpg" image="images/galleries/22.jpg" title="Piazza del Castello" urlTitle="Piazza del Castello" url="/piazza-del-castello-22/"></item>
+		</button>
+
+	</content>
+</MediaGallery>

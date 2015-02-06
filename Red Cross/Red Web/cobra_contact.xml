@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CONTENT>
+
+<!-- The amount of space on the edges -->
+<EDGE_SPACING>20</EDGE_SPACING>
+
+<!-- Set colors -->
+<HEADING_COLOR>FF726A</HEADING_COLOR>
+<FIELD_COLOR>FFCDCA</FIELD_COLOR>
+<FIELD_SELECT_COLOR>FFA39D</FIELD_SELECT_COLOR>
+<LOADBAR_COLOR>C20800</LOADBAR_COLOR>
+
+<!-- Set the heading for the form -->
+<HEADING><p class="header">RED CROSS ASSOCATION</p><p class="subheader">application</p></HEADING>
+
+<!-- Format the sidebar with html content -->
+<SIDE_BAR width="170"><![CDATA[
+	
+	<h1></h1>
+	<h1>Please be honest with your responses.</h1>
+	<br>
+    <h3>ACADEMICS</H3>
+	<p>Your current GPA will be most preferred. If you are not confident giving us this information, please provide an explaination of you grades (are you a A/B student, A student, B student, etc). Rest assured, your information will be kept confidential.</p>
+    <br>
+    <h3>THANK YOU</h3>
+    <br>
+    <h3>CONTACT</h3>
+	<p><a href="mailto:bluejamesbond@gmail.com">bluejamesbond@gmail.com</a></p>
+
+]]></SIDE_BAR>
+
+
+
+
+<!-- Set all of your forms -->
+<FORM_CONTENT>
+
+    <FORM>
+		<HEADING>FIRST NAME</HEADING>
+		<MULTILINE></MULTILINE>
+		<REQUIRED>true</REQUIRED>
+        <VALIDATE>email</VALIDATE>
+        <RESTRICT>letters</RESTRICT>
+        <FORM_TIP></FORM_TIP>
+	</FORM>
+
+    <FORM>
+		<HEADING>LAST NAME</HEADING>
+		<MULTILINE></MULTILINE>
+		<REQUIRED>true</REQUIRED>
+        <VALIDATE></VALIDATE>
+        <RESTRICT>letters</RESTRICT>
+        <FORM_TIP></FORM_TIP>
+	</FORM>
+
+	<FORM>
+		<HEADING>EMAIL</HEADING>
+		<MULTILINE></MULTILINE>
+		<REQUIRED>true</REQUIRED>
+        <VALIDATE>email</VALIDATE>
+        <RESTRICT></RESTRICT>
+        <FORM_TIP></FORM_TIP>
+	</FORM>
+    <FORM>
+		<HEADING>PHONE</HEADING>
+		<MULTILINE></MULTILINE>
+		<REQUIRED>true</REQUIRED>
+        <VALIDATE></VALIDATE>
+        <RESTRICT>numbers</RESTRICT>
+        <FORM_TIP></FORM_TIP>
+	</FORM>
+    <FORM>
+		<HEADING>EMERGENCY CONTACT NAME</HEADING>
+		<MULTILINE></MULTILINE>
+		<REQUIRED>true</REQUIRED>
+        <VALIDATE></VALIDATE>
+        <RESTRICT>letters</RESTRICT>
+        <FORM_TIP></FORM_TIP>
+	</FORM>
+    
+    <FORM>
+		<HEADING>EMERGENCY CONTACT RELATION</HEADING>
+		<MULTILINE></MULTILINE>
+		<REQUIRED>true</REQUIRED>
+        <VALIDATE></VALIDATE>
+        <RESTRICT>letters</RESTRICT>
+        <FORM_TIP></FORM_TIP>
+	</FORM>
+    
+    <FORM>
+		<HEADING>EMERGENCY CONTACT PHONE</HEADING>
+		<MULTILINE></MULTILINE>
+		<REQUIRED>true</REQUIRED>
+        <VALIDATE></VALIDATE>
+        <RESTRICT>numbers</RESTRICT>
+        <FORM_TIP></FORM_TIP>
+	</FORM>
+    
+    <FORM>
+		<HEADING>WHY JOIN THE CLUB</HEADING>
+		<MULTILINE>true</MULTILINE>
+		<REQUIRED>true</REQUIRED>
+        <VALIDATE></VALIDATE>
+        <RESTRICT></RESTRICT>
+        <FORM_TIP>Atleast 2 sentences</FORM_TIP>
+	</FORM>
+    
+    <FORM>
+		<HEADING>ACADEMICS</HEADING>
+		<MULTILINE></MULTILINE>
+		<REQUIRED>true</REQUIRED>
+        <VALIDATE></VALIDATE>
+        <RESTRICT></RESTRICT>
+        <FORM_TIP>Refer to the column on the left</FORM_TIP>
+	</FORM>
+    
+    <FORM>
+		<HEADING>EXTRACIRRICULAR ACTIVITIES</HEADING>
+		<MULTILINE>true</MULTILINE>
+		<REQUIRED>true</REQUIRED>
+        <VALIDATE></VALIDATE>
+        <RESTRICT></RESTRICT>
+        <FORM_TIP>Atleast 2 sentences</FORM_TIP>
+	</FORM>
+    
+    <FORM>
+		<HEADING>OTHER</HEADING>
+		<MULTILINE>true</MULTILINE>
+		<REQUIRED></REQUIRED>
+        <VALIDATE></VALIDATE>
+        <RESTRICT></RESTRICT>
+        <FORM_TIP>Anything else that you may want us to know</FORM_TIP>
+	</FORM>
+</FORM_CONTENT>
+<!-- Set all of your forms -->
+
+
+
+
+<!-- Format the email that will be sent to you. -->
+<CONTACT_EMAIL>
+
+	<!-- The email you'd like the contact information to be sent to. -->
+	<TO>bluejamesbond@gmail.com</TO>
+	
+	<!-- Where the email should look like it's coming from. -->
+	<FROM>RedCross@SLHS.com</FROM>
+	
+	<!-- The subject of the email -->
+	<SUBJECT>slhsRedCrossRobot Admin</SUBJECT>
+	
+	<!-- The message of the email -->
+	<MESSAGE><![CDATA[
+	
+	This is an automated message from the slhsRedCrossRobot.
+	
+	You have recieved an email from: **FIRST NAME** **LAST NAME**
+    
+	First Name: **FIRST NAME**
+	Last Name: **LAST NAME**
+	Email: **EMAIL**
+	Phone: **PHONE**
+	Emergency Contact Name: **EMERGENCY CONTACT NAME**
+	Emergency Contact Relation: **EMERGENCY CONTACT NAME**
+	Emergency Contact Number: **EMERGENCY CONTACT NAME**
+	Why join the club: **WHY JOIN THE CLUB**
+	Academics: **ACADEMICS** 
+	Extracirricular Activities: **EXTRACIRRICULAR ACTIVITIES**
+    Other: **OTHER**
+	
+	
+	]]></MESSAGE>
+
+</CONTACT_EMAIL>
+
+
+
+
+<!-- Format the user's confirmation email. -->
+<USER_EMAIL>
+
+	<!-- The email you'd like the contact information to be sent to. -->
+	<TO>**EMAIL**</TO>
+	
+	<!-- Where the email should look like it's coming from. -->
+	<FROM>bluejamesbond@gmail.com</FROM>
+	
+	<!-- The subject of the email -->
+	<SUBJECT>slhsRedCrossRobot</SUBJECT>
+	
+	<!-- The message of the email -->
+	<MESSAGE><![CDATA[
+	
+	This is an automated message from the slhsRedCrossRobot.
+		
+	Your email has been successfully sent to comments@metaphorcreations.com.
+   	           
+	Please confirm your information. If there is an error you may simply redo the application online.
+	
+	First Name: **FIRST NAME**
+	Last Name: **LAST NAME**
+	Email: **EMAIL**
+	Phone: **PHONE**
+	Emergency Contact Name: **EMERGENCY CONTACT NAME**
+	Emergency Contact Relation: **EMERGENCY CONTACT NAME**
+	Emergency Contact Number: **EMERGENCY CONTACT NAME**
+	Why join the club: **WHY JOIN THE CLUB**
+	Academics: **ACADEMICS** 
+	Extracirricular Activities: **EXTRACIRRICULAR ACTIVITIES**
+    Other: **OTHER**
+		
+	You will be contacted within the next 48 hours to discuss the contents of your email.
+
+	Thank you **FIRST NAME** **LAST NAME** for your time and effort.
+	
+	We look forward to having you on our team and have a great day!
+	    
+
+	Sincerely,
+
+	SLHS Red Cross Association
+
+	]]></MESSAGE>
+
+</USER_EMAIL>
+
+
+	
+</CONTENT>

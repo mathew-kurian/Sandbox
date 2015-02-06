@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Homepage>
+	
+	<settings>
+
+		<thumbWidth>199</thumbWidth>
+		
+		<thumbHeight>111</thumbHeight>
+		
+		<distanceBetweenThumbs>13</distanceBetweenThumbs>
+		
+		<thumbsOnSlider>4</thumbsOnSlider>
+
+		
+		<scrollingBlurX>60</scrollingBlurX>
+
+	</settings>
+
+	<content title="Welcome to our site" url="/homepage/">
+		<![CDATA[<p>Please check out all the modules on top, and if you want to view the other skin press back on your browser and select it. We sure hope you enjoy this wonderful template, we've put a lot of work and effort into it. Also please keep in mind that all content text is fully <b>html editable</b> so you can use whatever style you wish, <a target="_blank" href="http://www.google.com"><u>links</u></a>, <font color="#ffffff" size="13">size and colors</font>, embed images or swf inside these text areas and so much more. Also don't forget to check out the powerful CMS Admin bundled with this template, it is a huge time saver and selling point for your clients.<br />
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada imperdiet sem. Nam urna ligula, pellentesque eu, iaculis vitae, tincidunt a, nunc. Sed convallis, risus id congue faucibus, est consequat id, est. Aliquam vehicula, sem dapibus massa lectus pellentesque lacus, et consectetur enim nibh at tellus.<br />
+<br />
+Donec nunc magna, feugiat et, varius ut, semper sed, neque. Aenean semper, lacus eget ullamcorper cursus, velit augue ullamcorper odio, sit amet dictum tortor tellus non ligula. In hac habitasse platea dictumst. Sed odio justo, consequat eu, pharetra sed, suscipit a, erat. Curabitur eu felis et ligula sodales consequat. Suspendisse ligula. Morbi neque orci, interdum.</p>]]>
+	</content>
+
+	<slider title="Latest Projects">
+	
+		
+		<item src="images/homepage/8.jpg" title="Emersis Quertes v2" url="/#/portfolio/web-design-1/emersis-quertes-v2-1" target="" ></item>
+
+		<item src="images/homepage/9.jpg" title="Liquid Full Admin Template" url="/#/portfolio/web-design-1/liquid-full-admin-template-2" target="" ></item>
+
+		<item src="images/homepage/10.jpg" title="Sea Direct Website" url="/#/portfolio/web-design-1/sea-direct-website-3" target="" ></item>
+
+		<item src="images/homepage/11.jpg" title="Giorgio Morelli Webdesign" url="/#/portfolio/web-design-1/giorgio-morelli-webdesign-4" target="" ></item>
+
+		<item src="images/homepage/12.jpg" title="Meta Admin Template" url="/#/portfolio/web-design-1/meta-admin-template-5" target="" ></item>
+
+		<item src="images/homepage/13.jpg" title="John Smith Freelancer" url="/#/portfolio/web-design-1/john-smith-freelancer-6" target="" ></item>
+
+		<item src="images/homepage/14.jpg" title="Voranos Restaurant" url="/#/portfolio/web-design-1/voranos-restaurant-7" target="" ></item>
+
+		<item src="images/homepage/15.jpg" title="Seal Crazy Webdesign" url="/#/portfolio/web-design-1/seal-crazy-webdesign-8" target="" ></item>
+
+		<item src="images/homepage/16.jpg" title="EZ Flash Video Player" url="/#/portfolio/web-design-1/ez-flash-video-player-9" target="" ></item>
+
+		<item src="images/homepage/17.jpg" title="Web Portfolio Template" url="/#/portfolio/web-design-1/web-portfolio-template-10" target="" ></item>
+
+		<item src="images/homepage/18.jpg" title="Ultra Admin Template" url="/#/portfolio/web-design-1/ultra-admin-template-11" target="" ></item>
+
+		<item src="images/homepage/19.jpg" title="Introspire Learning" url="/#/portfolio/web-design-1/introspire-learning-12" target="" ></item>
+
+
+	</slider>
+</Homepage>

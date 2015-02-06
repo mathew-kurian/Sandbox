@@ -1,0 +1,83 @@
+p{
+   font-family: helvetica, arial, sans-serif;
+   font-size:12;
+   color:#545454;
+   text-indent: 0;
+   display:block;
+}
+.white{
+	color:#ffffff;
+	leading:8;
+}
+
+.flash{
+	color:#e53039;/*red*/
+}
+h1{
+   font-family: helvetica, arial, sans-serif;
+   font-size:14;
+   font-weight:bold;
+   text-indent: 0;
+   color:#e53039;/*red*/
+   leading:3;
+}
+
+.brand{
+	color:#00a2f9;/*light blue*/	
+}
+h2{
+   font-family: helvetica, arial, sans-serif;
+   font-size:14;
+   font-weight:bold;
+   color:#000000;
+   text-indent: 0;
+   leading:3;
+}
+
+.website{
+		color:#ff3000;/*orange*/
+}
+h3{
+   font-family: helvetica, arial, sans-serif;
+   font-size:14;
+   font-weight:bold;
+	 color:#ff3000;/*orange*/
+   text-indent: 0;
+   leading:3;
+}
+
+.photography{
+		color:#fe00d7;/*pink*/
+}
+h4{
+   font-family: helvetica, arial, sans-serif;
+   font-size:18;
+   font-weight:bold;
+   text-indent: 0;
+   color:#fe00d7;/*pink*/
+   leading:3;
+}
+
+.hosting{
+		color:#6e0144;/*purple*/
+}
+h5{
+   font-family: helvetica, arial, sans-serif;
+   font-size:14;
+   font-weight:bold;
+   color:#6e0144;/*purple*/
+   text-indent: 0;
+   leading:3;
+}
+
+.cinematography{
+		color:#333333;
+}
+h6{
+   font-family: helvetica, arial, sans-serif;
+   font-size:14;
+   font-weight:bold;
+	 color:#000000;
+   text-indent: 0;
+   leading:3;
+}

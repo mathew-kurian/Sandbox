@@ -1,0 +1,25 @@
+.tpboxoffice_hide{ margin-top:10px;width: 12px; height: 12px; background:url(images/showhide.png) no-repeat 0 0; cursor: pointer; display: block; width: 100px; }
+.tpboxoffice_show{ margin-top:10px;width: 12px; height: 12px; background:url(images/showhide.png)  no-repeat 0 -12px; cursor: pointer; display: block; width: 100px;}
+.tpboxoffice_item { border-bottom: 1px solid #ccc; padding: 5px 0;}
+.clrfix {
+    clear: both;
+}
+.tpboxoffice_icon ,
+.tpboxoffice_title,
+.tpboxoffice_revenue{
+    display: block;
+}
+.tpboxoffice_title {
+    font-weight: 700;
+}
+.tpboxoffice_revenue {
+    float: right;
+    background: #666;
+    color: #FFF;
+    padding: 0 3px;
+    margin-top: -12px;
+}
+.tpboxoffice_icon  {
+    float: left;
+    margin-right: 5px;
+}

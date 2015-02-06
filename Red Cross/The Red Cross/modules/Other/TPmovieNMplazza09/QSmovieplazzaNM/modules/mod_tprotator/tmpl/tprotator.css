@@ -1,0 +1,28 @@
+/**
+* TemplatePlazza
+* TemplatePlazza.com 
+**/
+	
+#tpmoostick{
+	line-height: normal;
+	padding: 0px;
+	margin: 0px;
+	margin-top: -2px;
+	background: url(arrow.png) 0 2px no-repeat;
+	margin-bottom:5px;
+}
+
+#tpmoostick li{
+	line-height: normal;
+	padding: 0px;
+	padding-left: 30px;
+	margin: 0px;
+}
+
+#tpmoostick a:link,
+#tpmoostick a:visited,
+#tpmoostick a:active{
+	font-size: 11px;
+	padding: 0px;
+	margin: 0px;
+}

@@ -1,0 +1,52 @@
+8
+
+dir
+535
+http://papervision3d.googlecode.com/svn/trunk/branches/GreatWhite/src/org/ascollada/io
+http://papervision3d.googlecode.com/svn
+
+
+
+2008-03-22T18:42:13.187557Z
+484
+tim.knip
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+071aa1e1-232a-0410-a790-59abb25ab4c3
+
+DaeWriter.as
+file
+
+
+
+
+2007-12-11T06:12:20.302706Z
+1b6d0443ebc4e43e23c14bb235e0a867
+2007-12-07T16:49:15.986019Z
+359
+tim.knip
+
+DaeReader.as
+file
+
+
+
+
+2008-03-26T08:40:39.998467Z
+b306353a8f4042c678b8c2850c669afd
+2008-03-22T18:42:13.187557Z
+484
+tim.knip
+

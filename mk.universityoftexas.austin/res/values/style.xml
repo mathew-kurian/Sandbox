@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="PaperDiag" parent="@android:style/Theme.Dialog">
+		<item name="android:windowBackground">@drawable/custom_diag</item>
+	</style>
+	 <style name="DarkProgress" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+     <style name="Theme.NoBackground" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@null</item>
+    </style>
+</resources>

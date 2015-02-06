@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mk.universityoftexas.austin.LightingLayoutRelative xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/log"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blog_menu_bg"
+        android:orientation="vertical" >
+
+        <mk.universityoftexas.austin.OverlayProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:id="@+id/blog_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blog_menu_mag"
+            android:orientation="vertical" android:visibility="invisible">
+
+            <ScrollView
+                android:id="@+id/container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="110dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="65dp"
+                android:fadingEdgeLength="0dp"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="UTES Social Studies"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Grad Student Dev"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Tarlton Library News"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Creative Porblem Solving"
+                        android:textColor="#d40000"
+                        android:textSize="9dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Free Minds Project"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="The lLAH Herald"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Polyphony"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Public Affairs Reporting"
+                        android:textColor="#d40000"
+                        android:textSize="9dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS9"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Geo News"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS10"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Elements of Computing"
+                        android:textColor="#d40000"
+                        android:textSize="9dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS11"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Legalwriting.net Blog"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS12"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Strauss Institute"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS13"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="UT Aikido Club"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS14"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Transportation News"
+                        android:textColor="#d40000"
+                        android:textSize="9dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS15"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Hogg Blog"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS16"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Texas Tai Chi"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS17"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="URB Advising"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS18"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Gender Equity"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS19"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Tower Talk"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS20"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="McCombs Career"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS21"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Questions Over Answers"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS22"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="UTCommAbroad"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS23"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Keri Stephens&apos; Blog"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS24"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Health Mentorship Program"
+                        android:textColor="#d40000"
+                        android:textSize="8dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS25"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="John McCalpin&apos;s blog"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS26"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Higher Education Association"
+                        android:textColor="#d40000"
+                        android:textSize="8dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS27"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="UTLARP"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS28"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Admin Systems Master Plan"
+                        android:textColor="#d40000"
+                        android:textSize="8dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS29"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Desiree Pallais"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS30"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Construction Research Group"
+                        android:textColor="#d40000"
+                        android:textSize="8dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS31"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Project MALES"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS32"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="UTES Wellness"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS33"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="ECO Advising"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS34"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="UTES Educator Resources"
+                        android:textColor="#d40000"
+                        android:textSize="8dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS35"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Thimbles and Care"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS36"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="NMC"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS37"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Rapoport Center"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS38"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="SC11"
+                        android:textColor="#d40000"
+                        android:textSize="10dp" />
+
+                    <mk.universityoftexas.austin.HighlightedTextView
+                        android:id="@+id/RSS39"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:onClick="onClick"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Data Management at UT Austin"
+                        android:textColor="#d40000"
+                        android:textSize="8dp" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</mk.universityoftexas.austin.LightingLayoutRelative>

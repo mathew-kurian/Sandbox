@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+		
+<horizontal_menu>
+
+<settings_normal_menu
+
+	menuX="28" menuY="126"
+	
+	normalFontColor="0xffffff" overFontColor="0xffffff" fontSize="12" fontName="my_font3" toggleAntiAlias="1"
+	
+	normalBgColor1="0xa1bd15" normalBgColor2="0x829910" normalBgColor3="0x65770c" normalBgCornerRadius="0"
+	
+	overBgColor1="0x000000" overBgColor2="0x000000" overBgColor3="0x000000" overBgCornerRadius="4"
+	
+	roundMainCornerRadiusAtExtremities="1"
+	
+	buttonHeight="26" addPixelsToDefaultWidth="15" adjustTextXPos="-1" adjustTexYPos="1"
+	
+	toggleTotalMainBg="1" totalMainBgColor1="0x8ba412" totalMainBgColor2="0x8ba412" totalMainBgColor3="0x8ba412" totalMainBgAlpha="100" mainBgRadius="4"
+	
+	spaceBetweenMainButtons="0"
+	
+	
+	
+	subButtonNormalFontColor="0xffffff" subButtonOverTextColor="0xbee405" subButtonFontSize="12" subButtonFontName="my_font3"
+	
+	subButtonNormalBgColor1="0x282828" subButtonNormalBgColor2="0x282828" subButtonNormalBgColor3="0x282828" subButtonNormalBgCornerRadius="0"
+	
+	subButtonOverBgColor1="0x000000" subButtonOverBgColor2="0x000000" subButtonOverBgColor3="0x000000" subButtonOverBgCornerRadius="4"
+	
+	roundSubMenuCornerRadiusAtExtremities="1"
+	
+	subButtonHeight="26" subButtonAddPixelsToDefaultWidth="15" subButtonAdjustTextXPos="-1" subButtonAdjustTexYPos="1"
+	
+	toggleTotalSubButtonBg="1" totalSubButtonBgColor1="0x282828" totalSubButtonBgColor2="0x282828" totalSubButtonBgColor3="0x282828" totalSubButtonBgAlpha="100" SubButtonBgRadius="4" 
+
+	spaceBetweenSubButtons="1"
+	
+	transitionTime="0.2" transitionType="linear"
+	
+	toggleComeBackToCurrentMenu="1"
+	
+	useAlphaFadeForSubMenuLowAlphaVal="0"
+	
+	subMenuAtBottom="1"
+	
+	 >
+	
+</settings_normal_menu>
+
+
+	<button title="About Us" toggleSubMenu="1" url="http://www.google.com/" target="_blank">
+			<submenu>
+				<subButton title="Services" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="Client List" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="Support" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="About Us" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="Our Portfolio" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="Company Info" url="http://www.google.com/" target="_blank"> </subButton>
+				
+			</submenu>
+	</button>
+	
+	
+	<button title="Our Portfolio" toggleSubMenu="1" url="http://www.google.com/" target="_blank">
+			<submenu>
+				<subButton title="Image Gallery" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="Dock Menu" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="Horizontal Scroller" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="Vertical Scroller" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="Panning" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="Menu" url="http://www.google.com/" target="_blank"> </subButton>
+			</submenu>
+	</button>
+	
+	<button title="Company Info" toggleSubMenu="1" url="http://www.google.com/" target="_blank">
+			<submenu>
+				<subButton title="Services" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="Client List" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="Our Portfolio" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="Company Info" url="http://www.google.com/" target="_blank"> </subButton>
+			</submenu>
+	</button>
+	
+	<button title="Services" toggleSubMenu="1" url="http://www.google.com/" target="_blank">
+			<submenu>
+			<subButton title="About Us" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="Services" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="Client List" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="Our Portfolio" url="http://www.google.com/" target="_blank"> </subButton>
+			</submenu>
+	</button>
+	
+	<button title="Client List" toggleSubMenu="1" url="http://www.google.com/" target="_blank">
+			<submenu>
+				<subButton title="Support" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="About Us" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="Services" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="Client List" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="Our Portfolio" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="Company Info" url="http://www.google.com/" target="_blank"> </subButton>
+			</submenu>
+	</button>
+	
+	<button title="Support" toggleSubMenu="1" url="http://www.google.com/" target="_blank">
+			<submenu>
+				<subButton title="About Us" url="http://www.google.com/" target="_blank"> </subButton>
+				<subButton title="Company Info" url="http://www.google.com/" target="_blank"> </subButton>
+			</submenu>
+	</button>
+	
+	<button title="Contact Us" toggleSubMenu="0" url="http://www.google.com/" target="_blank">
+			<submenu>
+				<subButton title="DOWNLOADS OUR HISTORY" url="http://www.google.com/" target="_blank"> </subButton>
+			</submenu>
+	</button>
+	
+</horizontal_menu>
+

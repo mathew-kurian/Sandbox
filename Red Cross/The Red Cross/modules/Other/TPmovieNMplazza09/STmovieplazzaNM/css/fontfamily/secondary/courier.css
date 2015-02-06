@@ -1,0 +1,19 @@
+ /* 
+=================================================
+# Filename : courier.css
+# Description : Font Family Css rules 
+# Author : TemplatePlazza
+# Author Url : http://www.templateplazza.com
+# Copyright (C) 2009 TemplatePlazza.com
+# All rights reserved.
+=================================================
+*/
+.contentheading,
+.contentpagetitle,
+.componentheading,
+td.contentheading,
+div.componentheading,
+h1,h2,h3{
+	font-family:"Courier New",Courier,FreeMono,"Nimbus Mono L","Liberation Mono",monospace;
+	line-height:200%;
+	}

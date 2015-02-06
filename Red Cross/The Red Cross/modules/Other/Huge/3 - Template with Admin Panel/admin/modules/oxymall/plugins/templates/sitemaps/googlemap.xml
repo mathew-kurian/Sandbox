@@ -1,0 +1,15 @@
+<!--S:MapGroup-->
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+	{DATA}
+</urlset>
+<!--E:MapGroup-->
+
+<!--S:MapElement-->
+  <url>
+    <loc>{URL}</loc>
+    <changefreq>always</changefreq>
+    <priority>{PRIORITY}</priority>
+  </url>
+<!--E:MapElement-->
+
+<!--S:MapEmpty-->

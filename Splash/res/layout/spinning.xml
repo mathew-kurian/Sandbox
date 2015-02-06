@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  <ImageView android:layout_width="200dp"
+		android:layout_height="200dp" android:layout_marginLeft="10dp"
+		android:layout_marginRight="0dp" android:layout_marginTop="0dp"
+		android:background="@drawable/player_sun" android:gravity="center"
+		android:layout_weight="30" android:id="@+id/rtsun"
+		android:layout_centerHorizontal="true" />
+		
+		<ImageView android:layout_width="200dp"
+		android:layout_height="200dp" android:layout_marginLeft="10dp"
+		android:layout_marginRight="0dp" android:layout_marginTop="0dp"
+		android:background="@drawable/blackhole" android:gravity="center"
+		android:layout_weight="30" android:id="@+id/rtblackhole"
+		android:layout_centerHorizontal="true" android:layout_below="@+id/rtsun"/>
+    
+</RelativeLayout>
+

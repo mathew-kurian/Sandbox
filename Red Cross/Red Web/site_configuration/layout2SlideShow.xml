@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	<topMargin>0</topMargin>
+	<bottomMargin>25</bottomMargin>
+	<!--
+		alignX Options 
+		The alignX is the distance from the left your page will start
+		Static X    				  eg.  <alignX>175</alignX>      	(this will make your content start 175 pixels from the left)
+		Left aligned X    	  eg.  <alignX>left</alignX>    		(this will make your content be left aligned)
+		Center aligned X      eg.  <alignX>center</alignX>  		(this will make your content be centered)
+		Right aligned X    	  eg.  <alignX>right</alignX>			(this will make your content be right aligned)
+	-->
+	<alignX>center</alignX><!--Horizontal Alignment-->
+	<!--
+		alignY Options 
+		The alignY is the distance from the top your page will start
+		Static Y    				  eg.  <alignY>175</alignY>      	(this will make your content start 175 pixels from the top)
+		Top aligned Y    	  	eg.  <alignY>top</alignY>     	(this will make your content be aligned vertically under the topMargin)
+		Bottom aligned Y      eg.  <alignY>bottom<alignY>   	(this will make your content be aligned vertically and sit on the bottomMargin)
+		Center aligned Y    	eg.  <alignY>center<alignY>			(this will make your content be aligned vertically between the topMargin and bottomMargin)
+	-->
+	<alignY>center</alignY><!-- Vertical Alignment-->
+
+	<speed>5000</speed><!-- Time in milliseconds 5000 = 5 seconds -->
+	<width>620</width>
+	<height>275</height>
+	
+	<displayInfoText>true</displayInfoText>
+	
+	<displayButtons>true</displayButtons>
+	
+	<hoverTextBgColor>0xffffff</hoverTextBgColor>
+	<hoverTextBgOpacity>.55</hoverTextBgOpacity>
+	<hoverTextBgHeight>62</hoverTextBgHeight>
+	
+	<buttonBgColor>0x545454</buttonBgColor>
+	<buttonBgColorOpacity>0</buttonBgColorOpacity>
+	<buttonTextColor>0xcfcfcf</buttonTextColor>
+	<buttonSelBgColor>0x00b7dc</buttonSelBgColor>
+	<buttonSelBgColorOpacity>0</buttonSelBgColorOpacity>
+	<buttonSelTextColor>0x00b7dc</buttonSelTextColor>
+	
+	<slide>
+		<url>site_images/pages/layout2/slide1.jpg</url>
+		<ImageTitle><![CDATA[<h1>Enable / Disable</h1><p>This Information Text from XML</p>]]></ImageTitle>
+	</slide>
+	<slide>
+		<url>site_images/pages/layout2/slide2.jpg</url>
+		<ImageTitle><![CDATA[<h1>Enable / Disable</h1><p>This Information Text from XML</p>]]></ImageTitle>
+	</slide>
+	<slide>
+		<url>site_images/pages/layout2/slide3.jpg</url>
+		<ImageTitle><![CDATA[<h1>Enable / Disable</h1><p>This Information Text from XML</p>]]></ImageTitle>
+	</slide>
+	<slide>
+		<url>site_images/pages/layout2/slide4.jpg</url>
+		<ImageTitle><![CDATA[<h1>Enable / Disable</h1><p>This Information Text from XML</p>]]></ImageTitle>
+	</slide>
+</xmlObject>
+
+
+			

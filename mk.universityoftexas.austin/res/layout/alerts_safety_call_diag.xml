@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/progress_diag"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background = "@drawable/alerts_safety_call_dialog_bg">
+
+        <TextView
+            android:id="@+id/alerts_safety_call_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="You will now exit the android application and proceed with your call."
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:layout_marginTop="70dp" android:layout_marginRight="150dp"/>
+
+        <Button
+            android:id="@+id/alerts_safety_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:background="@drawable/alerts_safety_call_dialog_call_icon" android:layout_marginTop="60dp"/>
+
+</RelativeLayout>

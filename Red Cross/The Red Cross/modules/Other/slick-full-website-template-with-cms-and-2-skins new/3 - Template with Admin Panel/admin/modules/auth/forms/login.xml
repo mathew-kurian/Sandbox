@@ -1,0 +1,38 @@
+<form
+	
+	b_order="true"
+	alternance="true"
+	title="Login into your account"
+	width="500"
+	f_ormtag="true"
+	>
+
+	<action>{SELF.LINK}</action>
+	<name>edit</name>
+
+	
+	<buttons>		
+		<butt_login location="javascript:document.forms[0].submit();" button="login" />
+		<butt_reset location="javascript:document.forms[0].reset();" button="reset" />
+
+	</buttons>
+
+	<redirect>{SELF.LINK}</redirect>
+
+	<fields>
+
+		<redirect type="hidden" />
+		<redirect_encode type="hidden" />
+
+		<username type="textbox" size="31" title="Username" r_equired="true" validate="A:2:200">
+<!--			<description>
+			</description>-->
+		</username>
+		<password type="password"  size="31" title="Password" r_equired="true" validate="A:2:200"/>
+
+		<check type="checkIMG" src="index.php?security" title="Check" />
+
+		<remember type="checkbox" checked="1" value="1" suffix="remember me on this computer." />
+	</fields>
+
+</form>

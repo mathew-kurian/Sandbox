@@ -1,0 +1,54 @@
+<form>
+	<title>{TITLE} Projects </title>
+	<action>{SELF.FILE}</action>
+	<name>edit</name>
+	<width>100%</width>
+	<method>get</method>
+
+	<formtag>true</formtag>
+	<border>true</border>
+	<alternance>true</alternance>
+	
+	
+	<buttons>		
+		<set>
+			<header>true</header>
+		</set>
+
+	</buttons>
+
+	<redirect>index.php?sub=units</redirect>
+
+	<tabs>
+		<t width="100" title="Module Settings" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.user&action=details&mod_id={MODULE_ID}" restricted="eval:$GLOBALS[_USER]['user_level'];"/>
+		<t0 width="80" title="Header" link="index.php?mod=oxymall&sub=oxymall.plugin.portfolio.landing&module_id={MODULE_ID}&action=details" />
+		<t1 width="80" title="Categories" link="index.php?mod=oxymall&sub=oxymall.plugin.portfolio.cats&module_id={MODULE_ID}" />
+		<t2 active="true" width="80" title="Projects" link="index.php?mod=oxymall&sub=oxymall.plugin.portfolio.projects&module_id={MODULE_ID}" />
+		<t_video width="80" title="Video Tutorial" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.help&module_id={MODULE_ID}" restricted="eval:$GLOBALS['no_tutorials'];"/>
+	</tabs>
+
+	<fields>
+
+		<mod type="hidden" default="$_GET['mod']" action="eval"/>
+		<sub type="hidden" default="$_GET['sub']" action="eval"/>
+		<module_id type="hidden" default="$_GET['module_id']" action="eval"/>
+		<advanced type="hidden" default="0" />
+	</fields>
+
+	<search>
+			<fields>
+
+				<project_cat title="Category" type="droplist" empty="true" onchange="document.forms[0].submit();">
+					<relation table="plugin:portfolio_cats" id="cat_id" text="cat_title" order="cat_order ASC">
+						<condition eval="true" import=" ' module_id=' . $_GET[module_id] . '';"/>
+					</relation>
+				</project_cat>
+
+			</fields>
+
+			<sql_fields>
+				<field name="project_cat">=</field>			
+			</sql_fields>
+
+	</search>
+</form>

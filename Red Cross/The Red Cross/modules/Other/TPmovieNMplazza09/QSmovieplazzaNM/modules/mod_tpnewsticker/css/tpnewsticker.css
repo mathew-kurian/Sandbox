@@ -1,0 +1,48 @@
+/**
+* This file is a part of mod_tpnewsticker package
+* Author: http://www.templateplazza.com
+* Creator: Jerry Wijaya ( me@jerrywijaya.com )
+*/
+.tpnewsticker_nav {
+	float:left;
+	margin-right:5px;}
+.tpnewsticker {
+	float:left;
+	text-align:left;
+	padding: 2px 0 2px 0;
+	text-align:left;
+	}
+.hide {
+	visibility: hidden;
+	position: absolute;
+	top: -400px;
+}
+.tpndefwrp {
+	text-align:left;
+	padding-left:10px;
+	height:20px;
+	}
+.ticker_text_wrp {
+	float:left;
+	padding: 2px 0 2px 0;}
+.moostick{
+	display: block;
+	height: 1.1em;
+	margin: 0;
+	padding: 2px 0 2px 0;
+	overflow: hidden;
+	text-align:left;
+}
+
+.moostick li {
+	display: block;
+	list-style-type: none;
+	margin: 0 auto 0 auto;
+	padding: 0;
+	text-align:left;
+}
+
+.moostick .show {
+	visibility: visible;
+	opacity: 1;
+}

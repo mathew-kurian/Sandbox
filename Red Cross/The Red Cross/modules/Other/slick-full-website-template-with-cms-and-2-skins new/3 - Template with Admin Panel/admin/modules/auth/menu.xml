@@ -1,0 +1,23 @@
+<menu>
+<!--
+	<group name="Auth Settings" level="0">		
+		<links>
+			<link name="Messages">index.php?mod=auth&sub=messages</link>
+			<link name="Users">index.php?mod=auth&sub=users</link>
+		</links>
+	</group>
+
+	<group name="My Profile" level="1">		
+		<link>index.php?mod=auth&sub=profile</link>
+	</group>
+-->
+	<group name="Administrators" level="0">		
+			<link>index.php?mod=auth&sub=users</link>
+	</group>
+
+<!--
+	<group name="Logout">
+			<link>index.php?mod=auth&sub=logout</link>
+	</group>
+-->
+</menu>

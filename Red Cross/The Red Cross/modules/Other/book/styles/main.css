@@ -1,0 +1,135 @@
+﻿/* start content about, clients, news, ...*/ 
+/* pixel fonts allways at 8px */
+date {  /* date on news */
+	display:inline;
+	letter-spacing:1px;
+	
+	font-size:8px;
+	color:#FFFFFF;
+}
+
+dateClient { /* date on clients */
+	letter-spacing:1px;
+	font-size:8px;
+	color:#FFCC00;
+}
+
+
+p { 
+	letter-spacing:1px;
+	font-size:8px;
+	color:#cccccc;
+}
+
+h1 {
+	letter-spacing:1px;
+	font-size:8px;
+	color:#FFFF00;
+}
+
+h2 {
+	letter-spacing:1px;
+	font-size:8px;
+	color:#FFFFFF;
+}
+
+a {
+	letter-spacing:1px;
+	font-size:8px;
+	color:#FFCC00;
+}
+
+a:hover {
+	letter-spacing:1px;
+	font-size:8px;
+	color:#FFFF00;
+}
+
+li {
+	letter-spacing:1px;
+	color:#cccccc;
+	font-size:8px;
+	margin-left:15;
+}
+
+/*end content*/
+
+
+loader {  /* main loader*/
+	display:"inline";
+	letter-spacing:1px;
+	font-size:8px;
+	color:#ffffff;
+}
+
+loader_desc {  /* kind of data loading*/
+	display:"inline";
+	letter-spacing:1px;
+	font-size:8px;
+	color:#FFCC00;
+}
+
+percentThumb { /*loader percent on thumb  better dont change size*/
+	font-size:40px;
+	color:#FFFFFF;
+}
+
+title {  /*title on left pages*/
+	display:inline;
+	letter-spacing:1px;
+	font-size:16px;
+	color:#CCCCCC;
+}
+
+subtitle { /*title on left pages*/
+	display:inline;
+	letter-spacing:1px;
+	font-size:16px;
+	color:#ffffff;
+}
+
+description { /*description on left pages*/
+	letter-spacing:1px;
+	font-size:8px;
+	color:#ffffff;
+}
+
+
+mtitle { /*main title*/
+	letter-spacing:1px;
+	display:block;
+	text-align:center;
+	font-size:16px;
+	color:#FFFFFF;
+}
+
+
+mdescription { /*main description*/
+	display:block;
+	text-align:center;
+	letter-spacing:1px;
+	font-size:8px;
+	color:#CCCCCC;
+}
+
+
+info {   /*  info on bottom of popup menu */
+	display:block;
+	text-align:center;
+	letter-spacing:1px;
+	font-size:8px;
+	color:#FFFF00;
+}
+
+info_btn {
+	letter-spacing:1px;
+	font-size:8px;
+	color:#FFFFFF;
+}
+
+info_btn_over {
+	letter-spacing:1px;
+	font-size:8px;
+	color:#FFFF00;
+}
+

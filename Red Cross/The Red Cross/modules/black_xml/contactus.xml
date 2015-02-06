@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<contactData buttonColor = "0xffff00">
+
+<lgimage path = "images/contact/model.jpg"><![CDATA[<font color = "#ffff00">XML Contact Form with php</font><br>Set all of the elements for the contact form in xml, including your domain, company name, address, phone numbers and email addresses. Then just update the php script with your email address or multiple email addresses. The left text fields are html formatted text, which means you can format the text using many html tags, such as font size and color. You can  also add links.]]></lgimage>
+
+</contactData>

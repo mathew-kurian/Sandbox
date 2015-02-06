@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/535/trunk/branches/GreatWhite/src/org/papervision3d/core/math/util
+END
+TriangleUtil.as
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/535/trunk/branches/GreatWhite/src/org/papervision3d/core/math/util/TriangleUtil.as
+END
+InterpolationUtil.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/454/trunk/branches/GreatWhite/src/org/papervision3d/core/math/util/InterpolationUtil.as
+END
+Intersection.as
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/459/trunk/branches/GreatWhite/src/org/papervision3d/core/math/util/Intersection.as
+END
+ClassificationUtil.as
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/472/trunk/branches/GreatWhite/src/org/papervision3d/core/math/util/ClassificationUtil.as
+END

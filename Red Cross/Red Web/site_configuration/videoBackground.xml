@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	<topMargin>0</topMargin>
+	<bottomMargin>0</bottomMargin>
+	<!--
+		alignX Options 
+		The alignX is the distance from the left your page will start
+		Static X    				  eg.  <alignX>175</alignX>      	(this will make your content start 175 pixels from the left)
+		Left aligned X    	  eg.  <alignX>left</alignX>    		(this will make your content be left aligned)
+		Center aligned X      eg.  <alignX>center</alignX>  		(this will make your content be centered)
+		Right aligned X    	  eg.  <alignX>right</alignX>			(this will make your content be right aligned)
+	-->
+	<alignX>center</alignX><!--Horizontal Alignment-->
+	<!--
+		alignY Options 
+		The alignY is the distance from the top your page will start
+		Static Y    				  eg.  <alignY>175</alignY>      	(this will make your content start 175 pixels from the top)
+		Top aligned Y    	  	eg.  <alignY>top</alignY>     	(this will make your content be aligned vertically under the topMargin)
+		Bottom aligned Y      eg.  <alignY>bottom<alignY>   	(this will make your content be aligned vertically and sit on the bottomMargin)
+		Center aligned Y    	eg.  <alignY>center<alignY>			(this will make your content be aligned vertically between the topMargin and bottomMargin)
+	-->
+	<alignY>center</alignY><!-- Vertical Alignment-->
+	
+	
+	<contentWidth>414</contentWidth>
+	<!--<contentHeight>1505</contentHeight>-->
+	<contentHeight>147</contentHeight>
+	<contentBgColor>0x0C0C0C</contentBgColor>
+	<contentBgOpacity>0</contentBgOpacity>
+	
+	
+	<useHoverScroll>false</useHoverScroll>
+	<useManualScroll>true</useManualScroll>
+	
+	<!-- 	These settings apply 
+				if useManualScroll is true 
+				and useHoverScroll is false   -->
+	<scrollBarWidth>19</scrollBarWidth>
+	<scrollBarHeight>200</scrollBarHeight>
+	<scrollBaseColor>0xffffff</scrollBaseColor>
+	<addTiledPatternToScrollBase>false</addTiledPatternToScrollBase>
+	<patternUrl>site_images/patterns/edgePattern.gif</patternUrl>
+	<scrollBaseOpacity>1</scrollBaseOpacity>
+	<scrollerColor>0x000000</scrollerColor>
+	<scrollerOpacity>1</scrollerOpacity>
+	
+	
+	
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>true</displayHtmlArticles>
+	
+	<image>
+		<x>0</x>
+		<y>0</y>
+		<imageURL>site_images/pages/videoBackground/videoBackground.gif</imageURL>
+	</image>
+
+	
+</xmlObject>

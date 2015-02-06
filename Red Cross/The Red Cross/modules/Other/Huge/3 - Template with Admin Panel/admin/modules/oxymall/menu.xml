@@ -1,0 +1,16 @@
+<menu>
+	<group name="Dashboard">
+		<link>index.php</link>
+	</group>
+
+	<group name="Configuration" level="0">
+		<links>
+			<link name="Global Settings">index.php?mod=oxymall&sub=oxymall.plugin.modules.settings</link>
+			<link name="Installed Skins">index.php?mod=oxymall&sub=oxymall.plugin.modules.skins</link>
+			<link name="Installed Modules">index.php?mod=oxymall&sub=oxymall.plugin.modules.default</link>
+			<link name="Enabled Modules">index.php?mod=oxymall&sub=oxymall.plugin.modules.user</link>
+			<link name="Install Storage Folders">index.php?mod=oxymall&sub=oxymall.plugin.modules.folders</link>
+		</links>
+	</group>
+
+</menu>

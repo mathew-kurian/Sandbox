@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<siteData>
+
+<header>icons/logo.png</header>
+
+<template 
+       txtColor = "0x333333"
+       callout = "0xffff00"
+       sendfriendBtn = "0xffff00"
+       fullscreenBtn = "0xffff00"
+       preloaderColor = "0xffff00"
+       >© 2010 XML BLACK TEMPLATE V2. ALL RIGHTS RESERVED.</template>
+
+<icon 
+       url = "http://www.facebook.com"
+       label = "FACEBOOK"
+       >icons/facebook.png</icon>
+
+<icon 
+       url = "http://www.myspace.com"
+       label = "MYSPACE"
+       >icons/myspace.png</icon>
+
+<icon 
+       url = "http://www.twitter.com"
+       label = "TWITTER"
+       >icons/twitter.png</icon>
+
+<icon 
+       url = "http://www.linkedin.com"
+       label = "LINKEDIN"
+       >icons/linkedin.png</icon>
+
+<icon 
+       url = "http://www.flickr.com"
+       label = "FLICKR"
+       >icons/flickr.png</icon>
+
+</siteData>

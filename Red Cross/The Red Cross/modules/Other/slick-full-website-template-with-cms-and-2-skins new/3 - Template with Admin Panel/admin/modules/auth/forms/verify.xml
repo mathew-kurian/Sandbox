@@ -1,0 +1,22 @@
+<form
+	
+	b_order="true"
+	alternance="true"
+	title="Login into your account"
+	width="500"
+	f_ormtag="true"
+	>
+
+	<action>{SELF.LINK}</action>
+	<name>edit</name>
+
+	<redirect>{SELF.LINK}</redirect>
+
+	<fields>
+
+		<key type="textbox" size="53:32" title="Key" required="true" validate="A:2:200" default="$_GET[key]" action="eval">		
+			<description>Enter the verification code you got by mail. After you click send you will get a mail with your new password.</description>
+		</key>
+	</fields>
+
+</form>

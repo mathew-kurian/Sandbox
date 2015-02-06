@@ -1,0 +1,99 @@
+template.xml
+
+-----------------------------------------
+How do I add my logo?
+-----------------------------------------
+Save your logo in the "icons" folder. It can be a jpg, png, gif or swf. Open template.xml in Notepad or Dreamweaver. Go to the header tag and update the path.
+
+Example:
+
+<header>icons/logo.png</header>
+
+-----------------------------------------
+How do I change the copyright footer?
+-----------------------------------------
+Go to the template node in template.xml, and change the copyright to your footer.
+
+Example: 
+
+>© 2010 XML BLACK TEMPLATE V2. ALL RIGHTS RESERVED.</template>
+
+-----------------------------------------
+How do I change the footer color?
+-----------------------------------------
+Go to the txtColor attribute within the template node and change the 6 digit color value.
+
+Example:
+
+txtColor = "0x333333"
+
+-----------------------------------------
+How do I change the callout text color?
+-----------------------------------------
+Go to the callout attribute within the template node and change the 6 digit color value.
+
+Example:
+
+callout = "0xffff00"
+
+--------------------------------------------------
+How do I change the send to a friend button color?
+--------------------------------------------------
+Go to the sendfriendBtn attribute within the template node and change the 6 digit color value.
+
+Example:
+
+sendfriendBtn = "0xffff00"
+
+--------------------------------------------------
+How do I change the fullscreen button color?
+--------------------------------------------------
+Go to the fullscreenBtn attribute within the template node and change the 6 digit color value.
+
+Example:
+
+fullscreenBtn = "0xffff00"
+
+---------------------------------------------------------------------------------------------------------
+How do I change the swf preloader color? (Not the site preloader, this must be manually changed in flash)
+---------------------------------------------------------------------------------------------------------
+Go to the preloaderColor attribute within the template node and change the 6 digit color value.
+
+Example:
+
+preloaderColor = "0xffff00"
+
+----------------------------------------------------
+How do I add my social network url to the icons?
+----------------------------------------------------
+Go to the url attribute within the icon nodes and change the url to your personal page.
+
+Example:
+
+url = "http://www.facebook.com/your_user_name"
+
+----------------------------------------------------
+How do I change the icon labels?
+----------------------------------------------------
+Go to the label attribute within the icon nodes and change the name.
+
+Example:
+
+label = "FACEBOOK"
+
+----------------------------------------------------
+How do I change the icon image?
+----------------------------------------------------
+First save your image in the icon folder, can be a jpg, png, gif or swf.
+Go to the icon node in the xml and change the path.
+
+Example:
+
+>icons/facebook.png</icon>
+
+label = "FACEBOOK"
+
+----------------------------------------------------
+Can I delete some or all of the icons?
+----------------------------------------------------
+Yes just delete the icon node/s you dont want in the xml.

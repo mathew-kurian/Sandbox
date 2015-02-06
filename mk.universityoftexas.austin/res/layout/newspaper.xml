@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mk.universityoftexas.austin.LightingLayoutRelative xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/log"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/newspaper_bg"
+        android:orientation="vertical" >
+
+        <mk.universityoftexas.austin.OverlayProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutsfsdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/newspaper_page" >
+
+                <LinearLayout
+                    android:id="@+id/relativeLayout2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="65dp"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#000000"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="UPDATED: "
+                            android:textColor="#000000"
+                            android:textSize="6dp" />
+
+                        <TextView
+                            android:id="@+id/newspaper_update_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="02/11/23"
+                            android:textColor="#000000"
+                            android:textSize="6dp" />
+
+                        <TextView
+                            android:id="@+id/newspaper_edition_text"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="fill_horizontal"
+                            android:gravity="center_horizontal"
+                            android:paddingLeft="180dp"
+                            android:text="EDITION: 14"
+                            android:textColor="#000000"
+                            android:textSize="6dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout01"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#000000"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:id="@+id/linearLayout1"
+                            android:layout_width="165dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal" >
+
+                            <ScrollView
+                                android:id="@+id/newspaper_highlights_scroll"
+                                android:layout_width="164dp"
+                                android:layout_height="wrap_content"
+                                android:fadingEdgeLength="0dp"
+                                android:scrollbars="none" >
+
+                                <LinearLayout
+                                    android:id="@+id/newspaper_highlights_layout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical" >
+                                </LinearLayout>
+                            </ScrollView>
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/relativeLayout2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="5dp" >
+
+                            <HorizontalScrollView
+                                android:id="@+id/newspaper_scroll_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentTop="true"
+                                android:fadingEdgeLength="0dp"
+                                android:scrollbars="none" >
+
+                                <LinearLayout
+                                    android:id="@+id/newspaper_layout_horizontal"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_alignParentRight="true"
+                                    android:orientation="horizontal" >
+                                </LinearLayout>
+                            </HorizontalScrollView>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/newspaper_update_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/newspaper_update" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</mk.universityoftexas.austin.LightingLayoutRelative>

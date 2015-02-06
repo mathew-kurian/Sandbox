@@ -1,0 +1,80 @@
+ /* 
+=================================================
+# Filename : ie6.css
+# Description : Specific IE6 css hacks
+# Author : TemplatePlazza
+# Author Url : http://www.templateplazza.com
+# Copyright (C) 2009 TemplatePlazza.com
+# All rights reserved.
+=================================================
+*/
+html{
+ overflow-x: hidden;}
+ 
+.tool-tip {
+/*	background:url(../images/bgtooltipsie.png) top center no-repeat;*/
+}
+.clrfix {
+	height:1px;}
+
+div.moduletable td,
+div.moduletable table,
+div.moduletable-blue table,
+div.moduletable-red table,
+div.moduletable-box table, 
+div.moduletable-boxblue table, 
+div.moduletable-boxred table, 
+div.moduletable-nobox table,
+#tpwrapper-inner-right table,
+#tpblock-left table {
+	width:85%;}
+a.readon:link, a.readon:visited, a.readon:active{
+	width:100px;
+
+}
+	
+#tpwrapper-page-inner,
+#tpwrapper-page #tpblock-top {
+	height:1%;}
+
+/*2nd rounded*/
+#tpwrapper-inner-left,
+#tpwrapper-inner-right,
+#tpblock-left {
+	overflow:hidden;}
+.tpsubtitle{
+	padding:3px;
+	margin-left:10px;
+	font-size:11px;
+	line-height:38px;
+	color: #fff;
+	font-weight:400;
+	font-weight:700;
+	background-image:none;
+	background-color:transparent;
+	height:10px;
+
+}
+#tp-cssmenu li {
+	width:12em;
+}
+
+#tpwrapper-page #tpblock-top  {
+	background-image:none;
+	}
+#tpwrapper-page #tpblock-tpmenu {
+	background-image:none;
+	padding:0;
+	margin-bottom:0;}
+.tpmenuid1,
+.tpmenuid2,
+.tpmenuid3,
+.tpmenuid4,
+.tpmenuid5,
+.tpmenuid6,
+.tpmenuid7,
+.tpmenuid8 ,
+#tpmod-user8 .moduletable{
+	background-image:none;}
+
+

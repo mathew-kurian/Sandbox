@@ -1,0 +1,112 @@
+contactus.xml and contactdata.xml
+
+-----------------------------------------------
+How do I change the contact us image?
+-----------------------------------------------
+
+Save your image inside images/contact folder.
+Open contactus.xml in Notepad or Dreamveaver. In the xml go to the "path" attribute for the lgimage node and update the path.
+
+Example:
+  	
+<lgimage path = "images/about/gun.jpg">
+
+
+-----------------------------------------------
+How do I edit the contact us description?
+-----------------------------------------------
+
+Go to the lgimage node, and edit the text between the <![CDATA[ text goes here ]]> tags.
+
+Example:
+
+<lgimage path = "images/contact/model.jpg"><![CDATA[<font color = "#ffff00">XML Contact Form with php</font><br>Set all of the elements for the contact form in xml, including your domain, company name, address, phone numbers and email addresses. Then just update the php script with your email address or multiple email addresses. The left text fields are html formatted text, which means you can format the text using many html tags, such as font size and color. You can  also add links.]]></lgimage>
+
+You can use html tags to change color, font size etc. If you change font sizes I suggest changing the dynamic text field from bitmap to anti-alias for readability and use a non pixel font, otherwise you will get blurry text.
+
+-------------------------------------------------
+How do I change the button color?
+-------------------------------------------------
+
+In the xml, go to the buttonColor attribute and change the value.
+
+Example:
+
+buttonColor = "0xffff00"
+
+---------------------------------------------------------
+How do I add my comapany name, address, phone,email etc?
+---------------------------------------------------------
+
+Open contactdata.xml. Update the first 4 contact nodes with your company info.
+
+Example:
+
+<contact><![CDATA[<font size ="24">The Creative Agency</font>]]></contact>
+
+<contact><![CDATA[0000 Sunset Blvd<br>Suite 2000<br>Los Angeles<br>CA 90025<br>USA]]></contact>
+
+<contact><![CDATA[<font color ="#555555">Phone 1 310 358 0000<br>Cell 1 310 358 0000<br>Fax 1 310 358 0000</font>]]></contact>
+
+<contact><![CDATA[<a href="mailto:info@mywebsitedomain.com">info@mywebsitedomain.com</a><br><a href="mailto:customerservice@mywebsitedomain.com">customerservice@mywebsitedomain.com</a>]]></contact>
+
+---------------------------------------------------------
+How do I edit the contact field names?
+---------------------------------------------------------
+
+You can change the contact field names if you want, simply edit the contact nodes 5-7 on contactdata.xml
+
+Example:
+
+<contact><![CDATA[Name]]></contact>
+
+<contact><![CDATA[Email]]></contact>
+
+<contact><![CDATA[Comments]]></contact>
+
+---------------------------------------------------------
+How do I edit the contact auto messages?
+---------------------------------------------------------
+
+To change the contact automated messages, simply edit the contact nodes 9-11. These messages indicate if there message was successfully sent  or not. 
+
+Example:
+
+<contact>Message being sent.</contact>
+
+<contact>Thank you. Message successfully sent. You will be contacted by a representative shortly.</contact>
+
+<contact>Alert. Error occurred while processing your message. Please try again or call 1 310 358 0000.</contact>
+
+
+---------------------------------------------------------
+How do I get the contact form to work on my website?
+---------------------------------------------------------
+
+To change the contact automated messages, simply edit the contact nodes 9-11. These messages indicate if there message was successfully sent  or not. 
+
+Example:
+
+<contact>Message being sent.</contact>
+
+<contact>Thank you. Message successfully sent. You will be contacted by a representative shortly.</contact>
+
+<contact>Alert. Error occurred while processing your message. Please try again or call 1 310 358 0000.</contact>
+
+---------------------------------------------------------
+How do I get the contact form to work on my website?
+---------------------------------------------------------
+
+1. In contactdata.xml go to the 8th contact node and update with your website domain.
+
+Example:
+
+<contact>http://www.yourdomain.com/sendmail.php</contact>
+
+2. You must make sure your webserver supports php 5 and has it installed and activated.
+
+3. Do not nest sendmail.php in folders, keep it in the root directory of your webserver along with contactus.swf
+
+4. Open "sendmail.php" in Dreamweaver and add your email or multiple emails on the following line:
+
+$to = "rob@yahoo.com,frank@hotmail.com";

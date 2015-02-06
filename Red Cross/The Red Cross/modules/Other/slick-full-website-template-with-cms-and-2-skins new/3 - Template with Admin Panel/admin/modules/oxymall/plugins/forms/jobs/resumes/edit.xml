@@ -1,0 +1,46 @@
+<form>
+	<title>Resume Details</title>
+	<action>{SELF.URI.STORE}</action>
+	<name>edit</name>
+	<width>100%</width>
+	<alternance>true</alternance>
+	<encoding>multipart/form-data</encoding>
+
+
+	<formtag>true</formtag>
+	<border>true</border>
+
+	
+	<buttons>		
+		<set>
+			<header>true</header>
+		</set>
+
+
+		<button_back onclick="" button="return">
+			<location>{PRIVATE.FORM_PREVIOUS_PAGE}</location>
+		</button_back>
+
+	</buttons>
+
+	<redirect>{PHP}?sub=accounts</redirect>
+
+	<fields>
+
+		<resume_id  type="hidden" />
+		<resume_code type="hidden" />
+		<resume_date type="date" params="F j, Y g:i a" title="Date" editable="false"/>
+		<resume_job type="relation" title="Job" editable="false">
+			<relation table="plugin:jobs_items" id="item_id" text="item_title" />
+		</resume_job>
+
+		<subtitle title="Contact" type="subtitle"/>
+		<resume_name type="text" title="Name" />
+		<resume_mail type="text" title="E-Mail" />
+		<resume_phone type="text" title="Phone" />
+		<resume_note type="text" title="Note" />
+		<resume_cv type="text" title="CV" restricted="eval:!$_GET[resume_cv];" forcevalue="Download Resume" link="../resumes/{RESUME_CODE}" />
+
+	</fields>
+
+</form>

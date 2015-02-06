@@ -1,0 +1,44 @@
+<!--S:Main-->
+<AboutUs>
+	<settings>
+		<contentWidth>{SET_CONTENTWIDTH}</contentWidth>
+		<contentHeight>{SET_CONTENTHEIGHT}</contentHeight>
+		<smilyWidth>{SET_SMILYWIDTH}</smilyWidth>
+		<smilyHeight>{SET_SMILYHEIGHT}</smilyHeight>
+		<script>{SET_SCRIPT}</script>
+	</settings>
+	<content title="{MOD_TITLE}" titleForm="{SET_FORM_TITLE}">
+		{ITEMS}
+	</content>
+
+	{SMILES}
+</AboutUs>
+<!--E:Main-->
+
+<!--S:Group-->
+	{DATA}
+<!--E:Group-->
+
+<!--S:Element-->
+		<entry name="{ITEM_NAME}" approved="1">
+			<![CDATA[{ITEM_BODY}]]>
+		</entry>
+<!--E:Element-->
+
+<!--S:Empty-->
+
+<!--E:Empty-->
+
+<!--S:ImagesGroup-->
+	<smilies>
+		{DATA}
+	</smilies>
+<!--E:ImagesGroup-->
+
+<!--S:ImagesElement-->
+		<item src="../../guestbook/{IMG_ID}.png" identifier="{IMG_TEXT}"></item>
+<!--E:ImagesElement-->
+
+<!--S:ImagesEmpty-->
+
+<!--E:ImagesEmpty-->

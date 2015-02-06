@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<content Name="ABOUT">
+   <item Border="10" Width="500" Height="200" ><![CDATA[<font color="#ffffff" size="30"><b>Standalone Galleries</b></font><br><br>You can use the Media Gallery Component multiple times throughout this template by creating a new content XML file and linking it to the main menu. You can then use seperate galleries for types of content and use it in different sections of this template. All galleries use the same Media Gallery SWF file so you don't have create seperate FLA's and SWF's - standalone galleries can be created by editing the XML.]]></item>
+</content>

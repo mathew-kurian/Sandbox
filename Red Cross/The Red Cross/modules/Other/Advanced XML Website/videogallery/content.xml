@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<content Name="CATEGORIES">
+  <gallery Name="NIGHT DRIVE">
+    <video Thumb="videogallery/gallery1/thumb1.jpg" VideoClip="videogallery/gallery1/video1.flv" Title="City Lights">
+	<copy><![CDATA[This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.]]></copy>
+    </video>
+    <video Thumb="videogallery/gallery1/thumb2.jpg" VideoClip="videogallery/gallery1/video2.flv" Title="Traffic Lights">
+	<copy><![CDATA[This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.]]></copy>
+    </video>
+    <video Thumb="videogallery/gallery1/thumb3.jpg" VideoClip="videogallery/gallery1/video3.flv" Title="S-Bend">
+	<copy><![CDATA[This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.]]></copy>
+    </video>
+    <video Thumb="videogallery/gallery1/thumb4.jpg" VideoClip="videogallery/gallery1/video4.flv" Title="Freeway">
+	<copy><![CDATA[This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.]]></copy>
+    </video>
+    <video Thumb="videogallery/gallery1/thumb1.jpg" VideoClip="videogallery/gallery1/video1.flv" Title="City Lights">
+	<copy><![CDATA[This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.]]></copy>
+    </video>
+    <video Thumb="videogallery/gallery1/thumb2.jpg" VideoClip="videogallery/gallery1/video2.flv" Title="Traffic Lights">
+	<copy><![CDATA[This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.]]></copy>
+    </video>
+    <video Thumb="videogallery/gallery1/thumb3.jpg" VideoClip="videogallery/gallery1/video3.flv" Title="S-Bend">
+	<copy><![CDATA[This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.]]></copy>
+    </video>
+    <video Thumb="videogallery/gallery1/thumb4.jpg" VideoClip="videogallery/gallery1/video4.flv" Title="Freeway">
+	<copy><![CDATA[This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.]]></copy>
+    </video>
+    <video Thumb="videogallery/gallery1/thumb1.jpg" VideoClip="videogallery/gallery1/video1.flv" Title="City Lights">
+	<copy><![CDATA[This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.]]></copy>
+    </video>
+  </gallery>
+  <gallery Name="MORE VIDEOS">
+    <video Thumb="videogallery/gallery1/thumb1.jpg" VideoClip="videogallery/gallery1/video1.flv" Title="City Lights">
+	<copy><![CDATA[This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.]]></copy>
+    </video>
+    <video Thumb="videogallery/gallery1/thumb2.jpg" VideoClip="videogallery/gallery1/video2.flv" Title="Traffic Lights">
+	<copy><![CDATA[This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.]]></copy>
+    </video>
+    <video Thumb="videogallery/gallery1/thumb3.jpg" VideoClip="videogallery/gallery1/video3.flv" Title="S-Bend">
+	<copy><![CDATA[This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.]]></copy>
+    </video>
+    <video Thumb="videogallery/gallery1/thumb4.jpg" VideoClip="videogallery/gallery1/video4.flv" Title="Freeway">
+	<copy><![CDATA[This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.]]></copy>
+    </video>
+  </gallery>
+</content>

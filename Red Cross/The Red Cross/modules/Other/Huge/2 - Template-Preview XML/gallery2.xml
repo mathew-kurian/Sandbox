@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MediaGallery>
+	
+	<settings
+	
+		distanceBetweenMenuButtons="14"
+		
+		thumbWidth="90"
+		
+		thumbHeight="68"
+		
+		horizontalThumbSpace="9"
+		
+		verticalThumbSpace="9"
+	
+	></settings>
+
+	<content title="Gallery" urlTitle="Gallsdfery" url="/galasdlsdfery">
+			
+		
+		<button title="Vacation Pictures" urlTitle="Vacation Pictures" url="/vacation-pictures-2">
+			<item thumb="images/galleries/tn_2.jpg" image="images/galleries/video_2.flv" title="Video Player Demo" urlTitle="Video Player Demo" url="/video-player-demo-2">
+				<![CDATA[<p>The Gallery supports images as well as video, as shown by this item. Video player supports h.264 playback of .flv, .mov etc. files.</p>]]>
+			</item>
+
+			<item thumb="images/galleries/tn_4.jpg" image="images/galleries/4.jpg" title="Yellow Flower" urlTitle="Yellow Flower" url="/yellow-flower-4">
+				<![CDATA[<font color="#00bad5" size="20">Gallery Item Description (html formatted)</font><br />
+				Each photo/video in the gallery can have an extensive description text that is of course html formatted. If the text is longer a scrollbar appears, so no limits here ! The description text is not mandatory, if there is no description text entered, then the window will be nicely resized acordingly to acomodate just the photo/video and it will have equal black margins all around.<br />
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis rhoncus diam, ac mattis est porttitor id. Vestibulum non turpis sed nunc pharetra pharetra sit amet nec libero. Vestibulum suscipit, nunc vel vulputate blandit, purus nulla lobortis elit, eget elementum lectus magna ut magna. Proin et leo ac lorem ultrices rhoncus in at nisl. Integer id massa urna, eu posuere leo. Mauris tristique imperdiet velit sed blandit. Etiam nec augue non velit ornare malesuada. In posuere ornare tincidunt. Ut suscipit commodo imperdiet. Maecenas scelerisque, neque vel aliquam condimentum, ipsum arcu faucibus magna, id tincidunt justo turpis et metus. In ut tellus eu mauris convallis fermentum sit amet a nunc. Donec aliquet euismod lacinia. Maecenas sit amet suscipit justo. Sed euismod, turpis nec facilisis dignissim, nulla sapien fringilla sapien, at adipiscing arcu mi ac lacus. Nullam in ante odio. 
+			]]></item>
+
+			<item thumb="images/galleries/tn_5.jpg" image="images/galleries/5.jpg" title="Bee on Flowers" urlTitle="Bee on Flowers" url="/bee-on-flowers-5"></item>
+			<item thumb="images/galleries/tn_6.jpg" image="images/galleries/6.jpg" title="Relaxing Lake with Reflection" urlTitle="Relaxing Lake with Reflection" url="/relaxing-lake-with-reflection-6"></item>
+			<item thumb="images/galleries/tn_7.jpg" image="images/galleries/7.jpg" title="Calm Lake in Autumn" urlTitle="Calm Lake in Autumn" url="/calm-lake-in-autumn-7"></item>
+			<item thumb="images/galleries/tn_8.jpg" image="images/galleries/8.jpg" title="Tree Branches Reaching to the Sky" urlTitle="Tree Branches Reaching to the Sky" url="/tree-branches-reaching-to-the-sky-8"></item>
+			<item thumb="images/galleries/tn_23.jpg" image="images/galleries/video_2.flv" title="Another Video File" urlTitle="Another Video File" url="/another-video-file-23"></item>
+			<item thumb="images/galleries/tn_10.jpg" image="images/galleries/10.jpg" title="Middle of the Mediterranean Sea" urlTitle="Middle of the Mediterranean Sea" url="/middle-of-the-mediterranean-sea-10"></item>
+			<item thumb="images/galleries/tn_9.jpg" image="images/galleries/9.jpg" title="Wood Texture" urlTitle="Wood Texture" url="/wood-texture-9"></item>
+			<item thumb="images/galleries/tn_11.jpg" image="images/galleries/11.jpg" title="The Sea and the Sky Colliding" urlTitle="The Sea and the Sky Colliding" url="/the-sea-and-the-sky-colliding-11"></item>
+			<item thumb="images/galleries/tn_13.jpg" image="images/galleries/13.jpg" title="Motorway in the Alps" urlTitle="Motorway in the Alps" url="/motorway-in-the-alps-13"></item>
+			<item thumb="images/galleries/tn_24.jpg" image="images/galleries/video_2.flv" title="Movie Trailer Video" urlTitle="Movie Trailer Video" url="/movie-trailer-video-24"></item>
+			<item thumb="images/galleries/tn_12.jpg" image="images/galleries/12.jpg" title="Blue Clouds" urlTitle="Blue Clouds" url="/blue-clouds-12"></item>
+			<item thumb="images/galleries/tn_14.jpg" image="images/galleries/14.jpg" title="Nature Colors in the Autumn" urlTitle="Nature Colors in the Autumn" url="/nature-colors-in-the-autumn-14"></item>
+			<item thumb="images/galleries/tn_15.jpg" image="images/galleries/15.jpg" title="Pilot Boat" urlTitle="Pilot Boat" url="/pilot-boat-15"></item>
+			<item thumb="images/galleries/tn_16.jpg" image="images/galleries/16.jpg" title="Cagliari at Night" urlTitle="Cagliari at Night" url="/cagliari-at-night-16"></item>
+			<item thumb="images/galleries/tn_17.jpg" image="images/galleries/17.jpg" title="Kala e Moru" urlTitle="Kala e Moru" url="/kala-e-moru-17"></item>
+			<item thumb="images/galleries/tn_18.jpg" image="images/galleries/18.jpg" title="Solinas Beach" urlTitle="Solinas Beach" url="/solinas-beach-18"></item>
+			<item thumb="images/galleries/tn_19.jpg" image="images/galleries/19.jpg" title="Weathered Beach Rocks" urlTitle="Weathered Beach Rocks" url="/weathered-beach-rocks-19"></item>
+			<item thumb="images/galleries/tn_20.jpg" image="images/galleries/20.jpg" title="Rocky Beach in Sardegna" urlTitle="Rocky Beach in Sardegna" url="/rocky-beach-in-sardegna-20"></item>
+			<item thumb="images/galleries/tn_21.jpg" image="images/galleries/21.jpg" title="Villasimius South Beach" urlTitle="Villasimius South Beach" url="/villasimius-south-beach-21"></item>
+			<item thumb="images/galleries/tn_22.jpg" image="images/galleries/22.jpg" title="Piazza del Castello" urlTitle="Piazza del Castello" url="/piazza-del-castello-22"></item>
+
+			
+			<item thumb="images/galleries/tn_2.jpg" image="images/galleries/video_2.flv" title="Video Player Demo" urlTitle="Video Player Demo" url="/video-player-demo-2-">
+				<![CDATA[<p>The Gallery supports images as well as video, as shown by this item. Video player supports h.264 playback of .flv, .mov etc. files.</p>]]>
+			</item>
+
+			<item thumb="images/galleries/tn_4.jpg" image="images/galleries/4.jpg" title="Yellow Flower" urlTitle="Yellow Flower" url="/yellow-flower-4-">
+				<![CDATA[<font color="#00bad5" size="20">Gallery Item Description (html formatted)</font><br />
+				Each photo/video in the gallery can have an extensive description text that is of course html formatted. If the text is longer a scrollbar appears, so no limits here ! The description text is not mandatory, if there is no description text entered, then the window will be nicely resized acordingly to acomodate just the photo/video and it will have equal black margins all around.<br />
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis rhoncus diam, ac mattis est porttitor id. Vestibulum non turpis sed nunc pharetra pharetra sit amet nec libero. Vestibulum suscipit, nunc vel vulputate blandit, purus nulla lobortis elit, eget elementum lectus magna ut magna. Proin et leo ac lorem ultrices rhoncus in at nisl. Integer id massa urna, eu posuere leo. Mauris tristique imperdiet velit sed blandit. Etiam nec augue non velit ornare malesuada. In posuere ornare tincidunt. Ut suscipit commodo imperdiet. Maecenas scelerisque, neque vel aliquam condimentum, ipsum arcu faucibus magna, id tincidunt justo turpis et metus. In ut tellus eu mauris convallis fermentum sit amet a nunc. Donec aliquet euismod lacinia. Maecenas sit amet suscipit justo. Sed euismod, turpis nec facilisis dignissim, nulla sapien fringilla sapien, at adipiscing arcu mi ac lacus. Nullam in ante odio. 
+			]]></item>
+
+			<item thumb="images/galleries/tn_5.jpg" image="images/galleries/5.jpg" title="Bee on Flowers" urlTitle="Bee on Flowers" url="/bee-on-flowers-5-"></item>
+			<item thumb="images/galleries/tn_6.jpg" image="images/galleries/6.jpg" title="Relaxing Lake with Reflection" urlTitle="Relaxing Lake with Reflection" url="/relaxing-lake-with-reflection-6-"></item>
+			<item thumb="images/galleries/tn_7.jpg" image="images/galleries/7.jpg" title="Calm Lake in Autumn" urlTitle="Calm Lake in Autumn" url="/calm-lake-in-autumn-7-"></item>
+			<item thumb="images/galleries/tn_8.jpg" image="images/galleries/8.jpg" title="Tree Branches Reaching to the Sky" urlTitle="Tree Branches Reaching to the Sky" url="/tree-branches-reaching-to-the-sky-8-"></item>
+			<item thumb="images/galleries/tn_23.jpg" image="images/galleries/video_2.flv" title="Another Video File" urlTitle="Another Video File" url="/another-video-file-23-"></item>
+			<item thumb="images/galleries/tn_10.jpg" image="images/galleries/10.jpg" title="Middle of the Mediterranean Sea" urlTitle="Middle of the Mediterranean Sea" url="/middle-of-the-mediterranean-sea-10-"></item>
+			<item thumb="images/galleries/tn_9.jpg" image="images/galleries/9.jpg" title="Wood Texture" urlTitle="Wood Texture" url="/wood-texture-9-"></item>
+			<item thumb="images/galleries/tn_11.jpg" image="images/galleries/11.jpg" title="The Sea and the Sky Colliding" urlTitle="The Sea and the Sky Colliding" url="/the-sea-and-the-sky-colliding-11-"></item>
+			<item thumb="images/galleries/tn_13.jpg" image="images/galleries/13.jpg" title="Motorway in the Alps" urlTitle="Motorway in the Alps" url="/motorway-in-the-alps-13-"></item>
+			<item thumb="images/galleries/tn_24.jpg" image="images/galleries/video_2.flv" title="Movie Trailer Video" urlTitle="Movie Trailer Video" url="/movie-trailer-video-24-"></item>
+			<item thumb="images/galleries/tn_12.jpg" image="images/galleries/12.jpg" title="Blue Clouds" urlTitle="Blue Clouds" url="/blue-clouds-12-"></item>
+			<item thumb="images/galleries/tn_14.jpg" image="images/galleries/14.jpg" title="Nature Colors in the Autumn" urlTitle="Nature Colors in the Autumn" url="/nature-colors-in-the-autumn-14-"></item>
+			<item thumb="images/galleries/tn_15.jpg" image="images/galleries/15.jpg" title="Pilot Boat" urlTitle="Pilot Boat" url="/pilot-boat-15-"></item>
+			<item thumb="images/galleries/tn_16.jpg" image="images/galleries/16.jpg" title="Cagliari at Night" urlTitle="Cagliari at Night" url="/cagliari-at-night-16-"></item>
+			<item thumb="images/galleries/tn_17.jpg" image="images/galleries/17.jpg" title="Kala e Moru" urlTitle="Kala e Moru" url="/kala-e-moru-17-"></item>
+			<item thumb="images/galleries/tn_18.jpg" image="images/galleries/18.jpg" title="Solinas Beach" urlTitle="Solinas Beach" url="/solinas-beach-18-"></item>
+			<item thumb="images/galleries/tn_19.jpg" image="images/galleries/19.jpg" title="Weathered Beach Rocks" urlTitle="Weathered Beach Rocks" url="/weathered-beach-rocks-19-"></item>
+			<item thumb="images/galleries/tn_20.jpg" image="images/galleries/20.jpg" title="Rocky Beach in Sardegna" urlTitle="Rocky Beach in Sardegna" url="/rocky-beach-in-sardegna-20-"></item>
+			<item thumb="images/galleries/tn_21.jpg" image="images/galleries/21.jpg" title="Villasimius South Beach" urlTitle="Villasimius South Beach" url="/villasimius-south-beach-21-"></item>
+			<item thumb="images/galleries/tn_22.jpg" image="images/galleries/22.jpg" title="Piazza del Castello" urlTitle="Piazza del Castello" url="/piazza-del-castello-22-"></item>
+
+		</button>
+
+		<button title="The Office" urlTitle="The Office" url="/the-office-3">
+			
+		
+			<item thumb="images/galleries/tn_2.jpg" image="images/galleries/video_2.flv" title="Video Player Demo" urlTitle="Video Player Demo" url="/video-player-demo-2">
+				<![CDATA[<p>The Gallery supports images as well as video, as shown by this item. Video player supports h.264 playback of .flv, .mov etc. files.</p>]]>
+			</item>
+
+			<item thumb="images/galleries/tn_4.jpg" image="images/galleries/4.jpg" title="Yellow Flower" urlTitle="Yellow Flower" url="/yellow-flower-4">
+				<![CDATA[<font color="#00bad5" size="20">Gallery Item Description (html formatted)</font><br />
+				Each photo/video in the gallery can have an extensive description text that is of course html formatted. If the text is longer a scrollbar appears, so no limits here ! The description text is not mandatory, if there is no description text entered, then the window will be nicely resized acordingly to acomodate just the photo/video and it will have equal black margins all around.<br />
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis rhoncus diam, ac mattis est porttitor id. Vestibulum non turpis sed nunc pharetra pharetra sit amet nec libero. Vestibulum suscipit, nunc vel vulputate blandit, purus nulla lobortis elit, eget elementum lectus magna ut magna. Proin et leo ac lorem ultrices rhoncus in at nisl. Integer id massa urna, eu posuere leo. Mauris tristique imperdiet velit sed blandit. Etiam nec augue non velit ornare malesuada. In posuere ornare tincidunt. Ut suscipit commodo imperdiet. Maecenas scelerisque, neque vel aliquam condimentum, ipsum arcu faucibus magna, id tincidunt justo turpis et metus. In ut tellus eu mauris convallis fermentum sit amet a nunc. Donec aliquet euismod lacinia. Maecenas sit amet suscipit justo. Sed euismod, turpis nec facilisis dignissim, nulla sapien fringilla sapien, at adipiscing arcu mi ac lacus. Nullam in ante odio. 
+			]]></item>
+
+			<item thumb="images/galleries/tn_5.jpg" image="images/galleries/5.jpg" title="Bee on Flowers" urlTitle="Bee on Flowers" url="/bee-on-flowers-5"></item>
+			<item thumb="images/galleries/tn_6.jpg" image="images/galleries/6.jpg" title="Relaxing Lake with Reflection" urlTitle="Relaxing Lake with Reflection" url="/relaxing-lake-with-reflection-6"></item>
+			<item thumb="images/galleries/tn_7.jpg" image="images/galleries/7.jpg" title="Calm Lake in Autumn" urlTitle="Calm Lake in Autumn" url="/calm-lake-in-autumn-7"></item>
+			<item thumb="images/galleries/tn_8.jpg" image="images/galleries/8.jpg" title="Tree Branches Reaching to the Sky" urlTitle="Tree Branches Reaching to the Sky" url="/tree-branches-reaching-to-the-sky-8"></item>
+			<item thumb="images/galleries/tn_23.jpg" image="images/galleries/video_2.flv" title="Another Video File" urlTitle="Another Video File" url="/another-video-file-23"></item>
+			<item thumb="images/galleries/tn_10.jpg" image="images/galleries/10.jpg" title="Middle of the Mediterranean Sea" urlTitle="Middle of the Mediterranean Sea" url="/middle-of-the-mediterranean-sea-10"></item>
+			<item thumb="images/galleries/tn_9.jpg" image="images/galleries/9.jpg" title="Wood Texture" urlTitle="Wood Texture" url="/wood-texture-9"></item>
+			<item thumb="images/galleries/tn_11.jpg" image="images/galleries/11.jpg" title="The Sea and the Sky Colliding" urlTitle="The Sea and the Sky Colliding" url="/the-sea-and-the-sky-colliding-11"></item>
+			<item thumb="images/galleries/tn_13.jpg" image="images/galleries/13.jpg" title="Motorway in the Alps" urlTitle="Motorway in the Alps" url="/motorway-in-the-alps-13"></item>
+			<item thumb="images/galleries/tn_24.jpg" image="images/galleries/video_2.flv" title="Movie Trailer Video" urlTitle="Movie Trailer Video" url="/movie-trailer-video-24"></item>
+			<item thumb="images/galleries/tn_12.jpg" image="images/galleries/12.jpg" title="Blue Clouds" urlTitle="Blue Clouds" url="/blue-clouds-12"></item>
+			<item thumb="images/galleries/tn_14.jpg" image="images/galleries/14.jpg" title="Nature Colors in the Autumn" urlTitle="Nature Colors in the Autumn" url="/nature-colors-in-the-autumn-14"></item>
+			<item thumb="images/galleries/tn_15.jpg" image="images/galleries/15.jpg" title="Pilot Boat" urlTitle="Pilot Boat" url="/pilot-boat-15"></item>
+			<item thumb="images/galleries/tn_16.jpg" image="images/galleries/16.jpg" title="Cagliari at Night" urlTitle="Cagliari at Night" url="/cagliari-at-night-16"></item>
+			<item thumb="images/galleries/tn_17.jpg" image="images/galleries/17.jpg" title="Kala e Moru" urlTitle="Kala e Moru" url="/kala-e-moru-17"></item>
+			<item thumb="images/galleries/tn_18.jpg" image="images/galleries/18.jpg" title="Solinas Beach" urlTitle="Solinas Beach" url="/solinas-beach-18"></item>
+			<item thumb="images/galleries/tn_19.jpg" image="images/galleries/19.jpg" title="Weathered Beach Rocks" urlTitle="Weathered Beach Rocks" url="/weathered-beach-rocks-19"></item>
+			<item thumb="images/galleries/tn_20.jpg" image="images/galleries/20.jpg" title="Rocky Beach in Sardegna" urlTitle="Rocky Beach in Sardegna" url="/rocky-beach-in-sardegna-20"></item>
+			<item thumb="images/galleries/tn_21.jpg" image="images/galleries/21.jpg" title="Villasimius South Beach" urlTitle="Villasimius South Beach" url="/villasimius-south-beach-21"></item>
+			<item thumb="images/galleries/tn_22.jpg" image="images/galleries/22.jpg" title="Piazza del Castello" urlTitle="Piazza del Castello" url="/piazza-del-castello-22"></item>
+		</button>
+
+		<button title="Outdoor Banners" urlTitle="Outdoor Banners" url="/outdoor-banners-4">
+			<item thumb="images/galleries/tn_2.jpg" image="images/galleries/video_2.flv" title="Video Player Demo" urlTitle="Video Player Demo" url="/video-player-demo-2">
+				<![CDATA[<p>The Gallery supports images as well as video, as shown by this item. Video player supports h.264 playback of .flv, .mov etc. files.</p>]]>
+			</item>
+
+			<item thumb="images/galleries/tn_4.jpg" image="images/galleries/4.jpg" title="Yellow Flower" urlTitle="Yellow Flower" url="/yellow-flower-4">
+				<![CDATA[<font color="#00bad5" size="20">Gallery Item Description (html formatted)</font><br />
+				Each photo/video in the gallery can have an extensive description text that is of course html formatted. If the text is longer a scrollbar appears, so no limits here ! The description text is not mandatory, if there is no description text entered, then the window will be nicely resized acordingly to acomodate just the photo/video and it will have equal black margins all around.<br />
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis rhoncus diam, ac mattis est porttitor id. Vestibulum non turpis sed nunc pharetra pharetra sit amet nec libero. Vestibulum suscipit, nunc vel vulputate blandit, purus nulla lobortis elit, eget elementum lectus magna ut magna. Proin et leo ac lorem ultrices rhoncus in at nisl. Integer id massa urna, eu posuere leo. Mauris tristique imperdiet velit sed blandit. Etiam nec augue non velit ornare malesuada. In posuere ornare tincidunt. Ut suscipit commodo imperdiet. Maecenas scelerisque, neque vel aliquam condimentum, ipsum arcu faucibus magna, id tincidunt justo turpis et metus. In ut tellus eu mauris convallis fermentum sit amet a nunc. Donec aliquet euismod lacinia. Maecenas sit amet suscipit justo. Sed euismod, turpis nec facilisis dignissim, nulla sapien fringilla sapien, at adipiscing arcu mi ac lacus. Nullam in ante odio. 
+			]]></item>
+
+			<item thumb="images/galleries/tn_5.jpg" image="images/galleries/5.jpg" title="Bee on Flowers" urlTitle="Bee on Flowers" url="/bee-on-flowers-5"></item>
+			<item thumb="images/galleries/tn_6.jpg" image="images/galleries/6.jpg" title="Relaxing Lake with Reflection" urlTitle="Relaxing Lake with Reflection" url="/relaxing-lake-with-reflection-6"></item>
+			<item thumb="images/galleries/tn_7.jpg" image="images/galleries/7.jpg" title="Calm Lake in Autumn" urlTitle="Calm Lake in Autumn" url="/calm-lake-in-autumn-7"></item>
+			<item thumb="images/galleries/tn_8.jpg" image="images/galleries/8.jpg" title="Tree Branches Reaching to the Sky" urlTitle="Tree Branches Reaching to the Sky" url="/tree-branches-reaching-to-the-sky-8"></item>
+			<item thumb="images/galleries/tn_23.jpg" image="images/galleries/video_2.flv" title="Another Video File" urlTitle="Another Video File" url="/another-video-file-23"></item>
+			<item thumb="images/galleries/tn_10.jpg" image="images/galleries/10.jpg" title="Middle of the Mediterranean Sea" urlTitle="Middle of the Mediterranean Sea" url="/middle-of-the-mediterranean-sea-10"></item>
+			<item thumb="images/galleries/tn_9.jpg" image="images/galleries/9.jpg" title="Wood Texture" urlTitle="Wood Texture" url="/wood-texture-9"></item>
+			<item thumb="images/galleries/tn_11.jpg" image="images/galleries/11.jpg" title="The Sea and the Sky Colliding" urlTitle="The Sea and the Sky Colliding" url="/the-sea-and-the-sky-colliding-11"></item>
+			<item thumb="images/galleries/tn_13.jpg" image="images/galleries/13.jpg" title="Motorway in the Alps" urlTitle="Motorway in the Alps" url="/motorway-in-the-alps-13"></item>
+			<item thumb="images/galleries/tn_24.jpg" image="images/galleries/video_2.flv" title="Movie Trailer Video" urlTitle="Movie Trailer Video" url="/movie-trailer-video-24"></item>
+			<item thumb="images/galleries/tn_12.jpg" image="images/galleries/12.jpg" title="Blue Clouds" urlTitle="Blue Clouds" url="/blue-clouds-12"></item>
+			<item thumb="images/galleries/tn_14.jpg" image="images/galleries/14.jpg" title="Nature Colors in the Autumn" urlTitle="Nature Colors in the Autumn" url="/nature-colors-in-the-autumn-14"></item>
+			<item thumb="images/galleries/tn_15.jpg" image="images/galleries/15.jpg" title="Pilot Boat" urlTitle="Pilot Boat" url="/pilot-boat-15"></item>
+			<item thumb="images/galleries/tn_16.jpg" image="images/galleries/16.jpg" title="Cagliari at Night" urlTitle="Cagliari at Night" url="/cagliari-at-night-16"></item>
+			<item thumb="images/galleries/tn_17.jpg" image="images/galleries/17.jpg" title="Kala e Moru" urlTitle="Kala e Moru" url="/kala-e-moru-17"></item>
+			<item thumb="images/galleries/tn_18.jpg" image="images/galleries/18.jpg" title="Solinas Beach" urlTitle="Solinas Beach" url="/solinas-beach-18"></item>
+			<item thumb="images/galleries/tn_19.jpg" image="images/galleries/19.jpg" title="Weathered Beach Rocks" urlTitle="Weathered Beach Rocks" url="/weathered-beach-rocks-19"></item>
+			<item thumb="images/galleries/tn_20.jpg" image="images/galleries/20.jpg" title="Rocky Beach in Sardegna" urlTitle="Rocky Beach in Sardegna" url="/rocky-beach-in-sardegna-20"></item>
+			<item thumb="images/galleries/tn_21.jpg" image="images/galleries/21.jpg" title="Villasimius South Beach" urlTitle="Villasimius South Beach" url="/villasimius-south-beach-21"></item>
+			<item thumb="images/galleries/tn_22.jpg" image="images/galleries/22.jpg" title="Piazza del Castello" urlTitle="Piazza del Castello" url="/piazza-del-castello-22"></item>
+			
+		</button>
+
+		<button title="My City at Night" urlTitle="My City at Night" url="/my-city-at-night-5">
+			<item thumb="images/galleries/tn_2.jpg" image="images/galleries/video_2.flv" title="Video Player Demo" urlTitle="Video Player Demo" url="/video-player-demo-2">
+				<![CDATA[<p>The Gallery supports images as well as video, as shown by this item. Video player supports h.264 playback of .flv, .mov etc. files.</p>]]>
+			</item>
+
+			<item thumb="images/galleries/tn_4.jpg" image="images/galleries/4.jpg" title="Yellow Flower" urlTitle="Yellow Flower" url="/yellow-flower-4">
+				<![CDATA[<font color="#00bad5" size="20">Gallery Item Description (html formatted)</font><br />
+				Each photo/video in the gallery can have an extensive description text that is of course html formatted. If the text is longer a scrollbar appears, so no limits here ! The description text is not mandatory, if there is no description text entered, then the window will be nicely resized acordingly to acomodate just the photo/video and it will have equal black margins all around.<br />
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis rhoncus diam, ac mattis est porttitor id. Vestibulum non turpis sed nunc pharetra pharetra sit amet nec libero. Vestibulum suscipit, nunc vel vulputate blandit, purus nulla lobortis elit, eget elementum lectus magna ut magna. Proin et leo ac lorem ultrices rhoncus in at nisl. Integer id massa urna, eu posuere leo. Mauris tristique imperdiet velit sed blandit. Etiam nec augue non velit ornare malesuada. In posuere ornare tincidunt. Ut suscipit commodo imperdiet. Maecenas scelerisque, neque vel aliquam condimentum, ipsum arcu faucibus magna, id tincidunt justo turpis et metus. In ut tellus eu mauris convallis fermentum sit amet a nunc. Donec aliquet euismod lacinia. Maecenas sit amet suscipit justo. Sed euismod, turpis nec facilisis dignissim, nulla sapien fringilla sapien, at adipiscing arcu mi ac lacus. Nullam in ante odio. 
+			]]></item>
+
+			<item thumb="images/galleries/tn_5.jpg" image="images/galleries/5.jpg" title="Bee on Flowers" urlTitle="Bee on Flowers" url="/bee-on-flowers-5"></item>
+			<item thumb="images/galleries/tn_6.jpg" image="images/galleries/6.jpg" title="Relaxing Lake with Reflection" urlTitle="Relaxing Lake with Reflection" url="/relaxing-lake-with-reflection-6"></item>
+			<item thumb="images/galleries/tn_7.jpg" image="images/galleries/7.jpg" title="Calm Lake in Autumn" urlTitle="Calm Lake in Autumn" url="/calm-lake-in-autumn-7"></item>
+			<item thumb="images/galleries/tn_8.jpg" image="images/galleries/8.jpg" title="Tree Branches Reaching to the Sky" urlTitle="Tree Branches Reaching to the Sky" url="/tree-branches-reaching-to-the-sky-8"></item>
+			<item thumb="images/galleries/tn_23.jpg" image="images/galleries/video_2.flv" title="Another Video File" urlTitle="Another Video File" url="/another-video-file-23"></item>
+			<item thumb="images/galleries/tn_10.jpg" image="images/galleries/10.jpg" title="Middle of the Mediterranean Sea" urlTitle="Middle of the Mediterranean Sea" url="/middle-of-the-mediterranean-sea-10"></item>
+			<item thumb="images/galleries/tn_9.jpg" image="images/galleries/9.jpg" title="Wood Texture" urlTitle="Wood Texture" url="/wood-texture-9"></item>
+			<item thumb="images/galleries/tn_11.jpg" image="images/galleries/11.jpg" title="The Sea and the Sky Colliding" urlTitle="The Sea and the Sky Colliding" url="/the-sea-and-the-sky-colliding-11"></item>
+			<item thumb="images/galleries/tn_13.jpg" image="images/galleries/13.jpg" title="Motorway in the Alps" urlTitle="Motorway in the Alps" url="/motorway-in-the-alps-13"></item>
+			<item thumb="images/galleries/tn_24.jpg" image="images/galleries/video_2.flv" title="Movie Trailer Video" urlTitle="Movie Trailer Video" url="/movie-trailer-video-24"></item>
+			<item thumb="images/galleries/tn_12.jpg" image="images/galleries/12.jpg" title="Blue Clouds" urlTitle="Blue Clouds" url="/blue-clouds-12"></item>
+			<item thumb="images/galleries/tn_14.jpg" image="images/galleries/14.jpg" title="Nature Colors in the Autumn" urlTitle="Nature Colors in the Autumn" url="/nature-colors-in-the-autumn-14"></item>
+			<item thumb="images/galleries/tn_15.jpg" image="images/galleries/15.jpg" title="Pilot Boat" urlTitle="Pilot Boat" url="/pilot-boat-15"></item>
+			<item thumb="images/galleries/tn_16.jpg" image="images/galleries/16.jpg" title="Cagliari at Night" urlTitle="Cagliari at Night" url="/cagliari-at-night-16"></item>
+			<item thumb="images/galleries/tn_17.jpg" image="images/galleries/17.jpg" title="Kala e Moru" urlTitle="Kala e Moru" url="/kala-e-moru-17"></item>
+			<item thumb="images/galleries/tn_18.jpg" image="images/galleries/18.jpg" title="Solinas Beach" urlTitle="Solinas Beach" url="/solinas-beach-18"></item>
+			<item thumb="images/galleries/tn_19.jpg" image="images/galleries/19.jpg" title="Weathered Beach Rocks" urlTitle="Weathered Beach Rocks" url="/weathered-beach-rocks-19"></item>
+			<item thumb="images/galleries/tn_20.jpg" image="images/galleries/20.jpg" title="Rocky Beach in Sardegna" urlTitle="Rocky Beach in Sardegna" url="/rocky-beach-in-sardegna-20"></item>
+			<item thumb="images/galleries/tn_21.jpg" image="images/galleries/21.jpg" title="Villasimius South Beach" urlTitle="Villasimius South Beach" url="/villasimius-south-beach-21"></item>
+			<item thumb="images/galleries/tn_22.jpg" image="images/galleries/22.jpg" title="Piazza del Castello" urlTitle="Piazza del Castello" url="/piazza-del-castello-22"></item>
+			
+		</button>
+
+		<button title="Yet Another Album" urlTitle="Yet Another Album" url="/yet-another-album-6">
+			<item thumb="images/galleries/tn_2.jpg" image="images/galleries/video_2.flv" title="Video Player Demo" urlTitle="Video Player Demo" url="/video-player-demo-2">
+				<![CDATA[<p>The Gallery supports images as well as video, as shown by this item. Video player supports h.264 playback of .flv, .mov etc. files.</p>]]>
+			</item>
+
+			<item thumb="images/galleries/tn_4.jpg" image="images/galleries/4.jpg" title="Yellow Flower" urlTitle="Yellow Flower" url="/yellow-flower-4">
+				<![CDATA[<font color="#00bad5" size="20">Gallery Item Description (html formatted)</font><br />
+				Each photo/video in the gallery can have an extensive description text that is of course html formatted. If the text is longer a scrollbar appears, so no limits here ! The description text is not mandatory, if there is no description text entered, then the window will be nicely resized acordingly to acomodate just the photo/video and it will have equal black margins all around.<br />
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis rhoncus diam, ac mattis est porttitor id. Vestibulum non turpis sed nunc pharetra pharetra sit amet nec libero. Vestibulum suscipit, nunc vel vulputate blandit, purus nulla lobortis elit, eget elementum lectus magna ut magna. Proin et leo ac lorem ultrices rhoncus in at nisl. Integer id massa urna, eu posuere leo. Mauris tristique imperdiet velit sed blandit. Etiam nec augue non velit ornare malesuada. In posuere ornare tincidunt. Ut suscipit commodo imperdiet. Maecenas scelerisque, neque vel aliquam condimentum, ipsum arcu faucibus magna, id tincidunt justo turpis et metus. In ut tellus eu mauris convallis fermentum sit amet a nunc. Donec aliquet euismod lacinia. Maecenas sit amet suscipit justo. Sed euismod, turpis nec facilisis dignissim, nulla sapien fringilla sapien, at adipiscing arcu mi ac lacus. Nullam in ante odio. 
+			]]></item>
+
+			<item thumb="images/galleries/tn_5.jpg" image="images/galleries/5.jpg" title="Bee on Flowers" urlTitle="Bee on Flowers" url="/bee-on-flowers-5"></item>
+			<item thumb="images/galleries/tn_6.jpg" image="images/galleries/6.jpg" title="Relaxing Lake with Reflection" urlTitle="Relaxing Lake with Reflection" url="/relaxing-lake-with-reflection-6"></item>
+			<item thumb="images/galleries/tn_7.jpg" image="images/galleries/7.jpg" title="Calm Lake in Autumn" urlTitle="Calm Lake in Autumn" url="/calm-lake-in-autumn-7"></item>
+			<item thumb="images/galleries/tn_8.jpg" image="images/galleries/8.jpg" title="Tree Branches Reaching to the Sky" urlTitle="Tree Branches Reaching to the Sky" url="/tree-branches-reaching-to-the-sky-8"></item>
+			<item thumb="images/galleries/tn_23.jpg" image="images/galleries/video_2.flv" title="Another Video File" urlTitle="Another Video File" url="/another-video-file-23"></item>
+			<item thumb="images/galleries/tn_10.jpg" image="images/galleries/10.jpg" title="Middle of the Mediterranean Sea" urlTitle="Middle of the Mediterranean Sea" url="/middle-of-the-mediterranean-sea-10"></item>
+			<item thumb="images/galleries/tn_9.jpg" image="images/galleries/9.jpg" title="Wood Texture" urlTitle="Wood Texture" url="/wood-texture-9"></item>
+			<item thumb="images/galleries/tn_11.jpg" image="images/galleries/11.jpg" title="The Sea and the Sky Colliding" urlTitle="The Sea and the Sky Colliding" url="/the-sea-and-the-sky-colliding-11"></item>
+			<item thumb="images/galleries/tn_13.jpg" image="images/galleries/13.jpg" title="Motorway in the Alps" urlTitle="Motorway in the Alps" url="/motorway-in-the-alps-13"></item>
+			<item thumb="images/galleries/tn_24.jpg" image="images/galleries/video_2.flv" title="Movie Trailer Video" urlTitle="Movie Trailer Video" url="/movie-trailer-video-24"></item>
+			<item thumb="images/galleries/tn_12.jpg" image="images/galleries/12.jpg" title="Blue Clouds" urlTitle="Blue Clouds" url="/blue-clouds-12"></item>
+			<item thumb="images/galleries/tn_14.jpg" image="images/galleries/14.jpg" title="Nature Colors in the Autumn" urlTitle="Nature Colors in the Autumn" url="/nature-colors-in-the-autumn-14"></item>
+			<item thumb="images/galleries/tn_15.jpg" image="images/galleries/15.jpg" title="Pilot Boat" urlTitle="Pilot Boat" url="/pilot-boat-15"></item>
+			<item thumb="images/galleries/tn_16.jpg" image="images/galleries/16.jpg" title="Cagliari at Night" urlTitle="Cagliari at Night" url="/cagliari-at-night-16"></item>
+			<item thumb="images/galleries/tn_17.jpg" image="images/galleries/17.jpg" title="Kala e Moru" urlTitle="Kala e Moru" url="/kala-e-moru-17"></item>
+			<item thumb="images/galleries/tn_18.jpg" image="images/galleries/18.jpg" title="Solinas Beach" urlTitle="Solinas Beach" url="/solinas-beach-18"></item>
+			<item thumb="images/galleries/tn_19.jpg" image="images/galleries/19.jpg" title="Weathered Beach Rocks" urlTitle="Weathered Beach Rocks" url="/weathered-beach-rocks-19"></item>
+			<item thumb="images/galleries/tn_20.jpg" image="images/galleries/20.jpg" title="Rocky Beach in Sardegna" urlTitle="Rocky Beach in Sardegna" url="/rocky-beach-in-sardegna-20"></item>
+			<item thumb="images/galleries/tn_21.jpg" image="images/galleries/21.jpg" title="Villasimius South Beach" urlTitle="Villasimius South Beach" url="/villasimius-south-beach-21"></item>
+			<item thumb="images/galleries/tn_22.jpg" image="images/galleries/22.jpg" title="Piazza del Castello" urlTitle="Piazza del Castello" url="/piazza-del-castello-22"></item>
+
+		</button>
+
+	</content>
+</MediaGallery>

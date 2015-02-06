@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mk.universityoftexas.austin.LightingLayoutRelative xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/log"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/campus_life_menu_bg"
+        android:orientation="vertical" >
+
+        <mk.universityoftexas.austin.OverlayProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <RelativeLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-20dp"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginRight="-25dp"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/campus_life_menu_paper" >
+
+            <LinearLayout
+                android:id="@+id/container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="135dp"
+                android:orientation="vertical" >
+
+                <mk.universityoftexas.austin.HighlightedTextView
+                    android:id="@+id/campus_life_dean"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="#00000000"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="Dean of Students"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" android:visibility="invisible"/>
+
+                <mk.universityoftexas.austin.HighlightedTextView
+                    android:id="@+id/campus_life_health"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="#00000000"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="Health Services"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" android:visibility="invisible"/>
+
+                <mk.universityoftexas.austin.HighlightedTextView
+                    android:id="@+id/campus_life_housing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="#00000000"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="Housing and Food"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" android:visibility="invisible"/>
+
+                <mk.universityoftexas.austin.HighlightedTextView
+                    android:id="@+id/campus_life_landmarks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="#00000000"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="Landmarks"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" android:visibility="invisible"/>
+
+                <mk.universityoftexas.austin.HighlightedTextView
+                    android:id="@+id/campus_life_mental"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="#00000000"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="Counseling Services"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" android:visibility="invisible"/>
+
+                <mk.universityoftexas.austin.HighlightedTextView
+                    android:id="@+id/campus_life_wildflower"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="#00000000"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="Flower Center"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" android:visibility="invisible"/>
+
+                <mk.universityoftexas.austin.HighlightedTextView
+                    android:id="@+id/campus_life_bevo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="#00000000"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="Bevo Bucks"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" android:visibility="invisible"/>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/coffee1" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/pen_holder" />
+
+            <ImageView
+                android:id="@+id/envelope"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginBottom="70dp"
+                android:src="@drawable/envelope"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</mk.universityoftexas.austin.LightingLayoutRelative>

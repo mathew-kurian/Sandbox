@@ -1,0 +1,37 @@
+<module>
+	<tables>			
+		<table name="core:newsletters">site_oxymall_core_newsletters</table>
+		<table name="core:emails">site_oxymall_core_emails</table>
+
+		<table name="core:modules">site_oxymall_core_modules</table>
+		<table name="core:skins">site_oxymall_core_skins</table>
+		<table name="core:user_modules">site_oxymall_core_modules_user</table>
+
+		<table name="plugin:music_items">site_oxymall_plugin_music_items</table>
+		<table name="plugin:homepage_images">site_oxymall_plugin_homepage_images</table>
+		<table name="plugin:about_images">site_oxymall_plugin_about_images</table>
+		<table name="plugin:banner_images">site_oxymall_plugin_banner_images</table>
+		<table name="plugin:clients_images">site_oxymall_plugin_clients_images</table>
+
+		<table name="plugin:gallery_cats">site_oxymall_plugin_galleries_cats</table>
+		<table name="plugin:gallery_items">site_oxymall_plugin_galleries_items</table>
+
+		<table name="plugin:jobs_items">site_oxymall_plugin_jobs_items</table>
+		<table name="plugin:jobs_resumes">site_oxymall_plugin_jobs_resumes</table>
+		<table name="plugin:news_items">site_oxymall_plugin_news_items</table>
+
+		<table name="plugin:services_cats">site_oxymall_plugin_services_cats</table>
+		<table name="plugin:services_items">site_oxymall_plugin_services_items</table>
+
+		<table name="plugin:portfolio_cats">site_oxymall_plugin_portfolio_cats</table>
+		<table name="plugin:portfolio_projects">site_oxymall_plugin_portfolio_projects</table>
+		<table name="plugin:portfolio_items">site_oxymall_plugin_portfolio_items</table>
+
+		<table name="plugin:contact_messages">site_oxymall_plugin_contact_messages</table>
+
+		<table name="vars">site_oxymall_core_vars</table>
+
+	</tables>
+
+</module>
+

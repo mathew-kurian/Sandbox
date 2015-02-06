@@ -1,0 +1,45 @@
+<!--S:Main-->
+<script> draw_box("100%",1,"Dashboard");</script>
+	{MENU}
+<script> draw_box("100%",2,"");</script>
+<!--E:Main-->
+
+<!--S:Group-->
+<table class="WelcomeUser" width="100%" cellspacing="0">
+{DATA}
+</table>
+<!--E:Group-->
+
+<!--S:Element-->
+		{PRE}
+			<td valign="top"><img height="31" src="images/icons/icon.gif" align="abboardingiddle">{TITLE}
+				<div>
+					{LINKS}
+				</div>
+			</td>
+		{AFTER}
+<!--E:Element-->
+
+<!--S:Empty-->
+
+<!--E:Empty-->
+
+<!--S:ItemsGroup-->
+		{DATA}
+<!--E:ItemsGroup-->
+
+<!--S:ItemsElement-->
+					<a href="{LINK}">{TITLE}</a> 
+<!--E:ItemsElement-->
+
+<!--S:ItemsEmpty-->
+
+<!--E:ItemsEmpty-->
+
+<!--S:Green-->
+	<font color="green">{TITLE}</font>
+<!--E:Green-->
+
+<!--S:Red-->
+	<font color="red">{TITLE}</font>
+<!--E:Red-->

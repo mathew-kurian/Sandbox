@@ -1,0 +1,76 @@
+8
+
+dir
+535
+http://papervision3d.googlecode.com/svn/trunk/branches/GreatWhite/src/org/papervision3d/core/render
+http://papervision3d.googlecode.com/svn
+
+
+
+2008-04-08T11:02:52.720276Z
+513
+r.hauwert
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+071aa1e1-232a-0410-a790-59abb25ab4c3
+
+IRenderEngine.as
+file
+
+
+
+
+2008-01-17T09:58:17.231175Z
+7b87cc9cac981357504afdf865afbd75
+2007-12-19T17:25:01.580768Z
+381
+r.hauwert
+
+filter
+dir
+
+shader
+dir
+
+project
+dir
+
+sort
+dir
+
+data
+dir
+
+AbstractRenderEngine.as
+file
+
+
+
+
+2008-01-17T09:58:17.238987Z
+ccb83dcdcbeaa85415710a6576093ee5
+2007-12-19T21:55:02.149225Z
+384
+r.hauwert
+
+draw
+dir
+
+command
+dir
+
+material
+dir
+

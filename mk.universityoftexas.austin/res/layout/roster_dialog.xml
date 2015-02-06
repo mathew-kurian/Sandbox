@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/roster_dialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background = "@drawable/roster_dialog_bg" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <RelativeLayout
+            android:id="@+id/R1"
+            android:layout_width="80dp"
+            android:layout_height="102dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.19"
+            android:adjustViewBounds="true"
+            android:background="@drawable/roster_dialog_polaroid"
+            android:drawingCacheQuality="high" >
+
+            <ImageView
+                android:id="@+id/roster_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/roster_error" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="35dp"
+            android:layout_weight="1.84"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/roster_dialog_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-3dp"
+                android:layout_marginTop="5dp"
+                android:maxLines="1"
+                android:paddingLeft="5dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/roster_dialog_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:paddingLeft="5dp"
+                android:textColor="#000000"
+                android:textSize="10sp" android:text="Loading..."/>
+
+            <TextView
+                android:id="@+id/roster_dialog_class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp"
+                android:maxLines="1"
+                android:paddingLeft="5dp"
+                android:textColor="#000000"
+                android:textSize="11sp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_marginRight="-20dp">
+
+                <TextView
+                    android:id="@+id/roster_dialog_height"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-3dp"
+                    android:maxLines="1"
+                    android:paddingLeft="5dp"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/roster_dialog_weight"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-3dp"
+                    android:maxLines="1"
+                    android:paddingLeft="5dp"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/roster_dialog_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-2dp"
+                android:layout_marginTop="-4dp"
+                android:maxLines="1"
+                android:paddingLeft="3dp"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

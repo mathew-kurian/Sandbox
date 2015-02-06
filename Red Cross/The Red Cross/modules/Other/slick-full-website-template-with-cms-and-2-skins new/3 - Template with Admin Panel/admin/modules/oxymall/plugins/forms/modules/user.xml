@@ -1,0 +1,48 @@
+<form>
+
+	<forms>
+		<add>user/add.xml</add>
+		<details>SHOW::add</details>
+		<edit>user/add.xml</edit>
+		<list>user/list.xml</list>
+	</forms>
+
+	<table>core:user_modules</table>
+	<table_uid>mod_id</table_uid>
+
+
+	<URIdata>
+		<action>action</action>
+
+		<add>add</add>
+		<details>details</details>
+		<delete>delete</delete>
+		<edit>edit</edit>
+		<list>details</list>
+		<search>search</search>
+
+		<reject>reject</reject>
+		<approve>approve</approve>
+		
+		<mup>moveup</mup>
+		<mdw>movedown</mdw>
+
+		<store>store</store>
+	</URIdata>
+
+
+	<URIlinks>
+		<add>{SELF.LINK.ADD}&returnurl={SELF.LOCATION}</add>
+		<edit>{SELF.LINKUID.EDIT}&returnurl={SELF.LOCATION}</edit>
+		<details>{SELF.LINKUID.DETAILS}&returnurl={SELF.LOCATION}</details>
+		<delete>javascript:if(confirm('Are you sure you want to delete this record ?')) window.location='{SELF.LINKUID.DELETE}&returnURL={SELF.LOCATION}'</delete>
+		<store>{SELF.LINK}{SELF.ACTION.STORE}</store>
+
+		<move_down>{SELF.LINKUID.MDW}&mod_order={MOD_ORDER}&&returnurl={SELF.LOCATION}</move_down>
+		<move_up>{SELF.LINKUID.MUP}&mod_order={MOD_ORDER}&returnurl={SELF.LOCATION}</move_up>
+
+	</URIlinks>
+
+
+
+</form>

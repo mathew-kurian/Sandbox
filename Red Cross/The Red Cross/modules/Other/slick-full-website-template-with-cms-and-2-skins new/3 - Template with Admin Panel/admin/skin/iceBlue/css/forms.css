@@ -1,0 +1,530 @@
+.FormElementTitle,
+.FormElementTitleAlt,
+.FormElementExtendTitle,
+.FormElementExtendTitleAlt,
+.FormLink,
+tr.FormSimpleListTitle td,
+tr.FormSimpleListTitle td a,
+.FormSimpleListTitleFirst,
+.FormSimpleListTitleFinal,
+.FormSimpleListTitleFinal2,
+.FormSimpleListTitle,
+.FormSimpleListTitle2,
+tr.FormSimpleListRow td,
+tr.FormSimpleListRow td a,
+.FormSimpleListCellFirst,
+.FormSimpleListCellFirstAlt,
+.FormSimpleListCell,
+.FormSimpleListCell2,
+.FormSimpleListCellAlt,
+.FormSimpleListCellAlt2,
+.FormSimpleListCellFinal,
+.FormSimpleListCellFinal2,
+.FormSimpleListCellFinalAlt,
+.FormSimpleListCellFinalAlt2,
+.FormSimpleListEmpty,
+.FormSimpleListPage,
+.FormSimpleListPageR,
+.FormSimpleListPageL,
+.FormSimpleListHeaderButtons,
+.FormSimpleListButtons,
+.FormBorder,
+.FormInnerBorder,
+.FormBoxTitle,
+.FormInnerBorderListElements,
+.FormElement,
+.FormElementAlt,
+.FormElementError,
+.FormElementContent,
+.FormElementContentAlt,
+.FormElementExtendContent,
+.FormElementExtendContentAlt,
+.FormElementDescription,
+.FormElementDescriptionAlt,
+.FormElementContentData,
+.FormElementContentData table,
+.FormItemTextarea,
+.FormItemTextbox,
+.FormItemSelect,
+.FormItemCheckbox,
+.FormItemRadio,
+.FormItemSubtitle,
+.FormItemComment,
+.FormCommonRequired,
+.FormItemImgCheck,
+div.FormItemImage,
+img.FormItemImage,
+.FormDivR,
+.FormDivL,
+.FormDivL img,
+.FormElementButtonsHeader,
+.FormElementButtonsFooter,
+.FormTab,
+.FormTabActive{	
+	font-family: arial;
+	font-size: 12px;
+	color: #535050;
+}
+
+.FormSimpleListTitleFirst,
+tr.FormSimpleListTitle td,
+tr.FormSimpleListTitle td a{
+	font-family: verdana;
+	font-size: 10px;
+	font-weight: bold;	
+}
+
+tr.FormSimpleListRow td{
+	padding: 6px;
+}
+
+tr.FormSimpleListRow td,
+tr.FormSimpleListRow td a{
+	font-family: verdana;
+	font-size: 10px;	
+}
+
+.FormLink{
+	text-decoration: none;		
+	color: #095382;
+}
+
+.FormLink:HOVER{
+	text-decoration: underline;
+	color: #095382;
+}
+
+/* LIST TITLE FORMATING */
+tr.FormSimpleListTitle td{
+	height:25px;
+
+	font-weight: bold;
+
+	border-bottom: 1px solid white;
+	background: white;
+
+	text-align: center;
+	vertical-align: middle;
+}
+
+tr.FormSimpleListTitle td a{
+	text-decoration: none;		
+	color: #095382;
+}
+
+tr.FormSimpleListTitle td a:HOVER{
+	text-decoration: underline;
+	color: #095382;
+}
+
+tr.FormSimpleListTitle td a img{
+	vertical-align: middle;
+}
+
+/* HEADER ALTERNANCE */
+
+.FormSimpleListTitleFirst{
+	border-left: 1px solid white;	
+}
+
+.FormSimpleListTitleFinal,
+.FormSimpleListTitleFinal2 {
+	border-right: 1px solid white;	
+}
+
+.FormSimpleListTitle,
+.FormSimpleListTitle2 {
+}
+
+/* LIST ROWS */
+
+tr.FormSimpleListRow td{
+
+}
+
+tr.FormSimpleListRow td a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #095382;
+}
+
+tr.FormSimpleListRow td a:HOVER {
+	text-decoration: underline;
+	font-weight: bold;
+	color: #095382;
+}
+
+/*   START -- SIMPLE LIST ALTERNANCE */
+
+.FormSimpleListCellFirst,
+.FormSimpleListCellFirstAlt,
+.FormSimpleListCell,
+.FormSimpleListCell2,
+.FormSimpleListCellAlt,
+.FormSimpleListCellAlt2,
+.FormSimpleListCellFinal, 
+.FormSimpleListCellFinal2 
+.FormSimpleListCellFinalAlt,
+.FormSimpleListCellFinalAlt2{
+}
+
+/*   BORDERS */
+.FormSimpleListEmpty,
+.FormSimpleListCellFirstAlt,
+.FormSimpleListCellFirst{
+	border-left: 1px solid #ececec;	
+}
+
+.FormSimpleListEmpty,
+.FormSimpleListCellFinal,
+.FormSimpleListCellFinalAlt,
+.FormSimpleListCellFinal2,
+.FormSimpleListCellFinalAlt2 {
+	border-right: 1px solid #ececec;	
+}
+
+.FormSimpleListEmpty,
+.FormSimpleListCellFirst,
+.FormSimpleListCell,
+.FormSimpleListCellFinal,
+.FormSimpleListCell2,
+.FormSimpleListCellFinal2{
+	border: 1px solid white;
+}
+
+.FormSimpleListCellFirstAlt,
+.FormSimpleListCellAlt,
+.FormSimpleListCellFinalAlt,
+.FormSimpleListCellAlt2,
+.FormSimpleListCellFinalAlt2{
+	border: 1px solid white;
+}
+
+/*   ALTERNANCE BG */
+.FormSimpleListEmpty,
+.FormSimpleListCellFirst,
+.FormSimpleListCell,
+.FormSimpleListCellFinal{
+	background-color: #ececec;
+}
+
+.FormSimpleListCell2,
+.FormSimpleListCellFinal2{
+	background-color: #e6e6e6;
+}
+
+.FormSimpleListCellFirstAlt,
+.FormSimpleListCellAlt,
+.FormSimpleListCellFinalAlt{
+	background-color: #f5f5f5;
+}
+
+.FormSimpleListCellAlt2,
+.FormSimpleListCellFinalAlt2{
+	background-color: #f2f2f2;
+}
+/*   END -- SIMPLE LIST ALTERNANCE */
+
+
+.FormSimpleListEmpty {
+	font-size: 10px;
+	border-top: 1px solid #e6e6e6;
+	text-align: center;
+	vertical-align: middle;
+	height: 50px;
+}
+
+.FormSimpleListPage {
+	border-top: #B2B2B2 1px solid; 
+	height: 22px;
+}
+
+.FormSimpleListPageR{
+	float: right;
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+.FormSimpleListPageL{
+	float: left;
+	vertical-align: middle;
+	margin-left: 3px;
+}
+
+
+.FormSimpleListHeaderButtons{
+
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	background: #dddddd;
+	height: 23;
+	vertical-align: middle;
+}
+
+.FormSimpleListButtons{
+	border-top: #B2B2B2 1px solid;
+	text-align:center;
+}
+
+.FormInnerBorderList{
+	border: 0px;
+	border-top: 1px solid white;
+
+}
+
+
+
+
+.FormBorder{
+	
+}
+
+.FormInnerBorder{	
+
+}
+
+.FormBoxTitle {
+	font-family: arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: white;
+}
+
+.FormInnerBorderListElements {
+	width: 3000;
+}
+
+.FormBorder{
+	height:23;
+	padding-left:10px;
+	padding-top:7px;
+	color:white;
+	font-weight:bold;
+}
+
+
+/* START FORM ELEMENT DESIGN */
+
+.FormElement,
+.FormElementAlt{
+	text-align:center;
+	width: 100%;
+}
+
+.FormElementError{
+	text-align:center;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	background: #ffbcbc;
+}
+
+
+.FormElementTitle,
+.FormElementTitleAlt,
+.FormElementExtendTitle,
+.FormElementExtendTitleAlt {	
+	text-align: left;
+	height: 26;
+	font-weight: bold;
+	padding-top: 6px;
+	vertical-align: top;
+	background: no-repeat top left url("forms/arrow.gif");
+	background-position: 6px 10px;
+	padding-left: 19px;
+}
+
+.FormElementTitle,
+.FormElementTitleAlt{
+	width: 150;
+}
+
+.FormElementContent,
+.FormElementContentAlt,
+.FormElementExtendContent,
+.FormElementExtendContentAlt{
+	text-align: left;
+	font-weight: bold;
+}
+
+.FormElementDescription,
+.FormElementDescriptionAlt {
+	text-align: left;
+	font-size: 10px;
+}
+
+.FormElementDescription,
+.FormElementContent,
+.FormElementTitle,
+.FormElementExtendContent,
+.FormElementExtendTitle{
+	background-color: #ececec;
+}
+
+.FormElementTitle,
+.FormElementExtendTitle{
+	background-color: #ececec;
+}
+
+.FormElementDescriptionAlt,
+.FormElementContentAlt,
+.FormElementTitleAlt,
+.FormElementExtendContentAlt,
+.FormElementExtendTitleAlt{
+	background-color: #f5f5f5;
+}
+
+.FormElementTitleAlt,
+.FormElementExtendTitleAlt{
+	background-color: #f5f5f54;
+}
+
+.FormElementError,
+.FormElement{
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.FormElementAlt{
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+
+.FormElementContentData {
+	text-align: left;
+	font-weight: normal;
+}
+
+/* END FORM ELEMENT DESIGN */
+
+/* FORM SPECIFIC FIELDS */
+
+.FormItemTextarea, 
+.FormItemTextbox , 
+.FormItemSelect,
+.FormItemCheckbox{
+	font-size:11px;
+	border: 1px solid #c8c8c8;
+	font-weight: normal;
+	background: white;
+	padding-left: 2px;
+}
+
+.FormItemCheckbox,
+.FormItemRadio {
+	border: 0px;
+	background: transparent;
+}
+
+.FormItemSubtitle {
+	font: arial;
+	font-size: 14px;
+	color: 868686;
+	font-weight: bold;
+	padding-bottom: 3px;
+	padding-top: 10px;
+}
+
+.FormItemComment {
+	background: no-repeat url("forms/comment.gif");
+	background-position: 0px 0px;
+	text-align: left;
+	background-color: #ccdffc;
+	border: 1px solid white;
+	padding: 10px;
+
+}
+
+.FormCommonRequired {
+	color: #FF0000;
+}
+
+.FormItemImgCheck{
+	border: 1px solid black;
+}
+
+
+div.FormItemImage {
+	border: 1px solid black;
+	float: left;
+	padding: 2px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	vertical-align: middle;
+}
+
+img.FormItemImage {
+	display: none;
+}
+
+
+/* NEW */
+
+.FormDivR{
+	float: right;
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+.FormDivL{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	float: left;
+	vertical-align: middle;
+	margin-left: 3px;	
+}
+
+.FormDivL img{
+	vertical-align: middle;
+}
+
+.FormElementButtonsHeader{
+	height: 25;
+	vertical-align: middle;
+}
+
+.FormElementButtonsFooter{
+	text-align: center;
+	vertical-align: middle;
+	padding: 20px;
+}
+
+/* TABS */
+
+.FormTab,
+.FormTabActive{
+	font-size: 10px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+}
+
+.FormTab:HOVER,
+.FormTabActive:HOVER{
+	text-decoration: underline;
+}
+
+.FormTabActive,
+.FormTabActive:HOVER {
+	color: black;
+}
+
+
+.FormCalendarImage{
+	display: inline;
+	float: left;
+	padding-right: 3px;
+}
+
+.FormCalendarImage img {
+	border: 1px solid red;
+}

@@ -1,0 +1,44 @@
+<form>
+
+	<forms>
+		<add>cats/add.xml</add>
+		<details>SHOW::add</details>
+		<edit>cats/add.xml</edit>
+		<list>cats/list.xml</list>
+	</forms>
+
+	<table>plugin:services_cats</table>
+	<table_uid>cat_id</table_uid>
+
+
+	<URIdata>
+		<action>action</action>
+
+		<add>add</add>
+		<details>itemdetails</details>
+		<delete>delete</delete>
+		<edit>edit</edit>
+		<list>details</list>
+		<search>search</search>
+		
+		<mup>moveup</mup>
+		<mdw>movedown</mdw>
+
+		<store>store</store>
+	</URIdata>
+
+
+	<URIlinks>
+		<add>{SELF.LINK.ADD}&module_id={MODULE_ID}&returnurl={SELF.LOCATION}</add>
+		<edit>{SELF.LINKUID.EDIT}&module_id={MODULE_ID}&returnurl={SELF.LOCATION}</edit>
+		<details>{SELF.LINKUID.DETAILS}&module_id={MODULE_ID}&returnurl={SELF.LOCATION}</details>
+		<delete>javascript:if(confirm('Are you sure you want to delete this record ?')) window.location='{SELF.LINKUID.DELETE}&module_id={MODULE_ID}&returnURL={SELF.LOCATION}'</delete>
+		<store>{SELF.LINK}{SELF.ACTION.STORE}&module_id={MODULE_ID}</store>
+
+		<move_down>{SELF.LINKUID.MDW}&module_id={MODULE_ID}&cat_order={CAT_ORDER}&&returnurl={SELF.LOCATION}</move_down>
+		<move_up>{SELF.LINKUID.MUP}&module_id={MODULE_ID}&cat_order={CAT_ORDER}&returnurl={SELF.LOCATION}</move_up>
+
+	</URIlinks>
+
+
+</form>

@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Company</title>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="js/swfaddress-optimizer.js"></script>
+<script type="text/javascript" src="js/swfaddress.js"></script>
+<style type="text/css">
+#flashcontent {
+	height: 100%;
+	font: 12px 'Trebuchet MS', arial, sans-serif;
+	font-weight: bold;
+	color: #999;
+	text-align:center;
+	line-height: 200px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+	height:100%;
+	width: 100%;
+}
+#flash{
+display: block;
+}
+html{
+	margin:0;
+	padding:0;
+	height:100%;
+	width: 100%;
+}
+</style>
+
+	<script>
+		function oxybase_call_url(value){
+			try {
+				pageTracker._trackPageview(value);
+			} catch (e){}
+		}
+	</script>
+
+</head>
+<body>
+<div id="flashcontent"> You need to upgrade your Flash Player</div>
+<script type="text/javascript">
+	// <![CDATA[				
+	var so = new SWFObject("index.swf", "flash", "100%", "100%", "8", "#000000");
+	so.addParam("scale","noscale");
+	so.addParam("swLiveConnect", "true");
+    so.addParam("allowscriptaccess", "always");
+	so.addParam("allowFullScreen", "true");
+	so.write("flashcontent");
+	// ]]>
+</script>
+
+
+<script>//put google analytics here
+</script>
+
+</body>
+</html>

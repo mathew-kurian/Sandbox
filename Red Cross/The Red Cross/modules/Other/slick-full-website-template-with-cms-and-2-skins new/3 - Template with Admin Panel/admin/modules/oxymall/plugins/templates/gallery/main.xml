@@ -1,0 +1,60 @@
+<!--S:Main-->
+<MediaGallery>
+	
+	<settings
+	
+		distanceBetweenMenuButtons="{SET_DISTANCEBETWEENMENUBUTTONS}"
+		
+		thumbWidth="{SET_THUMBWIDTH}"
+		
+		thumbHeight="{SET_THUMBHEIGHT}"
+		
+		horizontalThumbSpace="{SET_HORIZONTALTHUMBSPACE}"
+		
+		verticalThumbSpace="{SET_VERTICALTHUMBSPACE}"
+	
+	></settings>
+
+	<content title="{MOD_TITLE}" urlTitle="{MOD_URLTITLE}" url="/{MOD_URL}">
+		{ITEMS}
+	</content>
+	
+</MediaGallery>
+<!--E:Main-->
+
+
+<!--S:CatsGroup-->	
+		{DATA}
+<!--E:CatsGroup-->
+
+<!--S:CatsGroupEmpty-->
+
+<!--E:CatsGroupEmpty-->
+
+<!--S:CatsElement-->
+		<button title="{CAT_TITLE}" urlTitle="{CAT_URLTITLE}" url="/{CAT_URL}-{CAT_ID}">
+			{ITEMS}
+		</button>
+<!--E:CatsElement-->
+
+<!--S:CatsEmpty-->
+
+<!--E:CatsEmpty-->
+
+<!--S:ItemsGroup-->
+		{DATA}
+<!--E:ItemsGroup-->
+
+<!--S:ItemsGroupEmpty-->
+
+<!--E:ItemsGroupEmpty-->
+
+<!--S:ItemsElement-->
+			<item thumb="../../galleries/tn_{ITEM_ID}.jpg" image="../../galleries/{SOURCE}" title="{ITEM_TITLE}" urlTitle="{ITEM_URLTITLE}" url="/{ITEM_URL}-{ITEM_ID}">
+				<![CDATA[{ITEM_DESCRIPTION}]]>
+			</item>
+<!--E:ItemsElement-->
+
+<!--S:ItemsEmpty-->
+
+<!--E:ItemsEmpty-->

@@ -1,0 +1,19 @@
+#featured {
+	background-image:url('../images/featuredbackground-grey.jpg');
+}
+#featured_right .content {
+	border-color:#222;
+	background-image:url('../images/featured_right-grey.jpg');
+}
+.menu ul li a {
+	background-image:url('../images/menubackground-grey.jpg');
+}
+.menu ul li a:hover {
+	background-image:url('../images/menubackground-grey.jpg');
+}
+.menu ul li.current-cat a {
+	background-image:url('../images/menubackground-grey.jpg');
+}
+#sub-strapline {
+	background-color:#676767;
+}

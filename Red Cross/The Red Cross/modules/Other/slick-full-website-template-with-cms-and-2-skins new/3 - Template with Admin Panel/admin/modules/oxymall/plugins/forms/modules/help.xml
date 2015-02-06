@@ -1,0 +1,26 @@
+<form>
+	<title>{TITLE}</title>
+	<action>javascript:void(0);</action>
+	<name>edit</name>
+	<width>100%</width>
+	<alternance>true</alternance>
+
+	<formtag>true</formtag>
+	<border>true</border>
+	
+	<vars>
+		<module_id type="eval" import="$_GET[module_id]" />
+	</vars>
+
+	<fields>
+
+		<comment type="text" extend="true" html="true">
+			<forcevalue><![CDATA[
+			<center>
+				<b>xx</b>
+			</center>
+			]]></forcevalue>
+		</comment>
+	</fields>
+
+</form>

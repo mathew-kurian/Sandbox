@@ -1,0 +1,42 @@
+<mp3player>
+	
+<settings 
+	
+	enabled="true"
+	
+	onFirstStart="pause"  playingVolume="70"
+	
+	playGraphicWidth="12" playGraphicHeight="12" playGraphicAlpha="100" 
+	
+	muteGraphicWidth="8" muteGraphicHeight="12" muteGraphicAlpha="100" 
+	
+	mouseOverGraphicColor1="0xcdeaf2" mouseOverGraphicColor2="0x9ebbc3" mouseOverGraphicColor3="0x6e8b94"
+	
+	mouseOutGraphicColor1="0x797979" mouseOutGraphicColor2="0x656565" mouseOutGraphicColor3="0x4b4b4b"
+	
+	animationTime=".3" animationType="easeinquad"
+	
+	appearAnimationTime="3" appearAnimationType="linear"
+	
+	toggleShadow="1"
+	
+	toggleNextButton="1" nextButtonNormalColor1="0x797979" nextButtonNormalColor2="0x656565" nextButtonNormalColor3="0x4b4b4b" nextButtonOverColor1="0xd0edf5" nextButtonOverColor2="0x9ebbc3" nextButtonOverColor3="0x6a8790"
+	
+	nextButtonAlpha="100" toggleNextButtonShadow="1" nextButtonX="39" nextButtonY="8"
+	
+	togglePrevButton="1" prevButtonNormalColor1="0x797979" prevButtonNormalColor2="0x656565" prevButtonNormalColor3="0x4b4b4b" prevButtonOverColor1="0xd0edf5" prevButtonOverColor2="0x9ebbc3" prevButtonOverColor3="0x6a8790" 
+	
+	prevButtonAlpha="100" togglePrevButtonShadow="1" prevButtonX="-16" prevButtonY="8"
+		
+></settings>
+
+	<content>
+	
+		<music src="images/homepage/mp3/01-trancefobia.mp3" title="DJD - Trancefobia">  </music>
+		<music src="images/homepage/mp3/02-rebirth.mp3" title="DJD - Rebirth">  </music>
+		<music src="images/homepage/mp3/01-trancefobia.mp3" title="DJD - Trancefobia">  </music>
+		<music src="images/homepage/mp3/02-rebirth.mp3" title="DJD - Rebirth">  </music>		
+		
+	</content>
+	
+</mp3player>

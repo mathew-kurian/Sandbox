@@ -1,0 +1,52 @@
+8
+
+dir
+535
+http://papervision3d.googlecode.com/svn/trunk/branches/GreatWhite/src/org/papervision3d/view/layer
+http://papervision3d.googlecode.com/svn
+
+
+
+2007-12-07T03:59:01.961010Z
+354
+r.hauwert
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+071aa1e1-232a-0410-a790-59abb25ab4c3
+
+ViewportBaseLayer.as
+file
+
+
+
+
+2007-12-11T06:12:43.999431Z
+5fe9cc8885089c7e3348b1cbd805827e
+2007-12-06T16:55:17.371458Z
+352
+r.hauwert@gmail.com
+
+ViewportLayer.as
+file
+
+
+
+
+2007-12-11T06:12:44.005290Z
+68c4d53b5669642cf5cb63cc4e9fae5b
+2007-12-07T03:59:01.961010Z
+354
+r.hauwert
+

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<content>
+  <mp3 Thumb="playlist/thumb1.jpg" Title="Digital Science - Supernova Theme" Path="playlist/track1.mp3"/>
+  <mp3 Thumb="playlist/thumb2.jpg" Title="ADG3 Studios - Ticker Tape" Path="playlist/track2.mp3"/>
+  <mp3 Thumb="playlist/thumb3.jpg" Title="ADG3 Studios - Vortex Calm" Path="playlist/track3.mp3"/>
+  <mp3 Thumb="playlist/thumb4.jpg" Title="ADG3 Studios - Digital Science" Path="playlist/track4.mp3"/>
+  <mp3 Thumb="playlist/thumb5.jpg" Title="ADG3 Studios - Encrypted Cypher" Path="playlist/track5.mp3"/>
+  <mp3 Thumb="playlist/thumb6.jpg" Title="ADG3 Studios - Silhouettes" Path="playlist/track6.mp3"/>
+</content>

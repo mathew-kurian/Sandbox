@@ -1,0 +1,38 @@
+<!--S:Main-->
+<Jobs>
+
+	<settings>
+		
+		<text>{SET_TEXT}</text>
+		
+		<upload>{SET_UPLOAD}</upload>
+		
+	</settings>
+		
+	<content title="{MOD_LONG_NAME}" urlTitle="{MOD_URLTITLE}" url="/{MOD_URL}">	
+	{ITEMS}
+	</content>
+
+</Jobs>
+<!--E:Main-->
+
+<!--S:ItemsGroup-->
+		{DATA}
+<!--E:ItemsGroup-->
+
+<!--S:ItemsGroupEmpty-->
+
+<!--E:ItemsGroupEmpty-->
+
+<!--S:ItemsElement-->
+
+		<item title="{ITEM_TITLE}"  date="{ITEM_LOCATION}" urlTitle="{ITEM_URLTITLE}" url="/{ITEM_URL}-{ITEM_ID}" id="{ITEM_ID}" mainTitle="{MAIN_TITLE}" uploadTitle="{UPLOAD_TITLE}" contactTitle="{CONTACT_TITLE}" readmoreTitle="{READMORE_TITLE}">
+
+			<small_description><![CDATA[{ITEM_SMALL_DESCRIPTION}]]></small_description>
+			<big_description><![CDATA[{ITEM_BIG_DESCRIPTION}]]></big_description>
+		</item>
+<!--E:ItemsElement-->
+
+<!--S:ItemsEmpty-->
+
+<!--E:ItemsEmpty-->

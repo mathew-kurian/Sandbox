@@ -1,0 +1,45 @@
+<form>
+	<tabs>
+		<t active="true" width="100" title="Module Settings" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.user&action=details&mod_id={MODULE_ID}" />
+		<t0 width="80" title="Jobs" link="index.php?mod=oxymall&sub=oxymall.plugin.jobs.landing&module_id={MODULE_ID}&returnurl={SELF.PREVIOUS_ENC}" />
+		<t1 width="80" title="Resumes" link="index.php?mod=oxymall&sub=oxymall.plugin.jobs.resumes&module_id={MODULE_ID}&returnurl={SELF.PREVIOUS_ENC}" />
+		<t_video width="80" title="Video Tutorial" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.help&module_id={MODULE_ID}" restricted="eval:$GLOBALS['no_tutorials'];"/>
+	</tabs>
+
+
+	<fields>
+
+		<set_misc_subtitle type="subtitle" title="Misc" />		
+		<set_reverseorder type="checkbox" checked="1" title="Reverse Jobs Order" label="yes|no" description="If you check this the last added job will appear the first."/>
+		<set_upload_field type="checkbox" checked="1" title="Enable Upload Resume" label="yes|no"/> 
+		<set_main_title type="textbox" size="60" title="Popup Title"  />
+		<set_contact_title type="textbox" size="60" title="Contact Popup Title"  />
+		<set_upload_title type="textbox" size="60" title="Upload Button Title"  />
+		<set_readmore_title type="textbox" size="60" title="Readmore Button Title"  />
+
+		<settings_title type="subtitle" title="Settings" />
+
+		<set_text type="textbox" size="60" title="Send Mail Script" />
+		<set_upload type="textbox" size="60" title="Upload File Script" />
+
+		<comment_auto padding="20" type="comment" align="center" subtype="extern" file="../settings/contact.htm" />
+
+		<settings_notification type="subtitle" title="Admin Notification Email" />
+		<set_email_1 type="checkbox" checked="1" label="enabled"/>		
+		<set_email_1_to_name type="textbox" size="40" title="To Name/Email" referers="set_email_1_to_email"/>
+		<set_email_1_to_email type="textbox" size="40" referer="set_email_1_to_name"/>
+		<set_email_1_from_name type="textbox" size="40" title="From Name/Email" referers="set_email_1_from_email"/>
+		<set_email_1_from_email type="textbox" size="40" referer="set_email_1_from_name"/>
+
+		<set_email_1_subject type="textbox" size="60" title="Subject" />
+		<set_email_1_message type="textarea" size="90:4" title="Message" html="true" toolbar="Basic" width="600" height="200"/>
+
+		<settings_notification_2 type="subtitle" title="Autoresponder Email" />
+		<set_email_2 type="checkbox" checked="1" label="enabled"/>		
+		<set_email_2_to_name type="textbox" size="40" title="From Name/Email" referers="set_email_2_to_email"/>
+		<set_email_2_to_email type="textbox" size="40" referer="set_email_2_to_name"/>
+		<set_email_2_subject type="textbox" size="60" title="Subject" />
+		<set_email_2_message type="textarea" size="90:4" title="Message" html="true" toolbar="Basic" width="600" height="200"/> 
+
+	</fields>
+</form>

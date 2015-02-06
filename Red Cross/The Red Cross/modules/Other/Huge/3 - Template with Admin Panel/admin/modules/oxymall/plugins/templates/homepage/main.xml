@@ -1,0 +1,51 @@
+<!--S:Main-->
+<Homepage>
+	
+	<settings>
+
+		<thumbWidth>{SET_THUMBWIDTH}</thumbWidth>
+		
+		<thumbHeight>{SET_THUMBHEIGHT}</thumbHeight>
+		
+		<distanceBetweenThumbs>{SET_DISTANCEBETWEENTHUMBS}</distanceBetweenThumbs>
+		
+		<thumbsOnSlider>{SET_THUMBSONSLIDER}</thumbsOnSlider>
+		
+		<scrollingBlurX>{SET_SCROLLINGBLURX}</scrollingBlurX>
+
+	</settings>
+
+	<content title="{TITLE}" url="/{MOD_URL}" urlTitle="{URLTITLE}">
+		<![CDATA[{HEADER}]]>
+	</content>
+
+	<slider title="{SUBTITLE}">
+	{IMAGES}
+	</slider>
+</Homepage>
+<!--E:Main-->
+
+<!--S:ImagesGroup-->
+		{DATA}
+<!--E:ImagesGroup-->
+
+<!--S:ImagesGroupEmpty-->
+
+<!--E:ImagesGroupEmpty-->
+
+<!--S:ImagesElement-->
+		<item 
+			src="../../homepage/{ITEM_ID}.jpg" 
+			title="{ITEM_TITLE}" 
+			url="{ITEM_URL}" 
+			target="{ITEM_TARGET}" 
+
+			urlTitle="{ITEM_URLTITLE}" 
+			toggleLaunchPopup="{ITEM_TYPE}" 
+			image="../../homepage/{FILE}" 
+		><![CDATA[{ITEM_DESCRIPTION}]]></item>
+<!--E:ImagesElement-->
+
+<!--S:ImagesEmpty-->
+
+<!--E:ImagesEmpty-->

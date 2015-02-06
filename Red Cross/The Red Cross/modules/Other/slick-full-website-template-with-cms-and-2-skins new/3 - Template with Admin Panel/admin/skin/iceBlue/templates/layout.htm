@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>{PUB.ADMIN.TITLE}</title>			
+		<link href="skin/iceBlue/css/content/content.css" rel="stylesheet" type="text/css" />
+		<link href="skin/iceBlue/css/forms.css" rel="stylesheet" type="text/css" />
+		<link href="skin/iceBlue/css/preview.css" rel="stylesheet" type="text/css" />
+
+		<script src="js/libs.js"></script>
+		<script src="skin/iceBlue/template.js"></script>
+	</head>	
+
+	<body onload="ShowMenu(null)">
+		<div id="preview"></div>
+	<center>
+		<table width="960" id="wrapper" cellspacing="0" cellpadding="0" border="0">
+			<tr>
+				<td id="header" colspan="2"><table cellspacing="0" cellpadding="0" width="100%" height="100%">
+					<tr>
+						<td valign="middle" align="left"><img src="{PUB.ADMIN.LOGO}" /></td>
+						<td valign="bottom"><div class="left">Welcome {PUB:USER_FIRST_NAME} {PUB:USER_LAST_NAME} |  <a href="javascript:if (confirm('Are you sure you want to logout?')) { window.location='index.php?mod=auth&sub=logout' }">Log Off</a></div></td>
+					</tr></table>
+				</td>
+			</tr>
+			<tr>
+				<td class="menu-pos" width="209">
+					<table cellspacing="0" cellpadding="0" class="menu">
+						<thead>
+							<tr>
+								<td><a href="index.php">Dashboard</a><td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<ul class="main-menu">
+									{MINIBASE.MENU}									
+									</ul>
+								</td>
+							</tr>
+						</tbody>
+						{MINIBASE.WELCOME}
+					</table>
+				</td>
+				<td id="content">					
+					<div class="content">
+						<div class="top">
+							<div class="maincontent">{PB_EVENTS}</div>
+						</div>
+					</div>
+					
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" id="footer">
+					<div class="left"></div>					
+					<div class="right">{PUB.ADMIN.COPYRIGHT}</div>
+				</td>
+		</table>
+	</center>
+
+	<br><br>
+	</body>
+</html>
+
+

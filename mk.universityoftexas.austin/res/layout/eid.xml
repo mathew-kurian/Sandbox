@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mk.universityoftexas.austin.LightingLayoutRelative xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/log"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wood"
+        android:orientation="vertical" >
+
+        <mk.universityoftexas.austin.OverlayProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/board"
+        android:orientation="vertical"
+        android:paddingLeft="45dp"
+        android:paddingTop="15dp" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/mynameis"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="40dp" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/sfs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:text="Name"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/eid_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="TextView"
+                    android:textColor="#000000"
+                    android:textSize="11dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/sdf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:text="UTEid"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/eid_uteid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="TextView"
+                    android:textColor="#000000"
+                    android:textSize="11dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/sdf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" >
+
+            <LinearLayout
+                android:id="@+id/eid_web_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" android:visibility="gone">
+
+            </LinearLayout>
+
+            <ScrollView
+                android:id="@+id/eid_scrollview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fadingEdgeLength="0dp"
+                android:scrollbars="none" android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/eid_holder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </ScrollView>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-20dp"
+        android:fadingEdgeLength="0dp"
+        android:scrollbarFadeDuration="0"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ImageView12"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:src="@drawable/eid_bevo" />
+
+            <ImageView
+                android:id="@+id/ImageView11"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:src="@drawable/eid_bevo" />
+
+            <ImageView
+                android:id="@+id/ImageView10"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:src="@drawable/eid_bevo" />
+
+            <ImageView
+                android:id="@+id/ImageView09"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:src="@drawable/eid_bevo" />
+
+            <ImageView
+                android:id="@+id/ImageView08"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:src="@drawable/eid_bevo" />
+
+            <ImageView
+                android:id="@+id/ImageView07"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:src="@drawable/eid_bevo" />
+
+            <ImageView
+                android:id="@+id/ImageView06"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:src="@drawable/eid_bevo" />
+
+            <ImageView
+                android:id="@+id/ImageView05"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:src="@drawable/eid_bevo" />
+
+            <ImageView
+                android:id="@+id/ImageView04"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:src="@drawable/eid_bevo" />
+
+            <ImageView
+                android:id="@+id/ImageView03"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:src="@drawable/eid_bevo" />
+
+            <ImageView
+                android:id="@+id/ImageView02"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:src="@drawable/eid_bevo" />
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:src="@drawable/eid_bevo" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:src="@drawable/eid_bevo" />
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/eid_progress_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:background="#80000000"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+
+        <ProgressBar
+            android:id="@+id/eid_progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/eid_webtools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/campus_life_web_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/campus_life_web_back"
+            android:onClick="onClick" android:layout_gravity="center" android:layout_marginLeft="-9dp" android:layout_marginRight="-9dp"/>
+
+        <ImageButton
+            android:id="@+id/campus_life_web_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/campus_life_web_refresh"
+            android:onClick="onClick" android:layout_gravity="center" android:layout_marginLeft="-9dp" android:layout_marginRight="-9dp"/>
+
+        <ImageButton
+            android:id="@+id/campus_life_web_forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/campus_life_web_forward"
+            android:onClick="onClick" android:layout_gravity="center" android:layout_marginLeft="-9dp" android:layout_marginRight="-9dp"/>
+    </LinearLayout>
+
+</mk.universityoftexas.austin.LightingLayoutRelative>

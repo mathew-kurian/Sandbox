@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+
+	<!--Column 1 -->
+	<image>
+		<x>0</x>
+		<y>0</y>
+		<imageURL>site_images/folioSWF/folio_01.jpg</imageURL>
+	</image>
+	<image>
+		<x>0</x>
+		<y>69</y>
+		<imageURL>site_images/folioSWF/folio_12.jpg</imageURL>
+	</image>
+	<image>
+		<x>0</x>
+		<y>138</y>
+		<imageURL>site_images/folioSWF/folio_20.jpg</imageURL>
+	</image>
+	<image>
+		<x>0</x>
+		<y>207</y>
+		<imageURL>site_images/folioSWF/folio_28.jpg</imageURL>
+	</image>
+	
+	<!--Column 2 -->
+	<image>
+		<x>155</x>
+		<y>0</y>
+		<imageURL>site_images/folioSWF/folio_03.jpg</imageURL>
+	</image>
+	<image>
+		<x>155</x>
+		<y>69</y>
+		<imageURL>site_images/folioSWF/folio_13.jpg</imageURL>
+	</image>
+	<image>
+		<x>155</x>
+		<y>138</y>
+		<imageURL>site_images/folioSWF/folio_21.jpg</imageURL>
+	</image>
+	<image>
+		<x>155</x>
+		<y>207</y>
+		<imageURL>site_images/folioSWF/folio_29.jpg</imageURL>
+	</image>
+
+	
+	<!--Column 3 -->
+	<image>
+		<x>310</x>
+		<y>0</y>
+		<imageURL>site_images/folioSWF/folio_05.jpg</imageURL>
+	</image>
+	<image>
+		<x>310</x>
+		<y>69</y>
+		<imageURL>site_images/folioSWF/folio_14.jpg</imageURL>
+	</image>
+	<image>
+		<x>310</x>
+		<y>138</y>
+		<imageURL>site_images/folioSWF/folio_22.jpg</imageURL>
+	</image>
+	<image>
+		<x>310</x>
+		<y>207</y>
+		<imageURL>site_images/folioSWF/folio_30.jpg</imageURL>
+	</image>
+	
+	
+	<!--Column 4 -->
+	<image>
+		<x>465</x>
+		<y>0</y>
+		<imageURL>site_images/folioSWF/folio_07.jpg</imageURL>
+	</image>
+	<image>
+		<x>465</x>
+		<y>69</y>
+		<imageURL>site_images/folioSWF/folio_15.jpg</imageURL>
+	</image>
+	<image>
+		<x>465</x>
+		<y>138</y>
+		<imageURL>site_images/folioSWF/folio_23.jpg</imageURL>
+	</image>
+	<image>
+		<x>465</x>
+		<y>207</y>
+		<imageURL>site_images/folioSWF/folio_31.jpg</imageURL>
+	</image>
+
+	
+</xmlObject>

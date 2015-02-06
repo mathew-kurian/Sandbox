@@ -1,0 +1,70 @@
+<page>
+			<name>THE SLIDESHOW</name>
+			<hasSubPages>false</hasSubPages>
+				<title>The Edge Slideshow Module</title>
+				<xmlPath>site_configuration/slideShow.xml</xmlPath>
+				<cssPath>site_stylesheets/slideShow.css</cssPath>
+				<utilityType>slideshow</utilityType>
+				<muteAudio>false</muteAudio>
+				<backgroundOptions>
+					<topMargin>0</topMargin>
+					<bottomMargin>0</bottomMargin>
+					<useImage>true</useImage>
+					<imageURL>site_images/backgroundImages/solidBlack.gif</imageURL>
+					<useBackgroundOverlay>false</useBackgroundOverlay>
+					<overlayURL>site_images/bgOverlay.png</overlayURL>
+					<tileImage>true</tileImage>
+					<fullScreenImage>true</fullScreenImage>
+				</backgroundOptions>
+	</page>	
+
+<page>
+		<hasSubPages>false</hasSubPages>
+		<name>OUTREACH</name>
+		<title>Upcoming Events</title>
+		<xmlPath>site_configuration/portfolio.xml</xmlPath>
+		<cssPath>site_stylesheets/content.css</cssPath>
+		<utilityType>content</utilityType>
+		<muteAudio>false</muteAudio>
+			<backgroundOptions>
+				<topMargin>0</topMargin>
+				<bottomMargin>0</bottomMargin>
+				<useImage>true</useImage>
+				<imageURL>site_images/backgroundImages/woodPattern.jpg</imageURL>
+				<tileImage>true</tileImage>
+				<fullScreenImage>true</fullScreenImage>
+			</backgroundOptions>
+	</page>
+
+<page>
+			<name>THE EXTERNAL SWF</name>
+			<hasSubPages>false</hasSubPages>
+			<title>The Edge External AS3 Swf</title>
+			<muteAudio>false</muteAudio>
+			<backgroundOptions>
+				<topMargin>0</topMargin>
+				<bottomMargin>0</bottomMargin>
+				<useImage>true</useImage>
+				<imageURL>site_images/backgroundImages/woodPattern.jpg</imageURL>
+				<tileImage>true</tileImage>
+				<fullScreenImage>false</fullScreenImage>
+			</backgroundOptions>
+				<utilityType>externalSwf</utilityType>
+				<swfUrl>as3swf.swf</swfUrl>
+				<!--  
+				It is highly recommended that when unloading your external swf, that any and all event listeners
+				that have been set be removed, and all objects are removed from the stage, and bitmap data is 
+				disposed of. This clears your visitors memory and prevents your template from running into errors
+				that can arise from unremoved event listeners. If you are flash beginner set the following 
+				<useFunctionForGarbageCollection> to false, if you are somewhat good with actionscript set the 
+				following <useFunctionForGarbageCollection> to true and then include the name of the function
+				that takes care of removing your movieclip assets from memory. Make sure that this function is 
+				located on the first frame of the external swf that you are loading. -->
+				<useFunctionForGarbageCollection>true</useFunctionForGarbageCollection>
+				<!-- if you are a begginer and have set <useFunctionForGarbageCollection> to false then you can leave <functionName> empty. -->
+				<functionName>destroySwf</functionName>
+				<!--If your external swf centers itself then set <useTemplateToCenterSwf> to false -->
+				<useTemplateToCenterSwf>true</useTemplateToCenterSwf>
+				<swfWidth>916</swfWidth>
+				<swfHeight>357</swfHeight>
+	</page>

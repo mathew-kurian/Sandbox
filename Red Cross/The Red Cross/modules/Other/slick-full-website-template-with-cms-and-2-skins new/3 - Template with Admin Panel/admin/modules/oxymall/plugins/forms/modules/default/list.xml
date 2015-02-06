@@ -1,0 +1,42 @@
+<form>
+	<border>true</border>
+	<title>Installed Modules</title>
+
+	<alternance>true</alternance>
+	<valternance>true</valternance>
+
+	<tabs>
+		<t0 width="100" title="Video Tutorial" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.help" restricted="eval:$GLOBALS['no_tutorials'];"/>
+		<t1 width="100" title="Global Settings" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.settings" />
+		<t2 width="100" title="Installed Skins" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.skins" />
+		<t3 active="true" width="100" title="Installed Modules" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.default" />
+		<t4 width="100" title="Enabled Modules" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.user" />
+		<t5 width="100" title="Storage Folders" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.folders" />
+	</tabs>
+
+	<fields>
+
+		<_count header="No." width="20" align="right" suffix="."/>
+		<module_name header="Module" />
+
+		<button_details type="button" width="20" align="center" onclick="" button="/small/edit" protected="module_system">
+			<location>{SELF.URI.EDIT}</location>
+		</button_details>
+
+	</fields>
+
+	<header>
+		<titles>true</titles>
+		<buttons>
+<!--
+			<add button="addnew">
+				<location>{SELF.URI.ADD}</location>
+			</add>
+-->
+		</buttons>
+	</header>
+
+	<items>50</items>
+
+
+</form>

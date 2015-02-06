@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <script type="text/javascript" src="swfobject/swfobject.js"></script>
+        <script type="text/javascript" src="swfaddress/swfaddress.js"></script>
+        <style type="text/css">
+            html, body {
+                height: 100%;
+                overflow: hidden;
+            }
+            body {
+                background: #000000;
+                font: 86% "Helvetica Neue", Arial, sans-serif;
+				color: #FFFFFF;
+                margin: 0;                
+            }
+            #content {
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="content">
+            <p>In order to view this page you need JavaScript and Flash Player 8+ support!</p>
+        </div>
+        <script type="text/javascript">
+        // <![CDATA[
+			var attributes = {id:"website"};
+            var so = new SWFObject('main.swf', 'main', '100%', '100%', '8', '#000000', null, null, attributes);
+            so.useExpressInstall('swfobject/expressinstall.swf');
+            so.addParam('menu', 'false');
+            so.addParam('allowFullscreen', 'true');
+            so.write('content');
+        // ]]>
+        </script>
+    </body>
+</html>

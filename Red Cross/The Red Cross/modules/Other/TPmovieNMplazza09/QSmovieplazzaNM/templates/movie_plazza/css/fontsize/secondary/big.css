@@ -1,0 +1,36 @@
+ /* 
+=================================================
+# Filename : big.css
+# Description : Font Size Css rules 
+# Author : TemplatePlazza
+# Author Url : http://www.templateplazza.com
+# Copyright (C) 2009 TemplatePlazza.com
+# All rights reserved.
+=================================================
+*/
+.contentheading,
+.contentpagetitle,
+.componentheading,
+div.componentheading,
+td.contentheading,
+td.contentpagetitle {
+	font-size:36px;
+	line-height:110%;
+	letter-spacing:-2px;
+    
+
+	}
+    
+div.moduletable h3,
+div.moduletable_menu h3,
+div.moduletable-red h3,
+div.moduletable-blue h3,
+div.moduletable-box h3,
+div.moduletable-boxred h3,
+div.moduletable-boxblue h3,
+div.moduletable-badgehot h3,
+div.moduletable-badgenew h3
+{
+	font-size:24px;	
+
+	}

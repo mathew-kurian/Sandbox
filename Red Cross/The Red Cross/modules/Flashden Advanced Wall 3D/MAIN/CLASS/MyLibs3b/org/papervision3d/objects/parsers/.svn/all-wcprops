@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/533/trunk/branches/GreatWhite/src/org/papervision3d/objects/parsers
+END
+Collada.as
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/529/trunk/branches/GreatWhite/src/org/papervision3d/objects/parsers/Collada.as
+END
+Max3DS.as
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/510/trunk/branches/GreatWhite/src/org/papervision3d/objects/parsers/Max3DS.as
+END
+KMZ.as
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/492/trunk/branches/GreatWhite/src/org/papervision3d/objects/parsers/KMZ.as
+END
+MD2.as
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/502/trunk/branches/GreatWhite/src/org/papervision3d/objects/parsers/MD2.as
+END
+Sketchup.as
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/447/trunk/branches/GreatWhite/src/org/papervision3d/objects/parsers/Sketchup.as
+END
+SketchupCollada.as
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/492/trunk/branches/GreatWhite/src/org/papervision3d/objects/parsers/SketchupCollada.as
+END
+Ase.as
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/492/trunk/branches/GreatWhite/src/org/papervision3d/objects/parsers/Ase.as
+END
+DAE.as
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/533/trunk/branches/GreatWhite/src/org/papervision3d/objects/parsers/DAE.as
+END

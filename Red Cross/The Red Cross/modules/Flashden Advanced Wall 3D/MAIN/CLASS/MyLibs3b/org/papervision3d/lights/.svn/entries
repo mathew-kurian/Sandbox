@@ -1,0 +1,40 @@
+8
+
+dir
+535
+http://papervision3d.googlecode.com/svn/trunk/branches/GreatWhite/src/org/papervision3d/lights
+http://papervision3d.googlecode.com/svn
+
+
+
+2007-12-10T18:02:31.962198Z
+364
+tim.knip
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+071aa1e1-232a-0410-a790-59abb25ab4c3
+
+PointLight3D.as
+file
+
+
+
+
+2007-12-11T06:12:43.775813Z
+49d4a11d27a7855ca2e0bc50fc36d63a
+2007-12-10T18:02:31.962198Z
+364
+tim.knip
+

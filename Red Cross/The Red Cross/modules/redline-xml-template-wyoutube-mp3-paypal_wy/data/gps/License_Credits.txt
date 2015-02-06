@@ -1,0 +1,47 @@
+License: Creative Commons - Attribution (CC-BY)
+http://creativecommons.org/licenses/by/2.0/deed.en
+
+file: 2675016751_22263ec613_o.jpg
+credits: Norman B. Leventhal Map Center at the BPL
+license: CC-BY
+url: http://flickr.com/photos/normanbleventhalmapcenter/2675016751/
+
+file: 2675192483_7e354cc898_o.jpg
+credits: Norman B. Leventhal Map Center at the BPL
+license: CC-BY
+url: http://flickr.com/photos/normanbleventhalmapcenter/2675192483/
+
+file: 2675840130_5a3822f6ab_o.jpg
+credits: Norman B. Leventhal Map Center at the BPL
+license: CC-BY
+url: http://flickr.com/photos/normanbleventhalmapcenter/2675840130/
+
+file: 2675914702_3a154e492f_o.jpg
+credits: Norman B. Leventhal Map Center at the BPL
+license: CC-BY
+url: http://flickr.com/photos/normanbleventhalmapcenter/2675914702/
+
+file: 3045761151_b227221f72_o.jpg
+credits: Norman B. Leventhal Map Center at the BPL
+license: CC-BY
+url: http://flickr.com/photos/normanbleventhalmapcenter/3045761151/
+
+file: 3045765061_334c02d64a_o.jpg
+credits: Norman B. Leventhal Map Center at the BPL
+license: CC-BY
+url: http://flickr.com/photos/normanbleventhalmapcenter/3045765061/
+
+file: 3120134413_6876c84818_o.jpg
+credits: Norman B. Leventhal Map Center at the BPL
+license: CC-BY
+url: http://flickr.com/photos/normanbleventhalmapcenter/3120134413/
+
+file: 3120216821_127cd960c2_o.jpg
+credits: Norman B. Leventhal Map Center at the BPL
+license: CC-BY
+url: http://flickr.com/photos/normanbleventhalmapcenter/3120216821/
+
+file: 3120218905_fc1a0d958b_o.jpg
+credits: Norman B. Leventhal Map Center at the BPL
+license: CC-BY
+url: http://flickr.com/photos/normanbleventhalmapcenter/3120218905/

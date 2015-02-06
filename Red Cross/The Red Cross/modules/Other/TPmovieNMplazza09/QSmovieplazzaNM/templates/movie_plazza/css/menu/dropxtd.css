@@ -1,0 +1,377 @@
+ /* 
+=================================================
+# Filename : tp_dropdown.css
+# Description : Specific CSS rules for Dropdown TP Menu 
+# Author : TemplatePlazza
+# Author Url : http://www.templateplazza.com
+# Copyright (C) 2009 TemplatePlazza.com
+# All rights reserved.
+=================================================
+*/
+#tp-cssmenu{
+	float: left;
+	margin: 0px;
+	background: none;
+	border: none;
+	font-size:11px;
+}
+
+#tp-cssmenu ul{
+	margin: 0; /* all lists */
+	padding: 0;
+}
+
+#tp-cssmenu li{
+	margin: 0; /* all list items */
+	padding: 0 0 0 0;
+	float: left;
+	display: block;
+	cursor:  auto;
+	position: relative;
+	z-index:1;
+}
+
+
+#tp-cssmenu li ul{
+	position: absolute; /* second-level lists */
+	z-index: 2;
+	margin-top:0px;
+	padding:0 0 0 0;
+	background-image:none;
+	margin-left:0;
+}
+
+
+#tp-cssmenu li ul{
+	left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+}
+
+
+/* This "unhides" the sub-menus (left: -999em is what hides them) */
+#tp-cssmenu li:hover ul, #tp-cssmenu li li:hover ul, #tp-cssmenu li li li:hover ul, #tp-cssmenu li li li li:hover ul,
+#tp-cssmenu li.sfhover ul, #tp-cssmenu li.havechildsfhover ul, #tp-cssmenu li.havechild-activesfhover ul, #tp-cssmenu li.activesfhover ul {   left: auto;
+}
+
+/* STYLING THE MENU
+-----------------------------------*/
+/* 1st level */
+#tp-cssmenu li a{
+	display: block;
+	font-size: 18px;
+	color: #ffffff;
+	text-decoration: none;
+	text-align:left;
+	padding:15px 10px 10px 10px;
+	margin: 0;
+	font-family: Arial, Tahoma, Verdana;
+	line-height:40px;
+	font-weight:700;
+	text-transform:uppercase;
+	height:35px;
+}
+
+
+#tp-cssmenu li.active a,
+#tp-cssmenu li.activesfhover a{
+
+	color:#cc0000;
+	font-weight:700;
+}
+#tp-cssmenu li.active li a,
+#tp-cssmenu li.activesfhover li a {
+	background-image:none;
+	}
+
+#tp-cssmenu li.fulltpmenuimages img,
+#tp-cssmenu li.fulltpmenuimagessfhover img,
+#tp-cssmenu li a.fulltpmenuimages, 
+#tp-cssmenu li.fulltpmenuimages a,
+#tp-cssmenu li.fulltpmenuimagessfhover a,
+#tp-cssmenu li.tpmenutextandimage a,
+#tp-cssmenu li.tpmenutextandimagesfhover a{
+	margin:0;
+	border-right:none;
+}
+
+#tp-cssmenu li.tpmenutextandimage li a{
+	padding-left:10px;
+	padding-right:0;
+}
+
+#tp-cssmenu li.tpmenutextandimagesfhover li a:hover{
+	padding-left:10px;
+	padding-right:0;
+	background: none;
+}
+
+#tp-cssmenu li.tpmenutextandimage li,
+#tp-cssmenu li.tpmenutextandimagesfhover li{
+	padding:0;
+}
+
+#tp-cssmenu li.tpmenutextandimage img,
+#tp-cssmenu li.tpmenutextandimagesfhover img{
+	vertical-align:middle;
+}
+
+#tp-cssmenu li.fulltpmenuimages ul li a,
+#tp-cssmenu li.fulltpmenuimagessfhover ul li a{
+	padding-left:10px;
+}
+
+#tp-cssmenu li.fulltpmenuimages a{
+	padding:0;
+	margin:0;
+}
+
+.fulltpmenuimageschild{}
+.tpmenutextandimagechild{}
+#tp-cssmenu li a.fulltpmenuimages{
+	padding:0;
+	margin:0;
+}
+
+
+#tp-cssmenu li li.activesfhover {
+	background-image:none;
+	padding-left:0;
+} 
+#tp-cssmenu li li.activesfhover a {
+	background-image:none;}
+#tp-cssmenu li.active li a{
+	font-weight:normal;
+}
+
+#tp-cssmenu li:hover a,
+#tp-cssmenu li.sfhover a,
+#tp-cssmenu li.havechildsfhover a,
+#tp-cssmenu li.havechild-activesfhover a{
+	color:#cc0000;
+
+}
+
+/* 2nd level and above */
+
+#tp-cssmenu li ul a,
+#tp-cssmenu li:hover ul a,
+#tp-cssmenu li.sfhover ul a,
+#tp-cssmenu li.havechildsfhover ul a,
+#tp-cssmenu li.havechild-activesfhover a{
+	color: #FFFFFF;
+	text-align:left;
+	/*background-color: #ffffff;*/
+	
+}
+
+#tp-cssmenu li ul a:hover,
+#tp-cssmenu li ul a:active,
+#tp-cssmenu li ul a:focus,
+#tp-cssmenu li.parent li ul a:hover,
+#tp-cssmenu li.parent li ul a:active,
+#tp-cssmenu li.parent li ul a:focus {
+	background: none;	
+}
+#tp-cssmenu li.active ul li a:hover{
+}
+
+.tptopmenuhavesubtitle span {
+	display:block;
+	margin-top:-5px;
+	margin-bottom:5px;
+	}
+span.tpchildtitle   {
+	margin-top:0;
+	margin-bottom:0;
+    font-weight: 700;
+    line-height: 150%;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+}
+span.tpchildtitle:hover {
+    color: #cc0000;
+}
+span.tpchildsubtitle   {
+	margin-top:0;
+	margin-bottom:0;
+    font-weight: 400;
+    font-size: 80%;
+    color:#666;
+    padding: 3px 0;
+    line-height: 100%;
+
+}
+span.tpparenttitle {
+
+}
+span.tpsubtitle {
+	position:absolute;
+	display:block;
+	font-size:11px;
+	margin:0;
+	padding:0 0 6px 0;
+	font-weight:400;
+	height:11px;
+	line-height:11px;
+	color:#FFFFFF;
+	margin-top:-10px;
+}
+
+.tpmenuid1 {
+	height:60px;	
+	}
+.tpmenuid2 {
+	height:60px;}
+.tpmenuid3 {
+	height:60px;}
+.tpmenuid4 {
+	height:60px;}
+.tpmenuid5 {
+	height:60px;}
+.tpmenuid6{
+	height:60px;
+	}
+.tpmenuid7{
+	height:60px;}
+.tpmenuid8 {
+	height:60px;}
+	
+	
+#tp-cssmenu  .tpparenttitle cufon{
+	padding: 0;
+	height:60px;
+	margin-top:8px;}
+#tp-cssmenu .tpsubtitle cufon{
+	margin-top:5px;
+	}
+
+.has-image-left, .has-image-leftsfhover {
+	display: block;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.has-image-right, .has-image-rightsfhover {
+	display: block;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.has-image-left span.tpparenttitle, 
+.has-image-leftsfhover span.tpparenttitle,
+.has-image-left span.tpsubtitle,
+.has-image-leftsfhover span.tpsubtitle
+ {
+	margin-left: 40px;
+}
+
+.has-image-right span.tpparenttitle, 
+.has-image-rightsfhover span.tpparenttitle,
+.has-image-right span.tpsubtitle,
+.has-image-rightsfhover span.tpsubtitle{
+	margin-right: 40px;
+}
+
+
+#tp-cssmenu .has-image-left ul , #tp-cssmenu .has-image-leftsfhover ul ,
+#tp-cssmenu .has-image-right ul , #tp-cssmenu .has-image-rightsfhover ul  {
+    margin-top: 5px;
+}
+
+#tp-cssmenu .has-image-left ul li ul , #tp-cssmenu .has-image-leftsfhover ul li ul ,
+#tp-cssmenu .has-image-right ul li ul , #tp-cssmenu .has-image-rightsfhover ul li ul  {
+    margin-top: -40px;
+}
+
+#tp-cssmenu .dropxtd_global_wrapper {
+    background: #111;
+    padding: 0 5px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    }
+#tp-cssmenu .dropxtd_global_wrapper a:hover {
+    color:#cc0000;
+}
+/*counter reset */
+#tp-cssmenu li .dropxtd_global_wrapper a {
+    display: inline;
+	font-size: inherit;
+	color: inherit;
+	text-decoration: none;
+	text-align:left;
+	padding:0;
+	margin: 0;
+	font-family: Arial, Tahoma, Verdana;
+	line-height: normal;
+	font-weight:400;
+	text-transform: none;
+	height: auto;
+}
+
+
+#tp-cssmenu li div.dropxtdchild {
+    text-align: left;
+    height: auto;
+
+    width: 100%;
+
+}
+#tp-cssmenu li div.dropxtdchild div{
+    color:#FFF;
+    line-height: 100%;
+}
+
+#tp-cssmenu li div.dropxtdchild a {
+    font-size: 11px; line-height: 10px;
+    height: 10px;
+    display: inline;
+    padding: 0;
+    margin: 0;
+
+}
+#tp-cssmenu li div.dropxtdchildmenu {
+    padding: 5px 0;
+}
+.wrapperxtdsubmenu {
+    padding: 5px 0;
+    border-bottom: 1px solid #222;
+    }
+
+    
+#tp-cssmenu .dropxtd_wrapper_general a {
+    height: auto;
+    line-height: normal;
+}
+#tp-cssmenu .dropxtd_wrapper_general .has-image-left .tpchildtitle {
+    height: 20px;
+    font-weight: 700;
+}
+#tp-cssmenu .dropxtd_wrapper_general .has-image-left .tpchildtitle,
+#tp-cssmenu .dropxtd_wrapper_general .has-image-left .tpchildsubtitle {
+    padding-left: 30px;
+}
+#tp-cssmenu .dropxtd_wrapper_general .has-image-right .tpchildtitle,
+#tp-cssmenu .dropxtd_wrapper_general .has-image-right .tpchildsubtitle {
+    padding-right: 30px;
+}
+
+.dropxtd_wrapper_module *{
+    font-size: 11px;
+    text-align: left;
+
+}
+.dropxtd_wrapper_general_inner,
+.dropxtd_wrapper_module_inner {
+    padding: 5px;
+    margin: 0;
+    color: #FFF;
+}
+.dropxtd_wrapper_module_inner p {
+    color: #FFF;
+}
+.dropxtdmoduletitle {
+    font-size: 130%;
+    font-weight: 700;
+    color: #FFF;
+    padding: 5px 0;
+}

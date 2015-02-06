@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	<topMargin>140</topMargin>
+	<bottomMargin>50</bottomMargin>
+	<!--
+		alignX Options 
+		The alignX is the distance from the left your page will start
+		Static X    				  eg.  <alignX>175</alignX>      		(this will make your content start 175 pixels from the left)
+		Left aligned X    	  eg.  <alignX>left</alignX>    		(this will make your content be left aligned)
+		Center aligned X      eg.  <alignX>center</alignX>  		(this will make your content be centered)
+		Right aligned X    	  eg.  <alignX>right</alignX>				(this will make your content be right aligned)
+	-->
+	<alignX>center</alignX><!--Horizontal Alignment-->
+	<!--
+		alignY Options 
+		The alignY is the distance from the top your page will start
+		Static Y    				  eg.  <alignY>175</alignY>      		(this will make your content start 175 pixels from the top)
+		Top aligned Y    	  	eg.  <alignY>top</alignY>     		(this will make your content be aligned vertically under the topMargin)
+		Bottom aligned Y      eg.  <alignY>bottom<alignY>   		(this will make your content be aligned vertically and sit on the bottomMargin)
+		Center aligned Y    	eg.  <alignY>center<alignY>				(this will make your content be aligned vertically between the topMargin and bottomMargin)
+	-->
+	<alignY>center</alignY><!-- Vertical Alignment-->
+	
+	
+	<!--Set your content pages width / height / color and opacity here -->
+	<contentWidth>1065</contentWidth>
+	<contentHeight>2310</contentHeight>
+	<contentBgColor>0x0c0c0c</contentBgColor>
+	<contentBgOpacity>1</contentBgOpacity>
+	
+	<!-- Select the type of scrolling to use -->
+	<useHoverScroll>false</useHoverScroll>
+	<useManualScroll>true</useManualScroll>
+	
+	
+	<!-- Skin Your Scroll Bar Features  *these settings apply if useManualScroll is true and useHoverScroll is false-->
+	<scrollBarWidth>15</scrollBarWidth>
+	<scrollBarHeight>200</scrollBarHeight>
+	<scrollBaseColor>0x000000</scrollBaseColor>
+	<addTiledPatternToScrollBase>true</addTiledPatternToScrollBase>
+	<patternUrl>site_images/patterns/edgePattern.png</patternUrl>
+	<scrollBaseOpacity>.67</scrollBaseOpacity>
+	<scrollerColor>0xcfcfcf</scrollerColor>
+	<scrollerOpacity>1</scrollerOpacity>
+	<!-- End of Scroll Bar Features -->
+	
+	
+	<!-- Used for pop up content -->
+	<dimWallPaperColor>0x000000</dimWallPaperColor>
+	<dimWallPaperAlpha>.95</dimWallPaperAlpha>
+	<!-- set the size of the font used in the image preloader -->
+	<preloaderTextSize>140</preloaderTextSize>
+	<!-- set the color of the font used in the image preloader -->
+	<preloaderTextColor>0x000000</preloaderTextColor>
+	<!-- set the opacity of the font used in the image preloader -->
+	<preloaderTextOpacity>1</preloaderTextOpacity>
+
+
+
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>true</displayHtmlArticles>
+	<displaySlideShow>false</displaySlideShow>
+	<displaySWF>false</displaySWF>
+	
+	
+<image>
+	<x>40</x>
+	<y>40</y>
+	<imageURL>site_images/pages/portfolio/porfolio_07.png</imageURL>
+</image>
+<image>
+	<x>40</x>
+	<y>188</y>
+	<imageURL>site_images/pages/portfolio/porfolio_16.gif</imageURL>
+	<addContentPopUp>true</addContentPopUp>
+	<contentPopUpXmlUrl>site_configuration/extendedPortfolio.xml</contentPopUpXmlUrl>
+	<contentPopUpCssUrl>site_stylesheets/content.css</contentPopUpCssUrl>
+</image>
+<image>
+	<x>40</x>
+	<y>481</y>
+	<imageURL>site_images/pages/portfolio/porfolio_24.png</imageURL>
+</image>
+<article>
+	<x>40</x>
+	<y>519</y>
+	<width>950</width>
+	<articleText><![CDATA[<p class="leading2">For this portfolio page, we only setup four project spots, but you can create aa many spots as you like from XML.  Since this portfolio page is built with our content module, you can add unlimited as3 swfs. So for example each portfolio spot could be an external swf. You can also add unlimited images and or text blocks, so the layout possibilities are endless.  Click the link below to see a pop-up content page, but you could also set a pop-up to be any of the ten image click events outlined on <a class="aAlt" href="event:CONTENT/LAYOUT STYLE 2">layout 2 </a>under the content tab!</p>]]></articleText>
+</article>
+
+<!-- Eg of an image linking to a popup content page -->
+<image>
+	<x>40</x>
+	<y>603</y>
+	<imageURL>site_images/pages/portfolio/porfolio_36.png</imageURL>
+	<addContentPopUp>true</addContentPopUp>
+	<contentPopUpXmlUrl>site_configuration/extendedPortfolio.xml</contentPopUpXmlUrl>
+	<contentPopUpCssUrl>site_stylesheets/content.css</contentPopUpCssUrl>
+</image>
+
+<image>
+	<x>40</x>
+	<y>713</y>
+	<imageURL>site_images/pages/portfolio/porfolio_46.gif</imageURL>
+	<addContentPopUp>true</addContentPopUp>
+	<contentPopUpXmlUrl>site_configuration/extendedPortfolio.xml</contentPopUpXmlUrl>
+	<contentPopUpCssUrl>site_stylesheets/content.css</contentPopUpCssUrl>
+</image>
+<image>
+	<x>40</x>
+	<y>1008</y>
+	<imageURL>site_images/pages/portfolio/porfolio_54.png</imageURL>
+</image>
+<article>
+	<x>40</x>
+	<y>1045</y>
+	<width>950</width>
+	<articleText><![CDATA[<p class="leading2">For this portfolio page, we only setup four project spots, but you can create aa many spots as you like from XML.  Since this portfolio page is built with our content module, you can add unlimited as3 swfs. So for example each portfolio spot could be an external swf. You can also add unlimited images and or text blocks, so the layout possibilities are endless.  Click the link below to see a pop-up content page, but you could also set a pop-up to be any of the ten image click events outlined on <a class="aAlt" href="event:CONTENT/LAYOUT STYLE 2">layout 2 </a>under the content tab!</p>]]></articleText></article>
+
+<!-- Eg of an image linking to a popup content page -->
+<image>
+	<x>40</x>
+	<y>1129</y>
+	<imageURL>site_images/pages/portfolio/porfolio_66.png</imageURL>
+	<addContentPopUp>true</addContentPopUp>
+	<contentPopUpXmlUrl>site_configuration/extendedPortfolio.xml</contentPopUpXmlUrl>
+	<contentPopUpCssUrl>site_stylesheets/content.css</contentPopUpCssUrl>
+</image>
+
+<image>
+	<x>40</x>
+	<y>1244</y>
+	<imageURL>site_images/pages/portfolio/porfolio_76.gif</imageURL>
+	<addContentPopUp>true</addContentPopUp>
+	<contentPopUpXmlUrl>site_configuration/extendedPortfolio.xml</contentPopUpXmlUrl>
+	<contentPopUpCssUrl>site_stylesheets/content.css</contentPopUpCssUrl>
+</image>
+<image>
+	<x>40</x>
+	<y>1539</y>
+	<imageURL>site_images/pages/portfolio/porfolio_84.png</imageURL>
+</image>
+<article>
+	<x>40</x>
+	<y>1576</y>
+	<width>950</width>
+	<articleText><![CDATA[<p class="leading2">For this portfolio page, we only setup four project spots, but you can create aa many spots as you like from XML.  Since this portfolio page is built with our content module, you can add unlimited as3 swfs. So for example each portfolio spot could be an external swf. You can also add unlimited images and or text blocks, so the layout possibilities are endless.  Click the link below to see a pop-up content page, but you could also set a pop-up to be any of the ten image click events outlined on <a class="aAlt" href="event:CONTENT/LAYOUT STYLE 2">layout 2 </a>under the content tab!</p>]]></articleText></article>
+
+<!-- Eg of an image linking to a popup content page -->
+<image>
+	<x>40</x>
+	<y>1660</y>
+	<imageURL>site_images/pages/portfolio/porfolio_96.png</imageURL>
+	<addContentPopUp>true</addContentPopUp>
+	<contentPopUpXmlUrl>site_configuration/extendedPortfolio.xml</contentPopUpXmlUrl>
+	<contentPopUpCssUrl>site_stylesheets/content.css</contentPopUpCssUrl>
+</image>
+
+<image>
+	<x>40</x>
+	<y>1804</y>
+	<imageURL>site_images/pages/portfolio/porfolio_106.gif</imageURL>
+	<addContentPopUp>true</addContentPopUp>
+	<contentPopUpXmlUrl>site_configuration/extendedPortfolio.xml</contentPopUpXmlUrl>
+	<contentPopUpCssUrl>site_stylesheets/content.css</contentPopUpCssUrl>
+</image>
+<image>
+	<x>40</x>
+	<y>2099</y>
+	<imageURL>site_images/pages/portfolio/porfolio_114.png</imageURL>
+</image>
+<article>
+	<x>40</x>
+	<y>2136</y>
+	<width>950</width>
+	<articleText><![CDATA[<p class="leading2">For this portfolio page, we only setup four project spots, but you can create aa many spots as you like from XML.  Since this portfolio page is built with our content module, you can add unlimited as3 swfs. So for example each portfolio spot could be an external swf. You can also add unlimited images and or text blocks, so the layout possibilities are endless.  Click the link below to see a pop-up content page, but you could also set a pop-up to be any of the ten image click events outlined on <a class="aAlt" href="event:CONTENT/LAYOUT STYLE 2">layout 2 </a>under the content tab!</p>]]></articleText></article>
+
+<!-- Eg of an image linking to a popup content page -->
+<image>
+	<x>40</x>
+	<y>2220</y>
+	<imageURL>site_images/pages/portfolio/porfolio_126.png</imageURL>
+	<addContentPopUp>true</addContentPopUp>
+	<contentPopUpXmlUrl>site_configuration/extendedPortfolio.xml</contentPopUpXmlUrl>
+	<contentPopUpCssUrl>site_stylesheets/content.css</contentPopUpCssUrl>
+</image>
+
+
+
+
+
+
+
+				
+
+</xmlObject>

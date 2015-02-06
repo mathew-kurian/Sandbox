@@ -1,0 +1,55 @@
+8
+
+dir
+535
+http://papervision3d.googlecode.com/svn/trunk/branches/GreatWhite/src/org/papervision3d/core/animation
+http://papervision3d.googlecode.com/svn
+
+
+
+2008-04-06T12:36:18.552755Z
+505
+tim.knip
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+071aa1e1-232a-0410-a790-59abb25ab4c3
+
+IAnimationDataProvider.as
+file
+
+
+
+
+2008-04-15T09:24:54.391008Z
+326cb240687972d4adf6a3f238b5eaa7
+2008-03-29T01:04:20.078425Z
+503
+tim.knip
+
+channel
+dir
+
+AnimationKeyFrame3D.as
+file
+
+
+
+
+2008-03-26T08:40:42.746338Z
+8037472e6ea388d0330ce4b71001f025
+2008-03-24T15:07:56.567793Z
+492
+r.hauwert
+

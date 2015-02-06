@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">G-Force Arena</string>
+    <string name="num_particles_default">250</string>
+    <string name="tails_default">3</string>
+    <string name="gforce_default">5</string>
+</resources>

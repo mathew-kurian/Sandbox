@@ -1,0 +1,278 @@
+<form>
+	<title>Search Users</title>
+	<action>{SELF.FILE}</action>
+	<name>edit</name>
+	<width>100%</width>
+	<method>get</method>
+
+	<formtag>true</formtag>
+	<border>true</border>
+	
+	<buttons>		
+		<set>
+			<header>true</header>
+		</set>
+
+		<butt_simple type="button" location="javascript:document.forms[0].submit();" onclick="document.forms[0].advanced.value=0" referer="true" button="simple" />				
+
+	</buttons>
+
+	<redirect>index.php?sub=units</redirect>
+
+	<fields>
+
+		<mod type="hidden" default="$_GET['mod']" action="eval"/>
+		<sub type="hidden" default="$_GET['sub']" action="eval"/>
+		<advanced type="hidden" default="0" />
+	</fields>
+
+	<search>
+		<simple>
+			<fields>
+				<user_level type="droplist" onchange="document.forms[0].submit();" default="$_GET[user_level]" action="eval">
+					<title>User Level / Items</title>
+					<referers>
+						<referer name="items">true</referer>
+						<referer name="butt_advanced">true</referer>
+					</referers>
+
+				</user_level>
+
+				<items type="droplist" onchange="document.forms[0].submit();" referer="true" default="$_GET[items]" action="eval">
+					<options>
+						<option name="20">20</option>
+						<option name="50">50</option>
+						<option name="100">100</option>
+						<option name="500">500</option>
+						<option name="1000">1000</option>
+					</options>
+				</items>
+
+				<butt_advanced type="button" location="javascript:document.forms[0].submit();" onclick="document.forms[0].advanced.value=1" button="advanced" referer="user_level"/>
+
+				<returnurl type="hidden" default="$_GET['returnurl']" action="eval"/>
+			</fields>
+
+			<header>
+				<_count header="No" suffix="." width="30" align="center" />
+				<user_first_name header="First Name" />
+				<user_last_name header="Last Name" />
+				<user_login header="Login" />
+				<user_level header="Level" type="relation"/>
+				<user_email header="Email" />
+			</header>
+
+			<sql_fields>
+				<field name="user_level">int</field>
+			</sql_fields>
+
+		</simple>
+
+		<advanced>
+
+			<sql_fields>
+				<field name="user_id">=</field>
+				<field name="user_level">int</field>
+				<field name="user_first_name">%</field>
+				<field name="user_last_name">%</field>
+				<field name="user_login">%</field>
+				<field name="user_email">%</field>
+				<field name="user_contact_addr">%</field>
+				<field name="user_contact_city">%</field>
+				<field name="user_contact_state">%</field>
+				<field name="user_contact_zip">%</field>
+				<field name="user_contact_phone">%</field>
+				<field name="user_contact_phone2">%</field>
+				<field name="user_contact_phone3">%</field>
+			</sql_fields>
+
+		
+			<header>
+				<_count header="No" suffix="." width="30" align="center" />
+				<user_id header="ID#" suffix="." width="30" align="center" />
+				<user_first_name header="First Name" />
+				<user_last_name header="Last Name" />
+				<user_login header="Login" />
+				<user_email header="Email" />
+
+				<user_contact_addr width="150" header="Address" />
+				<user_contact_city header="City" />
+				<user_contact_state header="State" />
+				<user_contact_zip header="Zip" />
+				<user_contact_country header="Country" />
+				<user_contact_phone type="phone" header="Cell Phone" />
+				<user_contact_phone2 type="phone" header="Work Phone" />
+				<user_contact_phone3 type="phone" header="Home Phone" />
+				<user_log_status type="phone" header="Status" />
+				<user_log_last_login type="phone" header="Last Login" />
+				<user_log_last_ip type="phone" header="Last IP" />
+				<user_log_register type="phone" header="Register" />
+			</header>
+
+			<fields>
+				<user_level type="droplist" default="$_GET[user_level]" action="eval">
+					<title>User Level / Items</title>
+					<referers>
+						<referer name="items">true</referer>
+					</referers>
+				</user_level>
+
+				<items type="droplist" referer="true" default="$_GET[items]" action="eval">
+					<options>
+						<option name="20">20</option>
+						<option name="50">50</option>
+						<option name="100">100</option>
+						<option name="500">500</option>
+						<option name="1000">1000</option>
+					</options>
+				</items>
+
+				<user_id onkeyup="XMLFormUserBlur(this)" type="textbox" p1reffix="#" size="10:11">
+					<title>ID#</title>
+				</user_id>
+
+				<user_first_name type="textbox" size="20:200">
+					<title>First/Last Name</title>
+					<referers>
+						<referer name="user_last_name">user_last_name</referer>
+					</referers>
+				</user_first_name>
+
+				<user_last_name type="textbox" size="20:200" referer="user_first_name"/>
+
+				<user_login type="textbox" size="20">			
+					<title>Login</title>			
+				</user_login>
+
+				<user_email type="textbox" size="30"> 
+					<title>Email </title>
+				</user_email>
+
+				<user_contact_phone type="phone" title="Cell Phone" />
+				<user_contact_phone2 type="phone" title="Work Phone" />
+				<user_contact_phone3 type="phone" title="Home Phone" />
+
+				<user_contact_addr type="textbox" size="30" title="Street" />
+
+				<user_contact_city type="textbox" size="20" title="City / State / Zip">
+					<referers>
+						<referer name="user_contact_state">true</referer>
+						<referer name="user_contact_zip">zip</referer>
+					</referers>
+				</user_contact_city>
+
+				<user_contact_state type="USstates" referer="user_contact_city" empty="true" title="State" />
+				<user_contact_zip type="textbox" referer="user_contact_city" title="Zip" />
+
+				<user_contact_country type="countries" empty="true" title="Country" />
+
+				<fields width="200" type="droplist" size="7" multi="true">
+					<title>Show Fields</title>
+
+					<default>user_id,user_first_name,user_last_name,user_login,user_email</default>
+
+					<options>
+						<option name="_count">Record No</option>
+						<option name="user_id">User ID#</option>
+						<option name="user_first_name">First Name</option>
+						<option name="user_last_name">Last Name</option>
+						<option name="user_login">Login</option>
+						<option name="user_email">Email</option>
+
+						<option name="user_contact_addr">Address</option>
+						<option name="user_contact_city">City</option>
+						<option name="user_contact_state">State</option>
+						<option name="user_contact_zip">Zip Code</option>
+						<option name="user_contact_country">Country</option>
+						<option name="user_contact_phone">Phone - cell</option>
+						<option name="user_contact_phone2">Phone - work</option>
+						<option name="user_contact_phone3">Phone - home</option>
+						<option name="user_log_status">LOG - Account Status</option>
+						<option name="user_log_last_login">LOG - Last login date</option>
+						<option name="user_log_last_ip">LOG - Last login ip</option>
+						<option name="user_log_last_create">LOG - Register date</option>
+					</options>
+				</fields>
+
+				<relation type="droplist" default="and">
+					<title>Relation</title>
+					<options>
+						<option name="and">ALL fields MUST match</option>
+						<option name="or">ANY field that matches</option>
+					</options>
+
+					<help file="help/users.search.advanced.html" l1ocation="module" type="popup"/>
+				</relation>
+
+				<butt_search type="button" location="javascript:document.forms[0].submit();" button="search">				
+					<referers>
+						<referer name="butt_simple">true</referer>
+					</referers>
+				</butt_search>
+
+				<returnurl type="hidden" default="$_GET['returnurl']" action="eval"/>
+			</fields>
+		</advanced>
+
+	</search>
+
+	<javascript>
+		<after>
+			function XMLFormUserBlur(element) {
+
+				if ( document.forms[0].advanced.value == 0 )
+					return true;
+
+				//check the value to be sure its integer
+				element.value = parseInt(element.value);
+
+				if (element.value == "NaN")
+					element.value = "";
+
+				var elements = new Array(
+										"user_first_name",
+										"user_last_name",
+										"user_login",
+										"user_email",
+										"user_contact_addr",
+										"user_contact_city",
+										"user_contact_state",
+										"user_contact_zip",
+										"user_contact_country",
+										"relation"
+									);
+
+				var elements2 = new Array(
+										"user_contact_phone_1",
+										"user_contact_phone_2",
+										"user_contact_phone_3",
+
+										"user_contact_phone2_1",
+										"user_contact_phone2_2",
+										"user_contact_phone2_3",
+
+										"user_contact_phone3_1",
+										"user_contact_phone3_2",
+										"user_contact_phone3_3"
+									);
+
+				if (element.value.length != "0") {
+					for ( i in elements )
+						eval('document.forms[0].' + elements[i] + '.disabled = true;');
+
+					for ( i in elements2 )
+						eval('document.getElementById(\'' + elements2[i] + '\').disabled = true;');
+
+				} else {
+					for ( i in elements )
+						eval('document.forms[0].' + elements[i] + '.disabled = false;');
+
+					for ( i in elements2 )
+						eval('document.getElementById(\'' + elements2[i] + '\').disabled = false;');
+
+				}
+			} XMLFormUserBlur(document.forms[0].user_id);
+		</after>
+	</javascript>
+
+</form>

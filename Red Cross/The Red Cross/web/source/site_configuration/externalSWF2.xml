@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	
+	<contentWidth>1200</contentWidth>
+	<contentHeight>420</contentHeight>
+	<contentBgColor>0xffffff</contentBgColor>
+	<contentBgOpacity>0</contentBgOpacity>
+	<scrollBaseColor>0xfe00d7</scrollBaseColor>
+	<scrollerColor>0xffffff</scrollerColor>
+	
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>false</displayHtmlArticles>
+	<displaySlideShow>false</displaySlideShow>									
+	<displaySWF>true</displaySWF>
+	
+
+	<swf>
+		<x>0</x>
+		<y>20</y>
+		<swfURL>external.swf</swfURL>
+	</swf>
+	
+</xmlObject>

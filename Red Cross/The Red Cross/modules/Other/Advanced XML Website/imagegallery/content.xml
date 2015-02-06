@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<content Name="CATEGORIES">
+  <gallery Name="ABSTRACT">
+    <image Thumb="imagegallery/gallery1/thumb1.jpg" Large="imagegallery/gallery1/image1.jpg" Caption="Reflective Shapes">
+        <copy><![CDATA[<font color="#FFFFFF" size="15"><b>Reflective Shapes</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </image>
+    <image Thumb="imagegallery/gallery1/thumb2.jpg" Large="imagegallery/gallery1/image2.jpg" Caption="Spiral Sphere">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Spiral Sphere</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </image>
+    <image Thumb="imagegallery/gallery1/thumb3.jpg" Large="imagegallery/gallery1/image3.jpg" Caption="Looped Rings">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Looped Rings</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </image>
+    <image Thumb="imagegallery/gallery1/thumb4.jpg" Large="imagegallery/gallery1/image4.jpg" Caption="Cold Steel">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Cold Steel</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </image>
+    <image Thumb="imagegallery/gallery1/thumb5.jpg" Large="imagegallery/gallery1/image5.jpg" Caption="Silver Sphere">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Silver Sphere</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </image>
+    <image Thumb="imagegallery/gallery1/thumb6.jpg" Large="imagegallery/gallery1/image6.jpg" Caption="Red Coils">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Red Coils</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </image>
+    <image Thumb="imagegallery/gallery1/thumb7.jpg" Large="imagegallery/gallery1/image7.jpg" Caption="Blue Turbine">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Blue Turbine</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </image>
+    <image Thumb="imagegallery/gallery1/thumb8.jpg" Large="imagegallery/gallery1/image8.jpg" Caption="Red Maze">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Red Maze</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </image>
+    <image Thumb="imagegallery/gallery1/thumb9.jpg" Large="imagegallery/gallery1/image9.jpg" Caption="Liquid Flow">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Liquid Flow</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </image>
+    <image Thumb="imagegallery/gallery1/thumb10.jpg" Large="imagegallery/gallery1/image10.jpg" Caption="Mercury Rising">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Mercury Rising</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </image>
+  </gallery>
+  <gallery Name="NATURE">
+    <image Thumb="imagegallery/gallery2/thumb1.jpg" Large="imagegallery/gallery2/image1.jpg" Caption="Trees by the lake">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Trees by the lake</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </image>
+    <image Thumb="imagegallery/gallery2/thumb2.jpg" Large="imagegallery/gallery2/image2.jpg" Caption="Autumn River">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Autumn River</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </image>
+    <image Thumb="imagegallery/gallery2/thumb3.jpg" Large="imagegallery/gallery2/image3.jpg" Caption="Orange Flower">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Orange Flower</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </image>
+    <image Thumb="imagegallery/gallery2/thumb4.jpg" Large="imagegallery/gallery2/image4.jpg" Caption="Red Flower">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Red Flower</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </image>
+    <image Thumb="imagegallery/gallery2/thumb5.jpg" Large="imagegallery/gallery2/image5.jpg" Caption="Moss Stump">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Moss Stump</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </image>
+    <image Thumb="imagegallery/gallery2/thumb6.jpg" Large="imagegallery/gallery2/image6.jpg" Caption="Water Drops">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Water Drops</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </image>
+  </gallery>
+<gallery Name="MAN MADE">
+    <image Thumb="imagegallery/gallery3/thumb1.jpg" Large="imagegallery/gallery3/image1.jpg" Caption="Building">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Building</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </image>
+    <image Thumb="imagegallery/gallery3/thumb2.jpg" Large="imagegallery/gallery3/image2.jpg" Caption="Interior">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Interior</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </image>
+    <image Thumb="imagegallery/gallery3/thumb3.jpg" Large="imagegallery/gallery3/image3.jpg" Caption="Cityscape">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Cityscape</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </image>
+    <image Thumb="imagegallery/gallery3/thumb4.jpg" Large="imagegallery/gallery3/image4.jpg" Caption="Skyscraper">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Skyscraper</b></font><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </image>
+  </gallery>
+</content>

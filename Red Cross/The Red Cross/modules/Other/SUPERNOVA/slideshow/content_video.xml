@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<content>
+
+<gallery Name="VIDEO">    
+    <item Thumb="media_gallery/video/thumb1.jpg" Large="media_gallery/video_player.swf" toLoad="slideshow/video/video2.flv" Width="1280" Height="720" Title="16:9 video Example">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>16:9 video Example</b></font><br>You can add any size video to this gallery and it will always maintain aspect ratio in fullscreen mode. The width and height of each video can be defined in the XML. You can add video formats such as FLV, MP4 and MOV.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    
+</gallery>
+
+</content>

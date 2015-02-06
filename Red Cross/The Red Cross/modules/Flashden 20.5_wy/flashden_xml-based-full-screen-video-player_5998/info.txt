@@ -1,0 +1,2 @@
+The text is commented so a lot of the ActionScript code will be very easy to understand.
+If you don't want to modify the video player you can just change the videos in the XML file and embed the SWF in your site.

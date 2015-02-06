@@ -1,0 +1,70 @@
+<form>
+	<title>{SELF.TITLE} {TITLE} Image</title>
+	<action>{SELF.URI.STORE}</action>
+	<name>edit</name>
+	<width>100%</width>
+	<alternance>true</alternance>
+	<encoding>multipart/form-data</encoding>
+
+
+	<formtag>true</formtag>
+	<border>true</border>
+	
+	<buttons>		
+		<set>
+			<header>true</header>
+		</set>
+
+
+		<button_back onclick="" button="return">
+			<location>{PRIVATE.FORM_PREVIOUS_PAGE}</location>
+		</button_back>
+
+		<button_edit onclick="" button="edit">
+			<location>{SELF.URI.EDIT}</location>
+		</button_edit>
+
+		<button_save button="saveall">
+			<location>javascript:document.forms[0].submit();</location>
+		</button_save>
+
+	</buttons>
+
+	<redirect>{PHP}?sub=accounts</redirect>
+
+	<fields>
+		<cat_id type="hidden"/>		
+		<cat_order type="hidden"/>		
+		<module_id type="hidden" default="eval:$_GET[module_id]"/>		
+
+		<cat_title type="textbox" size="60:200" title="Title" required="true" validate="A:2:200" onblur="AddPageCode(this.value);"/>
+		<cat_url type="textbox" size="60:200" title="Url" required="true" validate="A:2:200" u_nique="true" preffix="/#/module-url/"/>
+		<cat_urltitle type="textbox" size="60:200" title="Browser Title" required="true" validate="A:2:200" onblur="AddPageCode(this.value);"/>
+
+		<subtitle_seo title="SEO Fields" type="subtitle" />
+		<seo_title type="textbox" size="90" title="Browser Title"/>
+		<seo_desc type="textarea" size="90:4" title="Meta Description"/>
+		<seo_keys type="textarea" size="90:4" title="Meta Keywords"/>
+
+		<subtitle_after title="&nbsp;" type="subtitle" />
+		<after_save type="after_save" />
+
+	</fields>
+
+	<javascript>
+		<after>
+			function AddPageCode(txt) {
+				if (document.forms['edit'].cat_url.value == '') {
+					var url = Name2Url(txt.trim());
+					document.forms['edit'].cat_url.value = url.toLowerCase();
+				}
+
+				if (document.forms['edit'].cat_urltitle.value == '') {
+					document.forms['edit'].cat_urltitle.value = txt;
+				}
+
+			}
+		</after>
+	</javascript>
+
+</form>

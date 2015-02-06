@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+
+	<settings
+	
+		mainTitle="SLHS Red Cross Association"
+	
+		menuButton="0xB10C11"
+		menuText="0xFFFFFF"
+		menuButtonRoll="0x000000"
+		menuTextRoll="0xB10C11"
+		
+		title="SLHS    Red     Cross    Association"
+		subtitle="change starts here"
+		
+		titleColor="0xB10C11"
+		titleText="0xFFFFFF"
+		subtitleText="0xFFFFFF"
+		
+		useOnlyOneBackground="false"
+		back="backgrounds/home.jpg"
+		backPattern="backgrounds/pattern.png"
+		backPatternOpacity="15"
+		backBrightness="85"
+		
+		preloaderColor="0xB10C11"
+		preloaderText="0xB10C11"
+		
+		containerColor="0x000000"
+		containerOpacity="75"
+		
+		backgroundMusic="music.mp3"
+		footerIconsColor="0xB10C11"
+	
+	/>
+	
+	<pages>
+	
+<page title1="MISSION STATEMENT" title2="CAN WE ALL HELP THE WORLD" pageTitle="Bio" type="single" back="backgrounds/bio.jpg" height="400" src="html.swf" xmlPath="bio_settings.xml" />
+
+<page title1="NEWS" title2="WHAT  HAVE  WE  DONE  IN  THE  LAST  WEEKS" pageTitle="News"  type="single" back="backgrounds/news.jpg" height="500" src="news.swf" xmlPath="news_settings.xml" />
+
+<page title1="OFFICERS" title2="PEOPLE  THAT  HELP MAKE THIS ALL HAPPEN" pageTitle="Officers"  type="single" back="backgrounds/slideshow.jpg" height="600" src="team.swf" xmlPath = "team/content.xml"/>
+
+<page title1="GALLERY" title2="THOSE FACES WE VALUE" pageTitle="Gallery"  type="single" back="backgrounds/slideshow.jpg" height="300" src="slideshow.swf" xmlPath="slideshow_settings.xml" />
+
+<page title1="LOGIN" title2="SOME  OF  MY  WORKS" pageTitle="Folio"  type="multiple">
+			
+<subpage title="BLOG" back="backgrounds/web.jpg" pageTitle="Web"  height="373" src="folio.swf" xmlPath="folio_web_settings.xml" />
+
+<subpage title="HOURS" back="backgrounds/photo.jpg" pageTitle="Photo"  height="338" src="folio.swf" xmlPath="folio_photo_settings.xml" />
+
+<subpage title="EVENTS" back="backgrounds/video.jpg" pageTitle="Video"  height="301" src="folio.swf" xmlPath="folio_video_settings.xml" />
+			
+		</page>
+
+<page title1="CONTACT" title2="GET  A  FREE  QUOTE" pageTitle="Contact"  type="single" back="backgrounds/contact.jpg" height="260" src="contact.swf" />
+
+<page title1="BLOG" title2="STAY  IN  TOUCH" type="link" src="http://www.flashden.net/user/flasher3015" />
+	
+	</pages>
+
+</template>

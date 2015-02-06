@@ -1,0 +1,72 @@
+<form>
+	<tabs>
+		<t active="true" width="100" title="Module Settings" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.user&action=details&mod_id={MODULE_ID}" />
+		<t0 width="80" title="Music" link="index.php?mod=oxymall&sub=oxymall.plugin.music.landing&module_id={MODULE_ID}&returnurl={SELF.PREVIOUS_ENC}" />
+		<t_video width="80" title="Video Tutorial" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.help&module_id={MODULE_ID}" restricted="eval:$GLOBALS['no_tutorials'];"/>
+	</tabs> 
+
+	<fields>
+		<settings_title type="subtitle" title="Settings" /> 
+
+		<set_onfirststart type="droplist" title="onFirstStart">
+			<options>
+				<option name="mute">mute</option>
+				<option name="play">play</option>
+			</options>
+		</set_onfirststart>
+
+		<set_playingvolume type="textbox" size="10" title="playingVolume" />
+
+<!--
+		<set_playgraphicwidth type="textbox" size="10" title="playGraphicWidth" />
+		<set_playgraphicheight type="textbox" size="10" title="playGraphicHeight" />
+		<set_playgraphicalpha type="textbox" size="10" title="playGraphicAlpha" />
+
+		<set_mutegraphicwidth type="textbox" size="10" title="muteGraphicWidth" />
+		<set_mutegraphicheight type="textbox" size="10" title="muteGraphicHeight" />
+		<set_mutegraphicalpha type="textbox" size="10" title="muteGraphicAlpha" />
+
+		<set_mouseovergraphiccolor1 type="textbox" size="10" title="mouseOverGraphicColor1" />
+		<set_mouseovergraphiccolor2 type="textbox" size="10" title="mouseOverGraphicColor2" />
+		<set_mouseovergraphiccolor3 type="textbox" size="10" title="mouseOverGraphicColor3" />
+
+		<set_mouseoutgraphiccolor1 type="textbox" size="10" title="mouseOutGraphicColor1" />
+		<set_mouseoutgraphiccolor2 type="textbox" size="10" title="mouseOutGraphicColor2" />
+		<set_mouseoutgraphiccolor3 type="textbox" size="10" title="mouseOutGraphicColor3" />
+
+		<set_animationtime type="textbox" size="10" title="animationTime" />
+		<set_animationtype type="textbox" size="10" title="animationType" />
+
+		<set_appearanimationtime type="textbox" size="10" title="appearAnimationTime" />
+		<set_appearanimationtype type="textbox" size="10" title="appearAnimationType" />
+
+		<set_toggleshadow type="textbox" size="10" title="toggleShadow" />
+
+		<set_togglenextbutton type="textbox" size="10" title="toggleNextButton" />
+		<set_nextbuttonnormalcolor1 type="textbox" size="10" title="nextButtonNormalColor1" />
+		<set_nextbuttonnormalcolor2 type="textbox" size="10" title="nextButtonNormalColor2" />
+		<set_nextbuttonnormalcolor3 type="textbox" size="10" title="nextButtonNormalColor3" />
+		<set_nextbuttonovercolor1 type="textbox" size="10" title="nextButtonOverColor1" />
+		<set_nextbuttonovercolor2 type="textbox" size="10" title="nextButtonOverColor2" />
+		<set_nextbuttonovercolor3 type="textbox" size="10" title="nextButtonOverColor3" />
+
+		<set_nextbuttonalpha type="textbox" size="10" title="nextButtonAlpha" />
+		<set_togglenextbuttonshadow type="textbox" size="10" title="toggleNextButtonShadow" />
+		<set_nextbuttonx type="textbox" size="10" title="nextButtonX" />
+		<set_nextbuttony type="textbox" size="10" title="nextButtonY" />
+
+		<set_toggleprevbutton type="textbox" size="10" title="togglePrevButton" />
+		<set_prevbuttonnormalcolor1 type="textbox" size="10" title="prevButtonNormalColor1" />
+		<set_prevbuttonnormalcolor2 type="textbox" size="10" title="prevButtonNormalColor2" />
+		<set_prevbuttonnormalcolor3 type="textbox" size="10" title="prevButtonNormalColor3" />
+		<set_prevbuttonovercolor1 type="textbox" size="10" title="prevButtonOverColor1" />
+		<set_prevbuttonovercolor2 type="textbox" size="10" title="prevButtonOverColor2" />
+		<set_prevbuttonovercolor3 type="textbox" size="10" title="prevButtonOverColor3" />
+
+		<set_prevbuttonalpha type="textbox" size="10" title="prevButtonAlpha" />
+		<set_toggleprevbuttonshadow type="textbox" size="10" title="togglePrevButtonShadow" />
+		<set_prevbuttonx type="textbox" size="10" title="prevButtonX" />
+		<set_prevbuttony type="textbox" size="10" title="prevButtonY" />
+-->
+	</fields>
+</form>

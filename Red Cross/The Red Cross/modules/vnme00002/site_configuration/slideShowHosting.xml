@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+		<speed>5000</speed><!-- Time in milliseconds 3000 = 3 seconds -->
+		<width>620</width>
+		<height>275</height>
+		<displayInfoText>true</displayInfoText>
+		<hoverTextBgColor>0xe0e0e0</hoverTextBgColor>
+		<hoverTextBgOpacity>1</hoverTextBgOpacity>
+		<hoverTextBgHeight>75</hoverTextBgHeight>
+		<buttonBgColor>0xe0e0e0</buttonBgColor>
+		<buttonTextColor>0x6e0144</buttonTextColor>
+		<buttonSelBgColor>0x6e0144</buttonSelBgColor>
+		<buttonSelTextColor>0xe0e0e0</buttonSelTextColor>
+		<slide>
+			<url>site_images/slideShowHosting/slide1.gif</url>
+			<ImageTitle><![CDATA[<h5>Your Slide Title</h5><p class="hosting">Your slide second line subtitle goes here on the second line.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/slideShowHosting/slide2.gif</url>
+			<ImageTitle><![CDATA[<h5>Your Slide Title</h5><p class="hosting">Your slide second line subtitle goes here on the second line.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/slideShowHosting/slide3.gif</url>
+			<ImageTitle><![CDATA[<h5>Your Slide Title</h5><p class="hosting">Your slide second line subtitle goes here on the second line.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/slideShowHosting/slide4.gif</url>
+			<ImageTitle><![CDATA[<h5>Your Slide Title</h5><p class="hosting">Your slide second line subtitle goes here on the second line.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/slideShowHosting/slide5.gif</url>
+			<ImageTitle><![CDATA[<h5>Your Slide Title</h5><p class="hosting">Your slide second line subtitle goes here on the second line.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/slideShowHosting/slide6.gif</url>
+			<ImageTitle><![CDATA[<h5>Your Slide Title</h5><p class="hosting">Your slide second line subtitle goes here on the second line.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/slideShowHosting/slide7.gif</url>
+			<ImageTitle><![CDATA[<h5>Your Slide Title</h5><p class="hosting">Your slide second line subtitle goes here on the second line.</p>]]></ImageTitle>
+		</slide>
+</xmlObject>
+
+
+			

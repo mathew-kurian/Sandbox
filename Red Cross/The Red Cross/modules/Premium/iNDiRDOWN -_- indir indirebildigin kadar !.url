@@ -1,0 +1,12 @@
+[DEFAULT]
+BASEURL=http://www.indirdown.com/
+[DOC#56]
+BASEURL=http://adserver1.adtech.com.tr/ppc.php?sid=7118&kategori=7&adsrv=1&channel=7437&w=468&h=60&wmid=3399&jsai=641eca628856f7b5&gosterim=TBF&domain=indirdown.com&url=http%3A//www.indirdown.com/&ref=&arkaplan=FFFFFF&baslik=000000&aciklama=000000&kenarlik=3060A0
+ORIGURL=http://adserver1.adtech.com.tr/ppc.php?sid=7118&kategori=7&adsrv=1&channel=7437&w=468&h=60&wmid=3399&jsai=641eca628856f7b5&gosterim=TBF&domain=indirdown.com&url=http%3A//www.indirdown.com/&ref=&arkaplan=FFFFFF&baslik=000000&aciklama=000000&kenarlik=3060A0
+[InternetShortcut]
+URL=http://www.indirdown.com/
+IDList=
+IconFile=http://www.indirdown.com//favicon.ico
+IconIndex=1
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2

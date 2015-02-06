@@ -1,0 +1,124 @@
+ /* 
+=================================================
+# Filename : modules.css
+# Description : Specific Modules css setting including module suffixes
+# Author : TemplatePlazza
+# Author Url : http://www.templateplazza.com
+# Copyright (C) 2009 TemplatePlazza.com
+# All rights reserved.
+=================================================
+*/
+
+/* general moduletable setting */
+
+div.moduletable {
+	margin:0;
+    padding: 0;    
+	}
+div.moduletable-nobox {
+	background:none;
+	border:none;
+	padding:0;
+	margin:0;
+	}
+.moduletable_inner {
+	text-align:left;
+}
+div.moduletable_inner h1,
+div.moduletable_inner h2,
+div.moduletable_inner h3,
+div.moduletable_inner h4,
+div.moduletable_inner h5{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    line-height:100%!important;
+    background-image: none !important;
+    background-color: transparent !important;
+    font-size:150% !important;
+    font-weight: 700 !important;
+    padding: 0 0 0 0!important;
+    margin: 0 0 0 0!important;
+    border: none!important;
+}
+div.moduletable_inner h3 {
+    color: #333!important;
+}
+div.moduletable-nobox * {
+	padding:0;
+	margin:0;} 
+div.moduletable h3,
+div.moduletable_menu h3,
+div.moduletable-red h3,
+div.moduletable-blue h3,
+div.moduletable-box h3
+{
+	font-weight:700;
+	color: #666;
+	font-size:18px;	
+	background-position:bottom left;
+	padding:5px 0 10px 0;
+	margin-bottom:10px;
+	margin-top:0;
+	border-bottom:4px solid #D3D3D3;
+    text-transform: uppercase;
+    text-align: left;
+
+	}
+.moduletable_inner,
+.moduletable_inner *,
+.moduletable_inner_tpmenu,
+.moduletable_inner_tpmenu *  {
+	line-height:1.6;}
+	
+
+
+.strong_moduletable_title {
+	font-weight:700;
+	color:#E59E59;
+	font-size:0.8em;
+    display: block;
+    text-transform: lowercase;
+    line-height: 100%;
+	}
+div.moduletable-nobox .moduletable_inner h3,
+div.moduletable-nobox h3,
+div.moduletable_text .moduletable_inner h3,
+div.moduletable_text h3
+ {
+	font-size:10px;
+	color:#FF9715;
+	text-transform:uppercase;
+	background-image:none;
+	background-color:transparent;}
+
+div.moduletable_inner img {
+	margin:0 5px;}
+div.moduletable-nobox .moduletable_inner img {
+	margin:0;
+    padding: 0;}	
+#tpmod-user8{
+}
+#tpmod-user8 .moduletable{
+
+	border-right:1px solid #572407;
+	border-bottom:1px solid #572407;
+	height:60px;
+}
+
+/* ===== suffixes ===== */
+
+
+div.moduletable-red {
+	margin:0;}
+div.moduletable-red h3 {
+	color:#ff0000;}
+div.moduletable-blue {
+	margin:0;}
+div.moduletable-blue h3 {
+	color:#01AFF0;}
+div.moduletable-box {
+	border:1px solid #e5e5e5;
+	padding:10px;}
+    
+
+ 

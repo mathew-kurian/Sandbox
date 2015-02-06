@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<imageGallery preloaderColor = "0xffff00" >
+
+<imageData thumb="images/image_gallery/thumbs/thumb1.jpg" lgimage="images/image_gallery/large/image_slideshow1.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb2.jpg" lgimage="images/image_gallery/large/image_slideshow2.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb3.jpg" lgimage="images/image_gallery/large/image_slideshow3.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb4.jpg" lgimage="images/image_gallery/large/image_slideshow4.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb5.jpg" lgimage="images/image_gallery/large/image_slideshow5.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb6.jpg" lgimage="images/image_gallery/large/image_slideshow6.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb7.jpg" lgimage="images/image_gallery/large/image_slideshow7.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb8.jpg" lgimage="images/image_gallery/large/image_slideshow8.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb9.jpg" lgimage="images/image_gallery/large/image_slideshow9.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb1.jpg" lgimage="images/image_gallery/large/image_slideshow1.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb2.jpg" lgimage="images/image_gallery/large/image_slideshow2.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb3.jpg" lgimage="images/image_gallery/large/image_slideshow3.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb4.jpg" lgimage="images/image_gallery/large/image_slideshow4.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb5.jpg" lgimage="images/image_gallery/large/image_slideshow5.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb6.jpg" lgimage="images/image_gallery/large/image_slideshow6.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb7.jpg" lgimage="images/image_gallery/large/image_slideshow7.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb8.jpg" lgimage="images/image_gallery/large/image_slideshow8.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb9.jpg" lgimage="images/image_gallery/large/image_slideshow9.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb1.jpg" lgimage="images/image_gallery/large/image_slideshow1.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb2.jpg" lgimage="images/image_gallery/large/image_slideshow2.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb3.jpg" lgimage="images/image_gallery/large/image_slideshow3.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb4.jpg" lgimage="images/image_gallery/large/image_slideshow4.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb5.jpg" lgimage="images/image_gallery/large/image_slideshow5.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb6.jpg" lgimage="images/image_gallery/large/image_slideshow6.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb7.jpg" lgimage="images/image_gallery/large/image_slideshow7.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb8.jpg" lgimage="images/image_gallery/large/image_slideshow8.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb9.jpg" lgimage="images/image_gallery/large/image_slideshow9.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb1.jpg" lgimage="images/image_gallery/large/image_slideshow1.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb2.jpg" lgimage="images/image_gallery/large/image_slideshow2.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb3.jpg" lgimage="images/image_gallery/large/image_slideshow3.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb4.jpg" lgimage="images/image_gallery/large/image_slideshow4.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb5.jpg" lgimage="images/image_gallery/large/image_slideshow5.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb6.jpg" lgimage="images/image_gallery/large/image_slideshow6.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb7.jpg" lgimage="images/image_gallery/large/image_slideshow7.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb8.jpg" lgimage="images/image_gallery/large/image_slideshow8.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb9.jpg" lgimage="images/image_gallery/large/image_slideshow9.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb1.jpg" lgimage="images/image_gallery/large/image_slideshow1.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb2.jpg" lgimage="images/image_gallery/large/image_slideshow2.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb3.jpg" lgimage="images/image_gallery/large/image_slideshow3.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb4.jpg" lgimage="images/image_gallery/large/image_slideshow4.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb5.jpg" lgimage="images/image_gallery/large/image_slideshow5.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb6.jpg" lgimage="images/image_gallery/large/image_slideshow6.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb7.jpg" lgimage="images/image_gallery/large/image_slideshow7.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb8.jpg" lgimage="images/image_gallery/large/image_slideshow8.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+
+<imageData thumb="images/image_gallery/thumbs/thumb9.jpg" lgimage="images/image_gallery/large/image_slideshow9.jpg" image_movie="image" >
+<description><![CDATA[<font color = "#ffff00">XML Image Description Header</font><br>Set a description for each image in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></description>
+</imageData>
+		
+</imageGallery>

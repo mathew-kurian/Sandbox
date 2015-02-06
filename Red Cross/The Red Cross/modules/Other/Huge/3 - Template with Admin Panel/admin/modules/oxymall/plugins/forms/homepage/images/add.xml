@@ -1,0 +1,154 @@
+<form>
+	<title>{SELF.TITLE} {TITLE} Image</title>
+	<action>{SELF.URI.STORE}</action>
+	<name>edit_cat</name>
+	<width>100%</width>
+	<alternance>true</alternance>
+	<encoding>multipart/form-data</encoding>
+
+
+	<formtag>true</formtag>
+	<border>true</border>
+	
+	<buttons>		
+		<set>
+			<header>true</header>
+		</set>
+
+
+		<button_back onclick="" button="return">
+			<location>{PRIVATE.FORM_PREVIOUS_PAGE}</location>
+		</button_back>
+
+		<button_edit onclick="" button="edit">
+			<location>{SELF.URI.EDIT}</location>
+		</button_edit>
+
+		<button_save button="saveall">
+			<location>javascript:document.forms[0].submit();</location>
+		</button_save>
+
+	</buttons>
+
+	<redirect>{PHP}?sub=accounts</redirect>
+
+	<fields>
+		<item_id type="hidden"/>		
+		<item_order type="hidden"/>		
+		<module_id type="hidden" default="eval:$_GET[module_id]"/>		
+
+		<item_title type="textbox" size="60:200" title="Title" required="true" validate="A:1:250" onblur="AddPageCode(this.value);"/>
+
+		<item_image  valign="top" adminwidth="100" type="image" path="./homepage/" absolute="false" editable="true">
+			<file default="" field="item_id" ext=".jpg" />			
+			<title>Image ({SIZE}px)</title>
+			<error>No photo available.</error>						
+			<thumbnails>
+				<resize preffix="" generate="true" width="" height="" />
+				<tn preffix="admin_" generate="true" width="50" height="50" />
+			</thumbnails>
+		</item_image>
+
+		<item_type type="droplist" empty="true" title="Type" onchange="ChangeRecordType(this.value)">
+			<options>
+				<option name="0">link</option>
+				<option name="1">image popup</option>
+				<option name="2">video popup</option>
+			</options>
+		</item_type>
+
+		<subtitle_afte1 title="&nbsp;" type="subtitle" />
+
+		<item_url type="textbox" size="60:200" title="Url"/>
+
+		<item_target type="droplist" title="Target">
+			<options>
+				<option name="">none</option>
+				<option name="_blank">_blank</option>
+			</options>
+		</item_target>
+
+		<item_image_large  valign="top" adminwidth="100" type="image" path="./homepage/" absolute="false" editable="true" >
+			<file default="large_" field="item_id" ext=".jpg" />			
+			<title>Large Image</title>
+			<error>No photo available.</error>						
+		</item_image_large>
+
+		<item_video valign="top" type="upload" path="./homepage/" absolute="false" editable="true" >
+			<file default="video_" field="item_id" ext=".flv" />			
+			<title>Video ( flv / mov )</title>
+			<error>No photo available.</error>						
+		</item_video>
+
+		<item_description type="textarea" width="600" height="200" html="true" toolbar="Basic" title="Description"/>
+
+		<item_urltitle type="textbox" size="90" title="Window Title" />
+
+		<subtitle_after title="&nbsp;" type="subtitle" />
+		<after_save type="after_save" />
+	</fields>
+
+	<javascript>
+		<after>
+			function ChangeRecordType(value) {
+	
+				//value = parseInt(value);
+
+				fields  = {
+								0 : {
+										"subtitle_afte1" : "block",
+										"item_url" : "block",
+										"item_target" : "block",
+										"item_image_large" : "none",
+										"item_video" : "none",
+										"item_urltitle" : "none",
+										"item_description" : "none"
+								},
+								1 : { 
+										"subtitle_afte1" : "block",
+										"item_url" : "none",
+										"item_target" : "none",
+										"item_image_large" : "block",
+										"item_video" : "none",
+										"item_urltitle" : "block",
+										"item_description" : "block"
+									},
+								2 : { 
+										"subtitle_afte1" : "block",
+										"item_url" : "none",
+										"item_target" : "none",
+										"item_image_large" : "none",
+										"item_video" : "block",
+										"item_urltitle" : "block",
+
+										"item_description" : "block"
+									},
+								"" : {
+										"subtitle_afte1" : "none",
+										"item_url" : "none",
+										"item_target" : "none",
+										"item_image_large" : "none",
+										"item_video" : "none",
+										"item_description" : "none"
+								}
+							}
+
+				for ( i in fields[value] ) {
+					document.getElementById("XML_BODY_FIELD_" + i).style.display = fields[value][i];
+					document.getElementById("XML_BODY_FIELD_" + i).style.width = "100%";
+				}
+			} 
+
+			ChangeRecordType(document.forms[0].item_type.value);
+
+
+			function AddPageCode(txt) {
+				if (document.forms['edit_cat'].item_urltitle.value == '') {
+					document.forms['edit_cat'].item_urltitle.value = txt;
+				}
+
+			}
+
+		</after>
+	</javascript>
+</form>

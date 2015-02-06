@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, unversityoftexasActivity!</string>
+    <string name="app_name">Longhorns</string>
+    <string name="planet_prompt">Choose a planet</string>
+    <string-array name="EID_BevoBucks_List">
+        <item>Add BevoBucks</item>
+        <item>Check BevoBucks</item>
+        <item>DineIn Dollars</item>
+        <item>What I Owe</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+</resources>

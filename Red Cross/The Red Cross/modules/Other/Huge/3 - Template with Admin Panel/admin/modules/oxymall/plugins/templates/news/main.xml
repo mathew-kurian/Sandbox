@@ -1,0 +1,38 @@
+<!--S:Main-->
+<News>
+
+	<settings>
+		
+		<blurXAmount>{SET_BLURXAMOUNT}</blurXAmount>
+		
+		<blurYAmount>{SET_BLURYAMOUNT}</blurYAmount>
+		
+		<animationTime>{SET_ANIMATIONTIME}</animationTime>
+		
+		<animationType>{SET_ANIMATIONTYPE}</animationType>
+		
+	</settings>
+	
+	<content title="{MOD_TITLE}" urlTitle="{MOD_URLTITLE}" url="/{MOD_URL}">
+	{ITEMS}
+	</content>
+</News>
+<!--E:Main-->
+
+<!--S:ItemsGroup-->
+		{DATA}
+<!--E:ItemsGroup-->
+
+<!--S:ItemsGroupEmpty-->
+
+<!--E:ItemsGroupEmpty-->
+
+<!--S:ItemsElement-->
+		<item title="{ITEM_TITLE}" date="{ITEM_DATE}" urlTitle="{ITEM_URLTITLE}" url="/{ITEM_URL}-{ITEM_ID}/" mainTitle="{MAIN_TITLE}">
+			<![CDATA[{ITEM_BODY}]]>
+		</item>
+<!--E:ItemsElement-->
+
+<!--S:ItemsEmpty-->
+
+<!--E:ItemsEmpty-->

@@ -1,0 +1,47 @@
+aboutus.xml
+
+-----------------------------------------------
+How do I change the about us image?
+-----------------------------------------------
+
+Save your image inside images/about folder.
+Open aboutus.xml in Notepad or Dreamveaver. In the xml go to the "path" attribute for the lgimage node and update the path.
+
+Example:
+  	
+<lgimage path = "images/about/gun.jpg">
+
+
+-----------------------------------------------
+How do I edit the about us description?
+-----------------------------------------------
+
+Go to the lgimage node, and edit the text between the <![CDATA[ text goes here ]]> tags.
+
+Example:
+
+<lgimage path = "images/about/gun.jpg"><![CDATA[<font color = "#ffff00">XML About us Description Header</font><br>Set a description for the splash page in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></lgimage>
+
+You can use html tags to change color, font size etc. If you change font sizes I suggest changing the dynamic text field from bitmap to anti-alias for readability and use a non pixel font, otherwise you will get blurry text.
+
+
+------------------------------------------
+How do I change the about us caption header?
+------------------------------------------
+
+
+In the xml, go to the header node and edit the text.
+
+Example:
+
+<header><![CDATA[<font color = "#ffffff" size ="35">Every aspect of this template is controlled via xml</font>]]></header>
+
+-------------------------------------------------
+How do I change the about us sub caption header?
+-------------------------------------------------
+
+In the xml, go to the subheader node and edit the text.
+
+Example:
+
+<subheader><![CDATA[<font color = "#111111">Even these captions will expand automatically to fit</font>]]></subheader>

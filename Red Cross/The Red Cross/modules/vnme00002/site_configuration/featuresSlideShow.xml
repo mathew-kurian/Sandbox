@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+		<speed>5000</speed><!-- Time in milliseconds 3000 = 3 seconds -->
+		<width>900</width>
+		<height>350</height>
+		<displayInfoText>true</displayInfoText>
+		<hoverTextBgColor>0x000000</hoverTextBgColor>
+		<hoverTextBgOpacity>.95</hoverTextBgOpacity>
+		<hoverTextBgHeight>114</hoverTextBgHeight>
+		<buttonBgColor>0x0c0c0c</buttonBgColor>
+		<buttonTextColor>0xfe00d7</buttonTextColor>
+		<buttonSelBgColor>0xffffff</buttonSelBgColor>
+		<buttonSelTextColor>0xfe00d7</buttonSelTextColor>
+		<slide>
+			<url>site_images/FEATURESslideshow/contentModule.jpg</url>
+			<ImageTitle><![CDATA[<h4>CONTENT MODULE FEATURES </h4><p class="white">Add / Position / Style from XML an unlimited number of HTML text blocks, images, or video spots. You can also add a slideshow or swf to each content page. Each image that you add from XML can have a video popup / swf popup / slideshow popup / image popup / full content page popup / or internal page link attached to it's click event. You can specify your page's width / height / background color / background opacity / scroll base color / and scroller color from XML.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/FEATURESslideshow/portfolio.jpg</url>
+																																																		
+			<ImageTitle><![CDATA[<h4>PORTFOLIO PAGES</h4><p class="white">The portfolio pages were actually built with the content module, with a slight twist on the way the images animate in!  You can re-design the layout anyway you like from XML.  You can add video pop-ups to your images, full content page pop-ups, super-sized image pop-ups, swf pop-ups, or internal page links!</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/FEATURESslideshow/navigation.jpg</url>   
+			<ImageTitle><![CDATA[<h4>SMART NAVIGATION mix&match page/sub pages however you like.</h4><p class="white">Every time a main navigation or sub navigation button is clicked, the button(s) remain highlighted or in an active state. This ensures your visitors never forget what page they are on. Also if you add internal links throughout the site, the smart navigation automatically highlights the new page/sub-page that the user has landed on. You can also add external links or load your own external swfs.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/FEATURESslideshow/BLOG.jpg</url>															
+			<ImageTitle><![CDATA[<h4>BLOG / NEWS PAGES</h4><p class="white">Add as many news articles as you like from XML.  Two different layouts were created, but you can totally redesign either by editing the XML. The blog/news pages were built with the content module so you can inclued a pop-up that is a full content page / swf / video / or super-sized image.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/FEATURESslideshow/slideshowModule.jpg</url> 
+			<ImageTitle><![CDATA[<h4>SLIDESHOW MODULE</h4><p class="white">Set width / height / speed / bg-color / info text background color / info text background opacity / button-color / button-over-color / button-text-color / button-over-text-color / ALL FROM XML  without opening flash.  You can also add a slideshow to any content pages you create!</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/FEATURESslideshow/photo.jpg</url> 
+			<ImageTitle><![CDATA[<p class="white">Create as many photo module pages as you want. Images are automatically resized based on the user's screen dimensions. Since photos are automatically scaled perfectly, your photo pages will look great at 800x600 or 1920x1200. A smooth scrolling thumbnail panel allows you to add unlimited photos per gallery. Features also include forward and back buttons, HTML/CSS styled text when you hover over the image, and XML driven tooltip text for your thumbnails.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/FEATURESslideshow/team.jpg</url>
+			<ImageTitle><![CDATA[<p class="white">Setup as many or as few team pages as you want. In this template I created a category for Management, Directors, Developers, and Artists. The inclusion of a smooth scrolling thumbnail panel allows you to add as many or as few team members as you like, with xml driven tooltip text.  Text, Photos, Thumbnails, and Fullsized Images are all XML driven, so there is no need to recompile your .swf everytime you want to change a team members text or photo! Plus a super-sized image is displayed when the full size team member image is clicked.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/FEATURESslideshow/video.jpg</url>
+			<ImageTitle><![CDATA[<h4>VIDEO MODULE</h4><p class="white">Includes all the features a good video module should have.   Lets you seek wherever you want, buffers a couple seconds ahead of time. Full screen enabled.  Play pause buttons,  nice volume controls,  mutes mp3 player while playing. You can set video width and height from xml!   Can be called as a pop-up from content pages, services pages, blog pages, and portfolio pages.</p>]]></ImageTitle>
+		</slide>
+		<slide>
+			<url>site_images/FEATURESslideshow/contact.jpg</url>
+			<ImageTitle><![CDATA[<h4>CONTACT MODULE</h4><p class="white">Each field is validated to make sure your visitor has entered information in all three fields before the email is sent. PHP enabled. This contact form uses a super simple PHP script to shoot an email to you once a user has filled out the form.  position all text and even the form fields from xml.  you can also add images, external and internal page links.  position  x / y / width / height of everything from xml.</p>]]></ImageTitle>
+		</slide>
+</xmlObject>
+
+
+			

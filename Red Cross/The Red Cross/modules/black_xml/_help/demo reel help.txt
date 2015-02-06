@@ -1,0 +1,45 @@
+demo_reel.xml
+
+-----------------------------------------------
+How do I add my video?
+-----------------------------------------------
+
+Encode your videos in the .flv format. Save your flv's inside the flv folder.
+Open demo_reel.xml in Notepad or Dreamveaver. In the xml go to the path attribute and update.
+
+Example:
+  	
+path = "flv/top2.flv"
+
+--------------------------------------------------
+How do I edit the description text?
+--------------------------------------------------
+
+Edit the text between the <![CDATA[ ]]> tags.
+
+Example:
+
+       ><![CDATA[<font color = "#ffff00">XML Description Header</font><br>Set a description for each video in the xml. You can also set the buffertime for each video in xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.]]></video>
+
+You can use html tags to change color, font size, add links etc. If you change font sizes I suggest changing the dynamic text field from bitmap to anti-alias for readability and use a non pixel font, otherwise you will get blurry text.
+
+-----------------------------------------------------
+How do I change the scrub bar and volume bar color?
+-----------------------------------------------------
+
+Go to the scrubColor attribute and edit the color value.
+
+Example:
+
+scrubColor = "0xffff00"
+
+--------------------------------------------------
+How do I change the buffertime?
+--------------------------------------------------
+
+Go to the buffTime attribute and edit the value.
+
+Example:
+
+buffTime = "2"
+

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<content>
+
+<gallery Name="IMAGE">
+    <item Thumb="media_gallery/image/thumb1.jpg" Large="media_gallery/image/image1.jpg" Title="3D Glass">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>3D Glass</b></font><br>You can add any size image file to this gallery such has JPG, GIF and PNG.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </item>
+    <item Thumb="media_gallery/image/thumb2.jpg" Large="media_gallery/image/image2.jpg" Title="Red Spiral">
+    </item>
+    <item Thumb="media_gallery/image/thumb3.jpg" Large="media_gallery/image/image3.jpg" Title="Gyroscope">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Gyroscope</b></font><br>You can add any size image file to this gallery such has JPG, GIF and PNG.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.</p>]]></copy>
+    </item>
+    <item Thumb="media_gallery/image/thumb4.jpg" Large="media_gallery/image/image4.jpg" Title="Cold Steel">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Cold Steel</b></font><br>You can add any size image file to this gallery such has JPG, GIF and PNG.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/image/thumb5.jpg" Large="media_gallery/image/image5.jpg" Title="Metallic Sphere">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Metallic Sphere</b></font><br>You can add any size image file to this gallery such has JPG, GIF and PNG.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/image/thumb6.jpg" Large="media_gallery/image/image6.jpg" Title="Red Coils">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Red Coils</b></font><br>You can add any size image file to this gallery such has JPG, GIF and PNG.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/image/thumb7.jpg" Large="media_gallery/image/image7.jpg" Title="Blue Turbine">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Blue Turbine</b></font><br>You can add any size image file to this gallery such has JPG, GIF and PNG.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/image/thumb8.jpg" Large="media_gallery/image/image8.jpg" Title="Red Maze">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Red Maze</b></font><br>You can add any size image file to this gallery such has JPG, GIF and PNG.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/image/thumb9.jpg" Large="media_gallery/image/image9.jpg" Title="Liquid Metal">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Liquid Metal</b></font><br>You can add any size image file to this gallery such has JPG, GIF and PNG.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/image/thumb10.jpg" Large="media_gallery/image/image10.jpg" Title="Mercury Rising">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Mercury Rising</b></font><br>You can add any size image file to this gallery such has JPG, GIF and PNG.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/image/thumb1.jpg" Large="media_gallery/image/image1.jpg" Title="3D Glass">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>3D Glass</b></font><br>You can add any size image file to this gallery such has JPG, GIF and PNG.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </item>
+    <item Thumb="media_gallery/image/thumb2.jpg" Large="media_gallery/image/image2.jpg" Title="Red Spiral">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Red Spiral</b></font><br>You can add any size image file to this gallery such has JPG, GIF and PNG.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.]]></copy>
+    </item>
+    <item Thumb="media_gallery/image/thumb3.jpg" Large="media_gallery/image/image3.jpg" Title="Gyroscope">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Gyroscope</b></font><br>You can add any size image file to this gallery such has JPG, GIF and PNG.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. Proin laoreet pharetra risus. Nullam fringilla faucibus nisi. Mauris porttitor convallis elit.</p>]]></copy>
+    </item>
+    <item Thumb="media_gallery/image/thumb4.jpg" Large="media_gallery/image/image4.jpg" Title="Cold Steel">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Cold Steel</b></font><br>You can add any size image file to this gallery such has JPG, GIF and PNG.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/image/thumb5.jpg" Large="media_gallery/image/image5.jpg" Title="Metallic Sphere">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Metallic Sphere</b></font><br>You can add any size image file to this gallery such has JPG, GIF and PNG.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/image/thumb6.jpg" Large="media_gallery/image/image6.jpg" Title="Red Coils">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Red Coils</b></font><br>You can add any size image file to this gallery such has JPG, GIF and PNG.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/image/thumb7.jpg" Large="media_gallery/image/image7.jpg" Title="Blue Turbine">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Blue Turbine</b></font><br>You can add any size image file to this gallery such has JPG, GIF and PNG.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/image/thumb8.jpg" Large="media_gallery/image/image8.jpg" Title="Red Maze">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Red Maze</b></font><br>You can add any size image file to this gallery such has JPG, GIF and PNG.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/image/thumb9.jpg" Large="media_gallery/image/image9.jpg" Title="Liquid Metal">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Liquid Metal</b></font><br>You can add any size image file to this gallery such has JPG, GIF and PNG.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/image/thumb10.jpg" Large="media_gallery/image/image10.jpg" Title="Mercury Rising">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Mercury Rising</b></font><br>You can add any size image file to this gallery such has JPG, GIF and PNG.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+</gallery>
+
+<gallery Name="VIDEO">
+    <item Thumb="media_gallery/video/thumb1.jpg" Large="media_gallery/video_player.swf" toLoad="media_gallery/video/video1.flv" Width="400" Height="300" Title="4:3 video Example">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>4:3 video Example</b></font><br>You can add any size video to this gallery and it will always maintain aspect ratio in fullscreen mode. The width and height of each video can be defined in the XML. You can add video formats such as FLV, MP4 and MOV.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/video/thumb1.jpg" Large="media_gallery/video_player.swf" toLoad="media_gallery/video/video2.flv" Width="400" Height="225" Title="16:9 video Example">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>16:9 video Example</b></font><br>You can add any size video to this gallery and it will always maintain aspect ratio in fullscreen mode. The width and height of each video can be defined in the XML. You can add video formats such as FLV, MP4 and MOV.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/video/thumb1.jpg" Large="media_gallery/video_player.swf" toLoad="media_gallery/video/video3.flv" Width="400" Height="400" Title="Square video Example">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Square video Example</b></font><br>You can add any size video to this gallery and it will always maintain aspect ratio in fullscreen mode. The width and height of each video can be defined in the XML. You can add video formats such as FLV, MP4 and MOV.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+</gallery>
+
+<gallery Name="AUDIO">
+    <item Thumb="media_gallery/audio/thumb1.jpg" Large="media_gallery/audio_player.swf" toLoad="media_gallery/audio/track1.mp3" Title="ADG3 Studios - Abstract Construct">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>ADG3 Studios - Abstract Construct</b></font><br>audio track produced by <a href="http://www.audiojungle.net/user/ADG3studios" target="_blank">ADG3studios</a>. To listen and to purchase more tracks from this artist, <a href="http://www.audiojungle.net/user/ADG3studios/portfolio" target="_blank">click here</a>.]]></copy>
+    </item>
+    <item Thumb="media_gallery/audio/thumb1.jpg" Large="media_gallery/audio_player.swf" toLoad="media_gallery/audio/track2.mp3" Title="ADG3 Studios - Digital Science">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>ADG3 Studios - Digital Science</b></font><br>audio track produced by <a href="http://www.audiojungle.net/user/ADG3studios" target="_blank">ADG3studios</a>. To listen and to purchase more tracks from this artist, <a href="http://www.audiojungle.net/user/ADG3studios/portfolio" target="_blank">click here</a>.]]></copy>
+    </item>
+    <item Thumb="media_gallery/audio/thumb1.jpg" Large="media_gallery/audio_player.swf" toLoad="media_gallery/audio/track3.mp3" Title="ADG3 Studios - Encrypted Cypher">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>ADG3 Studios - Encrypted Cypher</b></font><br>audio track produced by <a href="http://www.audiojungle.net/user/ADG3studios" target="_blank">ADG3studios</a>. To listen and to purchase more tracks from this artist, <a href="http://www.audiojungle.net/user/ADG3studios/portfolio" target="_blank">click here</a>.]]></copy>
+    </item>
+    <item Thumb="media_gallery/audio/thumb1.jpg" Large="media_gallery/audio_player.swf" toLoad="media_gallery/audio/track4.mp3" Title="ADG3 Studios - Silhouettes">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>ADG3 Studios - Silhouettes</b></font><br>audio track produced by <a href="http://www.audiojungle.net/user/ADG3studios" target="_blank">ADG3studios</a>. To listen and to purchase more tracks from this artist, <a href="http://www.audiojungle.net/user/ADG3studios/portfolio" target="_blank">click here</a>.]]></copy>
+    </item>
+</gallery>
+
+<gallery Name="SWF">
+    <item Thumb="media_gallery/swf/thumb1.jpg" Large="media_gallery/swf/flash1.swf" Title="Flash Animation Example: Circles">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Flash Animation Example: Circles</b></font><br>You can add any size Flash swf file to this gallery. The width and height of the swf is defined in the XML.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/swf/thumb1.jpg" Large="media_gallery/swf/flash2.swf" Title="Flash Animation Example: Stars">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Flash Animation Example: Stars</b></font><br>You can add any size Flash swf file to this gallery. The width and height of the swf is defined in the XML.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/swf/thumb1.jpg" Large="media_gallery/swf/flash3.swf" Title="Flash Animation Example: Music Notes">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Flash Animation Example: Music Notes</b></font><br>You can add any size Flash swf file to this gallery. The width and height of the swf is defined in the XML.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+</gallery>
+
+<gallery Name="MIXED MEDIA">
+    <item Thumb="media_gallery/image/thumb4.jpg" Large="media_gallery/image/image4.jpg" Title="Cold Steel">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Cold Steel</b></font><br>You can add any size image file to this gallery such has JPG, GIF and PNG.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/video/thumb1.jpg" Large="media_gallery/video_player.swf" toLoad="media_gallery/video/video2.flv" Width="600" Height="338" Title="16:9 video Example">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>16:9 video Example</b></font><br>You can add any size video to this gallery and it will always maintain aspect ratio in fullscreen mode. The width and height of each video can be defined in the XML. You can add video formats such as FLV, MP4 and MOV.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/audio/thumb1.jpg" Large="media_gallery/audio_player.swf" toLoad="media_gallery/audio/track2.mp3" Title="ADG3 Studios - Digital Science">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>ADG3 Studios - Digital Science</b></font><br>audio track produced by <a href="http://www.audiojungle.net/user/ADG3studios" target="_blank">ADG3studios</a>. To listen and to purchase more tracks from this artist, <a href="http://www.audiojungle.net/user/ADG3studios/portfolio" target="_blank">click here</a>.]]></copy>
+    </item>
+    <item Thumb="media_gallery/swf/thumb1.jpg" Large="media_gallery/swf/flash1.swf" Title="Flash Animation Example: Circles">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Flash Animation Example: Circles</b></font><br>You can add any size Flash swf file to this gallery. The width and height of the swf is defined in the XML.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+</gallery>
+
+</content>

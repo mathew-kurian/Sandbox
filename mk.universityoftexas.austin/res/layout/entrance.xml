@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mk.universityoftexas.austin.LightingLayoutRelative xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/log"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/alerts_safety_menu_bg"
+    android:paddingBottom="15dp" >
+
+    <ImageView
+        android:id="@+id/entrance_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/entrance_logo" android:visibility="invisible"/>
+
+    <LinearLayout
+        android:id="@+id/entrance_form_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+        android:paddingTop="120dp" android:visibility="invisible">
+
+        <EditText
+            android:id="@+id/entrance_eid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textfieldcurved"
+            android:paddingBottom="12dp"
+            android:paddingLeft="5dp"
+            android:text="uteid"
+            android:textSize="14dp" />
+
+        <requestFocus />
+
+        <EditText
+            android:id="@+id/entrance_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textfieldcurved"
+            android:inputType="textPassword"
+            android:paddingBottom="12dp"
+            android:paddingLeft="5dp"
+            android:text="password"
+            android:textSize="14dp" />
+
+        <CheckBox
+            android:id="@+id/entrance_remember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="#00FFFFFF"
+            android:button="@drawable/custom_checkbox"
+            android:paddingBottom="10dp"
+            android:paddingLeft="35dp"
+            android:paddingTop="10dp"
+            android:text="Remember me"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/entrance_button"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/ut_button"
+            android:onClick="onClick"
+            android:text="Login"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/entrance_cancel_skip"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/ut_button"
+        android:onClick="onClick"
+        android:text="Skip"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+</mk.universityoftexas.austin.LightingLayoutRelative>

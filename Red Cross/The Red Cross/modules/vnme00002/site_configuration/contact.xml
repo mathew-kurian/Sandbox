@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+
+	<movieClipWidth>647</movieClipWidth>
+	<movieClipHeight>360</movieClipHeight>
+	<bgColor>0x000000</bgColor>
+	<bgOpacity>1</bgOpacity>
+	<addImages>false</addImages>
+		
+	<!-- Add and Position as many images as you like 
+	<image>
+		<imageURL>site_images/contact.gif</imageURL>
+		<imageX>5</imageX>
+		<imageY>17</imageY>
+	</image>
+	-->
+		
+	<article>
+		<x>35</x>
+		<y>35</y>
+		<width>260</width>
+		<articleText>
+			<![CDATA[<h1>Your Company Name</h1>]]>
+		</articleText>		
+	</article>
+	
+	<article>
+		<x>39</x>
+		<y>77</y>
+		<width>250</width>
+		<articleText>
+			<![CDATA[<p>From XML you can set the width / height / background color and opacity. You can also add <a href="event:01_02">internal</a> or <a href="http://flashden.net/user/FLASHdriven/portfolio">external</a> links. Position as many images / html text blocks as you want right from XML, actionscript 3 loops through all the images and html you add and position from XML. You can even reposition the form elements from XML! </p>]]>
+		</articleText>		
+	</article>
+	
+	<article>
+		<x>39</x>
+		<y>199</y>
+		<width>128</width>
+		<articleText>
+			<![CDATA[<h3>282 North broadway</h3>]]>
+		</articleText>		
+	</article>
+	
+	<article>
+		<x>160</x>
+		<y>199</y>
+		<width>73</width>
+		<articleText>
+			<![CDATA[<h2>san diego</h2>]]>
+		</articleText>		
+	</article>
+	
+	<article>
+		<x>39</x>
+		<y>217</y>
+		<width>118</width>
+		<articleText>
+			<![CDATA[<h2>california 90210</h2>]]>
+		</articleText>		
+	</article>
+	
+	<article>
+		<x>143</x>
+		<y>217</y>
+		<width>101</width>
+		<articleText>
+			<![CDATA[<h3>t 872 852 4152</h3>]]>
+		</articleText>		
+	</article>
+	
+	<article>
+		<x>39</x>
+		<y>235</y>
+		<width>96</width>
+		<articleText>
+			<![CDATA[<h3>f 872 525 3214</h3>]]>
+		</articleText>		
+	</article>
+	
+	<article>
+		<x>143</x>
+		<y>235</y>
+		<width>101</width>
+		<articleText>
+			<![CDATA[<h3>c 872 525 3214</h3>]]>
+		</articleText>		
+	</article>
+	
+	<article>
+		<x>39</x>
+		<y>252</y>
+		<width>213</width>
+		<articleText>
+			<![CDATA[<a class="big" href="mailto:email@yourcompanyweb.com">email@yourcompanyweb.com</a>]]>
+		</articleText>		
+	</article>
+	
+	<article>
+		<x>39</x>
+		<y>269</y>
+		<width>213</width>
+		<articleText>
+			<![CDATA[<h2>http://www.yourcompanyweb.com</h2>]]>
+		</articleText>		
+	</article>
+	
+	<article>
+		<x>351</x>
+		<y>85</y>
+		<width>100</width>
+		<articleText>
+			<![CDATA[<h4>name</h4>]]>
+		</articleText>		
+	</article>
+	
+	<article>
+		<x>351</x>
+		<y>124</y>
+		<width>100</width>
+		<articleText>
+			<![CDATA[<h4>email</h4>]]>
+		</articleText>		
+	</article>		
+	
+	<article>
+		<x>351</x>
+		<y>163</y>
+		<width>100</width>
+		<articleText>
+			<![CDATA[<h4>message</h4>]]>
+		</articleText>		
+	</article>
+
+	<!-- If you need to reposition the form you can do it here -->
+	<formPositioning>
+		
+		<formTitleName>
+			<textInput>
+				<x>358</x>
+				<y>106</y>	
+			</textInput>
+			<inputBackground>
+				<x>354</x>
+				<y>104</y>
+			</inputBackground>
+		</formTitleName>
+		
+		<formTitleEmail>
+			<textInput>
+				<x>358</x>
+				<y>145</y>	
+			</textInput>
+			<inputBackground>
+				<x>354</x>
+				<y>143</y>
+			</inputBackground>
+		</formTitleEmail>
+		
+		<formTitleMessage>
+			<textInput>
+				<x>358</x>
+				<y>188</y>	
+			</textInput>
+			<inputBackground>
+				<x>354</x>
+				<y>182</y>
+			</inputBackground>
+		</formTitleMessage>
+		
+		<sendButton>
+			<x>510</x>
+			<y>310</y>
+		</sendButton>
+		
+		<responseText>
+			<x>354</x>
+			<y>310</y>
+		</responseText>
+		
+	</formPositioning>
+		
+</xmlObject>

@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="Description" content="" />
+		<meta name="Keywords" content="" />
+		<title>{PUB.ADMIN.TITLE}</title>		
+	
+		<script src="js/libs.js"></script>
+		<link href="skin/iceBlue/css/login/login.css" rel="stylesheet" type="text/css" />
+		<script src="skin/iceBlue/js/login.js"></script>
+	</head>	
+
+	<body><table id="wraper" align="center">
+		<tr>
+			<td>
+			
+				<div id="content" class="">
+					<div id="errorPos">
+						<div id="errorMsg"><div class="header"></div>
+							<div id="errorContent"></div>
+							<div class="footer"></div>	
+						</div>
+					</div>
+
+					<div id="name">									
+					{PUB.ADMIN.HEADER}<br><span>{PUB.ADMIN.SUBHEADER}</span>										
+					</div>
+					<div id="logo"><img src="{PUB.ADMIN.LOGO}"/></div>
+					<div id="title" class="fulltitle"></div>
+
+					<form id="form" action="javascript:SubmitLogin();">
+						<input type="hidden" name="redirect" value="{REDIRECT}" />
+						<input type="hidden" name="postvars" value="{POSTVARS}" />
+
+						<div class="username">Username:</div><span class="text"><input type="text" name="username"/></span>
+						<div class="password">Password:</div><span class="text"><input type="password" name="password"/></span>
+						<div class="code">Security:</div>
+							<span class="code"><input type="text" name="code"/></span>
+							
+							<img id="security" src="index.php?global=security" onclick="this.src='index.php?global=security&date=' + (new Date()).getTime();" style="cursor:pointer" title="Click to reload..."/>
+						<div class="clear"></div>
+						<!--<div class="forgot">
+							<label><input type="checkbox" /> Remember me</label>
+							<a href="#">Forgot password?</a>
+						</div>--><input type="submit" class="submit" value=""/>
+					</form>
+					<script>
+						document.getElementById("form").username.focus();
+					</script>
+				</div>
+
+			</td>
+		</td>
+	</table>	
+	</body>
+</html>

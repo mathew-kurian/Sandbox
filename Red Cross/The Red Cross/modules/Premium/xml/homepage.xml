@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bannerpage>
+	<title>Welcome to our website</title>
+	<text>
+	<![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum sagittis felis. Aliquam ipsum. Aliquam vehicula elit nec neque. Nam ac urna. Etiam dapibus malesuada lorem. Nam placerat odio non orci. Nam erat. Maecenas dapibus nibh eu urna. Cras vitae urna. Praesent libero leo, aliquet nec, vestibulum at, pulvinar at, mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque vehicula diam id felis. Morbi sodales arcu consectetur adipiscing. Maecenas nascetur dapibus nibh eu urna.]]>
+	</text>
+	<banners>
+		<banner image="images/1.jpg" link="test_page"/>
+		<banner image="images/2.jpg" link="test_page"/>
+		<banner image="images/3.jpg" link="test_page"/>
+		<banner image="images/4.jpg" link="test_page"/>
+		<banner image="images/5.jpg" link="test_page"/>
+		<banner image="images/6.jpg" link="test_page"/>
+		<banner image="images/7.jpg" link="test_page"/>
+	</banners>
+</bannerpage>

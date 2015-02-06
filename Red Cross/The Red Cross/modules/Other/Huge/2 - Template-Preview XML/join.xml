@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contactUs>
+	<settingsScript>		
+		<text>contact.php</text>		
+		<upload>contact.php</upload>	
+	</settingsScript>
+	
+	<content title="Contact" url="/contact/">	
+		<![CDATA[<p><font size="22"><b>John Smith Inc.</b></font><br />
+<br />
+<font size="16">45 Esquire Drive<br />
+90315 California, USA</font></p>]]>		
+		<contactData
+			
+			email="john@johnsmith.web"  
+			emailUrl="mailto:john@johnsmith.web"
+			toggleEmail="1"
+
+			web="http://www.johnsmith.web"  
+			webUrl="http://www.google.com"
+			toggleWeb="1"
+			
+			ym="johnsmith"  
+			ymUrl="http://www.google.com"
+			toggleYm="1"
+
+			msn="johnsmith@coldmail.web"  
+			msnUrl="http://www.google.com"
+			toggleMsn="1"
+
+			skype="john.smith.web"  
+			skypeUrl="http://www.google.com"
+			toggleSkype="1"
+						
+		></contactData>
+		
+	</content>
+	
+</contactUs>
+

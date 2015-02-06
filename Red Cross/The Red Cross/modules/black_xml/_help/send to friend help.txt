@@ -1,0 +1,51 @@
+stf.xml
+
+-----------------------------------------------
+How do I change the send to friend image?
+-----------------------------------------------
+
+Save your image inside images/sendtofriend folder.
+Open stf.xml in Notepad or Dreamveaver. In the xml go to the "path" attribute for the lgimage node and update the path.
+
+Example:
+  	
+<lgimage path = "images/about/gun.jpg">
+
+
+-----------------------------------------------
+How do I edit the send to friend description?
+-----------------------------------------------
+
+Go to the lgimage node, and edit the text between the <![CDATA[ text goes here ]]> tags.
+
+Example:
+
+<lgimage path = "images/sendfriend/disco_ball.jpg"><![CDATA[<font color = "#ffff00">Send to a Friend with php</font><br>Simple send to a friend form allows a user to forward your website url to there friends via a simple php script. No editing is required in Flash, just open the php file in Dreamweaver and replace with your domain, email and thank you message. Upload your Flash and the php file and your good to go. Just make sure your webserver supports php.]]></lgimage>
+
+You can use html tags to change color, font size etc. If you change font sizes I suggest changing the dynamic text field from bitmap to anti-alias for readability and use a non pixel font, otherwise you will get blurry text.
+
+-------------------------------------------------
+How do I change the button color?
+-------------------------------------------------
+
+In the xml, go to the buttonColor attribute and change the value.
+
+Example:
+
+buttonColor = "0xffff00"
+
+------------------------------------------------------------
+How do I get the send to friend form to work on my website?
+------------------------------------------------------------
+
+1. Open "sendtofriend.php" in Dreamweaver.
+
+2. Update the following line with your personalized message and domain, do not delete the \n :
+
+I found this amazing website, check it out: http://www.activeden.net \n
+
+3. Update the following line with a personalized message and your email, do not delete the \n :
+
+mail( "$yourEmail", "Thanks for your recommendation", "$contents\n\n", "From:robwes19@activeden.net\n" );
+
+4. Make sure to upload "sendtofriend.php" along with the rest of your files. Keep the file "sendtofriend.php" in the root directory of your webserver along with "sendtofriend.swf and not nested in folder/s.

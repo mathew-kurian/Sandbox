@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<videoData>
+
+<video 
+       buffTime = "4" 
+       loop = "false"
+       logo = "images/logo.png" 
+       logoIntro = "true" 
+       url = "http://activeden.net/user/robwes19"
+       target = "_self"
+       maxScreen = "true"
+       btnColor = "0xC20800"
+       >flv/intro.flv</video>
+
+</videoData>

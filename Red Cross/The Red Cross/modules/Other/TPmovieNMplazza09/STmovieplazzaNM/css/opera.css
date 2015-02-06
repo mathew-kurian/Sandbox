@@ -1,0 +1,13 @@
+ /* 
+=================================================
+# Filename : opera.css
+# Description : Specific opera css hacks
+# Author : TemplatePlazza
+# Author Url : http://www.templateplazza.com
+# Copyright (C) 2009 TemplatePlazza.com
+# All rights reserved.
+=================================================
+*/
+#tpblock-tpmenu span.tpsubtitle {
+	margin-top:-6px;
+}

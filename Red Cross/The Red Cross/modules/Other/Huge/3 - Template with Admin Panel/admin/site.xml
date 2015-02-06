@@ -1,0 +1,47 @@
+<config site="store">
+
+	<paths>
+		<site upload="./upload/" path="./" url="./" />
+		<admin upload="./upload/" path="../" url="../" />
+	</paths>
+	
+	<formspath>./forms/</formspath>
+	<default_location>index.php</default_location>
+
+	<forms>
+		<adminpath>./forms/admin/</adminpath>
+		<userpath>./forms/user/</userpath>
+		<admintemplate>./templates/form.htm</admintemplate>
+		<sitepath>./forms/</sitepath>
+		<sitetemplate>./admin/templates/form.htm</sitetemplate>
+	</forms>
+
+
+	<admin>
+		<default_location>index.php</default_location>
+		<template>
+			<tpl>iceBlue</tpl>
+			<change>false</change>
+		</template>
+	</admin>
+
+	<modules>
+		<admin>
+			<module name="oxymall">oxymall</module>
+			<module name="auth">auth</module>
+		</admin>
+
+		<site>
+			<module name="oxymall">oxymall</module>
+		</site>
+	</modules>
+
+	<templates>
+
+		<admin>			
+			<template name="generic_form">templates/form.htm</template>
+		</admin>
+
+	</templates>
+
+ </config>

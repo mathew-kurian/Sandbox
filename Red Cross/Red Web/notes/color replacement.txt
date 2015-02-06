@@ -1,0 +1,3 @@
+New Red: 0xC20800
+
+Old Blue: 0x00b7dc

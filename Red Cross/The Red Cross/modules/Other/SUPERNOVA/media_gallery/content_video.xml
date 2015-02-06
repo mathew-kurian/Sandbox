@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<content>
+
+<gallery Name="VIDEO">
+    <item Thumb="media_gallery/video/thumb1.jpg" Large="media_gallery/video_player.swf" toLoad="media_gallery/video/video1.flv" Width="600" Height="450" Title="4:3 video Example">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>4:3 video Example</b></font><br>You can add any size video to this gallery and it will always maintain aspect ratio in fullscreen mode. The width and height of each video can be defined in the XML. You can add video formats such as FLV, MP4 and MOV.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/video/thumb1.jpg" Large="media_gallery/video_player.swf" toLoad="media_gallery/video/video2.flv" Width="400" Height="225" Title="16:9 video Example">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>16:9 video Example</b></font><br>You can add any size video to this gallery and it will always maintain aspect ratio in fullscreen mode. The width and height of each video can be defined in the XML. You can add video formats such as FLV, MP4 and MOV.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+    <item Thumb="media_gallery/video/thumb1.jpg" Large="media_gallery/video_player.swf" toLoad="media_gallery/video/video3.flv" Width="400" Height="400" Title="Square video Example">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>Square video Example</b></font><br>You can add any size video to this gallery and it will always maintain aspect ratio in fullscreen mode. The width and height of each video can be defined in the XML. You can add video formats such as FLV, MP4 and MOV.<br><br>This is HTML formatted text which can support <a href="http://www.flashden.net" target="_blank">hyperlinks</a>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras lacus ipsum, tempus ac, auctor sed, tempus id, lectus. ]]></copy>
+    </item>
+</gallery>
+
+</content>

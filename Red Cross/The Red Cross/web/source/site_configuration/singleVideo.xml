@@ -1,0 +1,107 @@
+<xml>
+	
+	<configSettings>
+		
+		<!-- Step 1 Choose 4x3 Mode or 6x9 Mode -->
+				<use4x3player>false</use4x3player>
+				<use16x9player>true</use16x9player>
+		
+		
+		<!--Step 2 Choose Video Module Type -->
+				<!--set singleVideoModule to true if you just have one video to display -->
+				<singleVideoModule>true</singleVideoModule>
+				<!--set minimalVideoModule to true if you have multiple videos in a single 
+				category and do not want the large description area to be displayed-->
+				<minimalVideoModule>false</minimalVideoModule>
+				<!--set fullVideoModule to true if you have multiple video categories 
+				and want the video description area to be displayed -->
+				<fullVideoModule>false</fullVideoModule>
+		
+		
+		<!--Step 3 set your margins.  -->
+				<!-- Top margin should be the height of your header -->
+				<topMargin>130</topMargin>
+				<!-- Bottom margin should be the height of your footer -->
+				<bottomMargin>130</bottomMargin>
+			
+			
+		<!--Step 4 Align your video gallery on the stage -->
+				<!--
+					alignX Options 
+					The alignX is the distance from the left your videoGallery will start
+					Static X    				  eg.  <alignX>175</alignX>      		(this will make your videoGallery start 175 pixels from the left)
+					Left aligned X    	  eg.  <alignX>left</alignX>    		(this will make your videoGallery be left aligned)
+					Center aligned X      eg.  <alignX>center</alignX>  		(this will make your videoGallery be centered)
+					Right aligned X    	  eg.  <alignX>right</alignX>				(this will make your videoGallery be right aligned)
+				-->
+				<alignX>center</alignX>
+				<!--
+					alignY Options 
+					The alignY is the distance from the top your videoGallery will start
+					static Y    				  eg.  <alignY>175</alignY>      	(this will make your videoGallery always start 175 pixels from the top)
+					top aligned Y    	  	eg.  <alignY>top</alignY>     	(this will make your videoGallery be aligned vertically under the topMargin)
+					bottom aligned Y      eg.  <alignY>bottom<alignY>   	(this will make your videoGallery be aligned vertically and sit on the bottomMargin)
+					center aligned Y    	eg.  <alignY>center<alignY>			(this will make your videoGallery be aligned vertically between the topMargin and bottomMargin)
+				-->
+				<alignY>center</alignY> 
+		
+
+
+		<!--Step 5 set your video width and height-->	
+				<videoWidth>640</videoWidth>
+				<videoHeight>480</videoHeight>
+		
+		
+		
+		<!--Step 6 set video playback configuration options-->
+				<!-- Set initial volume 0 is the lowest and 1 the highest -->
+				<initialVolume>0</initialVolume>
+				<!-- Number of seconds to buffer video -->
+				<buffer>6</buffer>
+				<!-- Should the video keep a 4x3 or 16x9 ration when in full screen-->
+				<keepAspectRatio>false</keepAspectRatio>
+		
+				
+		<!--Step 7 skin the colors of your video controls-->
+				<!-- play pause button -->
+				<playPauseBtnColor>0x000000</playPauseBtnColor>
+				<playPauseIconColor>0xC20800</playPauseIconColor>
+				<!-- full screen button -->
+				<fullScreenBtnColor>0x000000</fullScreenBtnColor>
+				<fullScreenIconColor>0xC20800</fullScreenIconColor>
+				<!-- volume button -->
+				<volumeBtnColor>0x000000</volumeBtnColor>
+				<volumeIconColor>0xC20800</volumeIconColor>
+				<volumeBaseColor>0x0C0C0C</volumeBaseColor>
+				<volumeLevelColor>0xC20800</volumeLevelColor>
+				<!-- time button -->
+				<timeBarBtnColor>0x000000</timeBarBtnColor>
+				<timePlayedTextColor>0xC20800</timePlayedTextColor>
+				<timeTotalTextColor>0x555555</timeTotalTextColor>
+				<!-- seek bar -->
+				<videoPlayedColor>0xC20800</videoPlayedColor>
+				<videoLoadedColor>0x0C0C0C</videoLoadedColor>
+				<videoLengthColor>0x161616</videoLengthColor>
+
+
+
+	</configSettings>
+	<!--END OF CONFIGURATION SETTINGS-->
+
+
+
+
+
+
+	<!--Single Category  Single Video-->
+	<categories>
+		<category>
+			<video>
+			<videoUrl>site_videos/intro.flv</videoUrl>
+				<autoStartVideo>true</autoStartVideo>
+			</video>
+		</category>
+	</categories>
+	
+	
+</xml>

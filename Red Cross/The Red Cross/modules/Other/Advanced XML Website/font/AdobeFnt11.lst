@@ -1,0 +1,48 @@
+%!Adobe-FontList 1.11
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\MKone\Desktop\The Red Cross\Other\Advanced XML Website\Font\Free to use commercially.txt
+FileModTime:1233046711
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PFRondaSeven
+FamilyName:PF Ronda Seven
+StyleName:Regular
+FullName:PF Ronda Seven
+MenuName:PF Ronda Seven
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\MKone\Desktop\The Red Cross\Other\Advanced XML Website\Font\pf_ronda_seven.ttf
+DataFormat:sfntData
+FileLength:25060
+FileModTime:1233046711
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PFRondaSeven-Bold
+FamilyName:PF Ronda Seven
+StyleName:Bold
+FullName:PF Ronda Seven Bold
+MenuName:PF Ronda Seven
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\MKone\Desktop\The Red Cross\Other\Advanced XML Website\Font\pf_ronda_seven_bold.ttf
+DataFormat:sfntData
+FileLength:24764
+FileModTime:1233046711
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+

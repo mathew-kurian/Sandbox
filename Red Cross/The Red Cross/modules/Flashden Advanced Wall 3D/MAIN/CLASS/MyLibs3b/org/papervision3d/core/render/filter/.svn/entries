@@ -1,0 +1,52 @@
+8
+
+dir
+535
+http://papervision3d.googlecode.com/svn/trunk/branches/GreatWhite/src/org/papervision3d/core/render/filter
+http://papervision3d.googlecode.com/svn
+
+
+
+2007-12-06T16:55:17.371458Z
+352
+r.hauwert@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+071aa1e1-232a-0410-a790-59abb25ab4c3
+
+IRenderFilter.as
+file
+
+
+
+
+2007-12-11T06:12:31.192634Z
+dd93162446b70819c45548edde6ab32f
+2007-12-06T16:55:17.371458Z
+352
+r.hauwert@gmail.com
+
+BasicRenderFilter.as
+file
+
+
+
+
+2007-12-11T06:12:31.199469Z
+d70628d424c756a3c5f7c81f913f99cc
+2007-12-06T16:55:17.371458Z
+352
+r.hauwert@gmail.com
+

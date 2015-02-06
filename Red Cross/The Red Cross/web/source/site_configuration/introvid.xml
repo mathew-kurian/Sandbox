@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	<topMargin>140</topMargin>
+	<bottomMargin>50</bottomMargin>
+	<!--
+		alignX Options 
+		The alignX is the distance from the left your page will start
+		Static X    				  eg.  <alignX>175</alignX>      	(this will make your content start 175 pixels from the left)
+		Left aligned X    	  eg.  <alignX>left</alignX>    		(this will make your content be left aligned)
+		Center aligned X      eg.  <alignX>center</alignX>  		(this will make your content be centered)
+		Right aligned X    	  eg.  <alignX>right</alignX>			(this will make your content be right aligned)
+	-->
+	<alignX>center</alignX><!--Horizontal Alignment-->
+	<!--
+		alignY Options 
+		The alignY is the distance from the top your page will start
+		Static Y    				  eg.  <alignY>175</alignY>      	(this will make your content start 175 pixels from the top)
+		Top aligned Y    	  	eg.  <alignY>top</alignY>     	(this will make your content be aligned vertically under the topMargin)
+		Bottom aligned Y      eg.  <alignY>bottom<alignY>   	(this will make your content be aligned vertically and sit on the bottomMargin)
+		Center aligned Y    	eg.  <alignY>center<alignY>			(this will make your content be aligned vertically between the topMargin and bottomMargin)
+	-->
+	<alignY>center</alignY><!-- Vertical Alignment-->
+	
+	
+	<contentWidth>0</contentWidth>
+	<contentHeight>0</contentHeight>
+	<contentBgColor>0x0c0c0c</contentBgColor>
+	<contentBgOpacity>1</contentBgOpacity>
+	
+	
+	<useHoverScroll>false</useHoverScroll>
+	<useManualScroll>true</useManualScroll>
+	
+	<!-- 	These settings apply 
+				if useManualScroll is true 
+				and useHoverScroll is false   -->
+	<scrollBarWidth>0</scrollBarWidth>
+	<scrollBarHeight>0</scrollBarHeight>
+	<scrollBaseColor>0x000000</scrollBaseColor>
+	<addTiledPatternToScrollBase>true</addTiledPatternToScrollBase>
+	<patternUrl>site_images/patterns/edgePattern.png</patternUrl>
+	<scrollBaseOpacity>.67</scrollBaseOpacity>
+	<scrollerColor>0xcfcfcf</scrollerColor>
+	<scrollerOpacity>1</scrollerOpacity>
+	
+	<!-- End of Scroll Bar Features -->
+	
+	<!-- Used for pop up content -->
+		<dimWallPaperColor>0xffffff</dimWallPaperColor>
+		<dimWallPaperAlpha>.85</dimWallPaperAlpha>
+		<!-- set the size of the font used in the image preloader -->
+		<preloaderTextSize>140</preloaderTextSize>
+		<!-- set the color of the font used in the image preloader -->
+		<preloaderTextColor>0x000000</preloaderTextColor>
+		<!-- set the opacity of the font used in the image preloader -->
+		<preloaderTextOpacity>1</preloaderTextOpacity>
+		
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>true</displayHtmlArticles>
+	<displaySlideShow>true</displaySlideShow>
+	<displaySWF>false</displaySWF>
+	
+	<slideShow>
+		<x>0</x>
+		<y>0</y>
+		<xmlURL>site_configuration/homePageSlideShow.xml</xmlURL>
+		<cssURL>site_stylesheets/slideShow.css</cssURL>
+	</slideShow>
+	
+	<image>
+		<x>0</x>
+		<y>0</y>
+		<imageURL>site_images/pages/home/home_title.png</imageURL>
+	</image>
+	
+	<article>
+		<x>0</x>
+		<y>0</y>
+		<width>0</width>
+		<articleText><![CDATA[<p>Thank you for taking the time to look at our new edge series template!  The new edge series of templates are a result of hundreds of hours and months of development. Our previous template, Unlimited, was released in August of 2009 and currently has been purchased close to 600 times. Countless hundreds of you web developers out there posted on our forum letting us know what you liked and didn't like and what you would like to potentially see changed or added.  So we listened, sorted out the most common requests, and added as many new features as we possibly could and then a couple more. Some of the big features you guys requested the most were:  Being able to change page name and page title for deeplinking from XML.  Disable/Enable Mp3 player from XML.  Make navigation buttons resize based on the length of the text length. Position header, navigation, and nav buttons from XML. Load full size scaled images as backgrounds. Load swfs and videos as backgrounds. And we added all of these plus a TON more!  Hope you guys enjoy this template! Due to the hundreds of new XML options we have added, you will be able to skin this template to your likings 10 times faster than before!</p>]]></articleText>
+	</article>
+
+				
+
+</xmlObject>

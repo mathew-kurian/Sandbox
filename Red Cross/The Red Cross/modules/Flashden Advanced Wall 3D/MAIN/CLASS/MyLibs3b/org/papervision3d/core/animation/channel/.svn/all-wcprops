@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/505/trunk/branches/GreatWhite/src/org/papervision3d/core/animation/channel
+END
+AbstractChannel3D.as
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/505/trunk/branches/GreatWhite/src/org/papervision3d/core/animation/channel/AbstractChannel3D.as
+END
+MatrixChannel3D.as
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/505/trunk/branches/GreatWhite/src/org/papervision3d/core/animation/channel/MatrixChannel3D.as
+END
+MorphChannel3D.as
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/492/trunk/branches/GreatWhite/src/org/papervision3d/core/animation/channel/MorphChannel3D.as
+END
+SinglePropertyChannel3D.as
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/492/trunk/branches/GreatWhite/src/org/papervision3d/core/animation/channel/SinglePropertyChannel3D.as
+END
+MatrixStackChannel3D.as
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/504/trunk/branches/GreatWhite/src/org/papervision3d/core/animation/channel/MatrixStackChannel3D.as
+END

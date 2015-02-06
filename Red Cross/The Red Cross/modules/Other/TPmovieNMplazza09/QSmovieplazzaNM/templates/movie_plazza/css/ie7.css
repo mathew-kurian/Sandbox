@@ -1,0 +1,58 @@
+ /* 
+=================================================
+# Filename : ie7.css
+# Description : Specific IE7 css hacks
+# Author : TemplatePlazza
+# Author Url : http://www.templateplazza.com
+# Copyright (C) 2009 TemplatePlazza.com
+# All rights reserved.
+=================================================
+*/
+html{
+ overflow-x: hidden;}
+.tool-tip {
+/*	background:url(../images/bgtooltipsie.png) top center no-repeat;*/
+}
+
+.clrfix {
+	height:1px;}
+    .pagination  span,
+    .pagination  a{
+	height:20px;
+	}
+
+
+#tpwrapper-page-inner {
+	height:1%;}
+	
+#tp-cssmenu .tpsubtitle cufon{
+	margin-top:-5px;
+	}
+
+#tpaccordion div.tpaccordionelement-inner {
+	padding:10px;
+    height: 1%;
+}
+/*tpmenu*/
+#tpblock-tpmenu {
+    text-align: left;
+}
+#tpblock-tpmenu span.tpsubtitle {
+	margin-top:-20px;
+    position: relative;
+}
+#tpblock-tpmenu span.tpchildsubtitle   {
+    font-size: 10px;
+}
+/*title date on content*/
+
+.leading_article_inner{ 
+    position: relative;
+}
+div.moduletable_inner,
+#tpblock-left,
+#tpmod-left,
+#tpwrapper-right-inner,
+#tpmod-right {
+    height: 1%;
+}

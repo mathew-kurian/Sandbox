@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/holder"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fadeout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/startup"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/frameLayout1"
+            android:layout_width="214dp"
+            android:layout_height="237dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/img" >
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>

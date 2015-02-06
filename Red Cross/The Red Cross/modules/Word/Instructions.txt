@@ -1,0 +1,16 @@
+Thank you for downloading: Intro with World Map
+
+Zip included are:
+	Intro with World Map  Flash MX-2004.fla - 223 Kb
+	Intro with World Map  Flash MX-2004.swf - 31 Kb
+	Instructions.txt - this file
+
+
+For add your clip:
+
+1. Open my file (Ctrl+O).
+2. Put your clip on layer "Your clip or link" (my clip must be deleted)
+
+If size of your clip in excess of 1 frame - open ActionScript panel (F9) and delete "stop();". Write to last frame in your clip next script "gotoAndPlay (2);"
+
+If you have questions please contact me.

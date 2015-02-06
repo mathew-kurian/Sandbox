@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<fractals rows="2" columns="10">
+	<items>
+			<item>
+				<image src="asset/fractals/sample1.jpg" />
+				<description> <![CDATA[<title>Photo Description: Fractal 1 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/fractals/sample2.jpg" />
+				<description> <![CDATA[<title>Photo Description: Fractal 2 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/fractals/sample3.jpg" />
+				<description> <![CDATA[<title>Photo Description: Fractal 3 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/fractals/sample4.jpg" />
+				<description> <![CDATA[<title>Photo Description: Fractal 4 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/fractals/sample5.jpg" />
+				<description> <![CDATA[<title>Photo Description: Fractal 5 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/fractals/sample6.jpg" />
+				<description> <![CDATA[<title>Photo Description: Fractal 6 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/fractals/sample7.jpg" />
+				<description> <![CDATA[<title>Photo Description: Fractal 7 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/fractals/sample8.jpg" />
+				<description> <![CDATA[<title>Photo Description: Fractal 8 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/fractals/sample9.jpg" />
+				<description> <![CDATA[<title>Photo Description: Fractal 9 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/fractals/sample10.jpg" />
+				<description> <![CDATA[<title>Photo Description: Fractal 10 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/fractals/sample11.jpg" />
+				<description> <![CDATA[<title>Photo Description: Fractal 11 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/fractals/sample12.jpg" />
+				<description> <![CDATA[<title>Photo Description: Fractal 12 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/fractals/sample13.jpg" />
+				<description> <![CDATA[<title>Photo Description: Fractal 13 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/fractals/sample14.jpg" />
+				<description> <![CDATA[<title>Photo Description: Fractal 14 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/fractals/sample15.jpg" />
+				<description> <![CDATA[<title>Photo Description: Fractal 15 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/fractals/sample16.jpg" />
+				<description> <![CDATA[<title>Photo Description: Fractal 16 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/fractals/sample17.jpg" />
+				<description> <![CDATA[<title>Photo Description: Fractal 17 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/fractals/sample4.jpg" />
+				<description> <![CDATA[<title>Photo Description: Fractal 4 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/fractals/sample5.jpg" />
+				<description> <![CDATA[<title>Photo Description: Fractal 5 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/fractals/sample6.jpg" />
+				<description> <![CDATA[<title>Photo Description: Fractal 6 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+	</items>
+</fractals>

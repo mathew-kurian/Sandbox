@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+
+	<display
+	
+		totalWidth="590"
+		totalHeight="300"
+	
+		tabTitle1="0xFFFFFF"
+		tabTitle2="0xF0F0F0"
+		
+		tabRollTitle1="0xFF0033"
+		tabRollTitle2="0xFF0033"
+		
+		htmlBackground="0x000000"
+		
+		scrollbarColor1="0x333333"
+		scrollbarColor2="0xDFDFDF"
+	
+	 />
+	
+	<news>
+		
+		<item title1="Main title goes here" title2="Subtitle goes here"><![CDATA[ html description goes here ]]></item>
+		
+	</news>
+
+</settings>

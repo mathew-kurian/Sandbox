@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- new version: code = 8, name = 2.?.? -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.dEVELdRONE.GForce_Arena"
+      android:versionCode="7"
+      android:versionName="2.0.0">
+    <uses-sdk android:minSdkVersion="7" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+   <application android:icon="@drawable/icon" android:label="@string/app_name">
+   
+   		<activity android:name="com.google.ads.AdActivity"
+			android:configChanges="keyboard|keyboardHidden|orientation"
+		></activity>
+   
+        <activity android:name=".Splash"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".Preferences"
+                  android:label="Preferences">
+            <intent-filter>
+                <action android:name="com.dEVELdRONE.GForce_Arena.PREFERENCES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".ArcadeActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.dEVELdRONE.GForce_Arena.ARCADEACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+       <activity android:name=".Startup"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.dEVELdRONE.GForce_Arena.STARTUP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".SpinningStuff"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.dEVELdRONE.GForce_Arena.SPINNINGSTUFF" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>

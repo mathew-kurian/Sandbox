@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html 
+
+	width="600"
+	height="400"
+	
+	scrollbarColor1="0x333333"
+	scrollbarColor2="0xDFDFDF"
+
+>
+
+	<title><![CDATA[Title goes here]]></title>
+	<text><![CDATA[
+	
+	<p>Paragraph example with <br> a link break</p>
+	<font color="#FF0000">Font color change</font>
+	<u>Underlined text</u>
+	
+	<img src="image.jpg" width="100" height="100">This was an image.
+	
+	<a href="http://www.flashden.net" target="_blank">This is a link that opens in a new window</a>
+	<a href="http://www.flashden.net" target="_self">This is a link that opens in the same window</a>
+	
+	Below is an unordered list:
+	<ul>
+	<li>item1</li>
+	<li>item2</li>
+	<li>item3</li>
+	</uL>
+	
+	]]></text>
+	
+</html>

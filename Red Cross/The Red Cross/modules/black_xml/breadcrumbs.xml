@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<navigation>
+  	
+<btn label="COMPANY" url="http://www.flashden.net/user/robwes19" btnColor="0xffff00"/>
+
+<btn label="TEAM" url="http://www.flashden.net/user/robwes19" btnColor="0xffff00"/>
+
+<btn label="AWARDS" url="http://www.flashden.net/user/robwes19" btnColor="0xffff00"/>
+
+<btn label="AFFILIATES" url="http://www.flashden.net/user/robwes19" btnColor="0xffff00"/>
+
+<btn label="BLOG" url="http://www.flashden.net/user/robwes19" btnColor="0xffff00"/>
+
+<btn label="CLIENT LOGIN" url="http://www.flashden.net/user/robwes19" btnColor="0xffff00"/>
+
+<btn label="LEGAL" url="http://www.flashden.net/user/robwes19" btnColor="0xffff00"/>
+   
+</navigation>

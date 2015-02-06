@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<content Name="TEAM MEMBERS">
+    <gallery Name="MANAGEMENT">
+	<item Image="team/gallery1/image1.jpg">
+           <copy><![CDATA[<font color="#FFFFFF" size="20">Joe Blogs</font><br><br><font color="#FFFFFF" size="11">Position: Chief Executive Officer</font><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br><font color="#FFFFFF">Contact Details:</font><br>T: +27 012 123 1234<br>F: +27 012 123 1234<br>E: <a href="mailto:name@company.com">name@company.com</a>]]></copy>
+	</item>
+	<item Image="team/gallery1/image1.jpg">
+           <copy><![CDATA[<font color="#FFFFFF" size="20">Tom Smith</font><br><br><font color="#FFFFFF" size="11">Position: Director</font><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br><font color="#FFFFFF">Contact Details:</font><br>T: +27 012 123 1234<br>F: +27 012 123 1234<br>E: <a href="mailto:name@company.com">name@company.com</a>]]></copy>
+	</item>
+	<item Image="team/gallery1/image1.jpg">
+           <copy><![CDATA[<font color="#FFFFFF" size="20">Jane Doe</font><br><br><font color="#FFFFFF" size="11">Position: Creative Manager</font><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br><font color="#FFFFFF">Contact Details:</font><br>T: +27 012 123 1234<br>F: +27 012 123 1234<br>E: <a href="mailto:name@company.com">name@company.com</a>]]></copy>
+	</item>
+	<item Image="team/gallery1/image1.jpg">
+           <copy><![CDATA[<font color="#FFFFFF" size="20">John Smith</font><br><br><font color="#FFFFFF" size="11">Position: Production Manager</font><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br><font color="#FFFFFF">Contact Details:</font><br>T: +27 012 123 1234<br>F: +27 012 123 1234<br>E: <a href="mailto:name@company.com">name@company.com</a>]]></copy>
+	</item>
+	<item Image="team/gallery1/image1.jpg">
+           <copy><![CDATA[<font color="#FFFFFF" size="20">Mary Jane</font><br><br><font color="#FFFFFF" size="11">Position: Technical Administrator</font><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br><font color="#FFFFFF">Contact Details:</font><br>T: +27 012 123 1234<br>F: +27 012 123 1234<br>E: <a href="mailto:name@company.com">name@company.com</a>]]></copy>
+	</item>
+	<item Image="team/gallery1/image1.jpg">
+           <copy><![CDATA[<font color="#FFFFFF" size="20">James Smith</font><br><br><font color="#FFFFFF" size="11">Position: Human Resources</font><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br><font color="#FFFFFF">Contact Details:</font><br>T: +27 012 123 1234<br>F: +27 012 123 1234<br>E: <a href="mailto:name@company.com">name@company.com</a>]]></copy>
+	</item>
+	<item Image="team/gallery1/image1.jpg">
+           <copy><![CDATA[<font color="#FFFFFF" size="20">John Doe</font><br><br><font color="#FFFFFF" size="11">Position: Accounts Manager</font><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br><font color="#FFFFFF">Contact Details:</font><br>T: +27 012 123 1234<br>F: +27 012 123 1234<br>E: <a href="mailto:name@company.com">name@company.com</a>]]></copy>
+	</item>
+  </gallery>
+  <gallery Name="DEVELOPERS">
+	<item Image="team/gallery2/image1.jpg">
+           <copy><![CDATA[<font color="#FFFFFF" size="20">James Smith</font><br><br><font color="#FFFFFF" size="11">Position: Lead Developer</font><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br><font color="#FFFFFF">Contact Details:</font><br>T: +27 012 123 1234<br>F: +27 012 123 1234<br>E: <a href="mailto:name@company.com">name@company.com</a>]]></copy>
+	</item>
+	<item Image="team/gallery2/image1.jpg">
+           <copy><![CDATA[<font color="#FFFFFF" size="20">John Doe</font><br><br><font color="#FFFFFF" size="11">Position: System Administrator</font><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br><font color="#FFFFFF">Contact Details:</font><br>T: +27 012 123 1234<br>F: +27 012 123 1234<br>E: <a href="mailto:name@company.com">name@company.com</a>]]></copy>
+	</item>
+	<item Image="team/gallery2/image1.jpg">
+           <copy><![CDATA[<font color="#FFFFFF" size="20">Tom Smith</font><br><br><font color="#FFFFFF" size="11">Position: Senior Developer</font><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br><font color="#FFFFFF">Contact Details:</font><br>T: +27 012 123 1234<br>F: +27 012 123 1234<br>E: <a href="mailto:name@company.com">name@company.com</a>]]></copy>
+	</item>
+	<item Image="team/gallery2/image1.jpg">
+           <copy><![CDATA[<font color="#FFFFFF" size="20">John Smith</font><br><br><font color="#FFFFFF" size="11">Position: Senior Developer</font><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br><font color="#FFFFFF">Contact Details:</font><br>T: +27 012 123 1234<br>F: +27 012 123 1234<br>E: <a href="mailto:name@company.com">name@company.com</a>]]></copy>
+	</item>
+	<item Image="team/gallery2/image1.jpg">
+           <copy><![CDATA[<font color="#FFFFFF" size="20">Mary Jane</font><br><br><font color="#FFFFFF" size="11">Position: Developer</font><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br><font color="#FFFFFF">Contact Details:</font><br>T: +27 012 123 1234<br>F: +27 012 123 1234<br>E: <a href="mailto:name@company.com">name@company.com</a>]]></copy>
+	</item>
+  </gallery>
+  <gallery Name="DESIGNERS">
+	<item Image="team/gallery3/image1.jpg">
+           <copy><![CDATA[<font color="#FFFFFF" size="20">Jane Doe</font><br><br><font color="#FFFFFF" size="11">Position: Lead Designer</font><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br><font color="#FFFFFF">Contact Details:</font><br>T: +27 012 123 1234<br>F: +27 012 123 1234<br>E: <a href="mailto:name@company.com">name@company.com</a>]]></copy>
+	</item>
+	<item Image="team/gallery3/image1.jpg">
+           <copy><![CDATA[<font color="#FFFFFF" size="20">John Smith</font><br><br><font color="#FFFFFF" size="11">Position: Senior Designer</font><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br><font color="#FFFFFF">Contact Details:</font><br>T: +27 012 123 1234<br>F: +27 012 123 1234<br>E: <a href="mailto:name@company.com">name@company.com</a>]]></copy>
+	</item>
+	<item Image="team/gallery3/image1.jpg">
+           <copy><![CDATA[<font color="#FFFFFF" size="20">Mary Jane</font><br><br><font color="#FFFFFF" size="11">Position: Designer</font><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br><font color="#FFFFFF">Contact Details:</font><br>T: +27 012 123 1234<br>F: +27 012 123 1234<br>E: <a href="mailto:name@company.com">name@company.com</a>]]></copy>
+	</item>
+  </gallery>
+</content>

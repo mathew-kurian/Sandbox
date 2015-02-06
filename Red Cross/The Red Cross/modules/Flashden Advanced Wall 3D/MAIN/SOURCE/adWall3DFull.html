@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Advance Wall 3D</title>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<style type="text/css">
+	
+	html {
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	#flashcontent {
+		height: 100%;
+	}
+
+	body {
+		font-family: verdana,arial,sans-serif;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		background-color: #000;
+	}
+	
+	a, a:active {
+		color:#53A924;
+		}
+		a:hover {
+			color: #fff;
+			}
+		a:active {
+			color: #fff;
+			}
+			
+	#flashError {
+		padding: 20px;
+	}
+	
+
+</style>
+</head>
+<body>
+
+	<div id="flashcontent">
+		
+		<div id="flashError">
+			<h1>You need to upgrade your Flash Player</h1>
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+		// <![CDATA[
+		
+		var so = new SWFObject("adWall3D.swf", "3D Multimedia Studio", "100%", "100%", "9", "#000000");
+		so.addParam("scale", "noscale");
+		so.write("flashcontent");
+		
+		// ]]>
+	</script>
+	
+</body>
+
+</html>

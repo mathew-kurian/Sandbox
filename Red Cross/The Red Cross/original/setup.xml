@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<setup>
+		<background src="background.jpg" type="image"/>
+		<buttons tooltips="enabled">
+			<books bgcolor="0xCCCCCC" bgalpha="0.3" tooltip="Show books" description="Choose a book"/>
+			<pages bgcolor="0xCCCCCC" bgalpha="0.3" tooltip="Show all pages" description="Select page you wish to see" state="enabled"/>
+			<printer bgcolor="0xCCCCCC" bgalpha="0.3" tooltip="Print pages"  description="Print your selection" canceltext="Go back" state="enabled" />
+			<zoom bgcolor="0xCCCCCC" bgalpha="0.3" tooltip="Zoom in" state="enabled"/>
+			<pdf bgcolor="0xCCCCCC" bgalpha="0.3" tooltip="Download pdf version" state="enabled"/>
+			<contact bgcolor="0xCCCCCC" bgalpha="0.3" tooltip="Contact me" state="enabled"/>
+			<slideshow bgcolor="0xCCCCCC" bgalpha="0.3" tooltip="Start/Stop slideshow" state="enabled"/>
+			<music bgcolor="0xCCCCCC" bgalpha="0.3" tooltip="Play/Stop music" state="enabled"/>
+			<other bgcolor="0xCCCCCC" bgalpha="0.3"/>
+		</buttons>	
+	
+		<printer>
+			<alert delay="2000">
+				<started src="Printing started"/>
+				<canceled src="Printing canceled"/>
+			</alert>
+		</printer>
+		
+		<zoom>
+			<alert delay="2000">
+				<zoomin src="Click the screen to zoom out"/>
+			</alert>	
+		</zoom>	
+			
+		<contact youremail="fern@g.pl" tooltips="enabled">
+			<icons>
+				<twitter url="http://" target="_blank" tooltip="Follow me on Twitter" state="enabled"/>
+				<facebook url="http://" target="_blank" tooltip="Follow me on Facebook" state="enabled"/>
+				<website url="http://" target="_blank" tooltip="Visit my blog" state="enabled"/>
+			</icons>
+			<text>
+				<title src="Contact Owner"/>
+				<content>
+					<![CDATA[
+email: xyz@xyz.xyz,
+phone: 111-222-333]]>
+				</content>
+				<name src="Name"/>
+				<email src="Email"/>
+				<message src="Message"/>
+				<send src="Send"/>
+				<clear src="Clear"/>
+			</text>
+			<alert delay="2000">
+				<name src="Please input your name"/>
+				<email src="Please input your email"/>
+				<emailerror src="Your email address is wrong!"/>
+				<message src="You haven't wrote any message"/>
+				<send src="Send option doen't work in the preview."/>
+			</alert>		
+		</contact>
+		
+		<slideshow autoplay="false">
+			<alert delay="2000">
+				<on src="Slideshow started"/>
+				<off src="Slideshow stopped"/>
+			</alert>	
+		</slideshow>	
+		<music src="sound.mp3" autoplay="false">
+		<alert delay="2000">	
+			<on src="Loading please wait, music will start playing in a second"/>
+			<off src="Music stopped."/>
+		</alert>	
+		</music>	
+			
+		<copyrights src="Copyright (C) 2009, Owner of Webpage"/>
+		
+		<other>
+			<arrows state="enabled"/>
+		</other>		
+	</setup>
+	
+	<flipbook width="700" height="500" proportion="0.7" boarder="5" middleboarder="0.5" boardercolor="0x000000" boarderalpha="1" pdf="http://www.mpcreation.pl/flashden/flipbook/pdf_version.pdf" title="Features Book" load="3" bitmapsmoothing="true">
+		<alert>
+			<loading src="Next page is loading please wait"/>
+		</alert>
+		<shadows>
+			<inner src="1"/>
+			<curveglow src="1"/>
+			<pageshadow src="1"/>
+			<innerpageshadow src="1"/>
+		</shadows>	
+		<page src="pages/cover.jpg" />
+		<page src="pages/2_3.jpg" type="double"/>
+		<page src="pages/4_5.jpg" type="double"/>
+		<page src="pages/6_7.jpg" type="double"/>
+		<page src="pages/8.jpg"/>
+		<page src="pages/9.swf"/>
+		<page src="pages/10_11.jpg" type="double"/>
+		<page src="pages/bcover.jpg" />  
+	</flipbook>
+	
+	<flipbook width="0" height="0" proportion="0.7" boarder="10" middleboarder="0.5" boardercolor="0x000000" boarderalpha="1" pdf="http://www.mpcreation.pl/flashden/flipbook/pdf_version.pdf" title="Resizable Book" load="3" bitmapsmoothing="true">
+		<alert>
+			<loading src="Next page is loading please wait"/>
+		</alert>
+		<shadows>
+			<inner src="0"/>
+			<curveglow src="1"/>
+			<pageshadow src="1"/>
+			<innerpageshadow src="1"/>
+		</shadows>
+		<page src="pages/cover_album.jpg" />
+		<page src="pages/01.jpg" type="double"/>
+		<page src="pages/02.jpg" type="double"/>
+		<page src="pages/03.jpg" type="double"/>
+		<page src="pages/04.jpg" type="double"/>
+		<page src="pages/05.jpg" type="double"/>
+		<page src="pages/06.jpg" type="double"/>
+		<page src="pages/07.jpg" type="double"/>		
+		<page src="pages/bcover_album.jpg" />
+	</flipbook>
+</data>

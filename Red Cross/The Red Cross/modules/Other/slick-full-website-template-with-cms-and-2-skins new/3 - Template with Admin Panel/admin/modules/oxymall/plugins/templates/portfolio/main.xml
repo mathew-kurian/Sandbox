@@ -1,0 +1,120 @@
+<!--S:Main-->
+<Portfolio>
+	<settings>
+		<portfolioIndex>
+			<thumbWidth>{SET_THUMBWIDTH}</thumbWidth>
+			<thumbHeight>{SET_THUMBHEIGHT}</thumbHeight>
+			<distanceBetweenThumbs>{SET_DISTANCEBETWEENTHUMBS}</distanceBetweenThumbs>
+			<thumbsOnSlider>{SET_THUMBSONSLIDER}</thumbsOnSlider>
+			<scrollingBlurX>{SET_SCROLLINGBLURX}</scrollingBlurX>
+			<fadeInAnimationTime>{SET_FADEINANIMATIONTIME}</fadeInAnimationTime>
+			<maxTextWidth>{SET_MAXTEXTWIDTH}</maxTextWidth>
+		</portfolioIndex>
+	
+		<projectsListing>
+			<thumbWidthProjectTypeListing>{SET_THUMBWIDTHPROJECTTYPELISTING}</thumbWidthProjectTypeListing>
+			<thumbHeightProjectTypeListing>{SET_THUMBHEIGHTPROJECTTYPELISTING}</thumbHeightProjectTypeListing>
+			<horizontalSpace>{SET_HORIZONTALSPACE}</horizontalSpace>
+			<verticalSpace>{SET_VERTICALSPACE}</verticalSpace>
+			<projectsListingMaskHeight>{SET_PROJECTSLISTINGMASKHEIGHT}</projectsListingMaskHeight>
+			<projectsListingMaskWidth>{SET_PROJECTSLISTINGMASKWIDTH}</projectsListingMaskWidth>
+			<projectsListingTextWidth>{SET_PROJECTSLISTINGTEXTWIDTH}</projectsListingTextWidth>
+			<backXPos>{SET_BACKXPOS}</backXPos>
+		</projectsListing>
+		
+		<projectDetails>
+			<thumbWidthProjectDetails>{SET_THUMBWIDTHPROJECTDETAILS}</thumbWidthProjectDetails>
+			<thumbHeightProjectDetails>{SET_THUMBHEIGHTPROJECTDETAILS}</thumbHeightProjectDetails>
+		</projectDetails>
+		
+		<popup>
+			<popupBlurXAmount>{SET_POPUPBLURXAMOUNT}</popupBlurXAmount>
+			<popupBlurYAmount>{SET_POPUPBLURYAMOUNT}</popupBlurYAmount>
+			<popupAnimationTime>{SET_POPUPANIMATIONTIME}</popupAnimationTime>
+			<popupAnimationType>{SET_POPUPANIMATIONTYPE}</popupAnimationType>
+		</popup>
+		
+		<general>
+			<blurXAmount>{SET_BLURXAMOUNT}</blurXAmount>
+			<blurYAmount>{SET_BLURYAMOUNT}</blurYAmount>
+			<animationType>{SET_ANIMATIONTYPE}</animationType>
+			<animationTime>{SET_ANIMATIONTIME}</animationTime>
+		</general>
+	</settings>
+
+	<content title="{MOD_TITLE}" urlTitle="{MOD_URLTITLE}" url="/{MOD_URL}">
+		<![CDATA[{HEADER}]]>
+	</content>
+
+	<portfolio>
+		{ITEMS}
+	</portfolio>
+</Portfolio>
+<!--E:Main-->
+
+<!--S:CatsGroup-->	
+		{DATA}
+<!--E:CatsGroup-->
+
+<!--S:CatsGroupEmpty-->
+
+<!--E:CatsGroupEmpty-->
+
+<!--S:CatsElement-->
+			<projectCategory src="../../portfolio/cat_{CAT_ID}.jpg" title="{CAT_TITLE}" urlTitle="{CAT_URLTITLE}" url="/{CAT_URL}-{CAT_ID}">
+				<content title="{CAT_CONTENT_TITLE}">
+					<description><![CDATA[{CAT_DESCRIPTION}]]></description>
+					{PROJECTS}
+				</content>
+			</projectCategory>
+<!--E:CatsElement-->
+
+<!--S:CatsEmpty-->
+
+<!--E:CatsEmpty-->
+
+<!--S:ProjectsGroup-->
+					<projects>
+						{DATA}
+					</projects>
+<!--E:ProjectsGroup-->
+
+<!--S:ProjectsElement-->
+						<item src="../../portfolio/project_{PROJECT_ID}.jpg" title="{PROJECT_TITLE}"  urlTitle="{PROJECT_URL_TITLE}" url="/{PROJECT_URL}-{PROJECT_ID}">
+							<description><![CDATA[{PROJECT_DESCRIPTION}]]></description>
+
+							<projectDetails title="{PROJECT_DETAILS_TITLE}">
+								{ITEMS}
+							</projectDetails>
+						</item>
+<!--E:ProjectsElement-->
+
+<!--S:ProjectsEmpty-->
+
+<!--E:ProjectsEmpty-->
+
+<!--S:ItemsGroup-->
+		{DATA}
+<!--E:ItemsGroup-->
+
+<!--S:ItemsGroupEmpty-->
+
+<!--E:ItemsGroupEmpty-->
+
+<!--S:ItemsElement-->
+								<item src="../../portfolio/tn_img_{ITEM_ID}.jpg" title="{ITEM_TITLE}"  urlTitle="{ITEM_URLTITLE}" url="/{ITEM_URL}-{ITEM_ID}">
+									<popup>
+										<image 
+											src="../../portfolio/{SOURCE}" 
+											pan="{ITEM_PAN}" 
+											maxWidth="{ITEM_PAN_MAX_WIDTH}" 
+											maxHeight="{ITEM_PAN_MAX_HEIGHT}"
+										/>
+										<description><![CDATA[{ITEM_DESCRIPTION}]]></description>
+									</popup>
+								</item>
+<!--E:ItemsElement-->
+
+<!--S:ItemsEmpty-->
+
+<!--E:ItemsEmpty-->

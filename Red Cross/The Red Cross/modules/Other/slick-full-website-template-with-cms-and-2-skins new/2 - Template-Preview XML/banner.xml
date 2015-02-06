@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bannerRotator>
+	
+	
+	<settings>
+		
+		<totalWidth>741</totalWidth>
+		<totalHeight>367</totalHeight>
+
+		<blurX>20</blurX>
+		<blurY>0</blurY>
+
+		<blurQuality>2</blurQuality>
+		
+		<slideAnimationTime>0.5</slideAnimationTime>
+		<slideAnimationType>easeoutsine</slideAnimationType>
+		
+		<descriptionBlurX>10</descriptionBlurX>
+		<descriptionBlurY>10</descriptionBlurY>
+		<descriptionBlurQuality>2</descriptionBlurQuality>
+
+		
+	</settings>
+	
+	
+	<content>
+		
+		<slide src="images/banners/1.jpg" url="http://www.google.com" target="_blank" stay="3">
+			<![CDATA[<font color="#ffffff" size="24">Advanced XML Banner Rotator AS2</font><br />Supports tile and subtitle or any other kind of description with html formatting - size, color, bold etc.]]>
+		</slide>
+
+		<slide src="images/banners/8.swf" url="http://www.google.com" target="_blank" stay="3">
+			<![CDATA[<font color='#FFFFFF' size='24'>Rotator supports .SWF animated files as well</font><br>As you can see in this example animated flash files are supported and the blur effect is maintained for a very cool look. You can also notice the description can be any size, the graphics will just adjust. ]]>
+		</slide>
+
+		<slide src="images/banners/2.jpg" url="http://www.google.com" target="_blank" stay="3">
+			<![CDATA[<font color="#ffffff" size="24">Mouseover pausing feature</font><br />
+When the mouse is over the rotator, it will pause auto-play as shown by the icon on the top left corner]]>
+		</slide>
+
+		<slide src="images/banners/3.jpg" url="http://www.google.com" target="_blank" stay="3">
+			<![CDATA[<p><font color="#00ccff" size="24">This is a html colored title set in the xml</font><br />You can also use <b>bold</b>, <u>underline</u> or any other <font color="#ffc000" size="14"><b>color</b></font> or <b><font color="#ffffff" size="18">size</font></b>, you have total control.</p>]]>
+		</slide>
+
+		<slide src="images/banners/4.jpg" url="http://www.google.com" target="_blank" stay="3">
+
+			<![CDATA[<font color="#ffffff" size="24">Supports independent autoplay timer for each item</font><br>This way you can control how much you can keep each item on screen depending on it's importance.]]>
+		</slide>
+
+		<slide src="images/banners/5.jpg" url="http://www.google.com" target="_blank" stay="3">
+			<![CDATA[<font color="#ffffff" size="24">Control the target from XML as well</font><br />Each link can be opened in a different target, for example _self or _blank, it's always your call.]]>
+		</slide>
+
+		<slide src="images/banners/6.jpg" url="http://www.google.com" target="_blank" stay="3">
+			<![CDATA[<font color="#ffffff" size="24">Full control over blur effects and animations in XML</font><br />Customize the size, effects and the animation time and type in just seconds.]]>
+		</slide>
+
+		<slide src="images/banners/7.jpg" url="http://www.google.com" target="_blank" stay="3">
+			<![CDATA[<font color="#ffffff" size="24">Virtually unlimited items supported</font><br />However just make sure the buttons fit inside the display area so it looks neat.]]>
+		</slide>
+
+	</content>
+
+</bannerRotator>

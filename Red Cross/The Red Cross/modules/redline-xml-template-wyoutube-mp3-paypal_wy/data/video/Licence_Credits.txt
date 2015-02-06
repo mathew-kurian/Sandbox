@@ -1,0 +1,17 @@
+License: Creative Commons - Attribution (CC-BY)
+http://creativecommons.org/licenses/by/2.0/deed.en
+
+file: 2532085743_700.flv
+credits: striatic
+license: CC-BY
+url: http://flickr.com/photos/striatic/2532085743/in/set-72157605301776725/
+
+file: 2539802395_700.flv
+credits: striatic
+license: CC-BY
+url: http://flickr.com/photos/striatic/2539802395/in/set-72157605301776725/
+
+file: 2802713047_700.flv
+credits: striatic
+license: CC-BY
+url: http://flickr.com/photos/striatic/2802713047/in/set-72157605301770509/

@@ -1,0 +1,47 @@
+<form alternance="true">
+	<title>Users</title>
+	<border>true</border>
+	
+	<fields>
+		<_count header="No" suffix="." width="30" align="center" />
+		<user_first_name header="First Name" />
+		<user_last_name header="Last Name" />
+		<user_login header="Login" />
+		<user_email header="Email" />
+
+		<user_level header="Level" type="relation" width="60" align="center">
+			<options>
+				<option name="0">full</option>
+				<option name="1">limited</option>
+			</options>
+		</user_level>
+
+		<button_delete type="button" width="20" align="center" onclick="" button="/small/delete" protected="user_protect_delete">
+			<location>{SELF.URI.DELETE}</location>
+		</button_delete>
+
+		<button_details type="button" width="20" align="center" onclick="" button="/small/edit" protected="user_protect_edit">
+			<location>{SELF.URI.DETAILS}</location>
+		</button_details>
+
+	</fields>
+
+	<header>
+		<titles>true</titles>
+		<buttons>
+			<add onclick="" button="addnew" >
+				<location>{SELF.URI.ADD}&returnurl={CURRENT_PAGE}</location>
+			</add>
+		</buttons>
+	</header>
+
+	<vars>
+		<top_title import="$GLOBALS['_MODULES']['auth']->_CONF['conf']['levels'][(int)($_GET['user_level'])]" type="eval" />
+		<user_level import="(int)$_GET[user_level]" type="eval" />
+	</vars>
+
+ 
+
+	<items>50</items>
+
+</form>

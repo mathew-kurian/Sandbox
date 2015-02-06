@@ -1,0 +1,37 @@
+﻿Multiple Upload
+
+.:  Supported multiple files to be upload at the same time.
+.:  Allow user to select files multiple time (each time can select multiple files)
+.:  Allow type-filter (allows only some kind of files to be upload)
+.:  Supported file size limiting
+.:  Check the terms & conditions agreement before activate the uploading
+.:  Supported remove file while uploading
+.:  Checking for added files (one file can be on the list one time, even if you select it again)
+.:  Supported swf-protect : can only use on your host(s)
+.:  Supported external variable : multipleUpload.swf?mPhp=[filePhp]
+
+Usage:
+
+1. How to change the folder that files uploaded will be in ?
+----> Open uploadfiles.php, go to line 2, and change the "upload/" to the folder name you want     ( $uploaddir = $_SERVER['DOCUMENT_ROOT']."upload/";)
+
+2. How to set the file filter to allow just some kind of files ?
+---->  Open up multiUpload.fla, select keyframe 1, press F9 to open up AS panel
+---->  at line 14, remove the line comment (//)    MU.fileTypeDes = [type description for the allowing file types];
+---->  at line 15, remove the line comment (//)    MU.fileTypes = "*.jpg; *.png; *.gif";//adding your extension as the example
+
+3. How to add a file-size limit to all files to be upload :
+---->   Open up multiUpload.fla, select keyframe 1, press F9 to open up AS panel
+---->   at line 13, remove the line comment (//)    MU.maxFileSize = [file size in bytes];//0 = unlimited (default)
+
+4.  How to use on your server ?
+----> Host the files : MultipleUpload.swf and the file uploadfiles.php into your server at the same place
+----> Create a new folder for files to be upload into (the folder name you used in 1.) (default : upload)
+
+6. How to change the php file path? there are 2 ways
+----> Through HTML : use multipleUpload.swf?mPhp=[filePhp]
+----> Through FLASH: open up multiUpload.fla, select keyframe 1, press F9 to open up AS panel, go to line 9 and change the php path.
+
+7. How to change the link to  terms & conditions ?
+---> Open up multiUpload.fla, select the textfield "terms & conditions"
+---> Press Ctrl-F3 to open up Properties panel, go to URL Link textbox, change "http://flashden.net/user/kudoshinichi/portfolio" into your terms & conditions page

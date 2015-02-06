@@ -1,0 +1,52 @@
+8
+
+dir
+535
+http://papervision3d.googlecode.com/svn/trunk/branches/GreatWhite/src/com/blitzagency/xray/logger/util
+http://papervision3d.googlecode.com/svn
+
+
+
+2007-12-06T16:55:17.371458Z
+352
+r.hauwert@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+071aa1e1-232a-0410-a790-59abb25ab4c3
+
+PropertyTools.as
+file
+
+
+
+
+2007-12-11T06:12:45.799121Z
+e0d47f9d116d631c5082a7a95dc27518
+2007-12-06T16:55:17.371458Z
+352
+r.hauwert@gmail.com
+
+ObjectTools.as
+file
+
+
+
+
+2007-12-11T06:12:45.804980Z
+9d3899018411718bd225fedc2ed53d1a
+2007-12-06T16:55:17.371458Z
+352
+r.hauwert@gmail.com
+

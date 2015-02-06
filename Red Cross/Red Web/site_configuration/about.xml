@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	<topMargin>140</topMargin>
+	<bottomMargin>50</bottomMargin>
+	<!--
+		alignX Options 
+		The alignX is the distance from the left your page will start
+		Static X    				  eg.  <alignX>175</alignX>      		(this will make your content start 175 pixels from the left)
+		Left aligned X    	  eg.  <alignX>left</alignX>    		(this will make your content be left aligned)
+		Center aligned X      eg.  <alignX>center</alignX>  		(this will make your content be centered)
+		Right aligned X    	  eg.  <alignX>right</alignX>				(this will make your content be right aligned)
+	-->
+	<alignX>center</alignX><!--Horizontal Alignment-->
+	<!--
+		alignY Options 
+		The alignY is the distance from the top your page will start
+		Static Y    				  eg.  <alignY>175</alignY>      		(this will make your content start 175 pixels from the top)
+		Top aligned Y    	  	eg.  <alignY>top</alignY>     		(this will make your content be aligned vertically under the topMargin)
+		Bottom aligned Y      eg.  <alignY>bottom<alignY>   		(this will make your content be aligned vertically and sit on the bottomMargin)
+		Center aligned Y    	eg.  <alignY>center<alignY>				(this will make your content be aligned vertically between the topMargin and bottomMargin)
+	-->
+	<alignY>center</alignY><!-- Vertical Alignment-->
+	
+	
+	<!--Set your content pages width / height / color and opacity here -->
+	<contentWidth>933</contentWidth>
+	<contentHeight>550</contentHeight>
+	<contentBgColor>0x0c0c0c</contentBgColor>
+	<contentBgOpacity>0.6</contentBgOpacity>
+	
+	<!-- Select the type of scrolling to use -->
+	<useHoverScroll>true</useHoverScroll>
+	<useManualScroll>false</useManualScroll>
+	
+	
+	<!-- Skin Your Scroll Bar Features  *these settings apply if useManualScroll is true and useHoverScroll is false-->
+	<scrollBarWidth>15</scrollBarWidth>
+	<scrollBarHeight>200</scrollBarHeight>
+	<scrollBaseColor>0x000000</scrollBaseColor>
+	<addTiledPatternToScrollBase>true</addTiledPatternToScrollBase>
+	<patternUrl>site_images/patterns/edgePattern.png</patternUrl>
+	<scrollBaseOpacity>0.5</scrollBaseOpacity>
+	<scrollerColor>0xC20800</scrollerColor>
+	<scrollerOpacity>1</scrollerOpacity>
+	<!-- End of Scroll Bar Features -->
+	
+	
+	<!-- Used for pop up content -->
+	<dimWallPaperColor>0xffffff</dimWallPaperColor>
+	<dimWallPaperAlpha>.85</dimWallPaperAlpha>
+	<!-- set the size of the font used in the image preloader -->
+	<preloaderTextSize>140</preloaderTextSize>
+	<!-- set the color of the font used in the image preloader -->
+	<preloaderTextColor>0xC20800</preloaderTextColor>
+	<!-- set the opacity of the font used in the image preloader -->
+	<preloaderTextOpacity>1</preloaderTextOpacity>
+
+
+
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>true</displayHtmlArticles>
+	<displaySlideShow>false</displaySlideShow>
+	<displaySWF>false</displaySWF>
+	
+	
+	<image>
+		<x>39</x>
+		<y>40</y>
+		<imageURL>site_images/pages/about/about_20_2.png</imageURL>
+	</image>
+	<image>
+		<x>450</x>
+		<y>58</y>
+		<imageURL>site_images/pages/about/help.jpg</imageURL>
+	</image>
+	<image>
+		<x>33</x>
+		<y>95</y>
+		<imageURL>site_images/pages/about/about_43_2.png</imageURL>
+	</image>
+	<article>
+		<x>40</x>
+		<y>191</y>
+		<width>325</width>
+		<articleText><![CDATA[<p class="leading3">You have just arrived at the SLHS Red Cross Association website. This is a club designed for people who are seeking a way to be a part of the international Red Cross community. In other words, we help make life-long and dedicated Red Cross members. The club is a school-based service group that works directly with the Red Cross and we need determined students who are capable of impacting their community and even the world.
+We will be in partnership with the local Red Cross GHAC, Sponsor a Child, Houston Children’s Charity, and many more (we are still building the foundations, so give us some time to get the necessary approvals and make these decisions final).
+Hopefully, you want to be a part of this. And like we have said multiple times, “We can’t do it without you.”
+</p>]]></articleText>
+	</article>	
+
+</xmlObject>

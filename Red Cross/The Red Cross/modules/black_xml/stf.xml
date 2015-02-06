@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<contactData buttonColor = "0xffff00">
+
+<lgimage path = "images/sendfriend/disco_ball.jpg"><![CDATA[<font color = "#ffff00">Send to a Friend with php</font><br>Simple send to a friend form allows a user to forward your website url to there friends via a simple php script. No editing is required in Flash, just open the php file in Dreamweaver and replace with your domain, email and thank you message. Upload your Flash and the php file and your good to go. Just make sure your webserver supports php.]]></lgimage>
+
+</contactData>

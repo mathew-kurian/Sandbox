@@ -1,0 +1,74 @@
+<form 
+	title="{TOP_TITLE}"
+	alternance="true"
+	action="{SELF.URI.STORE}"
+	encoding="multipart/form-data"
+	formtag="true"
+	border="true"
+	redirect="{PHP}?sub=accounts"
+	width="100%"
+	>
+	<name>edit</name>
+
+	<buttons>		
+		<set>
+			<header>true</header>
+		</set>
+
+		<button_back onclick="" button="return">
+			<location>{PRIVATE.FORM_PREVIOUS_PAGE}</location>
+		</button_back>
+
+		<button_edit onclick="" button="edit">
+			<location>{SELF.URI.EDIT}</location>
+		</button_edit>
+
+		<button_save button="saveall">
+			<location>javascript:document.forms[0].submit();</location>
+		</button_save>
+
+	</buttons>
+
+
+	<vars>
+		<top_title import="$_USER[user_id] == $_GET[user_id] ? 'Change My Profile' : ('{PRIVATE.FORM_ACTION_TITLE} ' . $GLOBALS['_MODULES']['auth']->_CONF['conf']['levels'][(int)($_GET['user_level'])])" type="eval" />
+	</vars>
+
+	<fields>
+		<user_id type="hidden"/>
+		<user_log_create type="hidden" default="time();" action="eval"/>
+
+		<user_first_name type="textbox" required="true" size="20:200" validate="A:1:200">
+			<title>First/Last Name</title>
+			<referers>
+				<referer name="user_last_name">user_last_name</referer>
+			</referers>
+		</user_first_name>
+
+		<user_last_name type="textbox" size="20:200" referer="user_first_name" r_equired="true" validate="A:1:200"/>
+
+		<user_login type="textbox" size="20" unique="true" required="true" validate="A:2:200" protected="user_protect_edit" showprotected="true">			
+			<title>Login</title>			
+			<description>Enter the login name this administrator will use to login in the admin panel</description>
+		</user_login>
+
+		<user_password type="password" size="20" forcevalue="" validate="A:2:100"> 
+			<title>Password</title>
+		</user_password>
+
+		<user_password_confirm type="password" size="20" forcevalue="" validate="A:2:100"> 
+			<title>Confirm</title>
+		</user_password_confirm>
+
+		<user_email type="textbox" size="30" unique="true" required="true" validate="E:2:100"> 
+			<title>Email</title>
+			<description>Enter the email address where the user will get all the notifications sents from the admin panel and from the site.</description>
+		</user_email>
+
+		<subtitle title="Permissions" type="subtitle" restricted="eval:$GLOBALS[_USER][user_level];"/>
+		<user_level type="checkbox" checked="1" label="limited user|administrator" restricted="eval:$GLOBALS[_USER][user_level];"/>
+		<user_perm type="checklist" title="Admin Modules" restricted="eval:$GLOBALS[_USER][user_level];">
+			<relation table="core:user_modules" id="mod_id" text="mod_name" order="mod_order" />
+		</user_perm>
+	</fields>
+</form>

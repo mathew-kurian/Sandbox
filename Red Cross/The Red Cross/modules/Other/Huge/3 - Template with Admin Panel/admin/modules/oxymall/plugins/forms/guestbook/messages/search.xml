@@ -1,0 +1,57 @@
+<form>
+	<title>{TITLE}	Messages</title>
+	<action>{SELF.FILE}</action>
+	<name>edit</name>
+	<width>100%</width>
+	<method>get</method>
+
+	<formtag>true</formtag>
+	<border>true</border>
+	<alternance>true</alternance>
+	
+	
+	<buttons>		
+		<set>
+			<header>true</header>
+		</set>
+
+	</buttons>
+
+	<redirect>index.php?sub=units</redirect>
+
+
+	<tabs>
+		<t width="100" title="Module Settings" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.user&action=details&mod_id={MODULE_ID}" restricted="eval:$GLOBALS[_USER]['user_level'];"/>
+		<t0 active="true" width="80" title="Messages" link="index.php?mod=oxymall&sub=oxymall.plugin.guestbook.landing&module_id={MODULE_ID}&returnurl={SELF.PREVIOUS_ENC}" />
+		<t1 width="100" title="Smileys" link="index.php?mod=oxymall&sub=oxymall.plugin.guestbook.images&module_id={MODULE_ID}&returnurl={SELF.PREVIOUS_ENC}" />
+		<t_video width="80" title="Video Tutorial" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.help&module_id={MODULE_ID}" restricted="eval:$GLOBALS['no_tutorials'];"/>
+	</tabs>
+	<fields>
+
+		<mod type="hidden" default="$_GET['mod']" action="eval"/>
+		<sub type="hidden" default="$_GET['sub']" action="eval"/>
+		<module_id type="hidden" default="$_GET['module_id']" action="eval"/>
+		<advanced type="hidden" default="0" />
+	</fields>
+
+	<search>
+			<fields>
+
+				<item_status type="radiolist" title="Show" newline="false">
+					<options>
+						<option name="">all</option>
+						<option name="1">pending</option>
+						<option name="2">approved</option>
+						<option name="3">deleted</option>
+					</options>
+				</item_status>
+
+				<search type="button" button="search" location="javascript:document.forms[0].submit();" />
+			</fields>
+
+			<sql_fields>
+				<field name="item_cat">=</field>			
+			</sql_fields>
+
+	</search>
+</form>

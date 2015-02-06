@@ -1,0 +1,70 @@
+/* MiniFrontpage CSS*/
+
+.minifp td { padding-right:5px;
+}
+.minifp td p {
+	margin-top:3px;
+	
+}
+
+.minifp td img {
+	border:none;
+	margin-left:0.5em;
+	margin-right:0.5em;
+}
+
+.minifp-anotherlinks {
+	font-weight:bold;
+	font-size:100%;
+	display:block;
+	padding:5px;
+	margin-bottom:5px;
+	background: url(../images/bgheader.gif) repeat-x bottom #F5F5F5;
+
+
+}
+
+.minifp ul li {
+	font-size:94%;
+	padding-left:0;
+}
+
+.minifp ul li a {
+}
+
+.minifp-introtitle a, .minifp-introtitle a:visited, .minifp-introtitle a:active, .minifp-introtitle a:link {
+	font-size:120%;
+	font-weight:bold;
+	color:#333;
+	text-transform:uppercase;
+}
+
+.minifp-introtitle a:hover {
+	text-decoration:underline;
+}
+
+.minifp-date {
+	color:#666;
+	font-weight:700;
+	font-style:normal;
+	font-size:90%;
+}
+.minifp-full-link-wrp {
+	text-align:right;}
+a.minifp-full-link, a:visited.minifp-full-link, a:active.minifp-full-link, a:link.minifp-full-link {
+	line-height:24px;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:90%;
+	background:#333333;
+	color:#FFFFFF;
+	padding:2px 5px;
+	letter-spacing:0px;
+}
+
+a:hover.minifp-full-link {
+	text-decoration: none;
+	background:#FF0000;
+}
+.minifp-seperator {
+	line-height:1px;}

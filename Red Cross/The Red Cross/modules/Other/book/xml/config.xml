@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<site title="Modify by Rabotun" description="доработано" img="img/r12.jpg">
+	<about title="About Us">
+		<section title="WHO ARE WE" img="img/r04.jpg" description="Vestibulum vehicula, mauris nec egestas semper">
+			<img src='img/content.jpg' align='right' hspace='10px'  vspace='5px'/>
+			<p>проба Lorem ipsum dolor sit amet, demo adipiscing elit. Donec massa. Cras ut dolor ac urna imperdiet molestie. demo convallis turpis ac sem. Donec commodo nibh quis nunc. Aliquam erat volutpat. Suspendisse potenti. demo quis purus. Vivamus sagittis pharetra tortor. Proin vestibulum sapien eu risus. Duis vehicula turpis ut ipsum. In suscipit. Integer imperdiet. Praesent a ipsum. Quisque ullamcorper, dolor sit amet tempus blandit, mauris lacus scelerisque elit, non consequat diam mauris non libero. Vestibulum tincidunt erat et risus cursus imperdiet. Morbi vitae sem.</p><br/>
+			<p>Nulla in massa. Sed quis diam. Vestibulum vehicula, mauris nec egestas semper, mi ipsum laoreet nisl, eu pretium ante tortor congue augue. Fusce vel augue ut magna cursus laoreet. Etiam velit nunc, gravida et, scelerisque a, ornare vel, ipsum. Aenean luctus facilisis metus. Curabitur sed odio. demo habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ac urna. Etiam ut augue. Nulla facilisi. demo congue tellus vel diam. Sed demo metus quis neque. Integer tincidunt feugiat dui.</p>
+			<br/>
+			<h1>0.1 WHO ARE WE</h1>
+			<br/>
+				<p>Lorem ipsum dolor sit amet, demo adipiscing elit. Donec massa. Cras ut dolor ac urna imperdiet molestie. demo convallis turpis ac sem. Donec commodo nibh quis nunc. Aliquam erat volutpat. Suspendisse potenti. demo quis purus. Vivamus sagittis pharetra tortor. Proin vestibulum sapien eu risus. Duis vehicula turpis ut ipsum. In suscipit. Integer imperdiet. Praesent a ipsum. Quisque ullamcorper, dolor sit amet tempus blandit, mauris lacus scelerisque elit, non consequat diam mauris non libero. Vestibulum tincidunt erat et risus cursus imperdiet. Morbi vitae sem.</p><br/>
+			<p>Nulla in massa. Sed quis diam. Vestibulum vehicula, mauris nec egestas semper, mi ipsum laoreet nisl, eu pretium ante tortor congue augue. Fusce vel augue ut magna cursus laoreet. Etiam velit nunc, gravida et, scelerisque a, ornare vel, ipsum. Aenean luctus facilisis metus. Curabitur sed odio. demo habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ac urna. Etiam ut augue. Nulla facilisi. demo congue tellus vel diam. Sed demo metus quis neque. Integer tincidunt feugiat dui.</p>
+		<br/>
+		</section>
+		<section title="COMPANY" img="img/r05.jpg" description="Vestibulum vehicula, mauris nec egestas semper">
+		<h1>0.2 THE COMPANY</h1>
+			<br/>
+			<p>Nulla in massa. Sed quis diam. Vestibulum vehicula, mauris nec egestas semper, mi ipsum laoreet nisl, eu pretium ante tortor congue augue. Fusce vel augue ut magna cursus laoreet. Etiam velit nunc, gravida et, scelerisque a, ornare vel, ipsum. Aenean luctus facilisis metus. Curabitur sed odio. demo habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ac urna. Etiam ut augue. Nulla facilisi. demo congue tellus vel diam. Sed demo metus quis neque. Integer tincidunt feugiat dui.</p>
+		</section>
+		<section title="LINKS RELATED" img="img/r06.jpg" description="Vestibulum vehicula, mauris nec egestas semper">
+			<br/>
+			<h2>LINKS ABOUT THE ARTIST:</h2>
+			<br/>
+			<li><a href="http://www.demo.com" target="_blank">dynamic factory</a>  Sed quis diam.</li>
+			<li><a href="http://www.demo.com" target="_blank">demo</a> dolor sit amet.</li>
+			<li><a href="http://www.demo.com" target="_blank">demo</a> Sed quis diam.</li>
+			<li><a href="http://www.dynamicfactory.com" target="_blank">Dynamic factory</a>  Sed quis diam.</li>
+			<li><a href="http://www.demo.com" target="_blank">demo</a> dolor sit amet.</li>
+			<li><a href="http://www.dynamicfactory.com" target="_blank">Dynamic factory</a>  Sed quis diam.</li>
+			<li><a href="http://www.demo.com" target="_blank">demo</a> dolor sit amet.</li>
+			<li><a href="http://www.demo.com" target="_blank">demo</a> Sed quis diam.</li>
+			<li><a href="http://www.dynamicfactory.com" target="_blank">Dynamic factory</a>  Sed quis diam.</li>
+			<li><a href="http://www.demo.com" target="_blank">demo</a> dolor sit amet.</li>
+			<li><a href="http://www.demo.com" target="_blank">demo</a> Sed quis diam.</li>
+			<li><a href="http://www.demo.com" target="_blank">dynamic factory</a>  Sed quis diam.</li>
+			<li><a href="http://www.demo.com" target="_blank">demo</a> dolor sit amet.</li>
+			<li><a href="http://www.demo.com" target="_blank">demo</a> Sed quis diam.</li>
+			<li><a href="http://www.dynamicfactory.com" target="_blank">Dynamic factory</a>  Sed quis diam.</li>
+			<li><a href="http://www.demo.com" target="_blank">demo</a> dolor sit amet.</li>
+			<li><a href="http://www.dynamicfactory.com" target="_blank">Dynamic factory</a>  Sed quis diam.</li>
+			<li><a href="http://www.demo.com" target="_blank">demo</a> dolor sit amet.</li>
+			<li><a href="http://www.demo.com" target="_blank">demo</a> Sed quis diam.</li>
+			<li><a href="http://www.dynamicfactory.com" target="_blank">Dynamic factory</a>  Sed quis diam.</li>
+			<li><a href="http://www.demo.com" target="_blank">demo</a> dolor sit amet.</li>
+			<li><a href="http://www.demo.com" target="_blank">demo</a> Sed quis diam.</li>
+		</section>
+	</about>
+	<news title="News">
+
+		<section title="YEAR 2007" img="img/r08.jpg" description="Vestibulum vehicula, mauris nec egestas semper">
+			<news>
+				<h1><date>20/5/2007</date> Lorem ipsum dolor sit amet.</h1>
+				<br/>
+				<p>Lorem ipsum dolor sit amet, demo adipiscing elit. <a href="http://www.demo.com" >this is a link</a>. Cras ut dolor ac urna imperdiet molestie. demo convallis turpis ac sem. Donec commodo nibh quis nunc. Aliquam erat volutpat. Suspendisse potenti. demo quis purus. Vivamus sagittis pharetra tortor.</p>
+				<br/><br/>
+			</news>
+			<news>
+				<h1><date>20/5/2007</date> Lorem ipsum dolor sit amet, demo adipiscing elit.</h1>
+				<br/>
+				<img src='img/content.jpg' align='right' hspace='10px'  vspace='5px'/>
+				<p>Lorem ipsum dolor sit amet, demo adipiscing elit. Donec massa. Cras ut dolor ac urna imperdiet molestie. demo convallis turpis ac sem. Donec commodo nibh quis nunc. Aliquam erat volutpat. Suspendisse potenti. demo quis purus. Vivamus sagittis pharetra tortor. Proin vestibulum sapien eu risus. Duis vehicula turpis ut ipsum. In suscipit. Integer imperdiet. Praesent a ipsum. Quisque ullamcorper, dolor sit amet tempus blandit, mauris lacus scelerisque elit, non consequat diam mauris non libero. Vestibulum tincidunt erat et risus cursus imperdiet. Morbi vitae sem.</p><br/>
+				<p>Nulla in massa. Sed quis diam. Vestibulum vehicula, mauris nec egestas semper, mi ipsum laoreet nisl, eu pretium ante tortor congue augue. Fusce vel augue ut magna cursus laoreet. Etiam velit nunc, gravida et, scelerisque a, ornare vel, ipsum. Aenean luctus facilisis metus. Curabitur sed odio. demo habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ac urna. Etiam ut augue. Nulla facilisi. demo congue tellus vel diam. Sed demo metus quis neque. Integer tincidunt feugiat dui.</p>
+				<br/><br/>
+			</news>
+			<news>
+				<h1><date>20/5/2007</date> Lorem ipsum dolor sit amet.</h1>
+				<br/>
+				<p>Lorem ipsum dolor sit amet, demo adipiscing elit. <a href="http://www.demo.com" >this is a link</a>. Cras ut dolor ac urna imperdiet molestie. demo convallis turpis ac sem. Donec commodo nibh quis nunc. Aliquam erat volutpat. Suspendisse potenti. demo quis purus. Vivamus sagittis pharetra tortor.</p>
+				<br/><br/>
+			</news>
+			<news>
+				<h1><date>20/5/2007</date> Lorem ipsum dolor sit amet.</h1>
+				<br/>
+				<p>Lorem ipsum dolor sit amet, demo adipiscing elit. <a href="http://www.demo.com" >this is a link</a>. Cras ut dolor ac urna imperdiet molestie. demo convallis turpis ac sem. Donec commodo nibh quis nunc. Aliquam erat volutpat. Suspendisse potenti. demo quis purus. Vivamus sagittis pharetra tortor.</p>
+				<br/><br/>
+			</news>
+			<news>
+				<h1><date>20/8/2007</date> Lorem ipsum dolor sit amet, demo adipiscing elit.</h1>
+				<br/>
+				<img src='img/content.jpg' align='right' hspace='10px'  vspace='5px'/>
+				<p>Lorem ipsum dolor sit amet, demo adipiscing elit. Donec massa. Cras ut dolor ac urna imperdiet molestie. demo convallis turpis ac sem. Donec commodo nibh quis nunc. Aliquam erat volutpat. Suspendisse potenti. demo quis purus. Vivamus sagittis pharetra tortor. Proin vestibulum sapien eu risus. Duis vehicula turpis ut ipsum. In suscipit. Integer imperdiet. Praesent a ipsum. Quisque ullamcorper, dolor sit amet tempus blandit, mauris lacus scelerisque elit, non consequat diam mauris non libero. Vestibulum tincidunt erat et risus cursus imperdiet. Morbi vitae sem.</p><br/>
+				<p>Nulla in massa. Sed quis diam. Vestibulum vehicula, mauris nec egestas semper, mi ipsum laoreet nisl, eu pretium ante tortor congue augue. Fusce vel augue ut magna cursus laoreet. Etiam velit nunc, gravida et, scelerisque a, ornare vel, ipsum. Aenean luctus facilisis metus. Curabitur sed odio. demo habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ac urna. Etiam ut augue. Nulla facilisi. demo congue tellus vel diam. Sed demo metus quis neque. Integer tincidunt feugiat dui.</p>
+				<br/><br/>
+			</news>
+			<news>
+				<h1><date>20/8/2007</date> Lorem ipsum dolor sit amet.</h1>
+				<br/>
+				<p>Lorem ipsum dolor sit amet, demo adipiscing elit. <a href="http://www.demo.com" >this is a link</a>. Cras ut dolor ac urna imperdiet molestie. demo convallis turpis ac sem. Donec commodo nibh quis nunc. Aliquam erat volutpat. Suspendisse potenti. demo quis purus. Vivamus sagittis pharetra tortor.</p>
+				<br/><br/>
+			</news>
+		</section>
+	</news>
+	<clients title="CLIENTS">
+		<section title="Industrial" img="img/r09.jpg" description="Vestibulum vehicula, mauris nec egestas semper">
+			<client img="logos/webby.gif" title="000" description="webby nulla in masa" date="4/5/2006" link="http://www.webby.com"/>
+			<client img="logos/ford.gif" title="001" description="ford corp. nulla in masa" date="2/5/2006" link="http://www.webby.com"/>
+			<client img="logos/imj.gif" title="002" description="imj ind. nulla in masa" date="14/4/2006" link="http://www.webby.com"/>
+			<client img="logos/kb.gif" title="003" description="kb tv. nulla in masa" date="10/4/2006" link="http://www.webby.com"/>
+			<client img="logos/nintendo.gif" title="004" description="nintendo corp. nulla in masa" date="5/4/2006" link="http://www.webby.com"/>
+			<client img="logos/oneill.gif" title="005" description="oneill nulla in masa" date="2/4/2006" link="http://www.webby.com"/>
+			<client img="logos/webby.gif" title="006" description="webby nulla in masa" date="4/5/2006" link="http://www.webby.com"/>
+			<client img="logos/ford.gif" title="007" description="ford corp. nulla in masa" date="2/5/2006" link="http://www.webby.com"/>
+			<client img="logos/imj.gif" title="008" description="imj ind. nulla in masa" date="14/4/2006" link="http://www.webby.com"/>
+			<client img="logos/kb.gif" title="009" description="kb tv. nulla in masa" date="10/4/2006" link="http://www.webby.com"/>
+			<client img="logos/nintendo.gif" title="010" description="nintendo corp. nulla in masa" date="5/4/2006" link="http://www.webby.com"/>
+			<client img="logos/oneill.gif" title="011" description="oneill nulla in masa" date="2/4/2006" link="http://www.webby.com"/>
+		</section>
+
+
+	</clients>
+	<portfolio title="PORTFOLIO">
+		<gallery title="Industrial">
+			<image title="Vestibulum vehicula" description="Nulla in massa. Sed quis diam. Vestibulum vehicula, mauris nec egestas semper, mi ipsum laoreet nisl, lorem ipsum dolor sit amet, demo adipiscing elit. Donec massa. Cras ut dolor ac urna imperdiet molestie. demo convallis turpis" img="r01.jpg" link="http://www.demo.com"/>
+			<image title="Nulla in massa" description="" img="r02.jpg" link="http://www.demo.com"/>
+			<image title="Cras ut dolor ac urna imperdiet molestie" description="" img="r03.jpg" link="http://www.demo.com"/>
+			<image title="Vestibulum vehicula" description="Lorem ipsum dolor sit amet, demo adipiscing elit. Donec massa. Cras ut dolor ac urna imperdiet molestie. demo convallis turpis" img="r01.jpg" link="http://www.demo.com"/>
+			<image title="Nulla in massa" description="" img="r02.jpg" link="http://www.demo.com"/>
+			<image title="Cras ut dolor ac urna imperdiet molestie" description="" img="r03.jpg" link="http://www.demo.com"/>
+			<image title="Vestibulum vehicula" description="Lorem ipsum dolor sit amet, demo adipiscing elit. Donec massa. Cras ut dolor ac urna imperdiet molestie. demo convallis turpis" img="r01.jpg" link="http://www.demo.com"/>
+			<image title="Nulla in massa" description="" img="r02.jpg" link="http://www.demo.com"/>
+			<image title="Cras ut dolor ac urna imperdiet molestie" description="" img="r03.jpg" link="http://www.demo.com"/>
+			<image title="Vestibulum vehicula" description="Lorem ipsum dolor sit amet, demo adipiscing elit. Donec massa. Cras ut dolor ac urna imperdiet molestie. demo convallis turpis" img="r01.jpg" link="http://www.demo.com"/>
+			<image title="Nulla in massa" description="" img="r02.jpg" link="http://www.demo.com"/>
+			<image title="Cras ut dolor ac urna imperdiet molestie" description="" img="r03.jpg" link="http://www.demo.com"/>
+			<image title="Vestibulum vehicula" description="Lorem ipsum dolor sit amet, demo adipiscing elit. Donec massa. Cras ut dolor ac urna imperdiet molestie. demo convallis turpis" img="r01.jpg" link="http://www.demo.com"/>
+			<image title="Nulla in massa" description="" img="r02.jpg" link="http://www.demo.com"/>
+			<image title="Cras ut dolor ac urna imperdiet molestie" description="" img="r03.jpg" link="http://www.demo.com"/>
+			<image title="Vestibulum vehicula" description="Lorem ipsum dolor sit amet, demo adipiscing elit. Donec massa. Cras ut dolor ac urna imperdiet molestie. demo convallis turpis" img="r01.jpg" link="http://www.demo.com"/>
+			<image title="Nulla in massa" description="" img="r02.jpg" link="http://www.demo.com"/>
+			<image title="Cras ut dolor ac urna imperdiet molestie" description="" img="r03.jpg" link="http://www.demo.com"/>
+		</gallery>
+		<gallery title="Fashion">
+			<image title="Vestibulum vehicula" description="Lorem ipsum dolor sit amet, demo adipiscing elit." img="r01.jpg" link="http://www.demo.com"/>
+			<image title="Nulla in massa" description="Seculorum (2005)" img="r02.jpg" link="http://www.demo.com"/>
+			<image title="Cras ut dolor ac urna imperdiet molestie" description="Altea (2005)" img="r03.jpg" link="http://www.demo.com"/>
+			<image title="Vestibulum vehicula" description="Lorem ipsum dolor sit amet, demo adipiscing elit." img="r01.jpg" link="http://www.demo.com"/>
+			<image title="Nulla in massa" description="Seculorum (2005)" img="r02.jpg" link="http://www.demo.com"/>
+			<image title="Cras ut dolor ac urna imperdiet molestie" description="Altea (2005)" img="r03.jpg" link="http://www.demo.com"/>
+			<image title="Vestibulum vehicula" description="Lorem ipsum dolor sit amet, demo adipiscing elit." img="r01.jpg" link="http://www.demo.com"/>
+			<image title="Nulla in massa" description="Seculorum (2005)" img="r02.jpg" link="http://www.demo.com"/>
+			<image title="Cras ut dolor ac urna imperdiet molestie" description="Altea (2005)" img="r03.jpg" link="http://www.demo.com"/>
+			<image title="Vestibulum vehicula" description="Lorem ipsum dolor sit amet, demo adipiscing elit." img="r01.jpg" link="http://www.demo.com"/>
+		</gallery>
+		<gallery title="Publicity">
+			<image title="Vestibulum vehicula" description="Lorem ipsum dolor. sit amet, demo adipiscing elit. Donec massa. Cras ut dolor ac urna imperdiet molestie. demo convallis turpis" img="r01.jpg" link="http://www.demo.com"/>
+			<image title="Nulla in massa" description="" img="r02.jpg" link="http://www.demo.com"/>
+			<image title="Cras ut dolor ac urna imperdiet molestie" description="" img="r03.jpg" link="http://www.demo.com"/>
+			<image title="Vestibulum vehicula" description="Lorem ipsum dolor sit amet, demo adipiscing elit. Donec massa. Cras ut dolor ac urna imperdiet molestie. demo convallis turpis" img="r01.jpg" link="http://www.demo.com"/>
+			<image title="Nulla in massa" description="" img="r02.jpg" link="http://www.demo.com"/>
+			<image title="Cras ut dolor ac urna imperdiet molestie" description="" img="r03.jpg" link="http://www.demo.com"/>
+			<image title="Vestibulum vehicula" description="Lorem ipsum dolor sit amet, demo adipiscing elit. Donec massa. Cras ut dolor ac urna imperdiet molestie. demo convallis turpis" img="r01.jpg" link="http://www.demo.com"/>
+			<image title="Nulla in massa" description="" img="r02.jpg" link="http://www.demo.com"/>
+			<image title="Cras ut dolor ac urna imperdiet molestie" description="" img="r03.jpg" link="http://www.demo.com"/>
+			<image title="Vestibulum vehicula" description="Lorem ipsum dolor sit amet, demo adipiscing elit. Donec massa. Cras ut dolor ac urna imperdiet molestie. demo convallis turpis" img="r01.jpg" link="http://www.demo.com"/>
+			</gallery>
+	</portfolio>
+	<contact title="CONTACT US" img="img/r11.jpg" description="Vestibulum vehicula, mauris nec egestas semper">
+		<p align="center">
+			<h2>Понравилось?</h2>
+			<h2>Заходи на www.rabotun.ru</h2>
+			<h2>rabotun.ru - flash, design, free...</h2>
+			<h2>T. 500 400 3000</h2>
+			<a href="http://www.rabotun.ru">www.rabotun.ru</a>
+		</p>
+	</contact>
+	<backgrounds>
+		<background img="bg01.jpg" bgImg="a2.jpg" bgType="pattern"/>
+		<background img="bg02.jpg" bgImg="bg02.gif" bgType="pattern"/>
+		<background img="bg03.jpg" bgImg="bg03.gif" bgType="pattern"/>
+		<background img="bg04.jpg" bgImg="bg04.gif" bgType="pattern"/>
+		<background img="bg05.jpg" bgImg="bg05.gif" bgType="pattern"/>
+		<background img="bg06.jpg" bgImg="bg06.gif" bgType="pattern"/>
+		<background img="bg01.jpg" bgImg="bg01.gif" bgType="pattern"/>
+		<background img="bg02.jpg" bgImg="bg02.gif" bgType="pattern"/>
+		<background img="bg03.jpg" bgImg="bg03.gif" bgType="pattern"/>
+		<background img="bg04.jpg" bgImg="bg04.gif" bgType="pattern"/>
+		<background img="bg05.jpg" bgImg="bg05.gif" bgType="pattern"/>
+		<background img="bg06.jpg" bgImg="bg06.gif" bgType="pattern"/>
+		<background img="bg01.jpg" bgImg="bg01.gif" bgType="pattern"/>
+		<background img="bg02.jpg" bgImg="bg02.gif" bgType="pattern"/>
+		<background img="bg03.jpg" bgImg="bg03.gif" bgType="pattern"/>
+		<background img="bg04.jpg" bgImg="bg04.gif" bgType="pattern"/>
+		<background img="bg05.jpg" bgImg="bg05.gif" bgType="pattern"/>
+		<background img="bg06.jpg" bgImg="bg06.gif" bgType="pattern"/>
+
+	</backgrounds>
+	<music title="Music">
+		<track title="01 Track 001" link="tracks/track01.mp3"/>
+		<track title="02 Track 002" link="tracks/track02.mp3"/>
+		<track title="03 Track 003" link="tracks/track03.mp3"/>
+	</music>
+</site>

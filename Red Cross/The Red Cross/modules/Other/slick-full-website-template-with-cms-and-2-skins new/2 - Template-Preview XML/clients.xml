@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Clients>
+	<settings>		
+		<imageWidth>198</imageWidth>
+		<imageHeight>93</imageHeight>
+		<horizontalSpace>16</horizontalSpace>		
+		<verticalSpace>15</verticalSpace>		
+	</settings>
+	
+	<description title="Our Clients" url="/clients/">
+
+		<![CDATA[
+			<p>This module can be used for showcasing your clients or as a links module with various applications. Text is html formatted as usual and the scrollbar disapears if there are less items than the min scroll area. Tons of settings in the XML. Phasellus enim orci, congue sit amet viverra nec, porta ut turpis. Aliquam ac ligula eget tellus scelerisque rhoncus in at purus. Donec nec est eros. Fusce hendrerit dui sit amet libero pellentesque dapibus.</p>
+		]]>
+	</description>
+
+	
+	<content>
+		
+		<client src="images/clients/4.jpg" name="Boarding.ro" description="Web Design, Corporate id" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/5.jpg" name="Confident Trader" description="Webdesign, PHP" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/6.jpg" name="Mars Venus" description="Website revamping" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/11.jpg" name="Sold Crazy" description="Logo and Website Design" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/7.jpg" name="Forward Digital" description="Design, Online Store" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/9.jpg" name="InkDirect" description="Webdesign, Online Store" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/8.jpg" name="Gigsnet" description="Concept, Branding" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/16.jpg" name="InkMarts" description="Logo Design" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/10.jpg" name="Regoran" description="Logo Design" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/12.jpg" name="Sold Crazy" description="Logo Design" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/13.jpg" name="Bet Against Me" description="Logo and Website Design" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/15.jpg" name="Vuum.ro" description="Corporate id, Webdesign, Online Shop" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/17.jpg" name="InkMarts" description="Logo and eMall Design" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/4.jpg" name="Boarding.ro" description="Web Design, Corporate id" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/5.jpg" name="Confident Trader" description="Webdesign, PHP" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/6.jpg" name="Mars Venus" description="Website revamping" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/11.jpg" name="Sold Crazy" description="Logo and Website Design" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/7.jpg" name="Forward Digital" description="Design, Online Store" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/9.jpg" name="InkDirect" description="Webdesign, Online Store" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/8.jpg" name="Gigsnet" description="Concept, Branding" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/16.jpg" name="InkMarts" description="Logo Design" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/10.jpg" name="Regoran" description="Logo Design" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/12.jpg" name="Sold Crazy" description="Logo Design" url="http://www.oxylusflash.com" target="_blank"></client>
+
+		<client src="images/clients/13.jpg" name="Bet Against Me" description="Logo and Website Design" url="http://www.oxylusflash.com" target="_blank"></client>
+
+	</content>
+
+
+</Clients>

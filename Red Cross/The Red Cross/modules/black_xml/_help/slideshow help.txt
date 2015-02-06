@@ -1,0 +1,83 @@
+slideshow.xml
+
+-----------------------------------------------
+How do I add my images?
+-----------------------------------------------
+
+Make your images 1000 wide x 500 high. Save your images inside images/slideshow folder.
+Open slideshow.xml in Notepad or Dreamveaver. In the xml go to the image tag for each node and update the path.
+
+Example:
+  	
+<image>images/slideshow/image_slideshow1.jpg</image>
+
+-----------------------------------------------
+How do I edit the title header for each slide?
+-----------------------------------------------
+
+For each node go to the title tag, and edit the text between the <![CDATA[ ]]> tags.
+
+Example:
+
+<title><![CDATA[Complete XML Website]]></title>
+
+--------------------------------------------------
+How do I edit the description text for each slide?
+--------------------------------------------------
+
+For each node go to the desc tag, and edit the text between the <![CDATA[ ]]> tags.
+
+Example:
+
+<desc><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pellentesque, enim nec volutpat facilisis, felis dui molestie mi, pellentesque tristique lacus velit vitae purus. Duis mollis congue aliquet. Integer ac turpis arcu, id dapibus nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi a enim odio. Nam bibendum diam eu ante vestibulum eget consectetur diam pulvinar. Vestibulum in nibh at neque mollis molestie non at lacus. Nunc iaculis justo et enim facilisis tempor. Proin non libero augue, in tincidunt mauris. Integer posuere enim at sem dictum mollis. Quisque accumsan dictum facilisis. Nulla in nisi ut justo accumsan porttitor eu nec sem. ]]></desc>
+
+You can use html tags to change color, font size, add links etc. If you change font sizes I suggest changing the dynamic text field from bitmap to anti-alias for readability and use a non pixel font, otherwise you will get blurry text.
+
+
+--------------------------------------------------
+How do I change the x and y position of the text?
+--------------------------------------------------
+
+For each node go to the xcord and ycord tags, and change the values.
+
+Example:
+
+<xcord>-450</xcord>
+<ycord>-200</ycord>
+
+--------------------------------------------------
+How do I create more slides?
+--------------------------------------------------
+
+Simply add more imageData nodes in the xml and update the tags as described above.
+
+Example:
+
+<imageData>
+<image>images/slideshow/image_slideshow4.jpg</image>
+<title><![CDATA[XML Smart Navigation]]></title>
+<desc><![CDATA[Sed interdum volutpat magna at convallis. Aenean nec neque commodo odio mattis tincidunt. Sed placerat aliquam turpis, nec porttitor arcu blandit ut. Nam rutrum ante nec ante faucibus suscipit. Mauris elit lacus, pharetra non ultricies a, feugiat non eros. In commodo euismod sapien. Mauris ullamcorper laoreet nulla ac pulvinar. <br><br>Nulla id justo id mauris convallis semper et eu nisi. Nam bibendum diam eu ante vestibulum eget consectetur diam pulvinar. Vestibulum in nibh at neque mollis molestie non at lacus. Nunc iaculis justo et enim facilisis tempor. Proin non libero augue, in tincidunt mauris. Integer posuere enim at sem dictum mollis. Quisque accumsan dictum facilisis. Nulla in nisi ut justo accumsan porttitor eu nec sem. ]]></desc>
+<xcord>-450</xcord>
+<ycord>-200</ycord>
+</imageData>
+
+--------------------------------------------------
+How do I change the preloader color?
+--------------------------------------------------
+
+Go to the preloaderColor attribute and edit the color value.
+
+Example:
+
+preloaderColor = "0xffff00"
+
+--------------------------------------------------
+How do I change the button colors?
+--------------------------------------------------
+
+Go to the buttonColor attribute and edit the color value.
+
+Example:
+
+buttonColor = "0xffff00"
+

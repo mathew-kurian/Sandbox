@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<content Name="CONTACT US" companyName="Company Name" formName="Quick Contact">
+    <copy><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br><font color="#FFFFFF">Contact Details:</font><br>T: +27 012 123 1234<br>F: +27 012 123 1234<br>E: <a href="mailto:company@domain.com">company@domain.com</a><br><br><font color="#FFFFFF">Address:</font><br>Your Building Name<br>Street Name<br>City Name<br>Country Name]]></copy>
+</content>

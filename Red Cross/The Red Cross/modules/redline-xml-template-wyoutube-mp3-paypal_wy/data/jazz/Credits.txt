@@ -1,0 +1,9 @@
+file: 01-San_Sebastian_jueves_noche.mp3
+file: 04-Erotismo_en_la_playa.mp3
+file: 06-Primavera.mp3
+
+credits: Distimia
+license: Creative Commons Attribution (CC-BY)
+http://creativecommons.org/licenses/by/2.0/deed.en
+
+url: http://www.jamendo.com/en/album/5231

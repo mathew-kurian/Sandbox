@@ -1,0 +1,39 @@
+<!--S:Menu-->
+										{MENUS.CONTENT}										
+<!--E:Menu-->
+
+<!--S:MenuGroup-->
+										{TITLE_DATA}
+											{DATA}
+										</li>
+<!--E:MenuGroup-->
+
+<!--S:LinksGroup-->
+											<ul>
+												{DATA}
+												<li class="last"></li>
+											</ul>
+<!--E:LinksGroup-->
+
+<!--S:LinksElement-->
+												<li><a href="{LINK}">{TITLE}</a></li>
+<!--E:LinksElement-->
+
+<!--S:TitleLink-->
+			<li class="link"><a href="{LINK}">{TITLE}</a>
+<!--E:TitleLink-->
+
+<!--S:Title-->
+			<li id="XML_tr_{ID}" class="closed"><a href="javascript:ShowMenu('{ID}')">{TITLE}</a>
+<!--E:Title-->
+
+<!--S:TitleNoCollapse-->
+			<img id="XML_tr_{ID}" src="skin/lightBlue/images/menu_plus.gif"/><i>{TITLE}</i>
+<!--E:TitleNoCollapse-->
+
+
+<!--S:Collapse-->
+	<script>
+		//XMLMenuColapseInit("{ID}" , "");
+	</script>
+<!--E:Collapse-->

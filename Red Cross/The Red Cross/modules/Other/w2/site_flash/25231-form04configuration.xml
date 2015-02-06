@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+    	Please read this information to learn how to set up the contact form integrated
+    	into the template.
+    	
+    	This readme file explains in details the meaning of the settings that can be
+    	done in the fcContactFormConfiguration.xml configuration file.
+    	
+    	It is recommended for you to use an XML editor to make changes to this file
+     	because it’s less possible to make an error in the markup which can cause to
+    	a not working contact form.
+  -->
+<contactFormConfiguration> 
+		   
+	<!--
+	    	An e-mail address which will be used to receive messages from your contact form.
+	    	You can specify several e-mail addresses separating them with a comma.
+	    	For example: first_email@domain.com, second_email@domain.com, third@domain.com
+	  -->
+	<emailTo>your_email@domain.com</emailTo>
+	
+	<!--
+	    	A server script type which will process sending e-mails. It depends on your
+	    	hosting and in the current version of the contact form it is allowed to use
+	    	two types:  php (Apache, PHP Hosting); asp (IIS web server, ASP).
+	  -->
+	<serverProcessorType>php</serverProcessorType>
+	
+	<!--
+	    	A name of the script file which process sending e-mails on your server (without
+	    	extension). The name contact is used by default.
+	  -->
+	<serverProcessorFileName>contact</serverProcessorFileName>
+	
+	<!--
+	    	Set whether to validate only required fields (true/false).  The default value is
+	    	true which means the not required fields of your contact form will not be validated.
+	    	For example if the e-mail field of your form is set as not required (imagine it)
+	    	the form will be processed even if the user types in an incorrect e-mail address.
+	  -->
+	<validateRequiredOnly>false</validateRequiredOnly>
+	
+	<!--
+	    	Set whether to submit the form when the Enter key is pressed even if the focus is
+	    	not on the Submit button (true/false).
+	  -->
+	<submitFormOnEnter>false</submitFormOnEnter>
+	
+	<!--
+	    	Text showing to the user when the form is submitted without any errors.
+	  -->
+	<messageSentText>Thank you for your message.</messageSentText>
+	
+	<!--
+	    	Text showing in case the form is not submitted because of a server error.
+	  -->
+	<messageSentFailedText>Thank you for your message.</messageSentFailedText>
+	
+	<!--
+	    	Text your visitor will see while waiting till the processing is over.
+	  -->
+	<formProcessingText>processing...</formProcessingText>
+	
+	<!--
+	    	Your SMTP server (for ASP only).
+	  -->
+	<smtpServer>localhost</smtpServer>
+	
+	<!--
+	    	Your SMTP port (for ASP only).
+	  -->
+	<smtpPort>25</smtpPort>
+	
+	<!--
+	    	Set whether to send the message as a plain text (true) or as HTML (false).
+	  -->
+	<plainText>false</plainText>
+	
+	<!--
+	    	ID of the input field (in the structure XML file) to use for the “from: ”
+	    	or email to use instead (for example: mailfrom@domainname.com).
+	  -->
+	<emailFromSource>2</emailFromSource>
+	
+	<!--
+	    	Subject of the e-mails that will be sent through this contact form or ID of
+	    	the input field (in the structure XML file) to use for the “subject: ” label
+	    	in your e-mail client.
+	  -->
+	<subjectSource>Contact Form from your site</subjectSource>
+	
+	<!--
+	    	Validation error messages that are showing to the user when the form fails to
+	    	validate. The form supports different types of validators. You can change the
+	    	text of the error messages the validators produce here.
+	    
+	    	You can use the {LABEL} keyword in these messages. It will replace it with the
+	    	label value of the field where an error occurs.
+	  -->
+	<validationErrorMessages>
+		    
+		<!--
+		    	A required field is not filled in.
+		  -->
+		<message type="fieldIsRequired">{LABEL} is required.</message>
+		
+		<!--	
+		    	The specified e-mail address is incorrect.
+		  -->
+		<message type="emailNotValid">{LABEL} - is not valid email address.</message>
+		
+		<!--
+		    	The specified number of characters in a field is less than a required minimum.
+		  -->
+		<message type="minCharsLimitError">{LABEL} - The specified number of characters in a field is less than a required minimum.</message>
+		
+		<!--
+		    	The specified string does not match with the regular expression.
+		  -->
+		<message type="reqExpError">{LABEL} - The specified string does not match with the regular expression.</message>
+		
+		<!--
+		    	The specified number is greater than an acceptable biggest number for this field.
+		  -->
+		<message type="biggerThanMaxError">{LABEL} - The specified number is greater than an acceptable biggest number for this field.</message>
+		
+		<!--
+		    	The specified number is lower than an acceptable lowest number for this field.
+		  -->
+		<message type="lowerThanMinError">{LABEL} - The specified number is lower than an acceptable lowest number for this field.</message>
+		
+		<!--
+		    	The data is not a number.
+		  -->
+		<message type="notANumberError">{LABEL} - The data is not a number.</message>
+		
+		<!--
+		    	The specified number must not be negative.
+		  -->
+		<message type="negativeError">{LABEL} - The specified number must not be negative.</message>
+		
+		<!--
+		    	The minimum number of variants is not selected
+		  -->
+		<message type="minRequirementError">{LABEL} - The minimum number of variants is not selected</message>
+		
+		<!--
+		    	The number of variants selected exceeds the maximum
+		  -->
+		<message type="maxRequirementError">{LABEL} - The number of variants selected exceeds the maximum</message>
+		
+		<!--
+		    	The fields that should be equal do not match
+		  -->
+		<message type="shouldBeEqualError">{LABEL} - values do not match</message>
+
+		<!--
+		     	The date has wrong format.
+		  -->
+		<message type="dateIsNotValidError">{LABEL} - date has wrong format</message>
+
+	</validationErrorMessages>
+	
+</contactFormConfiguration>

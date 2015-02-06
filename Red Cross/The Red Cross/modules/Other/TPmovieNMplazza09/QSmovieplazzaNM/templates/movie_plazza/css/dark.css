@@ -1,0 +1,280 @@
+ /* 
+=================================================
+# Filename : dark.css
+# Description : Specific CSS rules dark theme 
+# Author : TemplatePlazza
+# Author Url : http://www.templateplazza.com
+# Copyright (C) 2009 TemplatePlazza.com
+# All rights reserved.
+=================================================
+*/
+hr {
+    height:1px;
+    background-color:#252525; 
+    color:#252525; 
+    border: #252525; 
+}
+.tpbodies {
+    background: #333;
+	/* *font-size: small;
+	*font: x-small; */ /*ie fix*/
+ }
+ td.sectiontableentry2,
+ td.sectiontableentry1 {
+	border-bottom:1px solid #252525;
+}
+
+.sectiontableentry1 td {
+	background: #252525;
+}
+
+/* ===== WRAPPER ===== */
+#tpwrapper-right {
+    background:#1d1d1d;
+	}   
+
+/* ===== BLOCKS RESET ===== */
+/* ===== BLOCK HEAD ===== */
+
+
+#tpblock-top .mootabs_buttons1 span,
+#tpblock-top .mootabs_buttons2 span,
+#tpblock-top .mootabs_buttons3 span{
+    color:#fff ;
+       
+  }
+#tpblock-top .mootabs_buttons1 span.active,
+#tpblock-top .mootabs_buttons2 span.active,
+#tpblock-top .mootabs_buttons3 span.active { 
+    color:#fff;        
+}
+
+.mootabs_buttons1 span.active, .buttons span:hover,
+.mootabs_buttons2 span.active, .buttons span:hover,
+.mootabs_buttons3 span.active, .buttons span:hover
+{background:#212121;color:#fff;}
+
+/*# tpblock-top hack for accordion*/
+.tpaccordiontoggler {
+    background-image: none;
+	background-color: #1d1d1d!important;
+    border-bottom: 3px solid #252525!important;}
+.tpaccordiontoggler-active {
+	border-bottom: 3px solid #252525!important;        
+	color: #FFF !important;
+	background-color:#1d1d1d !important;
+}
+/* ===== BLOCK LEFT ===== */
+#tpmod-left {
+    background: #1d1d1d;
+    border: 1px solid #212121;
+    }
+/* ===== BLOCK RIGHT ===== */
+#tpwrapper-right-inner {
+    border: 1px solid #212121;
+ }
+
+#tpmod-right {
+    border-left-color: #252525;
+    border-right-color: #252525;}
+/* ===== BLOCK TOPBODY ===== */
+
+#tpblock-topbody {
+    background: #000;
+    }
+
+/* ===== BLOCK BOTTOM ===== */
+#tpblock-bot {
+    background: #1d1d1d;
+    border: 1px solid #212121;
+}
+
+
+/* ===== MODULES HACK ===== */
+
+
+/* ===== COM CONTENT OVERRIDE DATE ===== */
+.tp-tittle-date {
+    color: #FFF; 
+}
+a.contentpagetitle:link,
+a.contentpagetitle:visited {
+    color: #F3F3F3;
+}
+a.contentpagetitle:hover {
+    color: #666;
+}
+/*HACK FOR MODULES.CSS*/
+/* suffix -badgehot -badgenew -boxred -boxblue -> default*/
+div.moduletable-boxred h3 ,
+div.moduletable-boxblue h3{
+    color: #FFF;
+    }
+
+div.moduletable-boxred h3 .strong_moduletable_title,
+div.moduletable-boblue h3 .strong_moduletable_title  {
+    color:#FFF;
+}
+
+div.moduletable-boxred,
+div.moduletable-boxred *,
+div.moduletable-boxblue,
+div.moduletable-boxblue * {
+    color: #FFF;
+}
+div.moduletable-boxblue  {
+    background-color:#56699B;
+    }
+	
+
+div.moduletable-badgehot h3 ,
+div.moduletable-badgenew h3{
+    color: #666;
+    }
+div.moduletable-badgehot h3 .strong_moduletable_title,
+div.moduletable-badgenew h3 .strong_moduletable_title {
+    color:#666;
+}
+
+div.moduletable-boxred hr,
+div.moduletable-boxblue hr {
+       height:1px;
+    background-color:#ccc; 
+    color:#ccc; 
+    border: #ccc;  
+}
+
+/* suffix -badgehot -badgenew -> for tpmod-left and tpmod-right*/
+#tpmod-right div.moduletable-badgehot h3 ,
+#tpmod-left div.moduletable-badgehot h3 ,
+#tpmod-right div.moduletable-badgenew h3,
+#tpmod-left div.moduletable-badgenew h3{
+    color: #FFF;
+    }
+ 
+#tpmod-right div.moduletable-badgehot h3 .strong_moduletable_title,
+#tpmod-left div.moduletable-badgehot h3 .strong_moduletable_title,
+#tpmod-right div.moduletable-badgenew h3 .strong_moduletable_title,
+#tpmod-left div.moduletable-badgenew h3 .strong_moduletable_title  {
+    color:#FFF;
+}
+/*suffix boxred - boxblue -> for tpmod-left and tpmod-right*/
+#tpmod-right div.moduletable-boxred h3 ,
+#tpmod-left div.moduletable-boxred h3 ,
+#tpmod-right div.moduletable-boxblue h3,
+#tpmod-left div.moduletable-boxblue h3{
+    color: #FFF;
+
+    }
+
+#tpmod-right div.moduletable-boxred h3 .strong_moduletable_title,
+#tpmod-left div.moduletable-boxred h3 .strong_moduletable_title,
+#tpmod-right div.moduletable-boxblue h3 .strong_moduletable_title,
+#tpmod-left div.moduletable-boxblue h3 .strong_moduletable_title  {
+    color:#FFF;
+}
+
+
+#tpmod-right div.moduletable-boxred,
+#tpmod-left div.moduletable-boxred,
+#tpmod-right div.moduletable-boxred *,
+#tpmod-left div.moduletable-boxred *,
+#tpmod-right div.moduletable-boxblue,
+#tpmod-left div.moduletable-boxblue,
+#tpmod-right div.moduletable-boxblue *,
+#tpmod-left div.moduletable-boxblue * {
+    color: #FFF;
+}
+#tpmod-right div.moduletable-boxblue ,
+#tpmod-left div.moduletable-boxblue  {
+    background-color:#56699B;
+    }
+  
+
+#tpblock-topbody * {
+    color: #bbb;
+}
+/*minifp hack*/
+
+li.minifp {
+    border-bottom: 1px solid #252525;
+    
+}
+
+span.minifp-date {
+    background: #cc0000;
+    color:#FFF;
+}
+.minifp-introtitle {
+    border-top:3px solid #212121;
+    border-bottom:1px solid #252525;
+
+}
+td.minifp .minifp-introtitle a {
+    color:#666;
+}
+td.minifp {
+    border-bottom:1px solid #252525;
+}
+
+a.minifp-full-link, a:visited.minifp-full-link, a:active.minifp-full-link, a:link.minifp-full-link {
+	background:#333333;
+	color:#FFFFFF;
+}
+
+
+/*joomla.css*/
+.contentheading,td.contentheading {
+	color: #f3f3f3;
+	}
+.componentheading {
+	color: #f3f3f3;
+	}
+ .blog_more{
+	background-color: #252525;
+}
+.pagination  span,
+.pagination  a{
+	border:1px solid #252525;
+	}
+
+/*module.css*/
+div.moduletable h3,
+div.moduletable_menu h3,
+div.moduletable-red h3,
+div.moduletable-blue h3,
+div.moduletable-box h3
+{
+	color: #666;
+	border-bottom:4px solid #252525;
+
+	}
+div.moduletable-box {
+	border:1px solid #252525;}
+ #tpmod-breadcrumb {
+    height: 33px;
+}
+.tpmod-breadcrumb-inner {
+    border-left: 1px solid #646573;
+    height: 32px;
+}
+span.pathway { 
+	height:20px;
+	line-height:30px;
+	background:url(../images/home.gif) no-repeat 0 8px ;
+	}
+ ul.menu li {
+	border-bottom:1px solid #252525;
+}
+a.mainlevel:link, a.mainlevel:visited {
+	border-bottom:1px solid #252525;}
+ div.moduletable_inner h1,
+div.moduletable_inner h2,
+div.moduletable_inner h3,
+div.moduletable_inner h4,
+div.moduletable_inner h5{
+    color: #252525!important;
+}
+div.tpboxoffice_item {
+    border-bottom-color: #252525;
+}

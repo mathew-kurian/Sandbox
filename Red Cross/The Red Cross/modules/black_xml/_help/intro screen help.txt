@@ -1,0 +1,47 @@
+intro.xml
+
+-----------------------------------------------
+How do I change the intro image?
+-----------------------------------------------
+
+Save your image inside images/intro folder.
+Open intro.xml in Notepad or Dreamveaver. In the xml go to the "path" attribute for the lgimage node and update the path.
+
+Example:
+  	
+<lgimage path = "images/intro/blonde_girl.jpg">
+
+
+-----------------------------------------------
+How do I edit the intro description?
+-----------------------------------------------
+
+Go to the lgimage node, and edit the text between the <![CDATA[ text goes here ]]> tags.
+
+Example:
+
+<lgimage path = "images/intro/blonde_girl.jpg"><![CDATA[<font color = "#ffff00">XML Intro Description Header</font><br><font color = "#ffffff">Set a description for the splash page in the xml. This text field is html formatted text. Which means you can format the text using many html tags. Such as font size and color, also add links.</font>]]></lgimage>
+
+You can use html tags to change color, font size etc. If you change font sizes I suggest changing the dynamic text field from bitmap to anti-alias for readability and use a non pixel font, otherwise you will get blurry text.
+
+
+------------------------------------------
+How do I change the intro caption header?
+------------------------------------------
+
+
+In the xml, go to the header node and edit the text.
+
+Example:
+
+<header><![CDATA[<font color = "#ffffff">Black V2 XML Flash Template</font>]]></header>
+
+----------------------------------------------
+How do I change the intro sub caption header?
+----------------------------------------------
+
+In the xml, go to the subheader node and edit the text.
+
+Example:
+
+<subheader><![CDATA[<font color = "#111111">Complete xml solution template</font>]]></subheader>

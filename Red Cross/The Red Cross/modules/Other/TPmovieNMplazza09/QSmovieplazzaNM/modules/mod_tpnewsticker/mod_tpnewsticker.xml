@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>TP News Ticker</name>
+	<author>Jerry Wijaya</author>
+	<creationDate>November 2008</creationDate>
+	<copyright>http://www.templateplazza.com</copyright>
+	<license>http://www.templateplazza.com</license>
+	<authorEmail>me@jerrywijaya.com</authorEmail>
+	<authorUrl>www.templateplazza.com</authorUrl>
+	<version>1.0.0</version>
+	<description>TP News Ticker</description>
+	<files>
+		<filename module="mod_tpnewsticker">mod_tpnewsticker.php</filename>
+		<filename module="mod_tpnewsticker">helper.php</filename>
+		<filename module="mod_tpnewsticker">index.html</filename>
+		<filename module="mod_tpnewsticker">tmpl/index.html</filename>
+		<filename module="mod_tpnewsticker">tmpl/default.php</filename>
+		<filename module="mod_tpnewsticker">tmpl/scroll.php</filename>
+		<filename module="mod_tpnewsticker">js/mootools.js</filename>
+		<filename module="mod_tpnewsticker">js/tpnewsticker.js</filename>
+		<filename module="mod_tpnewsticker">js/tpnewstickerfade.js</filename>
+		<filename module="mod_tpnewsticker">js/index.html</filename>
+		<filename module="mod_tpnewsticker">css/tpnewsticker.css</filename>
+		<filename module="mod_tpnewsticker">css/index.html</filename>
+		<filename module="mod_tpnewsticker">images/b-next.png</filename>
+		<filename module="mod_tpnewsticker">images/b-pause.png</filename>
+		<filename module="mod_tpnewsticker">images/b-play.png</filename>
+		<filename module="mod_tpnewsticker">images/b-prev.png</filename>
+		<filename module="mod_tpnewsticker">images/index.html</filename>
+	</files>
+	<params>
+		<param name="count" type="text" default="5" label="Count" description="The number of items to display (default 5)" />
+		<param name="ordering" type="list" default="create_dsc" label="Ordering" description="Ordering options">
+			<option value="c_dsc">Recently Added First</option>
+			<option value="m_dsc">Recently Modified First</option>
+	  	</param>
+		<param name="user_id" type="list" default="0" label="Authors" description="A filter for the authors">
+			<option value="0">Anyone</option>
+			<option value="by_me">Added or modified by me</option>
+			<option value="not_me">Not added or modified by me</option>
+	  	</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="show_date" type="radio" default="1" label="Show Date" description="">
+			<option value="0">No</option>
+			<option value="1">Created Date</option>
+			<option value="2">Modified Date</option>
+		</param>
+		<param name="date_format" type="text" default="d/m/y: " label="Date Format" description="">
+		</param>
+		<param name="show_front" type="radio" default="1" label="Frontpage Items" description="PARAMFRONTPAGEITEMS">
+			<option value="1">show</option>
+			<option value="0">hide</option>
+		</param>
+		<param name="secid" type="text" default="" label="Section ID" description="PARAMSECTIONID" />
+		<param name="catid" type="text" default="" label="Category ID" description="PARAMCATEGORYID" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="layout" type="list" default="default" label="News Ticker Type" description="">
+			<option value="default">Fade</option>
+			<option value="vertical_top_to_bottom">Vertical Scroll (top to bottom)</option>
+			<option value="vertical_bottom_to_top">Vertical Scroll (bottom to top)</option>
+			<option value="horizontal_left_to_right">Horizontal Scroll (left to right)</option>
+			<option value="horizontal_right_to_left">Horizontal Scroll (right to left)</option>
+	  	</param>
+		<param name="height" type="text" default="20" label="Height (px)" description="" />
+		<param name="width" type="text" default="200" label="Width (px)" description="" />
+		<param name="duration" type="text" default="500" label="Duration (ms)" description="" />
+		<param name="delay" type="text" default="3000" label="Delay (ms)" description="" />
+		<param name="auto_play" type="radio" default="1" label="Auto Play" description="">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="show_ticker_title" type="radio" default="1" label="Show Ticker Title" description="">
+			<option value="1">show</option>
+			<option value="0">hide</option>
+		</param>
+		<param name="ticker_title_text" type="text" default="Headlines" label="Ticker Title" description="Ticker Title" />
+		<param name="show_button_play" type="radio" default="1" label="Show PLAY Button" description="">
+			<option value="1">show</option>
+			<option value="0">hide</option>
+		</param>
+		
+		<param name="show_button_pause" type="radio" default="1" label="Show PAUSE Button" description="">
+			<option value="1">show</option>
+			<option value="0">hide</option>
+		</param>
+		<param name="show_button_prev" type="radio" default="1" label="Show PREV Button" description="">
+			<option value="1">show</option>
+			<option value="0">hide</option>
+		</param>
+		<param name="show_button_next" type="radio" default="1" label="Show NEXT Button" description="">
+			<option value="1">show</option>
+			<option value="0">hide</option>
+		</param>
+	</params>
+	<params group="advanced">
+		<param name="load_mootools" type="radio" default="1" label="Load Mootools" description="">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>
+</install>

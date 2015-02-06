@@ -1,0 +1,62 @@
+<!--S:Main-->
+	<h1>{MOD_TITLE}</h1>
+	{MENU}
+
+	{CONTENT}
+<!--E:Main-->
+
+
+<!--S:CatsGroup-->	
+		<ul>
+			{DATA}
+		</ul>
+<!--E:CatsGroup-->
+
+<!--S:CatsGroupEmpty-->
+
+<!--E:CatsGroupEmpty-->
+
+<!--S:CatsElement-->
+		<li><a href="{MOD_URL}/{CAT_URL}-{CAT_ID}/" title="{CAT_URLTITLE}">{CAT_TITLE}</a></li>
+<!--E:CatsElement-->
+
+<!--S:CatsEmpty-->
+
+<!--E:CatsEmpty-->
+
+<!--S:ItemsGroup-->
+		<h2>{CAT_TITLE}</h2>
+		<ul id="images-list">
+		{DATA}
+		</ul>
+<!--E:ItemsGroup-->
+
+<!--S:ItemsGroupEmpty-->
+
+<!--E:ItemsGroupEmpty-->
+
+<!--S:ItemsElement-->
+			<li><a title="{ITEM_TITLE}" href="{MOD_URL}/{CAT_URL}-{CAT_ID}/{ITEM_URL}-{ITEM_ID}/"><img src="upload/galleries/tn_{ITEM_ID}.jpg" alt="{ITEM_TITLE}" /></a>
+<!--E:ItemsElement-->
+
+<!--S:ItemsEmpty-->
+
+<!--E:ItemsEmpty-->
+
+
+<!--S:Image-->
+	<h2>{ITEM_TITLE}</h2>
+
+	
+	<p>{ITEM_DESCRIPTION}</p>
+
+	{LINK}
+
+
+	<br><a href="{MOD_URL}/{CAT_URL}-{CAT_ID}/">&laquo; Back</a>
+
+	
+<!--E:Image-->
+
+<!--S:Jpg--><img src="upload/galleries/{ITEM_ID}.jpg" alt="{ITEM_TITLE}" /><!--E:Jpg-->
+<!--S:Video--><p>Download video: <a href="upload/galleries/video_{ITEM_ID}.flv" title="{ITEM_TITLE}">{ITEM_TITLE}</a></p><!--E:Video-->

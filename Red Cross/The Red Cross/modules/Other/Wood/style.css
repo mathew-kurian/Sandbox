@@ -1,0 +1,293 @@
+/********************************************
+    AUTHOR:         ELFARANSAWI
+	Designed By:	Sherihan Khedr
+    Email:          Email: skhedr@skdstudio.com
+    WEBSITE:        http://www.skdstudio.com
+ *******************************************/
+ 
+ body {
+    background: #000000 url(images/bg.gif);
+    padding: 0;
+	margin: 0;
+    font: 10pt "Trebuchet MS", Tahoma, Arial;
+    color: #000000;
+	line-height: 60%;
+}
+
+h1, h2{
+    color: #694600;
+    font: bold italic 150% "Trebuchet MS", Tahoma, Arial;
+    margin:0;
+	padding: 0px;
+	letter-spacing: -1px;
+}
+
+h6{
+    color: #666666;
+    font: 100% "Trebuchet MS", Tahoma, Arial;
+    margin: -5px 0 0 25px;
+	letter-spacing: 3px;
+	padding: 0px;
+}
+
+#border {
+	background: url(images/border.gif) center no-repeat;
+	height: 2px;
+	margin: 2px;
+	padding: 0;
+}
+
+html>body #border {
+	background: url(images/border.gif) center no-repeat;
+	height: 2px;
+	margin: 5px;
+	padding: 0;
+}
+
+#border2 {
+	background: url(images/border2.gif) center no-repeat;
+	height: 2px;
+	margin: 2px;
+	padding: 0;
+}
+
+html>body #border2 {
+	background: url(images/border2.gif) center no-repeat;
+	height: 2px;
+	margin: 5px;
+	padding: 0;
+}
+
+.star_s {
+	background: url(images/star_s.gif) no-repeat left center;
+	padding-left: 20px;
+}
+
+.star_ss {
+	background: url(images/star_ss.gif) no-repeat left center;
+	padding-left: 20px;
+}
+
+a {
+    color: #8B4513;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+p {
+    color: #694600;
+    font: 100% "Trebuchet MS", Tahoma, Arial;
+	padding: 5px 0 0 0;
+	margin: 0px;
+}
+
+img {
+	float: left;
+	margin: 5px 10px 0px 0;
+}
+
+img.border {
+	border: 2px solid #c8b973;
+	padding: 3px;
+	background: #e4d486;
+}
+
+#center_container {
+    margin: 0px auto;
+    width: 770px;
+    height: 570px;
+}
+
+/*----------------------------------------------- header area */
+#header {
+    width: 770px;
+    height: 120px;
+}
+
+#header_logo {
+	width: 290px;
+	height: 112px;
+	background: url(images/logo.jpg);
+	float: left;
+}
+
+#btn_lang {
+	width: 200px;
+	height: 90px;
+	float: right;
+	padding: 0 20px;
+}
+
+#lang {
+	width: 30px;
+	height: 40px;
+	float: right;
+}
+
+#lang a {
+	width: 30px;
+	height: 40px;
+    display: block;
+	text-decoration: none;
+}
+
+#lang a.en {
+	background: url(images/lang_en.gif);
+}
+
+#lang a:hover.en {
+	background: url(images/lang_en_over.gif);
+}
+
+#lang a.ar {
+	background: url(images/lang_ar.gif);
+}
+
+#lang a:hover.ar {
+	background: url(images/lang_ar_over.gif);
+}
+
+/*----------------------------------------------- navigation */
+#nav {
+    width: 460px;
+    height: 40px;
+	margin-top: 10px;
+}
+
+#s_nav {
+	width: 103px;
+	height: 40px;
+	float: left;
+}
+
+#star {
+	width: 16px;
+	height: 40px;
+	background: url(images/star.gif);
+	float: left;
+}
+
+#s_nav a {
+	width: 103px;
+	height: 40px;
+    display: block;
+	text-decoration: none;
+}
+
+#s_nav a.home {
+	background:url(images/btn_home.gif);
+}
+
+#s_nav a:hover.home {
+	background:url(images/btn_home_over.gif);
+}
+
+#s_nav a.about {
+	background:url(images/btn_about.gif);
+}
+
+#s_nav a:hover.about {
+	background:url(images/btn_about_over.gif);
+}
+
+#s_nav a.products {
+	background:url(images/btn_products.gif);
+}
+
+#s_nav a:hover.products {
+	background:url(images/btn_products_over.gif);
+}
+
+#s_nav a.contact {
+	background:url(images/btn_contact.gif);
+}
+
+#s_nav a:hover.contact {
+	background:url(images/btn_contact_over.gif);
+}
+
+/*----------------------------------------------- content area */
+#container {
+    width: 770px;
+    height: 450px;
+}
+
+#s_container {
+    width: 770px;
+    height: 405px;
+}
+
+#col_left {
+    width: 290px;
+    height: 385px;
+	background: #836c42 url(images/col_left_bg.gif);
+	float: left;
+	padding: 10px 10px 10px 0;
+}
+
+iframe {
+		width: 270px;
+		height: 365px;
+		border: none;
+		overflow: hidden;
+		background: #836c42;
+		margin: 10px;
+}
+
+
+#col_right {
+    width: 470px;
+    height: 405px;
+	float: left;
+}
+
+#content {
+    width: 470px;
+    height: 355px;
+	background: #eee5ba url(images/content_bg.gif);
+
+}
+
+#content_txt {
+    width: 430px;
+    height: 175px;
+	overflow: hidden;
+	padding: 20px 25px 0px 15px;
+}
+
+#content_txt_2 {
+    width: 430px;
+    height: 120px;
+	overflow: hidden;
+	background: #d3c686;
+	margin: 5px 10px 0 0px;
+	padding: 10px 15px;
+	border-top: 5px solid #271f1c;
+}
+/*----------------------------------------------- footer area */
+#footer {
+    width: 770px;
+    height: 45px;
+	overflow: hidden;
+}
+
+#footer p {
+    font: 80% "Trebuchet MS", Tahoma, Arial;
+	padding: 0px;
+	color: #998a41;
+	text-align: right;
+	padding: 15px;
+}
+
+#footer a {
+	color: #998a41;
+	text-decoration: underline;
+}
+
+#footer a:hover {
+	color: #bdad60;
+	text-decoration: none;
+}

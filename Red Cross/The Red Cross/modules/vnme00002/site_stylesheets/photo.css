@@ -1,0 +1,14 @@
+h1{
+   font-family: helvetica, arial, sans-serif;
+   font-size:14;
+   font-weight:bold;
+   color:#000000;
+   text-indent: 0;
+   leading:3;
+}
+p{
+   font-family: helvetica, arial, sans-serif;
+   font-size:11;
+   color:#535353;
+   text-indent: 0;
+}

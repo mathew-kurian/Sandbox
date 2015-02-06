@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>MiniFrontPage Module for J! 15</name>
+	<creationDate>March 29th, 2008</creationDate>
+	<author>TemplatePlazza Team</author>
+	<copyright>Released under GNU/GPL License</copyright>
+	<authorEmail>plazza@templateplazza.com</authorEmail>
+	<authorUrl>www.templateplazza.com</authorUrl>
+	<version>1.2.2</version>
+	<description>MODULE : MINIFRONTPAGE</description>
+<files>
+	<filename module="mod_minifrontpage">mod_minifrontpage.php</filename>
+	<filename>css/style.css</filename>
+	<filename>css/index.html</filename>
+	<filename>images/application_add.gif</filename>
+	<filename>images/arrow_green.gif</filename>
+	<filename>images/default.gif</filename>
+	<filename>images/default_thumb.gif</filename>
+	<filename>images/bgheader.gif</filename>
+	<filename>images/logo_mini.gif</filename>
+	<filename>images/index.html</filename>
+	<filename>index.html</filename>
+	<filename>changelog_and_upgrade.txt</filename>
+  <filename>helper.php</filename>	
+  <filename>tmpl/default.php</filename>
+  <filename>tmpl/index.html</filename>
+</files>
+
+<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_minifrontpage.ini</language>
+	</languages>
+
+<params>
+	<param name="cache" type="radio" default="0" label="Enable Cache" description="Select whether to cache the content of this module">
+		<option value="0">No</option>
+		<option value="1">Yes</option>
+	</param>
+	<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+	
+	<param name="@spacer_a" type="spacer" default="------------ Article Sources Properties -------------" label="------------ Article Sources Properties -------------" description="" />
+	<param name="sections" type="text" default="1,3,4" label="Section(s)" description="Section Ids (, separated)"></param>
+	<param name="categories" type="text" default="1,2,25,27,28,29,30,31,32" label="Category(s)" description="Category Ids (, separated)"></param>
+	<param name="order" type="radio" default="0" label="Order by" description="Order content items / articles by most read or created date">
+		<option value="0">Created</option>
+		<option value="1">Most Read</option>
+		<option value="2">Ordering</option>
+		<option value="3">Random</option>
+	</param>
+	<param name="order_type" type="radio" default="desc" label="Order Type" description="Order Type">
+		<option value="asc">Ascending</option>
+		<option value="desc">Descending</option>
+	</param>
+	<param name="period" type="text" default="1200" label="Period of Novelty (Days)" description="Show popular items for the last period-of-novelty days">
+	</param>
+	
+	<param name="loadorder" type="list" default="0" label="Thumbnail Position" description="Thumbnail Position">
+			<option value="1">Before Title / Category</option>
+			<option value="0">After Title / Date</option>
+	</param>
+	
+	<param name="cat_title" type="radio" default="0" label="Show category title" description="Show/Hide Category Title">
+			<option value="1">show</option>
+			<option value="0">hide</option>
+	</param>
+
+	<param name="cat_title_link" type="radio" default="0" label="Show category title link" description="Show/Hide Category Title Link">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+	</param>
+
+	<param name="show_front" type="radio" default="1" label="Frontpage Items" description="Show/Hide items designated for the Frontpage - only works when in Content Items only mode">
+			<option value="1">show</option>
+			<option value="0">hide</option>
+	</param>
+	
+	<param name="show_title" type="radio" default="1" label="Display Article title" description="whether to show article title or not">
+       	<option value="0">No</option>
+		<option value="1">Yes</option>
+	</param>
+	
+	<param name="title_link" type="radio" default="1" label="Title Link" description="Is title a link tag">
+		<option value="1">Yes</option>
+		<option value="0">No</option>
+	</param>
+	
+	<param name="show_author" type="radio" default="1" label="Display author" description="whether to show author name or not">
+   	<option value="0">No</option>
+		<option value="1">Yes</option>
+	</param>
+	<param name="show_author_type" type="radio" default="0" label="Display author type" description="whether to show author name or username">
+   	<option value="0">Name/Alias</option>
+		<option value="1">Username</option>
+	</param>
+
+	<param name="show_date" type="radio" default="1" label="Display date articles created" description="whether to show date of articles created or not">
+    <option value="0">No</option>
+		<option value="1">Yes</option>
+	</param>
+	<param name="date_type" type="radio" default="0" label="Date Type" description="Date Type">
+    <option value="0">Created Date</option>
+		<option value="1">Modified Date</option>
+		<option value="2">Publish Up Date</option>
+	</param>
+ 	<param name="date_format" type="text" default="%d/%m/%Y" label="Date Format" description=""></param>
+	
+	<param name="limit" type="text" default="200" label="Limit intro text" description="Limit article intro text to specified number of characters, (default 0 means no limit, 1 means no intro text)">
+	</param>
+   	<param name="fulllink" type="text" default="+ Full Story" label="Full story link text " description="if present a full story link will be added"></param>
+   	
+   	<param name="@spacer_b" type="spacer" default="------------ Display Format -------------" label="------------ Display Format -------------" description="" />
+   	<param name="columns" type="text" default="3" label="Number of columns" description="How many columns minifrontpage display articles introtext"></param>
+	
+	<param name="count" type="text" default="10" label="Number of Articles to display" description="Choose how many articles to display"></param>
+	<param name="num_intro" type="text" default="2" label="Number of Introtext / Hide Introtext" description="Number of intro text to display if intro text will be showed up(default 1)- Fill with 0 to hide introtext " />
+	<param name="num_intro_skip" type="text" default="0" label="Number of Introtext / Hide Introtext Skipped" description="Number of intro text to skipped" />
+	
+	<param name="@spacer_c" type="spacer" default="------------ Image Thumbnails -------------" label="------------ Image Thumbnails -------------" description="" />
+	
+	<param name="thumb_embed" type="radio" default="1" label="Show thumbnails" description="Show / Hide thumbnail image in intro text - just like mosimage does">
+		<option value="0">Hide</option>
+		<option value="1">Show</option>
+	</param>
+	<param name="thumb_embed_default" type="radio" default="1" label="Show default thumbnails when article have no image" description="Show / Hide default thumbnail image in intro text when article have no image">
+		<option value="0">Hide</option>
+		<option value="1">Show</option>
+	</param>
+	<param name="thumb_width" type="text" default="64" label="Thumbnail Image Width" description="thumb image width if embed thumbnail is selected">
+	</param>
+	<param name="thumb_height" type="text" default="64" label="Thumbnail Image height" description="thumb image height  if embed thumbnail is selected">
+	</param>
+	
+	<param name="aspect" type="radio" default="0" label="Preserve Aspect" description="Preserve image aspect ratio, if yes the height param above doesn't matter">
+		<option value="0">No</option>
+		<option value="1">Yes</option>
+	</param>
+
+   	<param name="header_title_links" type="text" default="Other Articles" label="Header Title for other articles link" description="Show header title for other articles link if exist">
+	</param>
+
+</params>
+</install>

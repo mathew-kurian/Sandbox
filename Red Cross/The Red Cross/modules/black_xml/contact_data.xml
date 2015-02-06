@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<contactData>
+
+<contact><![CDATA[<font size ="24">The Creative Agency</font>]]></contact>
+
+<contact><![CDATA[0000 Sunset Blvd<br>Suite 2000<br>Los Angeles<br>CA 90025<br>USA]]></contact>
+
+<contact><![CDATA[<font color ="#555555">Phone 1 310 358 0000<br>Cell 1 310 358 0000<br>Fax 1 310 358 0000</font>]]></contact>
+
+<contact><![CDATA[<a href="mailto:info@mywebsitedomain.com">info@mywebsitedomain.com</a><br><a href="mailto:customerservice@mywebsitedomain.com">customerservice@mywebsitedomain.com</a>]]></contact>
+
+<contact><![CDATA[Name]]></contact>
+
+<contact><![CDATA[Email]]></contact>
+
+<contact><![CDATA[Comments]]></contact>
+
+<contact>http://www.yourdomain.com/sendmail.php</contact>
+
+<contact>Message being sent.</contact>
+
+<contact>Thank you. Message successfully sent. You will be contacted by a representative shortly.</contact>
+
+<contact>Alert. Error occurred while processing your message. Please try again or call 1 310 358 0000.</contact>
+
+</contactData>

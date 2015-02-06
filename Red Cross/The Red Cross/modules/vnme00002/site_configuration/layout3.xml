@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+	
+	<contentWidth>755</contentWidth>
+	<contentHeight>1050</contentHeight>
+	<contentBgColor>0x0c0c0c</contentBgColor>
+	<contentBgOpacity>1</contentBgOpacity>
+	<scrollBaseColor>0x2e2e2e</scrollBaseColor>
+	<scrollerColor>0x656565</scrollerColor>
+	
+	<displayImages>true</displayImages>
+	<displayHtmlArticles>true</displayHtmlArticles>
+	<displaySlideShow>true</displaySlideShow>	
+	
+	<!-- Slideshow at the top of the page -->
+	<slideShow>
+		<x>40</x>
+		<y>40</y>
+		<width>655</width>
+		<height>328</height>
+		<bgColor>0x0C0C0C</bgColor>
+		<xmlURL>./site_configuration/slideShow.xml</xmlURL>
+	</slideShow>
+	
+	<!-- Heading 1 as an image -->
+	<image>
+		<x>40</x>
+		<y>439</y>
+		<imageURL>site_images/addASlideShow.png</imageURL>
+		<includeLargeImage>false</includeLargeImage>
+		<largeURL></largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	
+	<!-- Opening HTML article -->
+	<article>
+		<x>40</x>
+		<y>497</y>
+		<width>650</width>
+		<articleText><![CDATA[<p align="justify" class="extraLeading">Content Module features: Add / Position / Style from XML an unlimited number of HTML text blocks, images, or video spots. You can also add a slideshow or swf to each content page. Each image that you add from XML can have a video popup / swf popup / slideshow popup / image popup / full content page popup / or internal page link attached to it's click event. You can specify your page's width / height / background color / background opacity / scroll base color / and scroller color from XML. Navigation features include: Ability to mix & match page/sub-pages however you like. Everytime a page/sub-page is clicked, the button remains highlighted. This ensures your visitors never forget what page they are on. Also if you add internal page links throughout your content, the smart navigation automatically highlights the new page/sub-page that the user has landed on.  You can also add external links as page/sub-page buttons, or add an external swf.</p>]]>
+		</articleText>
+	</article>
+	
+	
+	<!-- Column 1 Events-->
+	
+	<!-- Event 1  Column 1-->
+	<image>
+		<x>40</x>
+		<y>757</y>
+		<imageURL>site_images/event1.gif</imageURL>
+		<includeLargeImage>true</includeLargeImage>
+		<largeURL>site_images/eventPopUp.jpg</largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<article>		
+		<x>124</x>
+		<y>753</y>
+		<width>175</width>
+		<articleText><![CDATA[<p class="l2alt2" class="l2bold">Event Title </p>]]>
+		</articleText>
+	</article>
+	<article>		
+		<x>124</x>
+		<y>769</y>
+		<width>175</width>
+		<articleText><![CDATA[<p class="l2alt3">Jan 1 2009  8:00pm</p>]]>
+		</articleText>
+	</article>
+	<article>		
+		<x>124</x>
+		<y>783</y>
+		<width>175</width>
+		<articleText><![CDATA[<p class="l2alt2">Edit this Event title, date, description, image, url, text, font, size, color. </p>]]>
+		</articleText>
+	</article>
+	
+	<!-- Event 2  Colum 1 -->
+	<image>
+		<x>40</x>
+		<y>841</y>
+		<imageURL>site_images/event1.gif</imageURL>
+		<includeLargeImage>true</includeLargeImage>
+		<largeURL>site_images/eventPopUp.jpg</largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<article>		
+		<x>124</x>
+		<y>837</y>
+		<width>175</width>
+		<articleText><![CDATA[<p class="l2alt2" class="l2bold">Event Title </p>]]>
+		</articleText>
+	</article>
+	<article>		
+		<x>124</x>
+		<y>853</y>
+		<width>175</width>
+		<articleText><![CDATA[<p class="l2alt3">Jan 1 2009  8:00pm</p>]]>
+		</articleText>
+	</article>
+	<article>		
+		<x>124</x>
+		<y>867</y>
+		<width>175</width>
+		<articleText><![CDATA[<p class="l2alt2">Edit this Event title, date, description, image, url, text, font, size, color. </p>]]>
+		</articleText>
+	</article>
+	
+	<!-- Event 3  Colum 1 -->	
+	<image>
+		<x>40</x>
+		<y>925</y>
+		<imageURL>site_images/event1.gif</imageURL>
+		<includeLargeImage>true</includeLargeImage>
+		<largeURL>site_images/eventPopUp.jpg</largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<article>		
+		<x>124</x>
+		<y>921</y>
+		<width>175</width>
+		<articleText><![CDATA[<p class="l2alt2" class="l2bold">Event Title </p>]]>
+		</articleText>
+	</article>
+	<article>		
+		<x>124</x>
+		<y>937</y>
+		<width>175</width>
+		<articleText><![CDATA[<p class="l2alt3">Jan 1 2009  8:00pm</p>]]>
+		</articleText>
+	</article>
+	<article>		
+		<x>122</x>
+		<y>951</y>
+		<width>175</width>
+		<articleText><![CDATA[<p class="l2alt2">Edit this Event title, date, description, image, url, text, font, size, color. </p>]]>
+		</articleText>
+	</article>
+	
+	
+	<!-- Column 2 Events-->
+
+	
+	<!-- Event 4  Column 2-->
+	<image>
+		<x>335</x>
+		<y>757</y>
+		<imageURL>site_images/event1.gif</imageURL>
+		<includeLargeImage>true</includeLargeImage>
+		<largeURL>site_images/eventPopUp.jpg</largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<article>		
+		<x>417</x>
+		<y>753</y>
+		<width>175</width>
+		<articleText><![CDATA[<p class="l2alt2" class="l2bold">Event Title </p>]]>
+		</articleText>
+	</article>
+	<article>		
+		<x>417</x>
+		<y>769</y>
+		<width>175</width>
+		<articleText><![CDATA[<p class="l2alt3">Jan 1 2009  8:00pm</p>]]>
+		</articleText>
+	</article>
+	<article>		
+		<x>417</x>
+		<y>783</y>
+		<width>175</width>
+		<articleText><![CDATA[<p class="l2alt2">Edit this Event title, date, description, image, url, text, font, size, color. </p>]]>
+		</articleText>
+	</article>
+	
+	<!-- Event 5  Column 2-->
+	<image>
+		<x>335</x>
+		<y>841</y>
+		<imageURL>site_images/event1.gif</imageURL>
+		<includeLargeImage>true</includeLargeImage>
+		<largeURL>site_images/eventPopUp.jpg</largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<article>		
+		<x>417</x>
+		<y>837</y>
+		<width>175</width>
+		<articleText><![CDATA[<p class="l2alt2" class="l2bold">Event Title </p>]]>
+		</articleText>
+	</article>
+	<article>		
+		<x>417</x>
+		<y>853</y>
+		<width>175</width>
+		<articleText><![CDATA[<p class="l2alt3">Jan 1 2009  8:00pm</p>]]>
+		</articleText>
+	</article>
+	<article>		
+		<x>417</x>
+		<y>867</y>
+		<width>175</width>
+		<articleText><![CDATA[<p class="l2alt2">Edit this Event title, date, description, image, url, text, font, size, color. </p>]]>
+		</articleText>
+	</article>
+	
+	
+	
+	<!-- Event 6  Column 2-->
+	<image>
+		<x>335</x>
+		<y>925</y>
+		<imageURL>site_images/event1.gif</imageURL>
+		<includeLargeImage>true</includeLargeImage>
+		<largeURL>site_images/eventPopUp.jpg</largeURL>
+		<includeVideo>false</includeVideo>
+		<videoURL></videoURL>
+		<videoWidth></videoWidth>
+		<videoHeight></videoHeight>
+		<includePageLink>false</includePageLink>
+		<page></page>
+	</image>
+	<article>		
+		<x>417</x>
+		<y>921</y>
+		<width>175</width>
+		<articleText><![CDATA[<p class="l2alt2" class="l2bold">Event Title </p>]]>
+		</articleText>
+	</article>
+	<article>		
+		<x>417</x>
+		<y>937</y>
+		<width>175</width>
+		<articleText><![CDATA[<p class="l2alt3">Jan 1 2009  8:00pm</p>]]>
+		</articleText>
+	</article>
+	<article>		
+		<x>417</x>
+		<y>951</y>
+		<width>175</width>
+		<articleText><![CDATA[<p class="l2alt2">Edit this Event title, date, description, image, url, text, font, size, color. </p>]]>
+		</articleText>
+	</article>
+	
+
+
+
+</xmlObject>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<adWall3D>
+
+	<category title="Animals"> 
+		<xmlPath src="animals.xml"/>
+		<image src="asset/animals/categoryImage.jpg"/>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]> </description>
+	</category>	
+	
+	<category title="Fractals"> 
+		<xmlPath src="fractals.xml"/>
+		<image src="asset/fractals/categoryImage.jpg"/>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]> </description>
+	</category>
+	
+	<category title="Spray Art"> 
+		<xmlPath src="sprayart.xml"/>
+		<image src="asset/sprayart/categoryImage.jpg"/>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]> </description>
+	</category>
+	
+	<category title="Flowers"> 
+		<xmlPath src="flowers.xml"/>
+		<image src="asset/flowers/categoryImage.jpg"/>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]> </description>
+	</category>
+	
+</adWall3D>

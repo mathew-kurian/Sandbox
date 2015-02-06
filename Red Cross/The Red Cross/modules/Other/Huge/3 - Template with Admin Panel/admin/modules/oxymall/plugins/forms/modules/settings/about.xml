@@ -1,0 +1,47 @@
+<form>
+
+	<tabs>
+		<t active="true" width="100" title="Module Settings" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.user&action=details&mod_id={MODULE_ID}" />
+		<t0 width="80" title="Header" link="index.php?mod=oxymall&sub=oxymall.plugin.about.landing&module_id={MODULE_ID}&action=details&returnurl={SELF.PREVIOUS_ENC}" />
+		<t1 width="80" title="Images" link="index.php?mod=oxymall&sub=oxymall.plugin.about.images&module_id={MODULE_ID}&returnurl={SELF.PREVIOUS_ENC}" />
+		<t_video width="80" title="Video Tutorial" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.help&module_id={MODULE_ID}" restricted="eval:$GLOBALS['no_tutorials'];"/>
+	</tabs>
+
+	<fields>
+		<set_misc_subtitle type="subtitle" title="Misc" />		
+		<set_reverseorder type="checkbox" checked="1" title="Reverse Images Order" label="yes|no" description="If you check this the last added image will appear the first."/>
+
+		<settings_title type="subtitle" title="Settings" />
+		<set_imagewidth type="textbox" suffix=" px" title="Image Width" />
+		<set_imageheight type="textbox" suffix=" px" title="Image Height" />
+		<set_slideshowinterval type="textbox" suffix="secconds" title="Slide Show Interval" />
+		<set_fadeinanimationtime type="textbox" size="5" suffix="secconds" title="Fadein Animation Time" />
+		<set_fadeInAnimationType type="droplist" title="Animation Type" empty="true">
+			<options>
+				<option name="linear">linear</option>
+				<option name="easeInSine">easeInSine</option>
+				<option name="easeOutSine">easeOutSine</option>
+				<option name="easeInQuad">easeInQuad</option>
+				<option name="easeOutQuad">easeOutQuad</option>
+				<option name="easeInCubic">easeInCubic</option>
+				<option name="easeOutCubic">easeOutCubic</option>
+				<option name="easeInQuart">easeInQuart</option>
+				<option name="easeOutQuart">easeOutQuart</option>
+				<option name="easeInQuint">easeInQuint</option>
+				<option name="easeOutQuint">easeOutQuint</option>
+				<option name="easeInExpo">easeInExpo</option>
+				<option name="easeOutExpo">easeOutExpo</option>
+				<option name="easeInCirc">easeInCirc</option>
+				<option name="easeOutCirc">easeOutCirc</option>
+				<option name="easeInElastic">easeInElastic</option>
+				<option name="easeOutElastic">easeOutElastic</option>
+				<option name="easeInBack">easeInBack</option>
+				<option name="easeOutBack">easeOutBack</option>
+				<option name="easeInBounce">easeInBounce</option>
+				<option name="easeOutBounce">easeOutBounce</option>
+			</options>
+		</set_fadeInAnimationType>
+		
+
+	</fields>
+</form>

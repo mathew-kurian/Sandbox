@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/core/render/filter
+END
+IRenderFilter.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/core/render/filter/IRenderFilter.as
+END
+BasicRenderFilter.as
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/core/render/filter/BasicRenderFilter.as
+END

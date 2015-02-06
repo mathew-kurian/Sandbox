@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlObject>
+		<speed>7000</speed><!-- Time in milliseconds 3000 = 3 seconds -->
+		<width>620</width>
+		<height>275</height>
+		<displayInfoText>false</displayInfoText>
+		<hoverTextBgColor>0xFFFFFF</hoverTextBgColor>
+		<hoverTextBgOpacity>1</hoverTextBgOpacity>
+		<hoverTextBgHeight>75</hoverTextBgHeight>
+		<buttonBgColor>0x000000</buttonBgColor>
+		<buttonTextColor>0xffffff</buttonTextColor>
+		<buttonSelBgColor>0xffffff</buttonSelBgColor>
+		<buttonSelTextColor>0xD60001</buttonSelTextColor>
+		<slide>
+			<url>site_images/folioSlide/slide1.gif</url>
+		</slide>
+		<slide>
+			<url>site_images/folioSlide/slide2.gif</url>
+		</slide>
+		<slide>
+			<url>site_images/folioSlide/slide3.gif</url>
+		</slide>
+		<slide>
+			<url>site_images/folioSlide/slide4.gif</url>
+		</slide>
+</xmlObject>
+
+
+			

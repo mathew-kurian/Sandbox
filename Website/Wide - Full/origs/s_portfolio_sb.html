@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!-- META -->
+	<meta charset="utf-8" />
+    <title>Sympathico</title>
+	<!-- /META -->
+    
+    <!-- CSS -->
+	<link rel="stylesheet" href="slider/nivo/nivo-slider.css" />
+	<link rel="stylesheet" href="slider/nivo/nivo-style.css" />
+	<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/colors.css" />
+	<!-- /CSS -->
+    
+    <!-- SCRIPTS + JQUERY -->
+	<!-- The HTML5 Shim for older browsers (mostly older versions of IE). -->
+	<!--[if IE]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+	<script src="slider/nivo/jquery.nivo.slider.pack.js"></script>
+	<script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<script src="js/jquery.quicksand.js"></script>
+	<script src="js/jquery.jtweetsanywhere-1.2.1.min.js"></script>
+    <script src="js/default.js"></script>
+	<!-- /SCRIPTS + JQUERY -->
+</head>
+
+<body>
+    <header><!-- BEGIN HEADER -->
+        <div id="top_header"><!-- begin top header -->
+            <div class="wrap">
+                <div id="logo">
+                    <a href="index.html"><h1>Sympathico</h1></a>
+                </div>
+                
+                <ul id="social_networks">
+                    <li><a href="#" class="network1"></a></li>
+                    <li><a href="#" class="network2"></a></li>
+                    <li><a href="#" class="network3"></a></li>
+                    <li><a href="#" class="network4"></a></li>
+                    <li><a href="#" class="network5"></a></li>
+                    <li><a href="#" class="network6"></a></li>
+                </ul>
+            </div>
+        </div><!-- end top header -->
+		
+        <div id="bottom_header"><!-- begin bottom header -->
+            <div class="wrap">
+                <nav>
+                    <ul id="top_nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a>
+                            <ul><!-- begin 1st level -->
+                                <li><a href="about.html">Right Sidebar</a></li>
+                                <li><a href="s_left_sidebar.html">Left Sidebar</a>
+									<ul class="lower_level"><!-- begin 2nd level -->
+										<li><a href="#">Item 2.1</a>
+											<ul class="lower_level"><!-- begin 3rd level -->
+												<li><a href="#">Item 2.1.1</a></li>
+												<li><a href="#">Item 2.1.2</a></li>
+												<li><a href="#">Item 2.1.3</a></li>
+											</ul><!-- end 3rd level -->
+										</li>
+										<li><a href="#">Item 2.2</a></li>
+										<li><a href="#">Item 2.3</a></li>
+									</ul><!-- end 2nd level -->
+								</li>
+                                <li><a href="s_full_width.html">Full Width</a></li>
+                            </ul><!-- end 1st level -->
+                        </li>
+                        <li><a href="portfolio.html" class="active">Portfolio</a>
+                            <ul>
+                                <li><a href="portfolio.html">Filterable</a>
+									<ul class="lower_level">
+										<li><a href="s_portfolio_col2.html">Two Columns</a></li>
+										<li><a href="portfolio.html">Three Columns</a></li>
+										<li><a href="s_portfolio_col4.html">Four Columns</a></li>
+									</ul>
+								</li>
+                                <li><a href="s_portfolio_standard_col3.html">Standard</a>
+									<ul class="lower_level">
+										<li><a href="s_portfolio_standard_col2.html">Two Columns</a></li>
+										<li><a href="s_portfolio_standard_col3.html">Three Columns</a></li>
+										<li><a href="s_portfolio_standard_col4.html">Four Columns</a></li>
+									</ul>
+								</li>
+                                <li><a href="s_portfolio_sb.html">Sidebar Portfolio</a></li>
+								<li><a href="portfolio_single.html">Single Item</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="blog.html">Blog</a>
+							<ul>
+								<li><a href="s_blog_small.html">Small thumbnails</a></li>
+								<li><a href="s_blog_medium.html">Medium thumbnails</a></li>
+								<li><a href="blog.html">Large thumbnails</a></li>
+								<li><a href="post.html">Single Post</a></li>
+							</ul>
+						</li>
+                        <li><a href="contact.html">Contact</a></li>
+						<li><a href="#">Other Pages</a>
+							<ul>
+								<li><a href="services.html">Services</a></li>
+								<li><a href="404.html">404 Page</a></li>
+								<li><a href="sitemap.html">Sitemap</a></li>
+								<li><a href="s_index_layout2.html">Home Layout 2</a></li>
+								<li><a href="s_index_layout3.html">Home Layout 3</a></li>
+							</ul>
+						</li>
+                    </ul>
+                </nav>
+                
+                <form id="search" action="#">
+                    <fieldset>
+                        <input type="text" name="search" />
+                        <input type="submit" value="" />
+                    </fieldset>
+                </form>
+            </div>
+        </div><!-- end bottom header -->
+    </header><!-- END HEADER -->
+    
+    <section class="wrap container"><!-- BEGIN WRAP FOR CONTENT + SIDEBAR -->
+		
+		<!-- BEGIN CONTENT COLUMN -->
+        <div class="content left">
+			
+			<!-- Begin Portfolio Filter Menu -->
+			<ul class="portfolio_filter">
+				<li><a id="all" href="#" class="selected">All</a><span>+</span></li>
+				<li><a id="webdesign" href="#">Web Design</a><span>+</span></li>
+				<li><a id="typography" href="#">Typography</a><span>+</span></li>
+				<li><a id="artwork" href="#">Artwork</a><span>+</span></li>
+				<li><a id="video" href="#">Video</a></li>
+			</ul>
+			<!-- End Portfolio Filter Menu -->
+			
+			<!-- BEGIN PORTFOLIO CONTENT -->
+			<ul class="portfolio_content sb article_list small">
+			
+				<!-- 1st portfolio item -->
+				<li class="item" data-id="id-1" data-type="typography artwork">
+					<div class="img_frame left"><!-- begin image -->
+						<div class="container">
+							<ul>
+								<li><a class="single_image" href="images/portfolio/01_big.jpg"><img src="images/portfolio/thumbs/01_thumb_445.jpg" alt="" /></a></li
+								><li><a class="description" href="portfolio_single.html">read article</a></li>
+							</ul>
+						</div>
+					</div><!-- end image -->
+					
+					<article>
+						<h3><a href="#">Free Rider - Endless Journey</a></h3>
+						N ullam adipiscing ligula a lorem placerat pellentesque. Curabitur at purus felis, at iaculis urna.
+						<small class="details">
+							By <a href="#" class="article_author">administrator</a>
+							on <time datetime="2011-09-28" pubdate="pubdate">August 10, 2012</time>
+							in <a href="#" class="cat">Web Design</a>.
+							Comments: <a href="#" class="comm">12</a>.
+						</small>
+					</article>
+				</li><!-- end 1st -->
+				
+				<!-- 2nd portfolio item -->
+				<li class="item" data-id="id-2" data-type="artwork webdesign">
+					<div class="img_frame left"><!-- begin image -->
+						<div class="ribbon_featured"></div>
+						<div class="container">
+							<ul>
+								<li><a class="single_image" href="images/portfolio/02_big.jpg"><img src="images/portfolio/thumbs/thumb_sizes/thumb_130x80.jpg" alt="" /></a></li
+								><li><a class="description" href="portfolio_single.html">read article</a></li>
+							</ul>
+						</div>
+					</div><!-- end image -->
+					
+					<article>
+						<h3><a href="#">Thumbnails Size</a></h3>
+						This is exact thumbnails size for this page. You can use this thumbnails size for faster page loading.
+						<small class="details">
+							By <a href="#" class="article_author">navigator</a>
+							on <time datetime="2011-09-28" pubdate="pubdate">January 17, 2012</time>
+							in <a href="#" class="cat">Graphics</a>.
+							Comments: <a href="#" class="comm">23</a>.
+						</small>
+					</article>
+				</li><!-- end 2nd -->
+				
+				<!-- 3rd portfolio item -->
+				<li class="item" data-id="id-3" data-type="typography artwork">
+					<div class="img_frame left"><!-- begin image -->
+						<div class="container">
+							<ul>
+								<li><a class="single_image" href="images/portfolio/03_big.jpg"><img src="images/portfolio/thumbs/03_thumb_160.jpg" alt="" /></a></li
+								><li><a class="description" href="portfolio_single.html">read article</a></li>
+							</ul>
+						</div>
+					</div><!-- end image -->
+					
+					<article>
+						<h3><a href="#">Type Museum</a></h3>
+						Curabitur eleifend feugiat gravida. Class aptent taciti sociosqu ad litora torque nt aptent taciti. Fusce posuere velit vel sapien condimentum eget malesuada turpis tempor. Etiam ut nisl nisi. Suspendisse magna purus, scelerisque ut aliquet quis, malesuada vitae augue.
+						<small class="details">
+							By <a href="#" class="article_author">Mickey Mouse</a>
+							on <time datetime="2011-09-28" pubdate="pubdate">April 1, 2012</time>
+							in <a href="#" class="cat">Development</a>.
+							Comments: <a href="#" class="comm">57</a>.
+						</small>
+					</article>
+				</li><!-- end 3rd -->
+				
+				<!-- 4th portfolio item -->
+				<li class="item" data-id="id-4" data-type="video webdesign">
+					<div class="img_frame left"><!-- begin image -->
+						<div class="container">
+							<ul>
+								<li><a class="iframe" href="http://player.vimeo.com/video/23534361?title=0&amp;byline=0&amp;portrait=0"><img src="images/portfolio/thumbs/04_thumb_445.jpg" alt="" /></a></li
+								><li><a class="description" href="portfolio_single.html">read article</a></li>
+							</ul>
+						</div>
+					</div><!-- end image -->
+					
+					<article>
+						<h3><a href="#">The Animated Envato Community Podcast</a></h3>
+						N ullam adipiscing ligula a lorem placerat pellentesque. Curabitur at purus felis, at iaculis urna. 
+						<small class="details">
+							By <a href="#" class="article_author">administrator</a>
+							on <time datetime="2011-09-28" pubdate="pubdate">August 10, 2012</time>
+							in <a href="#" class="cat">Web Design</a>.
+							Comments: <a href="#" class="comm">12</a>.
+						</small>
+					</article>
+				</li><!-- end 4th -->
+				
+				<!-- 5th portfolio item -->
+				<li class="item" data-id="id-5" data-type="typography artwork">
+					<div class="img_frame left"><!-- begin image -->
+						<div class="container">
+							<ul>
+								<li><a class="single_image" href="images/portfolio/05_big.jpg"><img src="images/portfolio/thumbs/05_thumb_445.jpg" alt="" /></a></li
+								><li><a class="description" href="portfolio_single.html">read article</a></li>
+							</ul>
+						</div>
+					</div><!-- end image -->
+					
+					<article>
+						<h3><a href="#">McJunky Tiles</a></h3>
+						Phasellus eget enim hendrerit dolor adipiscing eleifend. Nulla velit dolor, mole stie sit amet malesuada eget, commodo in est. Phasellus eget enim hendrerit dolor adipiscing eleifend. Nulla velit dolor, mole stie sit amet malesuada eget, commodo in est. 
+						<small class="details">
+							By <a href="#" class="article_author">navigator</a>
+							on <time datetime="2011-09-28" pubdate="pubdate">January 17, 2012</time>
+							in <a href="#" class="cat">Graphics</a>.
+							Comments: <a href="#" class="comm">23</a>.
+						</small>
+					</article>
+				</li><!-- end 5th -->
+				
+				<!-- 6th portfolio item -->
+				<li class="item" data-id="id-6" data-type="artwork">
+					<div class="img_frame left"><!-- begin image -->
+						<div class="container">
+							<ul>
+								<li><a class="single_image" href="images/portfolio/06_big.jpg"><img src="images/portfolio/thumbs/06_thumb_445.jpg" alt="" /></a></li
+								><li><a class="description" href="portfolio_single.html">read article</a></li>
+							</ul>
+						</div>
+					</div><!-- end image -->
+					
+					<article>
+						<h3><a href="#">Twisting by the Pool</a></h3>
+						Curabitur eleifend feugiat gravida. Class aptent taciti sociosqu ad litora torque nt aptent taciti. Fusce posuere velit vel sapien condimentum eget malesuada turpis tempor. Etiam ut nisl nisi. Suspendisse magna purus, scelerisque ut aliquet quis, malesuada vitae augue.
+						<small class="details">
+							By <a href="#" class="article_author">Mickey Mouse</a>
+							on <time datetime="2011-09-28" pubdate="pubdate">April 1, 2012</time>
+							in <a href="#" class="cat">Development</a>.
+							Comments: <a href="#" class="comm">57</a>.
+						</small>
+					</article>
+				</li><!-- end 6th -->
+				
+			</ul>
+			<!-- END PORTFOLIO CONTENT -->
+			
+			<!-- Begin button bar -->
+			<ul class="button_bar">
+				<li><a class="button selected" href="#">1</a></li>
+				<li><a class="button" href="s_portfolio_sb_p2.html">2</a></li>
+				<li><a class="button" href="s_portfolio_sb_p3.html">3</a></li>
+				<li><a class="button" href="s_portfolio_sb_p2.html">Next</a></li>
+			</ul>
+			<!-- End button bar -->
+			
+        </div>
+		<!-- END CONTENT COLUMN -->
+		
+		<!-- BEGIN SIDEBAR -->
+        <aside class="right">
+           
+			<h3>Recent Posts</h3><!-- Begin Recent Posts -->
+            <ul class="post_list">
+                <li>
+					<a href="#"><img class="post_thumb" src="images/post_thumb1.jpg" alt="" /></a>
+					<div class="post_description">
+						<a class="post_caption" href="#">WordCamp San Francisco Call for Speakers</a>
+						<small class="details">
+							By <a href="#" class="article_author">administrator</a>
+							on <time datetime="2011-09-28" pubdate="pubdate">August 10, 2012</time>
+						</small>
+					</div></li>
+                <li>
+					<a href="#"><img class="post_thumb" src="images/post_thumb2.jpg" alt="" /></a>
+					<div class="post_description">
+						<a class="post_caption" href="#">Coming Up: Meet the Makers</a>
+						<small class="details">
+							By <a href="#" class="article_author">Mickey Mouse</a>
+							on <time datetime="2011-09-28" pubdate="pubdate">August 10, 2012</time>
+						</small>
+					</div></li>
+                <li>
+					<a href="#"><img class="post_thumb" src="images/post_thumb3.jpg" alt="" /></a>
+					<div class="post_description">
+						<a class="post_caption" href="#">Software Freedom Day</a>
+						<small class="details">
+							By <a href="#" class="article_author">navigator</a>
+							on <time datetime="2011-09-28" pubdate="pubdate">August 10, 2012</time>
+						</small>
+					</div></li>
+                <li>
+					<a href="#"><img class="post_thumb" src="images/post_thumb4.jpg" alt="" /></a>
+					<div class="post_description">
+						<a class="post_caption" href="#">Open Source Social Networking</a>
+						<small class="details">
+							By <a href="#" class="article_author">administrator</a>
+							on <time datetime="2011-09-28" pubdate="pubdate">August 10, 2012</time>
+						</small>
+					</div></li>
+            </ul><!-- End Recent Posts -->
+			
+			<h3>Most Popular</h3><!-- Begin Most Popular -->
+            <ul class="zebra_list">
+                <li><a href="#">WordCamp San Francisco Call for Speakers</a></li>
+                <li><a href="#">Coming Up: Meet the Makers</a></li>
+                <li><a href="#">Software Freedom Day</a></li>
+                <li><a href="#">Open Source Social Networking</a></li>
+            </ul><!-- End Most Popular -->
+			
+			<div class="separator small empty"></div>
+			
+			<h3>Latest Comments</h3><!-- Begin Most Comments -->
+            <ul class="post_list">
+                <li>
+					<a href="#"><img class="post_thumb" src="images/avatar1.jpg" alt="" /></a>
+					<div class="post_description">
+						<small class="details">
+							By <a href="#" class="article_author">Samantha</a> in
+						</small>
+						<a class="post_caption" href="#">WordCamp San Francisco Call for Speakers</a>
+					</div></li>
+                <li>
+					<a href="#"><img class="post_thumb" src="images/avatar2.jpg" alt="" /></a>
+					<div class="post_description">
+						<small class="details">
+							By <a href="#" class="article_author">Jessica Smith</a> in
+						</small>
+						<a class="post_caption" href="#">Coming Up: Meet the Makers</a>
+					</div></li>
+                <li>
+					<a href="#"><img class="post_thumb" src="images/avatar3.jpg" alt="" /></a>
+					<div class="post_description">
+						<small class="details">
+							By <a href="#" class="article_author">Johnatan Doe</a> in
+						</small>
+						<a class="post_caption" href="#">Software Freedom Day</a>
+					</div></li>
+            </ul><!-- End Most Comments -->
+			
+			<div class="separator small empty"></div>
+			
+			<ul class="adverts">
+                <li><a href="#"><img src="images/Smashing_Cat_Tour.png" alt="" title="Smashing Magazine" /></a></li>
+            </ul>
+			
+			<div class="separator small empty"></div>
+			
+			<h3>Tags</h3>
+			<ul class="tag_list">
+				<li><a href="#">ajax</a></li>
+				<li><a href="#">webdesign</a></li>
+				<li><a href="#">graphics</a></li>
+				<li><a href="#">jQuery</a></li>
+				<li><a href="#">android</a></li>
+				<li><a href="#">iPhone</a></li>
+				<li><a href="#">php</a></li>
+				<li><a href="#">documentation</a></li>
+				<li><a href="#">colours</a></li>
+			</ul>
+			
+        </aside>
+		<!-- END SIDEBAR -->
+		
+    </section><!-- END WRAP FOR CONTENT + SIDEBAR -->
+    
+    <footer><!-- BEGIN FOOTER -->
+		<div id="top_footer"><!-- begin top footer -->
+			<div class="wrap">
+				<div class="tweetsFeed"></div>
+			</div>
+		</div><!-- end top footer -->
+		
+		<div id="middle_footer"><!-- begin middle footer -->
+			<div class="wrap">
+				<div class="content left">
+					<div class="third">
+						<h3>Other Good Sites</h3>
+						<ul>
+							<li><a href="#">aboutn.com</a></li>
+							<li><a href="#">themeforest.net</a></li>
+							<li><a href="#">envato.com</a></li>
+							<li><a href="#">wordpress.org</a></li>
+							<li><a href="#">google.com</a></li>
+						</ul>
+					</div>
+					
+					<div class="third">
+						<h3>Categories</h3>
+						<ul>
+							<li><a href="#">Web Design (57)</a></li>
+							<li><a href="#">Development (39)</a></li>
+							<li><a href="#">Graphic Arts (15)</a></li>
+							<li><a href="#">User Interface (27)</a></li>
+							<li><a href="#">Uncategorized (4)</a></li>
+						</ul>
+					</div>
+					
+					<div class="third last">
+						<h3>Archive</h3>
+						<ul>
+							<li><a href="#">August 2012</a></li>
+							<li><a href="#">July 2012</a></li>
+							<li><a href="#">May 2012</a></li>
+							<li><a href="#">January 2012</a></li>
+							<li><a href="#">December 2011</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<aside class="right no_border">
+					<h3>About Sympathico</h3>
+					<p>This demo is purely for demonstration purposes. All the content is fictional and designed only to show off the Sympathico theme on a live site.</p>
+					<p>All images are copyrighted to their respective owners.</p>
+				</aside>
+			</div>
+		</div><!-- end middle footer -->
+		
+		<div id="bottom_footer"><!-- begin bottom footer -->
+			<div class="wrap">
+				<img src="images/logo_footer.png" class="left" alt="" />
+				<p class="right">This template is copyrighted. Envato - author navigator (c) 2012. Html5 & CSS3</p>
+			</div>
+		</div><!-- end bottom footer -->
+    </footer><!-- END FOOTER -->
+
+</body>
+</html>

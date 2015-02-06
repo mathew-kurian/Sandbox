@@ -1,0 +1,35 @@
+<form>
+	<title>Add New Module</title>
+	<action>{SELF.LINK}action=store</action>
+	<name>edit</name>
+	<width>100%</width>
+	<alternance>true</alternance>
+
+	<formtag>true</formtag>
+	<border>true</border>
+	
+	<buttons>		
+		<set>
+			<footer>true</footer>
+		</set>
+
+		<back location="{SELF.PREVIOUS}" button="return" />
+		<save onclick="" location="javascript:document.forms[0].submit();" button="next" />
+
+	</buttons>
+
+	<redirect>{SELF.LINK}</redirect>
+
+	<fields>
+		<comment_auto padding="20" type="comment" align="center" subtype="extern" file="add-module.htm" /> 
+
+		<set_module type="droplist" empty="true" validate="A:1:20" required="true" title="Select Module Type">
+			<relation table="core:modules" id="module_id" text="module_name" order="module_name" condition="module_unique=1"/>
+		</set_module>
+
+		<set_title type="textbox" size="40" validate="A:1:200" required="true" title="Menu Title" />
+
+
+	</fields>
+
+</form>

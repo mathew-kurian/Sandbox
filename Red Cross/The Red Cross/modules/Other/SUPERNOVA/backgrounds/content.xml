@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<content Delay="10000">
+  <bg Image="backgrounds/image1.jpg"/>
+  <bg Image="backgrounds/image2.jpg"/>
+  <bg Image="backgrounds/image3.jpg"/>
+  <bg Image="backgrounds/image4.jpg"/>
+  <bg Image="backgrounds/image5.jpg"/>
+  <bg Image="backgrounds/image6.jpg"/>
+</content>

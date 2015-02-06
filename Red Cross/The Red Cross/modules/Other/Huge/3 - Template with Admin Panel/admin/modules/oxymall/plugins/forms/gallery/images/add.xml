@@ -1,0 +1,100 @@
+<form>
+	<title>{SELF.TITLE} {TITLE} Image</title>
+	<action>{SELF.URI.STORE}</action>
+	<name>edit</name>
+	<width>100%</width>
+	<alternance>true</alternance>
+	<encoding>multipart/form-data</encoding>
+
+
+	<formtag>true</formtag>
+	<border>true</border>
+	
+	<buttons>		
+		<set>
+			<header>true</header>
+		</set>
+
+
+		<button_back onclick="" button="return">
+			<location>{PRIVATE.FORM_PREVIOUS_PAGE}</location>
+		</button_back>
+
+		<button_edit onclick="" button="edit">
+			<location>{SELF.URI.EDIT}</location>
+		</button_edit>
+
+		<button_save button="saveall">
+			<location>javascript:document.forms[0].submit();</location>
+		</button_save>
+
+	</buttons>
+
+	<redirect>{PHP}?sub=accounts</redirect>
+
+	<fields>
+		<item_id type="hidden"/>		
+		<item_order type="hidden"/>		
+		<module_id type="hidden" default="eval:$_GET[module_id]"/>		
+
+		<item_cat title="Album" type="droplist" empty="true" required="true" validate="A:1:4" default="eval:$_GET[item_cat];">
+			<relation table="plugin:gallery_cats" id="cat_id" text="cat_title" order="cat_order ASC">
+				<condition eval="true" import=" ' module_id=' . $_GET[module_id] . '';"/>
+			</relation>
+		</item_cat>
+
+		<item_image  valign="top" adminwidth="100" type="image" path="./galleries/" absolute="false" editable="true" >
+			<file default="tn_" field="item_id" ext=".jpg" />			
+			<title>Thumbnail ({SIZE} px)</title>
+			<error>No photo available.</error>						
+			<thumbnails>
+				<resize preffix="" generate="true" width="" height="" />
+				<tn preffix="admin_" generate="true" width="50" height="50" />
+			</thumbnails>
+		</item_image>
+
+		<item_image_large  valign="top" adminwidth="100" type="image" path="./galleries/" absolute="false" editable="true" >
+			<file default="" field="item_id" ext=".jpg" />			
+			<title>Large Image</title>
+			<error>No photo available.</error>						
+		</item_image_large>
+
+		<item_video valign="top" type="upload" path="./galleries/" absolute="false" editable="true" >
+			<file default="video_" field="item_id" ext=".flv" />			
+			<title>Video ( flv / mov )</title>
+			<error>No photo available.</error>						
+		</item_video>
+
+
+		<item_title type="textbox" size="60:200" title="Title" required="true" validate="A:2:200" onblur="AddPageCode(this.value);"/>
+		<item_url type="textbox" size="60:200" title="Url" required="true" validate="A:1:250" preffix="/#/module-url/category-url/" suffix="-#id/"/>
+		<item_urltitle type="textbox" size="60:200" title="Browser Title" required="true" validate="A:2:200" />
+
+		<item_description type="textarea" html="true" toolbar="Basic" width="600" height="200" title="Description" />
+
+		<subtitle_seo title="SEO Fields" type="subtitle" />
+		<seo_title type="textbox" size="90" title="Browser Title"/>
+		<seo_desc type="textarea" size="90:4" title="Meta Description"/>
+		<seo_keys type="textarea" size="90:4" title="Meta Keywords"/>
+
+		<subtitle_after title="&nbsp;" type="subtitle" />
+		<after_save type="after_save" />
+
+	</fields>
+
+	<javascript>
+		<after>
+			function AddPageCode(txt) {
+				if (document.forms['edit'].item_url.value == '') {
+					var url = Name2Url(txt.trim());
+					document.forms['edit'].item_url.value = url.toLowerCase();
+				}
+
+				if (document.forms['edit'].item_urltitle.value == '') {
+					document.forms['edit'].item_urltitle.value = txt;
+				}
+
+			}
+		</after>
+	</javascript>
+</form>

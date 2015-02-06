@@ -1,0 +1,44 @@
+<form>
+
+	<forms>
+		<add>images/add.xml</add>
+		<edit>images/edit.xml</edit>
+		<list>images/list.xml</list>
+	</forms>
+
+	<table>plugin:portfolio_items</table>
+	<table_uid>item_id</table_uid>
+
+
+	<URIdata>
+		<action>action</action>
+
+		<add>add</add>
+		<details>imagedetails</details>
+		<delete>delete</delete>
+		<edit>edit</edit>
+		<list>details</list>
+		<search>search</search>
+
+		<mup>moveup</mup>
+		<mdw>movedown</mdw>
+
+		<store>store</store>
+		<main>main</main>
+	</URIdata>
+
+
+	<URIlinks>
+		<main>index.php?mod=oxymall&sub=oxymall.plugin.portfolio.images&</main>
+		<add>index.php?mod=oxymall&sub=oxymall.plugin.portfolio.images&action=add&item_project={ITEM_PROJECT}&module_id={MODULE_ID}&returnurl={SELF.LOCATION}</add>
+		<edit>index.php?mod=oxymall&sub=oxymall.plugin.portfolio.images&item_id={ITEM_ID}&action=edit&module_id={MODULE_ID}&returnurl={SELF.LOCATION}</edit>
+		<delete>javascript:if(confirm('Are you sure you want to delete this record ?')) window.location='index.php?mod=oxymall&sub=oxymall.plugin.portfolio.images&item_id={ITEM_ID}&action=delete&module_id={MODULE_ID}&returnURL={SELF.LOCATION}'</delete>
+		<store>{SELF.LINK}{SELF.ACTION.STORE}&module_id={MODULE_ID}</store>
+
+		<move_down>index.php?mod=oxymall&sub=oxymall.plugin.portfolio.images&item_project={ITEM_PROJECT}&action=movedown&module_id={MODULE_ID}&item_order={ITEM_ORDER}&&returnurl={SELF.LOCATION}</move_down>
+		<move_up>index.php?mod=oxymall&sub=oxymall.plugin.portfolio.images&item_project={ITEM_PROJECT}&action=moveup&module_id={MODULE_ID}&item_order={ITEM_ORDER}&returnurl={SELF.LOCATION}</move_up>
+	</URIlinks>
+
+
+
+</form>

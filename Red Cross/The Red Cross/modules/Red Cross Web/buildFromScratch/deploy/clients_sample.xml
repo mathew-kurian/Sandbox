@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clients>
+
+	<settings 
+	
+		thumbWidth="150"
+		thumbHeight="70"
+		
+		rows="4"
+		cols="3"
+		
+		/>
+		
+		<list>
+		
+			<client src="pictureHere.jpg" url="http://urlHere.com" />
+		
+		</list>
+
+</clients>

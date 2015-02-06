@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- REDLINE Flash Template main data XML file -->
+<data>
+
+<!-- C O N F I G U R A T I O N -->
+
+	<!-- VIDEO BACKGROUND PRESETS -->
+	<videobkg>
+
+		<!-- VIDEO BACKGROUND FILE URL ( DEFAULT: bkg.flv ) -->
+		<url>bkg.flv</url>
+
+		<!-- VIDEO BACKGROUND ASPECT RATIO - PRESERVE ASPECT RATIO: on , DO NOT PRESERVE ASPECT RATIO: off ; DEFAULT: off -->
+		<aspectratio>off</aspectratio>
+
+		<!-- VIDEO BACKGROUND SLOW-MOTION PAUSE/PLAY TIME INTERVALS (milliseconds) AND SWITCH ( on/off ) WHEN AN AUDIO MP3 MEDDIA IS PLAYED -->
+		<slowmotion pause="50" play="50">on</slowmotion>
+
+	</videobkg>
+
+
+	<!-- AUDIO/VIDEO PRESETS -->
+	<AVpresets>
+
+		<!-- AMBIENT MUSIC AUTOSTART ON INIT (on/off) -->
+		<ambientautostart>on</ambientautostart>
+
+		<!-- AMBIENT MUSIC INITIAL VOLUME (0...100) -->
+		<ambientvolume>30</ambientvolume>
+
+		<!-- AUDIO STREAMS BUFFER (seconds) -->
+		<audiobuffer>10</audiobuffer>
+
+		<!-- GALLERIES AUTOPLAY TIME INTERVAL (seconds) -->
+		<autoplaytimer>15</autoplaytimer>
+
+		<!-- VIDEO STREAMS BUFFER (seconds) -->
+		<videobuffer>10</videobuffer>
+
+		<!-- GALLERIES AUDIO/VIDEO MEDIA'S INITIAL VOLUME (0...100) -->
+		<volume>90</volume>
+
+	</AVpresets>
+
+
+	<!-- RESOURCES - MINI-GALLERY/TEAM-MEMBERS/AUDIO/VIDEO/YOUTUBE'S DEFAULT THUMBNAILS, VIDEO/YOUTUBE(NORMAL AND HIGH QUALITY) LOGOS -->
+	<resources>
+
+		<!-- MINI-GALLERY'S DEFAULT THUMBNAIL (gif/jpg/png/swf file; no animation) -->
+		<thumbminigallery>resources/thumbminigallery.png</thumbminigallery>
+
+		<!-- TEAM-MEMBERS' DEFAULT THUMBNAIL (gif/jpg/png/swf file; no animation) -->
+		<thumbteam>resources/thumbteam.png</thumbteam>
+
+		<!-- AUDIO'S DEFAULT THUMBNAIL (gif/jpg/png/swf file; no animation) -->
+		<thumbaudio>resources/thumbaudio.png</thumbaudio>
+
+		<!-- VIDEO'S DEFAULT THUMBNAIL (gif/jpg/png/swf file; no animation) -->
+		<thumbvideo>resources/thumbvideo.png</thumbvideo>
+
+		<!-- YOUTUBE'S DEFAULT THUMBNAIL (gif/jpg/png/swf file; no animation) -->
+		<thumbyoutube>resources/thumbyoutube.png</thumbyoutube>
+
+		<!-- VIDEOS LOGO (gif/jpg/png/swf file; no animation) -->
+		<videos>resources/videos.png</videos>
+
+		<!-- YOUTUBE NORMAL QUALITY LOGO (gif/jpg/png/swf file; no animation) -->
+		<youtube>resources/youtube.png</youtube>
+
+		<!-- YOUTUBE HIGH QUALITY LOGO (gif/jpg/png/swf file; no animation) -->
+		<youtubehq>resources/youtubehq.png</youtubehq>
+
+	</resources>
+
+
+	<!-- REAL TIME SPECTRUM ANALYZER COLORS PRESETS - TWO COMBINATIONS IN THIS EXAMPLE (hexadecimal numbers, no prefix) -->
+	<spectrumcolors>
+
+		<item band="04A0FD" peak="FF0000" />
+
+		<item band="BBEEF0" peak="FF0000" />
+
+	</spectrumcolors>
+
+
+	<!-- THUMBNAILS DIMENSIONS (pixels) -->
+	<thumbnails>
+
+		<!-- MULTIMEDIA GALLERIES THUMBNAILS DIMENSIONS -->
+		<gallery height="100" width="150" />
+
+		<!-- MINI-GALLERIES THUMBNAILS DIMENSIONS -->
+		<minigallery height="120" width="200" />
+
+		<!-- NEWS GALLERIES THUMBNAILS DIMENSIONS -->
+		<news height="100" width="170" />
+
+		<!-- TEAM-MEMBERS GALLERIES THUMBNAILS DIMENSIONS -->
+		<team height="168" width="120" />
+
+	</thumbnails>
+
+
+	<!-- USE STYLED/RECTANGULAR SHAPES FOR THE MINI-GALLERY AND TEAM-MEMBERS GALLERY LEFT SIDE PICTURES ( on/off ) -->
+	<styledshape minigallery="on" team="on" />
+
+
+	<!-- EXTERNAL LINKS WINDOW OPENING OPTION ( values: new -OPENS IN A NEW WINDOW/TAB, same -OPENS IN THE SAME WINDOW; default: new ) -->
+	<linkswindow>new</linkswindow>
+
+
+	<!-- EXTERNAL CONTACT FORM'S URL -->
+	<contactform>contactform.swf</contactform>
+
+
+	<!-- HEADER TEXT (PLAIN TEXT) -->
+	<footer>Copyright ©2009 <font color="#AAAA88"><a href="http://flashden.net/user/21grame">REDLiNE Interactive</a></font>. All rights reserved</footer>
+
+
+	<!-- LOGO'S URL; THE showoverexternalswf ATTRIBUTE CONTROLS WHETHER THE LOGO IS DISPLAYED OR HIDDEN WHEN AN EXTERNAL SWF IS LOADED - VALUES: on OR off ( DEFAULT: off ) -->
+	<logo showoverexternalswf="off">resources/logo.swf</logo>
+
+
+	<!-- PayPal FEATURE PARAMETERS -->
+	<paypal>
+
+		<business>yourpaypaladdress@somedomain.com</business>
+
+		<currency>USD</currency>
+
+		<location>US</location>
+
+		<shoppingurl>www.yourshoppingcartsite.com</shoppingurl>
+
+
+		<!-- ITEMs' ID PREFIX (MAY BE UPDATED DEPENDING ON THE LANGUAGE IN USE - ENGLISH HERE) -->
+		<itemid>ITEM ID:</itemid>
+
+		<!-- ITEMS' PRICE PREFIX (MAY BE UPDATED DEPENDING ON THE LANGUAGE IN USE - ENGLISH HERE) -->
+		<itemprice>ITEM PRICE:</itemprice>
+
+
+		<!-- PayPal LOGO URL -->
+		<pplogo>resources/paypal.swf</pplogo>
+
+	</paypal>
+
+
+	<!-- AMBIENT MUSIC PLAYLIST -->
+	<ambient>
+
+		<item>data/ambient/01-Doc_Lena_Selyanina-Sleepless_in_Dresden.mp3</item>
+
+		<item>data/ambient/01-The_Last_Days.mp3</item>
+
+	</ambient>
+
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+<!-- N A V I G A T I O N -->
+
+	<nav>
+
+		<!-- MAIN MENU ITEMS -->
+		<item label="HOME">
+
+			<!-- SOME EXTERNAL RUNTIME LOADED SWF FILE URL (AN INTRO) -->
+			<loadswf ambient="on">data/startpage.swf</loadswf>
+
+			<!-- for an external SWF file loaded with the ambient music turned off: <loadswf ambient="off">data/startpage.swf</loadswf> -->
+
+		</item>
+
+
+		<item label="TEMPLATE FEATURES">
+
+			<item label="General Features"><li>fully <font color="FFFFFF"><b>XML driven</b></font>; very simple XML;</li><li><font color="FFFFFF"><b>multilingual</b></font> - ready for any language (chinese, japanese, arabic, russian etc.), including combinations of two or more languages; just fill the text in XML;</li><li>replaceable <font color="FFFFFF"><b>video background</b></font> - external FLV video, easily replaceable, just copy and paste;</li><li><font color="FFFFFF"><b>HTML formatted text</b></font> support - the use of CDATA is not necessary; just write the HTML tags in XML directly;</li><li>the template is <font color="FFFFFF"><b>extendable via the XML by loading external SWF files</b></font> (with control over the ambient music); an example is the HOME page of the preview;</li><li><font color="FFFFFF"><b>PayPal Buy</b></font> option for the items presented in the galleries;</li><li><font color="FFFFFF"><b>menus based navigations with unlimited levels of submenus</b></font> - no setup/coding necessary, just define the items in XML;</li><li><font color="FFFFFF"><b>news</b></font> presentation;</li><li><font color="FFFFFF"><b>team members</b></font> presentation;</li><li><font color="FFFFFF"><b>menus and buttons customization</b></font> details in the User Guide;</li><li>powerful <font color="FFFFFF"><b>multimedia galleries</b></font>;</li><li>info <font color="FFFFFF"><b>mini galleries</b></font> (image and text, side by side);</li><li>ambient music playlist (XML) and control;</li><li>free to <font color="FFFFFF"><b>place the external SWF pages, external links, content (html text) pages, galleries, news, team-members anywhere</b></font> among the menu/submenus' items and to use them repeatedly;</li><li><font color="FFFFFF"><b>replaceable external SWF+PHP contact form</b></font>;</li><li><font color="FFFFFF"><b>external logo</b></font> (GIF, JPG, PNG, SWF) loaded via XML;</li><li>lightweight file: the declared size of 128kb includes all mentioned capabilities and all players.</li></item>
+
+			<item label="Multimedia Galleries Capabilities"><li>direct <font color="FFFFFF"><b>YouTube media stream</b></font> (normal and high quality) with full user control; requires PHP support on server;</li><li><font color="FFFFFF"><b>GIF/JPG/PNG images</b></font> presentation with scaling and zoom control;</li><li><font color="FFFFFF"><b>SWF Flash animations</b></font> with full control;</li><li>FLV-H.264 <font color="FFFFFF"><b>videos</b></font> presentation with full control;</li><li><font color="FFFFFF"><b>MP3</b></font> audios presentation with full control, customizable (XML) <font color="FFFFFF"><b>Real Time Spectrum Analyzer</b></font> and customizable (XML) <font color="FFFFFF"><b>slow-motion video effect</b></font>;</li><li><font color="FFFFFF"><b>the previously enumerated media types can be added all together to a gallery</b></font>;</li><li><font color="FFFFFF"><b>gallery auto-play</b></font> (slide-show) with play/pause control;</li><li><font color="FFFFFF"><b>ambient music automatic fade-out/fade-in</b></font> when a video, an audio or a swf starts/ends;</li><li><font color="FFFFFF"><b>no need to create thumbnails</b></font> for the items added to the galleries - the template implements an advanced Automatic Thumbnails Generator (ATG). This means it is not necessary to provide thumbnails for the images, videos or audios you add to a gallery – in case of images, the ATG mechanism will silently download in the “background” the image itself WHEN the bandwidth is not used (the download is suspended when a multimedia file is loaded and resumed when the loading process ends) and the result (bitmap data) will be resized (in order to save memory resources) and used as thumbnail (the thumbnails dimensions are defined in the data.xml file); in case of audios, videos and YouTube streamed materials default thumbnails are provided; positive side effects: the gallery loads instantly; the loaded images remain in cache (on the website visitor’s computer) and are immediately available when necessary; in addition, you had the possibility to indicate a specific thumbnail to be displayed in case of a gallery item.</li></item>
+
+			<item label="Extending Your Website Capabilities">You are able to extend your website capabilities by loading standalone external SWF files (simply by indicating the URL/path to that external SWF file in the XML file). The User Guide includes details and a practical example about how to do this.</item>
+
+			<item label="Configuration">The template is ready for direct use - default values are provided. Though, you had the possibility to modify the default setup by altering the parameters in the XML file - some of the parameters which are available for changes:<br /><br /><li>the <font color="FFFFFF"><b>video background URL/path</b></font>;</li><li>the <font color="FFFFFF"><b>video background scale mode</b></font> (preserving or not the aspect ratio);<br /></li><li>the <font color="FFFFFF"><b>ambient music initial auto-start</b></font> or not;</li><li>the <font color="FFFFFF"><b>ambient music initial volume</b></font>;</li><li>the <font color="FFFFFF"><b>ambient music playlist</b></font> (the URLs/paths to the MP3 files);</li><li>the MP3 <font color="FFFFFF"><b>audio stream buffer length</b></font>;</li><li>the <font color="FFFFFF"><b>video stream buffer length</b></font>;</li><li>the multimedia <font color="FFFFFF"><b>galleries auto-play timer</b></font>;</li><li>the multimedia <font color="FFFFFF"><b>galleries initial sound volume</b></font>;</li><li>the <font color="FFFFFF"><b>Real Time Spectrum Analyzer color presets</b></font> for bands and peak levels;</li><li>the multimedia, mini, news and team-members <font color="FFFFFF"><b>galleries thumbnails dimensions</b></font> - height and width;<br /></li><li><font color="FFFFFF"><b>media watermarks</b></font> (video, YouTube normal/high quality);</li><li>the mode the <font color="FFFFFF"><b>external links will open</b></font>: in a new window/tab or in the same window</li><li>the <font color="FFFFFF"><b>contact form URL/path</b></font> (in case you want to use a different contact form than the one provided by this template);</li><li>the <font color="FFFFFF"><b>text placed in header</b></font> (usually copyright info); the text is HTML formatted - links are available too;</li><li>your <font color="FFFFFF"><b>logo external file (GIF/JPG/PNG/SWF) URL/path</b></font>;<br /></li><li>the <font color="FFFFFF"><b>PayPal configuration</b></font> (if you want to sell items via PayPal): your bussiness e-mail address, PayPal currency (USD by default), location (US by default), your shopping cart site, item ID and PRICE (if you want to be displayed in a language other than english);</li></item>
+
+		<item label="Visual Customization"><li><font color="FFFFFF"><b>change the video background</b></font> by replacing it with a different one - just copy and paste the new video background (and update the XML with the new URL/path if the new video file has a different name and/or is located elsewhere); this simple operation will have a major impact over your website general look and feel;</li><li><font color="FFFFFF"><b>change the main decoration element - the red line</b></font>; this is an unique movie clip in the FLA file library (details in the User Guide on how to retrieve this movie clip in the library); once this movie clip changes (animation, colors...) you'll see the results in your entire website;</li><li><font color="FFFFFF"><b>change the interface controls - buttons, menus, highlight bars etc.</b></font> aspect; these controls are all movie clips in the FLA file library and you are free to customize them (animations, colors...); the User Guide provides details on how to retrieve these movie clips in the library;</li><li><font color="FFFFFF"><b>change the text styles (colors, font size, font weight etc.)</b></font> for all the text displaying units of the template in the CSS manner (details provided in the User Guide)</li><li><font color="FFFFFF"><b>change the left side images display style for the team-members and mini-galleries</b></font> in the XML directly: choose a rectangular or a styled contour - you are able to modify the styled contour by editing the FLA file</li></item>
+
+		</item>
+
+
+		<!-- SOME CONTENT TEXT (HTML FORMATTED TEXT) -->
+		<item label="ABOUT US..."><span class="title">Dynamic content with HTML formatted text</span><br /><br /><img src="data/aboutus/highlights.swf" />All supported HTML tags are available - <b><font color="#FFFFFF">no need to use CDATA</font></b>. <a href="http://www.google.com/">Links</a>, lists, GIF, JPG or PNG images, SWF Flash animations, <b>bold</b>, <i>italic</i>, <u>underlined</u> text etc. can be inserted using standard HTML tags.<br />A set of basic predefined styles is allready built in; all these styles can be modified; more styles can be easily added if necessary.<br />Показывать страницы на Искать страницы, расположенные в показывать результаты<br />旦物质和能量的交换停止，生物体的结构和系统就会解体。代谢中的化学反应可以被归纳为代谢途径，通过一系列酶的作用将<br /> لت المعارضة التايلندية في تنفيذ إضرابها بين عارع بانكوك أي صدامات بين مؤيدين للحكومة ومعارضيها، فيفشلت المعارضة التايلندية في تنفيذ إضرابها بين عمال القطاع العام لدفع رئيس الوزراء إلى الاستقالة حيث </item>
+
+
+		<item label="TEAM MEMBERS<br />وك أي صدامات بين مؤيدمة ومعارضيها، فيفشلت">
+
+			<!-- SOME TEAM MEMBERS GALLERY URL -->
+			<team>data/team.xml</team>
+
+		</item>
+
+
+		<item label="NEWS<br />旦物质和能量的交换停止，">
+
+			<!-- SOME NEWS GALLERY URL -->
+			<news>data/news.xml</news>
+
+		</item>
+
+
+		<item label="PORTFOLIO<br />Photography, Audio, Video...">
+
+			<!-- SUBMENUS ITEMS -->
+
+			<item label="AUDIO<br />MP3 audio gallery">
+
+				<item label="Jazz, NuJazz, TripHop">
+					<gallery>data/jazz.xml</gallery>
+				</item>
+		
+				<item label="Trance, Electro">
+					<gallery>data/trance.xml</gallery>
+				</item>
+
+			</item>
+
+
+			<item label="VIDEO">
+
+				<!-- SOME GALLERY URL -->
+				<gallery>data/video.xml</gallery>
+
+			</item>
+
+
+			<item label="PHOTOGRAPHY<br />Pictures collections">
+
+				<item label="Studio">
+
+					<!-- SOME OTHER GALLERY URL -->
+					<gallery>data/studio.xml</gallery>
+				</item>
+		
+				<item label="Global Positioning System">
+					<gallery>data/gps.xml</gallery>
+				</item>
+		
+			</item>
+
+
+			<item label="INTERACTIVE<br />Web productions">
+				<gallery>data/interactive.xml</gallery>
+			</item>
+
+
+			<item label="STUDIO ARCHIVES<br />208, 2007...">
+
+				<item label="A.D.2007 Archive<br />Year 2007 videos, audios and photographies (mixed gallery)">
+					<gallery>data/archive2007.xml</gallery>
+				</item>
+
+				<item label="A.D.2008 Archive<br />Year 2008 videos, audios and photographies (mixed gallery)">
+					<gallery>data/archive2008.xml</gallery>
+				</item>
+		
+			</item>
+
+
+		</item>
+
+
+		<item label="CASE STUDIES">
+
+			<item label="ORGANIC Project<br />Some mini-gallery example">
+				<minigallery>data/casestudy.xml</minigallery>
+			</item>
+
+			<item label="Objectives">You're free to <b><font color="#FFFFFF">place external links</font></b> HTML formatted <b><font color="#FFFFFF">text content</font></b>, multimedia <b><font color="#FFFFFF">galleries</font></b>, <b><font color="#FFFFFF">news</font></b> galleries, <b><font color="#FFFFFF">team-members</font></b> galleries or <b><font color="#FFFFFF">external pages</font></b> (SWF files which are loaded via XML) <b><font color="#FFFFFF">wherever you like in the menu/submenus system navigation</font></b> you had built.<br /><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mauris pede, elementum et, gravida id, porttitor quis, tellus. Maecenas felis metus, iaculis eu, egestas non, pulvinar sed, tellus. Vestibulum in erat. Donec blandit ullamcorper tortor. Maecenas aliquet. Cras convallis posuere odio. Proin tellus dolor, mattis id, rutrum a, laoreet non, mi. Proin tempus molestie magna. Ut eu est sit amet risus bibendum porta. Vivamus sed tellus. Pellentesque gravida lectus id dolor. Quisque blandit, quam eget malesuada congue, lacus elit adipiscing lacus, id pellentesque sem ante eget sapien.<br /><br />Integer ac odio. Sed faucibus. Phasellus ornare. Phasellus ut nulla non lorem congue hendrerit. Praesent gravida pellentesque tellus. Integer velit risus, condimentum porttitor, feugiat non, posuere at, augue. Phasellus gravida. Cras ac nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis porta, justo quis elementum euismod, erat lectus euismod est, a lobortis quam quam ut odio. Cras augue. Nunc sollicitudin, sapien vitae tristique dapibus, metus purus posuere felis, vitae fringilla urna est ac sapien. Nulla diam turpis, pretium eu, tincidunt vitae, malesuada a, erat. Sed porta, ipsum ac pharetra dapibus, elit orci tristique magna, et nonummy nulla libero eu urna. Duis tincidunt. Donec vel nunc. Suspendisse potenti. Donec purus. Sed elit urna, cursus eget, facilisis ut, pretium nec, purus. Nullam aliquam vestibulum lacus.<br />Vestibulum hendrerit. Aenean eget tellus ut lacus ultrices facilisis. Nullam massa. Duis feugiat justo ut lorem. Aenean consectetuer convallis purus. Nam erat metus, ultrices nec, nonummy eu, aliquam eu, tortor. Ut condimentum. Cras pellentesque scelerisque tortor. Nam sollicitudin lacus non magna. Mauris convallis. Vestibulum ut mi. Suspendisse potenti.</item>
+
+		</item>
+
+		<!-- SOME EXTERNAL LINK -->
+		<item label="LINKED<br />Some external link">
+			<link>http://flashden.net/user/21grame</link>
+		</item>
+
+	</nav>
+
+</data>

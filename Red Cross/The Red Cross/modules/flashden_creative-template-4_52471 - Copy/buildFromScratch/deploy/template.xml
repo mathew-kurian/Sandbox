@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+
+	<settings
+	
+		mainTitle="Creative Template 4"
+	
+		menuButton="0xDE1E59"
+		menuText="0xFFFFFF"
+		menuButtonRoll="0x000000"
+		menuTextRoll="0xFF0066"
+		
+		title="Creative     Template    4"
+		subtitle="a creative template for creative people"
+		
+		titleColor="0xDE1E59"
+		titleText="0xFFFFFF"
+		subtitleText="0xFFFFFF"
+		
+		useOnlyOneBackground="false"
+		back="backgrounds/backgroundHere.jpg"
+		backPattern="backgrounds/patternHere.png"
+		backPatternOpacity="15"
+		backBrightness="85"
+		
+		preloaderColor="0xDE1E59"
+		preloaderText="0xFFFFFF"
+		
+		containerColor="0x000000"
+		containerOpacity="75"
+		containerPreloader="0xFFFFFF"
+		
+		backgroundMusic="musicHere.mp3"
+		footerIconsColor="0xFF0066"
+	
+	/>
+	
+	<pages>
+	
+		<page title1="First title" title2="Secondary title" pageTitle="Page title" type="single" back="background.jpg" height="300" src="swfHere.swf" xmlPath="xmlHere.xml" />
+		
+		<page title1="First title" title2="Secondary title" pageTitle="Page title" type="multiple" back="background.jpg">
+		
+			<subpage title="Title" back="background.jpg" pageTitle="Page title" height="300" src="swfHere.swf" xmlPath="xmlHere.xml" />
+			<subpage title="Title" back="background.jpg" pageTitle="Page title" height="300" src="swfHere.swf" xmlPath="xmlHere.xml" />
+		
+		</page>
+		
+		<page title1="First title" title2="Secondary title" type="link" src="http://url.com" />
+	
+	</pages>
+
+</template>

@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/physics
+END
+DaeRigidConstraint.as
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/physics/DaeRigidConstraint.as
+END
+DaePhysicsModel.as
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/physics/DaePhysicsModel.as
+END
+DaeCylinder.as
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/physics/DaeCylinder.as
+END
+DaeRigidBody.as
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/physics/DaeRigidBody.as
+END
+DaeTaperedCylinder.as
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/physics/DaeTaperedCylinder.as
+END
+DaeConvexMesh.as
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/ascollada/physics/DaeConvexMesh.as
+END
+DaeSphere.as
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/physics/DaeSphere.as
+END
+DaeInstancePhysicsMaterial.as
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/physics/DaeInstancePhysicsMaterial.as
+END
+DaeInstanceForceField.as
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/physics/DaeInstanceForceField.as
+END
+DaeInstancePhysicsModel.as
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/physics/DaeInstancePhysicsModel.as
+END
+DaeBox.as
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/ascollada/physics/DaeBox.as
+END
+DaeCapsule.as
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/physics/DaeCapsule.as
+END
+DaePlane.as
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/physics/DaePlane.as
+END
+DaeShape.as
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/physics/DaeShape.as
+END
+DaePhysicsScene.as
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/physics/DaePhysicsScene.as
+END
+DaeInstanceRigidBody.as
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/physics/DaeInstanceRigidBody.as
+END
+DaePhysicsMaterial.as
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/physics/DaePhysicsMaterial.as
+END
+DaeTaperedCapsule.as
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/physics/DaeTaperedCapsule.as
+END
+DaeForceField.as
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/359/trunk/branches/GreatWhite/src/org/ascollada/physics/DaeForceField.as
+END

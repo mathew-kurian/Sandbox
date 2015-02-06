@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/475/trunk/branches/GreatWhite/src/org/papervision3d/view
+END
+AbstractView.as
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/view/AbstractView.as
+END
+BitmapViewport3D.as
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/451/trunk/branches/GreatWhite/src/org/papervision3d/view/BitmapViewport3D.as
+END
+Viewport3D.as
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/446/trunk/branches/GreatWhite/src/org/papervision3d/view/Viewport3D.as
+END
+BasicView.as
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/462/trunk/branches/GreatWhite/src/org/papervision3d/view/BasicView.as
+END

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<sprayart rows="1" columns="11">
+	<items>
+			<item>
+				<image src="asset/sprayart/sample1.jpg" />
+				<description> <![CDATA[<title>Photo Description: Spray Art 1 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/sprayart/sample2.jpg" />
+				<description> <![CDATA[<title>Photo Description: Spray Art 2 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/sprayart/sample3.jpg" />
+				<description> <![CDATA[<title>Photo Description: Spray Art 3 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/sprayart/sample4.jpg" />
+				<description> <![CDATA[<title>Photo Description: Spray Art 4 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/sprayart/sample5.jpg" />
+				<description> <![CDATA[<title>Photo Description: Spray Art 5 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/sprayart/sample6.jpg" />
+				<description> <![CDATA[<title>Photo Description: Spray Art 6 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/sprayart/sample7.jpg" />
+				<description> <![CDATA[<title>Photo Description: Spray Art 7 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/sprayart/sample8.jpg" />
+				<description> <![CDATA[<title>Photo Description: Spray Art 8 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/sprayart/sample9.jpg" />
+				<description> <![CDATA[<title>Photo Description: Spray Art 9 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/sprayart/sample10.jpg" />
+				<description> <![CDATA[<title>Photo Description: Spray Art 10 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/sprayart/sample11.jpg" />
+				<description> <![CDATA[<title>Photo Description: Spray Art 11 </title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi ...<a href="event:http://www.flashden.net/user/RimV"> Link </a>]]> </description>
+			</item>
+	</items>
+</sprayart>

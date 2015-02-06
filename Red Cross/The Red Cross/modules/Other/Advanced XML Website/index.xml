@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<content>
+    <settings>
+        <logo X="5" Y="30">content/logo.png</logo>
+        <footer><![CDATA[Advanced XML Website by <font color="#00FFFF"><a href="http://www.flashden.net/user/digitalscience" target="_blank">DigitalScience</a></font>]]></footer>
+        <menu showNav="true"/>
+    </settings>
+    <nav>
+        <main Name="HOME" Link="home.swf"/>
+        <main Name="FEATURES" Link="content.swf" toLoad ="content/features.xml"/>
+        <main Name="SLIDE SHOW" Link="slideshow.swf"/>
+        <main Name="TEAM MEMBERS" Link="team.swf"/>
+        <main Name="SUBMENU EXAMPLE">
+                <sub Name="SLIDE SHOW" Link="slideshow.swf"/>
+                <sub Name="CONTENT WINDOW" Link="content.swf" toLoad ="content/window.xml"/>
+                <sub Name="NEWS" Link="news.swf"/>
+      		<sub Name="IMAGE GALLERY" Link="imagegallery.swf"/>
+                <sub Name="VIDEO GALLERY" Link="videogallery.swf"/>
+        </main>
+        <main Name="CONTENT WINDOW" Link="content.swf" toLoad ="content/window.xml"/>
+        <main Name="NEWS" Link="news.swf"/>
+        <main Name="IMAGE GALLERY" Link="imagegallery.swf"/>
+        <main Name="VIDEO GALLERY" Link="videogallery.swf"/>
+        <main Name="CONTACT US" Link="contact.swf"/>
+	<main Name="FORUM" Link="join.swf"/>
+    </nav>
+</content>
+
+

@@ -1,0 +1,42 @@
+License: Creative Commons - Attribution (CC-BY)
+http://creativecommons.org/licenses/by/2.0/deed.en
+
+file: 2870505603_3ab5c48fb5_o.jpg
+credits: nyki m
+license: CC-BY
+url: http://flickr.com/photos/nyki_m/2870505603/
+
+file: 2865706353_8e2aaaa33d_o.jpg
+credits: nyki m
+license: CC-BY
+url: http://flickr.com/photos/nyki_m/2865706353/
+
+file: 2869763112_ce15b11910_o.jpg
+credits: nyki m
+license: CC-BY
+url: http://flickr.com/photos/nyki_m/2869763112/
+
+file: 2922700903_eb0f7c05cc_o.jpg
+credits: nyki m
+license: CC-BY
+url: http://flickr.com/photos/nyki_m/2922700903/in/set-72157606486275466/
+
+file: 2315741298_e784232bcd_o.jpg
+credits: freeparking
+license: CC-BY
+url: http://flickr.com/photos/freeparking/2315741298/in/set-72157601781523502/
+
+file: 2909905189_f05c4ed09e_o.jpg
+credits: nyki m
+license: CC-BY
+url: http://flickr.com/photos/nyki_m/2909905189/in/photostream/
+
+file: 3064243818_b737f065b3_o.jpg
+credits: nyki m
+license: CC-BY
+url: http://flickr.com/photos/nyki_m/3064243818/
+
+file: 2964828631_1d12e4196b_o.jpg
+credits: trialsanderrors
+license: CC-BY
+url: http://flickr.com/photos/trialsanderrors/2964828631/in/set-72157605978562992/

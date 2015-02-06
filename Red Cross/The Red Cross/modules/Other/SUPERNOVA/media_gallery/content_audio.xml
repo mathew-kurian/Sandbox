@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<content>
+
+<gallery Name="AUDIO">
+    <item Thumb="media_gallery/audio/thumb1.jpg" Large="media_gallery/audio_player.swf" toLoad="media_gallery/audio/track1.mp3" Title="ADG3 Studios - Abstract Construct">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>ADG3 Studios - Abstract Construct</b></font><br>audio track produced by <a href="http://www.audiojungle.net/user/ADG3studios" target="_blank">ADG3studios</a>. To listen and to purchase more tracks from this artist, <a href="http://www.audiojungle.net/user/ADG3studios/portfolio" target="_blank">click here</a>.]]></copy>
+    </item>
+    <item Thumb="media_gallery/audio/thumb1.jpg" Large="media_gallery/audio_player.swf" toLoad="media_gallery/audio/track2.mp3" Title="ADG3 Studios - Digital Science">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>ADG3 Studios - Digital Science</b></font><br>audio track produced by <a href="http://www.audiojungle.net/user/ADG3studios" target="_blank">ADG3studios</a>. To listen and to purchase more tracks from this artist, <a href="http://www.audiojungle.net/user/ADG3studios/portfolio" target="_blank">click here</a>.]]></copy>
+    </item>
+    <item Thumb="media_gallery/audio/thumb1.jpg" Large="media_gallery/audio_player.swf" toLoad="media_gallery/audio/track3.mp3" Title="ADG3 Studios - Encrypted Cypher">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>ADG3 Studios - Encrypted Cypher</b></font><br>audio track produced by <a href="http://www.audiojungle.net/user/ADG3studios" target="_blank">ADG3studios</a>. To listen and to purchase more tracks from this artist, <a href="http://www.audiojungle.net/user/ADG3studios/portfolio" target="_blank">click here</a>.]]></copy>
+    </item>
+    <item Thumb="media_gallery/audio/thumb1.jpg" Large="media_gallery/audio_player.swf" toLoad="media_gallery/audio/track4.mp3" Title="ADG3 Studios - Silhouettes">
+	<copy><![CDATA[<font color="#FFFFFF" size="15"><b>ADG3 Studios - Silhouettes</b></font><br>audio track produced by <a href="http://www.audiojungle.net/user/ADG3studios" target="_blank">ADG3studios</a>. To listen and to purchase more tracks from this artist, <a href="http://www.audiojungle.net/user/ADG3studios/portfolio" target="_blank">click here</a>.]]></copy>
+    </item>
+</gallery>
+
+</content>

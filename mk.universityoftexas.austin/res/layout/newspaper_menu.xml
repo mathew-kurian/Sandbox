@@ -1,0 +1,1240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mk.universityoftexas.austin.LightingLayoutRelative xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/log"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/newspaper_menu_bg"
+        android:orientation="vertical" >
+
+        <mk.universityoftexas.austin.OverlayProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <RelativeLayout
+            android:id="@+id/newspaper_sheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/newspaper_menu_paper"
+            android:paddingLeft="30dp" android:visibility="invisible">
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#000000" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="500dp"
+                    android:layout_height="wrap_content" >
+
+                    <ScrollView
+                        android:id="@+id/scrollView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:fadingEdgeLength="0dp"
+                        android:scrollbars="none" >
+
+                        <LinearLayout
+                            android:id="@+id/newspaper_menu_holder_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS0"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LO"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS9"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS11"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS12"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS14"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS15"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS16"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS17"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS18"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS19"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS20"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS21"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS22"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS23"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS24"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS25"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS26"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS27"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS28"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS29"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS30"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS31"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS32"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS33"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS34"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS35"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS36"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS37"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS38"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS39"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS40"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS41"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS42"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS43"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS44"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS45"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS46"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS47"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS48"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS49"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS50"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS51"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS52"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS53"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS54"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS55"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS56"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS57"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS58"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS59"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS60"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS61"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS62"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS63"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS64"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS65"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS66"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS67"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS68"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS69"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS70"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS71"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS72"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS73"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS74"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS75"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS76"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS77"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS78"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS79"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS80"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS81"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#000000"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#FFFFFF" />
+
+                            <mk.universityoftexas.austin.HighlightedTextView
+                                android:id="@+id/RSS82"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:text="THIS IS A LOT OF TEXT SPACE"
+                                android:textColor="#000000" />
+                        </LinearLayout>
+                    </ScrollView>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6dp"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/newspaper_menu_article_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TextView"
+                            android:textColor="#000000" />
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout01"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#000000" >
+                        </LinearLayout>
+
+                        <ScrollView
+                            android:id="@+id/scrollView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fadingEdgeLength="0dp"
+                            android:scrollbars="none" >
+
+                            <LinearLayout
+                                android:id="@+id/linearLayout6"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/newspaper_menu_article_description"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="TextView"
+                                    android:textColor="#000000" />
+
+                                <TextView
+                                    android:id="@+id/newspaper_menu_article_content"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="TextView"
+                                    android:textColor="#000000" />
+                            </LinearLayout>
+                        </ScrollView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</mk.universityoftexas.austin.LightingLayoutRelative>

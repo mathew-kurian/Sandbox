@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<content>
+    <settings>
+        <logo X="5" Y="6">content/logo.png</logo>
+        <footer><![CDATA[Supernova XML Website by <font color="#00FFFF"><a href="http://www.flashden.net/user/digitalscience" target="_blank">Sevenup</a></font>]]></footer>
+        <menu X="160"/>
+    </settings>
+    <nav>
+        <main Name="HOME" Link="home.swf"/>
+        <main Name="VIDEO GALLERY" Link="media_gallery.swf" toLoad="slideshow/content_video.xml"/>
+        <main Name="TEAM MEMBERS" Link="team.swf"/>
+        <main Name="MEDIA GALLERY" Link="media_gallery.swf"/>
+	<main Name="STANDALONE GALLERIES" Link="content.swf" toLoad="content/content_about_standalone.xml">
+		<sub Name="IMAGE GALLERY" Link="media_gallery.swf" toLoad="media_gallery/content_image.xml"/>
+		<sub Name="VIDEO GALLERY" Link="media_gallery.swf" toLoad="media_gallery/content_video.xml"/>
+		<sub Name="AUDIO GALLERY" Link="media_gallery.swf" toLoad="media_gallery/content_audio.xml"/>
+		<sub Name="FLASH GALLERY" Link="media_gallery.swf" toLoad="media_gallery/content_flash.xml"/>
+		<sub Name="MIXED MEDIA GALLERY" Link="media_gallery.swf" toLoad="media_gallery/content_mixed.xml"/>
+        </main>
+        <main Name="CONTENT WINDOW" Link="content.swf" toLoad="team/content.xml"/>
+        <main Name="NEWS" Link="news.swf"/>
+        <main Name="CONTACT US" Link="contact.swf"/>
+        <main Name="EXTERNAL LINK" Link="http://www.flashden.net"/>
+	<main Name="COMMENTS" Link="comments.swf"/>
+
+    </nav>
+</content>
+
+

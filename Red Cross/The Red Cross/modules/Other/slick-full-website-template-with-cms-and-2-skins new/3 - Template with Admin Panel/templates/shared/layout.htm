@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>{PUB:SEO_TITLE}</title>
+	<meta name="Description" content="{PUB:SEO_DESC}" />
+	<meta name="Keywords" content="{PUB:SEO_KEYS}" />
+
+	<base href="{PRIV.BASE.HREF}" />
+
+	<script type="text/javascript" src="js/swfobject.js"></script>
+	<script type="text/javascript" src="js/swfaddress-optimizer.js"></script>
+	<script type="text/javascript" src="js/swfaddress.js"></script>
+	<link media="screen" rel="stylesheet" type="text/css" href="css/embed.css"  />
+
+	<script>
+		var OX_BASE_URL = "{PRIV.BASE.HREF}";
+	</script>
+
+	<script>
+		function oxybase_call_url(value){
+			var status = {PUB:GOOGLE_ANALYTICS_STATUS};
+
+			if (status == 1){			
+				try {
+					pageTracker._trackPageview(value);				
+				} catch (e)	{}
+			}
+			
+		}
+	</script>
+</head>
+<body>
+	{PUB:MAIN_SWF}
+
+	{PUB:GOOGLE_ANALYTICS}
+</body>
+</html>

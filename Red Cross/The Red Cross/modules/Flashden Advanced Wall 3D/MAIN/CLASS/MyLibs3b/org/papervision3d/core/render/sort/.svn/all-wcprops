@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/474/trunk/branches/GreatWhite/src/org/papervision3d/core/render/sort
+END
+BasicRenderSorter.as
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/472/trunk/branches/GreatWhite/src/org/papervision3d/core/render/sort/BasicRenderSorter.as
+END
+IRenderSorter.as
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/352/trunk/branches/GreatWhite/src/org/papervision3d/core/render/sort/IRenderSorter.as
+END
+NullSorter.as
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/474/trunk/branches/GreatWhite/src/org/papervision3d/core/render/sort/NullSorter.as
+END

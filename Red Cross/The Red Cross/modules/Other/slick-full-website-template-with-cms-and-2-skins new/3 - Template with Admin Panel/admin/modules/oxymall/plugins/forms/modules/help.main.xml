@@ -1,0 +1,31 @@
+<form>
+	<title>Video Tutorial</title>
+	<action>javascript:void(0);</action>
+	<name>edit</name>
+	<width>100%</width>
+	<alternance>true</alternance>
+
+	<formtag>true</formtag>
+	<border>true</border>
+	
+	<tabs>
+		<t0 active="true" width="100" title="Video Tutorial" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.help" restricted="eval:$GLOBALS['no_tutorials'];"/>
+		<t1 width="100" title="Global Settings" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.settings" />
+		<t2 width="100" title="Installed Skins" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.skins" />
+		<t3 width="100" title="Installed Modules" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.default" />
+		<t4 width="100" title="Enabled Modules" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.user" />
+		<t5 width="100" title="Storage Folders" link="index.php?mod=oxymall&sub=oxymall.plugin.modules.folders" />
+	</tabs>
+
+	<fields>
+		<comment type="text" extend="true" html="true">
+			<forcevalue><![CDATA[
+			<center>
+				<br>
+				<object width="640" height="505"><param name="movie" value="http://www.youtube.com/v/s1_AG7gPMAc&hl=en&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/s1_AG7gPMAc&hl=en&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="505"></embed></object>
+			</center>
+			]]></forcevalue>
+		</comment>
+	</fields>
+
+</form>

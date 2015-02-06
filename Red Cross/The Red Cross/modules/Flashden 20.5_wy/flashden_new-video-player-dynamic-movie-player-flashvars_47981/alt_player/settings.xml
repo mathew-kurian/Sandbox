@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<settings	video_file="videos/stop_light.flv"	poster_file="videos/stop_light.jpg"	text_color="ffffff"	playhead_color="ffffff"	progress_color="82CDBE"	fullscreen_over="82CDBE"	progress_alpha=".75"	playbtn_scale="1"	playbtnbk_over="8EABAC"	fullscreen_display="yes"	clock_display="yes"	buffer_time="10"
+
+>
+
+	<title_text>
+		<![CDATA[THESE SETTINGS ARE SET THROUGH A XML FILE]]>
+	</title_text>	<description_text>
+		<![CDATA[While taking a cyclo ride around Hanoi I filmed this. It was a hot day and you can hear how noisy Vietnam can be. Yet I love it.]]>
+	</description_text>
+</settings>

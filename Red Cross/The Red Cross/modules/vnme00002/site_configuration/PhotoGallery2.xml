@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Album3>
+	<gallery>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery2/3_thumb_small.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery2/3_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>Image One</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery2/4_thumb_small.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery2/4_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>Image Two</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery2/5_thumb_small.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery2/5_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>Image Three</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery2/6_thumb_small.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery2/6_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>IMAGE Four</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery2/7_thumb_small.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery2/7_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>Image Five</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery2/8_thumb_small.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery2/8_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>Image Six</thumbCaption>
+		</image>
+
+		<image>
+			<ThumbUrl>site_images/PhotoGallery2/10_thumb_small.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery2/10_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>Image Seven</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery2/11_thumb_small.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery2/11_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>Image Eight</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery2/12_thumb_small.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery2/12_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>Image Nine</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery2/13_thumb_small.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery2/13_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>Image Ten</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery2/14_thumb_small.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery2/14_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>Image Eleven</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery2/15_thumb_small.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery2/15_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>Image Twelve</thumbCaption>
+		</image>
+		<image>
+			<ThumbUrl>site_images/PhotoGallery2/16_thumb_small.jpg</ThumbUrl>
+			<ImageUrl>site_images/PhotoGallery2/16_full.jpg</ImageUrl>
+			<ImageTitle><![CDATA[<h1>HTML TEXT  /  CSS STYLED</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>]]></ImageTitle> 
+			<thumbCaption>Image Thirteen</thumbCaption>
+		</image>
+	</gallery>
+</Album3>

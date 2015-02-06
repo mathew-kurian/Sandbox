@@ -1,0 +1,45 @@
+<!--S:Main-->
+<bannerRotator>
+	
+	
+	<settings>
+		
+		<totalWidth>{SET_TOTALWIDTH}</totalWidth>
+		<totalHeight>{SET_TOTALHEIGHT}</totalHeight>
+
+		<blurX>{SET_BLURX}</blurX>
+		<blurY>{SET_BLURY}</blurY>
+		<blurQuality>{SET_BLURQUALITY}</blurQuality>
+		
+		<slideAnimationTime>{SET_SLIDEANIMATIONTIME}</slideAnimationTime>
+		<slideAnimationType>{SET_SLIDEANIMATIONTYPE}</slideAnimationType>
+		
+		<descriptionBlurX>{SET_DESCRIPTIONBLURX}</descriptionBlurX>
+		<descriptionBlurY>{SET_DESCRIPTIONBLURY}</descriptionBlurY>
+		<descriptionBlurQuality>{SET_DESCRIPTIONBLURQUALITY}</descriptionBlurQuality>
+		
+	</settings>
+	
+	{IMAGES}
+</bannerRotator>
+<!--E:Main-->
+
+<!--S:ImagesGroup-->
+	<content>
+		{DATA}
+	</content>
+<!--E:ImagesGroup-->
+
+<!--S:ImagesGroupEmpty-->
+
+<!--E:ImagesGroupEmpty-->
+
+<!--S:ImagesElement-->
+		<slide src="../../banners/{ITEM_ID}.{EXT}" url="{ITEM_URL}" target="{ITEM_TARGET}" stay="{ITEM_STAY}">
+			<![CDATA[{ITEM_DESCRIPTION}]]>
+		</slide>
+<!--E:ImagesElement-->
+
+<!--S:ImagesEmpty-->
+
+<!--E:ImagesEmpty-->
