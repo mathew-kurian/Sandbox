@@ -1,0 +1,69 @@
+12:10:23 AM:::[mus.ec]Created pipe console.ERROR
+12:11:33 AM:::[mus.ec]Created pipe console.ERROR
+12:32:42 AM:::[mus.ec]Created pipe console.ERROR
+12:33:24 AM:::[mus.ec]Created pipe console.ERROR
+12:34:18 AM:::[mus.ec]Created pipe console.ERROR
+12:34:28 AM:::[mus.ec]Created pipe console.ERROR
+12:34:46 AM:::[mus.ec]Created pipe console.ERROR
+12:35:07 AM:::[mus.ec]Created pipe console.ERROR
+12:35:20 AM:::[mus.ec]Created pipe console.ERROR
+12:35:22 AM:::[mus.ec]Created pipe console.ERROR
+12:35:23 AM:::[mus.ec]Created pipe console.ERROR
+12:35:53 AM:::[mus.ec]Created pipe console.ERROR
+12:36:15 AM:::[mus.ec]Created pipe console.ERROR
+12:36:20 AM:::[mus.ec]Created pipe console.ERROR
+12:36:22 AM:::[mus.ec]Created pipe console.ERROR
+12:36:39 AM:::[mus.ec]Created pipe console.ERROR
+7:26:50 AM:::Error: /home/ec2-user/Dropbox/muzzler/server/views/hd/dashboard.jade:25
+7:26:50 AM:::    23|                             .album-parent.album_wrapper.animator(id='playlist_{$m._id}',style='position:; width: 100%; height: 316px;display:inline-block;')
+7:26:50 AM:::    24|                                 .animator.album_container(style='overflow: hidden; background: #000; position:absolute; left: 0; right: -1px; bottom: 0; top: 0;')
+7:26:50 AM:::  > 25|                                     div.album(id='{$m._id}',style='position: absolute; left: 0; top: 0; right: 0; bottom: 0; cursor: pointer; background: url(http://media.4local.ru/uploads/posts/2013-08/1376424792_1111111111111111111111.jpg) center top no-repeat; z-index: 3; background-size: cover; box-shadow: inset 0 0 1px 1px rgba(255,255,255,0.1);box-shadow:none;background-position:center center;', data-pid = "{$m._id}", data-songs="{$m.so
+7:26:50 AM:::
+7:26:50 AM:::The end of the string was reached with no closing bracket found.
+7:26:50 AM:::    at Function.parseMax (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/node_modules/character-parser/index.js:26:13)
+7:26:50 AM:::    at Object.Lexer.bracketExpression (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/lexer.js:130:33)
+7:26:50 AM:::    at Object.Lexer.attrs (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/lexer.js:582:24)
+7:26:50 AM:::    at Object.Lexer.next (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/lexer.js:868:15)
+7:26:50 AM:::    at Object.Lexer.lookahead (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/lexer.js:114:46)
+7:26:50 AM:::    at Parser.lookahead (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:100:23)
+7:26:50 AM:::    at Parser.peek (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:77:17)
+7:26:50 AM:::    at Parser.tag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:733:22)
+7:26:50 AM:::    at Parser.parseTag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:719:17)
+7:26:50 AM:::    at Parser.parseExpr (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:188:21)
+8:55:24 AM:::Error: /home/ec2-user/Dropbox/muzzler/server/views/hd/dashboard.jade:42
+8:55:24 AM:::    40|                                     div.album_overlay(style='position: absolute; left: 0; top: 0; right: 0; bottom: 0; z-index: 3;background:-moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.95));')
+8:55:24 AM:::    41|                                     div.album_name(style='position: absolute; bottom: 35px; left: 10px; right: 10px; height: 45px; line-height: 46px; font-weight: 400; font-size: 9px; z-index: 5; uppercase; letter-spacing: 2px; color: #FFF; text-indent: 8px;text-align:left;font-size:30px;font-weight:100;font-family:"Proxima Nova";') Coldplay
+8:55:24 AM:::  > 42|                                     div.album_name(style='position: absolute; bottom: 10px; left: 10px; right: 10px; height: 45px; lin
+8:55:24 AM:::
+8:55:24 AM:::The end of the string was reached with no closing bracket found.
+8:55:24 AM:::    at Function.parseMax (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/node_modules/character-parser/index.js:26:13)
+8:55:24 AM:::    at Object.Lexer.bracketExpression (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/lexer.js:130:33)
+8:55:24 AM:::    at Object.Lexer.attrs (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/lexer.js:582:24)
+8:55:24 AM:::    at Object.Lexer.next (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/lexer.js:868:15)
+8:55:24 AM:::    at Object.Lexer.lookahead (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/lexer.js:114:46)
+8:55:24 AM:::    at Parser.lookahead (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:100:23)
+8:55:24 AM:::    at Parser.peek (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:77:17)
+8:55:24 AM:::    at Parser.tag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:733:22)
+8:55:24 AM:::    at Parser.parseTag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:719:17)
+8:55:24 AM:::    at Parser.parseExpr (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:188:21)
+3:57:28 PM:::[mus.ec]Created pipe console.ERROR
+3:57:47 PM:::[mus.ec]Created pipe console.ERROR
+4:00:47 PM:::[mus.ec]Created pipe console.ERROR
+4:00:50 PM:::[mus.ec]Created pipe console.ERROR
+6:46:39 PM:::[mus.ec]Created pipe console.ERROR
+6:49:51 PM:::[mus.ec]Created pipe console.ERROR
+6:50:09 PM:::[mus.ec]Created pipe console.ERROR
+6:50:30 PM:::[mus.ec]Created pipe console.ERROR
+6:50:41 PM:::[mus.ec]Created pipe console.ERROR
+8:07:39 PM:::[mus.ec]Created pipe console.ERROR
+8:07:45 PM:::[mus.ec]Created pipe console.ERROR
+8:07:52 PM:::Unable to find stream in --url: http://api.soundcloud.com/tracks/20410719/download?consumer_key=nH8p0jYOkoVEZgJukRlG6w --quality: high
+8:07:52 PM:::Unable to find stream in --url: http://api.soundcloud.com/tracks/20410719/plays?consumer_key=nH8p0jYOkoVEZgJukRlG6w --quality: medium
+8:07:52 PM:::Unable to find stream in --url: http://media.soundcloud.com/stream/YVaOfWoTJuU5?stream_token=vJSRM --quality: low
+8:59:58 PM:::[mus.ec]Created pipe console.ERROR
+9:00:19 PM:::[mus.ec]Created pipe console.ERROR
+9:00:29 PM:::[mus.ec]Created pipe console.ERROR
+9:00:51 PM:::[mus.ec]Created pipe console.ERROR
+9:00:54 PM:::Could not find any videos.
+9:04:20 PM:::[mus.ec]Created pipe console.ERROR
+9:04:35 PM:::[mus.ec]Created pipe console.ERROR

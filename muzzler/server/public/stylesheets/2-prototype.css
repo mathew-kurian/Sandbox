@@ -1,0 +1,864 @@
+body {
+    background: #1A1A1A;
+    height: 100%;
+}
+
+.h1 { font-weight: 700;
+    margin-top:10px;margin-bottom:10px; display:block;
+    width:100%;float:none;font-weight:700; font-size:13px;}
+                    
+.p {
+    margin-top:10px;margin-bottom:10px;font-size:11px;
+}
+
+.icon {
+    font-family:Fontello;
+}
+
+.play:before {
+    content: '';
+}
+
+.next:before {
+    content: '';
+}
+
+.close-fill:before{
+    content: '';
+}
+
+.prev:before {
+    content: '';
+}
+
+.vmenu:before {
+    content: '';
+}
+
+.add-stroke:before{
+    content : '';
+}
+
+.toggle-box {
+    cursor:pointer;
+}
+
+.toggle-box-selected {
+    background:#888;
+}
+
+.music-volume-mute {
+    background-image:url(//mus.ec/assets/images/volume-mute.png);
+}
+
+.music-volume-low {
+    background-image:url(//mus.ec/assets/images/volume-low.png);
+
+}
+
+.music-volume-med {
+    background-image:url(//mus.ec/assets/images/volume-med.png);
+
+}
+
+.music-volume-high {
+    background-image:url(//mus.ec/assets/images/volume-high.png);
+
+}
+/***************************
+Controls
+***************************/
+
+#music-play {
+    background: url(https://mus.ec/assets/images/play.png) center center no-repeat;
+    background-size: 120%;
+    cursor: pointer;
+}
+
+.music-pause {
+    background: url(https://mus.ec/assets/images/pause.png) center center no-repeat !important;
+    background-size: 110% !important;
+    cursor: pointer;
+}
+
+#music-next {
+    background: url(https://mus.ec/assets/images/next.png) center center no-repeat;
+    background-size: 150% 150%;
+    cursor: pointer;
+}
+
+#music-previous {
+    background: url(https://mus.ec/assets/images/previous.png) center center no-repeat;
+    background-size: 150% 150%;
+    cursor: pointer;
+}
+
+.music-disabled {
+    opacity: 0.5 !important;
+    cursor: auto !important;
+}
+
+#music-controller {
+    position:absolute;left:1px;top:1px;bottom:1px;background:#FFF;width:0%;border-radius:20px;
+}
+
+#music-scrubber {
+    position:absolute;left:0%;height:15px;width:15px;top:-3px;background:transparent;cursor:pointer;
+}
+
+#music-scrubber-thumb{
+    position:absolute;height:5px;width:5px;top:1px;border-radius:100px;background:#FFF;cursor:pointer;left:1px;top:3px;
+}
+
+#music-bar:hover #music-scrubber-thumb { 
+    box-shadow: 0 0 12px 2px #555, 0 0 25px 2px #A8A8A8, 0 0 50px 2px #FFF;
+    position:absolute;height:12px;width:12px;top:2.5px;border-radius:100px;background:#FFF;cursor:pointer;left:-3px;top:-0.5px;
+}
+
+/***************************
+Shake
+****************************/
+
+@keyframes shake{ 
+    0% { transform: translate(3px, 0); }
+    50% { transform: translate(-3px, 0); }
+    100% { transform: translate(0, 0); }
+}
+ 
+@-moz-keyframes shake{ 
+    0% { -moz-transform: translate(3px, 0); }
+    50% { -moz-transform: translate(-3px, 0); }
+    100% { -moz-transform: translate(0, 0); }
+}
+ 
+@-webkit-keyframes shake {
+    0% { -webkit-transform: translate(3px, 0); }
+    50% { -webkit-transform: translate(-3px, 0); }
+    100% { -webkit-transform: translate(0, 0); }
+}
+ 
+.shake {
+    animation-name: shake; 
+    animation-duration: 150ms; 
+    animation-iteration-count: 2; 
+    animation-timing-function: linear;
+ 
+    -moz-animation-name: shake; 
+    -moz-animation-duration: 150ms; 
+    -moz-animation-iteration-count: 2; 
+    -moz-animation-timing-function: linear;
+ 
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 150ms;
+    -webkit-animation-iteration-count: 2;
+    -webkit-animation-timing-function: linear;
+}
+
+/***************************
+Dashboard - Sidebar Buttons
+***************************/
+
+.dashboard-sidebar-btn, .dashboard-sidebar-btn-selected {
+    height: 40px; 
+    width: 100%; 
+    position: relative;
+    background:transparent;
+    cursor: pointer;
+}
+
+.dashboard-sidebar-btn:hover {
+    background:rgba(255,255,255,0.2) !important;
+}
+
+.dashboard-sidebar-btn-selected, .dashboard-sidebar-btn-selected:hover {
+    background:#18AEAA !important;
+}
+
+/***************************
+Dialog
+***************************/
+
+.dialog {
+    border-radius:4px;
+}
+
+.dialog > div:first-child,
+.dialog > div:last-child {
+    border-radius:4px 4px 0 0 !important;
+    overflow: hidden !important;
+}
+
+.dialog > div:last-child {
+    border-radius:0 0 4px 4px !important;
+}
+
+.dialog .menu {}
+
+.dialog .menu .menu-title {
+    cursor:pointer !important;
+    position:relative;
+    background: #171717;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Museo Sans";
+    border-radius: 4px;
+    outline: 0;
+    text-transform:uppercase;
+    font-size:10px;
+    padding: 13px;
+    letter-spacing:1px;
+}
+
+.dialog .menu .menu-active {
+    border-radius: 4px 4px 0 0 !important;    
+    background: #535353;
+}
+
+.dialog .menu .menu-wrapper {
+    width:100% !important;
+    padding:0 20px 0 20px !important;
+    position:absolute !important;
+    top:100% !important;
+    z-index:20 !important;
+    left:0 !important;
+    margin-top: -20px !important;
+    overflow:hidden;
+    border-radius:0 0 4px 4px;
+    display:none;
+}
+
+.dialog .menu .menu-wrapper .menu-item {
+    cursor:pointer !important;
+    background: #171717;
+    color: #fff;
+    font-weight: 600;
+    outline: 0;
+    text-transform:uppercase;
+    font-size:10px;
+    padding: 13px;
+    letter-spacing:1px;
+    position:relative;
+    border-top:1px solid #222;   
+}
+
+.dialog .menu .menu-wrapper .menu-item:hover {
+    background: #222;
+}
+
+.dialog .menu .menu-wrapper .menu-item:last-child {
+    border-radius: 0 0 4px 4px !important;    
+    overflow: hidden;
+}
+
+/***************************
+Fundamentals
+***************************/
+
+.border-box {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+.transform-center {
+    transform-origin: center center;
+    -ms-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -webkit-transform-origin: center center;
+    -o-transform-origin: center center;
+}
+
+/***************************
+File Upload
+***************************/
+
+.file-item {
+    border-bottom:1px solid #333;
+}
+.file-item:last-child{
+    border-bottom:none;
+}
+
+.file-name {
+    position:absolute;left:40px;
+    top:0;
+    height:40px;line-height:40px;
+    font-weight:400;color:#FFF;letter-spacing:1px;
+    z-index:2;font-size:10px;
+    color: #FFF;
+    font-size: 9px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    z-index:10;
+}
+
+.file-size {
+    position:absolute;top:0;
+    height:40px;line-height:40px;font-weight:400;
+    color:rgba(255, 255, 255, 0.41);;letter-spacing:1px;z-index:2;
+    font-size:10px;text-align:right;
+    width:60px;right:10px;
+    z-index:10;
+}
+
+.file-control-icon {
+    position:absolute;
+    left:0;
+    background:transparent center center no-repeat;
+    background-size:70%;
+    height:17px;
+    width:17px;
+    left:10px;
+    top:10px;
+    opacity:0.5;
+    z-index:5;
+    cursor:pointer;
+    z-index:10;
+}
+.file-control-icon:hover {
+    opacity:1;
+}
+.file-delete {
+    background-image:url(https://mus.ec/assets/images/remove.png) !important;
+}
+/***************************
+Notification
+***************************/
+
+.notification-icon {
+    background: url(https://mus.ec/assets/images/notifications.png) center center no-repeat;
+    background-size: 60%;   
+    opacity: 0.5;
+}
+
+.notification-icon-selected {
+    opacity: 0.8 !important;
+}
+
+.notification-icon:hover {
+    opacity: 0.8 !important;
+}
+/***************************
+Other
+***************************/
+
+.rounded-button {
+    font-weight: 400;
+    color: #FFF;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 20px;
+    line-height: 22px;
+    background:transparent;
+    cursor:pointer;
+}
+
+.rounded-button:hover{
+    background:#FFF;
+    color: #000;
+}
+
+.dialog-form-dark:active,
+.dialog-form-dark:focus {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6), 0 0 0px 2px rgba(82,168,236,.6)  !important;
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6), 0 0 0px 2px rgba(82,168,236,.6)  !important;
+    -ms-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6), 0 0 0px 2px rgba(82,168,236,.6)  !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6), 0 0 0px 2px rgba(82,168,236,.6)  !important;
+}
+.dialog-form-dark {
+    border: none;
+    font-size: 16px;
+    padding: 13px;
+    background: #171717;
+    color: #fff;
+    font-weight: 500;
+    font-family: "Museo Sans";
+    font-size: 14px;
+    border-radius: 4px;
+    outline: 0;
+}
+.dialog-form-error {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,0,0,.6), 0 0 0px 2px rgba(255,0,0,.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,0,0,.6) , 0 0 0px 2px rgba(255,0,0,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,0,0,.6) , 0 0 0px 2px rgba(255,0,0,.6);
+}
+.logo {
+    background: center center url('../assets/images/muzzler server logo [c] 1.png') no-repeat;
+    background-size: auto 100%;
+    width: 400px;
+    height: 70px;
+    margin: 0 auto;
+}
+.about {
+    width: 100%;
+    line-height: 180%;
+    padding-top: 0px;
+    margin: 15px auto;
+    margin-top: 0px;
+    font-size: 22px;
+    color: #FFF;
+    font-family: 'Museo Sans';
+    text-align: center;
+}
+.current-version {
+    width: 680px;
+    line-height: 180%;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 12px;
+    display: none;
+    color: #555;
+    font-family: 'Museo Sans';
+    text-align: center;
+}
+.ytb-link {
+    width: 680px;
+    height: 14px;
+    padding: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0 auto;
+    display: block;
+    float: none;
+    background: transparent;
+    font-family: 'Museo Sans';
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 13px;
+    letter-spacing: 4px;
+    line-height: 14px;
+    color: #75747f;
+    text-transform: uppercase;
+    border: 2px solid #75747f;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+.forms-secure {
+    width: 706px;
+    height: 50px;
+    background: transparent;
+    margin: 0 auto;
+    margin-top: 12px;
+    display: block;
+    float: none;
+    border: none;
+    outline: none;
+}
+.phone,
+.password {
+    width: 184px;
+    height: 14px;
+    padding: 13px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: block;
+    background: transparent;
+    margin-right: 15px;
+    vertical-align: top;
+    float: none;
+    font-family: 'Museo Sans';
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    line-height: 14px;
+    border-radius: 8px;
+    outline: none;
+    color: #75747f;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid #75747f;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+.phone:focus,
+.password:focus,
+.ytb-link:focus {
+    color: #FFF;
+    border: 2px solid #e74c3c;
+}
+.phone:hover,
+.password:hover,
+.ytb-link:hover {
+    color: #FFF;
+    border: 2px solid #e74c3c;
+}
+.input-light {
+    color: #75747f;
+    border-color: #75747f;
+}
+.input-light:focus,
+.input-light:focus {
+    color: #FFF;
+    border: 2px solid #e74c3c;
+}
+.input-light:hover,
+.input-light:hover {
+    color: #FFF;
+    border: 2px solid #e74c3c;
+}
+.form {
+    overflow: hidden;
+    height: 0;
+}
+.button {
+    width: 184px;
+    height: 14px;
+    padding: 13px;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 15px;
+    background: #e74c3c;
+    display: block;
+    margin: 0 auto;
+    vertical-align: top;
+    float: none;
+    font-family: 'Museo Sans';
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    border-radius: 8px;
+    color: #FFF;
+    border: 2px solid #e74c3c;
+    cursor: pointer;
+}
+.container {
+    height: 195px;
+    text-align: right;
+    width: 1100px;
+}
+/*.menu {
+    left: 0px;
+    width: 120px;
+    bottom: 0px;
+    display: table;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+}*/
+.menu-centered {
+    height: auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+.menu-list {
+    height: 25px;
+    width: 100%;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 10px;
+    line-height: 25px;
+    text-align: right;
+    font-weight: 700;
+    color: #75747f;
+    font-family: 'Museo Sans';
+    text-transform: uppercase;
+}
+.menu-list-selected { color: #e74c3c }
+.menu-list:hover { color: #FFF }
+.menu-list:last-child { border-bottom: none }
+.form-2 {
+    padding: 90px 55px;
+    position: absolute;
+    background: #111;
+    border-radius: 8px;
+    border: 1px solid #222;
+    box-shadow: 0 3px 50px #000;
+    display: none;
+    z-index: 9999;
+}
+.music-tile,
+.music-tile-selected {
+    width: 100%;
+    height: 59px;
+    position: relative;
+    left: 1px;
+    position: relative;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 -1px 0 rgba(255,255,255,0.08);
+
+}
+.music-tile-selected {
+    background: #000 !important;
+    box-shadow: inset 0 -1px 0 rgba(255,255,255,0.13) !important;
+}
+.music-tile-selected:first-child { border-top: 1px solid transparent }
+.music-tile:hover { background: rgba(0,0,0,0.2) }
+.music-tile-thumb {
+    width: 80px;
+    height: 100%;
+    background: #FFF url() center center no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    display: none;
+}
+.music-tile-position {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #EEE;
+    bottom: 0;
+    border-right: 3px solid #E8E8E8;
+    display: none;
+}
+.music-tile-controls {
+    width: 80px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+.music-control-icon, .music-show-icon {
+    background:transparent center center no-repeat;
+    background-size:cover;
+    height:13px;
+    width:13px;
+    opacity:0.3;
+    cursor:pointer;
+}
+.music-control-icon:hover, .music-show-icon:hover {
+    opacity:1;
+}
+.music-add {
+    font-family:'Fontello';
+    content:;
+    border-radius:100%;
+}
+.music-add-round {
+    background-image:url(https://mus.ec/assets/images/add.png);
+    background-size:40% auto;
+    border-radius:100%;
+    border:1px solid #FFF;
+}
+.music-delete {
+    background-color:#E91600;
+    background-image:url(https://mus.ec/assets/images/delete.png);
+    background-size:cover;
+    background-size: 15%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width:80px;
+    height:100%;
+}
+.music-remove {
+    background-image:url(https://mus.ec/assets/images/remove.png);
+}
+.music-plus {
+    background-image:url(https://mus.ec/assets/images/add.png);
+}
+.music-minus {
+    background-image:url(https://mus.ec/assets/images/remove.png);
+}
+.music-tile-title {
+    width: 70%;
+    position: absolute;
+    left: 50px;
+    height: 12px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    top: 16px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.music-tile-author {
+    width: 30%;
+    position: absolute;
+    left: 50px;
+    height: 12px;
+    color: #FFF;
+    font-size: 9px;
+    font-weight: 400;
+    top: 32px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.music-tile-explicit {
+    width: 52px;
+    position: absolute;
+    left: 70%;
+    border: 1px solid rgba(255,255,255,0.3);
+    color: rgba(255,255,255,0.3);
+    font-size: 8px;
+    height: 16px;
+    line-height: 17px;
+    font-weight: 900;
+    top: 19px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    display: none;
+}
+.music-tile-play {
+    height: 0;
+    width: 0;
+    font-size: 0;
+    line-height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid #FFF;
+}
+.music-tile-length-label {
+    font-size: 11px;
+    font-size: 8px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #AAA;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 8px;
+    display: none;
+}
+.music-tile-length {
+    font-size: 11px;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #CCC;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    position: relative;
+    top: 23px;
+}
+.animator-100ms {
+    -webkit-transition: all 100ms ease-out;
+    transition: all 100ms ease-out;
+    -ms-transition: all 100ms ease-out;
+    -moz-transition: all 100ms ease-out;
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.animator-90000ms {
+    -webkit-transition: all 100000ms ease-out;
+    transition: all 100000ms ease-out;
+    -ms-transition: all 100000ms ease-out;
+    -moz-transition: all 100000ms ease-out;
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.animator {
+    -webkit-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+    -ms-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+}
+
+.animator-slow-in {
+    -webkit-transition: all 800ms ease-in;
+    transition: all 800ms ease-in;
+    -ms-transition: all 800ms ease-in;
+    -moz-transition: all 800ms ease-in;
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+}
+
+.animator-slow-out {
+    -webkit-transition: all 800ms ease-out;
+    transition: all 800ms ease-out;
+    -ms-transition: all 800ms ease-out;
+    -moz-transition: all 800ms ease-out;
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+}
+
+.deviceAnim,
+.deviceTransform,
+.deviceTransformlv2 {
+    -webkit-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);
+    -ms-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);
+    -moz-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+}
+.deviceTransformlv2 {
+    -webkit-transform: translate3d(350px,0,0);
+    -ms-transform: translate3d(350px,0,0);
+    -moz-transform: translate3d(350px,0,0);
+    transform: translate3d(350px,0,0);
+}
+.deviceAnim:hover .deviceTransform {
+    -webkit-transform: translate3d(-350px,0,0);
+    -ms-transform: translate3d(-350px,0,0);
+    -moz-transform: translate3d(-350px,0,0);
+    transform: translate3d(-350px,0,0);
+}
+.deviceAnim:hover .deviceTransformlv2 {
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+.dark-rail { background: #000 }
+.dark-cursor { background: #555 }
+
+input {
+    color:#333;
+}
+input::-webkit-input-placeholder {
+    color: #AAA;
+}
+input::input-placeholder {
+    color: #AAA;
+}

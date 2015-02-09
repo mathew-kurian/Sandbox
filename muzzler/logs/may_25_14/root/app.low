@@ -1,0 +1,195 @@
+6:57:29 AM:::[mus.ec]Created pipe console.LOW
+6:57:49 AM:::[mus.ec]Created pipe console.LOW
+6:57:50 AM:::[Echonest.js]Started Pass#0 - post to http://developer.echonest.com/api/v4/track/upload
+6:57:55 AM:::[Echonest.js]Response on Pass#0
+6:57:55 AM:::[Echonest.js]Pass#0 extracting data
+6:57:55 AM:::[Echonest.js]Started Pass#1 - get to http://developer.echonest.com/api/v4/track/profile?api_key=6RGE1KCQ2W5STF8GI&format=json&id=TRHFSPB1461645B6A8&bucket=audio_summary
+6:57:55 AM:::[Echonest.js]Response on Pass#1
+6:57:55 AM:::[Echonest.js]Pass#1 failed. Retrying in 5000ms
+6:58:00 AM:::[Echonest.js]Started Pass#1 - get to http://developer.echonest.com/api/v4/track/profile?api_key=6RGE1KCQ2W5STF8GI&format=json&id=TRHFSPB1461645B6A8&bucket=audio_summary
+6:58:00 AM:::[Echonest.js]Response on Pass#1
+6:58:00 AM:::[Echonest.js]Pass#1 extracting data
+7:00:02 AM:::[mus.ec]Created pipe console.LOW
+7:00:03 AM:::[mus.ec]Created pipe console.LOW
+7:00:05 AM:::[mus.ec]Created pipe console.LOW
+7:00:18 AM:::[mus.ec]Created pipe console.LOW
+7:00:21 AM:::[Echonest.js]Started Pass#0 - post to http://developer.echonest.com/api/v4/track/upload
+7:00:26 AM:::[Echonest.js]Response on Pass#0
+7:00:26 AM:::[Echonest.js]Pass#0 extracting data
+7:00:26 AM:::[Echonest.js]Started Pass#1 - get to http://developer.echonest.com/api/v4/track/profile?api_key=6RGE1KCQ2W5STF8GI&format=json&id=TRHFSPB1461645B6A8&bucket=audio_summary
+7:00:26 AM:::[Echonest.js]Response on Pass#1
+7:00:26 AM:::[Echonest.js]Pass#1 failed. Retrying in 5000ms
+7:00:31 AM:::[Echonest.js]Started Pass#1 - get to http://developer.echonest.com/api/v4/track/profile?api_key=6RGE1KCQ2W5STF8GI&format=json&id=TRHFSPB1461645B6A8&bucket=audio_summary
+7:00:31 AM:::[Echonest.js]Response on Pass#1
+7:00:31 AM:::[Echonest.js]Pass#1 failed. Retrying in 5000ms
+7:00:36 AM:::[Echonest.js]Started Pass#1 - get to http://developer.echonest.com/api/v4/track/profile?api_key=6RGE1KCQ2W5STF8GI&format=json&id=TRHFSPB1461645B6A8&bucket=audio_summary
+7:00:36 AM:::[Echonest.js]Response on Pass#1
+7:00:36 AM:::[Echonest.js]Pass#1 extracting data
+7:04:45 AM:::[mus.ec]Created pipe console.LOW
+7:04:48 AM:::Started Pass#0 - post to http://developer.echonest.com/api/v4/track/upload
+7:04:52 AM:::Response on Pass#0
+7:04:52 AM:::Pass#0 extracting data
+7:04:52 AM:::Started Pass#1 - get to http://developer.echonest.com/api/v4/track/profile?api_key=6RGE1KCQ2W5STF8GI&format=json&id=TRHFSPB1461645B6A8&bucket=audio_summary
+7:04:52 AM:::Response on Pass#1
+7:04:52 AM:::Pass#1 failed. Retrying in 5000ms
+7:04:57 AM:::Started Pass#1 - get to http://developer.echonest.com/api/v4/track/profile?api_key=6RGE1KCQ2W5STF8GI&format=json&id=TRHFSPB1461645B6A8&bucket=audio_summary
+7:04:57 AM:::Response on Pass#1
+7:04:57 AM:::Pass#1 extracting data
+7:05:38 AM:::[mus.ec]Created pipe console.LOW
+7:05:40 AM:::Started Pass#0 - post to http://developer.echonest.com/api/v4/track/upload
+7:05:44 AM:::Response on Pass#0
+7:05:44 AM:::Pass#0 extracting data
+7:05:44 AM:::Started Pass#1 - get to http://developer.echonest.com/api/v4/track/profile?api_key=6RGE1KCQ2W5STF8GI&format=json&id=TRHFSPB1461645B6A8&bucket=audio_summary
+7:05:44 AM:::Response on Pass#1
+7:05:44 AM:::Pass#1 failed. Retrying in 5000ms
+7:05:49 AM:::Started Pass#1 - get to http://developer.echonest.com/api/v4/track/profile?api_key=6RGE1KCQ2W5STF8GI&format=json&id=TRHFSPB1461645B6A8&bucket=audio_summary
+7:05:50 AM:::Response on Pass#1
+7:05:50 AM:::Pass#1 extracting data
+7:13:21 AM:::[mus.ec]Created pipe console.LOW
+7:13:22 AM:::Started Pass#0 - post to http://developer.echonest.com/api/v4/track/upload
+7:13:27 AM:::Response on Pass#0
+7:13:27 AM:::Pass#0 extracting data
+7:13:27 AM:::Started Pass#1 - get to http://developer.echonest.com/api/v4/track/profile?api_key=6RGE1KCQ2W5STF8GI&format=json&id=TRHFSPB1461645B6A8&bucket=audio_summary
+7:13:27 AM:::Response on Pass#1
+7:13:27 AM:::Pass#1 failed. Retrying in 5000ms
+7:13:32 AM:::Started Pass#1 - get to http://developer.echonest.com/api/v4/track/profile?api_key=6RGE1KCQ2W5STF8GI&format=json&id=TRHFSPB1461645B6A8&bucket=audio_summary
+7:13:32 AM:::Response on Pass#1
+7:13:32 AM:::Pass#1 extracting data
+7:13:41 AM:::[mus.ec]Created pipe console.LOW
+7:13:48 AM:::[mus.ec]Created pipe console.LOW
+7:14:21 AM:::[mus.ec]Created pipe console.LOW
+7:14:38 AM:::[mus.ec]Created pipe console.LOW
+7:14:40 AM:::[mus.ec]Created pipe console.LOW
+7:14:54 AM:::[mus.ec]Created pipe console.LOW
+7:25:31 AM:::[mus.ec]Created pipe console.LOW
+7:27:12 AM:::[mus.ec]Created pipe console.LOW
+7:27:58 AM:::[mus.ec]Created pipe console.LOW
+7:28:18 AM:::[mus.ec]Created pipe console.LOW
+7:28:24 AM:::[mus.ec]Created pipe console.LOW
+7:28:44 AM:::[mus.ec]Created pipe console.LOW
+7:29:26 AM:::[mus.ec]Created pipe console.LOW
+7:34:27 AM:::[mus.ec]Created pipe console.LOW
+7:34:50 AM:::[mus.ec]Created pipe console.LOW
+7:37:14 AM:::[mus.ec]Created pipe console.LOW
+7:38:56 AM:::[mus.ec]Created pipe console.LOW
+7:39:22 AM:::[mus.ec]Created pipe console.LOW
+7:45:38 AM:::[mus.ec]Created pipe console.LOW
+7:45:42 AM:::[mus.ec]Created pipe console.LOW
+7:46:14 AM:::[mus.ec]Created pipe console.LOW
+7:46:19 AM:::[mus.ec]Created pipe console.LOW
+7:46:58 AM:::[mus.ec]Created pipe console.LOW
+7:47:57 AM:::[mus.ec]Created pipe console.LOW
+8:03:03 AM:::[mus.ec]Created pipe console.LOW
+8:03:06 AM:::[mus.ec]Created pipe console.LOW
+8:03:53 AM:::[mus.ec]Created pipe console.LOW
+8:03:56 AM:::[mus.ec]Created pipe console.LOW
+8:04:05 AM:::[mus.ec]Created pipe console.LOW
+8:04:09 AM:::[mus.ec]Created pipe console.LOW
+8:04:22 AM:::[mus.ec]Created pipe console.LOW
+8:05:03 AM:::[mus.ec]Created pipe console.LOW
+8:05:10 AM:::[mus.ec]Created pipe console.LOW
+8:08:50 AM:::[mus.ec]Created pipe console.LOW
+8:12:59 AM:::[mus.ec]Created pipe console.LOW
+8:13:02 AM:::[mus.ec]Created pipe console.LOW
+8:13:23 AM:::[mus.ec]Created pipe console.LOW
+8:13:27 AM:::[mus.ec]Created pipe console.LOW
+8:13:35 AM:::[mus.ec]Created pipe console.LOW
+8:13:39 AM:::[mus.ec]Created pipe console.LOW
+8:14:02 AM:::[mus.ec]Created pipe console.LOW
+8:15:00 AM:::[mus.ec]Created pipe console.LOW
+8:15:01 AM:::[mus.ec]Created pipe console.LOW
+8:15:28 AM:::[mus.ec]Created pipe console.LOW
+8:15:51 AM:::[mus.ec]Created pipe console.LOW
+8:19:00 AM:::[mus.ec]Created pipe console.LOW
+8:19:47 AM:::[mus.ec]Created pipe console.LOW
+8:19:49 AM:::[mus.ec]Created pipe console.LOW
+8:20:02 AM:::[mus.ec]Created pipe console.LOW
+8:22:13 AM:::[mus.ec]Created pipe console.LOW
+8:22:56 AM:::Started Pass#0 - post to http://developer.echonest.com/api/v4/track/upload
+8:23:02 AM:::Response on Pass#0
+8:23:02 AM:::Pass#0 extracting data
+8:23:02 AM:::Started Pass#1 - get to http://developer.echonest.com/api/v4/track/profile?api_key=6RGE1KCQ2W5STF8GI&format=json&id=TRHFSPB1461645B6A8&bucket=audio_summary
+8:23:02 AM:::Response on Pass#1
+8:23:02 AM:::Pass#1 failed. Retrying in 5000ms
+8:23:07 AM:::Started Pass#1 - get to http://developer.echonest.com/api/v4/track/profile?api_key=6RGE1KCQ2W5STF8GI&format=json&id=TRHFSPB1461645B6A8&bucket=audio_summary
+8:23:08 AM:::Response on Pass#1
+8:23:08 AM:::Pass#1 extracting data
+8:25:23 AM:::[mus.ec]Created pipe console.LOW
+8:25:52 AM:::[mus.ec]Created pipe console.LOW
+7:53:40 PM:::[mus.ec]Created pipe console.LOW
+7:53:43 PM:::[mus.ec]Created pipe console.LOW
+7:54:04 PM:::[mus.ec]Created pipe console.LOW
+7:54:07 PM:::[mus.ec]Created pipe console.LOW
+7:54:33 PM:::[mus.ec]Created pipe console.LOW
+7:54:40 PM:::[mus.ec]Created pipe console.LOW
+7:55:19 PM:::[mus.ec]Created pipe console.LOW
+7:57:06 PM:::[mus.ec]Created pipe console.LOW
+7:58:14 PM:::[mus.ec]Created pipe console.LOW
+7:58:47 PM:::[mus.ec]Created pipe console.LOW
+7:58:58 PM:::[mus.ec]Created pipe console.LOW
+8:00:23 PM:::[mus.ec]Created pipe console.LOW
+8:01:51 PM:::[mus.ec]Created pipe console.LOW
+8:01:54 PM:::[mus.ec]Created pipe console.LOW
+8:02:06 PM:::[mus.ec]Created pipe console.LOW
+8:02:13 PM:::[mus.ec]Created pipe console.LOW
+8:03:57 PM:::[mus.ec]Created pipe console.LOW
+8:04:04 PM:::[mus.ec]Created pipe console.LOW
+8:04:41 PM:::[mus.ec]Created pipe console.LOW
+8:04:47 PM:::[mus.ec]Created pipe console.LOW
+8:05:44 PM:::[mus.ec]Created pipe console.LOW
+8:06:51 PM:::[mus.ec]Created pipe console.LOW
+8:07:00 PM:::[mus.ec]Created pipe console.LOW
+8:07:53 PM:::[mus.ec]Created pipe console.LOW
+8:08:23 PM:::[mus.ec]Created pipe console.LOW
+8:09:03 PM:::[mus.ec]Created pipe console.LOW
+8:14:04 PM:::[mus.ec]Created pipe console.LOW
+8:17:36 PM:::[mus.ec]Created pipe console.LOW
+8:19:42 PM:::Started Pass#0 - post to http://developer.echonest.com/api/v4/track/upload
+8:19:51 PM:::Response on Pass#0
+8:19:51 PM:::Pass#0 extracting data
+8:19:51 PM:::Started Pass#1 - get to http://developer.echonest.com/api/v4/track/profile?api_key=6RGE1KCQ2W5STF8GI&format=json&id=TRHFSPB1461645B6A8&bucket=audio_summary
+8:19:51 PM:::Response on Pass#1
+8:19:51 PM:::Pass#1 failed. Retrying in 5000ms
+8:19:57 PM:::Started Pass#1 - get to http://developer.echonest.com/api/v4/track/profile?api_key=6RGE1KCQ2W5STF8GI&format=json&id=TRHFSPB1461645B6A8&bucket=audio_summary
+8:19:57 PM:::Response on Pass#1
+8:19:57 PM:::Pass#1 extracting data
+8:21:02 PM:::[mus.ec]Created pipe console.LOW
+8:22:31 PM:::[mus.ec]Created pipe console.LOW
+8:23:51 PM:::[mus.ec]Created pipe console.LOW
+8:24:44 PM:::[mus.ec]Created pipe console.LOW
+8:59:58 PM:::[mus.ec]Created pipe console.LOW
+9:00:00 PM:::[mus.ec]Created pipe console.LOW
+9:00:01 PM:::[mus.ec]Created pipe console.LOW
+9:00:18 PM:::[mus.ec]Created pipe console.LOW
+9:00:21 PM:::[mus.ec]Created pipe console.LOW
+9:00:32 PM:::[mus.ec]Created pipe console.LOW
+9:00:35 PM:::[mus.ec]Created pipe console.LOW
+9:01:05 PM:::[mus.ec]Created pipe console.LOW
+9:01:09 PM:::[mus.ec]Created pipe console.LOW
+9:01:21 PM:::[mus.ec]Created pipe console.LOW
+9:03:05 PM:::[mus.ec]Created pipe console.LOW
+9:03:44 PM:::[mus.ec]Created pipe console.LOW
+11:21:31 PM:::[mus.ec]Created pipe console.LOW
+11:21:33 PM:::[mus.ec]Created pipe console.LOW
+11:22:16 PM:::[mus.ec]Created pipe console.LOW
+11:22:20 PM:::[mus.ec]Created pipe console.LOW
+11:23:54 PM:::[mus.ec]Created pipe console.LOW
+11:23:57 PM:::[mus.ec]Created pipe console.LOW
+11:24:30 PM:::[mus.ec]Created pipe console.LOW
+11:24:51 PM:::[mus.ec]Created pipe console.LOW
+11:26:15 PM:::[mus.ec]Created pipe console.LOW
+11:26:21 PM:::[mus.ec]Created pipe console.LOW
+11:26:29 PM:::[mus.ec]Created pipe console.LOW
+11:26:40 PM:::[mus.ec]Created pipe console.LOW
+11:26:50 PM:::[mus.ec]Created pipe console.LOW
+11:27:09 PM:::[mus.ec]Created pipe console.LOW
+11:27:41 PM:::[mus.ec]Created pipe console.LOW
+11:27:57 PM:::[mus.ec]Created pipe console.LOW
+11:28:32 PM:::[mus.ec]Created pipe console.LOW
+11:28:34 PM:::[mus.ec]Created pipe console.LOW
+11:28:36 PM:::[mus.ec]Created pipe console.LOW
+11:28:44 PM:::[mus.ec]Created pipe console.LOW
+11:29:41 PM:::[mus.ec]Created pipe console.LOW
+11:33:51 PM:::[mus.ec]Created pipe console.LOW
+11:50:04 PM:::[mus.ec]Created pipe console.LOW
+11:50:30 PM:::[mus.ec]Created pipe console.LOW

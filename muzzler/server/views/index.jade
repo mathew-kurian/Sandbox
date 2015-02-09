@@ -1,0 +1,48 @@
+extends layout
+
+block content
+  body(style="overflow:hidden;")
+    div(style='height:100%;width:100%;position:absolute;top:0;left:0;z-index:1;oveflow:hidden;height:35px;font-size:11px;line-height:35px;text-align:center;letter-spacing:2px;font-weight:700;background:#B34646;color: #FFF;display:none;') PLEASE BE PATIENT. FIXING BUGS.
+    div(style='bottom:0;width:100%;position:absolute;top:0;left:0;z-index:1;oveflow:hidden;top:35px;top:0;')
+        div(id='content-wrapper',style='height:100%;width:100%;')
+            div(id='content', style='height:auto;width:100%;')
+    div(id='overlay', style='position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 9999; display: block; background: rgba(0, 0, 0, 0.85098);display:none;')
+      div(id='overlay-qunit', class = "border-box", style = 'position:relative;width:100%;height:100%;padding:35px;overflow:auto;')
+        div(style = "width:80%;padding:10px;background:#222;border:1px solid #333;top:50px;margin:0 auto;min-width:500px;")
+          div(id='qunit')
+          div(id='qunit-fixture')
+    div(id='toast',style='width: auto;padding: 10px;color: #FFF;background: #333;box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1), 0 2px 5px rgba(0,0,0,0.5);position: fixed;bottom: 0;margin: 0 auto;/* left: 0; *//* right: 0; */z-index: 99999;margin-bottom: 66px;left: 50%;right: left: 50%;/* right: 50%; */font-size: 11px;letter-spacing: 1px;/* font-weight: 600; */border-radius: 4px;') 
+  script.
+    //
+    //
+    // _____ _     _ _______   _______ _______
+    //  |  |  | |     | |______   |______ |      
+    //  |  |  | |_____| ______| . |______ |_____ 
+    //  
+    //  
+    //              
+
+    // Elixir startup
+    var gui = require('mui/gui'),
+        core = require('elixir/core'),
+        toolkit = require('elixir/toolkit'),
+        constants = require('elixir/constants');
+
+    gui.configure(function () {
+        gui.set('lib', $);
+        gui.expand();
+    });
+
+    toolkit.configure(function () {
+        toolkit.set('lib', $);
+        toolkit.init();
+    });
+
+    QUnit.config.autostart= false;
+
+    $(document).ready(function(){
+        $.ajaxSetup({ cache: true });
+        core.init();
+    });
+
+    

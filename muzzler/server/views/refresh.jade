@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h1= title
+
+    form#formAddUser(name="refreshlinks",method="post",action="/renewlinks")
+        input#inputUserEmail(type="text", placeholder="Nothing to put here", name="rlink")
+        button#btnSubmit(type="submit") Refresh me songs

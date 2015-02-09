@@ -1,0 +1,220 @@
+7:58:10 AM:::[mus.ec]Created pipe console.USER
+7:58:15 AM:::[scribe.js]71.42.217.194 [Core] Requested state - hd/dashboard
+7:58:15 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+7:58:15 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+7:58:16 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+7:58:16 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+7:58:16 AM:::[scribe.js]71.42.217.194 [Core] Create hd/empty
+7:58:16 AM:::[scribe.js]71.42.217.194 [Core] Create hd/dashboard
+7:58:16 AM:::[scribe.js]71.42.217.194 [Core] Propgating resize event
+7:58:16 AM:::[scribe.js]71.42.217.194 [Core] State changed to hd/dashboard
+7:58:16 AM:::[scribe.js]71.42.217.194 [Core] Propgating update event.
+7:59:02 AM:::[mus.ec]Created pipe console.USER
+7:59:06 AM:::[scribe.js]71.42.217.194 [Core] Requested state - hd/dashboard
+7:59:07 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+7:59:07 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+7:59:08 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+7:59:08 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+7:59:08 AM:::[scribe.js]71.42.217.194 [Core] Create hd/empty
+7:59:08 AM:::[scribe.js]71.42.217.194 [Core] Create hd/dashboard
+7:59:08 AM:::[scribe.js]71.42.217.194 [Core] Propgating resize event
+7:59:08 AM:::[scribe.js]71.42.217.194 [Core] State changed to hd/dashboard
+7:59:08 AM:::[scribe.js]71.42.217.194 [Core] Propgating update event.
+8:01:48 AM:::[scribe.js]71.42.217.194 [Core] Requested state - hd/dashboard
+8:01:49 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:01:49 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:01:49 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:01:49 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:01:49 AM:::[scribe.js]71.42.217.194 [Core] Create hd/empty
+8:01:49 AM:::[scribe.js]71.42.217.194 [Core] Create hd/dashboard
+8:01:49 AM:::[scribe.js]71.42.217.194 [Core] Propgating resize event
+8:01:49 AM:::[scribe.js]71.42.217.194 [Core] State changed to hd/dashboard
+8:01:49 AM:::[scribe.js]71.42.217.194 [Core] Propgating update event.
+8:03:59 AM:::[scribe.js]71.42.217.194 [Core] Requested state - hd/dashboard
+8:03:59 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:03:59 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:04:00 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:04:00 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:04:00 AM:::[scribe.js]71.42.217.194 [Core] Create hd/empty
+8:04:00 AM:::[scribe.js]71.42.217.194 [Core] Create hd/dashboard
+8:04:00 AM:::[scribe.js]71.42.217.194 [Core] Propgating resize event
+8:04:00 AM:::[scribe.js]71.42.217.194 [Core] Propgating update event.
+8:04:00 AM:::[scribe.js]71.42.217.194 [Core] State changed to hd/dashboard
+8:04:05 AM:::[scribe.js]71.42.217.194 [Core] Requested state - hd/dashboard
+8:04:05 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:04:05 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:04:06 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:04:06 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:04:06 AM:::[scribe.js]71.42.217.194 [Core] Create hd/empty
+8:04:06 AM:::[scribe.js]71.42.217.194 [Core] Create hd/dashboard
+8:04:06 AM:::[scribe.js]71.42.217.194 [Core] Propgating resize event
+8:04:06 AM:::[scribe.js]71.42.217.194 [Core] State changed to hd/dashboard
+8:04:06 AM:::[scribe.js]71.42.217.194 [Core] Propgating update event.
+8:04:19 AM:::[scribe.js]71.42.217.194 [Core] Requested state - hd/dashboard
+8:04:19 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:04:19 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:04:20 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:04:20 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:04:20 AM:::[scribe.js]71.42.217.194 [Core] Create hd/empty
+8:04:20 AM:::[scribe.js]71.42.217.194 [Core] Create hd/dashboard
+8:04:20 AM:::[scribe.js]71.42.217.194 [Core] Propgating resize event
+8:04:20 AM:::[scribe.js]71.42.217.194 [Core] State changed to hd/dashboard
+8:04:20 AM:::[scribe.js]71.42.217.194 [Core] Propgating update event.
+8:05:28 AM:::[scribe.js]71.42.217.194 [Core] Requested state - hd/dashboard
+8:05:28 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:05:28 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:05:29 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:05:29 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:05:29 AM:::[scribe.js]71.42.217.194 [Core] Create hd/empty
+8:05:29 AM:::[scribe.js]71.42.217.194 [Core] Create hd/dashboard
+8:05:29 AM:::[scribe.js]71.42.217.194 [Core] TypeError: self.events.hide is undefined
+8:05:29 AM:::[scribe.js]71.42.217.194  Detected error
+8:05:29 AM:::[scribe.js]71.42.217.194 [Core] Propgating resize event
+8:05:29 AM:::[scribe.js]71.42.217.194 [Core] State changed to hd/dashboard
+8:05:29 AM:::[scribe.js]71.42.217.194 [Core] Propgating update event.
+8:05:48 AM:::[scribe.js]71.42.217.194 [Core] Requested state - hd/dashboard
+8:05:48 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:05:48 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:05:49 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:05:49 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:05:49 AM:::[scribe.js]71.42.217.194 [Core] Create hd/empty
+8:05:49 AM:::[scribe.js]71.42.217.194 [Core] Create hd/dashboard
+8:05:49 AM:::[scribe.js]71.42.217.194 [Core] Propgating resize event
+8:05:49 AM:::[scribe.js]71.42.217.194 [Core] State changed to hd/dashboard
+8:05:49 AM:::[scribe.js]71.42.217.194 [Core] Propgating update event.
+8:05:54 AM:::[scribe.js]71.42.217.194 [Core] Requested state - hd/dashboard
+8:05:55 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:05:55 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:05:55 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:05:55 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:05:55 AM:::[scribe.js]71.42.217.194 [Core] Create hd/empty
+8:05:55 AM:::[scribe.js]71.42.217.194 [Core] Create hd/dashboard
+8:05:56 AM:::[scribe.js]71.42.217.194 [Core] Propgating resize event
+8:05:56 AM:::[scribe.js]71.42.217.194 [Core] State changed to hd/dashboard
+8:05:56 AM:::[scribe.js]71.42.217.194 [Core] Propgating update event.
+8:06:43 AM:::[scribe.js]71.42.217.194 [Core] Requested state - hd/dashboard
+8:06:43 AM:::[scribe.js]71.42.217.194 [Core] Requested state - hd/dashboard
+8:06:44 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:06:44 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:06:44 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:06:44 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:06:44 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:06:44 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:06:44 AM:::[scribe.js]71.42.217.194 [Core] Create hd/empty
+8:06:44 AM:::[scribe.js]71.42.217.194 [Core] Create hd/dashboard
+8:06:44 AM:::[scribe.js]71.42.217.194 [Core] State changed to hd/dashboard
+8:06:44 AM:::[scribe.js]71.42.217.194 [Core] Propgating resize event
+8:06:44 AM:::[scribe.js]71.42.217.194 [Core] Propgating update event.
+8:06:44 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:06:44 AM:::[scribe.js]71.42.217.194 [Core] Propgating resize event
+8:06:44 AM:::[scribe.js]71.42.217.194 [Core][Loadstatesequence] Unload hd/dashboard
+8:06:44 AM:::[scribe.js]71.42.217.194 [Core] Create hd/dashboard
+8:06:44 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:06:44 AM:::[scribe.js]71.42.217.194 [Core] Propgating update event.
+8:06:44 AM:::[scribe.js]71.42.217.194 [Core] State changed to hd/dashboard
+8:10:21 AM:::[scribe.js]71.42.217.194 [Core] Requested state - hd/dashboard
+8:10:21 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:10:24 AM:::[scribe.js]71.42.217.194 [Core] Requested state - hd/dashboard
+8:10:24 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:10:41 AM:::[scribe.js]71.42.217.194 [Core] Requested state - hd/dashboard
+8:10:42 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:10:42 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:10:42 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:10:42 AM:::[scribe.js]71.42.217.194 [Core] Create hd/empty
+8:10:42 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:10:42 AM:::[scribe.js]71.42.217.194 [Core] Create hd/dashboard
+8:10:42 AM:::[scribe.js]71.42.217.194 [Core] Propgating resize event
+8:10:42 AM:::[scribe.js]71.42.217.194 [Core] State changed to hd/dashboard
+8:10:42 AM:::[scribe.js]71.42.217.194 [Core] Propgating update event.
+8:12:01 AM:::[scribe.js]71.42.217.194 [Core] Requested state - hd/dashboard
+8:12:01 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:12:01 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:12:01 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:12:01 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:12:01 AM:::[scribe.js]71.42.217.194 [Core] Create hd/empty
+8:12:01 AM:::[scribe.js]71.42.217.194 [Core] Create hd/dashboard
+8:12:01 AM:::[scribe.js]71.42.217.194 [Core] Propgating resize event
+8:12:01 AM:::[scribe.js]71.42.217.194 [Core] State changed to hd/dashboard
+8:12:01 AM:::[scribe.js]71.42.217.194 [Core] Propgating update event.
+8:12:48 AM:::[scribe.js]71.42.217.194 [Core] Requested state - hd/dashboard
+8:12:49 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:12:49 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:12:49 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:12:49 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:12:49 AM:::[scribe.js]71.42.217.194 [Core] Create hd/empty
+8:12:49 AM:::[scribe.js]71.42.217.194 [Core] Create hd/dashboard
+8:12:49 AM:::[scribe.js]71.42.217.194 [Core] Propgating resize event
+8:12:49 AM:::[scribe.js]71.42.217.194 [Core] State changed to hd/dashboard
+8:12:49 AM:::[scribe.js]71.42.217.194 [Core] Propgating update event.
+8:25:25 AM:::[scribe.js]71.42.217.194 [Core] Requested state - hd/dashboard
+8:25:26 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:25:26 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:25:26 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+8:25:26 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+8:25:26 AM:::[scribe.js]71.42.217.194 [Core] Create hd/empty
+8:25:26 AM:::[scribe.js]71.42.217.194 [Core] Create hd/dashboard
+8:25:26 AM:::[scribe.js]71.42.217.194 [Core] Propgating resize event
+8:25:26 AM:::[scribe.js]71.42.217.194 [Core] State changed to hd/dashboard
+8:25:26 AM:::[scribe.js]71.42.217.194 [Core] Propgating update event.
+9:19:31 AM:::[scribe.js]69.172.160.205 [Elixir/core] Requested state - home
+9:19:31 AM:::[scribe.js]69.172.160.205 [Elixir/core] State request complete.
+9:19:31 AM:::[scribe.js]69.172.160.205 [Elixir/core] State downloaded successfully.
+9:19:31 AM:::[scribe.js]69.172.160.205 [Elixir/core] State request complete.
+9:19:31 AM:::[scribe.js]69.172.160.205 [Elixir/core] State downloaded successfully.
+9:19:31 AM:::[scribe.js]69.172.160.205 [Elixir/core] Create base
+9:19:31 AM:::[scribe.js]69.172.160.205 [Elixir/core] Create home
+9:19:31 AM:::[scribe.js]69.172.160.205 [Elixir/core] Propgating resize event
+9:19:31 AM:::[scribe.js]69.172.160.205 [Elixir/core] Propgating update event.
+9:19:31 AM:::[scribe.js]69.172.160.205 [Elixir/core] State changed to home
+9:19:31 AM:::[scribe.js]69.172.160.205 [Elixir-state-dashboard][Testing-mode] false
+4:14:28 PM:::[scribe.js]159.153.130.10 [Core] Requested state - hd/dashboard
+4:14:29 PM:::[scribe.js]159.153.130.10 [Core] State request complete.
+4:14:29 PM:::[scribe.js]159.153.130.10 [Core] State downloaded successfully.
+4:14:29 PM:::[scribe.js]159.153.130.10 [Core] State request complete.
+4:14:29 PM:::[scribe.js]159.153.130.10 [Core] State downloaded successfully.
+4:14:29 PM:::[scribe.js]159.153.130.10 [Core] Create hd/empty
+4:14:29 PM:::[scribe.js]159.153.130.10 [Core] Create hd/dashboard
+4:14:29 PM:::[scribe.js]159.153.130.10 [Core] Propgating resize event
+4:14:29 PM:::[scribe.js]159.153.130.10 [Core] State changed to hd/dashboard
+4:14:29 PM:::[scribe.js]159.153.130.10 [Core] Propgating update event.
+4:14:32 PM:::[scribe.js]159.153.130.10 [Core] Requested state - hd/dashboard
+4:14:33 PM:::[scribe.js]159.153.130.10 [Core] State request complete.
+4:14:33 PM:::[scribe.js]159.153.130.10 [Core] State downloaded successfully.
+4:14:33 PM:::[scribe.js]159.153.130.10 [Core] State request complete.
+4:14:33 PM:::[scribe.js]159.153.130.10 [Core] Create hd/dashboard
+4:14:33 PM:::[scribe.js]159.153.130.10 [Core] State downloaded successfully.
+4:14:33 PM:::[scribe.js]159.153.130.10 [Core] Create hd/empty
+4:14:33 PM:::[scribe.js]159.153.130.10 [Core] Propgating resize event
+4:14:33 PM:::[scribe.js]159.153.130.10 [Core] Propgating update event.
+4:14:33 PM:::[scribe.js]159.153.130.10 [Core] State changed to hd/dashboard
+4:14:38 PM:::[scribe.js]159.153.130.10 [Core] Requested state - hd/dashboard
+4:14:38 PM:::[scribe.js]159.153.130.10 [Core] State request complete.
+4:14:38 PM:::[scribe.js]159.153.130.10 [Core] State downloaded successfully.
+4:14:39 PM:::[scribe.js]159.153.130.10 [Core] Create hd/empty
+4:14:39 PM:::[scribe.js]159.153.130.10 [Core] State request complete.
+4:14:39 PM:::[scribe.js]159.153.130.10 [Core] State downloaded successfully.
+4:14:39 PM:::[scribe.js]159.153.130.10 [Core] Create hd/dashboard
+4:14:39 PM:::[scribe.js]159.153.130.10 [Core] Propgating resize event
+4:14:39 PM:::[scribe.js]159.153.130.10 [Core] State changed to hd/dashboard
+4:14:39 PM:::[scribe.js]159.153.130.10 [Core] Propgating update event.
+12:25:02 AM:::[scribe.js]71.42.217.194 [Elixir/core] Requested state - home
+12:25:03 AM:::[scribe.js]71.42.217.194 [Elixir/core] State request complete.
+12:25:03 AM:::[scribe.js]71.42.217.194 [Elixir/core] State downloaded successfully.
+12:25:03 AM:::[scribe.js]71.42.217.194 [Elixir/core] State request complete.
+12:25:03 AM:::[scribe.js]71.42.217.194 [Elixir/core] State downloaded successfully.
+12:25:03 AM:::[scribe.js]71.42.217.194 [Elixir/core] Create base
+12:25:03 AM:::[scribe.js]71.42.217.194 [Elixir/core] Create home
+12:25:03 AM:::[scribe.js]71.42.217.194 [Elixir/core] Propgating resize event
+12:25:03 AM:::[scribe.js]71.42.217.194 [Elixir/core] State changed to home
+12:25:03 AM:::[scribe.js]71.42.217.194 [Elixir/core] Propgating update event.
+12:25:03 AM:::[scribe.js]71.42.217.194 [Elixir-state-dashboard][Testing-mode] false
+12:25:14 AM:::[scribe.js]71.42.217.194 [Core] Requested state - hd/dashboard
+12:25:15 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+12:25:15 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+12:25:15 AM:::[scribe.js]71.42.217.194 [Core] State request complete.
+12:25:15 AM:::[scribe.js]71.42.217.194 [Core] State downloaded successfully.
+12:25:15 AM:::[scribe.js]71.42.217.194 [Core] Create hd/empty
+12:25:15 AM:::[scribe.js]71.42.217.194 [Core] Create hd/dashboard
+12:25:15 AM:::[scribe.js]71.42.217.194 [Core] Propgating resize event
+12:25:15 AM:::[scribe.js]71.42.217.194 [Core] State changed to hd/dashboard
+12:25:15 AM:::[scribe.js]71.42.217.194 [Core] Propgating update event.

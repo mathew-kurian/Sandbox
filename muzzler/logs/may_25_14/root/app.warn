@@ -1,0 +1,1523 @@
+6:57:29 AM:::[mus.ec]Created pipe console.WARN
+6:57:30 AM:::[notify.js:25]Listener add for on `17` event.
+6:57:30 AM:::[notify.js:30]Listener add for on `11` event.
+6:57:30 AM:::[notify.js:34]Listener add for on `3` event.
+6:57:31 AM:::[search-google-images.js:10]Listener add for on `done` event.
+6:57:31 AM:::[search-google-images.js:26]Listener add for on `error` event.
+6:57:31 AM:::connect.multipart() will be removed in connect 3.0
+6:57:31 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+6:57:31 AM:::connect.limit() will be removed in connect 3.0
+6:57:33 AM:::[search-google-images.js:13]Listener add for on `done` event.
+6:57:33 AM:::[search-google-images.js:16]Listener add for on `start` event.
+6:57:33 AM:::[search-google-images.js:18]Listener add for on `progress` event.
+6:57:33 AM:::[search-google-images.js:21]Listener add for on `error` event.
+6:57:33 AM:::[aws-upload-delete-files-bucket.js:15]Listener add for on `done` event.
+6:57:33 AM:::[aws-upload-delete-files-bucket.js:55]Listener add for on `error` event.
+6:57:34 AM:::[aws-upload-delete-files-bucket.js:17]Listener add for on `done` event.
+6:57:34 AM:::[aws-upload-delete-files-bucket.js:51]Listener add for on `error` event.
+6:57:34 AM:::[aws-upload-delete-files-bucket.js:21]Listener add for on `start` event.
+6:57:34 AM:::[aws-upload-delete-files-bucket.js:23]Listener add for on `progress` event.
+6:57:34 AM:::[aws-upload-delete-files-bucket.js:29]Listener add for on `done` event.
+6:57:34 AM:::[aws-upload-delete-files-bucket.js:47]Listener add for on `error` event.
+6:57:34 AM:::[aws-upload-delete-files-bucket.js:31]Listener add for on `done` event.
+6:57:34 AM:::[aws-upload-delete-files-bucket.js:43]Listener add for on `error` event.
+6:57:34 AM:::[aws-upload-delete-files-bucket.js:33]Listener add for on `done` event.
+6:57:34 AM:::[aws-upload-delete-files-bucket.js:39]Listener add for on `error` event.
+6:57:34 AM:::[aws-upload-delete-files-bucket.js:35]Listener add for on `done` event.
+6:57:34 AM:::[aws-upload-delete-files-bucket.js:67]Listener add for on `done` event.
+6:57:34 AM:::[aws-upload-delete-files-bucket.js:113]Listener add for on `error` event.
+6:57:35 AM:::[aws-upload-delete-files-bucket.js:69]Listener add for on `done` event.
+6:57:35 AM:::[aws-upload-delete-files-bucket.js:109]Listener add for on `error` event.
+6:57:35 AM:::[aws-upload-delete-files-bucket.js:73]Listener add for on `start` event.
+6:57:35 AM:::[aws-upload-delete-files-bucket.js:75]Listener add for on `progress` event.
+6:57:35 AM:::[aws-upload-delete-files-bucket.js:81]Listener add for on `done` event.
+6:57:35 AM:::[aws-upload-delete-files-bucket.js:105]Listener add for on `error` event.
+6:57:35 AM:::[aws-upload-delete-files-bucket.js:83]Listener add for on `done` event.
+6:57:35 AM:::[aws-upload-delete-files-bucket.js:101]Listener add for on `error` event.
+6:57:35 AM:::[aws-upload-delete-files-bucket.js:85]Listener add for on `done` event.
+6:57:35 AM:::[aws-upload-delete-files-bucket.js:97]Listener add for on `error` event.
+6:57:35 AM:::[aws-upload-delete-files-bucket.js:87]Listener add for on `done` event.
+6:57:35 AM:::[aws-upload-delete-files-bucket.js:93]Listener add for on `error` event.
+6:57:35 AM:::[aws-upload-delete-files-bucket.js:89]Listener add for on `done` event.
+6:57:49 AM:::[mus.ec]Created pipe console.WARN
+6:57:49 AM:::[notify.js:25]Listener add for on `17` event.
+6:57:49 AM:::[notify.js:30]Listener add for on `11` event.
+6:57:49 AM:::[notify.js:34]Listener add for on `3` event.
+6:57:50 AM:::connect.multipart() will be removed in connect 3.0
+6:57:50 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+6:57:50 AM:::connect.limit() will be removed in connect 3.0
+7:00:02 AM:::[mus.ec]Created pipe console.WARN
+7:00:02 AM:::[notify.js:25]Listener add for on `17` event.
+7:00:02 AM:::[notify.js:30]Listener add for on `11` event.
+7:00:02 AM:::[notify.js:34]Listener add for on `3` event.
+7:00:03 AM:::[mus.ec]Created pipe console.WARN
+7:00:04 AM:::[notify.js:25]Listener add for on `17` event.
+7:00:04 AM:::[notify.js:30]Listener add for on `11` event.
+7:00:04 AM:::[notify.js:34]Listener add for on `3` event.
+7:00:05 AM:::[mus.ec]Created pipe console.WARN
+7:00:06 AM:::[notify.js:25]Listener add for on `17` event.
+7:00:06 AM:::[notify.js:30]Listener add for on `11` event.
+7:00:06 AM:::[notify.js:34]Listener add for on `3` event.
+7:00:18 AM:::[mus.ec]Created pipe console.WARN
+7:00:20 AM:::[notify.js:25]Listener add for on `17` event.
+7:00:20 AM:::[notify.js:30]Listener add for on `11` event.
+7:00:20 AM:::[notify.js:34]Listener add for on `3` event.
+7:00:21 AM:::[search-echonest.js:64]Listener add for on `done` event.
+7:00:21 AM:::[search-echonest.js:67]Listener add for on `start` event.
+7:00:21 AM:::[search-echonest.js:69]Listener add for on `progress` event.
+7:00:21 AM:::[search-echonest.js:72]Listener add for on `error` event.
+7:00:21 AM:::connect.multipart() will be removed in connect 3.0
+7:00:21 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:00:21 AM:::connect.limit() will be removed in connect 3.0
+7:00:36 AM:::[aws-upload-delete-files-bucket.js:15]Listener add for on `done` event.
+7:00:36 AM:::[aws-upload-delete-files-bucket.js:55]Listener add for on `error` event.
+7:00:37 AM:::[aws-upload-delete-files-bucket.js:17]Listener add for on `done` event.
+7:00:37 AM:::[aws-upload-delete-files-bucket.js:51]Listener add for on `error` event.
+7:00:37 AM:::[aws-upload-delete-files-bucket.js:21]Listener add for on `start` event.
+7:00:37 AM:::[aws-upload-delete-files-bucket.js:23]Listener add for on `progress` event.
+7:00:37 AM:::[aws-upload-delete-files-bucket.js:29]Listener add for on `done` event.
+7:00:37 AM:::[aws-upload-delete-files-bucket.js:47]Listener add for on `error` event.
+7:00:37 AM:::[aws-upload-delete-files-bucket.js:31]Listener add for on `done` event.
+7:00:37 AM:::[aws-upload-delete-files-bucket.js:43]Listener add for on `error` event.
+7:00:37 AM:::[aws-upload-delete-files-bucket.js:33]Listener add for on `done` event.
+7:00:37 AM:::[aws-upload-delete-files-bucket.js:39]Listener add for on `error` event.
+7:00:37 AM:::[aws-upload-delete-files-bucket.js:35]Listener add for on `done` event.
+7:00:38 AM:::[aws-upload-delete-files-bucket.js:67]Listener add for on `done` event.
+7:00:38 AM:::[aws-upload-delete-files-bucket.js:113]Listener add for on `error` event.
+7:00:38 AM:::[aws-upload-delete-files-bucket.js:69]Listener add for on `done` event.
+7:00:38 AM:::[aws-upload-delete-files-bucket.js:109]Listener add for on `error` event.
+7:00:38 AM:::[aws-upload-delete-files-bucket.js:73]Listener add for on `start` event.
+7:00:38 AM:::[aws-upload-delete-files-bucket.js:75]Listener add for on `progress` event.
+7:00:38 AM:::[aws-upload-delete-files-bucket.js:81]Listener add for on `done` event.
+7:00:38 AM:::[aws-upload-delete-files-bucket.js:105]Listener add for on `error` event.
+7:00:38 AM:::[aws-upload-delete-files-bucket.js:83]Listener add for on `done` event.
+7:00:38 AM:::[aws-upload-delete-files-bucket.js:101]Listener add for on `error` event.
+7:00:39 AM:::[aws-upload-delete-files-bucket.js:85]Listener add for on `done` event.
+7:00:39 AM:::[aws-upload-delete-files-bucket.js:97]Listener add for on `error` event.
+7:00:39 AM:::[aws-upload-delete-files-bucket.js:87]Listener add for on `done` event.
+7:00:39 AM:::[aws-upload-delete-files-bucket.js:93]Listener add for on `error` event.
+7:00:39 AM:::[aws-upload-delete-files-bucket.js:89]Listener add for on `done` event.
+7:04:45 AM:::[mus.ec]Created pipe console.WARN
+7:04:47 AM:::[notify.js:25]Listener add for on `17` event.
+7:04:47 AM:::[notify.js:30]Listener add for on `11` event.
+7:04:47 AM:::[notify.js:34]Listener add for on `3` event.
+7:04:48 AM:::[search-echonest.js:64]Listener add for on `done` event.
+7:04:48 AM:::[search-echonest.js:67]Listener add for on `start` event.
+7:04:48 AM:::[search-echonest.js:69]Listener add for on `progress` event.
+7:04:48 AM:::[search-echonest.js:72]Listener add for on `error` event.
+7:04:48 AM:::connect.multipart() will be removed in connect 3.0
+7:04:48 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:04:48 AM:::connect.limit() will be removed in connect 3.0
+7:04:57 AM:::[aws-upload-delete-files-bucket.js:15]Listener add for on `done` event.
+7:04:57 AM:::[aws-upload-delete-files-bucket.js:55]Listener add for on `error` event.
+7:04:58 AM:::[aws-upload-delete-files-bucket.js:17]Listener add for on `done` event.
+7:04:58 AM:::[aws-upload-delete-files-bucket.js:51]Listener add for on `error` event.
+7:04:58 AM:::[aws-upload-delete-files-bucket.js:21]Listener add for on `start` event.
+7:04:58 AM:::[aws-upload-delete-files-bucket.js:23]Listener add for on `progress` event.
+7:04:58 AM:::[aws-upload-delete-files-bucket.js:29]Listener add for on `done` event.
+7:04:58 AM:::[aws-upload-delete-files-bucket.js:47]Listener add for on `error` event.
+7:04:58 AM:::[aws-upload-delete-files-bucket.js:31]Listener add for on `done` event.
+7:04:58 AM:::[aws-upload-delete-files-bucket.js:43]Listener add for on `error` event.
+7:04:58 AM:::[aws-upload-delete-files-bucket.js:33]Listener add for on `done` event.
+7:04:58 AM:::[aws-upload-delete-files-bucket.js:39]Listener add for on `error` event.
+7:04:58 AM:::[aws-upload-delete-files-bucket.js:35]Listener add for on `done` event.
+7:04:58 AM:::[aws-upload-delete-files-bucket.js:67]Listener add for on `done` event.
+7:04:58 AM:::[aws-upload-delete-files-bucket.js:113]Listener add for on `error` event.
+7:04:59 AM:::[aws-upload-delete-files-bucket.js:69]Listener add for on `done` event.
+7:04:59 AM:::[aws-upload-delete-files-bucket.js:109]Listener add for on `error` event.
+7:04:59 AM:::[aws-upload-delete-files-bucket.js:73]Listener add for on `start` event.
+7:04:59 AM:::[aws-upload-delete-files-bucket.js:75]Listener add for on `progress` event.
+7:04:59 AM:::[aws-upload-delete-files-bucket.js:81]Listener add for on `done` event.
+7:04:59 AM:::[aws-upload-delete-files-bucket.js:105]Listener add for on `error` event.
+7:04:59 AM:::[aws-upload-delete-files-bucket.js:83]Listener add for on `done` event.
+7:04:59 AM:::[aws-upload-delete-files-bucket.js:101]Listener add for on `error` event.
+7:04:59 AM:::[aws-upload-delete-files-bucket.js:85]Listener add for on `done` event.
+7:04:59 AM:::[aws-upload-delete-files-bucket.js:97]Listener add for on `error` event.
+7:04:59 AM:::[aws-upload-delete-files-bucket.js:87]Listener add for on `done` event.
+7:04:59 AM:::[aws-upload-delete-files-bucket.js:93]Listener add for on `error` event.
+7:04:59 AM:::[aws-upload-delete-files-bucket.js:89]Listener add for on `done` event.
+7:05:38 AM:::[mus.ec]Created pipe console.WARN
+7:05:39 AM:::[notify.js:25]Listener add for on `17` event.
+7:05:39 AM:::[notify.js:30]Listener add for on `11` event.
+7:05:39 AM:::[notify.js:34]Listener add for on `3` event.
+7:05:40 AM:::[search-echonest.js:64]Listener add for on `done` event.
+7:05:40 AM:::[search-echonest.js:67]Listener add for on `start` event.
+7:05:40 AM:::[search-echonest.js:69]Listener add for on `progress` event.
+7:05:40 AM:::[search-echonest.js:72]Listener add for on `error` event.
+7:05:40 AM:::connect.multipart() will be removed in connect 3.0
+7:05:40 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:05:40 AM:::connect.limit() will be removed in connect 3.0
+7:05:50 AM:::[aws-upload-delete-files-bucket.js:15]Listener add for on `done` event.
+7:05:50 AM:::[aws-upload-delete-files-bucket.js:55]Listener add for on `error` event.
+7:05:50 AM:::[aws-upload-delete-files-bucket.js:17]Listener add for on `done` event.
+7:05:50 AM:::[aws-upload-delete-files-bucket.js:51]Listener add for on `error` event.
+7:05:50 AM:::[aws-upload-delete-files-bucket.js:21]Listener add for on `start` event.
+7:05:50 AM:::[aws-upload-delete-files-bucket.js:23]Listener add for on `progress` event.
+7:05:50 AM:::[aws-upload-delete-files-bucket.js:29]Listener add for on `done` event.
+7:05:50 AM:::[aws-upload-delete-files-bucket.js:47]Listener add for on `error` event.
+7:05:50 AM:::[aws-upload-delete-files-bucket.js:31]Listener add for on `done` event.
+7:05:50 AM:::[aws-upload-delete-files-bucket.js:43]Listener add for on `error` event.
+7:05:50 AM:::[aws-upload-delete-files-bucket.js:33]Listener add for on `done` event.
+7:05:50 AM:::[aws-upload-delete-files-bucket.js:39]Listener add for on `error` event.
+7:05:50 AM:::[aws-upload-delete-files-bucket.js:35]Listener add for on `done` event.
+7:05:51 AM:::[aws-upload-delete-files-bucket.js:67]Listener add for on `done` event.
+7:05:51 AM:::[aws-upload-delete-files-bucket.js:113]Listener add for on `error` event.
+7:05:51 AM:::[aws-upload-delete-files-bucket.js:69]Listener add for on `done` event.
+7:05:51 AM:::[aws-upload-delete-files-bucket.js:109]Listener add for on `error` event.
+7:05:51 AM:::[aws-upload-delete-files-bucket.js:73]Listener add for on `start` event.
+7:05:51 AM:::[aws-upload-delete-files-bucket.js:75]Listener add for on `progress` event.
+7:05:51 AM:::[aws-upload-delete-files-bucket.js:81]Listener add for on `done` event.
+7:05:51 AM:::[aws-upload-delete-files-bucket.js:105]Listener add for on `error` event.
+7:05:51 AM:::[aws-upload-delete-files-bucket.js:83]Listener add for on `done` event.
+7:05:51 AM:::[aws-upload-delete-files-bucket.js:101]Listener add for on `error` event.
+7:05:52 AM:::[aws-upload-delete-files-bucket.js:85]Listener add for on `done` event.
+7:05:52 AM:::[aws-upload-delete-files-bucket.js:97]Listener add for on `error` event.
+7:05:52 AM:::[aws-upload-delete-files-bucket.js:87]Listener add for on `done` event.
+7:05:52 AM:::[aws-upload-delete-files-bucket.js:93]Listener add for on `error` event.
+7:05:52 AM:::[aws-upload-delete-files-bucket.js:89]Listener add for on `done` event.
+7:13:21 AM:::[mus.ec]Created pipe console.WARN
+7:13:21 AM:::[notify.js:25]Listener add for on `17` event.
+7:13:21 AM:::[notify.js:30]Listener add for on `11` event.
+7:13:21 AM:::[notify.js:34]Listener add for on `3` event.
+7:13:22 AM:::[search-echonest.js:64]Listener add for on `done` event.
+7:13:22 AM:::[search-echonest.js:67]Listener add for on `start` event.
+7:13:22 AM:::[search-echonest.js:69]Listener add for on `progress` event.
+7:13:22 AM:::[search-echonest.js:72]Listener add for on `error` event.
+7:13:22 AM:::connect.multipart() will be removed in connect 3.0
+7:13:22 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:13:22 AM:::connect.limit() will be removed in connect 3.0
+7:13:32 AM:::[aws-upload-delete-files-bucket.js:15]Listener add for on `done` event.
+7:13:32 AM:::[aws-upload-delete-files-bucket.js:55]Listener add for on `error` event.
+7:13:33 AM:::[aws-upload-delete-files-bucket.js:17]Listener add for on `done` event.
+7:13:33 AM:::[aws-upload-delete-files-bucket.js:51]Listener add for on `error` event.
+7:13:33 AM:::[aws-upload-delete-files-bucket.js:21]Listener add for on `start` event.
+7:13:33 AM:::[aws-upload-delete-files-bucket.js:23]Listener add for on `progress` event.
+7:13:33 AM:::[aws-upload-delete-files-bucket.js:29]Listener add for on `done` event.
+7:13:33 AM:::[aws-upload-delete-files-bucket.js:47]Listener add for on `error` event.
+7:13:33 AM:::[aws-upload-delete-files-bucket.js:31]Listener add for on `done` event.
+7:13:33 AM:::[aws-upload-delete-files-bucket.js:43]Listener add for on `error` event.
+7:13:33 AM:::[aws-upload-delete-files-bucket.js:33]Listener add for on `done` event.
+7:13:33 AM:::[aws-upload-delete-files-bucket.js:39]Listener add for on `error` event.
+7:13:33 AM:::[aws-upload-delete-files-bucket.js:35]Listener add for on `done` event.
+7:13:33 AM:::[aws-upload-delete-files-bucket.js:67]Listener add for on `done` event.
+7:13:33 AM:::[aws-upload-delete-files-bucket.js:113]Listener add for on `error` event.
+7:13:34 AM:::[aws-upload-delete-files-bucket.js:69]Listener add for on `done` event.
+7:13:34 AM:::[aws-upload-delete-files-bucket.js:109]Listener add for on `error` event.
+7:13:34 AM:::[aws-upload-delete-files-bucket.js:73]Listener add for on `start` event.
+7:13:34 AM:::[aws-upload-delete-files-bucket.js:75]Listener add for on `progress` event.
+7:13:34 AM:::[aws-upload-delete-files-bucket.js:81]Listener add for on `done` event.
+7:13:34 AM:::[aws-upload-delete-files-bucket.js:105]Listener add for on `error` event.
+7:13:34 AM:::[aws-upload-delete-files-bucket.js:83]Listener add for on `done` event.
+7:13:34 AM:::[aws-upload-delete-files-bucket.js:101]Listener add for on `error` event.
+7:13:34 AM:::[aws-upload-delete-files-bucket.js:85]Listener add for on `done` event.
+7:13:34 AM:::[aws-upload-delete-files-bucket.js:97]Listener add for on `error` event.
+7:13:34 AM:::[aws-upload-delete-files-bucket.js:87]Listener add for on `done` event.
+7:13:34 AM:::[aws-upload-delete-files-bucket.js:93]Listener add for on `error` event.
+7:13:34 AM:::[aws-upload-delete-files-bucket.js:89]Listener add for on `done` event.
+7:13:41 AM:::[mus.ec]Created pipe console.WARN
+7:13:42 AM:::[notify.js:25]Listener add for on `17` event.
+7:13:42 AM:::[notify.js:30]Listener add for on `11` event.
+7:13:42 AM:::[notify.js:34]Listener add for on `3` event.
+7:13:43 AM:::connect.multipart() will be removed in connect 3.0
+7:13:43 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:13:43 AM:::connect.limit() will be removed in connect 3.0
+7:13:48 AM:::[mus.ec]Created pipe console.WARN
+7:13:49 AM:::[notify.js:25]Listener add for on `17` event.
+7:13:49 AM:::[notify.js:30]Listener add for on `11` event.
+7:13:49 AM:::[notify.js:34]Listener add for on `3` event.
+7:13:50 AM:::connect.multipart() will be removed in connect 3.0
+7:13:50 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:13:50 AM:::connect.limit() will be removed in connect 3.0
+7:14:21 AM:::[mus.ec]Created pipe console.WARN
+7:14:21 AM:::[notify.js:25]Listener add for on `17` event.
+7:14:21 AM:::[notify.js:30]Listener add for on `11` event.
+7:14:21 AM:::[notify.js:34]Listener add for on `3` event.
+7:14:22 AM:::connect.multipart() will be removed in connect 3.0
+7:14:22 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:14:22 AM:::connect.limit() will be removed in connect 3.0
+7:14:38 AM:::[mus.ec]Created pipe console.WARN
+7:14:39 AM:::[notify.js:25]Listener add for on `17` event.
+7:14:39 AM:::[notify.js:30]Listener add for on `11` event.
+7:14:39 AM:::[notify.js:34]Listener add for on `3` event.
+7:14:40 AM:::[search-youtube-query.js:9]Listener add for on `done` event.
+7:14:40 AM:::[search-youtube-query.js:23]Listener add for on `error` event.
+7:14:40 AM:::connect.multipart() will be removed in connect 3.0
+7:14:40 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:14:40 AM:::connect.limit() will be removed in connect 3.0
+7:14:40 AM:::[mus.ec]Created pipe console.WARN
+7:14:41 AM:::[notify.js:25]Listener add for on `17` event.
+7:14:41 AM:::[notify.js:30]Listener add for on `11` event.
+7:14:41 AM:::[notify.js:34]Listener add for on `3` event.
+7:14:42 AM:::[search-youtube-query.js:9]Listener add for on `done` event.
+7:14:42 AM:::[search-youtube-query.js:23]Listener add for on `error` event.
+7:14:54 AM:::[mus.ec]Created pipe console.WARN
+7:14:56 AM:::[notify.js:25]Listener add for on `17` event.
+7:14:56 AM:::[notify.js:30]Listener add for on `11` event.
+7:14:56 AM:::[notify.js:34]Listener add for on `3` event.
+7:14:57 AM:::[search-youtube-query.js:9]Listener add for on `done` event.
+7:14:57 AM:::[search-youtube-query.js:23]Listener add for on `error` event.
+7:14:57 AM:::connect.multipart() will be removed in connect 3.0
+7:14:57 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:14:57 AM:::connect.limit() will be removed in connect 3.0
+7:14:57 AM:::[search-youtube-query.js:11]Listener add for on `done` event.
+7:14:57 AM:::[search-youtube-query.js:14]Listener add for on `start` event.
+7:14:57 AM:::[search-youtube-query.js:16]Listener add for on `progress` event.
+7:14:57 AM:::[search-youtube-query.js:19]Listener add for on `error` event.
+7:14:57 AM:::No format metadata for itag 247 found
+7:14:57 AM:::No format metadata for itag 244 found
+7:14:57 AM:::No format metadata for itag 243 found
+7:14:57 AM:::No format metadata for itag 242 found
+7:14:58 AM:::No format metadata for itag 247 found
+7:14:58 AM:::No format metadata for itag 244 found
+7:14:58 AM:::No format metadata for itag 243 found
+7:14:58 AM:::No format metadata for itag 242 found
+7:25:31 AM:::[mus.ec]Created pipe console.WARN
+7:25:33 AM:::[notify.js:25]Listener add for on `17` event.
+7:25:33 AM:::[notify.js:30]Listener add for on `11` event.
+7:25:33 AM:::[notify.js:34]Listener add for on `3` event.
+7:25:34 AM:::[search-youtube-query.js:9]Listener add for on `done` event.
+7:25:34 AM:::[search-youtube-query.js:23]Listener add for on `error` event.
+7:25:34 AM:::connect.multipart() will be removed in connect 3.0
+7:25:34 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:25:34 AM:::connect.limit() will be removed in connect 3.0
+7:25:35 AM:::[search-youtube-query.js:11]Listener add for on `done` event.
+7:25:35 AM:::[search-youtube-query.js:14]Listener add for on `start` event.
+7:25:35 AM:::[search-youtube-query.js:16]Listener add for on `progress` event.
+7:25:35 AM:::[search-youtube-query.js:19]Listener add for on `error` event.
+7:25:35 AM:::No format metadata for itag 247 found
+7:25:35 AM:::No format metadata for itag 244 found
+7:25:35 AM:::No format metadata for itag 243 found
+7:25:35 AM:::No format metadata for itag 242 found
+7:25:35 AM:::No format metadata for itag 247 found
+7:25:35 AM:::No format metadata for itag 244 found
+7:25:35 AM:::No format metadata for itag 243 found
+7:25:35 AM:::No format metadata for itag 242 found
+7:27:12 AM:::[mus.ec]Created pipe console.WARN
+7:27:13 AM:::[notify.js:25]Listener add for on `17` event.
+7:27:13 AM:::[notify.js:30]Listener add for on `11` event.
+7:27:13 AM:::[notify.js:34]Listener add for on `3` event.
+7:27:15 AM:::[search-youtube-query.js:9]Listener add for on `done` event.
+7:27:15 AM:::[search-youtube-query.js:23]Listener add for on `error` event.
+7:27:15 AM:::connect.multipart() will be removed in connect 3.0
+7:27:15 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:27:15 AM:::connect.limit() will be removed in connect 3.0
+7:27:15 AM:::[search-youtube-query.js:11]Listener add for on `done` event.
+7:27:15 AM:::[search-youtube-query.js:14]Listener add for on `start` event.
+7:27:15 AM:::[search-youtube-query.js:16]Listener add for on `progress` event.
+7:27:15 AM:::[search-youtube-query.js:19]Listener add for on `error` event.
+7:27:15 AM:::No format metadata for itag 247 found
+7:27:15 AM:::No format metadata for itag 244 found
+7:27:15 AM:::No format metadata for itag 243 found
+7:27:15 AM:::No format metadata for itag 242 found
+7:27:16 AM:::No format metadata for itag 247 found
+7:27:16 AM:::No format metadata for itag 244 found
+7:27:16 AM:::No format metadata for itag 243 found
+7:27:16 AM:::No format metadata for itag 242 found
+7:27:58 AM:::[mus.ec]Created pipe console.WARN
+7:28:00 AM:::[notify.js:25]Listener add for on `17` event.
+7:28:00 AM:::[notify.js:30]Listener add for on `11` event.
+7:28:00 AM:::[notify.js:34]Listener add for on `3` event.
+7:28:01 AM:::[search-youtube-query.js:9]Listener add for on `done` event.
+7:28:01 AM:::[search-youtube-query.js:23]Listener add for on `error` event.
+7:28:01 AM:::connect.multipart() will be removed in connect 3.0
+7:28:01 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:28:01 AM:::connect.limit() will be removed in connect 3.0
+7:28:02 AM:::[search-youtube-query.js:11]Listener add for on `done` event.
+7:28:02 AM:::[search-youtube-query.js:14]Listener add for on `start` event.
+7:28:02 AM:::[search-youtube-query.js:16]Listener add for on `progress` event.
+7:28:02 AM:::[search-youtube-query.js:19]Listener add for on `error` event.
+7:28:02 AM:::No format metadata for itag 247 found
+7:28:02 AM:::No format metadata for itag 244 found
+7:28:02 AM:::No format metadata for itag 243 found
+7:28:02 AM:::No format metadata for itag 242 found
+7:28:02 AM:::No format metadata for itag 247 found
+7:28:02 AM:::No format metadata for itag 244 found
+7:28:02 AM:::No format metadata for itag 243 found
+7:28:02 AM:::No format metadata for itag 242 found
+7:28:18 AM:::[mus.ec]Created pipe console.WARN
+7:28:20 AM:::[notify.js:25]Listener add for on `17` event.
+7:28:20 AM:::[notify.js:30]Listener add for on `11` event.
+7:28:20 AM:::[notify.js:34]Listener add for on `3` event.
+7:28:21 AM:::[search-youtube-query.js:9]Listener add for on `done` event.
+7:28:21 AM:::[search-youtube-query.js:23]Listener add for on `error` event.
+7:28:21 AM:::connect.multipart() will be removed in connect 3.0
+7:28:21 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:28:21 AM:::connect.limit() will be removed in connect 3.0
+7:28:22 AM:::[search-youtube-query.js:11]Listener add for on `done` event.
+7:28:22 AM:::[search-youtube-query.js:14]Listener add for on `start` event.
+7:28:22 AM:::[search-youtube-query.js:16]Listener add for on `progress` event.
+7:28:22 AM:::[search-youtube-query.js:19]Listener add for on `error` event.
+7:28:22 AM:::No format metadata for itag 247 found
+7:28:22 AM:::No format metadata for itag 244 found
+7:28:22 AM:::No format metadata for itag 243 found
+7:28:22 AM:::No format metadata for itag 242 found
+7:28:24 AM:::[mus.ec]Created pipe console.WARN
+7:28:26 AM:::[notify.js:25]Listener add for on `17` event.
+7:28:26 AM:::[notify.js:30]Listener add for on `11` event.
+7:28:26 AM:::[notify.js:34]Listener add for on `3` event.
+7:28:27 AM:::[search-youtube-query.js:9]Listener add for on `done` event.
+7:28:27 AM:::[search-youtube-query.js:23]Listener add for on `error` event.
+7:28:27 AM:::connect.multipart() will be removed in connect 3.0
+7:28:27 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:28:27 AM:::connect.limit() will be removed in connect 3.0
+7:28:28 AM:::[search-youtube-query.js:11]Listener add for on `done` event.
+7:28:28 AM:::[search-youtube-query.js:14]Listener add for on `start` event.
+7:28:28 AM:::[search-youtube-query.js:16]Listener add for on `progress` event.
+7:28:28 AM:::[search-youtube-query.js:19]Listener add for on `error` event.
+7:28:28 AM:::No format metadata for itag 247 found
+7:28:28 AM:::No format metadata for itag 244 found
+7:28:28 AM:::No format metadata for itag 243 found
+7:28:28 AM:::No format metadata for itag 242 found
+7:28:28 AM:::No format metadata for itag 247 found
+7:28:28 AM:::No format metadata for itag 244 found
+7:28:28 AM:::No format metadata for itag 243 found
+7:28:28 AM:::No format metadata for itag 242 found
+7:28:44 AM:::[mus.ec]Created pipe console.WARN
+7:28:46 AM:::[notify.js:25]Listener add for on `17` event.
+7:28:46 AM:::[notify.js:30]Listener add for on `11` event.
+7:28:46 AM:::[notify.js:34]Listener add for on `3` event.
+7:28:47 AM:::[search-youtube-query.js:9]Listener add for on `done` event.
+7:28:47 AM:::[search-youtube-query.js:23]Listener add for on `error` event.
+7:28:47 AM:::connect.multipart() will be removed in connect 3.0
+7:28:47 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:28:47 AM:::connect.limit() will be removed in connect 3.0
+7:28:48 AM:::[search-youtube-query.js:11]Listener add for on `done` event.
+7:28:48 AM:::[search-youtube-query.js:14]Listener add for on `start` event.
+7:28:48 AM:::[search-youtube-query.js:16]Listener add for on `progress` event.
+7:28:48 AM:::[search-youtube-query.js:19]Listener add for on `error` event.
+7:28:48 AM:::No format metadata for itag 247 found
+7:28:48 AM:::No format metadata for itag 244 found
+7:28:48 AM:::No format metadata for itag 243 found
+7:28:48 AM:::No format metadata for itag 242 found
+7:28:48 AM:::No format metadata for itag 247 found
+7:28:48 AM:::No format metadata for itag 244 found
+7:28:48 AM:::No format metadata for itag 243 found
+7:28:48 AM:::No format metadata for itag 242 found
+7:29:26 AM:::[mus.ec]Created pipe console.WARN
+7:29:27 AM:::[notify.js:25]Listener add for on `17` event.
+7:29:27 AM:::[notify.js:30]Listener add for on `11` event.
+7:29:27 AM:::[notify.js:34]Listener add for on `3` event.
+7:29:28 AM:::[search-youtube-query.js:9]Listener add for on `done` event.
+7:29:28 AM:::[search-youtube-query.js:23]Listener add for on `error` event.
+7:29:29 AM:::connect.multipart() will be removed in connect 3.0
+7:29:29 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:29:29 AM:::connect.limit() will be removed in connect 3.0
+7:29:29 AM:::[search-youtube-query.js:11]Listener add for on `done` event.
+7:29:29 AM:::[search-youtube-query.js:14]Listener add for on `start` event.
+7:29:29 AM:::[search-youtube-query.js:16]Listener add for on `progress` event.
+7:29:29 AM:::[search-youtube-query.js:19]Listener add for on `error` event.
+7:29:29 AM:::No format metadata for itag 247 found
+7:29:29 AM:::No format metadata for itag 244 found
+7:29:29 AM:::No format metadata for itag 243 found
+7:29:29 AM:::No format metadata for itag 242 found
+7:29:30 AM:::No format metadata for itag 247 found
+7:29:30 AM:::No format metadata for itag 244 found
+7:29:30 AM:::No format metadata for itag 243 found
+7:29:30 AM:::No format metadata for itag 242 found
+7:34:27 AM:::[mus.ec]Created pipe console.WARN
+7:34:29 AM:::[notify.js:25]Listener add for on `17` event.
+7:34:29 AM:::[notify.js:30]Listener add for on `11` event.
+7:34:29 AM:::[notify.js:34]Listener add for on `3` event.
+7:34:30 AM:::[search-youtube-query.js:9]Listener add for on `done` event.
+7:34:30 AM:::[search-youtube-query.js:23]Listener add for on `error` event.
+7:34:30 AM:::connect.multipart() will be removed in connect 3.0
+7:34:30 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:34:30 AM:::connect.limit() will be removed in connect 3.0
+7:34:31 AM:::[search-youtube-query.js:11]Listener add for on `done` event.
+7:34:31 AM:::[search-youtube-query.js:14]Listener add for on `start` event.
+7:34:31 AM:::[search-youtube-query.js:16]Listener add for on `progress` event.
+7:34:31 AM:::[search-youtube-query.js:19]Listener add for on `error` event.
+7:34:32 AM:::No format metadata for itag 247 found
+7:34:32 AM:::No format metadata for itag 244 found
+7:34:32 AM:::No format metadata for itag 245 found
+7:34:32 AM:::No format metadata for itag 246 found
+7:34:32 AM:::No format metadata for itag 243 found
+7:34:32 AM:::No format metadata for itag 242 found
+7:34:50 AM:::[mus.ec]Created pipe console.WARN
+7:34:50 AM:::[notify.js:25]Listener add for on `17` event.
+7:34:50 AM:::[notify.js:30]Listener add for on `11` event.
+7:34:50 AM:::[notify.js:34]Listener add for on `3` event.
+7:34:51 AM:::[search-youtube-query.js:9]Listener add for on `done` event.
+7:34:51 AM:::[search-youtube-query.js:23]Listener add for on `error` event.
+7:34:51 AM:::connect.multipart() will be removed in connect 3.0
+7:34:51 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:34:51 AM:::connect.limit() will be removed in connect 3.0
+7:34:52 AM:::[search-youtube-query.js:11]Listener add for on `done` event.
+7:34:52 AM:::[search-youtube-query.js:14]Listener add for on `start` event.
+7:34:52 AM:::[search-youtube-query.js:16]Listener add for on `progress` event.
+7:34:52 AM:::[search-youtube-query.js:19]Listener add for on `error` event.
+7:34:52 AM:::No format metadata for itag 247 found
+7:34:52 AM:::No format metadata for itag 244 found
+7:34:52 AM:::No format metadata for itag 245 found
+7:34:52 AM:::No format metadata for itag 246 found
+7:34:52 AM:::No format metadata for itag 243 found
+7:34:52 AM:::No format metadata for itag 242 found
+7:34:52 AM:::No format metadata for itag 247 found
+7:34:52 AM:::No format metadata for itag 244 found
+7:34:52 AM:::No format metadata for itag 245 found
+7:34:52 AM:::No format metadata for itag 246 found
+7:34:52 AM:::No format metadata for itag 243 found
+7:34:52 AM:::No format metadata for itag 242 found
+7:37:14 AM:::[mus.ec]Created pipe console.WARN
+7:37:32 AM:::[notify.js:25]Listener add for on `17` event.
+7:37:32 AM:::[notify.js:30]Listener add for on `11` event.
+7:37:32 AM:::[notify.js:34]Listener add for on `3` event.
+7:37:48 AM:::[search-youtube-query.js:9]Listener add for on `done` event.
+7:37:48 AM:::[search-youtube-query.js:23]Listener add for on `error` event.
+7:37:48 AM:::connect.multipart() will be removed in connect 3.0
+7:37:48 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:37:48 AM:::connect.limit() will be removed in connect 3.0
+7:37:48 AM:::[search-youtube-query.js:11]Listener add for on `done` event.
+7:37:48 AM:::[search-youtube-query.js:14]Listener add for on `start` event.
+7:37:48 AM:::[search-youtube-query.js:16]Listener add for on `progress` event.
+7:37:48 AM:::[search-youtube-query.js:19]Listener add for on `error` event.
+7:37:48 AM:::No format metadata for itag 243 found
+7:37:48 AM:::No format metadata for itag 242 found
+7:37:49 AM:::No format metadata for itag 243 found
+7:37:49 AM:::No format metadata for itag 242 found
+7:38:56 AM:::[mus.ec]Created pipe console.WARN
+7:38:56 AM:::[notify.js:25]Listener add for on `17` event.
+7:38:56 AM:::[notify.js:30]Listener add for on `11` event.
+7:38:56 AM:::[notify.js:34]Listener add for on `3` event.
+7:38:57 AM:::[search-youtube-query.js:9]Listener add for on `done` event.
+7:38:57 AM:::[search-youtube-query.js:23]Listener add for on `error` event.
+7:38:57 AM:::connect.multipart() will be removed in connect 3.0
+7:38:57 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:38:57 AM:::connect.limit() will be removed in connect 3.0
+7:38:58 AM:::[search-youtube-query.js:11]Listener add for on `done` event.
+7:38:58 AM:::[search-youtube-query.js:14]Listener add for on `start` event.
+7:38:58 AM:::[search-youtube-query.js:16]Listener add for on `progress` event.
+7:38:58 AM:::[search-youtube-query.js:19]Listener add for on `error` event.
+7:38:58 AM:::No format metadata for itag 243 found
+7:38:58 AM:::No format metadata for itag 242 found
+7:38:58 AM:::No format metadata for itag 243 found
+7:38:58 AM:::No format metadata for itag 242 found
+7:39:22 AM:::[mus.ec]Created pipe console.WARN
+7:39:22 AM:::[notify.js:25]Listener add for on `17` event.
+7:39:22 AM:::[notify.js:30]Listener add for on `11` event.
+7:39:22 AM:::[notify.js:34]Listener add for on `3` event.
+7:39:23 AM:::[search-youtube-query.js:9]Listener add for on `done` event.
+7:39:23 AM:::[search-youtube-query.js:23]Listener add for on `error` event.
+7:39:23 AM:::connect.multipart() will be removed in connect 3.0
+7:39:23 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:39:23 AM:::connect.limit() will be removed in connect 3.0
+7:39:24 AM:::[search-youtube-query.js:11]Listener add for on `done` event.
+7:39:24 AM:::[search-youtube-query.js:14]Listener add for on `start` event.
+7:39:24 AM:::[search-youtube-query.js:16]Listener add for on `progress` event.
+7:39:24 AM:::[search-youtube-query.js:19]Listener add for on `error` event.
+7:39:24 AM:::No format metadata for itag 243 found
+7:39:24 AM:::No format metadata for itag 242 found
+7:39:24 AM:::No format metadata for itag 243 found
+7:39:24 AM:::No format metadata for itag 242 found
+7:45:38 AM:::[mus.ec]Created pipe console.WARN
+7:45:40 AM:::[notify.js:25]Listener add for on `17` event.
+7:45:40 AM:::[notify.js:30]Listener add for on `11` event.
+7:45:40 AM:::[notify.js:34]Listener add for on `3` event.
+7:45:41 AM:::[search-grooveshark-query.js:8]Listener add for on `done` event.
+7:45:41 AM:::[search-grooveshark-query.js:22]Listener add for on `error` event.
+7:45:41 AM:::connect.multipart() will be removed in connect 3.0
+7:45:41 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:45:41 AM:::connect.limit() will be removed in connect 3.0
+7:45:42 AM:::[mus.ec]Created pipe console.WARN
+7:45:43 AM:::[notify.js:25]Listener add for on `17` event.
+7:45:43 AM:::[notify.js:30]Listener add for on `11` event.
+7:45:43 AM:::[notify.js:34]Listener add for on `3` event.
+7:46:14 AM:::[mus.ec]Created pipe console.WARN
+7:46:16 AM:::[notify.js:25]Listener add for on `17` event.
+7:46:16 AM:::[notify.js:30]Listener add for on `11` event.
+7:46:16 AM:::[notify.js:34]Listener add for on `3` event.
+7:46:17 AM:::[search-grooveshark-query.js:8]Listener add for on `done` event.
+7:46:17 AM:::[search-grooveshark-query.js:22]Listener add for on `error` event.
+7:46:17 AM:::connect.multipart() will be removed in connect 3.0
+7:46:17 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:46:17 AM:::connect.limit() will be removed in connect 3.0
+7:46:18 AM:::[search-grooveshark-query.js:10]Listener add for on `done` event.
+7:46:18 AM:::[search-grooveshark-query.js:13]Listener add for on `start` event.
+7:46:18 AM:::[search-grooveshark-query.js:15]Listener add for on `progress` event.
+7:46:18 AM:::[search-grooveshark-query.js:18]Listener add for on `error` event.
+7:46:19 AM:::[mus.ec]Created pipe console.WARN
+7:46:20 AM:::[notify.js:25]Listener add for on `17` event.
+7:46:20 AM:::[notify.js:30]Listener add for on `11` event.
+7:46:20 AM:::[notify.js:34]Listener add for on `3` event.
+7:46:20 AM:::[search-grooveshark-query.js:8]Listener add for on `done` event.
+7:46:20 AM:::[search-grooveshark-query.js:22]Listener add for on `error` event.
+7:46:58 AM:::[mus.ec]Created pipe console.WARN
+7:47:00 AM:::[notify.js:25]Listener add for on `17` event.
+7:47:00 AM:::[notify.js:30]Listener add for on `11` event.
+7:47:00 AM:::[notify.js:34]Listener add for on `3` event.
+7:47:01 AM:::[search-grooveshark-query.js:8]Listener add for on `done` event.
+7:47:01 AM:::[search-grooveshark-query.js:22]Listener add for on `error` event.
+7:47:01 AM:::connect.multipart() will be removed in connect 3.0
+7:47:01 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:47:01 AM:::connect.limit() will be removed in connect 3.0
+7:47:02 AM:::[search-grooveshark-query.js:10]Listener add for on `done` event.
+7:47:02 AM:::[search-grooveshark-query.js:13]Listener add for on `start` event.
+7:47:02 AM:::[search-grooveshark-query.js:15]Listener add for on `progress` event.
+7:47:02 AM:::[search-grooveshark-query.js:18]Listener add for on `error` event.
+7:47:57 AM:::[mus.ec]Created pipe console.WARN
+8:03:03 AM:::[mus.ec]Created pipe console.WARN
+8:03:05 AM:::[notify.js:25]Listener add for on `17` event.
+8:03:05 AM:::[notify.js:30]Listener add for on `11` event.
+8:03:05 AM:::[notify.js:34]Listener add for on `3` event.
+8:03:06 AM:::[mus.ec]Created pipe console.WARN
+8:03:07 AM:::[notify.js:25]Listener add for on `17` event.
+8:03:07 AM:::[notify.js:30]Listener add for on `11` event.
+8:03:07 AM:::[notify.js:34]Listener add for on `3` event.
+8:03:53 AM:::[mus.ec]Created pipe console.WARN
+8:03:55 AM:::[notify.js:25]Listener add for on `17` event.
+8:03:55 AM:::[notify.js:30]Listener add for on `11` event.
+8:03:55 AM:::[notify.js:34]Listener add for on `3` event.
+8:03:56 AM:::[mus.ec]Created pipe console.WARN
+8:04:05 AM:::[mus.ec]Created pipe console.WARN
+8:04:07 AM:::[notify.js:25]Listener add for on `17` event.
+8:04:07 AM:::[notify.js:30]Listener add for on `11` event.
+8:04:07 AM:::[notify.js:34]Listener add for on `3` event.
+8:04:08 AM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+8:04:08 AM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+8:04:08 AM:::connect.multipart() will be removed in connect 3.0
+8:04:08 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:04:08 AM:::connect.limit() will be removed in connect 3.0
+8:04:09 AM:::[mus.ec]Created pipe console.WARN
+8:04:22 AM:::[mus.ec]Created pipe console.WARN
+8:04:24 AM:::[notify.js:25]Listener add for on `17` event.
+8:04:24 AM:::[notify.js:30]Listener add for on `11` event.
+8:04:24 AM:::[notify.js:34]Listener add for on `3` event.
+8:04:25 AM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+8:04:25 AM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+8:04:25 AM:::connect.multipart() will be removed in connect 3.0
+8:04:25 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:04:25 AM:::connect.limit() will be removed in connect 3.0
+8:04:27 AM:::[search-soundcloud-query.js:10]Listener add for on `done` event.
+8:04:27 AM:::[search-soundcloud-query.js:13]Listener add for on `start` event.
+8:04:27 AM:::[search-soundcloud-query.js:15]Listener add for on `progress` event.
+8:04:27 AM:::[search-soundcloud-query.js:18]Listener add for on `error` event.
+8:05:03 AM:::[mus.ec]Created pipe console.WARN
+8:05:05 AM:::[notify.js:25]Listener add for on `17` event.
+8:05:05 AM:::[notify.js:30]Listener add for on `11` event.
+8:05:05 AM:::[notify.js:34]Listener add for on `3` event.
+8:05:06 AM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+8:05:06 AM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+8:05:06 AM:::connect.multipart() will be removed in connect 3.0
+8:05:06 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:05:06 AM:::connect.limit() will be removed in connect 3.0
+8:05:10 AM:::[mus.ec]Created pipe console.WARN
+8:05:12 AM:::[notify.js:25]Listener add for on `17` event.
+8:05:12 AM:::[notify.js:30]Listener add for on `11` event.
+8:05:12 AM:::[notify.js:34]Listener add for on `3` event.
+8:05:13 AM:::[search-soundcloud-url.js:8]Listener add for on `done` event.
+8:05:13 AM:::[search-soundcloud-url.js:22]Listener add for on `error` event.
+8:05:13 AM:::connect.multipart() will be removed in connect 3.0
+8:05:13 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:05:13 AM:::connect.limit() will be removed in connect 3.0
+8:05:15 AM:::[search-soundcloud-url.js:10]Listener add for on `done` event.
+8:05:15 AM:::[search-soundcloud-url.js:13]Listener add for on `start` event.
+8:05:15 AM:::[search-soundcloud-url.js:15]Listener add for on `progress` event.
+8:05:15 AM:::[search-soundcloud-url.js:18]Listener add for on `error` event.
+8:08:50 AM:::[mus.ec]Created pipe console.WARN
+8:08:52 AM:::[notify.js:25]Listener add for on `17` event.
+8:08:52 AM:::[notify.js:30]Listener add for on `11` event.
+8:08:52 AM:::[notify.js:34]Listener add for on `3` event.
+8:08:53 AM:::[search-google-images.js:10]Listener add for on `done` event.
+8:08:53 AM:::[search-google-images.js:26]Listener add for on `error` event.
+8:08:53 AM:::connect.multipart() will be removed in connect 3.0
+8:08:53 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:08:53 AM:::connect.limit() will be removed in connect 3.0
+8:08:54 AM:::[search-google-images.js:13]Listener add for on `done` event.
+8:08:54 AM:::[search-google-images.js:16]Listener add for on `start` event.
+8:08:54 AM:::[search-google-images.js:18]Listener add for on `progress` event.
+8:08:54 AM:::[search-google-images.js:21]Listener add for on `error` event.
+8:12:59 AM:::[mus.ec]Created pipe console.WARN
+8:13:00 AM:::[notify.js:25]Listener add for on `17` event.
+8:13:00 AM:::[notify.js:30]Listener add for on `11` event.
+8:13:00 AM:::[notify.js:34]Listener add for on `3` event.
+8:13:02 AM:::[mus.ec]Created pipe console.WARN
+8:13:02 AM:::[notify.js:25]Listener add for on `17` event.
+8:13:02 AM:::[notify.js:30]Listener add for on `11` event.
+8:13:02 AM:::[notify.js:34]Listener add for on `3` event.
+8:13:23 AM:::[mus.ec]Created pipe console.WARN
+8:13:25 AM:::[notify.js:25]Listener add for on `17` event.
+8:13:25 AM:::[notify.js:30]Listener add for on `11` event.
+8:13:25 AM:::[notify.js:34]Listener add for on `3` event.
+8:13:27 AM:::[mus.ec]Created pipe console.WARN
+8:13:27 AM:::[notify.js:25]Listener add for on `17` event.
+8:13:27 AM:::[notify.js:30]Listener add for on `11` event.
+8:13:27 AM:::[notify.js:34]Listener add for on `3` event.
+8:13:35 AM:::[mus.ec]Created pipe console.WARN
+8:13:37 AM:::[notify.js:25]Listener add for on `17` event.
+8:13:37 AM:::[notify.js:30]Listener add for on `11` event.
+8:13:37 AM:::[notify.js:34]Listener add for on `3` event.
+8:13:38 AM:::[aws-create-delete-bucket.js:12]Listener add for on `done` event.
+8:13:38 AM:::[aws-create-delete-bucket.js:22]Listener add for on `error` event.
+8:13:38 AM:::connect.multipart() will be removed in connect 3.0
+8:13:38 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:13:38 AM:::connect.limit() will be removed in connect 3.0
+8:13:39 AM:::[mus.ec]Created pipe console.WARN
+8:13:39 AM:::[notify.js:25]Listener add for on `17` event.
+8:13:39 AM:::[notify.js:30]Listener add for on `11` event.
+8:13:39 AM:::[notify.js:34]Listener add for on `3` event.
+8:14:02 AM:::[mus.ec]Created pipe console.WARN
+8:14:03 AM:::[notify.js:25]Listener add for on `17` event.
+8:14:03 AM:::[notify.js:30]Listener add for on `11` event.
+8:14:03 AM:::[notify.js:34]Listener add for on `3` event.
+8:14:05 AM:::[aws-create-delete-bucket.js:12]Listener add for on `done` event.
+8:14:05 AM:::[aws-create-delete-bucket.js:22]Listener add for on `error` event.
+8:14:05 AM:::connect.multipart() will be removed in connect 3.0
+8:14:05 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:14:05 AM:::connect.limit() will be removed in connect 3.0
+8:14:05 AM:::[aws-create-delete-bucket.js:14]Listener add for on `done` event.
+8:14:05 AM:::[aws-create-delete-bucket.js:18]Listener add for on `error` event.
+8:15:00 AM:::[mus.ec]Created pipe console.WARN
+8:15:01 AM:::[mus.ec]Created pipe console.WARN
+8:15:03 AM:::[notify.js:25]Listener add for on `17` event.
+8:15:03 AM:::[notify.js:30]Listener add for on `11` event.
+8:15:03 AM:::[notify.js:34]Listener add for on `3` event.
+8:15:04 AM:::[aws-create-delete-bucket.js:12]Listener add for on `done` event.
+8:15:04 AM:::[aws-create-delete-bucket.js:22]Listener add for on `error` event.
+8:15:04 AM:::connect.multipart() will be removed in connect 3.0
+8:15:04 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:15:04 AM:::connect.limit() will be removed in connect 3.0
+8:15:05 AM:::[aws-create-delete-bucket.js:14]Listener add for on `done` event.
+8:15:05 AM:::[aws-create-delete-bucket.js:18]Listener add for on `error` event.
+8:15:28 AM:::[mus.ec]Created pipe console.WARN
+8:15:30 AM:::[notify.js:25]Listener add for on `17` event.
+8:15:30 AM:::[notify.js:30]Listener add for on `11` event.
+8:15:30 AM:::[notify.js:34]Listener add for on `3` event.
+8:15:31 AM:::[emitter-proto.js:5]Listener add for on `start` event.
+8:15:31 AM:::[emitter-proto.js:6]Listener add for on `done` event.
+8:15:31 AM:::[search-youtube-query.js:9]Listener add for on `done` event.
+8:15:31 AM:::[search-youtube-query.js:23]Listener add for on `error` event.
+8:15:31 AM:::connect.multipart() will be removed in connect 3.0
+8:15:31 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:15:31 AM:::connect.limit() will be removed in connect 3.0
+8:15:32 AM:::[search-youtube-query.js:11]Listener add for on `done` event.
+8:15:32 AM:::[search-youtube-query.js:14]Listener add for on `start` event.
+8:15:32 AM:::[search-youtube-query.js:16]Listener add for on `progress` event.
+8:15:32 AM:::[search-youtube-query.js:19]Listener add for on `error` event.
+8:15:32 AM:::No format metadata for itag 243 found
+8:15:32 AM:::No format metadata for itag 242 found
+8:15:33 AM:::No format metadata for itag 243 found
+8:15:33 AM:::No format metadata for itag 242 found
+8:15:36 AM:::Finished
+8:15:38 AM:::[search-grooveshark-query.js:8]Listener add for on `done` event.
+8:15:38 AM:::[search-grooveshark-query.js:22]Listener add for on `error` event.
+8:15:38 AM:::[search-grooveshark-query.js:10]Listener add for on `done` event.
+8:15:38 AM:::[search-grooveshark-query.js:13]Listener add for on `start` event.
+8:15:38 AM:::[search-grooveshark-query.js:15]Listener add for on `progress` event.
+8:15:38 AM:::[search-grooveshark-query.js:18]Listener add for on `error` event.
+8:15:40 AM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+8:15:40 AM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+8:15:41 AM:::[search-soundcloud-query.js:10]Listener add for on `done` event.
+8:15:41 AM:::[search-soundcloud-query.js:13]Listener add for on `start` event.
+8:15:41 AM:::[search-soundcloud-query.js:15]Listener add for on `progress` event.
+8:15:41 AM:::[search-soundcloud-query.js:18]Listener add for on `error` event.
+8:15:43 AM:::[search-soundcloud-url.js:8]Listener add for on `done` event.
+8:15:43 AM:::[search-soundcloud-url.js:22]Listener add for on `error` event.
+8:15:44 AM:::[aws-create-delete-bucket.js:12]Listener add for on `done` event.
+8:15:44 AM:::[aws-create-delete-bucket.js:22]Listener add for on `error` event.
+8:15:44 AM:::[aws-create-delete-bucket.js:14]Listener add for on `done` event.
+8:15:44 AM:::[aws-create-delete-bucket.js:18]Listener add for on `error` event.
+8:15:45 AM:::[search-soundcloud-url.js:10]Listener add for on `done` event.
+8:15:45 AM:::[search-soundcloud-url.js:13]Listener add for on `start` event.
+8:15:45 AM:::[search-soundcloud-url.js:15]Listener add for on `progress` event.
+8:15:45 AM:::[search-soundcloud-url.js:18]Listener add for on `error` event.
+8:15:49 AM:::[search-google-images.js:10]Listener add for on `done` event.
+8:15:49 AM:::[search-google-images.js:26]Listener add for on `error` event.
+8:15:50 AM:::[search-google-images.js:13]Listener add for on `done` event.
+8:15:50 AM:::[search-google-images.js:16]Listener add for on `start` event.
+8:15:50 AM:::[search-google-images.js:18]Listener add for on `progress` event.
+8:15:50 AM:::[search-google-images.js:21]Listener add for on `error` event.
+8:15:50 AM:::[aws-upload-delete-files-bucket.js:14]Listener add for on `done` event.
+8:15:50 AM:::[aws-upload-delete-files-bucket.js:51]Listener add for on `error` event.
+8:15:51 AM:::[aws-upload-delete-files-bucket.js:16]Listener add for on `done` event.
+8:15:51 AM:::[aws-upload-delete-files-bucket.js:47]Listener add for on `error` event.
+8:15:51 AM:::[aws-upload-delete-files-bucket.js:20]Listener add for on `start` event.
+8:15:51 AM:::[aws-upload-delete-files-bucket.js:22]Listener add for on `progress` event.
+8:15:51 AM:::[aws-upload-delete-files-bucket.js:25]Listener add for on `done` event.
+8:15:51 AM:::[aws-upload-delete-files-bucket.js:43]Listener add for on `error` event.
+8:15:51 AM:::[mus.ec]Created pipe console.WARN
+8:15:52 AM:::[notify.js:25]Listener add for on `17` event.
+8:15:52 AM:::[notify.js:30]Listener add for on `11` event.
+8:15:52 AM:::[notify.js:34]Listener add for on `3` event.
+8:15:53 AM:::[emitter-proto.js:5]Listener add for on `start` event.
+8:15:53 AM:::[emitter-proto.js:6]Listener add for on `done` event.
+8:15:53 AM:::[search-youtube-query.js:9]Listener add for on `done` event.
+8:15:53 AM:::[search-youtube-query.js:23]Listener add for on `error` event.
+8:15:53 AM:::connect.multipart() will be removed in connect 3.0
+8:15:53 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:15:53 AM:::connect.limit() will be removed in connect 3.0
+8:15:53 AM:::[search-youtube-query.js:11]Listener add for on `done` event.
+8:15:53 AM:::[search-youtube-query.js:14]Listener add for on `start` event.
+8:15:53 AM:::[search-youtube-query.js:16]Listener add for on `progress` event.
+8:15:53 AM:::[search-youtube-query.js:19]Listener add for on `error` event.
+8:15:53 AM:::No format metadata for itag 243 found
+8:15:53 AM:::No format metadata for itag 242 found
+8:19:00 AM:::[mus.ec]Created pipe console.WARN
+8:19:02 AM:::[notify.js:25]Listener add for on `17` event.
+8:19:02 AM:::[notify.js:30]Listener add for on `11` event.
+8:19:02 AM:::[notify.js:34]Listener add for on `3` event.
+8:19:03 AM:::[emitter-proto.js:5]Listener add for on `start` event.
+8:19:03 AM:::[emitter-proto.js:6]Listener add for on `done` event.
+8:19:03 AM:::connect.multipart() will be removed in connect 3.0
+8:19:03 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:19:03 AM:::connect.limit() will be removed in connect 3.0
+8:19:08 AM:::[emitter-proto.js]Finished
+8:19:47 AM:::[mus.ec]Created pipe console.WARN
+8:19:49 AM:::[mus.ec]Created pipe console.WARN
+8:19:51 AM:::[notify.js:25]Listener add for on `17` event.
+8:19:51 AM:::[notify.js:30]Listener add for on `11` event.
+8:19:51 AM:::[notify.js:34]Listener add for on `3` event.
+8:19:52 AM:::[emitter-proto.js:5]Listener add for on `start` event.
+8:19:52 AM:::[emitter-proto.js:6]Listener add for on `done` event.
+8:19:52 AM:::connect.multipart() will be removed in connect 3.0
+8:19:52 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:19:52 AM:::connect.limit() will be removed in connect 3.0
+8:19:57 AM:::[emitter-proto.js]MethodC returned
+8:20:02 AM:::[mus.ec]Created pipe console.WARN
+8:20:03 AM:::[notify.js:25]Listener add for on `17` event.
+8:20:03 AM:::[notify.js:30]Listener add for on `11` event.
+8:20:03 AM:::[notify.js:34]Listener add for on `3` event.
+8:20:04 AM:::[emitter-proto.js:5]Listener add for on `start` event.
+8:20:04 AM:::[emitter-proto.js:6]Listener add for on `done` event.
+8:20:04 AM:::connect.multipart() will be removed in connect 3.0
+8:20:04 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:20:04 AM:::connect.limit() will be removed in connect 3.0
+8:20:10 AM:::[emitter-proto.js]MethodC returned
+8:22:13 AM:::[mus.ec]Created pipe console.WARN
+8:22:15 AM:::[notify.js:25]Listener add for on `17` event.
+8:22:15 AM:::[notify.js:30]Listener add for on `11` event.
+8:22:15 AM:::[notify.js:34]Listener add for on `3` event.
+8:22:16 AM:::[emitter-proto.js:5]Listener add for on `start` event.
+8:22:16 AM:::[emitter-proto.js:6]Listener add for on `done` event.
+8:22:16 AM:::[search-youtube-query.js:9]Listener add for on `done` event.
+8:22:16 AM:::[search-youtube-query.js:23]Listener add for on `error` event.
+8:22:16 AM:::connect.multipart() will be removed in connect 3.0
+8:22:16 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:22:16 AM:::connect.limit() will be removed in connect 3.0
+8:22:16 AM:::[search-youtube-query.js:11]Listener add for on `done` event.
+8:22:16 AM:::[search-youtube-query.js:14]Listener add for on `start` event.
+8:22:16 AM:::[search-youtube-query.js:16]Listener add for on `progress` event.
+8:22:16 AM:::[search-youtube-query.js:19]Listener add for on `error` event.
+8:22:17 AM:::No format metadata for itag 248 found
+8:22:17 AM:::No format metadata for itag 247 found
+8:22:17 AM:::No format metadata for itag 244 found
+8:22:17 AM:::No format metadata for itag 245 found
+8:22:17 AM:::No format metadata for itag 246 found
+8:22:17 AM:::No format metadata for itag 243 found
+8:22:17 AM:::No format metadata for itag 242 found
+8:22:17 AM:::No format metadata for itag 248 found
+8:22:17 AM:::No format metadata for itag 247 found
+8:22:17 AM:::No format metadata for itag 244 found
+8:22:17 AM:::No format metadata for itag 245 found
+8:22:17 AM:::No format metadata for itag 246 found
+8:22:17 AM:::No format metadata for itag 243 found
+8:22:17 AM:::No format metadata for itag 242 found
+8:22:21 AM:::[emitter-proto.js]MethodC returned
+8:22:29 AM:::[search-grooveshark-query.js:8]Listener add for on `done` event.
+8:22:29 AM:::[search-grooveshark-query.js:22]Listener add for on `error` event.
+8:22:29 AM:::[search-grooveshark-query.js:10]Listener add for on `done` event.
+8:22:29 AM:::[search-grooveshark-query.js:13]Listener add for on `start` event.
+8:22:29 AM:::[search-grooveshark-query.js:15]Listener add for on `progress` event.
+8:22:29 AM:::[search-grooveshark-query.js:18]Listener add for on `error` event.
+8:22:31 AM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+8:22:31 AM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+8:22:32 AM:::[search-soundcloud-query.js:10]Listener add for on `done` event.
+8:22:32 AM:::[search-soundcloud-query.js:13]Listener add for on `start` event.
+8:22:32 AM:::[search-soundcloud-query.js:15]Listener add for on `progress` event.
+8:22:32 AM:::[search-soundcloud-query.js:18]Listener add for on `error` event.
+8:22:35 AM:::[search-soundcloud-url.js:8]Listener add for on `done` event.
+8:22:35 AM:::[search-soundcloud-url.js:22]Listener add for on `error` event.
+8:22:37 AM:::[aws-create-delete-bucket.js:12]Listener add for on `done` event.
+8:22:37 AM:::[aws-create-delete-bucket.js:22]Listener add for on `error` event.
+8:22:38 AM:::[aws-create-delete-bucket.js:14]Listener add for on `done` event.
+8:22:38 AM:::[aws-create-delete-bucket.js:18]Listener add for on `error` event.
+8:22:40 AM:::[search-soundcloud-url.js:10]Listener add for on `done` event.
+8:22:40 AM:::[search-soundcloud-url.js:13]Listener add for on `start` event.
+8:22:40 AM:::[search-soundcloud-url.js:15]Listener add for on `progress` event.
+8:22:40 AM:::[search-soundcloud-url.js:18]Listener add for on `error` event.
+8:22:46 AM:::[search-google-images.js:10]Listener add for on `done` event.
+8:22:46 AM:::[search-google-images.js:26]Listener add for on `error` event.
+8:22:51 AM:::[search-google-images.js:13]Listener add for on `done` event.
+8:22:51 AM:::[search-google-images.js:16]Listener add for on `start` event.
+8:22:51 AM:::[search-google-images.js:18]Listener add for on `progress` event.
+8:22:51 AM:::[search-google-images.js:21]Listener add for on `error` event.
+8:22:51 AM:::[aws-upload-delete-files-bucket.js:14]Listener add for on `done` event.
+8:22:51 AM:::[aws-upload-delete-files-bucket.js:51]Listener add for on `error` event.
+8:22:52 AM:::[aws-upload-delete-files-bucket.js:16]Listener add for on `done` event.
+8:22:52 AM:::[aws-upload-delete-files-bucket.js:47]Listener add for on `error` event.
+8:22:52 AM:::[aws-upload-delete-files-bucket.js:20]Listener add for on `start` event.
+8:22:52 AM:::[aws-upload-delete-files-bucket.js:22]Listener add for on `progress` event.
+8:22:52 AM:::[aws-upload-delete-files-bucket.js:25]Listener add for on `done` event.
+8:22:52 AM:::[aws-upload-delete-files-bucket.js:43]Listener add for on `error` event.
+8:22:53 AM:::[aws-upload-delete-files-bucket.js:27]Listener add for on `done` event.
+8:22:53 AM:::[aws-upload-delete-files-bucket.js:39]Listener add for on `error` event.
+8:22:53 AM:::[aws-upload-delete-files-bucket.js:29]Listener add for on `done` event.
+8:22:53 AM:::[aws-upload-delete-files-bucket.js:35]Listener add for on `error` event.
+8:22:53 AM:::[aws-upload-delete-files-bucket.js:31]Listener add for on `done` event.
+8:22:54 AM:::[aws-upload-delete-files-bucket.js:62]Listener add for on `done` event.
+8:22:54 AM:::[aws-upload-delete-files-bucket.js:105]Listener add for on `error` event.
+8:22:54 AM:::[aws-upload-delete-files-bucket.js:64]Listener add for on `done` event.
+8:22:54 AM:::[aws-upload-delete-files-bucket.js:101]Listener add for on `error` event.
+8:22:54 AM:::[aws-upload-delete-files-bucket.js:68]Listener add for on `start` event.
+8:22:54 AM:::[aws-upload-delete-files-bucket.js:70]Listener add for on `progress` event.
+8:22:54 AM:::[aws-upload-delete-files-bucket.js:73]Listener add for on `done` event.
+8:22:54 AM:::[aws-upload-delete-files-bucket.js:97]Listener add for on `error` event.
+8:22:55 AM:::[aws-upload-delete-files-bucket.js:75]Listener add for on `done` event.
+8:22:55 AM:::[aws-upload-delete-files-bucket.js:93]Listener add for on `error` event.
+8:22:56 AM:::[aws-upload-delete-files-bucket.js:77]Listener add for on `done` event.
+8:22:56 AM:::[aws-upload-delete-files-bucket.js:89]Listener add for on `error` event.
+8:22:56 AM:::[aws-upload-delete-files-bucket.js:79]Listener add for on `done` event.
+8:22:56 AM:::[aws-upload-delete-files-bucket.js:85]Listener add for on `error` event.
+8:22:56 AM:::[aws-upload-delete-files-bucket.js:81]Listener add for on `done` event.
+8:22:56 AM:::[search-echonest.js:65]Listener add for on `done` event.
+8:22:56 AM:::[search-echonest.js:68]Listener add for on `start` event.
+8:22:56 AM:::[search-echonest.js:70]Listener add for on `progress` event.
+8:22:56 AM:::[search-echonest.js:73]Listener add for on `error` event.
+8:25:23 AM:::[mus.ec]Created pipe console.WARN
+8:25:25 AM:::[notify.js:25]Listener add for on `17` event.
+8:25:25 AM:::[notify.js:30]Listener add for on `11` event.
+8:25:25 AM:::[notify.js:34]Listener add for on `3` event.
+8:25:26 AM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+8:25:26 AM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+8:25:26 AM:::connect.multipart() will be removed in connect 3.0
+8:25:26 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:25:26 AM:::connect.limit() will be removed in connect 3.0
+8:25:28 AM:::[search-soundcloud-query.js:10]Listener add for on `done` event.
+8:25:28 AM:::[search-soundcloud-query.js:13]Listener add for on `start` event.
+8:25:28 AM:::[search-soundcloud-query.js:15]Listener add for on `progress` event.
+8:25:28 AM:::[search-soundcloud-query.js:18]Listener add for on `error` event.
+8:25:52 AM:::[mus.ec]Created pipe console.WARN
+8:25:53 AM:::[notify.js:25]Listener add for on `17` event.
+8:25:53 AM:::[notify.js:30]Listener add for on `11` event.
+8:25:53 AM:::[notify.js:34]Listener add for on `3` event.
+8:25:54 AM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+8:25:54 AM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+8:25:54 AM:::connect.multipart() will be removed in connect 3.0
+8:25:54 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:25:54 AM:::connect.limit() will be removed in connect 3.0
+8:25:55 AM:::[search-soundcloud-query.js:10]Listener add for on `done` event.
+8:25:55 AM:::[search-soundcloud-query.js:13]Listener add for on `start` event.
+8:25:55 AM:::[search-soundcloud-query.js:15]Listener add for on `progress` event.
+8:25:55 AM:::[search-soundcloud-query.js:18]Listener add for on `error` event.
+7:53:40 PM:::[mus.ec]Created pipe console.WARN
+7:53:42 PM:::[notify.js:25]Listener add for on `17` event.
+7:53:42 PM:::[notify.js:30]Listener add for on `11` event.
+7:53:42 PM:::[notify.js:34]Listener add for on `3` event.
+7:53:43 PM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+7:53:43 PM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+7:53:43 PM:::connect.multipart() will be removed in connect 3.0
+7:53:43 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:53:43 PM:::connect.limit() will be removed in connect 3.0
+7:53:43 PM:::[mus.ec]Created pipe console.WARN
+7:53:44 PM:::[notify.js:25]Listener add for on `17` event.
+7:53:44 PM:::[notify.js:30]Listener add for on `11` event.
+7:53:44 PM:::[notify.js:34]Listener add for on `3` event.
+7:53:45 PM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+7:53:45 PM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+7:53:45 PM:::connect.multipart() will be removed in connect 3.0
+7:53:45 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:53:45 PM:::connect.limit() will be removed in connect 3.0
+7:54:04 PM:::[mus.ec]Created pipe console.WARN
+7:54:06 PM:::[notify.js:25]Listener add for on `17` event.
+7:54:06 PM:::[notify.js:30]Listener add for on `11` event.
+7:54:06 PM:::[notify.js:34]Listener add for on `3` event.
+7:54:07 PM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+7:54:07 PM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+7:54:07 PM:::connect.multipart() will be removed in connect 3.0
+7:54:07 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:54:07 PM:::connect.limit() will be removed in connect 3.0
+7:54:07 PM:::[mus.ec]Created pipe console.WARN
+7:54:33 PM:::[mus.ec]Created pipe console.WARN
+7:54:35 PM:::[notify.js:25]Listener add for on `17` event.
+7:54:35 PM:::[notify.js:30]Listener add for on `11` event.
+7:54:35 PM:::[notify.js:34]Listener add for on `3` event.
+7:54:36 PM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+7:54:36 PM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+7:54:36 PM:::connect.multipart() will be removed in connect 3.0
+7:54:36 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:54:36 PM:::connect.limit() will be removed in connect 3.0
+7:54:38 PM:::[search-soundcloud-query.js:10]Listener add for on `done` event.
+7:54:38 PM:::[search-soundcloud-query.js:13]Listener add for on `start` event.
+7:54:38 PM:::[search-soundcloud-query.js:15]Listener add for on `progress` event.
+7:54:38 PM:::[search-soundcloud-query.js:18]Listener add for on `error` event.
+7:54:40 PM:::Finding stream --url:undefined --quality:
+7:54:40 PM:::[mus.ec]Created pipe console.WARN
+7:54:41 PM:::[notify.js:25]Listener add for on `17` event.
+7:54:41 PM:::[notify.js:30]Listener add for on `11` event.
+7:54:41 PM:::[notify.js:34]Listener add for on `3` event.
+7:55:19 PM:::[mus.ec]Created pipe console.WARN
+7:55:21 PM:::[notify.js:25]Listener add for on `17` event.
+7:55:21 PM:::[notify.js:30]Listener add for on `11` event.
+7:55:21 PM:::[notify.js:34]Listener add for on `3` event.
+7:55:22 PM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+7:55:22 PM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+7:55:22 PM:::connect.multipart() will be removed in connect 3.0
+7:55:22 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:55:22 PM:::connect.limit() will be removed in connect 3.0
+7:55:23 PM:::[search-soundcloud-query.js:10]Listener add for on `done` event.
+7:55:23 PM:::[search-soundcloud-query.js:13]Listener add for on `start` event.
+7:55:23 PM:::[search-soundcloud-query.js:15]Listener add for on `progress` event.
+7:55:23 PM:::[search-soundcloud-query.js:18]Listener add for on `error` event.
+7:55:26 PM:::Finding stream --url:http://media.soundcloud.com/stream/wXY3hx8sPfth?stream_token=T3ew9 --quality:
+7:57:06 PM:::[mus.ec]Created pipe console.WARN
+7:57:08 PM:::[notify.js:25]Listener add for on `17` event.
+7:57:08 PM:::[notify.js:30]Listener add for on `11` event.
+7:57:08 PM:::[notify.js:34]Listener add for on `3` event.
+7:57:09 PM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+7:57:09 PM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+7:57:09 PM:::connect.multipart() will be removed in connect 3.0
+7:57:09 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:57:09 PM:::connect.limit() will be removed in connect 3.0
+7:57:11 PM:::[search-soundcloud-query.js:10]Listener add for on `done` event.
+7:57:11 PM:::[search-soundcloud-query.js:13]Listener add for on `start` event.
+7:57:11 PM:::[search-soundcloud-query.js:15]Listener add for on `progress` event.
+7:57:11 PM:::[search-soundcloud-query.js:18]Listener add for on `error` event.
+7:57:13 PM:::Finding stream --url: http://media.soundcloud.com/stream/MPmsnqSCGJ3E?stream_token=4uB6A --quality: low
+7:58:14 PM:::[mus.ec]Created pipe console.WARN
+7:58:14 PM:::[notify.js:25]Listener add for on `17` event.
+7:58:14 PM:::[notify.js:30]Listener add for on `11` event.
+7:58:14 PM:::[notify.js:34]Listener add for on `3` event.
+7:58:47 PM:::[mus.ec]Created pipe console.WARN
+7:58:49 PM:::[notify.js:25]Listener add for on `17` event.
+7:58:49 PM:::[notify.js:30]Listener add for on `11` event.
+7:58:49 PM:::[notify.js:34]Listener add for on `3` event.
+7:58:50 PM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+7:58:50 PM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+7:58:50 PM:::connect.multipart() will be removed in connect 3.0
+7:58:50 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+7:58:50 PM:::connect.limit() will be removed in connect 3.0
+7:58:51 PM:::[search-soundcloud-query.js:10]Listener add for on `done` event.
+7:58:51 PM:::[search-soundcloud-query.js:13]Listener add for on `start` event.
+7:58:51 PM:::[search-soundcloud-query.js:15]Listener add for on `progress` event.
+7:58:51 PM:::[search-soundcloud-query.js:18]Listener add for on `error` event.
+7:58:56 PM:::Finding stream --url: http://media.soundcloud.com/stream/Z9b7yYg1s1Al?stream_token=adZrL --quality: low
+7:58:57 PM:::Finding stream --url: http://media.soundcloud.com/stream/Z9b7yYg1s1Al?stream_token=adZrL --quality: low
+7:58:57 PM:::Finding stream --url: http://media.soundcloud.com/stream/Z9b7yYg1s1Al?stream_token=adZrL --quality: low
+7:58:58 PM:::[mus.ec]Created pipe console.WARN
+7:58:58 PM:::[notify.js:25]Listener add for on `17` event.
+7:58:58 PM:::[notify.js:30]Listener add for on `11` event.
+7:58:58 PM:::[notify.js:34]Listener add for on `3` event.
+8:00:23 PM:::[mus.ec]Created pipe console.WARN
+8:00:24 PM:::[notify.js:25]Listener add for on `17` event.
+8:00:24 PM:::[notify.js:30]Listener add for on `11` event.
+8:00:24 PM:::[notify.js:34]Listener add for on `3` event.
+8:00:25 PM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+8:00:25 PM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+8:00:25 PM:::connect.multipart() will be removed in connect 3.0
+8:00:25 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:00:25 PM:::connect.limit() will be removed in connect 3.0
+8:00:28 PM:::[search-soundcloud-query.js:10]Listener add for on `done` event.
+8:00:28 PM:::[search-soundcloud-query.js:13]Listener add for on `start` event.
+8:00:28 PM:::[search-soundcloud-query.js:15]Listener add for on `progress` event.
+8:00:28 PM:::[search-soundcloud-query.js:18]Listener add for on `error` event.
+8:00:33 PM:::Finding stream --url: http://media.soundcloud.com/stream/Z9b7yYg1s1Al?stream_token=adZrL --quality: low
+8:00:33 PM:::Finding stream --url: http://media.soundcloud.com/stream/Z9b7yYg1s1Al?stream_token=adZrL --quality: low
+8:00:34 PM:::Finding stream --url: http://media.soundcloud.com/stream/Z9b7yYg1s1Al?stream_token=adZrL --quality: low
+8:01:51 PM:::[mus.ec]Created pipe console.WARN
+8:01:52 PM:::[notify.js:25]Listener add for on `17` event.
+8:01:52 PM:::[notify.js:30]Listener add for on `11` event.
+8:01:52 PM:::[notify.js:34]Listener add for on `3` event.
+8:01:53 PM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+8:01:53 PM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+8:01:54 PM:::connect.multipart() will be removed in connect 3.0
+8:01:54 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:01:54 PM:::connect.limit() will be removed in connect 3.0
+8:01:54 PM:::[mus.ec]Created pipe console.WARN
+8:02:06 PM:::[mus.ec]Created pipe console.WARN
+8:02:08 PM:::[notify.js:25]Listener add for on `17` event.
+8:02:08 PM:::[notify.js:30]Listener add for on `11` event.
+8:02:08 PM:::[notify.js:34]Listener add for on `3` event.
+8:02:09 PM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+8:02:09 PM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+8:02:09 PM:::connect.multipart() will be removed in connect 3.0
+8:02:09 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:02:09 PM:::connect.limit() will be removed in connect 3.0
+8:02:11 PM:::[search-soundcloud-query.js:10]Listener add for on `done` event.
+8:02:11 PM:::[search-soundcloud-query.js:13]Listener add for on `start` event.
+8:02:11 PM:::[search-soundcloud-query.js:15]Listener add for on `progress` event.
+8:02:11 PM:::[search-soundcloud-query.js:18]Listener add for on `error` event.
+8:02:13 PM:::[mus.ec]Created pipe console.WARN
+8:02:14 PM:::[notify.js:25]Listener add for on `17` event.
+8:02:14 PM:::[notify.js:30]Listener add for on `11` event.
+8:02:14 PM:::[notify.js:34]Listener add for on `3` event.
+8:03:57 PM:::[mus.ec]Created pipe console.WARN
+8:03:59 PM:::[notify.js:25]Listener add for on `17` event.
+8:03:59 PM:::[notify.js:30]Listener add for on `11` event.
+8:03:59 PM:::[notify.js:34]Listener add for on `3` event.
+8:04:00 PM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+8:04:00 PM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+8:04:00 PM:::connect.multipart() will be removed in connect 3.0
+8:04:00 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:04:00 PM:::connect.limit() will be removed in connect 3.0
+8:04:02 PM:::[search-soundcloud-query.js:10]Listener add for on `done` event.
+8:04:02 PM:::[search-soundcloud-query.js:13]Listener add for on `start` event.
+8:04:02 PM:::[search-soundcloud-query.js:15]Listener add for on `progress` event.
+8:04:02 PM:::[search-soundcloud-query.js:18]Listener add for on `error` event.
+8:04:04 PM:::[mus.ec]Created pipe console.WARN
+8:04:41 PM:::[mus.ec]Created pipe console.WARN
+8:04:42 PM:::[notify.js:25]Listener add for on `17` event.
+8:04:42 PM:::[notify.js:30]Listener add for on `11` event.
+8:04:42 PM:::[notify.js:34]Listener add for on `3` event.
+8:04:43 PM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+8:04:43 PM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+8:04:44 PM:::connect.multipart() will be removed in connect 3.0
+8:04:44 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:04:44 PM:::connect.limit() will be removed in connect 3.0
+8:04:45 PM:::[search-soundcloud-query.js:10]Listener add for on `done` event.
+8:04:45 PM:::[search-soundcloud-query.js:13]Listener add for on `start` event.
+8:04:45 PM:::[search-soundcloud-query.js:15]Listener add for on `progress` event.
+8:04:45 PM:::[search-soundcloud-query.js:18]Listener add for on `error` event.
+8:04:47 PM:::[mus.ec]Created pipe console.WARN
+8:05:44 PM:::[mus.ec]Created pipe console.WARN
+8:05:46 PM:::[notify.js:25]Listener add for on `17` event.
+8:05:46 PM:::[notify.js:30]Listener add for on `11` event.
+8:05:46 PM:::[notify.js:34]Listener add for on `3` event.
+8:05:47 PM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+8:05:47 PM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+8:05:47 PM:::connect.multipart() will be removed in connect 3.0
+8:05:47 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:05:47 PM:::connect.limit() will be removed in connect 3.0
+8:05:48 PM:::[search-soundcloud-query.js:10]Listener add for on `done` event.
+8:05:48 PM:::[search-soundcloud-query.js:13]Listener add for on `start` event.
+8:05:48 PM:::[search-soundcloud-query.js:15]Listener add for on `progress` event.
+8:05:48 PM:::[search-soundcloud-query.js:18]Listener add for on `error` event.
+8:06:51 PM:::[mus.ec]Created pipe console.WARN
+8:06:53 PM:::[notify.js:25]Listener add for on `17` event.
+8:06:53 PM:::[notify.js:30]Listener add for on `11` event.
+8:06:53 PM:::[notify.js:34]Listener add for on `3` event.
+8:06:54 PM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+8:06:54 PM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+8:06:54 PM:::connect.multipart() will be removed in connect 3.0
+8:06:54 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:06:54 PM:::connect.limit() will be removed in connect 3.0
+8:06:57 PM:::[search-soundcloud-query.js:10]Listener add for on `done` event.
+8:06:57 PM:::[search-soundcloud-query.js:13]Listener add for on `start` event.
+8:06:57 PM:::[search-soundcloud-query.js:15]Listener add for on `progress` event.
+8:06:57 PM:::[search-soundcloud-query.js:18]Listener add for on `error` event.
+8:07:00 PM:::[mus.ec]Created pipe console.WARN
+8:07:00 PM:::[notify.js:25]Listener add for on `17` event.
+8:07:00 PM:::[notify.js:30]Listener add for on `11` event.
+8:07:00 PM:::[notify.js:34]Listener add for on `3` event.
+8:07:01 PM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+8:07:01 PM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+8:07:53 PM:::[mus.ec]Created pipe console.WARN
+8:07:55 PM:::[notify.js:25]Listener add for on `17` event.
+8:07:55 PM:::[notify.js:30]Listener add for on `11` event.
+8:07:55 PM:::[notify.js:34]Listener add for on `3` event.
+8:07:56 PM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+8:07:56 PM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+8:07:56 PM:::connect.multipart() will be removed in connect 3.0
+8:07:56 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:07:56 PM:::connect.limit() will be removed in connect 3.0
+8:07:59 PM:::[search-soundcloud-query.js:10]Listener add for on `done` event.
+8:07:59 PM:::[search-soundcloud-query.js:13]Listener add for on `start` event.
+8:07:59 PM:::[search-soundcloud-query.js:15]Listener add for on `progress` event.
+8:07:59 PM:::[search-soundcloud-query.js:18]Listener add for on `error` event.
+8:08:01 PM:::Finding stream --url: http://api.soundcloud.com/tracks/28805172/download?consumer_key=nH8p0jYOkoVEZgJukRlG6w --quality: high
+8:08:22 PM:::[mus.ec]Created pipe console.WARN
+8:08:24 PM:::[notify.js:25]Listener add for on `17` event.
+8:08:24 PM:::[notify.js:30]Listener add for on `11` event.
+8:08:24 PM:::[notify.js:34]Listener add for on `3` event.
+8:08:25 PM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+8:08:25 PM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+8:08:25 PM:::connect.multipart() will be removed in connect 3.0
+8:08:25 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:08:25 PM:::connect.limit() will be removed in connect 3.0
+8:08:27 PM:::[search-soundcloud-query.js:10]Listener add for on `done` event.
+8:08:27 PM:::[search-soundcloud-query.js:13]Listener add for on `start` event.
+8:08:27 PM:::[search-soundcloud-query.js:15]Listener add for on `progress` event.
+8:08:27 PM:::[search-soundcloud-query.js:18]Listener add for on `error` event.
+8:08:29 PM:::Finding stream --url: http://api.soundcloud.com/tracks/20410719/download?consumer_key=nH8p0jYOkoVEZgJukRlG6w --quality: high
+8:08:29 PM:::Finding stream --url: http://api.soundcloud.com/tracks/20410719/plays?consumer_key=nH8p0jYOkoVEZgJukRlG6w --quality: medium
+8:08:30 PM:::Finding stream --url: http://media.soundcloud.com/stream/YVaOfWoTJuU5?stream_token=vJSRM --quality: low
+8:09:03 PM:::[mus.ec]Created pipe console.WARN
+8:09:05 PM:::[notify.js:25]Listener add for on `17` event.
+8:09:05 PM:::[notify.js:30]Listener add for on `11` event.
+8:09:05 PM:::[notify.js:34]Listener add for on `3` event.
+8:09:06 PM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+8:09:06 PM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+8:09:06 PM:::connect.multipart() will be removed in connect 3.0
+8:09:06 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:09:06 PM:::connect.limit() will be removed in connect 3.0
+8:09:07 PM:::[search-soundcloud-query.js:10]Listener add for on `done` event.
+8:09:07 PM:::[search-soundcloud-query.js:13]Listener add for on `start` event.
+8:09:07 PM:::[search-soundcloud-query.js:15]Listener add for on `progress` event.
+8:09:07 PM:::[search-soundcloud-query.js:18]Listener add for on `error` event.
+8:09:09 PM:::Finding stream --url: http://api.soundcloud.com/tracks/20410719/download?consumer_key=nH8p0jYOkoVEZgJukRlG6w --quality: high
+8:09:09 PM:::Finding stream --url: http://api.soundcloud.com/tracks/20410719/plays?consumer_key=nH8p0jYOkoVEZgJukRlG6w --quality: medium
+8:09:10 PM:::Finding stream --url: http://media.soundcloud.com/stream/YVaOfWoTJuU5?stream_token=vJSRM --quality: low
+8:14:04 PM:::[mus.ec]Created pipe console.WARN
+8:14:06 PM:::[notify.js:25]Listener add for on `17` event.
+8:14:06 PM:::[notify.js:30]Listener add for on `11` event.
+8:14:06 PM:::[notify.js:34]Listener add for on `3` event.
+8:14:07 PM:::[emitter-proto.js:5]Listener add for on `start` event.
+8:14:07 PM:::[emitter-proto.js:6]Listener add for on `done` event.
+8:14:07 PM:::[search-youtube-query.js:9]Listener add for on `done` event.
+8:14:07 PM:::[search-youtube-query.js:23]Listener add for on `error` event.
+8:14:07 PM:::connect.multipart() will be removed in connect 3.0
+8:14:07 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:14:07 PM:::connect.limit() will be removed in connect 3.0
+8:14:08 PM:::[search-youtube-query.js:11]Listener add for on `done` event.
+8:14:08 PM:::[search-youtube-query.js:14]Listener add for on `start` event.
+8:14:08 PM:::[search-youtube-query.js:16]Listener add for on `progress` event.
+8:14:08 PM:::[search-youtube-query.js:19]Listener add for on `error` event.
+8:14:08 PM:::No format metadata for itag 248 found
+8:14:08 PM:::No format metadata for itag 247 found
+8:14:08 PM:::No format metadata for itag 244 found
+8:14:08 PM:::No format metadata for itag 243 found
+8:14:08 PM:::No format metadata for itag 242 found
+8:14:08 PM:::No format metadata for itag 248 found
+8:14:08 PM:::No format metadata for itag 247 found
+8:14:08 PM:::No format metadata for itag 244 found
+8:14:08 PM:::No format metadata for itag 243 found
+8:14:08 PM:::No format metadata for itag 242 found
+8:14:12 PM:::[emitter-proto.js]MethodC returned
+8:14:32 PM:::[search-grooveshark-query.js:8]Listener add for on `done` event.
+8:14:32 PM:::[search-grooveshark-query.js:22]Listener add for on `error` event.
+8:14:36 PM:::[search-grooveshark-query.js:10]Listener add for on `done` event.
+8:14:36 PM:::[search-grooveshark-query.js:13]Listener add for on `start` event.
+8:14:36 PM:::[search-grooveshark-query.js:15]Listener add for on `progress` event.
+8:14:36 PM:::[search-grooveshark-query.js:18]Listener add for on `error` event.
+8:14:38 PM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+8:14:38 PM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+8:14:40 PM:::[search-soundcloud-query.js:10]Listener add for on `done` event.
+8:14:40 PM:::[search-soundcloud-query.js:13]Listener add for on `start` event.
+8:14:40 PM:::[search-soundcloud-query.js:15]Listener add for on `progress` event.
+8:14:40 PM:::[search-soundcloud-query.js:18]Listener add for on `error` event.
+8:14:44 PM:::Finding stream --url: http://api.soundcloud.com/tracks/138307724/download?consumer_key=nH8p0jYOkoVEZgJukRlG6w --quality: high
+8:14:44 PM:::Finding stream --url: http://api.soundcloud.com/tracks/138307724/plays?consumer_key=nH8p0jYOkoVEZgJukRlG6w --quality: medium
+8:14:45 PM:::Finding stream --url: http://media.soundcloud.com/stream/hKu8cna7uhKu?stream_token=Egk7e --quality: low
+8:14:47 PM:::[search-soundcloud-url.js:8]Listener add for on `done` event.
+8:14:47 PM:::[search-soundcloud-url.js:22]Listener add for on `error` event.
+8:14:49 PM:::[search-soundcloud-url.js:10]Listener add for on `done` event.
+8:14:49 PM:::[search-soundcloud-url.js:13]Listener add for on `start` event.
+8:14:49 PM:::[search-soundcloud-url.js:15]Listener add for on `progress` event.
+8:14:49 PM:::[search-soundcloud-url.js:18]Listener add for on `error` event.
+8:14:51 PM:::Finding stream --url: http://api.soundcloud.com/tracks/59131562/download?consumer_key=nH8p0jYOkoVEZgJukRlG6w --quality: high
+8:14:51 PM:::Finding stream --url: http://api.soundcloud.com/tracks/59131562/plays?consumer_key=nH8p0jYOkoVEZgJukRlG6w --quality: medium
+8:14:52 PM:::Finding stream --url: http://media.soundcloud.com/stream/g9wxCfR3EqqL?stream_token=rC2mh --quality: low
+8:14:53 PM:::[aws-create-delete-bucket.js:12]Listener add for on `done` event.
+8:14:53 PM:::[aws-create-delete-bucket.js:22]Listener add for on `error` event.
+8:14:55 PM:::[aws-create-delete-bucket.js:14]Listener add for on `done` event.
+8:14:55 PM:::[aws-create-delete-bucket.js:18]Listener add for on `error` event.
+8:17:36 PM:::[mus.ec]Created pipe console.WARN
+8:17:38 PM:::[notify.js:25]Listener add for on `17` event.
+8:17:38 PM:::[notify.js:30]Listener add for on `11` event.
+8:17:38 PM:::[notify.js:34]Listener add for on `3` event.
+8:17:39 PM:::[emitter-proto.js:5]Listener add for on `start` event.
+8:17:39 PM:::[emitter-proto.js:6]Listener add for on `done` event.
+8:17:39 PM:::[search-youtube-query.js:9]Listener add for on `done` event.
+8:17:39 PM:::[search-youtube-query.js:23]Listener add for on `error` event.
+8:17:40 PM:::connect.multipart() will be removed in connect 3.0
+8:17:40 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:17:40 PM:::connect.limit() will be removed in connect 3.0
+8:17:40 PM:::[search-youtube-query.js:11]Listener add for on `done` event.
+8:17:40 PM:::[search-youtube-query.js:14]Listener add for on `start` event.
+8:17:40 PM:::[search-youtube-query.js:16]Listener add for on `progress` event.
+8:17:40 PM:::[search-youtube-query.js:19]Listener add for on `error` event.
+8:17:44 PM:::[emitter-proto.js]MethodC returned
+8:18:57 PM:::[search-grooveshark-query.js:8]Listener add for on `done` event.
+8:18:57 PM:::[search-grooveshark-query.js:22]Listener add for on `error` event.
+8:19:01 PM:::[search-grooveshark-query.js:10]Listener add for on `done` event.
+8:19:01 PM:::[search-grooveshark-query.js:13]Listener add for on `start` event.
+8:19:01 PM:::[search-grooveshark-query.js:15]Listener add for on `progress` event.
+8:19:01 PM:::[search-grooveshark-query.js:18]Listener add for on `error` event.
+8:19:04 PM:::[search-soundcloud-query.js:8]Listener add for on `done` event.
+8:19:04 PM:::[search-soundcloud-query.js:22]Listener add for on `error` event.
+8:19:05 PM:::[search-soundcloud-query.js:10]Listener add for on `done` event.
+8:19:05 PM:::[search-soundcloud-query.js:13]Listener add for on `start` event.
+8:19:05 PM:::[search-soundcloud-query.js:15]Listener add for on `progress` event.
+8:19:06 PM:::[search-soundcloud-query.js:18]Listener add for on `error` event.
+8:19:08 PM:::Finding stream --url: http://api.soundcloud.com/tracks/50623988/download?consumer_key=nH8p0jYOkoVEZgJukRlG6w --quality: high
+8:19:08 PM:::Finding stream --url: http://api.soundcloud.com/tracks/50623988/plays?consumer_key=nH8p0jYOkoVEZgJukRlG6w --quality: medium
+8:19:09 PM:::Finding stream --url: http://media.soundcloud.com/stream/N9Z0cQfdnMkI?stream_token=hm2et --quality: low
+8:19:12 PM:::[search-soundcloud-url.js:8]Listener add for on `done` event.
+8:19:12 PM:::[search-soundcloud-url.js:22]Listener add for on `error` event.
+8:19:19 PM:::[search-soundcloud-url.js:10]Listener add for on `done` event.
+8:19:19 PM:::[search-soundcloud-url.js:13]Listener add for on `start` event.
+8:19:19 PM:::[search-soundcloud-url.js:15]Listener add for on `progress` event.
+8:19:19 PM:::[search-soundcloud-url.js:18]Listener add for on `error` event.
+8:19:26 PM:::Finding stream --url: http://api.soundcloud.com/tracks/124063811/download?consumer_key=nH8p0jYOkoVEZgJukRlG6w --quality: high
+8:19:26 PM:::Finding stream --url: http://api.soundcloud.com/tracks/124063811/plays?consumer_key=nH8p0jYOkoVEZgJukRlG6w --quality: medium
+8:19:27 PM:::Finding stream --url: http://media.soundcloud.com/stream/d8sW24frj7lT?stream_token=h3WYv --quality: low
+8:19:29 PM:::[aws-create-delete-bucket.js:12]Listener add for on `done` event.
+8:19:29 PM:::[aws-create-delete-bucket.js:23]Listener add for on `error` event.
+8:19:30 PM:::[aws-create-delete-bucket.js:14]Listener add for on `done` event.
+8:19:30 PM:::[aws-create-delete-bucket.js:19]Listener add for on `error` event.
+8:19:30 PM:::[search-google-images.js:10]Listener add for on `done` event.
+8:19:30 PM:::[search-google-images.js:26]Listener add for on `error` event.
+8:19:36 PM:::[search-google-images.js:13]Listener add for on `done` event.
+8:19:36 PM:::[search-google-images.js:16]Listener add for on `start` event.
+8:19:36 PM:::[search-google-images.js:18]Listener add for on `progress` event.
+8:19:36 PM:::[search-google-images.js:21]Listener add for on `error` event.
+8:19:36 PM:::[aws-upload-delete-files-bucket.js:14]Listener add for on `done` event.
+8:19:36 PM:::[aws-upload-delete-files-bucket.js:51]Listener add for on `error` event.
+8:19:37 PM:::[aws-upload-delete-files-bucket.js:16]Listener add for on `done` event.
+8:19:37 PM:::[aws-upload-delete-files-bucket.js:47]Listener add for on `error` event.
+8:19:37 PM:::[aws-upload-delete-files-bucket.js:20]Listener add for on `start` event.
+8:19:37 PM:::[aws-upload-delete-files-bucket.js:22]Listener add for on `progress` event.
+8:19:37 PM:::[aws-upload-delete-files-bucket.js:25]Listener add for on `done` event.
+8:19:37 PM:::[aws-upload-delete-files-bucket.js:43]Listener add for on `error` event.
+8:19:38 PM:::[aws-upload-delete-files-bucket.js:27]Listener add for on `done` event.
+8:19:38 PM:::[aws-upload-delete-files-bucket.js:39]Listener add for on `error` event.
+8:19:39 PM:::[aws-upload-delete-files-bucket.js:29]Listener add for on `done` event.
+8:19:39 PM:::[aws-upload-delete-files-bucket.js:35]Listener add for on `error` event.
+8:19:39 PM:::[aws-upload-delete-files-bucket.js:31]Listener add for on `done` event.
+8:19:40 PM:::[aws-upload-delete-files-bucket.js:62]Listener add for on `done` event.
+8:19:40 PM:::[aws-upload-delete-files-bucket.js:105]Listener add for on `error` event.
+8:19:40 PM:::[aws-upload-delete-files-bucket.js:64]Listener add for on `done` event.
+8:19:40 PM:::[aws-upload-delete-files-bucket.js:101]Listener add for on `error` event.
+8:19:40 PM:::[aws-upload-delete-files-bucket.js:68]Listener add for on `start` event.
+8:19:40 PM:::[aws-upload-delete-files-bucket.js:70]Listener add for on `progress` event.
+8:19:40 PM:::[aws-upload-delete-files-bucket.js:73]Listener add for on `done` event.
+8:19:40 PM:::[aws-upload-delete-files-bucket.js:97]Listener add for on `error` event.
+8:19:42 PM:::[aws-upload-delete-files-bucket.js:75]Listener add for on `done` event.
+8:19:42 PM:::[aws-upload-delete-files-bucket.js:93]Listener add for on `error` event.
+8:19:42 PM:::[aws-upload-delete-files-bucket.js:77]Listener add for on `done` event.
+8:19:42 PM:::[aws-upload-delete-files-bucket.js:89]Listener add for on `error` event.
+8:19:42 PM:::[aws-upload-delete-files-bucket.js:79]Listener add for on `done` event.
+8:19:42 PM:::[aws-upload-delete-files-bucket.js:85]Listener add for on `error` event.
+8:19:42 PM:::[aws-upload-delete-files-bucket.js:81]Listener add for on `done` event.
+8:19:42 PM:::[search-echonest.js:65]Listener add for on `done` event.
+8:19:42 PM:::[search-echonest.js:68]Listener add for on `start` event.
+8:19:42 PM:::[search-echonest.js:70]Listener add for on `progress` event.
+8:19:42 PM:::[search-echonest.js:73]Listener add for on `error` event.
+8:21:02 PM:::[mus.ec]Created pipe console.WARN
+8:21:03 PM:::[notify.js:25]Listener add for on `17` event.
+8:21:03 PM:::[notify.js:30]Listener add for on `11` event.
+8:21:03 PM:::[notify.js:34]Listener add for on `3` event.
+8:21:04 PM:::connect.multipart() will be removed in connect 3.0
+8:21:04 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:21:04 PM:::connect.limit() will be removed in connect 3.0
+8:22:31 PM:::[mus.ec]Created pipe console.WARN
+8:22:32 PM:::[notify.js:25]Listener add for on `17` event.
+8:22:32 PM:::[notify.js:30]Listener add for on `11` event.
+8:22:32 PM:::[notify.js:34]Listener add for on `3` event.
+8:22:33 PM:::connect.multipart() will be removed in connect 3.0
+8:22:33 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:22:33 PM:::connect.limit() will be removed in connect 3.0
+8:23:51 PM:::[mus.ec]Created pipe console.WARN
+8:23:52 PM:::[notify.js:25]Listener add for on `17` event.
+8:23:52 PM:::[notify.js:30]Listener add for on `11` event.
+8:23:52 PM:::[notify.js:34]Listener add for on `3` event.
+8:23:53 PM:::connect.multipart() will be removed in connect 3.0
+8:23:53 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:23:53 PM:::connect.limit() will be removed in connect 3.0
+8:24:44 PM:::[mus.ec]Created pipe console.WARN
+8:24:45 PM:::[notify.js:25]Listener add for on `17` event.
+8:24:45 PM:::[notify.js:30]Listener add for on `11` event.
+8:24:45 PM:::[notify.js:34]Listener add for on `3` event.
+8:24:46 PM:::connect.multipart() will be removed in connect 3.0
+8:24:46 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+8:24:46 PM:::connect.limit() will be removed in connect 3.0
+8:59:58 PM:::[mus.ec]Created pipe console.WARN
+8:59:59 PM:::[notify.js:25]Listener add for on `17` event.
+8:59:59 PM:::[notify.js:30]Listener add for on `11` event.
+8:59:59 PM:::[notify.js:34]Listener add for on `3` event.
+9:00:00 PM:::[mus.ec]Created pipe console.WARN
+9:00:00 PM:::[notify.js:25]Listener add for on `17` event.
+9:00:00 PM:::[notify.js:30]Listener add for on `11` event.
+9:00:00 PM:::[notify.js:34]Listener add for on `3` event.
+9:00:01 PM:::[mus.ec]Created pipe console.WARN
+9:00:18 PM:::[mus.ec]Created pipe console.WARN
+9:00:20 PM:::[notify.js:25]Listener add for on `17` event.
+9:00:20 PM:::[notify.js:30]Listener add for on `11` event.
+9:00:20 PM:::[notify.js:34]Listener add for on `3` event.
+9:00:21 PM:::[mus.ec]Created pipe console.WARN
+9:00:32 PM:::[mus.ec]Created pipe console.WARN
+9:00:34 PM:::[notify.js:25]Listener add for on `17` event.
+9:00:34 PM:::[notify.js:30]Listener add for on `11` event.
+9:00:34 PM:::[notify.js:34]Listener add for on `3` event.
+9:00:35 PM:::[mus.ec]Created pipe console.WARN
+9:00:36 PM:::[notify.js:25]Listener add for on `17` event.
+9:00:36 PM:::[notify.js:30]Listener add for on `11` event.
+9:00:36 PM:::[notify.js:34]Listener add for on `3` event.
+9:01:05 PM:::[mus.ec]Created pipe console.WARN
+9:01:07 PM:::[notify.js:25]Listener add for on `17` event.
+9:01:07 PM:::[notify.js:30]Listener add for on `11` event.
+9:01:07 PM:::[notify.js:34]Listener add for on `3` event.
+9:01:08 PM:::[search-id3.js:41]Listener add for on `done` event.
+9:01:08 PM:::[search-id3.js:66]Listener add for on `error` event.
+9:01:08 PM:::connect.multipart() will be removed in connect 3.0
+9:01:08 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+9:01:08 PM:::connect.limit() will be removed in connect 3.0
+9:01:09 PM:::[mus.ec]Created pipe console.WARN
+9:01:21 PM:::[mus.ec]Created pipe console.WARN
+9:01:23 PM:::[notify.js:25]Listener add for on `17` event.
+9:01:23 PM:::[notify.js:30]Listener add for on `11` event.
+9:01:23 PM:::[notify.js:34]Listener add for on `3` event.
+9:01:24 PM:::[search-id3.js:41]Listener add for on `done` event.
+9:01:24 PM:::[search-id3.js:66]Listener add for on `error` event.
+9:01:24 PM:::connect.multipart() will be removed in connect 3.0
+9:01:24 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+9:01:24 PM:::connect.limit() will be removed in connect 3.0
+9:01:24 PM:::[search-id3.js:54]Listener add for on `done` event.
+9:01:24 PM:::[search-id3.js:57]Listener add for on `start` event.
+9:01:24 PM:::[search-id3.js:59]Listener add for on `progress` event.
+9:01:24 PM:::[search-id3.js:62]Listener add for on `error` event.
+9:03:05 PM:::[mus.ec]Created pipe console.WARN
+9:03:06 PM:::[notify.js:25]Listener add for on `17` event.
+9:03:06 PM:::[notify.js:30]Listener add for on `11` event.
+9:03:06 PM:::[notify.js:34]Listener add for on `3` event.
+9:03:07 PM:::connect.multipart() will be removed in connect 3.0
+9:03:07 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+9:03:07 PM:::connect.limit() will be removed in connect 3.0
+9:03:44 PM:::[mus.ec]Created pipe console.WARN
+9:03:45 PM:::[notify.js:25]Listener add for on `17` event.
+9:03:45 PM:::[notify.js:30]Listener add for on `11` event.
+9:03:45 PM:::[notify.js:34]Listener add for on `3` event.
+9:03:45 PM:::connect.multipart() will be removed in connect 3.0
+9:03:45 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+9:03:45 PM:::connect.limit() will be removed in connect 3.0
+11:21:31 PM:::[mus.ec]Created pipe console.WARN
+11:21:32 PM:::[notify.js:25]Listener add for on `17` event.
+11:21:32 PM:::[notify.js:30]Listener add for on `11` event.
+11:21:32 PM:::[notify.js:34]Listener add for on `3` event.
+11:21:33 PM:::connect.multipart() will be removed in connect 3.0
+11:21:33 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+11:21:33 PM:::connect.limit() will be removed in connect 3.0
+11:21:33 PM:::[mus.ec]Created pipe console.WARN
+11:21:34 PM:::[notify.js:25]Listener add for on `17` event.
+11:21:34 PM:::[notify.js:30]Listener add for on `11` event.
+11:21:34 PM:::[notify.js:34]Listener add for on `3` event.
+11:22:16 PM:::[mus.ec]Created pipe console.WARN
+11:22:18 PM:::[notify.js:25]Listener add for on `17` event.
+11:22:18 PM:::[notify.js:30]Listener add for on `11` event.
+11:22:18 PM:::[notify.js:34]Listener add for on `3` event.
+11:22:19 PM:::connect.multipart() will be removed in connect 3.0
+11:22:19 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+11:22:19 PM:::connect.limit() will be removed in connect 3.0
+11:22:20 PM:::[mus.ec]Created pipe console.WARN
+11:22:21 PM:::[notify.js:25]Listener add for on `17` event.
+11:22:21 PM:::[notify.js:30]Listener add for on `11` event.
+11:22:21 PM:::[notify.js:34]Listener add for on `3` event.
+11:22:22 PM:::connect.multipart() will be removed in connect 3.0
+11:22:22 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+11:22:22 PM:::connect.limit() will be removed in connect 3.0
+11:23:54 PM:::[mus.ec]Created pipe console.WARN
+11:23:56 PM:::[notify.js:25]Listener add for on `17` event.
+11:23:56 PM:::[notify.js:30]Listener add for on `11` event.
+11:23:56 PM:::[notify.js:34]Listener add for on `3` event.
+11:23:57 PM:::connect.multipart() will be removed in connect 3.0
+11:23:57 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+11:23:57 PM:::connect.limit() will be removed in connect 3.0
+11:23:57 PM:::[mus.ec]Created pipe console.WARN
+11:24:30 PM:::[mus.ec]Created pipe console.WARN
+11:24:32 PM:::[notify.js:25]Listener add for on `17` event.
+11:24:32 PM:::[notify.js:30]Listener add for on `11` event.
+11:24:32 PM:::[notify.js:34]Listener add for on `3` event.
+11:24:33 PM:::connect.multipart() will be removed in connect 3.0
+11:24:33 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+11:24:33 PM:::connect.limit() will be removed in connect 3.0
+11:24:51 PM:::[mus.ec]Created pipe console.WARN
+11:24:53 PM:::[notify.js:25]Listener add for on `17` event.
+11:24:53 PM:::[notify.js:30]Listener add for on `11` event.
+11:24:53 PM:::[notify.js:34]Listener add for on `3` event.
+11:24:54 PM:::connect.multipart() will be removed in connect 3.0
+11:24:54 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+11:24:54 PM:::connect.limit() will be removed in connect 3.0
+11:26:15 PM:::[mus.ec]Created pipe console.WARN
+11:26:16 PM:::[notify.js:25]Listener add for on `17` event.
+11:26:16 PM:::[notify.js:30]Listener add for on `11` event.
+11:26:16 PM:::[notify.js:34]Listener add for on `3` event.
+11:26:17 PM:::connect.multipart() will be removed in connect 3.0
+11:26:17 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+11:26:17 PM:::connect.limit() will be removed in connect 3.0
+11:26:21 PM:::[mus.ec]Created pipe console.WARN
+11:26:22 PM:::[notify.js:25]Listener add for on `17` event.
+11:26:22 PM:::[notify.js:30]Listener add for on `11` event.
+11:26:22 PM:::[notify.js:34]Listener add for on `3` event.
+11:26:23 PM:::connect.multipart() will be removed in connect 3.0
+11:26:23 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+11:26:23 PM:::connect.limit() will be removed in connect 3.0
+11:26:29 PM:::[mus.ec]Created pipe console.WARN
+11:26:30 PM:::[notify.js:25]Listener add for on `17` event.
+11:26:30 PM:::[notify.js:30]Listener add for on `11` event.
+11:26:30 PM:::[notify.js:34]Listener add for on `3` event.
+11:26:31 PM:::connect.multipart() will be removed in connect 3.0
+11:26:31 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+11:26:31 PM:::connect.limit() will be removed in connect 3.0
+11:26:40 PM:::[mus.ec]Created pipe console.WARN
+11:26:41 PM:::[notify.js:25]Listener add for on `17` event.
+11:26:41 PM:::[notify.js:30]Listener add for on `11` event.
+11:26:41 PM:::[notify.js:34]Listener add for on `3` event.
+11:26:42 PM:::connect.multipart() will be removed in connect 3.0
+11:26:42 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+11:26:42 PM:::connect.limit() will be removed in connect 3.0
+11:26:50 PM:::[mus.ec]Created pipe console.WARN
+11:26:51 PM:::[notify.js:25]Listener add for on `17` event.
+11:26:51 PM:::[notify.js:30]Listener add for on `11` event.
+11:26:51 PM:::[notify.js:34]Listener add for on `3` event.
+11:26:52 PM:::connect.multipart() will be removed in connect 3.0
+11:26:52 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+11:26:52 PM:::connect.limit() will be removed in connect 3.0
+11:27:09 PM:::[mus.ec]Created pipe console.WARN
+11:27:10 PM:::[notify.js:25]Listener add for on `17` event.
+11:27:10 PM:::[notify.js:30]Listener add for on `11` event.
+11:27:10 PM:::[notify.js:34]Listener add for on `3` event.
+11:27:11 PM:::connect.multipart() will be removed in connect 3.0
+11:27:11 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+11:27:11 PM:::connect.limit() will be removed in connect 3.0
+11:27:41 PM:::[mus.ec]Created pipe console.WARN
+11:27:42 PM:::[notify.js:25]Listener add for on `17` event.
+11:27:42 PM:::[notify.js:30]Listener add for on `11` event.
+11:27:42 PM:::[notify.js:34]Listener add for on `3` event.
+11:27:43 PM:::connect.multipart() will be removed in connect 3.0
+11:27:43 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+11:27:43 PM:::connect.limit() will be removed in connect 3.0
+11:27:57 PM:::[mus.ec]Created pipe console.WARN
+11:27:58 PM:::[notify.js:25]Listener add for on `17` event.
+11:27:58 PM:::[notify.js:30]Listener add for on `11` event.
+11:27:58 PM:::[notify.js:34]Listener add for on `3` event.
+11:27:59 PM:::connect.multipart() will be removed in connect 3.0
+11:27:59 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+11:27:59 PM:::connect.limit() will be removed in connect 3.0
+11:28:32 PM:::[mus.ec]Created pipe console.WARN
+11:28:33 PM:::[notify.js:25]Listener add for on `17` event.
+11:28:33 PM:::[notify.js:30]Listener add for on `11` event.
+11:28:33 PM:::[notify.js:34]Listener add for on `3` event.
+11:28:34 PM:::connect.multipart() will be removed in connect 3.0
+11:28:34 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+11:28:34 PM:::connect.limit() will be removed in connect 3.0
+11:28:34 PM:::[mus.ec]Created pipe console.WARN
+11:28:35 PM:::[notify.js:25]Listener add for on `17` event.
+11:28:35 PM:::[notify.js:30]Listener add for on `11` event.
+11:28:35 PM:::[notify.js:34]Listener add for on `3` event.
+11:28:36 PM:::connect.multipart() will be removed in connect 3.0
+11:28:36 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+11:28:36 PM:::connect.limit() will be removed in connect 3.0
+11:28:36 PM:::[mus.ec]Created pipe console.WARN
+11:28:44 PM:::[mus.ec]Created pipe console.WARN
+11:28:46 PM:::[notify.js:25]Listener add for on `17` event.
+11:28:46 PM:::[notify.js:30]Listener add for on `11` event.
+11:28:46 PM:::[notify.js:34]Listener add for on `3` event.
+11:28:47 PM:::connect.multipart() will be removed in connect 3.0
+11:28:47 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+11:28:47 PM:::connect.limit() will be removed in connect 3.0
+11:29:41 PM:::[mus.ec]Created pipe console.WARN
+11:29:42 PM:::[notify.js:25]Listener add for on `17` event.
+11:29:42 PM:::[notify.js:30]Listener add for on `11` event.
+11:29:42 PM:::[notify.js:34]Listener add for on `3` event.
+11:29:43 PM:::connect.multipart() will be removed in connect 3.0
+11:29:43 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+11:29:43 PM:::connect.limit() will be removed in connect 3.0
+11:33:51 PM:::[mus.ec]Created pipe console.WARN
+11:33:52 PM:::[notify.js:25]Listener add for on `17` event.
+11:33:52 PM:::[notify.js:30]Listener add for on `11` event.
+11:33:52 PM:::[notify.js:34]Listener add for on `3` event.
+11:33:53 PM:::connect.multipart() will be removed in connect 3.0
+11:33:53 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+11:33:53 PM:::connect.limit() will be removed in connect 3.0
+11:50:04 PM:::[mus.ec]Created pipe console.WARN
+11:50:05 PM:::[notify.js:25]Listener add for on `17` event.
+11:50:05 PM:::[notify.js:30]Listener add for on `11` event.
+11:50:05 PM:::[notify.js:34]Listener add for on `3` event.
+11:50:06 PM:::connect.multipart() will be removed in connect 3.0
+11:50:06 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+11:50:06 PM:::connect.limit() will be removed in connect 3.0
+11:50:30 PM:::[mus.ec]Created pipe console.WARN
+11:50:31 PM:::[notify.js:25]Listener add for on `17` event.
+11:50:31 PM:::[notify.js:30]Listener add for on `11` event.
+11:50:31 PM:::[notify.js:34]Listener add for on `3` event.
+11:50:32 PM:::connect.multipart() will be removed in connect 3.0
+11:50:32 PM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+11:50:32 PM:::connect.limit() will be removed in connect 3.0

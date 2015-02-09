@@ -1,0 +1,34 @@
+{
+  "name": "Muzzler",
+  "description": "Music Experience",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.x",
+    "jade": "*",
+    "mongodb": "*",
+    "monk": "*",
+    "socket.io": "*",
+    "colors": "*",
+    "mkdirp": "*",
+    "mongoskin": "*",
+    "aws-sdk": "*",
+    "should": "*",
+    "mocha": "*",
+    "supertest": "*",
+    "request": "*",
+    "connect-mongo": "*",
+    "musicmetadata": "*",
+    "cloudfront-private-url-creator": "*",
+    "ytdl": "*",
+    "ffmpeg": "*",
+    "fluent-ffmpeg": "*",
+    "echojs": "*",
+    "shortid": "~2.0.0",
+    "canvas": "*",
+    "jquery" : "*"
+  }
+}

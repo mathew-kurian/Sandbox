@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="blockQuote_textSize">12sp</dimen>
+    <dimen name="blockQuote_authorTextSize">10sp</dimen>
+
+    <color name="blockQuote_textColor">#838282</color>
+    <color name="blockQuote_authorTextColor">#838282</color>
+    <color name="normalText_textColor">#838282</color>
+
+    <dimen name="normalText_normalTextSize">12sp</dimen>
+    <dimen name="normalText_largeTextSize">15sp</dimen>
+    <dimen name="normalText_largestTextSize">20sp</dimen>
+
+    <bool name="normalText_varySizes">false</bool>
+
+</resources>

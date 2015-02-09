@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapsocial="http://schemas.android.com/apk/res/co.map.social.prebeta"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_shadow"
+    android:orientation="vertical" android:contentDescription="hello">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="75dp"
+                android:background="@drawable/bg_details"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout01"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient_blue"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/back" android:paddingTop="5dp" android:paddingLeft="5dp" android:paddingRight="5dp" android:paddingBottom="5dp"/>
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:hint="Enter group description"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edittext_bg"
+                    android:ems="10" android:drawableLeft="@drawable/search" android:layout_marginLeft="100dp" android:textColor="@color/normalText_textColor" android:textSize="10sp"/>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fadingEdgeLength="0dp"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/top_banner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/top_test" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" android:background="@drawable/gradient_white" android:paddingBottom="10dp" android:layout_marginBottom="10dp">
+
+                    <co.map.social.prebeta.MyriadProText
+                        android:id="@+id/TextView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="10dp"
+                        android:text="Demo User Interface"
+                        android:textColor="#838282"
+                        android:textSize="20sp"
+                        mapsocial:varySizes="false" />
+
+                    <co.map.social.prebeta.MyriadProText
+                        android:id="@+id/TextView07"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="Copyright Mathew Kurian"
+                        android:textColor="#838282"
+                        android:textSize="16sp"
+                        mapsocial:varySizes="false" />
+
+                    <co.map.social.prebeta.MyriadProText
+                        android:id="@+id/TextView05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="Heading 1"
+                        android:textColor="#838282"
+                        android:textSize="16sp"
+                        mapsocial:varySizes="false" />
+
+                    <co.map.social.prebeta.MyriadProText
+                        android:id="@+id/TextView06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="Heading 2"
+                        android:textColor="#838282"
+                        android:textSize="14sp"
+                        mapsocial:varySizes="false" />
+
+                    <co.map.social.prebeta.MyriadProText
+                        android:id="@+id/TextView03"
+                        style="@style/normalTextVarying"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="10dp"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor mi, varius vehicula vestibulum eu, ornare eget mi. Nullam vel commodo mi. Curabitur convallis interdum augue, vel sodales sapien dignissim sit amet. In metus sapien, commodo ut tincidunt sed, varius in diam. Etiam tempus, tortor sed tristique commodo, enim augue sagittis ipsum, non sollicitudin odio purus in nunc. Pellentesque vel neque quam, at sollicitudin diam. Praesent mattis, mauris congue sagittis porta, tellus urna commodo massa, ac lacinia ante mauris id lorem. Donec dapibus ligula sit amet elit pulvinar iaculis. Sed fringilla euismod risus, eu tincidunt mi aliquam in. Suspendisse a velit nibh, suscipit fringilla nibh. Aliquam non faucibus eros."
+                        android:textColor="#838282" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="250dp"
+                        android:background="@drawable/bg_details"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_gravity="top|right"
+                            android:src="@drawable/ribbon_featured" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" >
+
+                            <LinearLayout
+                                android:id="@+id/LinearLayout1"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/gradient_red"
+                                android:orientation="horizontal" >
+
+                                <ImageView
+                                    android:id="@+id/ImageView01"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_gravity="center"
+                                    android:scaleType="center"
+                                    android:src="@drawable/info_icon" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical" android:layout_marginTop="35dp" android:layout_marginRight="10dp" android:layout_marginLeft="10dp">
+
+                                <EditText
+                                    android:id="@+id/EditText04"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@drawable/edittext_bg"
+                                    android:drawableLeft="@drawable/search"
+                                    android:ems="10"
+                                    android:hint="Enter group description"
+                                    android:textColor="@color/normalText_textColor"
+                                    android:textSize="10sp" />
+
+                                <EditText
+                                    android:id="@+id/EditText03"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@drawable/edittext_bg"
+                                    android:drawableLeft="@drawable/search"
+                                    android:ems="10"
+                                    android:hint="Enter group description"
+                                    android:textColor="@color/normalText_textColor"
+                                    android:textSize="10sp" />
+
+                                <EditText
+                                    android:id="@+id/EditText02"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/edittext_bg"
+                                    android:drawableLeft="@drawable/search"
+                                    android:ems="10"
+                                    android:hint="Enter group description"
+                                    android:textColor="@color/normalText_textColor"
+                                    android:textSize="10sp" android:layout_marginBottom="5dp"/>
+
+                                <EditText
+                                    android:id="@+id/EditText01"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/edittext_bg"
+                                    android:drawableLeft="@drawable/search"
+                                    android:ems="10"
+                                    android:hint="Enter group description"
+                                    android:textColor="@color/normalText_textColor"
+                                    android:textSize="10sp" android:layout_marginBottom="5dp">
+
+                                    <requestFocus />
+                                </EditText>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/bg_details"
+                    android:orientation="horizontal" android:paddingLeft="10dp" android:paddingBottom="10dp" android:paddingRight="10dp" android:paddingTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/orange_unpressed" android:layout_gravity="center_vertical|center_horizontal">
+
+                        <TextView
+                            android:id="@+id/TextView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:paddingTop="10dp"
+                            android:text="JOIN" android:textColor="#ffffff" android:textSize="12dp"/>
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/or" android:layout_gravity="center_vertical|center_horizontal" android:layout_marginLeft="20dp" android:layout_marginRight="20dp"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:background="@drawable/orange_unpressed" android:layout_gravity="center_vertical|center_horizontal">
+
+                        <TextView
+                            android:id="@+id/TextView2"
+                            style="@style/normalTextVarying"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:paddingTop="10dp"
+                            android:text="JOIN"
+                            android:textColor="#ffffff" android:textSize="12dp"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_paper"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <LinearLayout
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/gradient_green"
+                                android:orientation="vertical" >
+
+                                <ImageView
+                                    android:id="@+id/imageView2"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_gravity="center"
+                                    android:scaleType="center"
+                                    android:src="@drawable/info_icon" />
+                            </LinearLayout>
+
+                            <co.map.social.prebeta.MyriadProText
+                                android:id="@+id/textView1"
+                                style="@style/normalTextVarying"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp"
+                                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor mi, varius vehicula vestibulum eu, ornare eget mi. Nullam vel commodo mi. Curabitur convallis interdum augue, vel sodales sapien dignissim sit amet. In metus sapien, commodo ut tincidunt sed, varius in diam. Etiam tempus, tortor sed tristique commodo, enim augue sagittis ipsum, non sollicitudin odio purus in nunc. Pellentesque vel neque quam, at sollicitudin diam. Praesent mattis, mauris congue sagittis porta, tellus urna commodo massa, ac lacinia ante mauris id lorem. Donec dapibus ligula sit amet elit pulvinar iaculis. Sed fringilla euismod risus, eu tincidunt mi aliquam in. Suspendisse a velit nibh, suscipit fringilla nibh. Aliquam non faucibus eros."
+                                android:textColor="#838282"
+                                android:textSize="12sp"
+                                mapsocial:varySizes="true" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/ribbon_featured" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_paper_bottom"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_paper_shadow_container"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_paper_shadow"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/bg_details"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_paper"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/soccer"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_paper_bottom"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_paper_shadow_container"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_paper_shadow"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_paper"
+                        android:orientation="vertical" >
+
+                        <co.map.social.prebeta.MyriadProText
+                            android:id="@+id/TextView01"
+                            style="@style/normalTextVarying"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="10dp"
+                            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor mi, varius vehicula vestibulum eu, ornare eget mi. Nullam vel commodo mi. Curabitur convallis interdum augue, vel sodales sapien dignissim sit amet. In metus sapien, commodo ut tincidunt sed, varius in diam. Etiam tempus, tortor sed tristique commodo, enim augue sagittis ipsum, non sollicitudin odio purus in nunc. Pellentesque vel neque quam, at sollicitudin diam. Praesent mattis, mauris congue sagittis porta, tellus urna commodo massa, ac lacinia ante mauris id lorem. Donec dapibus ligula sit amet elit pulvinar iaculis. Sed fringilla euismod risus, eu tincidunt mi aliquam in. Suspendisse a velit nibh, suscipit fringilla nibh. Aliquam non faucibus eros."
+                            android:textColor="#838282"
+                            android:textSize="12sp"
+                            mapsocial:varySizes="true" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_paper_bottom"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_paper_shadow_container"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_paper_shadow"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_paper"
+                        android:orientation="vertical" >
+
+                        <co.map.social.prebeta.BlockQuote
+                            android:id="@+id/TextView02"
+                            style="@style/normalTextVarying"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="10dp"
+                            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor mi, varius vehicula vestibulum eu, ornare eget mi. Nullam vel commodo mi. Curabitur convallis interdum augue, vel sodales sapien dignissim sit amet. In metus sapien, commodo ut tincidunt sed, varius in diam. Etiam tempus, tortor sed tristique commodo, enim augue sagittis ipsum, non sollicitudin odio purus in nunc. Pellentesque vel neque quam, at sollicitudin diam. Praesent mattis, mauris congue sagittis porta, tellus urna commodo massa, ac lacinia ante mauris id lorem. Donec dapibus ligula sit amet elit pulvinar iaculis. Sed fringilla euismod risus, eu tincidunt mi aliquam in. Suspendisse a velit nibh, suscipit fringilla nibh. Aliquam non faucibus eros."
+                            android:textColor="#838282"
+                            android:textSize="12sp"
+                            mapsocial:varySizes="false" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_paper_bottom"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_paper_shadow_container"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_paper_shadow"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

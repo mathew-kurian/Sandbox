@@ -1,0 +1,40 @@
+extends layout
+
+block content
+  body(style="overflow:hidden;")
+    div(style='bottom:0;width:100%;position:absolute;top:0;left:0;z-index:1;oveflow:hidden;top:35px;top:0;')
+        div(id='content-wrapper',style='height:100%;width:100%;overflow:auto;')
+            div(id='content', style='height:auto;width:100%;')
+              div(class='animator dialog',id='dialog-1',style='width:900px;height:auto;margin:0 auto;margin-top:100px;box-shadow: 0 3px 7px rgba(0,0,0,0.3);left:0;right:0;top:0;z-index:9901;border-radius:4px;overflow:hidden;margin-bottom:100px;')
+                div(class='border-box',style='width:100%;padding:20px;background:#18aeaa;')
+                  div(class='border-box', style='width:100%;font-size:15px; color:#FFF;font-size:15px;font-weight:700;text-align:center;width:100%;text-transform:uppercase;letter-spacing:1px;') How We Work?
+                div(class='border-box',style='width:100%;background:#FFF;padding: 20px;font-weight: 500;font-size: 17px;text-align: center;')
+                  .h1(style="color:#888;") Mus.ec is a cloud service where you can store all your music. So whether you are at the airport, the gym, or at a party, you have instant access to all your music. We provide 25GB of free storage for first time users. 
+                div(class='border-box',style='width:100%;background:#FFF;padding: 20px;')
+                  div(style='width:80%;display:inline-block;height:50px;position:relative;') 
+                    div(style='height:30px;width:30px;background:url(assets/images/1.png) center center no-repeat;background-size:100%;display:inline-block;position:absolute;top: 9px;')
+                    .h1(style='line-height:30px;color:#888;text-indent:45px;') Create an account on our homepage.
+                div(class='border-box',style='width:100%;background:#FFF;padding: 20px;')
+                  div(style='width:65%;display:inline-block;height:50px;position:relative;') 
+                    div(style='height:30px;width:30px;background:url(assets/images/2.png) center center no-repeat;background-size:100%;display:inline-block;position:absolute;top: 9px;')
+                    .h1(style='line-height:30px;color:#888;text-indent:45px;') Create a playlist by clicking on the top right button.
+                  div(style='width:35%;display:inline-block;height:100px;background:url(assets/images/screenshots/createplaylist.png) center center no-repeat;background-size:cover;border-radius:4px;box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);')
+                div(class='border-box',style='width:100%;background:#FFF;padding: 20px;')
+                  div(style='width:65%;display:inline-block;height:50px;position:relative;') 
+                    div(style='height:30px;width:30px;background:url(assets/images/3.png) center center no-repeat;background-size:100%;display:inline-block;position:absolute;top: 9px;')
+                    .h1(style='line-height:30px;color:#888;text-indent:45px;') Upload your songs by dragging and dropping them into the bottom left corner.
+                  div(style='width:35%;display:inline-block;height:185px;background:url(assets/images/screenshots/uploadbox.png) center center no-repeat;background-size:cover;border-radius:4px;box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);')
+                div(class='border-box',style='width:100%;background:#FFF;padding: 20px;')
+                  div(style='width:65%;display:inline-block;height:50px;position:relative;') 
+                    div(style='height:30px;width:30px;background:url(assets/images/4.png) center center no-repeat;background-size:100%;display:inline-block;position:absolute;top: 9px;')
+                    .h1(style='line-height:30px;color:#888;text-indent:45px;') Click on the top right notification button to watch the status of your song.
+                  div(style='width:35%;display:inline-block;height:185px;background:url(assets/images/screenshots/notifications.png) center center no-repeat;background-size:cover;border-radius:4px;box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);')
+                div(class='border-box',style='width:100%;background:#FFF;padding: 20px;')
+                  div(style='width:65%;display:inline-block;height:50px;position:relative;') 
+                    div(style='height:30px;width:30px;background:url(assets/images/5.png) center center no-repeat;background-size:100%;display:inline-block;position:absolute;top: 9px;')
+                    .h1(style='line-height:30px;color:#888;text-indent:45px;') For a special feature, click on the bottom left dropzone!
+                  div(style='width:35%;display:inline-block;height:185px;background:url(assets/images/screenshots/youtube.png) center center no-repeat;background-size:cover;border-radius:4px;box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);')
+                div(class='border-box',style='width:100%;background:#FFF;padding: 20px;position:relative;')
+                    .h1(style='line-height:20px;color:#888;text-indent:45px;text-align:center;') We had not planned on doing mobile synchronization during our MVP as indicated by our contract, however this is a feature that many students want us to implement. So in the summer, you will be able to select which devices you want to sync the content and our native mobile and desktop applications will do smart caching on your devices so that your music is always on the go - even if you have no internet access!
+
+

@@ -1,0 +1,867 @@
+2:27:24 AM:::[mus.ec]Created pipe console.ELIXIR
+2:28:11 AM:::[mus.ec]Created pipe console.ELIXIR
+2:29:32 AM:::[mus.ec]Created pipe console.ELIXIR
+2:41:57 AM:::[mus.ec]Created pipe console.ELIXIR
+2:41:59 AM:::[mus.ec]Created pipe console.ELIXIR
+2:42:00 AM:::[mus.ec]Created pipe console.ELIXIR
+2:42:02 AM:::[mus.ec]Created pipe console.ELIXIR
+2:42:04 AM:::[mus.ec]Created pipe console.ELIXIR
+2:42:06 AM:::[mus.ec]Created pipe console.ELIXIR
+2:42:21 AM:::[mus.ec]Created pipe console.ELIXIR
+2:43:11 AM:::[71.42.217.194][Elixir/core] Requested state - hd-dashboard
+2:43:12 AM:::[71.42.217.194][Elixir/core] State request complete.
+2:43:12 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+2:43:12 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+2:43:12 AM:::[71.42.217.194][Elixir/core] Create hd-dashboard
+2:43:12 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+2:43:12 AM:::[71.42.217.194][Elixir/core] State changed to hd-dashboard
+2:46:08 AM:::[71.42.217.194][Elixir/core] Requested state - hd/dashboard
+2:46:09 AM:::[71.42.217.194][Elixir/core] State request complete.
+2:46:09 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+2:46:09 AM:::[71.42.217.194][Elixir/core] Create hd/dashboard
+2:46:11 AM:::[71.42.217.194][Elixir/core] TypeError: $.lib is not a function
+2:46:11 AM:::[71.42.217.194]Detected error
+2:46:11 AM:::[71.42.217.194][Elixir/core] State changed to hd/dashboard
+2:46:11 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+2:46:11 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+2:49:18 AM:::[71.42.217.194][Elixir/core] Requested state - hd/dashboard
+2:49:19 AM:::[71.42.217.194][Elixir/core] State request complete.
+2:49:19 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+2:49:19 AM:::[71.42.217.194][Elixir/core] Create hd/dashboard
+2:49:19 AM:::[71.42.217.194][Elixir/core] TypeError: $.lib is not a function
+2:49:19 AM:::[71.42.217.194]Detected error
+2:49:19 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+2:49:19 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+2:49:19 AM:::[71.42.217.194][Elixir/core] State changed to hd/dashboard
+3:01:01 AM:::[71.42.217.194][Elixir/core] Requested state - hd/dashboard
+3:01:02 AM:::[71.42.217.194][Elixir/core] State request complete.
+3:01:02 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+3:01:02 AM:::[71.42.217.194][Elixir/core] Create hd/dashboard
+3:01:02 AM:::[71.42.217.194][Elixir/core] TypeError: this.views is undefined
+3:01:02 AM:::[71.42.217.194]Detected error
+3:01:02 AM:::[71.42.217.194][Elixir/core] State changed to hd/dashboard
+3:01:02 AM:::[71.42.217.194][Elixir/core] TypeError: this.views is undefined
+3:01:02 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+3:01:02 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+3:01:34 AM:::[71.42.217.194][Elixir/core] Requested state - hd/dashboard
+3:01:34 AM:::[71.42.217.194][Elixir/core] State request complete.
+3:01:34 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+3:01:34 AM:::[71.42.217.194][Elixir/core] Create hd/dashboard
+3:01:35 AM:::[71.42.217.194][Elixir/core] TypeError: $.lib is not a function
+3:01:35 AM:::[71.42.217.194]Detected error
+3:01:35 AM:::[71.42.217.194][Elixir/core] TypeError: this.views.update.playlist is not a function
+3:01:35 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+3:01:35 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+3:01:35 AM:::[71.42.217.194][Elixir/core] State changed to hd/dashboard
+3:02:26 AM:::[71.42.217.194][Elixir/core] Requested state - hd/dashboard
+3:02:26 AM:::[71.42.217.194][Elixir/core] State request complete.
+3:02:26 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+3:02:26 AM:::[71.42.217.194][Elixir/core] Create hd/dashboard
+3:02:27 AM:::[71.42.217.194][Elixir/core] TypeError: $.lib is not a function
+3:02:27 AM:::[71.42.217.194]Detected error
+3:02:27 AM:::[71.42.217.194][Elixir/core] TypeError: this.views.update.playlist is not a function
+3:02:27 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+3:02:27 AM:::[71.42.217.194][Elixir/core] State changed to hd/dashboard
+3:02:27 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+3:13:32 AM:::[mus.ec]Created pipe console.ELIXIR
+3:28:27 AM:::[71.42.217.194][Elixir/core] Requested state - hd/dashboard
+3:28:27 AM:::[71.42.217.194][Elixir/core] State request complete.
+3:28:27 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+3:28:27 AM:::[71.42.217.194]Detected error
+3:28:27 AM:::[71.42.217.194][Elixir/core] Create hd/dashboard
+3:28:27 AM:::[71.42.217.194][Elixir/core] TypeError: handle.position(...) is undefined
+3:28:27 AM:::[71.42.217.194][Elixir/core] TypeError: handle.position(...) is undefined
+3:28:27 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+3:28:27 AM:::[71.42.217.194][Elixir/core] State changed to hd/dashboard
+3:28:27 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+3:28:30 AM:::[71.42.217.194][Elixir/core] Requested state - hd/dashboard
+3:28:31 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+3:28:31 AM:::[71.42.217.194][Elixir/core] TypeError: handle.position(...) is undefined
+3:28:31 AM:::[71.42.217.194][Elixir/core] State request complete.
+3:28:31 AM:::[71.42.217.194][Elixir/core] TypeError: handle.position(...) is undefined
+3:28:31 AM:::[71.42.217.194][Elixir/core] Create hd/dashboard
+3:28:31 AM:::[71.42.217.194]Detected error
+3:28:31 AM:::[71.42.217.194][Elixir/core] State changed to hd/dashboard
+3:28:31 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+3:28:31 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+3:28:32 AM:::[71.42.217.194][Elixir/core] TypeError: handle.position(...) is undefined
+3:31:12 AM:::[71.42.217.194][Elixir/core] Requested state - hd/dashboard
+3:31:12 AM:::[71.42.217.194][Elixir/core] State request complete.
+3:31:12 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+3:31:12 AM:::[71.42.217.194][Elixir/core] Create hd/dashboard
+3:31:14 AM:::[71.42.217.194]Detected error
+3:31:14 AM:::[71.42.217.194][Elixir/core] TypeError: $(...).removeClass(...).addClass(...).transform3d is not a function
+3:31:14 AM:::[71.42.217.194][Elixir/core] State changed to hd/dashboard
+3:31:14 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+3:31:14 AM:::[71.42.217.194][Elixir/core] TypeError: self.views.update.playlist is not a function
+3:31:14 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+3:31:26 AM:::[71.42.217.194][Elixir/core] TypeError: self.views.update.playlist is not a function
+3:31:26 AM:::[71.42.217.194][Elixir/core] TypeError: self.views.update.playlist is not a function
+3:31:26 AM:::[71.42.217.194][Elixir/core] TypeError: self.views.update.playlist is not a function
+3:31:27 AM:::[71.42.217.194][Elixir/core] TypeError: self.views.update.playlist is not a function
+3:31:27 AM:::[71.42.217.194][Elixir/core] TypeError: self.views.update.playlist is not a function
+3:31:27 AM:::[71.42.217.194][Elixir/core] TypeError: self.views.update.playlist is not a function
+3:31:27 AM:::[71.42.217.194][Elixir/core] TypeError: self.views.update.playlist is not a function
+3:31:28 AM:::[71.42.217.194][Elixir/core] TypeError: self.views.update.playlist is not a function
+3:32:53 AM:::[71.42.217.194][Elixir/core] Requested state - hd/dashboard
+3:32:53 AM:::[71.42.217.194][Elixir/core] State request complete.
+3:32:53 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+3:32:53 AM:::[71.42.217.194][Elixir/core] Create hd/dashboard
+3:32:54 AM:::[71.42.217.194][Elixir/core] TypeError: self.views.update.tiling is not a function
+3:32:54 AM:::[71.42.217.194]Detected error
+3:32:54 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+3:32:54 AM:::[71.42.217.194][Elixir/core] State changed to hd/dashboard
+3:32:54 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+3:33:14 AM:::[71.42.217.194][Elixir/core] Requested state - hd/dashboard
+3:33:15 AM:::[71.42.217.194][Elixir/core] State request complete.
+3:33:15 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+3:33:15 AM:::[71.42.217.194][Elixir/core] Create hd/dashboard
+3:33:16 AM:::[71.42.217.194][Elixir/core] TypeError: $(...).removeClass(...).addClass(...).transform3d is not a function
+3:33:16 AM:::[71.42.217.194]Detected error
+3:33:16 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+3:33:16 AM:::[71.42.217.194][Elixir/core] State changed to hd/dashboard
+3:33:16 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+3:35:22 AM:::[mus.ec]Created pipe console.ELIXIR
+3:36:03 AM:::[mus.ec]Created pipe console.ELIXIR
+3:36:20 AM:::[mus.ec]Created pipe console.ELIXIR
+3:36:34 AM:::[mus.ec]Created pipe console.ELIXIR
+3:36:43 AM:::[mus.ec]Created pipe console.ELIXIR
+3:36:49 AM:::[71.42.217.194][Elixir/core] Requested state - hd/dashboard
+3:36:49 AM:::[71.42.217.194][Elixir/core] State request complete.
+3:36:49 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+3:36:49 AM:::[71.42.217.194][Elixir/core] Create hd/dashboard
+3:36:50 AM:::[71.42.217.194][Elixir/core] TypeError: $(...).removeClass(...).addClass(...).transform3d is not a function
+3:36:50 AM:::[71.42.217.194]Detected error
+3:36:50 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+3:36:50 AM:::[71.42.217.194][Elixir/core] State changed to hd/dashboard
+3:36:50 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+3:37:15 AM:::[mus.ec]Created pipe console.ELIXIR
+3:37:17 AM:::[71.42.217.194][Elixir/core] Requested state - hd/dashboard
+3:37:18 AM:::[71.42.217.194][Elixir/core] State request complete.
+3:37:18 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+3:37:18 AM:::[71.42.217.194][Elixir/core] Create hd/dashboard
+3:37:19 AM:::[71.42.217.194][Elixir/core] TypeError: $(...).removeClass(...).addClass(...).transform3d is not a function
+3:37:19 AM:::[71.42.217.194]Detected error
+3:37:19 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+3:37:19 AM:::[71.42.217.194][Elixir/core] State changed to hd/dashboard
+3:37:19 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+3:38:01 AM:::[mus.ec]Created pipe console.ELIXIR
+3:39:25 AM:::[71.42.217.194][Elixir/core] Requested state - hd/dashboard
+3:39:26 AM:::[71.42.217.194][Elixir/core] State request complete.
+3:39:26 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+3:39:26 AM:::[71.42.217.194][Elixir/core] Create hd/dashboard
+3:39:27 AM:::[71.42.217.194][Elixir/core] TypeError: $(...).removeClass(...).addClass(...).transform3d is not a function
+3:39:27 AM:::[71.42.217.194]Detected error
+3:39:27 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+3:39:27 AM:::[71.42.217.194][Elixir/core] State changed to hd/dashboard
+3:39:27 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+3:41:08 AM:::[71.42.217.194][Elixir/core] Requested state - hd/dashboard
+3:41:08 AM:::[71.42.217.194][Elixir/core] State request complete.
+3:41:08 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+3:41:08 AM:::[71.42.217.194][Elixir/core] Create hd/dashboard
+3:41:08 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+3:41:08 AM:::[71.42.217.194][Elixir/core] State changed to hd/dashboard
+3:41:08 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+3:42:48 AM:::[mus.ec]Created pipe console.ELIXIR
+4:05:09 AM:::[mus.ec]Created pipe console.ELIXIR
+4:08:21 AM:::[mus.ec]Created pipe console.ELIXIR
+4:08:38 AM:::[mus.ec]Created pipe console.ELIXIR
+4:09:20 AM:::[mus.ec]Created pipe console.ELIXIR
+4:09:22 AM:::[mus.ec]Created pipe console.ELIXIR
+4:09:44 AM:::[mus.ec]Created pipe console.ELIXIR
+4:09:49 AM:::[mus.ec]Created pipe console.ELIXIR
+4:10:02 AM:::[mus.ec]Created pipe console.ELIXIR
+4:10:51 AM:::[mus.ec]Created pipe console.ELIXIR
+4:10:56 AM:::[mus.ec]Created pipe console.ELIXIR
+4:11:09 AM:::[mus.ec]Created pipe console.ELIXIR
+4:11:23 AM:::[mus.ec]Created pipe console.ELIXIR
+4:12:51 AM:::[mus.ec]Created pipe console.ELIXIR
+4:20:33 AM:::[mus.ec]Created pipe console.ELIXIR
+4:22:14 AM:::[mus.ec]Created pipe console.ELIXIR
+4:22:22 AM:::[mus.ec]Created pipe console.ELIXIR
+4:22:43 AM:::[mus.ec]Created pipe console.ELIXIR
+4:22:46 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+4:22:46 AM:::[71.42.217.194][Core] State request complete.
+4:22:46 AM:::[71.42.217.194][Core] State downloaded successfully.
+4:22:46 AM:::[71.42.217.194][Core] Create hd/dashboard
+4:22:46 AM:::[71.42.217.194][Core] Propgating resize event
+4:22:46 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+4:22:46 AM:::[71.42.217.194][Core] Propgating update event.
+4:23:02 AM:::[mus.ec]Created pipe console.ELIXIR
+4:23:09 AM:::[mus.ec]Created pipe console.ELIXIR
+4:23:12 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+4:23:13 AM:::[71.42.217.194][Core] State request complete.
+4:23:13 AM:::[71.42.217.194][Core] State downloaded successfully.
+4:23:13 AM:::[71.42.217.194][Core] Create hd/dashboard
+4:23:13 AM:::[71.42.217.194][Core] Propgating resize event
+4:23:13 AM:::[71.42.217.194][Core] Propgating update event.
+4:23:13 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+4:23:43 AM:::[mus.ec]Created pipe console.ELIXIR
+4:23:48 AM:::[mus.ec]Created pipe console.ELIXIR
+4:23:58 AM:::[mus.ec]Created pipe console.ELIXIR
+4:24:10 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+4:24:11 AM:::[71.42.217.194][Core] State request complete.
+4:24:11 AM:::[71.42.217.194][Core] State downloaded successfully.
+4:24:11 AM:::[71.42.217.194][Core] Create hd/dashboard
+4:24:11 AM:::[71.42.217.194][Core] Propgating resize event
+4:24:11 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+4:24:11 AM:::[71.42.217.194][Core] Propgating update event.
+4:26:16 AM:::[mus.ec]Created pipe console.ELIXIR
+4:26:19 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+4:26:19 AM:::[71.42.217.194][Core] State request complete.
+4:26:20 AM:::[71.42.217.194][Core] State downloaded successfully.
+4:26:20 AM:::[71.42.217.194][Core] Create hd/dashboard
+4:26:20 AM:::[71.42.217.194][Core] Propgating resize event
+4:26:20 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+4:26:20 AM:::[71.42.217.194][Core] Propgating update event.
+4:26:40 AM:::[mus.ec]Created pipe console.ELIXIR
+4:26:51 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+4:26:52 AM:::[71.42.217.194][Core] State request complete.
+4:26:52 AM:::[71.42.217.194][Core] State downloaded successfully.
+4:26:52 AM:::[71.42.217.194][Core] Create hd/dashboard
+4:26:52 AM:::[71.42.217.194][Core] Propgating resize event
+4:26:52 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+4:26:52 AM:::[71.42.217.194][Core] Propgating update event.
+4:27:57 AM:::[mus.ec]Created pipe console.ELIXIR
+4:28:00 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+4:28:00 AM:::[71.42.217.194][Core] State request complete.
+4:28:00 AM:::[71.42.217.194][Core] State downloaded successfully.
+4:28:00 AM:::[71.42.217.194][Core] Create hd/dashboard
+4:28:01 AM:::[71.42.217.194][Core] Propgating resize event
+4:28:01 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+4:28:01 AM:::[71.42.217.194][Core] Propgating update event.
+4:28:08 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+4:28:09 AM:::[71.42.217.194][Core] State request complete.
+4:28:09 AM:::[71.42.217.194][Core] State downloaded successfully.
+4:28:09 AM:::[71.42.217.194][Core] Create hd/dashboard
+4:28:09 AM:::[71.42.217.194][Core] Propgating resize event
+4:28:09 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+4:28:09 AM:::[71.42.217.194][Core] Propgating update event.
+4:28:12 AM:::[71.42.217.194]undefined
+4:28:27 AM:::[mus.ec]Created pipe console.ELIXIR
+4:28:33 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+4:28:34 AM:::[71.42.217.194][Core] State request complete.
+4:28:34 AM:::[71.42.217.194][Core] State downloaded successfully.
+4:28:34 AM:::[71.42.217.194][Core] Create hd/dashboard
+4:28:34 AM:::[71.42.217.194][Core] Propgating resize event
+4:28:34 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+4:28:34 AM:::[71.42.217.194][Core] Propgating update event.
+4:38:38 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+4:38:39 AM:::[71.42.217.194][Core] State request complete.
+4:38:39 AM:::[71.42.217.194][Core] State downloaded successfully.
+4:38:39 AM:::[71.42.217.194][Core] Create hd/dashboard
+4:38:39 AM:::[71.42.217.194][Core] Propgating resize event
+4:38:39 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+4:38:39 AM:::[71.42.217.194][Core] Propgating update event.
+4:39:37 AM:::[mus.ec]Created pipe console.ELIXIR
+4:39:43 AM:::[mus.ec]Created pipe console.ELIXIR
+4:39:49 AM:::[mus.ec]Created pipe console.ELIXIR
+4:39:58 AM:::[mus.ec]Created pipe console.ELIXIR
+4:40:50 AM:::[mus.ec]Created pipe console.ELIXIR
+4:42:13 AM:::[mus.ec]Created pipe console.ELIXIR
+4:42:25 AM:::[mus.ec]Created pipe console.ELIXIR
+4:42:52 AM:::[mus.ec]Created pipe console.ELIXIR
+4:44:22 AM:::[mus.ec]Created pipe console.ELIXIR
+4:57:54 AM:::[mus.ec]Created pipe console.ELIXIR
+4:58:23 AM:::[mus.ec]Created pipe console.ELIXIR
+4:58:33 AM:::[mus.ec]Created pipe console.ELIXIR
+4:59:12 AM:::[mus.ec]Created pipe console.ELIXIR
+4:59:18 AM:::[mus.ec]Created pipe console.ELIXIR
+4:59:27 AM:::[mus.ec]Created pipe console.ELIXIR
+5:00:21 AM:::[mus.ec]Created pipe console.ELIXIR
+5:08:02 AM:::[mus.ec]Created pipe console.ELIXIR
+5:08:11 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:08:11 AM:::[71.42.217.194][Core] State request complete.
+5:08:12 AM:::[71.42.217.194][Core] State downloaded successfully.
+5:08:12 AM:::[71.42.217.194][Core] Create hd/dashboard
+5:08:12 AM:::[71.42.217.194][Core] Propgating resize event
+5:08:12 AM:::[71.42.217.194][Core] Propgating update event.
+5:08:12 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+5:09:27 AM:::[mus.ec]Created pipe console.ELIXIR
+5:09:43 AM:::[mus.ec]Created pipe console.ELIXIR
+5:10:05 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:10:06 AM:::[71.42.217.194][Core] State request complete.
+5:10:06 AM:::[71.42.217.194][Core] State downloaded successfully.
+5:10:06 AM:::[71.42.217.194][Core] Create hd/dashboard
+5:10:06 AM:::[71.42.217.194][Core] Propgating resize event
+5:10:06 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+5:10:06 AM:::[71.42.217.194][Core] Propgating update event.
+5:17:04 AM:::[mus.ec]Created pipe console.ELIXIR
+5:18:02 AM:::[mus.ec]Created pipe console.ELIXIR
+5:28:01 AM:::[mus.ec]Created pipe console.ELIXIR
+5:28:29 AM:::[mus.ec]Created pipe console.ELIXIR
+5:28:30 AM:::[mus.ec]Created pipe console.ELIXIR
+5:28:41 AM:::[mus.ec]Created pipe console.ELIXIR
+5:28:44 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:28:45 AM:::[71.42.217.194][Core] State request complete.
+5:28:49 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:28:50 AM:::[71.42.217.194][Core] State request complete.
+5:29:00 AM:::[mus.ec]Created pipe console.ELIXIR
+5:29:03 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:29:04 AM:::[71.42.217.194][Core] State request complete.
+5:29:44 AM:::[mus.ec]Created pipe console.ELIXIR
+5:29:44 AM:::[mus.ec]Created pipe console.ELIXIR
+5:29:47 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:29:48 AM:::[71.42.217.194][Core] State request complete.
+5:30:22 AM:::[mus.ec]Created pipe console.ELIXIR
+5:30:29 AM:::[mus.ec]Created pipe console.ELIXIR
+5:30:36 AM:::[mus.ec]Created pipe console.ELIXIR
+5:30:37 AM:::[mus.ec]Created pipe console.ELIXIR
+5:30:39 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:30:40 AM:::[71.42.217.194][Core] State request complete.
+5:30:40 AM:::[71.42.217.194][Core] State downloaded successfully.
+5:30:40 AM:::[71.42.217.194][Core] Create hd/dashboard
+5:30:40 AM:::[71.42.217.194][Core] TypeError: $ is not a function
+5:30:40 AM:::[71.42.217.194]Detected error
+5:30:40 AM:::[71.42.217.194][Core] TypeError: handle is undefined
+5:30:40 AM:::[71.42.217.194][Core] Propgating resize event
+5:30:40 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+5:30:40 AM:::[71.42.217.194][Core] Propgating update event.
+5:30:49 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:30:49 AM:::[71.42.217.194][Core] State request complete.
+5:30:49 AM:::[71.42.217.194][Core] State downloaded successfully.
+5:30:49 AM:::[71.42.217.194]Detected error
+5:30:49 AM:::[71.42.217.194][Core] Create hd/dashboard
+5:30:49 AM:::[71.42.217.194][Core] TypeError: $ is not a function
+5:30:49 AM:::[71.42.217.194][Core] TypeError: handle is undefined
+5:30:49 AM:::[71.42.217.194][Core] Propgating resize event
+5:30:49 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+5:30:49 AM:::[71.42.217.194][Core] Propgating update event.
+5:31:06 AM:::[mus.ec]Created pipe console.ELIXIR
+5:31:08 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:31:09 AM:::[71.42.217.194][Core] State request complete.
+5:33:33 AM:::[mus.ec]Created pipe console.ELIXIR
+5:33:49 AM:::[mus.ec]Created pipe console.ELIXIR
+5:33:50 AM:::[mus.ec]Created pipe console.ELIXIR
+5:33:52 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:33:53 AM:::[71.42.217.194][Core] State request complete.
+5:34:35 AM:::[mus.ec]Created pipe console.ELIXIR
+5:34:37 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:34:38 AM:::[71.42.217.194][Core] State request complete.
+5:35:19 AM:::[mus.ec]Created pipe console.ELIXIR
+5:35:24 AM:::[mus.ec]Created pipe console.ELIXIR
+5:35:27 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:35:27 AM:::[71.42.217.194][Core] State request complete.
+5:35:35 AM:::[mus.ec]Created pipe console.ELIXIR
+5:35:36 AM:::[mus.ec]Created pipe console.ELIXIR
+5:35:57 AM:::[mus.ec]Created pipe console.ELIXIR
+5:35:58 AM:::[mus.ec]Created pipe console.ELIXIR
+5:36:08 AM:::[mus.ec]Created pipe console.ELIXIR
+5:36:09 AM:::[mus.ec]Created pipe console.ELIXIR
+5:36:11 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:36:12 AM:::[71.42.217.194][Core] State request complete.
+5:37:08 AM:::[mus.ec]Created pipe console.ELIXIR
+5:37:09 AM:::[mus.ec]Created pipe console.ELIXIR
+5:37:54 AM:::[mus.ec]Created pipe console.ELIXIR
+5:38:05 AM:::[mus.ec]Created pipe console.ELIXIR
+5:38:06 AM:::[mus.ec]Created pipe console.ELIXIR
+5:38:31 AM:::[mus.ec]Created pipe console.ELIXIR
+5:38:33 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:38:34 AM:::[71.42.217.194][Core] State request complete.
+5:38:46 AM:::[mus.ec]Created pipe console.ELIXIR
+5:38:49 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:38:49 AM:::[71.42.217.194][Core] State request complete.
+5:40:20 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:40:21 AM:::[71.42.217.194][Core] State request complete.
+5:40:21 AM:::[71.42.217.194][Core] State downloaded successfully.
+5:40:21 AM:::[71.42.217.194][Core] Create hd/dashboard
+5:40:21 AM:::[71.42.217.194][Core] Propgating resize event
+5:40:21 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+5:40:21 AM:::[71.42.217.194][Core] Propgating update event.
+5:40:32 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:40:32 AM:::[71.42.217.194][Core] State request complete.
+5:40:58 AM:::[mus.ec]Created pipe console.ELIXIR
+5:41:11 AM:::[mus.ec]Created pipe console.ELIXIR
+5:41:14 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:41:14 AM:::[71.42.217.194][Core] State request complete.
+5:41:38 AM:::[mus.ec]Created pipe console.ELIXIR
+5:41:41 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:41:41 AM:::[71.42.217.194][Core] State request complete.
+5:41:41 AM:::[71.42.217.194][Core] State downloaded successfully.
+5:41:41 AM:::[71.42.217.194][Core] Create hd/dashboard
+5:41:42 AM:::[71.42.217.194][Core] Propgating resize event
+5:41:42 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+5:41:42 AM:::[71.42.217.194][Core] Propgating update event.
+5:42:10 AM:::[mus.ec]Created pipe console.ELIXIR
+5:42:18 AM:::[mus.ec]Created pipe console.ELIXIR
+5:42:21 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:42:21 AM:::[71.42.217.194][Core] State request complete.
+5:42:21 AM:::[71.42.217.194][Core] State downloaded successfully.
+5:42:21 AM:::[71.42.217.194][Core] Create hd/dashboard
+5:42:21 AM:::[71.42.217.194][Core] Propgating resize event
+5:42:21 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+5:42:21 AM:::[71.42.217.194][Core] Propgating update event.
+5:42:48 AM:::[mus.ec]Created pipe console.ELIXIR
+5:42:50 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:42:51 AM:::[71.42.217.194][Core] State request complete.
+5:42:51 AM:::[71.42.217.194][Core] State downloaded successfully.
+5:42:51 AM:::[71.42.217.194][Core] Create hd/dashboard
+5:42:51 AM:::[71.42.217.194][Core] Propgating resize event
+5:42:51 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+5:42:51 AM:::[71.42.217.194][Core] Propgating update event.
+5:43:04 AM:::[mus.ec]Created pipe console.ELIXIR
+5:43:06 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:43:07 AM:::[71.42.217.194][Core] State request complete.
+5:43:07 AM:::[71.42.217.194][Core] State downloaded successfully.
+5:43:07 AM:::[71.42.217.194][Core] Create hd/dashboard
+5:43:07 AM:::[71.42.217.194][Core] Propgating resize event
+5:43:07 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+5:43:07 AM:::[71.42.217.194][Core] Propgating update event.
+5:43:52 AM:::[mus.ec]Created pipe console.ELIXIR
+5:43:55 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:43:55 AM:::[71.42.217.194][Core] State request complete.
+5:43:55 AM:::[71.42.217.194][Core] State downloaded successfully.
+5:43:55 AM:::[71.42.217.194][Core] Create hd/dashboard
+5:43:56 AM:::[71.42.217.194][Core] Propgating resize event
+5:43:56 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+5:43:56 AM:::[71.42.217.194][Core] Propgating update event.
+5:44:15 AM:::[mus.ec]Created pipe console.ELIXIR
+5:44:18 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:44:19 AM:::[71.42.217.194][Core] State request complete.
+5:44:19 AM:::[71.42.217.194][Core] State downloaded successfully.
+5:44:19 AM:::[71.42.217.194][Core] Create hd/dashboard
+5:44:19 AM:::[71.42.217.194][Core] Propgating resize event
+5:44:19 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+5:44:19 AM:::[71.42.217.194][Core] Propgating update event.
+5:44:53 AM:::[mus.ec]Created pipe console.ELIXIR
+5:44:57 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:44:58 AM:::[71.42.217.194][Core] State request complete.
+5:44:58 AM:::[71.42.217.194][Core] State downloaded successfully.
+5:44:58 AM:::[71.42.217.194][Core] Create hd/dashboard
+5:44:58 AM:::[71.42.217.194][Core] Propgating resize event
+5:44:58 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+5:44:58 AM:::[71.42.217.194][Core] Propgating update event.
+5:50:07 AM:::[mus.ec]Created pipe console.ELIXIR
+5:50:10 AM:::[mus.ec]Created pipe console.ELIXIR
+5:50:11 AM:::[mus.ec]Created pipe console.ELIXIR
+5:50:13 AM:::[mus.ec]Created pipe console.ELIXIR
+5:50:14 AM:::[mus.ec]Created pipe console.ELIXIR
+5:50:17 AM:::[mus.ec]Created pipe console.ELIXIR
+5:50:20 AM:::[mus.ec]Created pipe console.ELIXIR
+5:50:26 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:50:27 AM:::[71.42.217.194][Core] State request complete.
+5:50:27 AM:::[71.42.217.194][Core] State downloaded successfully.
+5:50:27 AM:::[71.42.217.194][Core] State request complete.
+5:50:27 AM:::[71.42.217.194][Core] State downloaded error dectected.
+5:50:30 AM:::[71.42.217.194][Core][Loadstatesequence] Server: Unable to read file data
+5:50:40 AM:::[mus.ec]Created pipe console.ELIXIR
+5:50:58 AM:::[mus.ec]Created pipe console.ELIXIR
+5:51:13 AM:::[mus.ec]Created pipe console.ELIXIR
+5:51:16 AM:::[mus.ec]Created pipe console.ELIXIR
+5:51:19 AM:::[mus.ec]Created pipe console.ELIXIR
+5:51:26 AM:::[mus.ec]Created pipe console.ELIXIR
+5:51:33 AM:::[mus.ec]Created pipe console.ELIXIR
+5:51:51 AM:::[mus.ec]Created pipe console.ELIXIR
+5:52:03 AM:::[mus.ec]Created pipe console.ELIXIR
+5:52:15 AM:::[mus.ec]Created pipe console.ELIXIR
+5:53:01 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:53:09 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:53:14 AM:::[71.42.217.194][Core] State request complete.
+5:53:14 AM:::[71.42.217.194][Core] State downloaded successfully.
+5:53:15 AM:::[71.42.217.194][Core] State request complete.
+5:53:15 AM:::[71.42.217.194][Core] State downloaded error dectected.
+5:53:18 AM:::[71.42.217.194][Core][Loadstatesequence] Server: Unable to read file data
+5:53:36 AM:::[mus.ec]Created pipe console.ELIXIR
+5:53:49 AM:::[mus.ec]Created pipe console.ELIXIR
+5:53:57 AM:::[mus.ec]Created pipe console.ELIXIR
+5:54:35 AM:::[mus.ec]Created pipe console.ELIXIR
+5:54:42 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:54:43 AM:::[71.42.217.194][Core] State request complete.
+5:54:43 AM:::[71.42.217.194][Core] State downloaded successfully.
+5:54:43 AM:::[71.42.217.194][Core] State request complete.
+5:54:43 AM:::[71.42.217.194][Core] State downloaded error dectected.
+5:54:45 AM:::[71.42.217.194][Core][Loadstatesequence] Server: Unable to read file data
+5:55:54 AM:::[mus.ec]Created pipe console.ELIXIR
+5:55:59 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:56:00 AM:::[71.42.217.194][Core] State request complete.
+5:56:00 AM:::[71.42.217.194][Core] State downloaded successfully.
+5:56:00 AM:::[71.42.217.194][Core] State request complete.
+5:56:00 AM:::[71.42.217.194][Core] Create hd/empty
+5:56:00 AM:::[71.42.217.194][Core] State downloaded successfully.
+5:56:00 AM:::[71.42.217.194][Core] Create hd/dashboard
+5:56:00 AM:::[71.42.217.194][Core] Propgating resize event
+5:56:00 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+5:56:00 AM:::[71.42.217.194][Core] Propgating update event.
+5:56:23 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+5:56:24 AM:::[71.42.217.194][Core] State request complete.
+5:56:24 AM:::[71.42.217.194][Core] State downloaded successfully.
+5:56:24 AM:::[71.42.217.194][Core] State request complete.
+5:56:24 AM:::[71.42.217.194][Core] State downloaded successfully.
+5:56:24 AM:::[71.42.217.194][Core] Create hd/empty
+5:56:24 AM:::[71.42.217.194][Core] Create hd/dashboard
+5:56:24 AM:::[71.42.217.194][Core] Propgating resize event
+5:56:24 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+5:56:24 AM:::[71.42.217.194][Core] Propgating update event.
+5:57:28 AM:::[mus.ec]Created pipe console.ELIXIR
+6:29:32 AM:::[mus.ec]Created pipe console.ELIXIR
+6:29:33 AM:::[mus.ec]Created pipe console.ELIXIR
+6:29:35 AM:::[mus.ec]Created pipe console.ELIXIR
+6:29:36 AM:::[mus.ec]Created pipe console.ELIXIR
+6:30:02 AM:::[mus.ec]Created pipe console.ELIXIR
+6:30:03 AM:::[mus.ec]Created pipe console.ELIXIR
+6:30:20 AM:::[mus.ec]Created pipe console.ELIXIR
+6:30:40 AM:::[mus.ec]Created pipe console.ELIXIR
+6:30:41 AM:::[mus.ec]Created pipe console.ELIXIR
+6:31:17 AM:::[mus.ec]Created pipe console.ELIXIR
+6:31:23 AM:::[mus.ec]Created pipe console.ELIXIR
+6:33:20 AM:::[mus.ec]Created pipe console.ELIXIR
+6:40:16 AM:::[mus.ec]Created pipe console.ELIXIR
+6:41:15 AM:::[mus.ec]Created pipe console.ELIXIR
+6:41:16 AM:::[mus.ec]Created pipe console.ELIXIR
+6:41:18 AM:::[mus.ec]Created pipe console.ELIXIR
+6:41:30 AM:::[mus.ec]Created pipe console.ELIXIR
+6:41:33 AM:::[mus.ec]Created pipe console.ELIXIR
+6:41:49 AM:::[mus.ec]Created pipe console.ELIXIR
+6:42:16 AM:::[mus.ec]Created pipe console.ELIXIR
+6:42:18 AM:::[mus.ec]Created pipe console.ELIXIR
+6:42:20 AM:::[mus.ec]Created pipe console.ELIXIR
+6:42:33 AM:::[mus.ec]Created pipe console.ELIXIR
+6:50:59 AM:::[mus.ec]Created pipe console.ELIXIR
+6:51:02 AM:::[mus.ec]Created pipe console.ELIXIR
+6:51:07 AM:::[mus.ec]Created pipe console.ELIXIR
+6:51:10 AM:::[mus.ec]Created pipe console.ELIXIR
+6:51:43 AM:::[mus.ec]Created pipe console.ELIXIR
+6:52:18 AM:::[mus.ec]Created pipe console.ELIXIR
+6:52:19 AM:::[mus.ec]Created pipe console.ELIXIR
+6:53:14 AM:::[mus.ec]Created pipe console.ELIXIR
+6:53:30 AM:::[mus.ec]Created pipe console.ELIXIR
+6:53:41 AM:::[mus.ec]Created pipe console.ELIXIR
+6:55:11 AM:::[mus.ec]Created pipe console.ELIXIR
+6:56:54 AM:::[mus.ec]Created pipe console.ELIXIR
+6:57:06 AM:::[mus.ec]Created pipe console.ELIXIR
+6:58:17 AM:::[mus.ec]Created pipe console.ELIXIR
+6:58:20 AM:::[mus.ec]Created pipe console.ELIXIR
+6:58:58 AM:::[mus.ec]Created pipe console.ELIXIR
+6:59:08 AM:::[mus.ec]Created pipe console.ELIXIR
+7:01:02 AM:::[mus.ec]Created pipe console.ELIXIR
+7:01:03 AM:::[mus.ec]Created pipe console.ELIXIR
+7:01:25 AM:::[mus.ec]Created pipe console.ELIXIR
+7:02:24 AM:::[mus.ec]Created pipe console.ELIXIR
+7:02:25 AM:::[mus.ec]Created pipe console.ELIXIR
+7:03:02 AM:::[mus.ec]Created pipe console.ELIXIR
+7:03:52 AM:::[mus.ec]Created pipe console.ELIXIR
+7:04:36 AM:::[mus.ec]Created pipe console.ELIXIR
+7:04:37 AM:::[mus.ec]Created pipe console.ELIXIR
+7:05:17 AM:::[mus.ec]Created pipe console.ELIXIR
+7:06:25 AM:::[mus.ec]Created pipe console.ELIXIR
+7:07:43 AM:::[mus.ec]Created pipe console.ELIXIR
+7:07:44 AM:::[mus.ec]Created pipe console.ELIXIR
+7:07:47 AM:::[mus.ec]Created pipe console.ELIXIR
+7:07:48 AM:::[mus.ec]Created pipe console.ELIXIR
+7:08:02 AM:::[mus.ec]Created pipe console.ELIXIR
+7:08:03 AM:::[mus.ec]Created pipe console.ELIXIR
+7:08:08 AM:::[mus.ec]Created pipe console.ELIXIR
+7:08:09 AM:::[mus.ec]Created pipe console.ELIXIR
+7:08:46 AM:::[mus.ec]Created pipe console.ELIXIR
+7:08:47 AM:::[mus.ec]Created pipe console.ELIXIR
+7:08:59 AM:::[mus.ec]Created pipe console.ELIXIR
+7:09:00 AM:::[mus.ec]Created pipe console.ELIXIR
+7:09:44 AM:::[mus.ec]Created pipe console.ELIXIR
+7:09:45 AM:::[mus.ec]Created pipe console.ELIXIR
+7:10:13 AM:::[mus.ec]Created pipe console.ELIXIR
+7:10:14 AM:::[mus.ec]Created pipe console.ELIXIR
+7:10:35 AM:::[mus.ec]Created pipe console.ELIXIR
+7:10:36 AM:::[mus.ec]Created pipe console.ELIXIR
+7:11:30 AM:::[mus.ec]Created pipe console.ELIXIR
+7:11:31 AM:::[mus.ec]Created pipe console.ELIXIR
+7:12:32 AM:::[mus.ec]Created pipe console.ELIXIR
+7:12:33 AM:::[mus.ec]Created pipe console.ELIXIR
+7:12:34 AM:::[mus.ec]Created pipe console.ELIXIR
+7:12:35 AM:::[mus.ec]Created pipe console.ELIXIR
+7:13:02 AM:::[mus.ec]Created pipe console.ELIXIR
+7:13:03 AM:::[mus.ec]Created pipe console.ELIXIR
+7:13:26 AM:::[mus.ec]Created pipe console.ELIXIR
+7:13:27 AM:::[mus.ec]Created pipe console.ELIXIR
+7:14:51 AM:::[mus.ec]Created pipe console.ELIXIR
+7:14:52 AM:::[mus.ec]Created pipe console.ELIXIR
+7:16:27 AM:::[mus.ec]Created pipe console.ELIXIR
+7:16:28 AM:::[mus.ec]Created pipe console.ELIXIR
+7:17:30 AM:::[mus.ec]Created pipe console.ELIXIR
+7:17:31 AM:::[mus.ec]Created pipe console.ELIXIR
+7:18:17 AM:::[mus.ec]Created pipe console.ELIXIR
+7:18:18 AM:::[mus.ec]Created pipe console.ELIXIR
+7:18:43 AM:::[mus.ec]Created pipe console.ELIXIR
+7:18:44 AM:::[mus.ec]Created pipe console.ELIXIR
+7:19:14 AM:::[mus.ec]Created pipe console.ELIXIR
+7:22:30 AM:::[mus.ec]Created pipe console.ELIXIR
+7:24:42 AM:::[mus.ec]Created pipe console.ELIXIR
+7:24:51 AM:::[mus.ec]Created pipe console.ELIXIR
+7:25:04 AM:::[mus.ec]Created pipe console.ELIXIR
+7:25:07 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+7:25:08 AM:::[71.42.217.194][Core] State request complete.
+7:25:08 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:25:08 AM:::[71.42.217.194][Core] State request complete.
+7:25:08 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:25:08 AM:::[71.42.217.194][Core] Create hd/empty
+7:25:08 AM:::[71.42.217.194][Core] TypeError: undefined is not a function
+7:25:08 AM:::[71.42.217.194]Detected error
+7:25:08 AM:::[71.42.217.194][Core] Create hd/dashboard
+7:25:08 AM:::[71.42.217.194][Core] ReferenceError: $ is not defined
+7:25:08 AM:::[71.42.217.194]Detected error
+7:25:08 AM:::[71.42.217.194][Core] TypeError: Cannot read property 'position' of undefined
+7:25:08 AM:::[71.42.217.194][Core] Propgating update event.
+7:25:08 AM:::[71.42.217.194][Core] Propgating resize event
+7:25:08 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+7:25:27 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+7:25:28 AM:::[71.42.217.194][Core] State request complete.
+7:25:28 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:25:28 AM:::[71.42.217.194][Core] State request complete.
+7:25:28 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:25:28 AM:::[71.42.217.194][Core] Create hd/empty
+7:25:28 AM:::[71.42.217.194][Core] TypeError: undefined is not a function
+7:25:28 AM:::[71.42.217.194]Detected error
+7:25:28 AM:::[71.42.217.194][Core] Create hd/dashboard
+7:25:28 AM:::[71.42.217.194][Core] ReferenceError: $ is not defined
+7:25:28 AM:::[71.42.217.194]Detected error
+7:25:28 AM:::[71.42.217.194][Core] TypeError: Cannot read property 'position' of undefined
+7:25:28 AM:::[71.42.217.194][Core] Propgating resize event
+7:25:28 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+7:25:28 AM:::[71.42.217.194][Core] Propgating update event.
+7:26:18 AM:::[mus.ec]Created pipe console.ELIXIR
+7:26:21 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+7:26:22 AM:::[71.42.217.194][Core] State request complete.
+7:26:22 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:26:22 AM:::[71.42.217.194][Core] State request complete.
+7:26:22 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:26:22 AM:::[71.42.217.194][Core] Create hd/empty
+7:26:22 AM:::[71.42.217.194][Core] TypeError: undefined is not a function
+7:26:22 AM:::[71.42.217.194]Detected error
+7:26:22 AM:::[71.42.217.194][Core] Create hd/dashboard
+7:26:22 AM:::[71.42.217.194][Core] ReferenceError: interact is not defined
+7:26:22 AM:::[71.42.217.194]Detected error
+7:26:22 AM:::[71.42.217.194][Core] Propgating resize event
+7:26:22 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+7:26:22 AM:::[71.42.217.194][Core] Propgating update event.
+7:26:39 AM:::[mus.ec]Created pipe console.ELIXIR
+7:26:43 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+7:26:43 AM:::[71.42.217.194][Core] State request complete.
+7:26:43 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:26:43 AM:::[71.42.217.194][Core] State request complete.
+7:26:43 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:26:43 AM:::[71.42.217.194][Core] Create hd/empty
+7:26:43 AM:::[71.42.217.194][Core] TypeError: undefined is not a function
+7:26:43 AM:::[71.42.217.194]Detected error
+7:26:43 AM:::[71.42.217.194][Core] Create hd/dashboard
+7:26:43 AM:::[71.42.217.194][Core] TypeError: undefined is not a function
+7:26:43 AM:::[71.42.217.194]Detected error
+7:26:44 AM:::[71.42.217.194][Core] Propgating resize event
+7:26:44 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+7:26:44 AM:::[71.42.217.194][Core] Propgating update event.
+7:26:48 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+7:26:49 AM:::[71.42.217.194][Core] State request complete.
+7:26:49 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:26:49 AM:::[71.42.217.194][Core] State request complete.
+7:26:49 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:26:49 AM:::[71.42.217.194][Core] Create hd/empty
+7:26:49 AM:::[71.42.217.194][Core] TypeError: undefined is not a function
+7:26:49 AM:::[71.42.217.194]Detected error
+7:26:49 AM:::[71.42.217.194][Core] Create hd/dashboard
+7:26:49 AM:::[71.42.217.194][Core] TypeError: undefined is not a function
+7:26:49 AM:::[71.42.217.194]Detected error
+7:26:49 AM:::[71.42.217.194][Core] Propgating resize event
+7:26:49 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+7:26:49 AM:::[71.42.217.194][Core] Propgating update event.
+7:27:52 AM:::[mus.ec]Created pipe console.ELIXIR
+7:27:57 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+7:27:58 AM:::[71.42.217.194][Core] State request complete.
+7:27:58 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:27:58 AM:::[71.42.217.194][Core] Create hd/empty
+7:27:58 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:27:58 AM:::[71.42.217.194][Core] State request complete.
+7:28:14 AM:::[mus.ec]Created pipe console.ELIXIR
+7:29:35 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+7:29:36 AM:::[71.42.217.194][Core] State request complete.
+7:29:36 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:29:36 AM:::[71.42.217.194][Core] State request complete.
+7:29:36 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:29:36 AM:::[71.42.217.194][Core] Create hd/empty
+7:29:36 AM:::[71.42.217.194][Core] TypeError: undefined is not a function
+7:29:36 AM:::[71.42.217.194]Detected error
+7:29:36 AM:::[71.42.217.194][Core] Create hd/dashboard
+7:29:36 AM:::[71.42.217.194][Core] TypeError: undefined is not a function
+7:29:36 AM:::[71.42.217.194]Detected error
+7:29:36 AM:::[71.42.217.194][Core] Propgating resize event
+7:29:36 AM:::[71.42.217.194][Core] Propgating update event.
+7:29:36 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+7:29:44 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+7:29:44 AM:::[71.42.217.194][Core] State request complete.
+7:29:44 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:29:45 AM:::[71.42.217.194][Core] TypeError: undefined is not a function
+7:29:45 AM:::[71.42.217.194][Core] Create hd/dashboard
+7:29:45 AM:::[71.42.217.194][Core] State request complete.
+7:29:45 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:29:45 AM:::[71.42.217.194]Detected error
+7:29:45 AM:::[71.42.217.194][Core] Create hd/empty
+7:29:45 AM:::[71.42.217.194][Core] TypeError: undefined is not a function
+7:29:45 AM:::[71.42.217.194]Detected error
+7:29:45 AM:::[71.42.217.194][Core] Propgating resize event
+7:29:45 AM:::[71.42.217.194][Core] Propgating update event.
+7:29:45 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+7:30:08 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+7:30:09 AM:::[71.42.217.194][Core] State request complete.
+7:30:09 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:30:09 AM:::[71.42.217.194][Core] State request complete.
+7:30:09 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:30:09 AM:::[71.42.217.194][Core] Create hd/empty
+7:30:09 AM:::[71.42.217.194][Core] TypeError: undefined is not a function
+7:30:09 AM:::[71.42.217.194][Core] Create hd/dashboard
+7:30:09 AM:::[71.42.217.194]Detected error
+7:30:09 AM:::[71.42.217.194][Core] TypeError: undefined is not a function
+7:30:09 AM:::[71.42.217.194]Detected error
+7:30:09 AM:::[71.42.217.194][Core] Propgating resize event
+7:30:09 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+7:30:09 AM:::[71.42.217.194][Core] Propgating update event.
+7:30:13 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+7:30:13 AM:::[71.42.217.194][Core] State request complete.
+7:30:13 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:30:13 AM:::[71.42.217.194][Core] State request complete.
+7:30:13 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:30:13 AM:::[71.42.217.194][Core] Create hd/empty
+7:30:13 AM:::[71.42.217.194][Core] TypeError: undefined is not a function
+7:30:13 AM:::[71.42.217.194]Detected error
+7:30:13 AM:::[71.42.217.194][Core] Create hd/dashboard
+7:30:14 AM:::[71.42.217.194][Core] TypeError: undefined is not a function
+7:30:14 AM:::[71.42.217.194]Detected error
+7:30:14 AM:::[71.42.217.194][Core] Propgating resize event
+7:30:14 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+7:30:14 AM:::[71.42.217.194][Core] Propgating update event.
+7:30:41 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+7:30:42 AM:::[71.42.217.194][Core] State request complete.
+7:30:42 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:30:42 AM:::[71.42.217.194][Core] State request complete.
+7:30:42 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:30:42 AM:::[71.42.217.194][Core] Create hd/empty
+7:30:42 AM:::[71.42.217.194][Core] TypeError: undefined is not a function
+7:30:42 AM:::[71.42.217.194]Detected error
+7:30:42 AM:::[71.42.217.194][Core] Create hd/dashboard
+7:30:42 AM:::[71.42.217.194][Core] TypeError: undefined is not a function
+7:30:42 AM:::[71.42.217.194]Detected error
+7:30:42 AM:::[71.42.217.194][Core] Propgating resize event
+7:30:42 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+7:30:42 AM:::[71.42.217.194][Core] Propgating update event.
+7:30:47 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+7:30:47 AM:::[71.42.217.194][Core] State request complete.
+7:30:47 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:30:47 AM:::[71.42.217.194][Core] State request complete.
+7:30:47 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:30:47 AM:::[71.42.217.194][Core] Create hd/empty
+7:30:47 AM:::[71.42.217.194][Core] TypeError: undefined is not a function
+7:30:47 AM:::[71.42.217.194]Detected error
+7:30:47 AM:::[71.42.217.194][Core] Create hd/dashboard
+7:30:48 AM:::[71.42.217.194][Core] TypeError: undefined is not a function
+7:30:48 AM:::[71.42.217.194]Detected error
+7:30:48 AM:::[71.42.217.194][Core] Propgating resize event
+7:30:48 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+7:30:48 AM:::[71.42.217.194][Core] Propgating update event.
+7:31:04 AM:::[mus.ec]Created pipe console.ELIXIR
+7:31:08 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+7:31:08 AM:::[71.42.217.194][Core] State request complete.
+7:31:08 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:31:09 AM:::[71.42.217.194][Core] State request complete.
+7:31:09 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:31:09 AM:::[71.42.217.194][Core] Create hd/empty
+7:31:09 AM:::[71.42.217.194][Core] TypeError: undefined is not a function
+7:31:09 AM:::[71.42.217.194]Detected error
+7:31:09 AM:::[71.42.217.194][Core] Create hd/dashboard
+7:31:09 AM:::[71.42.217.194][Core] TypeError: undefined is not a function
+7:31:09 AM:::[71.42.217.194]Detected error
+7:31:09 AM:::[71.42.217.194][Core] Propgating resize event
+7:31:09 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+7:31:09 AM:::[71.42.217.194][Core] Propgating update event.
+7:32:00 AM:::[mus.ec]Created pipe console.ELIXIR
+7:32:13 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+7:32:17 AM:::[71.42.217.194][Core] State request complete.
+7:32:17 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:32:17 AM:::[71.42.217.194][Core] State request complete.
+7:32:17 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:32:17 AM:::[71.42.217.194][Core] Create hd/empty
+7:32:17 AM:::[71.42.217.194][Core] Create hd/dashboard
+7:32:17 AM:::[71.42.217.194][Core] Propgating resize event
+7:32:17 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+7:32:17 AM:::[71.42.217.194][Core] Propgating update event.
+7:32:32 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+7:32:33 AM:::[71.42.217.194][Core] State request complete.
+7:32:33 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:32:34 AM:::[71.42.217.194][Core] State request complete.
+7:32:34 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:32:34 AM:::[71.42.217.194][Core] Create hd/empty
+7:32:34 AM:::[71.42.217.194][Core] Create hd/dashboard
+7:32:34 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+7:32:34 AM:::[71.42.217.194][Core] Propgating resize event
+7:32:34 AM:::[71.42.217.194][Core] Propgating update event.
+7:35:11 AM:::[mus.ec]Created pipe console.ELIXIR
+7:35:12 AM:::[mus.ec]Created pipe console.ELIXIR
+7:35:35 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+7:35:35 AM:::[71.42.217.194][Core] State request complete.
+7:35:35 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:35:36 AM:::[71.42.217.194][Core] State request complete.
+7:35:36 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:35:36 AM:::[71.42.217.194][Core] Create hd/empty
+7:35:36 AM:::[71.42.217.194][Core] Create hd/dashboard
+7:35:36 AM:::[71.42.217.194][Core] Propgating resize event
+7:35:36 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+7:35:36 AM:::[71.42.217.194][Core] Propgating update event.
+7:38:12 AM:::[mus.ec]Created pipe console.ELIXIR
+7:38:15 AM:::[mus.ec]Created pipe console.ELIXIR
+7:44:04 AM:::[mus.ec]Created pipe console.ELIXIR
+7:44:46 AM:::[mus.ec]Created pipe console.ELIXIR
+7:45:07 AM:::[mus.ec]Created pipe console.ELIXIR
+7:45:34 AM:::[mus.ec]Created pipe console.ELIXIR
+7:46:04 AM:::[mus.ec]Created pipe console.ELIXIR
+7:46:33 AM:::[mus.ec]Created pipe console.ELIXIR
+7:46:35 AM:::[mus.ec]Created pipe console.ELIXIR
+7:46:37 AM:::[mus.ec]Created pipe console.ELIXIR
+7:46:39 AM:::[mus.ec]Created pipe console.ELIXIR
+7:46:41 AM:::[mus.ec]Created pipe console.ELIXIR
+7:46:43 AM:::[mus.ec]Created pipe console.ELIXIR
+7:46:45 AM:::[mus.ec]Created pipe console.ELIXIR
+7:47:17 AM:::[mus.ec]Created pipe console.ELIXIR
+7:47:20 AM:::[mus.ec]Created pipe console.ELIXIR
+7:47:47 AM:::[mus.ec]Created pipe console.ELIXIR
+7:47:55 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+7:47:56 AM:::[71.42.217.194][Core] State request complete.
+7:47:56 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:47:56 AM:::[71.42.217.194][Core] State request complete.
+7:47:56 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:47:56 AM:::[71.42.217.194][Core] Create hd/empty
+7:47:56 AM:::[71.42.217.194][Core] Create hd/dashboard
+7:47:56 AM:::[71.42.217.194][Core] Propgating resize event
+7:47:56 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+7:47:56 AM:::[71.42.217.194][Core] Propgating update event.
+7:48:25 AM:::[mus.ec]Created pipe console.ELIXIR
+7:48:51 AM:::[mus.ec]Created pipe console.ELIXIR
+7:49:42 AM:::[mus.ec]Created pipe console.ELIXIR
+7:50:58 AM:::[mus.ec]Created pipe console.ELIXIR
+7:51:21 AM:::[mus.ec]Created pipe console.ELIXIR
+7:51:41 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+7:51:42 AM:::[71.42.217.194][Core] State request complete.
+7:51:42 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:51:42 AM:::[71.42.217.194][Core] State request complete.
+7:51:42 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:51:42 AM:::[71.42.217.194][Core] Create hd/empty
+7:51:42 AM:::[71.42.217.194][Core] Create hd/dashboard
+7:51:42 AM:::[71.42.217.194][Core] Propgating resize event
+7:51:42 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+7:51:42 AM:::[71.42.217.194][Core] Propgating update event.
+7:51:44 AM:::[71.42.217.194][Core] Requested state - hd/dashboard
+7:51:45 AM:::[71.42.217.194][Core] State request complete.
+7:51:45 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:51:45 AM:::[71.42.217.194][Core] State request complete.
+7:51:45 AM:::[71.42.217.194][Core] State downloaded successfully.
+7:51:45 AM:::[71.42.217.194][Core] Create hd/empty
+7:51:45 AM:::[71.42.217.194][Core] Create hd/dashboard
+7:51:46 AM:::[71.42.217.194][Core] Propgating resize event
+7:51:46 AM:::[71.42.217.194][Core] State changed to hd/dashboard
+7:51:46 AM:::[71.42.217.194][Core] Propgating update event.
+7:54:11 AM:::[mus.ec]Created pipe console.ELIXIR
+7:54:19 AM:::71.42.217.194[Core] Requested state - hd/dashboard
+7:54:19 AM:::71.42.217.194[Core] State request complete.
+7:54:19 AM:::71.42.217.194[Core] State downloaded successfully.
+7:54:20 AM:::71.42.217.194[Core] State request complete.
+7:54:20 AM:::71.42.217.194[Core] State downloaded successfully.
+7:54:20 AM:::71.42.217.194[Core] Create hd/empty
+7:54:20 AM:::71.42.217.194[Core] Create hd/dashboard
+7:54:20 AM:::71.42.217.194[Core] Propgating resize event
+7:54:20 AM:::71.42.217.194[Core] State changed to hd/dashboard
+7:54:20 AM:::71.42.217.194[Core] Propgating update event.
+7:55:19 AM:::[mus.ec]Created pipe console.ELIXIR

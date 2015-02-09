@@ -1,0 +1,1600 @@
+4:05:33 AM:::[mus.ec]Created pipe console.ELIXIR
+5:53:43 AM:::[71.42.217.194][Elixir/core] Requested state - home
+5:53:43 AM:::[71.42.217.194][Elixir/core] Requested state - home
+5:53:43 AM:::[71.42.217.194][Elixir/core] State request complete.
+5:53:43 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+5:53:43 AM:::[71.42.217.194][Elixir/core] State request complete.
+5:53:43 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+5:53:43 AM:::[71.42.217.194][Elixir/core] State request complete.
+5:53:43 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+5:53:43 AM:::[71.42.217.194][Elixir/core] Create base
+5:53:43 AM:::[71.42.217.194][Elixir/core] Create home
+5:53:43 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+5:53:43 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+5:53:43 AM:::[71.42.217.194][Elixir/core] State changed to home
+5:53:43 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+5:53:43 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+5:53:43 AM:::[71.42.217.194][Elixir/core] State request complete.
+5:53:43 AM:::[71.42.217.194][Elixir/core][Loadstatesequence] Unload home
+5:53:43 AM:::[71.42.217.194][Elixir/core] Create home
+5:53:43 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+5:53:43 AM:::[71.42.217.194][Elixir/core] State changed to home
+5:53:44 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+5:53:44 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+5:53:59 AM:::[71.42.217.194][Elixir/core] Requested state - home
+5:53:59 AM:::[71.42.217.194][Elixir/core] State request complete.
+5:53:59 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+5:54:00 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+5:54:00 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+5:54:00 AM:::[71.42.217.194][Elixir/core] State request complete.
+5:54:00 AM:::[71.42.217.194][Elixir/core] Create base
+5:54:00 AM:::[71.42.217.194][Elixir/core] Create home
+5:54:00 AM:::[71.42.217.194][Elixir/core] State changed to home
+5:54:00 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+5:54:00 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+5:55:21 AM:::[71.42.217.194][Elixir/core] Requested state - home
+5:55:21 AM:::[71.42.217.194][Elixir/core] State request complete.
+5:55:21 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+5:55:22 AM:::[71.42.217.194][Elixir/core] State request complete.
+5:55:22 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+5:55:22 AM:::[71.42.217.194][Elixir/core] Create base
+5:55:22 AM:::[71.42.217.194][Elixir/core] Create home
+5:55:22 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+5:55:22 AM:::[71.42.217.194][Elixir/core] State changed to home
+5:55:22 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+5:55:22 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+5:57:02 AM:::[71.42.217.194][Elixir/core] Requested state - home
+5:57:02 AM:::[71.42.217.194][Elixir/core] State request complete.
+5:57:02 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+5:57:03 AM:::[71.42.217.194][Elixir/core] State request complete.
+5:57:03 AM:::[71.42.217.194][Elixir/core] State changed to home
+5:57:03 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+5:57:03 AM:::[71.42.217.194][Elixir/core] Create base
+5:57:03 AM:::[71.42.217.194][Elixir/core] Create home
+5:57:03 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+5:57:03 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+5:57:03 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+5:58:30 AM:::[71.42.217.194][Elixir/core] Requested state - home
+5:58:31 AM:::[71.42.217.194][Elixir/core] State request complete.
+5:58:31 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+5:58:31 AM:::[71.42.217.194][Elixir/core] State request complete.
+5:58:31 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+5:58:31 AM:::[71.42.217.194][Elixir/core] Create base
+5:58:31 AM:::[71.42.217.194][Elixir/core] Create home
+5:58:31 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+5:58:31 AM:::[71.42.217.194][Elixir/core] State changed to home
+5:58:31 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+5:58:31 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:00:10 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:00:10 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:00:10 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:00:11 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:00:11 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:00:11 AM:::[71.42.217.194][Elixir/core] Create base
+6:00:11 AM:::[71.42.217.194][Elixir/core] Create home
+6:00:11 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:00:11 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:00:11 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:00:11 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:03:09 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:03:09 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:03:09 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:03:09 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:03:09 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:03:09 AM:::[71.42.217.194][Elixir/core] Create base
+6:03:09 AM:::[71.42.217.194][Elixir/core] Create home
+6:03:09 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:03:09 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:03:09 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:03:09 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:03:21 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:03:21 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:03:21 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:03:22 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:03:22 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:03:22 AM:::[71.42.217.194][Elixir/core] Create base
+6:03:22 AM:::[71.42.217.194][Elixir/core] Create home
+6:03:22 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:03:22 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:03:22 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:03:22 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:03:35 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:03:35 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:03:35 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:03:36 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:03:36 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:03:36 AM:::[71.42.217.194][Elixir/core] Create base
+6:03:36 AM:::[71.42.217.194][Elixir/core] Create home
+6:03:36 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:03:36 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:03:36 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:03:36 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:03:46 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:03:46 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:03:46 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:03:47 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:03:47 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:03:47 AM:::[71.42.217.194][Elixir/core] Create home
+6:03:47 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:03:47 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:03:47 AM:::[71.42.217.194][Elixir/core] Create base
+6:03:47 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:03:47 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:05:08 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:05:08 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:05:08 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:05:08 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:05:08 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:05:08 AM:::[71.42.217.194][Elixir/core] Create base
+6:05:08 AM:::[71.42.217.194][Elixir/core] Create home
+6:05:08 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:05:08 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:05:08 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:05:08 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:05:59 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:06:00 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:06:00 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:06:00 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:06:00 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:06:00 AM:::[71.42.217.194][Elixir/core] Create base
+6:06:00 AM:::[71.42.217.194][Elixir/core] Create home
+6:06:00 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:06:00 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:06:00 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:06:00 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:06:10 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:06:10 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:06:10 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:06:11 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:06:11 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:06:11 AM:::[71.42.217.194][Elixir/core] Create base
+6:06:11 AM:::[71.42.217.194][Elixir/core] Create home
+6:06:11 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:06:11 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:06:11 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:06:11 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:06:31 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:06:31 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:06:31 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:06:32 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:06:32 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:06:32 AM:::[71.42.217.194][Elixir/core] Create base
+6:06:32 AM:::[71.42.217.194][Elixir/core] Create home
+6:06:32 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:06:32 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:06:32 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:06:32 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:08:36 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:08:36 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:08:36 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:08:36 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:08:36 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:08:36 AM:::[71.42.217.194][Elixir/core] Create base
+6:08:36 AM:::[71.42.217.194][Elixir/core] Create home
+6:08:36 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:08:36 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:08:36 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:08:36 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:08:49 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:08:50 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:08:50 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:08:50 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:08:50 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:08:50 AM:::[71.42.217.194][Elixir/core] Create base
+6:08:50 AM:::[71.42.217.194][Elixir/core] Create home
+6:08:50 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:08:50 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:08:50 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:08:50 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:08:58 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:08:58 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:08:58 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:08:58 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:08:58 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:08:58 AM:::[71.42.217.194][Elixir/core] Create base
+6:08:58 AM:::[71.42.217.194][Elixir/core] Create home
+6:08:58 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:08:58 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:08:58 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:08:58 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:09:24 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:09:25 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:09:25 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:09:25 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:09:25 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:09:25 AM:::[71.42.217.194][Elixir/core] Create base
+6:09:25 AM:::[71.42.217.194][Elixir/core] Create home
+6:09:25 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:09:25 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:09:25 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:09:25 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:09:29 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:09:29 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:09:29 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:09:29 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:09:29 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:09:29 AM:::[71.42.217.194][Elixir/core] Create base
+6:09:29 AM:::[71.42.217.194][Elixir/core] Create home
+6:09:29 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:09:29 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:09:29 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:09:29 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:09:33 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:09:33 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:09:33 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:09:34 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:09:34 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:09:34 AM:::[71.42.217.194][Elixir/core] Create base
+6:09:34 AM:::[71.42.217.194][Elixir/core] Create home
+6:09:34 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:09:34 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:09:34 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:09:34 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:10:44 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:10:45 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:10:45 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:10:45 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:10:45 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:10:45 AM:::[71.42.217.194][Elixir/core] Create base
+6:10:45 AM:::[71.42.217.194][Elixir/core] Create home
+6:10:45 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:10:45 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:10:45 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:10:45 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:12:11 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:12:11 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:12:11 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:12:11 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:12:11 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:12:11 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:12:11 AM:::[71.42.217.194][Elixir/core] Create home
+6:12:11 AM:::[71.42.217.194][Elixir/core] Create base
+6:12:11 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:12:12 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:12:12 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:12:29 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:12:29 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:12:29 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:12:29 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:12:29 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:12:29 AM:::[71.42.217.194][Elixir/core] Create base
+6:12:29 AM:::[71.42.217.194][Elixir/core] Create home
+6:12:29 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:12:29 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:12:29 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:12:29 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:13:20 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:13:21 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:13:21 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:13:21 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:13:21 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:13:21 AM:::[71.42.217.194][Elixir/core] Create base
+6:13:21 AM:::[71.42.217.194][Elixir/core] Create home
+6:13:21 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:13:21 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:13:21 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:13:21 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:13:42 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:13:42 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:13:42 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:13:42 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:13:42 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:13:42 AM:::[71.42.217.194][Elixir/core] Create base
+6:13:42 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:13:42 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:13:42 AM:::[71.42.217.194][Elixir/core] Create home
+6:13:43 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:13:43 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:13:52 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:13:52 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:13:52 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:13:52 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:13:52 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:13:52 AM:::[71.42.217.194][Elixir/core] Create base
+6:13:52 AM:::[71.42.217.194][Elixir/core] Create home
+6:13:52 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:13:52 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:13:52 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:13:52 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:14:46 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:14:46 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:14:46 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:14:47 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:14:47 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:14:47 AM:::[71.42.217.194][Elixir/core] Create base
+6:14:47 AM:::[71.42.217.194][Elixir/core] Create home
+6:14:47 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:14:47 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:14:47 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:14:47 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:15:06 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:15:06 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:15:06 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:15:07 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:15:07 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:15:07 AM:::[71.42.217.194][Elixir/core] Create base
+6:15:07 AM:::[71.42.217.194][Elixir/core] Create home
+6:15:07 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:15:07 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:15:07 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:15:07 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:15:50 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:15:51 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:15:51 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:15:51 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:15:51 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:15:51 AM:::[71.42.217.194][Elixir/core] Create base
+6:15:51 AM:::[71.42.217.194][Elixir/core] Create home
+6:15:51 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:15:51 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:15:51 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:15:51 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:16:05 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:16:06 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:16:06 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:16:06 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:16:06 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:16:06 AM:::[71.42.217.194][Elixir/core] Create base
+6:16:06 AM:::[71.42.217.194][Elixir/core] Create home
+6:16:06 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:16:06 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:16:06 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:16:06 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:16:51 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:16:52 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:16:52 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:16:52 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:16:52 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:16:52 AM:::[71.42.217.194][Elixir/core] Create base
+6:16:52 AM:::[71.42.217.194][Elixir/core] Create home
+6:16:52 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:16:52 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:16:52 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:16:52 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:17:33 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:17:33 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:17:33 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:17:33 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:17:33 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:17:33 AM:::[71.42.217.194][Elixir/core] Create base
+6:17:33 AM:::[71.42.217.194][Elixir/core] Create home
+6:17:33 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:17:33 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:17:33 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:17:33 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:17:51 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:17:52 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:17:52 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:17:52 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:17:52 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:17:52 AM:::[71.42.217.194][Elixir/core] Create base
+6:17:52 AM:::[71.42.217.194][Elixir/core] Create home
+6:17:52 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:17:52 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:17:52 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:17:52 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:18:05 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:18:05 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:18:05 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:18:05 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:18:05 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:18:05 AM:::[71.42.217.194][Elixir/core] Create base
+6:18:05 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:18:05 AM:::[71.42.217.194][Elixir/core] Create home
+6:18:06 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:18:06 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:18:06 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:19:39 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:19:39 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:19:39 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:19:40 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:19:40 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:19:40 AM:::[71.42.217.194][Elixir/core] Create base
+6:19:40 AM:::[71.42.217.194][Elixir/core] Create home
+6:19:40 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:19:40 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:19:40 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:19:40 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:20:53 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:20:54 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:20:54 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:20:54 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:20:54 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:20:54 AM:::[71.42.217.194][Elixir/core] Create base
+6:20:54 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:20:54 AM:::[71.42.217.194][Elixir/core] Create home
+6:20:54 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:20:54 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:20:54 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:21:11 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:21:11 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:21:11 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:21:11 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:21:11 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:21:11 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:21:11 AM:::[71.42.217.194][Elixir/core] Create base
+6:21:11 AM:::[71.42.217.194][Elixir/core] Create home
+6:21:11 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:21:12 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:21:12 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:21:29 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:21:30 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:21:30 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:21:30 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:21:30 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:21:30 AM:::[71.42.217.194][Elixir/core] Create base
+6:21:30 AM:::[71.42.217.194][Elixir/core] Create home
+6:21:30 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:21:30 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:21:30 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:21:30 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:25:58 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:25:58 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:25:58 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:25:58 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:25:58 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:25:58 AM:::[71.42.217.194][Elixir/core] Create base
+6:25:58 AM:::[71.42.217.194][Elixir/core] Create home
+6:25:58 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:25:58 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:25:58 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:25:58 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:26:33 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:26:34 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:26:34 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:26:34 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:26:34 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:26:34 AM:::[71.42.217.194][Elixir/core] Create base
+6:26:34 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:26:34 AM:::[71.42.217.194][Elixir/core] Create home
+6:26:34 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:26:34 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:26:34 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:30:41 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:30:42 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:30:42 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:30:42 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:30:42 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:30:42 AM:::[71.42.217.194][Elixir/core] Create base
+6:30:42 AM:::[71.42.217.194][Elixir/core] Create home
+6:30:42 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:30:42 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:30:42 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:30:42 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:31:16 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:31:16 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:31:16 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:31:17 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:31:17 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:31:17 AM:::[71.42.217.194][Elixir/core] Create base
+6:31:17 AM:::[71.42.217.194][Elixir/core] Create home
+6:31:17 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:31:17 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:31:17 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:31:17 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:31:59 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:32:00 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:32:00 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:32:00 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:32:00 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:32:00 AM:::[71.42.217.194][Elixir/core] Create base
+6:32:00 AM:::[71.42.217.194][Elixir/core] Create home
+6:32:00 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:32:00 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:32:00 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:32:00 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:32:13 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:32:13 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:32:13 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:32:13 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:32:13 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:32:13 AM:::[71.42.217.194][Elixir/core] Create base
+6:32:13 AM:::[71.42.217.194][Elixir/core] Create home
+6:32:13 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:32:13 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:32:13 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:32:13 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:32:22 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:32:23 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:32:23 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:32:23 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:32:23 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:32:23 AM:::[71.42.217.194][Elixir/core] Create base
+6:32:23 AM:::[71.42.217.194][Elixir/core] Create home
+6:32:23 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:32:23 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:32:23 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:32:23 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:33:34 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:33:34 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:33:34 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:33:35 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:33:35 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:33:35 AM:::[71.42.217.194][Elixir/core] Create base
+6:33:35 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:33:35 AM:::[71.42.217.194][Elixir/core] Create home
+6:33:35 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:33:35 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:33:35 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:33:46 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:33:47 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:33:47 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:33:47 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:33:47 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:33:47 AM:::[71.42.217.194][Elixir/core] Create base
+6:33:47 AM:::[71.42.217.194][Elixir/core] Create home
+6:33:47 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:33:47 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:33:47 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:33:47 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:35:18 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:35:19 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:35:19 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:35:19 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:35:19 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:35:19 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:35:19 AM:::[71.42.217.194][Elixir/core] Create base
+6:35:19 AM:::[71.42.217.194][Elixir/core] Create home
+6:35:19 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:35:19 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:35:19 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:35:38 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:35:38 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:35:38 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:35:38 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:35:38 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:35:38 AM:::[71.42.217.194][Elixir/core] Create base
+6:35:38 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:35:38 AM:::[71.42.217.194][Elixir/core] Create home
+6:35:38 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:35:38 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:35:38 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:35:57 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:35:58 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:35:58 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:35:58 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:35:58 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:35:58 AM:::[71.42.217.194][Elixir/core] Create base
+6:35:58 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:35:58 AM:::[71.42.217.194][Elixir/core] Create home
+6:35:58 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:35:58 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:35:58 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:36:07 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:36:07 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:36:07 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:36:08 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:36:08 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:36:08 AM:::[71.42.217.194][Elixir/core] Create base
+6:36:08 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:36:08 AM:::[71.42.217.194][Elixir/core] Create home
+6:36:08 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:36:08 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:36:08 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:36:24 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:36:24 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:36:24 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:36:25 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:36:25 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:36:25 AM:::[71.42.217.194][Elixir/core] Create base
+6:36:25 AM:::[71.42.217.194][Elixir/core] Create home
+6:36:25 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:36:25 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:36:25 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:36:25 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:38:27 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:38:27 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:38:27 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:38:27 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:38:27 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:38:27 AM:::[71.42.217.194][Elixir/core] Create base
+6:38:27 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:38:27 AM:::[71.42.217.194][Elixir/core] Create home
+6:38:27 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:38:28 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:38:28 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:39:09 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:39:09 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:39:09 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:39:10 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:39:10 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:39:10 AM:::[71.42.217.194][Elixir/core] Create base
+6:39:10 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:39:10 AM:::[71.42.217.194][Elixir/core] Create home
+6:39:10 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:39:10 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:39:10 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:39:28 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:39:28 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:39:28 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:39:28 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:39:28 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:39:28 AM:::[71.42.217.194][Elixir/core] Create base
+6:39:28 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:39:28 AM:::[71.42.217.194][Elixir/core] Create home
+6:39:28 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:39:28 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:39:28 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:39:45 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:39:45 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:39:45 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:39:45 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:39:45 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:39:45 AM:::[71.42.217.194][Elixir/core] Create base
+6:39:45 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:39:45 AM:::[71.42.217.194][Elixir/core] Create home
+6:39:45 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:39:45 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:39:45 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:40:03 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:40:04 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:40:04 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:40:04 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:40:04 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:40:04 AM:::[71.42.217.194][Elixir/core] Create base
+6:40:04 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:40:04 AM:::[71.42.217.194][Elixir/core] Create home
+6:40:04 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:40:04 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:40:04 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:41:01 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:41:02 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:41:02 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:41:02 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:41:02 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:41:02 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:41:02 AM:::[71.42.217.194][Elixir/core] Create base
+6:41:02 AM:::[71.42.217.194][Elixir/core] Create home
+6:41:02 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:41:02 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:41:02 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:46:09 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:46:10 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:46:10 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:46:10 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:46:10 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:46:10 AM:::[71.42.217.194][Elixir/core] Create base
+6:46:10 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:46:10 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:46:10 AM:::[71.42.217.194][Elixir/core] Create home
+6:46:10 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:46:10 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:47:23 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:47:24 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:47:24 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:47:24 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:47:24 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:47:24 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:47:24 AM:::[71.42.217.194][Elixir/core] Create base
+6:47:24 AM:::[71.42.217.194][Elixir/core] Create home
+6:47:24 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:47:24 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:47:24 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:47:47 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:47:47 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:47:47 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:47:48 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:47:48 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:47:48 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:47:48 AM:::[71.42.217.194][Elixir/core] Create base
+6:47:48 AM:::[71.42.217.194][Elixir/core] Create home
+6:47:48 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:47:48 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:47:48 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:48:35 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:48:35 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:48:35 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:48:35 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:48:35 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:48:35 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:48:35 AM:::[71.42.217.194][Elixir/core] Create base
+6:48:35 AM:::[71.42.217.194][Elixir/core] Create home
+6:48:35 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:48:35 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:48:35 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:48:55 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:48:55 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:48:55 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:48:56 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:48:56 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:48:56 AM:::[71.42.217.194][Elixir/core] Create home
+6:48:56 AM:::[71.42.217.194][Elixir/core] Create base
+6:48:56 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:48:56 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:48:56 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:48:56 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:49:32 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:49:32 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:49:32 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:49:32 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:49:32 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:49:32 AM:::[71.42.217.194][Elixir/core] Create base
+6:49:32 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:49:32 AM:::[71.42.217.194][Elixir/core] Create home
+6:49:32 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:49:32 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:49:32 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:52:19 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:52:20 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:52:20 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:52:20 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:52:20 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:52:20 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:52:20 AM:::[71.42.217.194][Elixir/core] Create base
+6:52:20 AM:::[71.42.217.194][Elixir/core] Create home
+6:52:20 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:52:20 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:52:20 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:52:47 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:52:47 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:52:47 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:52:48 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:52:48 AM:::[71.42.217.194][Elixir/core] Create home
+6:52:48 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:52:48 AM:::[71.42.217.194][Elixir/core] Create base
+6:52:48 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:52:48 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:52:48 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:52:48 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:53:28 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:53:29 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:53:29 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:53:29 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:53:29 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:53:29 AM:::[71.42.217.194][Elixir/core] Create base
+6:53:29 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:53:29 AM:::[71.42.217.194][Elixir/core] Create home
+6:53:29 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:53:29 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:53:29 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:55:42 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:55:42 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:55:42 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:55:43 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:55:43 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:55:43 AM:::[71.42.217.194][Elixir/core] Create base
+6:55:43 AM:::[71.42.217.194][Elixir/core] Create home
+6:55:43 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:55:43 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:55:43 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:55:43 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:55:51 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:55:51 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:55:51 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:55:52 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:55:52 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:55:52 AM:::[71.42.217.194][Elixir/core] Create base
+6:55:52 AM:::[71.42.217.194][Elixir/core] Create home
+6:55:52 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:55:52 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:55:52 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:55:52 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:59:26 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:59:26 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:59:26 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:59:26 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:59:26 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:59:26 AM:::[71.42.217.194][Elixir/core] Create base
+6:59:26 AM:::[71.42.217.194][Elixir/core] Create home
+6:59:26 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:59:26 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:59:26 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:59:26 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+6:59:34 AM:::[71.42.217.194][Elixir/core] Requested state - home
+6:59:35 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:59:35 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:59:35 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+6:59:35 AM:::[71.42.217.194][Elixir/core] State request complete.
+6:59:35 AM:::[71.42.217.194][Elixir/core] Create base
+6:59:35 AM:::[71.42.217.194][Elixir/core] Create home
+6:59:35 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+6:59:35 AM:::[71.42.217.194][Elixir/core] State changed to home
+6:59:35 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+6:59:35 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:00:36 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:00:36 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:00:36 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:00:37 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:00:37 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:00:37 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:00:37 AM:::[71.42.217.194][Elixir/core] Create home
+7:00:37 AM:::[71.42.217.194][Elixir/core] Create base
+7:00:37 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:00:37 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:00:37 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:00:49 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:00:50 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:00:50 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:00:50 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:00:50 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:00:50 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:00:50 AM:::[71.42.217.194][Elixir/core] Create base
+7:00:50 AM:::[71.42.217.194][Elixir/core] Create home
+7:00:50 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:00:50 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:00:50 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:01:05 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:01:06 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:01:06 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:01:06 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:01:06 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:01:06 AM:::[71.42.217.194][Elixir/core] Create base
+7:01:06 AM:::[71.42.217.194][Elixir/core] Create home
+7:01:06 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:01:06 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:01:06 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:01:06 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:02:31 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:02:32 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:02:32 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:02:32 AM:::[71.42.217.194][Elixir/core] Create base
+7:02:32 AM:::[71.42.217.194][Elixir/core] Create home
+7:02:32 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:02:32 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:02:32 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:02:32 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:02:32 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:02:32 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:02:51 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:02:52 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:02:52 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:02:52 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:02:52 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:02:52 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:02:52 AM:::[71.42.217.194][Elixir/core] Create base
+7:02:52 AM:::[71.42.217.194][Elixir/core] Create home
+7:02:52 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:02:52 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:02:52 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:03:35 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:03:35 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:03:35 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:03:35 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:03:35 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:03:35 AM:::[71.42.217.194][Elixir/core] Create base
+7:03:35 AM:::[71.42.217.194][Elixir/core] Create home
+7:03:35 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:03:35 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:03:35 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:03:35 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:03:54 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:03:55 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:03:55 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:03:55 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:03:55 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:03:55 AM:::[71.42.217.194][Elixir/core] Create base
+7:03:55 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:03:55 AM:::[71.42.217.194][Elixir/core] Create home
+7:03:55 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:03:55 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:03:55 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:04:05 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:04:06 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:04:06 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:04:06 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:04:06 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:04:06 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:04:06 AM:::[71.42.217.194][Elixir/core] Create base
+7:04:06 AM:::[71.42.217.194][Elixir/core] Create home
+7:04:06 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:04:06 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:04:06 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:05:45 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:05:45 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:05:45 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:05:46 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:05:46 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:05:46 AM:::[71.42.217.194][Elixir/core] Create base
+7:05:46 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:05:46 AM:::[71.42.217.194][Elixir/core] Create home
+7:05:46 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:05:46 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:05:46 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:06:23 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:06:24 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:06:24 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:06:24 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:06:24 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:06:24 AM:::[71.42.217.194][Elixir/core] Create base
+7:06:24 AM:::[71.42.217.194][Elixir/core] Create home
+7:06:24 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:06:24 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:06:24 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:06:24 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:06:39 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:06:40 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:06:40 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:06:40 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:06:40 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:06:40 AM:::[71.42.217.194][Elixir/core] Create base
+7:06:40 AM:::[71.42.217.194][Elixir/core] Create home
+7:06:40 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:06:40 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:06:40 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:06:40 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:07:09 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:07:10 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:07:10 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:07:10 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:07:10 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:07:10 AM:::[71.42.217.194][Elixir/core] Create base
+7:07:10 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:07:10 AM:::[71.42.217.194][Elixir/core] Create home
+7:07:10 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:07:10 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:07:10 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:07:46 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:07:47 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:07:47 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:07:47 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:07:47 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:07:47 AM:::[71.42.217.194][Elixir/core] Create base
+7:07:47 AM:::[71.42.217.194][Elixir/core] Create home
+7:07:47 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:07:47 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:07:47 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:07:47 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:08:17 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:08:18 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:08:18 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:08:18 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:08:18 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:08:18 AM:::[71.42.217.194][Elixir/core] Create base
+7:08:18 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:08:18 AM:::[71.42.217.194][Elixir/core] Create home
+7:08:18 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:08:18 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:08:18 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:08:35 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:08:35 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:08:35 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:08:35 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:08:35 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:08:35 AM:::[71.42.217.194][Elixir/core] Create base
+7:08:35 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:08:35 AM:::[71.42.217.194][Elixir/core] Create home
+7:08:35 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:08:35 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:08:35 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:08:55 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:08:55 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:08:55 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:08:56 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:08:56 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:08:56 AM:::[71.42.217.194][Elixir/core] Create base
+7:08:56 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:08:56 AM:::[71.42.217.194][Elixir/core] Create home
+7:08:56 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:08:56 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:08:56 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:09:37 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:09:38 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:09:38 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:09:38 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:09:38 AM:::[71.42.217.194][Elixir/core] Create home
+7:09:38 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:09:38 AM:::[71.42.217.194][Elixir/core] Create base
+7:09:38 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:09:38 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:09:38 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:09:38 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:10:25 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:10:26 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:10:26 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:10:26 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:10:26 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:10:26 AM:::[71.42.217.194][Elixir/core] Create base
+7:10:26 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:10:26 AM:::[71.42.217.194][Elixir/core] Create home
+7:10:26 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:10:26 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:10:26 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:10:41 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:10:42 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:10:42 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:10:42 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:10:42 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:10:42 AM:::[71.42.217.194][Elixir/core] Create base
+7:10:42 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:10:42 AM:::[71.42.217.194][Elixir/core] Create home
+7:10:42 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:10:42 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:10:42 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:11:05 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:11:05 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:11:05 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:11:06 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:11:06 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:11:06 AM:::[71.42.217.194][Elixir/core] Create base
+7:11:06 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:11:06 AM:::[71.42.217.194][Elixir/core] Create home
+7:11:06 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:11:06 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:11:06 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:11:26 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:11:26 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:11:26 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:11:26 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:11:26 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:11:26 AM:::[71.42.217.194][Elixir/core] Create base
+7:11:26 AM:::[71.42.217.194][Elixir/core] Create home
+7:11:26 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:11:27 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:11:27 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:11:27 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:12:15 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:12:15 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:12:15 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:12:15 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:12:15 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:12:15 AM:::[71.42.217.194][Elixir/core] Create base
+7:12:15 AM:::[71.42.217.194][Elixir/core] Create home
+7:12:15 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:12:15 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:12:15 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:12:15 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:12:29 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:12:30 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:12:30 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:12:30 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:12:30 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:12:30 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:12:30 AM:::[71.42.217.194][Elixir/core] Create base
+7:12:30 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:12:30 AM:::[71.42.217.194][Elixir/core] Create home
+7:12:30 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:12:30 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:12:46 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:12:46 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:12:46 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:12:47 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:12:47 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:12:47 AM:::[71.42.217.194][Elixir/core] Create base
+7:12:47 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:12:47 AM:::[71.42.217.194][Elixir/core] Create home
+7:12:47 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:12:47 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:12:47 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:12:53 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:12:54 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:12:54 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:12:54 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:12:54 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:12:54 AM:::[71.42.217.194][Elixir/core] Create base
+7:12:54 AM:::[71.42.217.194][Elixir/core] Create home
+7:12:54 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:12:54 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:12:54 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:12:54 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:13:14 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:13:14 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:13:14 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:13:15 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:13:15 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:13:15 AM:::[71.42.217.194][Elixir/core] Create home
+7:13:15 AM:::[71.42.217.194][Elixir/core] Create base
+7:13:15 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:13:15 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:13:15 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:13:15 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:13:24 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:13:24 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:13:24 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:13:25 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:13:25 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:13:25 AM:::[71.42.217.194][Elixir/core] Create base
+7:13:25 AM:::[71.42.217.194][Elixir/core] Create home
+7:13:25 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:13:25 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:13:25 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:13:25 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:13:38 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:13:39 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:13:39 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:13:39 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:13:39 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:13:39 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:13:39 AM:::[71.42.217.194][Elixir/core] Create home
+7:13:39 AM:::[71.42.217.194][Elixir/core] Create base
+7:13:39 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:13:39 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:13:39 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:13:48 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:13:48 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:13:48 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:13:48 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:13:48 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:13:48 AM:::[71.42.217.194][Elixir/core] Create base
+7:13:48 AM:::[71.42.217.194][Elixir/core] Create home
+7:13:48 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:13:48 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:13:48 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:13:48 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:14:05 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:14:05 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:14:05 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:14:05 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:14:05 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:14:05 AM:::[71.42.217.194][Elixir/core] Create base
+7:14:05 AM:::[71.42.217.194][Elixir/core] Create home
+7:14:05 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:14:05 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:14:05 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:14:05 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:14:14 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:14:15 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:14:15 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:14:15 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:14:15 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:14:15 AM:::[71.42.217.194][Elixir/core] Create base
+7:14:15 AM:::[71.42.217.194][Elixir/core] Create home
+7:14:15 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:14:15 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:14:15 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:14:15 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:14:54 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:14:55 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:14:55 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:14:55 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:14:55 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:14:55 AM:::[71.42.217.194][Elixir/core] Create base
+7:14:55 AM:::[71.42.217.194][Elixir/core] Create home
+7:14:55 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:14:55 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:14:55 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:14:55 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:15:07 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:15:08 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:15:08 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:15:08 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:15:08 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:15:08 AM:::[71.42.217.194][Elixir/core] Create base
+7:15:08 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:15:08 AM:::[71.42.217.194][Elixir/core] Create home
+7:15:08 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:15:08 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:15:08 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:15:15 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:15:15 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:15:15 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:15:15 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:15:15 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:15:15 AM:::[71.42.217.194][Elixir/core] Create base
+7:15:15 AM:::[71.42.217.194][Elixir/core] Create home
+7:15:15 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:15:15 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:15:15 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:15:15 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:15:21 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:15:21 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:15:21 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:15:22 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:15:22 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:15:22 AM:::[71.42.217.194][Elixir/core] Create base
+7:15:22 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:15:22 AM:::[71.42.217.194][Elixir/core] Create home
+7:15:22 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:15:22 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:15:22 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:15:38 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:15:39 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:15:39 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:15:39 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:15:39 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:15:39 AM:::[71.42.217.194][Elixir/core] Create base
+7:15:39 AM:::[71.42.217.194][Elixir/core] Create home
+7:15:39 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:15:39 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:15:39 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:15:39 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:16:03 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:16:03 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:16:03 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:16:04 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:16:04 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:16:04 AM:::[71.42.217.194][Elixir/core] Create base
+7:16:04 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:16:04 AM:::[71.42.217.194][Elixir/core] Create home
+7:16:04 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:16:04 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:16:04 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:16:10 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:16:10 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:16:10 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:16:10 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:16:10 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:16:10 AM:::[71.42.217.194][Elixir/core] Create base
+7:16:10 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:16:10 AM:::[71.42.217.194][Elixir/core] Create home
+7:16:10 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:16:11 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:16:11 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:16:22 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:16:22 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:16:22 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:16:23 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:16:23 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:16:23 AM:::[71.42.217.194][Elixir/core] Create base
+7:16:23 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:16:23 AM:::[71.42.217.194][Elixir/core] Create home
+7:16:23 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:16:23 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:16:23 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:16:39 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:16:40 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:16:40 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:16:40 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:16:40 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:16:40 AM:::[71.42.217.194][Elixir/core] Create base
+7:16:40 AM:::[71.42.217.194][Elixir/core] Create home
+7:16:40 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:16:40 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:16:40 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:16:40 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:16:46 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:16:47 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:16:47 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:16:47 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:16:47 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:16:47 AM:::[71.42.217.194][Elixir/core] Create home
+7:16:47 AM:::[71.42.217.194][Elixir/core] Create base
+7:16:47 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:16:47 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:16:47 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:16:47 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:17:17 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:17:18 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:17:18 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:17:18 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:17:18 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:17:18 AM:::[71.42.217.194][Elixir/core] Create base
+7:17:18 AM:::[71.42.217.194][Elixir/core] Create home
+7:17:18 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:17:18 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:17:18 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:17:18 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:17:42 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:17:43 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:17:43 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:17:43 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:17:43 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:17:43 AM:::[71.42.217.194][Elixir/core] Create base
+7:17:43 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:17:43 AM:::[71.42.217.194][Elixir/core] Create home
+7:17:43 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:17:43 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:17:43 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:18:22 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:18:23 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:18:23 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:18:23 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:18:23 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:18:23 AM:::[71.42.217.194][Elixir/core] Create base
+7:18:23 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:18:23 AM:::[71.42.217.194][Elixir/core] Create home
+7:18:23 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:18:23 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:18:23 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:19:10 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:19:10 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:19:10 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:19:10 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:19:10 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:19:10 AM:::[71.42.217.194][Elixir/core] Create base
+7:19:10 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:19:10 AM:::[71.42.217.194][Elixir/core] Create home
+7:19:10 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:19:10 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:19:10 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:19:43 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:19:43 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:19:43 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:19:44 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:19:44 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:19:44 AM:::[71.42.217.194][Elixir/core] Create base
+7:19:44 AM:::[71.42.217.194][Elixir/core] Create home
+7:19:44 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:19:44 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:19:44 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:19:44 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:19:55 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:19:56 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:19:56 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:19:56 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:19:56 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:19:56 AM:::[71.42.217.194][Elixir/core] Create base
+7:19:56 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:19:56 AM:::[71.42.217.194][Elixir/core] Create home
+7:19:56 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:19:56 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:19:56 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:20:21 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:20:21 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:20:21 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:20:22 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:20:22 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:20:22 AM:::[71.42.217.194][Elixir/core] Create base
+7:20:22 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:20:22 AM:::[71.42.217.194][Elixir/core] Create home
+7:20:22 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:20:22 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:20:22 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:20:33 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:20:33 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:20:33 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:20:33 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:20:33 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:20:33 AM:::[71.42.217.194][Elixir/core] Create base
+7:20:33 AM:::[71.42.217.194][Elixir/core] Create home
+7:20:33 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:20:33 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:20:33 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:20:33 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:20:43 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:20:43 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:20:43 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:20:43 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:20:43 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:20:43 AM:::[71.42.217.194][Elixir/core] Create base
+7:20:43 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:20:43 AM:::[71.42.217.194][Elixir/core] Create home
+7:20:43 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:20:44 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:20:44 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:20:51 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:20:51 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:20:51 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:20:51 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:20:51 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:20:51 AM:::[71.42.217.194][Elixir/core] Create base
+7:20:51 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:20:51 AM:::[71.42.217.194][Elixir/core] Create home
+7:20:51 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:20:51 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:20:51 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:21:23 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:21:24 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:21:24 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:21:24 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:21:24 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:21:24 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:21:24 AM:::[71.42.217.194][Elixir/core] Create base
+7:21:24 AM:::[71.42.217.194][Elixir/core] Create home
+7:21:24 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:21:24 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:21:24 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:21:49 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:21:49 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:21:49 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:21:50 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:21:50 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:21:50 AM:::[71.42.217.194][Elixir/core] Create base
+7:21:50 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:21:50 AM:::[71.42.217.194][Elixir/core] Create home
+7:21:50 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:21:50 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:21:50 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:22:01 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:22:01 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:22:01 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:22:01 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:22:01 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:22:01 AM:::[71.42.217.194][Elixir/core] Create base
+7:22:01 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:22:01 AM:::[71.42.217.194][Elixir/core] Create home
+7:22:01 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:22:01 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:22:01 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:23:07 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:23:07 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:23:07 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:23:08 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:23:08 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:23:08 AM:::[71.42.217.194][Elixir/core] Create base
+7:23:08 AM:::[71.42.217.194][Elixir/core] Create home
+7:23:08 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:23:08 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:23:08 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:23:08 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+7:32:14 AM:::[71.42.217.194][Elixir/core] Requested state - home
+7:32:15 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:32:15 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:32:15 AM:::[71.42.217.194][Elixir/core] State request complete.
+7:32:15 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+7:32:15 AM:::[71.42.217.194][Elixir/core] Create base
+7:32:15 AM:::[71.42.217.194][Elixir/core] Create home
+7:32:16 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+7:32:16 AM:::[71.42.217.194][Elixir/core] State changed to home
+7:32:16 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+7:32:16 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+4:02:54 PM:::[159.153.130.10][Elixir/core] Requested state - home
+4:02:55 PM:::[159.153.130.10][Elixir/core] State request complete.
+4:02:55 PM:::[159.153.130.10][Elixir/core] State downloaded successfully.
+4:02:55 PM:::[159.153.130.10][Elixir/core] State request complete.
+4:02:55 PM:::[159.153.130.10][Elixir/core] State downloaded successfully.
+4:02:55 PM:::[159.153.130.10][Elixir/core] Create base
+4:02:55 PM:::[159.153.130.10][Elixir/core] Create home
+4:02:55 PM:::[159.153.130.10][Elixir/core] Propgating resize event
+4:02:55 PM:::[159.153.130.10][Elixir/core] State changed to home
+4:02:55 PM:::[159.153.130.10][Elixir/core] Propgating update event.
+4:02:55 PM:::[159.153.130.10][Elixir-state-dashboard][Testing-mode] false
+4:03:26 PM:::[159.153.130.10][Elixir/core] Requested state - home
+4:03:27 PM:::[159.153.130.10][Elixir/core] State request complete.
+4:03:27 PM:::[159.153.130.10][Elixir/core] State request complete.
+4:03:27 PM:::[159.153.130.10][Elixir/core] State downloaded successfully.
+4:03:27 PM:::[159.153.130.10][Elixir/core] Requested state - home
+4:03:27 PM:::[159.153.130.10][Elixir/core] State downloaded successfully.
+4:03:27 PM:::[159.153.130.10][Elixir/core] State request complete.
+4:03:27 PM:::[159.153.130.10][Elixir/core] Create base
+4:03:27 PM:::[159.153.130.10][Elixir/core] Create home
+4:03:27 PM:::[159.153.130.10][Elixir/core] State downloaded successfully.
+4:03:27 PM:::[159.153.130.10][Elixir/core] Propgating resize event
+4:03:27 PM:::[159.153.130.10][Elixir/core] State changed to home
+4:03:27 PM:::[159.153.130.10][Elixir/core] Propgating update event.
+4:03:27 PM:::[159.153.130.10][Elixir/core] State request complete.
+4:03:27 PM:::[159.153.130.10][Elixir-state-dashboard][Testing-mode] false
+4:03:27 PM:::[159.153.130.10][Elixir/core][Loadstatesequence] Unload home
+4:03:27 PM:::[159.153.130.10][Elixir/core] State downloaded successfully.
+4:03:27 PM:::[159.153.130.10][Elixir/core] Create home
+4:03:27 PM:::[159.153.130.10][Elixir/core] Propgating resize event
+4:03:27 PM:::[159.153.130.10][Elixir/core] State changed to home
+4:03:27 PM:::[159.153.130.10][Elixir/core] Propgating update event.
+4:03:27 PM:::[159.153.130.10][Elixir-state-dashboard][Testing-mode] false
+5:51:45 PM:::[159.153.130.10][Elixir/core] Requested state - home
+5:51:46 PM:::[159.153.130.10][Elixir/core] State request complete.
+5:51:46 PM:::[159.153.130.10][Elixir/core] State downloaded successfully.
+5:51:47 PM:::[159.153.130.10][Elixir/core] State request complete.
+5:51:47 PM:::[159.153.130.10][Elixir/core] State downloaded successfully.
+5:51:47 PM:::[159.153.130.10][Elixir/core] Create base
+5:51:47 PM:::[159.153.130.10][Elixir/core] Create home
+5:51:47 PM:::[159.153.130.10][Elixir/core] Propgating resize event
+5:51:47 PM:::[159.153.130.10][Elixir/core] State changed to home
+5:51:47 PM:::[159.153.130.10][Elixir/core] Propgating update event.
+5:51:47 PM:::[159.153.130.10][Elixir-state-dashboard][Testing-mode] false
+8:49:10 PM:::[159.153.130.10][Elixir/core] Requested state - home
+8:49:11 PM:::[159.153.130.10][Elixir/core] State downloaded successfully.
+8:49:11 PM:::[159.153.130.10][Elixir/core] State request complete.
+8:49:12 PM:::[159.153.130.10][Elixir/core] State request complete.
+8:49:12 PM:::[159.153.130.10][Elixir/core] State downloaded successfully.
+8:49:12 PM:::[159.153.130.10][Elixir/core] Create base
+8:49:12 PM:::[159.153.130.10][Elixir/core] Create home
+8:49:12 PM:::[159.153.130.10][Elixir/core] Propgating resize event
+8:49:12 PM:::[159.153.130.10][Elixir-state-dashboard][Testing-mode] false
+8:49:12 PM:::[159.153.130.10][Elixir/core] State changed to home
+8:49:12 PM:::[159.153.130.10][Elixir/core] Propgating update event.
+12:52:48 AM:::[66.249.67.53][Elixir/core] Requested state - home
+12:52:49 AM:::[66.249.67.79][Elixir/core] State request complete.
+12:52:49 AM:::[66.249.67.79][Elixir/core][Loadstatesequence] Server: Cannot read property 'user_id' of undefined
+12:52:50 AM:::[66.249.67.66][Elixir/core] State downloaded error dectected.
+12:55:08 AM:::[71.42.217.194][Elixir/core] Requested state - home
+12:55:09 AM:::[71.42.217.194][Elixir/core] State request complete.
+12:55:09 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+12:55:09 AM:::[71.42.217.194][Elixir/core] State request complete.
+12:55:09 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+12:55:09 AM:::[71.42.217.194][Elixir/core] Create base
+12:55:09 AM:::[71.42.217.194][Elixir/core] Create home
+12:55:09 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+12:55:09 AM:::[71.42.217.194][Elixir/core] State changed to home
+12:55:09 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+12:55:09 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+12:56:24 AM:::[71.42.217.194][Elixir/core] Requested state - home
+12:56:24 AM:::[71.42.217.194][Elixir/core] State request complete.
+12:56:24 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+12:56:24 AM:::[71.42.217.194][Elixir/core] State request complete.
+12:56:24 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+12:56:24 AM:::[71.42.217.194][Elixir/core] Create base
+12:56:24 AM:::[71.42.217.194][Elixir/core] State changed to home
+12:56:24 AM:::[71.42.217.194][Elixir/core] Create home
+12:56:24 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+12:56:24 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+12:56:24 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+12:58:06 AM:::[71.42.217.194][Elixir/core] Requested state - home
+12:58:07 AM:::[71.42.217.194][Elixir/core] State request complete.
+12:58:07 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+12:58:08 AM:::[71.42.217.194][Elixir/core] State request complete.
+12:58:08 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+12:58:08 AM:::[71.42.217.194][Elixir/core] Create base
+12:58:08 AM:::[71.42.217.194][Elixir/core] Create home
+12:58:08 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+12:58:08 AM:::[71.42.217.194][Elixir/core] State changed to home
+12:58:08 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+12:58:08 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+1:00:48 AM:::[71.42.217.194][Elixir/core] Requested state - home
+1:00:48 AM:::[71.42.217.194][Elixir/core] State request complete.
+1:00:48 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+1:00:48 AM:::[71.42.217.194][Elixir/core] State request complete.
+1:00:48 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+1:00:48 AM:::[71.42.217.194][Elixir/core] Create base
+1:00:48 AM:::[71.42.217.194][Elixir/core] State changed to home
+1:00:48 AM:::[71.42.217.194][Elixir/core] Create home
+1:00:48 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+1:00:48 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+1:00:48 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+1:01:13 AM:::[71.42.217.194][Elixir/core] Requested state - home
+1:01:13 AM:::[71.42.217.194][Elixir/core] State request complete.
+1:01:13 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+1:01:13 AM:::[71.42.217.194][Elixir/core] Create base
+1:01:13 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+1:01:13 AM:::[71.42.217.194][Elixir/core] State changed to home
+1:01:13 AM:::[71.42.217.194][Elixir/core] Create home
+1:01:13 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+1:01:13 AM:::[71.42.217.194][Elixir/core] State request complete.
+1:01:13 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+1:01:13 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+1:02:15 AM:::[71.42.217.194][Elixir/core] Requested state - home
+1:02:16 AM:::[71.42.217.194][Elixir/core] State request complete.
+1:02:16 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+1:02:16 AM:::[71.42.217.194][Elixir/core] State request complete.
+1:02:16 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+1:02:16 AM:::[71.42.217.194][Elixir/core] State changed to home
+1:02:16 AM:::[71.42.217.194][Elixir/core] Create base
+1:02:16 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+1:02:16 AM:::[71.42.217.194][Elixir/core] Create home
+1:02:16 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+1:02:16 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+1:03:03 AM:::[71.42.217.194][Elixir/core] Requested state - home
+1:03:03 AM:::[71.42.217.194][Elixir/core] State request complete.
+1:03:03 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+1:03:04 AM:::[71.42.217.194][Elixir/core] State request complete.
+1:03:04 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+1:03:04 AM:::[71.42.217.194][Elixir/core] Create base
+1:03:04 AM:::[71.42.217.194][Elixir/core] Create home
+1:03:04 AM:::[71.42.217.194][Elixir/core] State changed to home
+1:03:04 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+1:03:04 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+1:03:04 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+1:03:22 AM:::[71.42.217.194][Elixir/core] Requested state - home
+1:03:22 AM:::[71.42.217.194][Elixir/core] State request complete.
+1:03:22 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+1:03:22 AM:::[71.42.217.194][Elixir/core] State request complete.
+1:03:22 AM:::[71.42.217.194][Elixir/core] State downloaded successfully.
+1:03:22 AM:::[71.42.217.194][Elixir/core] Propgating resize event
+1:03:22 AM:::[71.42.217.194][Elixir/core] Create base
+1:03:22 AM:::[71.42.217.194][Elixir/core] State changed to home
+1:03:22 AM:::[71.42.217.194][Elixir/core] Create home
+1:03:22 AM:::[71.42.217.194][Elixir/core] Propgating update event.
+1:03:22 AM:::[71.42.217.194][Elixir-state-dashboard][Testing-mode] false
+4:20:42 AM:::[72.182.51.253][Elixir/core] Requested state - home
+4:20:43 AM:::[72.182.51.253][Elixir/core] State request complete.
+4:20:43 AM:::[72.182.51.253][Elixir/core] State downloaded successfully.
+4:20:44 AM:::[72.182.51.253][Elixir/core] State request complete.
+4:20:44 AM:::[72.182.51.253][Elixir/core] Create base
+4:20:44 AM:::[72.182.51.253][Elixir/core] State downloaded successfully.
+4:20:44 AM:::[72.182.51.253][Elixir/core] Create home
+4:20:44 AM:::[72.182.51.253][Elixir/core] Propgating resize event
+4:20:44 AM:::[72.182.51.253][Elixir/core] State changed to home
+4:20:44 AM:::[72.182.51.253][Elixir/core] Propgating update event.
+4:20:44 AM:::[72.182.51.253][Elixir-state-dashboard][Testing-mode] false
+9:27:41 PM:::[72.182.51.253][Elixir/core] Requested state - home
+9:27:41 PM:::[72.182.51.253][Elixir/core] State downloaded successfully.
+9:27:41 PM:::[72.182.51.253][Elixir/core] State request complete.
+9:27:42 PM:::[72.182.51.253][Elixir/core] State request complete.
+9:27:42 PM:::[72.182.51.253][Elixir/core] Create base
+9:27:42 PM:::[72.182.51.253][Elixir/core] State downloaded successfully.
+9:27:42 PM:::[72.182.51.253][Elixir/core] Create home
+9:27:42 PM:::[72.182.51.253][Elixir/core] Propgating resize event
+9:27:42 PM:::[72.182.51.253][Elixir/core] State changed to home
+9:27:42 PM:::[72.182.51.253][Elixir/core] Propgating update event.
+9:27:42 PM:::[72.182.51.253][Elixir-state-dashboard][Testing-mode] false
+9:35:03 PM:::[72.182.51.253][Elixir/core] Requested state - home
+9:35:04 PM:::[72.182.51.253][Elixir/core] State downloaded successfully.
+9:35:04 PM:::[72.182.51.253][Elixir/core] State request complete.
+9:35:04 PM:::[72.182.51.253][Elixir/core] State request complete.
+9:35:04 PM:::[72.182.51.253][Elixir/core] State downloaded successfully.
+9:35:04 PM:::[72.182.51.253][Elixir/core] Create base
+9:35:04 PM:::[72.182.51.253][Elixir/core] Create home
+9:35:04 PM:::[72.182.51.253][Elixir/core] Propgating resize event
+9:35:04 PM:::[72.182.51.253][Elixir/core] State changed to home
+9:35:04 PM:::[72.182.51.253][Elixir/core] Propgating update event.
+9:35:05 PM:::[72.182.51.253][Elixir-state-dashboard][Testing-mode] false
+9:49:41 PM:::[72.182.51.253][Elixir/core] Requested state - home
+9:49:41 PM:::[72.182.51.253][Elixir/core] State request complete.
+9:49:41 PM:::[72.182.51.253][Elixir/core] State downloaded successfully.
+9:49:41 PM:::[72.182.51.253][Elixir/core] State request complete.
+9:49:41 PM:::[72.182.51.253][Elixir/core] Create base
+9:49:41 PM:::[72.182.51.253][Elixir/core] State downloaded successfully.
+9:49:41 PM:::[72.182.51.253][Elixir/core] Create home
+9:49:41 PM:::[72.182.51.253][Elixir/core] Propgating resize event
+9:49:41 PM:::[72.182.51.253][Elixir/core] State changed to home
+9:49:41 PM:::[72.182.51.253][Elixir/core] Propgating update event.
+9:49:41 PM:::[72.182.51.253][Elixir-state-dashboard][Testing-mode] false

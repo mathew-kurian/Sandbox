@@ -1,0 +1,1375 @@
+12:20:14 AM:::[mus.ec]Created pipe console.ERROR
+12:20:15 AM:::Failed to load c++ bson extension, using pure JS version
+12:20:16 AM:::Failed to load c++ bson extension, using pure JS version
+12:20:26 AM:::[mus.ec]Created pipe console.ERROR
+12:20:27 AM:::Failed to load c++ bson extension, using pure JS version
+12:20:28 AM:::Failed to load c++ bson extension, using pure JS version
+12:20:49 AM:::[mus.ec]Created pipe console.ERROR
+12:20:50 AM:::Failed to load c++ bson extension, using pure JS version
+12:20:51 AM:::Failed to load c++ bson extension, using pure JS version
+12:21:28 AM:::[mus.ec]Created pipe console.ERROR
+12:21:30 AM:::Failed to load c++ bson extension, using pure JS version
+12:21:31 AM:::Failed to load c++ bson extension, using pure JS version
+12:21:32 AM:::[mus.ec]Created pipe console.ERROR
+12:21:32 AM:::Failed to load c++ bson extension, using pure JS version
+12:22:23 AM:::[mus.ec]Created pipe console.ERROR
+12:22:24 AM:::Failed to load c++ bson extension, using pure JS version
+12:22:26 AM:::Failed to load c++ bson extension, using pure JS version
+12:22:26 AM:::[mus.ec]Created pipe console.ERROR
+12:22:27 AM:::Failed to load c++ bson extension, using pure JS version
+12:22:28 AM:::Failed to load c++ bson extension, using pure JS version
+12:23:11 AM:::[mus.ec]Created pipe console.ERROR
+12:23:13 AM:::Failed to load c++ bson extension, using pure JS version
+12:23:14 AM:::Failed to load c++ bson extension, using pure JS version
+12:23:15 AM:::[aws-upload-delete-files-bucket.js:17] AWS S3 upload.musec  FAILED 
+12:23:15 AM:::[aws-upload-delete-files-bucket.js:17] EXPECTED 
+12:23:15 AM:::[aws-upload-delete-files-bucket.js:17]Deletion error code 0
+12:23:15 AM:::[aws-upload-delete-files-bucket.js:17] ACTUAL 
+12:23:15 AM:::[aws-upload-delete-files-bucket.js:17]Deletion error code 1
+12:26:01 AM:::[mus.ec]Created pipe console.ERROR
+12:26:01 AM:::Failed to load c++ bson extension, using pure JS version
+12:26:02 AM:::Failed to load c++ bson extension, using pure JS version
+12:26:03 AM:::[aws-upload-delete-files-bucket.js:17] AWS S3 upload.musec  FAILED 
+12:26:03 AM:::[aws-upload-delete-files-bucket.js:17] EXPECTED 
+12:26:03 AM:::[aws-upload-delete-files-bucket.js:17]Deletion error code 0
+12:26:03 AM:::[aws-upload-delete-files-bucket.js:17] ACTUAL 
+12:26:03 AM:::[aws-upload-delete-files-bucket.js:17]Deletion error code 1
+12:26:27 AM:::[mus.ec]Created pipe console.ERROR
+12:26:27 AM:::Failed to load c++ bson extension, using pure JS version
+12:26:28 AM:::Failed to load c++ bson extension, using pure JS version
+12:26:29 AM:::[aws-upload-delete-files-bucket.js:17] AWS S3 upload.musec  FAILED 
+12:26:29 AM:::[aws-upload-delete-files-bucket.js:17] EXPECTED 
+12:26:29 AM:::[aws-upload-delete-files-bucket.js:17]Deletion error code 0
+12:26:29 AM:::[aws-upload-delete-files-bucket.js:17] ACTUAL 
+12:26:29 AM:::[aws-upload-delete-files-bucket.js:17]Deletion error code 1
+1:06:32 AM:::[mus.ec]Created pipe console.ERROR
+1:06:32 AM:::Failed to load c++ bson extension, using pure JS version
+1:06:33 AM:::Failed to load c++ bson extension, using pure JS version
+1:06:34 AM:::[aws-upload-delete-files-bucket.js:17] AWS S3 upload.musec  FAILED 
+1:06:34 AM:::[aws-upload-delete-files-bucket.js:17] EXPECTED 
+1:06:34 AM:::[aws-upload-delete-files-bucket.js:17]Deletion error code 0
+1:06:34 AM:::[aws-upload-delete-files-bucket.js:17] ACTUAL 
+1:06:34 AM:::[aws-upload-delete-files-bucket.js:17]Deletion error code 1
+1:07:44 AM:::[mus.ec]Created pipe console.ERROR
+1:07:44 AM:::Failed to load c++ bson extension, using pure JS version
+1:07:45 AM:::Failed to load c++ bson extension, using pure JS version
+1:07:46 AM:::[aws-upload-delete-files-bucket.js:17] AWS S3 upload.musec  FAILED 
+1:07:46 AM:::[aws-upload-delete-files-bucket.js:17] EXPECTED 
+1:07:46 AM:::[aws-upload-delete-files-bucket.js:17]Deletion error code 0
+1:07:46 AM:::[aws-upload-delete-files-bucket.js:17] ACTUAL 
+1:07:46 AM:::[aws-upload-delete-files-bucket.js:17]Deletion error code 1
+1:31:01 AM:::[mus.ec]Created pipe console.ERROR
+1:31:01 AM:::Failed to load c++ bson extension, using pure JS version
+1:31:02 AM:::Failed to load c++ bson extension, using pure JS version
+1:31:03 AM:::[mus.ec]Created pipe console.ERROR
+1:31:03 AM:::Failed to load c++ bson extension, using pure JS version
+1:31:04 AM:::Failed to load c++ bson extension, using pure JS version
+1:31:18 AM:::[mus.ec]Created pipe console.ERROR
+1:31:20 AM:::Failed to load c++ bson extension, using pure JS version
+1:31:21 AM:::Failed to load c++ bson extension, using pure JS version
+1:31:21 AM:::[mus.ec]Created pipe console.ERROR
+1:31:22 AM:::Failed to load c++ bson extension, using pure JS version
+1:31:32 AM:::[mus.ec]Created pipe console.ERROR
+1:31:33 AM:::Failed to load c++ bson extension, using pure JS version
+1:31:35 AM:::Failed to load c++ bson extension, using pure JS version
+1:31:36 AM:::[mus.ec]Created pipe console.ERROR
+1:31:36 AM:::Failed to load c++ bson extension, using pure JS version
+1:31:52 AM:::[mus.ec]Created pipe console.ERROR
+1:31:53 AM:::Failed to load c++ bson extension, using pure JS version
+1:31:55 AM:::Failed to load c++ bson extension, using pure JS version
+1:31:55 AM:::[mus.ec]Created pipe console.ERROR
+1:31:56 AM:::Failed to load c++ bson extension, using pure JS version
+1:32:53 AM:::[mus.ec]Created pipe console.ERROR
+1:32:54 AM:::Failed to load c++ bson extension, using pure JS version
+1:32:56 AM:::Failed to load c++ bson extension, using pure JS version
+1:32:57 AM:::[mus.ec]Created pipe console.ERROR
+1:32:57 AM:::Failed to load c++ bson extension, using pure JS version
+1:33:24 AM:::[mus.ec]Created pipe console.ERROR
+1:33:25 AM:::Failed to load c++ bson extension, using pure JS version
+1:33:26 AM:::Failed to load c++ bson extension, using pure JS version
+1:33:27 AM:::[mus.ec]Created pipe console.ERROR
+1:33:27 AM:::Failed to load c++ bson extension, using pure JS version
+1:37:12 AM:::[mus.ec]Created pipe console.ERROR
+1:37:13 AM:::Failed to load c++ bson extension, using pure JS version
+1:37:15 AM:::Failed to load c++ bson extension, using pure JS version
+1:37:16 AM:::[mus.ec]Created pipe console.ERROR
+1:37:37 AM:::[mus.ec]Created pipe console.ERROR
+1:37:38 AM:::Failed to load c++ bson extension, using pure JS version
+1:37:39 AM:::Failed to load c++ bson extension, using pure JS version
+1:37:40 AM:::[mus.ec]Created pipe console.ERROR
+1:38:11 AM:::[mus.ec]Created pipe console.ERROR
+1:38:18 AM:::[mus.ec]Created pipe console.ERROR
+1:38:20 AM:::Failed to load c++ bson extension, using pure JS version
+1:38:21 AM:::Failed to load c++ bson extension, using pure JS version
+1:38:22 AM:::[mus.ec]Created pipe console.ERROR
+1:38:22 AM:::Failed to load c++ bson extension, using pure JS version
+1:39:18 AM:::[mus.ec]Created pipe console.ERROR
+1:39:20 AM:::Failed to load c++ bson extension, using pure JS version
+1:39:21 AM:::Failed to load c++ bson extension, using pure JS version
+1:39:49 AM:::[mus.ec]Created pipe console.ERROR
+1:39:50 AM:::Failed to load c++ bson extension, using pure JS version
+1:39:51 AM:::Failed to load c++ bson extension, using pure JS version
+1:40:09 AM:::[mus.ec]Created pipe console.ERROR
+1:40:10 AM:::Failed to load c++ bson extension, using pure JS version
+1:40:11 AM:::Failed to load c++ bson extension, using pure JS version
+1:40:18 AM:::[mus.ec]Created pipe console.ERROR
+1:40:19 AM:::Failed to load c++ bson extension, using pure JS version
+1:40:20 AM:::Failed to load c++ bson extension, using pure JS version
+1:40:53 AM:::[mus.ec]Created pipe console.ERROR
+1:40:54 AM:::Failed to load c++ bson extension, using pure JS version
+1:40:55 AM:::Failed to load c++ bson extension, using pure JS version
+1:42:47 AM:::[mus.ec]Created pipe console.ERROR
+1:42:48 AM:::Failed to load c++ bson extension, using pure JS version
+1:42:49 AM:::Failed to load c++ bson extension, using pure JS version
+1:47:59 AM:::[mus.ec]Created pipe console.ERROR
+1:47:59 AM:::Failed to load c++ bson extension, using pure JS version
+1:48:00 AM:::Failed to load c++ bson extension, using pure JS version
+1:48:10 AM:::[mus.ec]Created pipe console.ERROR
+1:48:10 AM:::Failed to load c++ bson extension, using pure JS version
+1:48:11 AM:::Failed to load c++ bson extension, using pure JS version
+1:48:12 AM:::[mus.ec]Created pipe console.ERROR
+1:48:12 AM:::Failed to load c++ bson extension, using pure JS version
+1:48:13 AM:::Failed to load c++ bson extension, using pure JS version
+1:48:14 AM:::[mus.ec]Created pipe console.ERROR
+1:49:36 AM:::[mus.ec]Created pipe console.ERROR
+1:49:37 AM:::Failed to load c++ bson extension, using pure JS version
+1:49:38 AM:::Failed to load c++ bson extension, using pure JS version
+1:49:39 AM:::[mus.ec]Created pipe console.ERROR
+1:49:39 AM:::Failed to load c++ bson extension, using pure JS version
+1:49:40 AM:::Failed to load c++ bson extension, using pure JS version
+1:50:08 AM:::[mus.ec]Created pipe console.ERROR
+1:50:09 AM:::Failed to load c++ bson extension, using pure JS version
+1:50:11 AM:::Failed to load c++ bson extension, using pure JS version
+1:50:12 AM:::[mus.ec]Created pipe console.ERROR
+1:50:12 AM:::Failed to load c++ bson extension, using pure JS version
+1:50:31 AM:::[mus.ec]Created pipe console.ERROR
+1:50:33 AM:::Failed to load c++ bson extension, using pure JS version
+1:50:34 AM:::Failed to load c++ bson extension, using pure JS version
+1:50:35 AM:::[mus.ec]Created pipe console.ERROR
+1:51:00 AM:::[mus.ec]Created pipe console.ERROR
+1:51:01 AM:::Failed to load c++ bson extension, using pure JS version
+1:51:03 AM:::Failed to load c++ bson extension, using pure JS version
+1:51:03 AM:::[mus.ec]Created pipe console.ERROR
+1:51:31 AM:::[mus.ec]Created pipe console.ERROR
+1:51:32 AM:::Failed to load c++ bson extension, using pure JS version
+1:51:34 AM:::Failed to load c++ bson extension, using pure JS version
+1:51:35 AM:::[mus.ec]Created pipe console.ERROR
+1:51:35 AM:::Failed to load c++ bson extension, using pure JS version
+1:52:41 AM:::[mus.ec]Created pipe console.ERROR
+1:52:43 AM:::Failed to load c++ bson extension, using pure JS version
+1:52:44 AM:::Failed to load c++ bson extension, using pure JS version
+1:53:44 AM:::[mus.ec]Created pipe console.ERROR
+1:53:44 AM:::Failed to load c++ bson extension, using pure JS version
+1:53:45 AM:::Failed to load c++ bson extension, using pure JS version
+1:54:02 AM:::[mus.ec]Created pipe console.ERROR
+1:54:02 AM:::Failed to load c++ bson extension, using pure JS version
+1:54:03 AM:::Failed to load c++ bson extension, using pure JS version
+1:54:11 AM:::[mus.ec]Created pipe console.ERROR
+1:54:11 AM:::Failed to load c++ bson extension, using pure JS version
+1:54:12 AM:::Failed to load c++ bson extension, using pure JS version
+1:54:21 AM:::[mus.ec]Created pipe console.ERROR
+1:54:21 AM:::Failed to load c++ bson extension, using pure JS version
+1:54:22 AM:::Failed to load c++ bson extension, using pure JS version
+1:54:58 AM:::[mus.ec]Created pipe console.ERROR
+1:54:58 AM:::Failed to load c++ bson extension, using pure JS version
+1:54:59 AM:::Failed to load c++ bson extension, using pure JS version
+1:56:00 AM:::[mus.ec]Created pipe console.ERROR
+1:56:00 AM:::Failed to load c++ bson extension, using pure JS version
+1:56:01 AM:::Failed to load c++ bson extension, using pure JS version
+1:56:44 AM:::[mus.ec]Created pipe console.ERROR
+1:56:44 AM:::Failed to load c++ bson extension, using pure JS version
+1:56:45 AM:::Failed to load c++ bson extension, using pure JS version
+1:57:32 AM:::[mus.ec]Created pipe console.ERROR
+1:57:32 AM:::Failed to load c++ bson extension, using pure JS version
+1:57:33 AM:::Failed to load c++ bson extension, using pure JS version
+1:58:58 AM:::[mus.ec]Created pipe console.ERROR
+1:58:58 AM:::Failed to load c++ bson extension, using pure JS version
+1:58:59 AM:::Failed to load c++ bson extension, using pure JS version
+1:59:00 AM:::[aws-upload-delete-files-bucket.js:17] AWS S3 upload.musec  FAILED 
+1:59:00 AM:::[aws-upload-delete-files-bucket.js:17] EXPECTED 
+1:59:00 AM:::[aws-upload-delete-files-bucket.js:17]Deletion error code 0
+1:59:00 AM:::[aws-upload-delete-files-bucket.js:17] ACTUAL 
+1:59:00 AM:::[aws-upload-delete-files-bucket.js:17]Deletion error code 1
+1:59:57 AM:::[mus.ec]Created pipe console.ERROR
+1:59:57 AM:::Failed to load c++ bson extension, using pure JS version
+1:59:58 AM:::Failed to load c++ bson extension, using pure JS version
+1:59:59 AM:::[aws-upload-delete-files-bucket.js:17] AWS S3 upload.musec  FAILED 
+1:59:59 AM:::[aws-upload-delete-files-bucket.js:17] EXPECTED 
+1:59:59 AM:::[aws-upload-delete-files-bucket.js:17]Deletion error code 0
+1:59:59 AM:::[aws-upload-delete-files-bucket.js:17] ACTUAL 
+1:59:59 AM:::[aws-upload-delete-files-bucket.js:17]Deletion error code 1
+2:00:52 AM:::[mus.ec]Created pipe console.ERROR
+2:00:52 AM:::Failed to load c++ bson extension, using pure JS version
+2:00:53 AM:::Failed to load c++ bson extension, using pure JS version
+2:00:54 AM:::[aws-upload-delete-files-bucket.js:19] AWS S3 upload.musec  FAILED 
+2:00:54 AM:::[aws-upload-delete-files-bucket.js:19] EXPECTED 
+2:00:54 AM:::[aws-upload-delete-files-bucket.js:19]Deletion error code 0
+2:00:54 AM:::[aws-upload-delete-files-bucket.js:19] ACTUAL 
+2:00:54 AM:::[aws-upload-delete-files-bucket.js:19]Deletion error code 1
+2:01:33 AM:::[mus.ec]Created pipe console.ERROR
+2:01:33 AM:::Failed to load c++ bson extension, using pure JS version
+2:01:34 AM:::[mus.ec]Created pipe console.ERROR
+2:01:34 AM:::Failed to load c++ bson extension, using pure JS version
+2:01:35 AM:::Failed to load c++ bson extension, using pure JS version
+2:01:36 AM:::[aws-upload-delete-files-bucket.js:19] AWS S3 upload.musec  FAILED 
+2:01:36 AM:::[aws-upload-delete-files-bucket.js:19] EXPECTED 
+2:01:36 AM:::[aws-upload-delete-files-bucket.js:19]Deletion error code 0
+2:01:36 AM:::[aws-upload-delete-files-bucket.js:19] ACTUAL 
+2:01:36 AM:::[aws-upload-delete-files-bucket.js:19]Deletion error code 1
+2:02:19 AM:::[mus.ec]Created pipe console.ERROR
+2:02:19 AM:::Failed to load c++ bson extension, using pure JS version
+2:02:20 AM:::Failed to load c++ bson extension, using pure JS version
+2:02:21 AM:::[aws-upload-delete-files-bucket.js:19] AWS S3 upload.musec  FAILED 
+2:02:21 AM:::[aws-upload-delete-files-bucket.js:19] EXPECTED 
+2:02:21 AM:::[aws-upload-delete-files-bucket.js:19]Deletion error code 0
+2:02:21 AM:::[aws-upload-delete-files-bucket.js:19] ACTUAL 
+2:02:21 AM:::[aws-upload-delete-files-bucket.js:19]Deletion error code 1
+2:02:29 AM:::[mus.ec]Created pipe console.ERROR
+2:02:29 AM:::Failed to load c++ bson extension, using pure JS version
+2:02:30 AM:::Failed to load c++ bson extension, using pure JS version
+2:02:31 AM:::[mus.ec]Created pipe console.ERROR
+2:02:31 AM:::Failed to load c++ bson extension, using pure JS version
+2:02:32 AM:::[mus.ec]Created pipe console.ERROR
+2:02:32 AM:::Failed to load c++ bson extension, using pure JS version
+2:02:33 AM:::[mus.ec]Created pipe console.ERROR
+2:02:33 AM:::Failed to load c++ bson extension, using pure JS version
+2:02:34 AM:::Failed to load c++ bson extension, using pure JS version
+2:02:35 AM:::[aws-upload-delete-files-bucket.js:19] AWS S3 upload.musec  FAILED 
+2:02:35 AM:::[aws-upload-delete-files-bucket.js:19] EXPECTED 
+2:02:35 AM:::[aws-upload-delete-files-bucket.js:19]Deletion error code 0
+2:02:35 AM:::[aws-upload-delete-files-bucket.js:19] ACTUAL 
+2:02:35 AM:::[aws-upload-delete-files-bucket.js:19]Deletion error code 1
+2:02:53 AM:::[mus.ec]Created pipe console.ERROR
+2:02:59 AM:::Failed to load c++ bson extension, using pure JS version
+2:03:11 AM:::Failed to load c++ bson extension, using pure JS version
+2:03:18 AM:::[mus.ec]Created pipe console.ERROR
+2:03:24 AM:::Failed to load c++ bson extension, using pure JS version
+2:03:35 AM:::Failed to load c++ bson extension, using pure JS version
+2:03:41 AM:::[aws-upload-delete-files-bucket.js:19] AWS S3 upload.musec  FAILED 
+2:03:41 AM:::[aws-upload-delete-files-bucket.js:19] EXPECTED 
+2:03:41 AM:::[aws-upload-delete-files-bucket.js:19]Deletion error code 0
+2:03:41 AM:::[aws-upload-delete-files-bucket.js:19] ACTUAL 
+2:03:41 AM:::[aws-upload-delete-files-bucket.js:19]Deletion error code 1
+2:04:33 AM:::[mus.ec]Created pipe console.ERROR
+2:04:41 AM:::[mus.ec]Created pipe console.ERROR
+2:04:47 AM:::Failed to load c++ bson extension, using pure JS version
+2:04:58 AM:::Failed to load c++ bson extension, using pure JS version
+2:05:04 AM:::[aws-upload-delete-files-bucket.js:19] AWS S3 upload.musec  FAILED 
+2:05:04 AM:::[aws-upload-delete-files-bucket.js:19] EXPECTED 
+2:05:04 AM:::[aws-upload-delete-files-bucket.js:19]Deletion error code 0
+2:05:04 AM:::[aws-upload-delete-files-bucket.js:19] ACTUAL 
+2:05:04 AM:::[aws-upload-delete-files-bucket.js:19]Deletion error code 1
+2:05:22 AM:::[mus.ec]Created pipe console.ERROR
+2:05:23 AM:::Failed to load c++ bson extension, using pure JS version
+2:05:23 AM:::Failed to load c++ bson extension, using pure JS version
+2:05:24 AM:::[aws-upload-delete-files-bucket.js:19] AWS S3 upload.musec  FAILED 
+2:05:24 AM:::[aws-upload-delete-files-bucket.js:19] EXPECTED 
+2:05:24 AM:::[aws-upload-delete-files-bucket.js:19]Deletion error code 0
+2:05:24 AM:::[aws-upload-delete-files-bucket.js:19] ACTUAL 
+2:05:24 AM:::[aws-upload-delete-files-bucket.js:19]Deletion error code 1
+2:10:16 AM:::[mus.ec]Created pipe console.ERROR
+2:10:17 AM:::Failed to load c++ bson extension, using pure JS version
+2:10:18 AM:::Failed to load c++ bson extension, using pure JS version
+2:10:18 AM:::[aws-upload-delete-files-bucket.js:19] AWS S3 upload.musec  FAILED 
+2:10:18 AM:::[aws-upload-delete-files-bucket.js:19] EXPECTED 
+2:10:18 AM:::[aws-upload-delete-files-bucket.js:19]Deletion error code 0
+2:10:18 AM:::[aws-upload-delete-files-bucket.js:19] ACTUAL 
+2:10:18 AM:::[aws-upload-delete-files-bucket.js:19]Deletion error code 1
+2:10:40 AM:::[mus.ec]Created pipe console.ERROR
+2:10:41 AM:::Failed to load c++ bson extension, using pure JS version
+2:10:42 AM:::Failed to load c++ bson extension, using pure JS version
+2:10:43 AM:::[aws-upload-delete-files-bucket.js:19] AWS S3 upload.musec  FAILED 
+2:10:43 AM:::[aws-upload-delete-files-bucket.js:19] EXPECTED 
+2:10:43 AM:::[aws-upload-delete-files-bucket.js:19]Deletion error code 0
+2:10:43 AM:::[aws-upload-delete-files-bucket.js:19] ACTUAL 
+2:10:43 AM:::[aws-upload-delete-files-bucket.js:19]Deletion error code 1
+2:11:06 AM:::[mus.ec]Created pipe console.ERROR
+2:11:07 AM:::Failed to load c++ bson extension, using pure JS version
+2:11:08 AM:::Failed to load c++ bson extension, using pure JS version
+2:13:00 AM:::[mus.ec]Created pipe console.ERROR
+2:13:01 AM:::Failed to load c++ bson extension, using pure JS version
+2:13:02 AM:::Failed to load c++ bson extension, using pure JS version
+2:16:27 AM:::[mus.ec]Created pipe console.ERROR
+2:16:28 AM:::Failed to load c++ bson extension, using pure JS version
+2:16:29 AM:::Failed to load c++ bson extension, using pure JS version
+2:16:30 AM:::[mus.ec]Created pipe console.ERROR
+2:16:30 AM:::Failed to load c++ bson extension, using pure JS version
+2:16:31 AM:::Failed to load c++ bson extension, using pure JS version
+2:17:35 AM:::[mus.ec]Created pipe console.ERROR
+2:17:37 AM:::Failed to load c++ bson extension, using pure JS version
+2:17:38 AM:::Failed to load c++ bson extension, using pure JS version
+2:17:39 AM:::[mus.ec]Created pipe console.ERROR
+2:17:39 AM:::Failed to load c++ bson extension, using pure JS version
+2:20:48 AM:::[mus.ec]Created pipe console.ERROR
+2:20:51 AM:::[mus.ec]Created pipe console.ERROR
+2:20:52 AM:::Failed to load c++ bson extension, using pure JS version
+2:20:54 AM:::Failed to load c++ bson extension, using pure JS version
+2:20:55 AM:::[mus.ec]Created pipe console.ERROR
+2:21:26 AM:::[mus.ec]Created pipe console.ERROR
+2:21:28 AM:::Failed to load c++ bson extension, using pure JS version
+2:21:29 AM:::Failed to load c++ bson extension, using pure JS version
+2:21:30 AM:::[mus.ec]Created pipe console.ERROR
+2:21:53 AM:::[mus.ec]Created pipe console.ERROR
+2:21:54 AM:::Failed to load c++ bson extension, using pure JS version
+2:21:55 AM:::Failed to load c++ bson extension, using pure JS version
+2:21:56 AM:::[mus.ec]Created pipe console.ERROR
+2:21:57 AM:::Failed to load c++ bson extension, using pure JS version
+2:23:28 AM:::[mus.ec]Created pipe console.ERROR
+2:23:29 AM:::Failed to load c++ bson extension, using pure JS version
+2:23:30 AM:::Failed to load c++ bson extension, using pure JS version
+2:23:34 AM:::[mus.ec]Created pipe console.ERROR
+2:23:35 AM:::Failed to load c++ bson extension, using pure JS version
+2:23:37 AM:::Failed to load c++ bson extension, using pure JS version
+2:23:48 AM:::[aws-upload-delete-files-bucket.js:31] AWS S3 upload.musec  FAILED 
+2:23:48 AM:::[aws-upload-delete-files-bucket.js:31] EXPECTED 
+2:23:48 AM:::[aws-upload-delete-files-bucket.js:31]Deletion error code 0
+2:23:48 AM:::[aws-upload-delete-files-bucket.js:31] ACTUAL 
+2:23:48 AM:::[aws-upload-delete-files-bucket.js:31]Deletion error code 1
+2:24:08 AM:::[mus.ec]Created pipe console.ERROR
+2:24:09 AM:::Failed to load c++ bson extension, using pure JS version
+2:24:11 AM:::Failed to load c++ bson extension, using pure JS version
+2:24:22 AM:::[aws-upload-delete-files-bucket.js:31] AWS S3 upload.musec  FAILED 
+2:24:22 AM:::[aws-upload-delete-files-bucket.js:31] EXPECTED 
+2:24:22 AM:::[aws-upload-delete-files-bucket.js:31]Deletion error code 0
+2:24:22 AM:::[aws-upload-delete-files-bucket.js:31] ACTUAL 
+2:24:22 AM:::[aws-upload-delete-files-bucket.js:31]Deletion error code 1
+2:25:17 AM:::[mus.ec]Created pipe console.ERROR
+2:25:18 AM:::Failed to load c++ bson extension, using pure JS version
+2:25:18 AM:::Failed to load c++ bson extension, using pure JS version
+2:25:19 AM:::[mus.ec]Created pipe console.ERROR
+2:25:20 AM:::Failed to load c++ bson extension, using pure JS version
+2:25:20 AM:::Failed to load c++ bson extension, using pure JS version
+2:25:31 AM:::[aws-upload-delete-files-bucket.js:31] AWS S3 upload.musec  FAILED 
+2:25:31 AM:::[aws-upload-delete-files-bucket.js:31] EXPECTED 
+2:25:31 AM:::[aws-upload-delete-files-bucket.js:31]Deletion error code 0
+2:25:31 AM:::[aws-upload-delete-files-bucket.js:31] ACTUAL 
+2:25:31 AM:::[aws-upload-delete-files-bucket.js:31]Deletion error code 1
+2:25:40 AM:::[mus.ec]Created pipe console.ERROR
+2:25:41 AM:::Failed to load c++ bson extension, using pure JS version
+2:25:41 AM:::Failed to load c++ bson extension, using pure JS version
+2:25:53 AM:::[aws-upload-delete-files-bucket.js:32] AWS S3 upload.musec  FAILED 
+2:25:53 AM:::[aws-upload-delete-files-bucket.js:32] EXPECTED 
+2:25:53 AM:::[aws-upload-delete-files-bucket.js:32]Deletion error code 0
+2:25:53 AM:::[aws-upload-delete-files-bucket.js:32] ACTUAL 
+2:25:53 AM:::[aws-upload-delete-files-bucket.js:32]Deletion error code 1
+2:27:58 AM:::[mus.ec]Created pipe console.ERROR
+2:27:59 AM:::Failed to load c++ bson extension, using pure JS version
+2:27:59 AM:::Failed to load c++ bson extension, using pure JS version
+2:29:50 AM:::[mus.ec]Created pipe console.ERROR
+2:29:51 AM:::Failed to load c++ bson extension, using pure JS version
+2:29:51 AM:::Failed to load c++ bson extension, using pure JS version
+2:29:53 AM:::[mus.ec]Created pipe console.ERROR
+2:29:53 AM:::Failed to load c++ bson extension, using pure JS version
+2:29:54 AM:::Failed to load c++ bson extension, using pure JS version
+2:30:32 AM:::[mus.ec]Created pipe console.ERROR
+2:30:33 AM:::Failed to load c++ bson extension, using pure JS version
+2:30:35 AM:::Failed to load c++ bson extension, using pure JS version
+2:30:36 AM:::[mus.ec]Created pipe console.ERROR
+2:30:36 AM:::Failed to load c++ bson extension, using pure JS version
+2:30:37 AM:::Failed to load c++ bson extension, using pure JS version
+2:30:38 AM:::[mus.ec]Created pipe console.ERROR
+2:30:38 AM:::Failed to load c++ bson extension, using pure JS version
+2:30:39 AM:::Failed to load c++ bson extension, using pure JS version
+2:30:44 AM:::[mus.ec]Created pipe console.ERROR
+2:30:49 AM:::[mus.ec]Created pipe console.ERROR
+2:30:56 AM:::Failed to load c++ bson extension, using pure JS version
+2:31:08 AM:::Failed to load c++ bson extension, using pure JS version
+2:31:33 AM:::[mus.ec]Created pipe console.ERROR
+2:31:41 AM:::Failed to load c++ bson extension, using pure JS version
+2:31:53 AM:::Failed to load c++ bson extension, using pure JS version
+2:31:56 AM:::[mus.ec]Created pipe console.ERROR
+2:32:02 AM:::Failed to load c++ bson extension, using pure JS version
+2:32:14 AM:::[mus.ec]Created pipe console.ERROR
+2:32:20 AM:::Failed to load c++ bson extension, using pure JS version
+2:32:24 AM:::[mus.ec]Created pipe console.ERROR
+2:32:30 AM:::Failed to load c++ bson extension, using pure JS version
+2:32:42 AM:::Failed to load c++ bson extension, using pure JS version
+2:33:11 AM:::[mus.ec]Created pipe console.ERROR
+2:33:17 AM:::Failed to load c++ bson extension, using pure JS version
+2:33:19 AM:::Failed to load c++ bson extension, using pure JS version
+2:33:44 AM:::[mus.ec]Created pipe console.ERROR
+2:33:45 AM:::Failed to load c++ bson extension, using pure JS version
+2:33:47 AM:::Failed to load c++ bson extension, using pure JS version
+2:33:54 AM:::[mus.ec]Created pipe console.ERROR
+2:33:55 AM:::Failed to load c++ bson extension, using pure JS version
+2:33:55 AM:::Failed to load c++ bson extension, using pure JS version
+2:36:53 AM:::[mus.ec]Created pipe console.ERROR
+2:36:54 AM:::Failed to load c++ bson extension, using pure JS version
+2:36:54 AM:::Failed to load c++ bson extension, using pure JS version
+2:39:36 AM:::[mus.ec]Created pipe console.ERROR
+2:39:37 AM:::Failed to load c++ bson extension, using pure JS version
+2:39:37 AM:::Failed to load c++ bson extension, using pure JS version
+2:39:45 AM:::[mus.ec]Created pipe console.ERROR
+2:39:46 AM:::Failed to load c++ bson extension, using pure JS version
+2:39:46 AM:::Failed to load c++ bson extension, using pure JS version
+2:43:26 AM:::[mus.ec]Created pipe console.ERROR
+2:43:27 AM:::Failed to load c++ bson extension, using pure JS version
+2:43:27 AM:::Failed to load c++ bson extension, using pure JS version
+2:43:43 AM:::[mus.ec]Created pipe console.ERROR
+2:43:44 AM:::Failed to load c++ bson extension, using pure JS version
+2:43:44 AM:::Failed to load c++ bson extension, using pure JS version
+2:43:57 AM:::[mus.ec]Created pipe console.ERROR
+2:43:58 AM:::Failed to load c++ bson extension, using pure JS version
+2:43:58 AM:::Failed to load c++ bson extension, using pure JS version
+2:44:30 AM:::[mus.ec]Created pipe console.ERROR
+2:44:31 AM:::Failed to load c++ bson extension, using pure JS version
+2:44:31 AM:::Failed to load c++ bson extension, using pure JS version
+2:47:11 AM:::[mus.ec]Created pipe console.ERROR
+2:47:12 AM:::Failed to load c++ bson extension, using pure JS version
+2:47:13 AM:::Failed to load c++ bson extension, using pure JS version
+2:47:33 AM:::[mus.ec]Created pipe console.ERROR
+2:47:34 AM:::Failed to load c++ bson extension, using pure JS version
+2:47:34 AM:::Failed to load c++ bson extension, using pure JS version
+2:48:57 AM:::[mus.ec]Created pipe console.ERROR
+2:48:58 AM:::Failed to load c++ bson extension, using pure JS version
+2:48:58 AM:::Failed to load c++ bson extension, using pure JS version
+2:48:59 AM:::[aws-upload-delete-files-bucket.js:13] AWS S3 cdn  FAILED 
+2:48:59 AM:::[aws-upload-delete-files-bucket.js:13] EXPECTED 
+2:48:59 AM:::[aws-upload-delete-files-bucket.js:13]Creation error code - 0
+2:48:59 AM:::[aws-upload-delete-files-bucket.js:13] ACTUAL 
+2:48:59 AM:::[aws-upload-delete-files-bucket.js:13]Creation error code - 1
+2:48:59 AM:::[mus.ec]Created pipe console.ERROR
+2:49:00 AM:::Failed to load c++ bson extension, using pure JS version
+2:49:01 AM:::Failed to load c++ bson extension, using pure JS version
+2:49:01 AM:::[aws-upload-delete-files-bucket.js:13] AWS S3 cdn  FAILED 
+2:49:01 AM:::[aws-upload-delete-files-bucket.js:13] EXPECTED 
+2:49:01 AM:::[aws-upload-delete-files-bucket.js:13]Creation error code - 0
+2:49:01 AM:::[aws-upload-delete-files-bucket.js:13] ACTUAL 
+2:49:01 AM:::[aws-upload-delete-files-bucket.js:13]Creation error code - 1
+2:49:01 AM:::[mus.ec]Created pipe console.ERROR
+2:50:15 AM:::[mus.ec]Created pipe console.ERROR
+2:50:16 AM:::Failed to load c++ bson extension, using pure JS version
+2:50:18 AM:::Failed to load c++ bson extension, using pure JS version
+2:53:08 AM:::[mus.ec]Created pipe console.ERROR
+2:53:09 AM:::Failed to load c++ bson extension, using pure JS version
+2:53:10 AM:::Failed to load c++ bson extension, using pure JS version
+2:57:03 AM:::[mus.ec]Created pipe console.ERROR
+2:57:04 AM:::Failed to load c++ bson extension, using pure JS version
+2:57:05 AM:::Failed to load c++ bson extension, using pure JS version
+3:04:49 AM:::[mus.ec]Created pipe console.ERROR
+3:04:50 AM:::Failed to load c++ bson extension, using pure JS version
+3:04:51 AM:::Failed to load c++ bson extension, using pure JS version
+3:04:56 AM:::[mus.ec]Created pipe console.ERROR
+3:04:57 AM:::Failed to load c++ bson extension, using pure JS version
+3:04:58 AM:::Failed to load c++ bson extension, using pure JS version
+3:04:58 AM:::[mus.ec]Created pipe console.ERROR
+3:04:59 AM:::Failed to load c++ bson extension, using pure JS version
+3:04:59 AM:::Failed to load c++ bson extension, using pure JS version
+3:05:00 AM:::[mus.ec]Created pipe console.ERROR
+3:05:00 AM:::Failed to load c++ bson extension, using pure JS version
+3:05:01 AM:::Failed to load c++ bson extension, using pure JS version
+3:05:01 AM:::[mus.ec]Created pipe console.ERROR
+3:05:02 AM:::Failed to load c++ bson extension, using pure JS version
+3:05:03 AM:::Failed to load c++ bson extension, using pure JS version
+3:05:03 AM:::[mus.ec]Created pipe console.ERROR
+3:05:04 AM:::Failed to load c++ bson extension, using pure JS version
+3:05:04 AM:::[mus.ec]Created pipe console.ERROR
+3:05:05 AM:::Failed to load c++ bson extension, using pure JS version
+3:05:06 AM:::Failed to load c++ bson extension, using pure JS version
+3:14:39 AM:::[mus.ec]Created pipe console.ERROR
+3:14:39 AM:::Failed to load c++ bson extension, using pure JS version
+3:14:40 AM:::Failed to load c++ bson extension, using pure JS version
+3:22:03 AM:::[mus.ec]Created pipe console.ERROR
+3:22:04 AM:::Failed to load c++ bson extension, using pure JS version
+3:22:04 AM:::Failed to load c++ bson extension, using pure JS version
+3:22:05 AM:::[mus.ec]Created pipe console.ERROR
+3:22:05 AM:::Failed to load c++ bson extension, using pure JS version
+3:22:06 AM:::Failed to load c++ bson extension, using pure JS version
+3:22:06 AM:::[mus.ec]Created pipe console.ERROR
+3:22:07 AM:::Failed to load c++ bson extension, using pure JS version
+3:22:08 AM:::Failed to load c++ bson extension, using pure JS version
+3:22:08 AM:::[mus.ec]Created pipe console.ERROR
+3:22:08 AM:::Failed to load c++ bson extension, using pure JS version
+3:22:09 AM:::[mus.ec]Created pipe console.ERROR
+3:22:09 AM:::Failed to load c++ bson extension, using pure JS version
+3:22:10 AM:::Failed to load c++ bson extension, using pure JS version
+3:41:36 AM:::[mus.ec]Created pipe console.ERROR
+3:41:36 AM:::Failed to load c++ bson extension, using pure JS version
+3:41:37 AM:::Failed to load c++ bson extension, using pure JS version
+3:43:40 AM:::[mus.ec]Created pipe console.ERROR
+3:43:40 AM:::Failed to load c++ bson extension, using pure JS version
+3:43:41 AM:::Failed to load c++ bson extension, using pure JS version
+3:45:52 AM:::[mus.ec]Created pipe console.ERROR
+3:45:52 AM:::Failed to load c++ bson extension, using pure JS version
+3:45:53 AM:::Failed to load c++ bson extension, using pure JS version
+3:46:32 AM:::[mus.ec]Created pipe console.ERROR
+3:46:33 AM:::Failed to load c++ bson extension, using pure JS version
+3:46:33 AM:::Failed to load c++ bson extension, using pure JS version
+3:47:07 AM:::[mus.ec]Created pipe console.ERROR
+3:47:08 AM:::Failed to load c++ bson extension, using pure JS version
+3:47:08 AM:::Failed to load c++ bson extension, using pure JS version
+3:47:43 AM:::[mus.ec]Created pipe console.ERROR
+3:47:44 AM:::Failed to load c++ bson extension, using pure JS version
+3:47:45 AM:::Failed to load c++ bson extension, using pure JS version
+3:47:54 AM:::[mus.ec]Created pipe console.ERROR
+3:47:55 AM:::Failed to load c++ bson extension, using pure JS version
+3:47:55 AM:::Failed to load c++ bson extension, using pure JS version
+3:49:12 AM:::[mus.ec]Created pipe console.ERROR
+3:49:13 AM:::Failed to load c++ bson extension, using pure JS version
+3:49:14 AM:::Failed to load c++ bson extension, using pure JS version
+3:49:14 AM:::[mus.ec]Created pipe console.ERROR
+3:49:14 AM:::Failed to load c++ bson extension, using pure JS version
+3:49:15 AM:::Failed to load c++ bson extension, using pure JS version
+3:49:16 AM:::[mus.ec]Created pipe console.ERROR
+3:49:16 AM:::Failed to load c++ bson extension, using pure JS version
+3:49:17 AM:::Failed to load c++ bson extension, using pure JS version
+4:32:35 AM:::[mus.ec]Created pipe console.ERROR
+4:32:36 AM:::Failed to load c++ bson extension, using pure JS version
+4:32:37 AM:::[mus.ec]Created pipe console.ERROR
+4:32:38 AM:::Failed to load c++ bson extension, using pure JS version
+4:32:38 AM:::[mus.ec]Created pipe console.ERROR
+4:32:58 AM:::[mus.ec]Created pipe console.ERROR
+4:32:59 AM:::Failed to load c++ bson extension, using pure JS version
+4:33:00 AM:::Failed to load c++ bson extension, using pure JS version
+4:33:01 AM:::[mus.ec]Created pipe console.ERROR
+4:33:01 AM:::Failed to load c++ bson extension, using pure JS version
+4:33:53 AM:::[mus.ec]Created pipe console.ERROR
+4:33:54 AM:::Failed to load c++ bson extension, using pure JS version
+4:33:56 AM:::Failed to load c++ bson extension, using pure JS version
+4:33:57 AM:::[mus.ec]Created pipe console.ERROR
+4:33:57 AM:::Failed to load c++ bson extension, using pure JS version
+4:34:27 AM:::[mus.ec]Created pipe console.ERROR
+4:34:28 AM:::Failed to load c++ bson extension, using pure JS version
+4:34:29 AM:::Failed to load c++ bson extension, using pure JS version
+4:34:30 AM:::[mus.ec]Created pipe console.ERROR
+4:34:31 AM:::Failed to load c++ bson extension, using pure JS version
+4:35:32 AM:::[mus.ec]Created pipe console.ERROR
+4:35:33 AM:::Failed to load c++ bson extension, using pure JS version
+4:35:35 AM:::Failed to load c++ bson extension, using pure JS version
+4:35:35 AM:::[mus.ec]Created pipe console.ERROR
+4:35:36 AM:::Failed to load c++ bson extension, using pure JS version
+4:35:37 AM:::Failed to load c++ bson extension, using pure JS version
+4:35:37 AM:::[mus.ec]Created pipe console.ERROR
+4:36:36 AM:::[mus.ec]Created pipe console.ERROR
+4:36:37 AM:::Failed to load c++ bson extension, using pure JS version
+4:36:38 AM:::Failed to load c++ bson extension, using pure JS version
+4:36:39 AM:::[mus.ec]Created pipe console.ERROR
+4:37:47 AM:::[mus.ec]Created pipe console.ERROR
+4:37:48 AM:::Failed to load c++ bson extension, using pure JS version
+4:37:49 AM:::Failed to load c++ bson extension, using pure JS version
+4:37:51 AM:::[mus.ec]Created pipe console.ERROR
+4:37:51 AM:::Failed to load c++ bson extension, using pure JS version
+4:38:23 AM:::[mus.ec]Created pipe console.ERROR
+4:38:24 AM:::Failed to load c++ bson extension, using pure JS version
+4:38:25 AM:::Failed to load c++ bson extension, using pure JS version
+4:38:28 AM:::[mus.ec]Created pipe console.ERROR
+4:38:29 AM:::Failed to load c++ bson extension, using pure JS version
+4:38:31 AM:::Failed to load c++ bson extension, using pure JS version
+4:38:31 AM:::[mus.ec]Created pipe console.ERROR
+4:39:03 AM:::[mus.ec]Created pipe console.ERROR
+4:39:04 AM:::Failed to load c++ bson extension, using pure JS version
+4:39:05 AM:::Failed to load c++ bson extension, using pure JS version
+4:39:06 AM:::[mus.ec]Created pipe console.ERROR
+4:39:40 AM:::[mus.ec]Created pipe console.ERROR
+4:39:41 AM:::Failed to load c++ bson extension, using pure JS version
+4:39:43 AM:::Failed to load c++ bson extension, using pure JS version
+4:39:44 AM:::[mus.ec]Created pipe console.ERROR
+4:41:22 AM:::[mus.ec]Created pipe console.ERROR
+4:41:23 AM:::Failed to load c++ bson extension, using pure JS version
+4:41:24 AM:::Failed to load c++ bson extension, using pure JS version
+4:41:25 AM:::{
+4:41:25 AM:::    "message": "The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.",
+4:41:25 AM:::    "code": "PermanentRedirect",
+4:41:25 AM:::    "time": "2014-05-24T04:41:25.896Z",
+4:41:25 AM:::    "statusCode": 301,
+4:41:25 AM:::    "retryable": false,
+4:41:25 AM:::    "_willRetry": false
+4:41:25 AM:::}
+4:41:56 AM:::[mus.ec]Created pipe console.ERROR
+4:41:57 AM:::Failed to load c++ bson extension, using pure JS version
+4:41:59 AM:::Failed to load c++ bson extension, using pure JS version
+4:42:00 AM:::{
+4:42:00 AM:::    "message": "The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.",
+4:42:00 AM:::    "code": "PermanentRedirect",
+4:42:00 AM:::    "time": "2014-05-24T04:42:00.140Z",
+4:42:00 AM:::    "statusCode": 301,
+4:42:00 AM:::    "retryable": false,
+4:42:00 AM:::    "_willRetry": false
+4:42:00 AM:::}
+4:43:12 AM:::[mus.ec]Created pipe console.ERROR
+4:43:13 AM:::Failed to load c++ bson extension, using pure JS version
+4:43:15 AM:::Failed to load c++ bson extension, using pure JS version
+4:43:15 AM:::[mus.ec]Created pipe console.ERROR
+4:43:23 AM:::[mus.ec]Created pipe console.ERROR
+4:43:24 AM:::Failed to load c++ bson extension, using pure JS version
+4:43:26 AM:::Failed to load c++ bson extension, using pure JS version
+4:43:26 AM:::{
+4:43:26 AM:::    "message": "The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.",
+4:43:26 AM:::    "code": "PermanentRedirect",
+4:43:26 AM:::    "time": "2014-05-24T04:43:26.956Z",
+4:43:26 AM:::    "statusCode": 301,
+4:43:26 AM:::    "retryable": false,
+4:43:26 AM:::    "_willRetry": false
+4:43:26 AM:::}
+4:43:44 AM:::[mus.ec]Created pipe console.ERROR
+4:43:46 AM:::Failed to load c++ bson extension, using pure JS version
+4:43:47 AM:::Failed to load c++ bson extension, using pure JS version
+4:43:48 AM:::{
+4:43:48 AM:::    "message": "The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.",
+4:43:48 AM:::    "code": "PermanentRedirect",
+4:43:48 AM:::    "time": "2014-05-24T04:43:48.203Z",
+4:43:48 AM:::    "statusCode": 301,
+4:43:48 AM:::    "retryable": false,
+4:43:48 AM:::    "_willRetry": false
+4:43:48 AM:::}
+4:46:31 AM:::[mus.ec]Created pipe console.ERROR
+4:46:32 AM:::Failed to load c++ bson extension, using pure JS version
+4:46:34 AM:::Failed to load c++ bson extension, using pure JS version
+4:46:55 AM:::[mus.ec]Created pipe console.ERROR
+4:46:56 AM:::Failed to load c++ bson extension, using pure JS version
+4:46:58 AM:::Failed to load c++ bson extension, using pure JS version
+4:47:08 AM:::[mus.ec]Created pipe console.ERROR
+4:47:09 AM:::Failed to load c++ bson extension, using pure JS version
+4:47:11 AM:::Failed to load c++ bson extension, using pure JS version
+4:47:44 AM:::[mus.ec]Created pipe console.ERROR
+4:47:58 AM:::Failed to load c++ bson extension, using pure JS version
+4:48:15 AM:::[mus.ec]Created pipe console.ERROR
+4:48:28 AM:::Failed to load c++ bson extension, using pure JS version
+4:48:47 AM:::Failed to load c++ bson extension, using pure JS version
+4:48:56 AM:::{
+4:48:56 AM:::    "message": "The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.",
+4:48:56 AM:::    "code": "PermanentRedirect",
+4:48:56 AM:::    "time": "2014-05-24T04:48:56.113Z",
+4:48:56 AM:::    "statusCode": 301,
+4:48:56 AM:::    "retryable": false,
+4:48:56 AM:::    "_willRetry": false
+4:48:56 AM:::}
+4:50:02 AM:::[mus.ec]Created pipe console.ERROR
+4:50:14 AM:::Failed to load c++ bson extension, using pure JS version
+4:50:17 AM:::Failed to load c++ bson extension, using pure JS version
+4:50:18 AM:::{
+4:50:18 AM:::    "message": "The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.",
+4:50:18 AM:::    "code": "PermanentRedirect",
+4:50:18 AM:::    "time": "2014-05-24T04:50:18.855Z",
+4:50:18 AM:::    "statusCode": 301,
+4:50:18 AM:::    "retryable": false,
+4:50:18 AM:::    "_willRetry": false
+4:50:18 AM:::}
+4:51:18 AM:::[mus.ec]Created pipe console.ERROR
+4:51:19 AM:::Failed to load c++ bson extension, using pure JS version
+4:51:19 AM:::Failed to load c++ bson extension, using pure JS version
+4:51:20 AM:::{
+4:51:20 AM:::    "message": "The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.",
+4:51:20 AM:::    "code": "PermanentRedirect",
+4:51:20 AM:::    "time": "2014-05-24T04:51:20.802Z",
+4:51:20 AM:::    "statusCode": 301,
+4:51:20 AM:::    "retryable": false,
+4:51:20 AM:::    "_willRetry": false
+4:51:20 AM:::}
+4:52:07 AM:::[mus.ec]Created pipe console.ERROR
+4:52:08 AM:::Failed to load c++ bson extension, using pure JS version
+4:52:10 AM:::Failed to load c++ bson extension, using pure JS version
+4:52:11 AM:::{
+4:52:11 AM:::    "message": "The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.",
+4:52:11 AM:::    "code": "PermanentRedirect",
+4:52:11 AM:::    "time": "2014-05-24T04:52:11.051Z",
+4:52:11 AM:::    "statusCode": 301,
+4:52:11 AM:::    "retryable": false,
+4:52:11 AM:::    "_willRetry": false
+4:52:11 AM:::}
+4:53:23 AM:::[mus.ec]Created pipe console.ERROR
+4:53:24 AM:::Failed to load c++ bson extension, using pure JS version
+4:53:25 AM:::Failed to load c++ bson extension, using pure JS version
+4:55:08 AM:::[mus.ec]Created pipe console.ERROR
+4:55:09 AM:::Failed to load c++ bson extension, using pure JS version
+4:55:10 AM:::Failed to load c++ bson extension, using pure JS version
+4:55:39 AM:::[mus.ec]Created pipe console.ERROR
+4:55:40 AM:::Failed to load c++ bson extension, using pure JS version
+4:55:41 AM:::Failed to load c++ bson extension, using pure JS version
+4:55:42 AM:::{
+4:55:42 AM:::    "message": "The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.",
+4:55:42 AM:::    "code": "PermanentRedirect",
+4:55:42 AM:::    "time": "2014-05-24T04:55:42.633Z",
+4:55:42 AM:::    "statusCode": 301,
+4:55:42 AM:::    "retryable": false,
+4:55:42 AM:::    "_willRetry": false
+4:55:42 AM:::}
+4:56:02 AM:::[mus.ec]Created pipe console.ERROR
+4:56:03 AM:::Failed to load c++ bson extension, using pure JS version
+4:56:04 AM:::Failed to load c++ bson extension, using pure JS version
+4:56:05 AM:::{
+4:56:05 AM:::    "message": "The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.",
+4:56:05 AM:::    "code": "PermanentRedirect",
+4:56:05 AM:::    "time": "2014-05-24T04:56:05.666Z",
+4:56:05 AM:::    "statusCode": 301,
+4:56:05 AM:::    "retryable": false,
+4:56:05 AM:::    "_willRetry": false
+4:56:05 AM:::}
+4:56:57 AM:::[mus.ec]Created pipe console.ERROR
+4:56:58 AM:::Failed to load c++ bson extension, using pure JS version
+4:56:59 AM:::Failed to load c++ bson extension, using pure JS version
+4:57:02 AM:::[mus.ec]Created pipe console.ERROR
+4:57:04 AM:::Failed to load c++ bson extension, using pure JS version
+4:57:05 AM:::Failed to load c++ bson extension, using pure JS version
+4:57:06 AM:::{
+4:57:06 AM:::    "message": "The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.",
+4:57:06 AM:::    "code": "PermanentRedirect",
+4:57:06 AM:::    "time": "2014-05-24T04:57:06.137Z",
+4:57:06 AM:::    "statusCode": 301,
+4:57:06 AM:::    "retryable": false,
+4:57:06 AM:::    "_willRetry": false
+4:57:06 AM:::}
+4:59:57 AM:::[mus.ec]Created pipe console.ERROR
+4:59:58 AM:::Failed to load c++ bson extension, using pure JS version
+4:59:59 AM:::Failed to load c++ bson extension, using pure JS version
+5:00:00 AM:::{
+5:00:00 AM:::    "message": "The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.",
+5:00:00 AM:::    "code": "PermanentRedirect",
+5:00:00 AM:::    "time": "2014-05-24T05:00:00.600Z",
+5:00:00 AM:::    "statusCode": 301,
+5:00:00 AM:::    "retryable": false,
+5:00:00 AM:::    "_willRetry": false
+5:00:00 AM:::}
+5:00:26 AM:::[mus.ec]Created pipe console.ERROR
+5:00:28 AM:::Failed to load c++ bson extension, using pure JS version
+5:00:29 AM:::Failed to load c++ bson extension, using pure JS version
+5:00:30 AM:::{
+5:00:30 AM:::    "message": "The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.",
+5:00:30 AM:::    "code": "PermanentRedirect",
+5:00:30 AM:::    "time": "2014-05-24T05:00:30.186Z",
+5:00:30 AM:::    "statusCode": 301,
+5:00:30 AM:::    "retryable": false,
+5:00:30 AM:::    "_willRetry": false
+5:00:30 AM:::}
+5:00:56 AM:::[mus.ec]Created pipe console.ERROR
+5:00:57 AM:::Failed to load c++ bson extension, using pure JS version
+5:00:58 AM:::Failed to load c++ bson extension, using pure JS version
+5:01:17 AM:::[mus.ec]Created pipe console.ERROR
+5:01:18 AM:::Failed to load c++ bson extension, using pure JS version
+5:01:20 AM:::Failed to load c++ bson extension, using pure JS version
+5:01:20 AM:::{
+5:01:20 AM:::    "message": "The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.",
+5:01:20 AM:::    "code": "PermanentRedirect",
+5:01:20 AM:::    "time": "2014-05-24T05:01:20.897Z",
+5:01:20 AM:::    "statusCode": 301,
+5:01:20 AM:::    "retryable": false,
+5:01:20 AM:::    "_willRetry": false
+5:01:20 AM:::}
+5:02:10 AM:::[mus.ec]Created pipe console.ERROR
+5:02:11 AM:::Failed to load c++ bson extension, using pure JS version
+5:02:13 AM:::Failed to load c++ bson extension, using pure JS version
+5:05:08 AM:::[mus.ec]Created pipe console.ERROR
+5:05:08 AM:::[mus.ec]Created pipe console.ERROR
+5:05:09 AM:::[mus.ec]Created pipe console.ERROR
+5:05:09 AM:::[mus.ec]Created pipe console.ERROR
+5:05:09 AM:::[mus.ec]Created pipe console.ERROR
+5:05:09 AM:::[mus.ec]Created pipe console.ERROR
+5:05:10 AM:::[mus.ec]Created pipe console.ERROR
+5:05:10 AM:::[mus.ec]Created pipe console.ERROR
+5:05:10 AM:::[mus.ec]Created pipe console.ERROR
+5:05:20 AM:::[mus.ec]Created pipe console.ERROR
+5:05:21 AM:::[mus.ec]Created pipe console.ERROR
+5:05:26 AM:::[mus.ec]Created pipe console.ERROR
+5:05:28 AM:::Failed to load c++ bson extension, using pure JS version
+5:05:29 AM:::Failed to load c++ bson extension, using pure JS version
+5:11:38 AM:::[mus.ec]Created pipe console.ERROR
+5:11:40 AM:::Failed to load c++ bson extension, using pure JS version
+5:12:19 AM:::[mus.ec]Created pipe console.ERROR
+5:12:20 AM:::Failed to load c++ bson extension, using pure JS version
+5:12:22 AM:::Failed to load c++ bson extension, using pure JS version
+5:12:23 AM:::[mus.ec]Created pipe console.ERROR
+5:14:03 AM:::[mus.ec]Created pipe console.ERROR
+5:14:04 AM:::Failed to load c++ bson extension, using pure JS version
+5:14:06 AM:::Failed to load c++ bson extension, using pure JS version
+5:14:07 AM:::[aws-upload-delete-files-bucket.js:77] AWS S3 musec-media-cdn  FAILED 
+5:14:07 AM:::[aws-upload-delete-files-bucket.js:77] EXPECTED 
+5:14:07 AM:::[aws-upload-delete-files-bucket.js:77]Deletion error code 0
+5:14:07 AM:::[aws-upload-delete-files-bucket.js:77] ACTUAL 
+5:14:07 AM:::[aws-upload-delete-files-bucket.js:77]Deletion error code 1
+5:14:38 AM:::[mus.ec]Created pipe console.ERROR
+5:14:39 AM:::Failed to load c++ bson extension, using pure JS version
+5:14:41 AM:::Failed to load c++ bson extension, using pure JS version
+5:14:41 AM:::[aws-upload-delete-files-bucket.js:78] AWS S3 musec-media-cdn  FAILED 
+5:14:41 AM:::[aws-upload-delete-files-bucket.js:78] EXPECTED 
+5:14:41 AM:::[aws-upload-delete-files-bucket.js:78]Deletion error code 0
+5:14:41 AM:::[aws-upload-delete-files-bucket.js:78] ACTUAL 
+5:14:41 AM:::[aws-upload-delete-files-bucket.js:78]Deletion error code 1
+5:16:31 AM:::[mus.ec]Created pipe console.ERROR
+5:16:32 AM:::Failed to load c++ bson extension, using pure JS version
+5:16:34 AM:::Failed to load c++ bson extension, using pure JS version
+5:16:35 AM:::[aws-upload-delete-files-bucket.js:78] AWS S3 musec-media-cdn  FAILED 
+5:16:35 AM:::[aws-upload-delete-files-bucket.js:78] EXPECTED 
+5:16:35 AM:::[aws-upload-delete-files-bucket.js:78]Deletion error code 0
+5:16:35 AM:::[aws-upload-delete-files-bucket.js:78] ACTUAL 
+5:16:35 AM:::[aws-upload-delete-files-bucket.js:78]Deletion error code 1
+5:16:48 AM:::[mus.ec]Created pipe console.ERROR
+5:16:49 AM:::Failed to load c++ bson extension, using pure JS version
+5:16:51 AM:::Failed to load c++ bson extension, using pure JS version
+5:18:39 AM:::[mus.ec]Created pipe console.ERROR
+5:18:40 AM:::Failed to load c++ bson extension, using pure JS version
+5:18:41 AM:::Failed to load c++ bson extension, using pure JS version
+5:19:36 AM:::[mus.ec]Created pipe console.ERROR
+5:19:37 AM:::Failed to load c++ bson extension, using pure JS version
+5:19:38 AM:::Failed to load c++ bson extension, using pure JS version
+5:19:38 AM:::[mus.ec]Created pipe console.ERROR
+5:19:39 AM:::Failed to load c++ bson extension, using pure JS version
+5:19:40 AM:::Failed to load c++ bson extension, using pure JS version
+5:19:41 AM:::[mus.ec]Created pipe console.ERROR
+5:19:41 AM:::Failed to load c++ bson extension, using pure JS version
+5:19:57 AM:::[mus.ec]Created pipe console.ERROR
+5:19:59 AM:::Failed to load c++ bson extension, using pure JS version
+5:20:00 AM:::Failed to load c++ bson extension, using pure JS version
+5:20:13 AM:::[mus.ec]Created pipe console.ERROR
+5:20:13 AM:::Failed to load c++ bson extension, using pure JS version
+5:20:14 AM:::Failed to load c++ bson extension, using pure JS version
+5:20:49 AM:::[mus.ec]Created pipe console.ERROR
+5:20:49 AM:::Failed to load c++ bson extension, using pure JS version
+5:20:50 AM:::Failed to load c++ bson extension, using pure JS version
+5:21:30 AM:::[mus.ec]Created pipe console.ERROR
+5:21:30 AM:::Failed to load c++ bson extension, using pure JS version
+5:21:31 AM:::Failed to load c++ bson extension, using pure JS version
+5:23:13 AM:::[mus.ec]Created pipe console.ERROR
+5:23:13 AM:::Failed to load c++ bson extension, using pure JS version
+5:23:14 AM:::Failed to load c++ bson extension, using pure JS version
+5:23:36 AM:::[mus.ec]Created pipe console.ERROR
+5:23:36 AM:::Failed to load c++ bson extension, using pure JS version
+5:23:37 AM:::Failed to load c++ bson extension, using pure JS version
+5:25:33 AM:::[mus.ec]Created pipe console.ERROR
+5:25:33 AM:::Failed to load c++ bson extension, using pure JS version
+5:25:34 AM:::Failed to load c++ bson extension, using pure JS version
+5:26:17 AM:::[mus.ec]Created pipe console.ERROR
+5:26:17 AM:::Failed to load c++ bson extension, using pure JS version
+5:26:18 AM:::Failed to load c++ bson extension, using pure JS version
+5:26:19 AM:::[aws-upload-delete-files-bucket.js:81] AWS S3 musec-atomic-cdn-b  FAILED 
+5:26:19 AM:::[aws-upload-delete-files-bucket.js:81] EXPECTED 
+5:26:19 AM:::[aws-upload-delete-files-bucket.js:81]Deletion error code 0
+5:26:19 AM:::[aws-upload-delete-files-bucket.js:81] ACTUAL 
+5:26:19 AM:::[aws-upload-delete-files-bucket.js:81]Deletion error code 1
+5:28:46 AM:::[mus.ec]Created pipe console.ERROR
+5:28:46 AM:::Failed to load c++ bson extension, using pure JS version
+5:28:47 AM:::Failed to load c++ bson extension, using pure JS version
+5:28:48 AM:::[aws-upload-delete-files-bucket.js:81] AWS S3 musec-atomic-cdn-b  FAILED 
+5:28:48 AM:::[aws-upload-delete-files-bucket.js:81] EXPECTED 
+5:28:48 AM:::[aws-upload-delete-files-bucket.js:81]Deletion error code 0
+5:28:48 AM:::[aws-upload-delete-files-bucket.js:81] ACTUAL 
+5:28:48 AM:::[aws-upload-delete-files-bucket.js:81]Deletion error code 1
+5:30:32 AM:::[mus.ec]Created pipe console.ERROR
+5:30:32 AM:::Failed to load c++ bson extension, using pure JS version
+5:30:33 AM:::Failed to load c++ bson extension, using pure JS version
+5:30:34 AM:::[aws-upload-delete-files-bucket.js:81] AWS S3 musec-atomic-cdn-b  FAILED 
+5:30:34 AM:::[aws-upload-delete-files-bucket.js:81] EXPECTED 
+5:30:34 AM:::[aws-upload-delete-files-bucket.js:81]Deletion error code 0
+5:30:34 AM:::[aws-upload-delete-files-bucket.js:81] ACTUAL 
+5:30:34 AM:::[aws-upload-delete-files-bucket.js:81]Deletion error code 1
+5:30:57 AM:::[mus.ec]Created pipe console.ERROR
+5:30:59 AM:::Failed to load c++ bson extension, using pure JS version
+5:31:00 AM:::Failed to load c++ bson extension, using pure JS version
+5:31:01 AM:::[aws-upload-delete-files-bucket.js:81] AWS S3 musec-atomic-cdn-b  FAILED 
+5:31:01 AM:::[aws-upload-delete-files-bucket.js:81] EXPECTED 
+5:31:01 AM:::[aws-upload-delete-files-bucket.js:81]Deletion error code 0
+5:31:01 AM:::[aws-upload-delete-files-bucket.js:81] ACTUAL 
+5:31:01 AM:::[aws-upload-delete-files-bucket.js:81]Deletion error code 1
+5:31:36 AM:::[mus.ec]Created pipe console.ERROR
+5:31:37 AM:::[mus.ec]Created pipe console.ERROR
+5:31:38 AM:::Failed to load c++ bson extension, using pure JS version
+5:31:40 AM:::Failed to load c++ bson extension, using pure JS version
+5:31:41 AM:::[aws-upload-delete-files-bucket.js:81] AWS S3 musec-atomic-cdn-b  FAILED 
+5:31:41 AM:::[aws-upload-delete-files-bucket.js:81] EXPECTED 
+5:31:41 AM:::[aws-upload-delete-files-bucket.js:81]Deletion error code 0
+5:31:41 AM:::[aws-upload-delete-files-bucket.js:81] ACTUAL 
+5:31:41 AM:::[aws-upload-delete-files-bucket.js:81]Deletion error code 1
+5:32:17 AM:::[mus.ec]Created pipe console.ERROR
+5:32:18 AM:::Failed to load c++ bson extension, using pure JS version
+5:32:19 AM:::Failed to load c++ bson extension, using pure JS version
+5:32:20 AM:::[aws-upload-delete-files-bucket.js:81] AWS S3 musec-atomic-cdn-b  FAILED 
+5:32:20 AM:::[aws-upload-delete-files-bucket.js:81] EXPECTED 
+5:32:20 AM:::[aws-upload-delete-files-bucket.js:81]Deletion error code 0
+5:32:20 AM:::[aws-upload-delete-files-bucket.js:81] ACTUAL 
+5:32:20 AM:::[aws-upload-delete-files-bucket.js:81]Deletion error code 1
+5:32:49 AM:::[mus.ec]Created pipe console.ERROR
+5:32:50 AM:::Failed to load c++ bson extension, using pure JS version
+5:32:51 AM:::Failed to load c++ bson extension, using pure JS version
+5:32:52 AM:::[aws-upload-delete-files-bucket.js:81] AWS S3 musec-atomic-cdn-b  FAILED 
+5:32:52 AM:::[aws-upload-delete-files-bucket.js:81] EXPECTED 
+5:32:52 AM:::[aws-upload-delete-files-bucket.js:81]Deletion error code 0
+5:32:52 AM:::[aws-upload-delete-files-bucket.js:81] ACTUAL 
+5:32:52 AM:::[aws-upload-delete-files-bucket.js:81]Deletion error code 1
+5:34:06 AM:::[mus.ec]Created pipe console.ERROR
+5:34:07 AM:::Failed to load c++ bson extension, using pure JS version
+5:34:08 AM:::Failed to load c++ bson extension, using pure JS version
+5:34:09 AM:::[aws-upload-delete-files-bucket.js:81] AWS S3 musec-atomic-cdn-b  FAILED 
+5:34:09 AM:::[aws-upload-delete-files-bucket.js:81] EXPECTED 
+5:34:09 AM:::[aws-upload-delete-files-bucket.js:81]Deletion error code 0
+5:34:09 AM:::[aws-upload-delete-files-bucket.js:81] ACTUAL 
+5:34:09 AM:::[aws-upload-delete-files-bucket.js:81]Deletion error code 1
+5:34:37 AM:::[mus.ec]Created pipe console.ERROR
+5:34:38 AM:::[mus.ec]Created pipe console.ERROR
+5:34:40 AM:::Failed to load c++ bson extension, using pure JS version
+5:34:41 AM:::Failed to load c++ bson extension, using pure JS version
+5:34:52 AM:::[mus.ec]Created pipe console.ERROR
+5:34:52 AM:::Failed to load c++ bson extension, using pure JS version
+5:34:53 AM:::Failed to load c++ bson extension, using pure JS version
+5:35:26 AM:::[mus.ec]Created pipe console.ERROR
+5:35:26 AM:::Failed to load c++ bson extension, using pure JS version
+5:35:27 AM:::Failed to load c++ bson extension, using pure JS version
+5:35:40 AM:::[mus.ec]Created pipe console.ERROR
+5:35:40 AM:::Failed to load c++ bson extension, using pure JS version
+5:35:41 AM:::Failed to load c++ bson extension, using pure JS version
+5:35:48 AM:::[mus.ec]Created pipe console.ERROR
+5:35:48 AM:::Failed to load c++ bson extension, using pure JS version
+5:35:49 AM:::Failed to load c++ bson extension, using pure JS version
+5:36:30 AM:::[mus.ec]Created pipe console.ERROR
+5:36:30 AM:::Failed to load c++ bson extension, using pure JS version
+5:36:31 AM:::Failed to load c++ bson extension, using pure JS version
+5:36:31 AM:::[mus.ec]Created pipe console.ERROR
+5:36:32 AM:::Failed to load c++ bson extension, using pure JS version
+5:36:33 AM:::Failed to load c++ bson extension, using pure JS version
+5:36:33 AM:::[mus.ec]Created pipe console.ERROR
+5:36:34 AM:::Failed to load c++ bson extension, using pure JS version
+5:36:34 AM:::Failed to load c++ bson extension, using pure JS version
+5:36:35 AM:::[mus.ec]Created pipe console.ERROR
+5:36:35 AM:::Failed to load c++ bson extension, using pure JS version
+5:36:36 AM:::Failed to load c++ bson extension, using pure JS version
+5:36:36 AM:::[mus.ec]Created pipe console.ERROR
+5:36:37 AM:::Failed to load c++ bson extension, using pure JS version
+5:36:38 AM:::Failed to load c++ bson extension, using pure JS version
+5:36:38 AM:::[mus.ec]Created pipe console.ERROR
+5:36:38 AM:::Failed to load c++ bson extension, using pure JS version
+5:36:39 AM:::Failed to load c++ bson extension, using pure JS version
+5:36:40 AM:::[mus.ec]Created pipe console.ERROR
+5:36:40 AM:::Failed to load c++ bson extension, using pure JS version
+5:36:41 AM:::Failed to load c++ bson extension, using pure JS version
+5:36:41 AM:::[mus.ec]Created pipe console.ERROR
+5:36:42 AM:::Failed to load c++ bson extension, using pure JS version
+5:36:44 AM:::[mus.ec]Created pipe console.ERROR
+5:36:51 AM:::Failed to load c++ bson extension, using pure JS version
+5:37:01 AM:::Failed to load c++ bson extension, using pure JS version
+5:37:49 AM:::[mus.ec]Created pipe console.ERROR
+5:37:55 AM:::Failed to load c++ bson extension, using pure JS version
+5:38:06 AM:::Failed to load c++ bson extension, using pure JS version
+5:42:43 AM:::[mus.ec]Created pipe console.ERROR
+5:44:13 AM:::[mus.ec]Created pipe console.ERROR
+5:46:37 AM:::[mus.ec]Created pipe console.ERROR
+5:46:47 AM:::[mus.ec]Created pipe console.ERROR
+5:47:17 AM:::[mus.ec]Created pipe console.ERROR
+5:53:32 AM:::[mus.ec]Created pipe console.ERROR
+5:54:47 AM:::[mus.ec]Created pipe console.ERROR
+5:55:15 AM:::[mus.ec]Created pipe console.ERROR
+5:56:18 AM:::[mus.ec]Created pipe console.ERROR
+5:56:31 AM:::[mus.ec]Created pipe console.ERROR
+5:57:40 AM:::[mus.ec]Created pipe console.ERROR
+5:59:10 AM:::[mus.ec]Created pipe console.ERROR
+6:00:39 AM:::[mus.ec]Created pipe console.ERROR
+6:01:33 AM:::[mus.ec]Created pipe console.ERROR
+6:03:54 AM:::[mus.ec]Created pipe console.ERROR
+6:04:56 AM:::[mus.ec]Created pipe console.ERROR
+6:05:48 AM:::[mus.ec]Created pipe console.ERROR
+6:07:23 AM:::[mus.ec]Created pipe console.ERROR
+6:07:36 AM:::[mus.ec]Created pipe console.ERROR
+6:09:30 AM:::[mus.ec]Created pipe console.ERROR
+6:09:32 AM:::[search-id3.js:44] ID3 Test  FAILED 
+6:09:32 AM:::[search-id3.js:44] EXPECTED  Mylo Xyloto
+6:09:32 AM:::[search-id3.js:44] ACTUAL 
+6:09:50 AM:::[mus.ec]Created pipe console.ERROR
+6:09:52 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:09:52 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:09:52 AM:::[search-id3.js:42] ACTUAL 
+6:10:01 AM:::[mus.ec]Created pipe console.ERROR
+6:10:03 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:10:03 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:10:03 AM:::[search-id3.js:42] ACTUAL 
+6:10:56 AM:::[mus.ec]Created pipe console.ERROR
+6:10:58 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:10:58 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:10:58 AM:::[search-id3.js:42] ACTUAL  Ssad
+6:11:12 AM:::[mus.ec]Created pipe console.ERROR
+6:24:08 AM:::[mus.ec]Created pipe console.ERROR
+6:24:09 AM:::[mus.ec]Created pipe console.ERROR
+6:24:41 AM:::[mus.ec]Created pipe console.ERROR
+6:26:13 AM:::[mus.ec]Created pipe console.ERROR
+6:26:23 AM:::[mus.ec]Created pipe console.ERROR
+6:29:09 AM:::[mus.ec]Created pipe console.ERROR
+6:29:13 AM:::[mus.ec]Created pipe console.ERROR
+6:30:46 AM:::[mus.ec]Created pipe console.ERROR
+6:31:03 AM:::[mus.ec]Created pipe console.ERROR
+6:31:20 AM:::[mus.ec]Created pipe console.ERROR
+6:31:53 AM:::[mus.ec]Created pipe console.ERROR
+6:31:55 AM:::No filepath defined
+6:32:54 AM:::[mus.ec]Created pipe console.ERROR
+6:32:56 AM:::[mus.ec]Created pipe console.ERROR
+6:32:58 AM:::No filepath defined
+6:33:32 AM:::[mus.ec]Created pipe console.ERROR
+6:33:34 AM:::[mus.ec]Created pipe console.ERROR
+6:33:36 AM:::[mus.ec]Created pipe console.ERROR
+6:33:38 AM:::[mus.ec]Created pipe console.ERROR
+6:34:00 AM:::[mus.ec]Created pipe console.ERROR
+6:34:03 AM:::No keys defined
+6:35:29 AM:::[mus.ec]Created pipe console.ERROR
+6:35:31 AM:::[mus.ec]Created pipe console.ERROR
+6:35:52 AM:::[mus.ec]Created pipe console.ERROR
+6:38:41 AM:::[mus.ec]Created pipe console.ERROR
+6:39:14 AM:::[mus.ec]Created pipe console.ERROR
+6:39:51 AM:::[mus.ec]Created pipe console.ERROR
+6:40:14 AM:::[mus.ec]Created pipe console.ERROR
+6:40:29 AM:::[mus.ec]Created pipe console.ERROR
+6:40:38 AM:::[mus.ec]Created pipe console.ERROR
+6:41:51 AM:::[mus.ec]Created pipe console.ERROR
+6:42:40 AM:::[mus.ec]Created pipe console.ERROR
+6:45:29 AM:::[mus.ec]Created pipe console.ERROR
+6:47:01 AM:::[mus.ec]Created pipe console.ERROR
+6:47:03 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:47:03 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:47:03 AM:::[search-id3.js:42] ACTUAL  Sup
+6:47:51 AM:::[mus.ec]Created pipe console.ERROR
+6:47:52 AM:::[mus.ec]Created pipe console.ERROR
+6:47:54 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:47:54 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:47:54 AM:::[search-id3.js:42] ACTUAL  Sup
+6:48:15 AM:::[mus.ec]Created pipe console.ERROR
+6:48:17 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:48:17 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:48:17 AM:::[search-id3.js:42] ACTUAL  Sup
+6:48:34 AM:::[mus.ec]Created pipe console.ERROR
+6:48:36 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:48:36 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:48:36 AM:::[search-id3.js:42] ACTUAL  Sup
+6:49:10 AM:::[mus.ec]Created pipe console.ERROR
+6:49:12 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:49:12 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:49:12 AM:::[search-id3.js:42] ACTUAL  Sup
+6:49:12 AM:::[mus.ec]Created pipe console.ERROR
+6:49:14 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:49:14 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:49:14 AM:::[search-id3.js:42] ACTUAL  Sup
+6:49:14 AM:::[mus.ec]Created pipe console.ERROR
+6:49:16 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:49:16 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:49:16 AM:::[search-id3.js:42] ACTUAL  Sup
+6:49:16 AM:::[mus.ec]Created pipe console.ERROR
+6:49:18 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:49:18 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:49:18 AM:::[search-id3.js:42] ACTUAL  Sup
+6:49:18 AM:::[mus.ec]Created pipe console.ERROR
+6:49:20 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:49:20 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:49:20 AM:::[search-id3.js:42] ACTUAL  Sup
+6:49:20 AM:::[mus.ec]Created pipe console.ERROR
+6:49:22 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:49:22 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:49:22 AM:::[search-id3.js:42] ACTUAL  Sup
+6:49:22 AM:::[mus.ec]Created pipe console.ERROR
+6:49:24 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:49:24 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:49:24 AM:::[search-id3.js:42] ACTUAL  Sup
+6:49:24 AM:::[mus.ec]Created pipe console.ERROR
+6:49:25 AM:::[mus.ec]Created pipe console.ERROR
+6:49:46 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:49:46 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:49:46 AM:::[search-id3.js:42] ACTUAL  Sup
+6:49:53 AM:::[mus.ec]Created pipe console.ERROR
+6:50:36 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:50:36 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:50:36 AM:::[search-id3.js:42] ACTUAL  Forced write
+6:56:43 AM:::[mus.ec]Created pipe console.ERROR
+6:56:46 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:56:46 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:56:46 AM:::[search-id3.js:42] ACTUAL  Forced write
+6:56:46 AM:::[mus.ec]Created pipe console.ERROR
+6:56:48 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:56:48 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:56:48 AM:::[search-id3.js:42] ACTUAL  Forced write
+6:56:48 AM:::[mus.ec]Created pipe console.ERROR
+6:57:17 AM:::[mus.ec]Created pipe console.ERROR
+6:57:20 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:57:20 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:57:20 AM:::[search-id3.js:42] ACTUAL  Forced write
+6:57:21 AM:::[mus.ec]Created pipe console.ERROR
+6:57:42 AM:::[mus.ec]Created pipe console.ERROR
+6:57:45 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:57:45 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:57:45 AM:::[search-id3.js:42] ACTUAL  Forced write
+6:57:51 AM:::[mus.ec]Created pipe console.ERROR
+6:57:54 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:57:54 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:57:54 AM:::[search-id3.js:42] ACTUAL  eminemvevo
+6:59:05 AM:::[mus.ec]Created pipe console.ERROR
+6:59:07 AM:::[search-id3.js:42] ID3 Test  FAILED 
+6:59:07 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+6:59:07 AM:::[search-id3.js:42] ACTUAL  eminemvevo
+7:00:14 AM:::[mus.ec]Created pipe console.ERROR
+7:00:15 AM:::[mus.ec]Created pipe console.ERROR
+7:00:17 AM:::[search-id3.js:42] ID3 Test  FAILED 
+7:00:17 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+7:00:17 AM:::[search-id3.js:42] ACTUAL  eminemvevo
+7:00:45 AM:::[mus.ec]Created pipe console.ERROR
+7:00:47 AM:::[search-id3.js:42] ID3 Test  FAILED 
+7:00:47 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+7:00:47 AM:::[search-id3.js:42] ACTUAL  eminemvevo
+7:01:52 AM:::[mus.ec]Created pipe console.ERROR
+7:01:55 AM:::[search-id3.js:42] ID3 Test  FAILED 
+7:01:55 AM:::[search-id3.js:42] EXPECTED  Mylo Xyloto
+7:01:55 AM:::[search-id3.js:42] ACTUAL  eminemvevo
+7:03:12 AM:::[mus.ec]Created pipe console.ERROR
+7:03:13 AM:::[mus.ec]Created pipe console.ERROR
+7:03:15 AM:::[mus.ec]Created pipe console.ERROR
+7:03:22 AM:::[mus.ec]Created pipe console.ERROR
+7:03:26 AM:::[search-id3.js:41] ID3 Test  FAILED 
+7:03:26 AM:::[search-id3.js:41] EXPECTED  Mylo Xyloto
+7:03:26 AM:::[search-id3.js:41] ACTUAL  eminemvevo
+7:06:52 AM:::[mus.ec]Created pipe console.ERROR
+7:06:53 AM:::[search-id3.js:41] ID3 Test  FAILED 
+7:06:53 AM:::[search-id3.js:41] EXPECTED  Mylo Xyloto
+7:06:53 AM:::[search-id3.js:41] ACTUAL  eminemvevo
+7:09:53 AM:::[mus.ec]Created pipe console.ERROR
+7:09:56 AM:::[search-id3.js:41] ID3 Test  FAILED 
+7:09:56 AM:::[search-id3.js:41] EXPECTED  Mylo Xyloto
+7:09:56 AM:::[search-id3.js:41] ACTUAL  eminemvevo
+3:26:22 PM:::[mus.ec]Created pipe console.ERROR
+3:26:26 PM:::[mus.ec]Created pipe console.ERROR
+3:26:31 PM:::[mus.ec]Created pipe console.ERROR
+3:26:34 PM:::[mus.ec]Created pipe console.ERROR
+3:26:35 PM:::[mus.ec]Created pipe console.ERROR
+3:26:37 PM:::[mus.ec]Created pipe console.ERROR
+3:26:38 PM:::[mus.ec]Created pipe console.ERROR
+3:26:40 PM:::[mus.ec]Created pipe console.ERROR
+3:26:41 PM:::[mus.ec]Created pipe console.ERROR
+3:26:56 PM:::[mus.ec]Created pipe console.ERROR
+3:26:59 PM:::[mus.ec]Created pipe console.ERROR
+3:27:29 PM:::[mus.ec]Created pipe console.ERROR
+3:28:15 PM:::[mus.ec]Created pipe console.ERROR
+3:28:28 PM:::[mus.ec]Created pipe console.ERROR
+3:28:28 PM:::[mus.ec]Created pipe console.ERROR
+3:28:29 PM:::[mus.ec]Created pipe console.ERROR
+3:28:30 PM:::[mus.ec]Created pipe console.ERROR
+3:28:31 PM:::[mus.ec]Created pipe console.ERROR
+3:28:51 PM:::[mus.ec]Created pipe console.ERROR
+3:29:15 PM:::[mus.ec]Created pipe console.ERROR
+3:29:35 PM:::[mus.ec]Created pipe console.ERROR
+3:29:43 PM:::[mus.ec]Created pipe console.ERROR
+3:30:50 PM:::[mus.ec]Created pipe console.ERROR
+3:31:02 PM:::[mus.ec]Created pipe console.ERROR
+3:31:23 PM:::[mus.ec]Created pipe console.ERROR
+3:31:46 PM:::[mus.ec]Created pipe console.ERROR
+3:31:54 PM:::[mus.ec]Created pipe console.ERROR
+3:32:08 PM:::[mus.ec]Created pipe console.ERROR
+3:40:11 PM:::[mus.ec]Created pipe console.ERROR
+3:40:12 PM:::[mus.ec]Created pipe console.ERROR
+3:40:14 PM:::[mus.ec]Created pipe console.ERROR
+3:40:26 PM:::[mus.ec]Created pipe console.ERROR
+3:41:24 PM:::[mus.ec]Created pipe console.ERROR
+3:41:43 PM:::[mus.ec]Created pipe console.ERROR
+3:42:36 PM:::[mus.ec]Created pipe console.ERROR
+3:42:44 PM:::[mus.ec]Created pipe console.ERROR
+3:43:17 PM:::[mus.ec]Created pipe console.ERROR
+3:51:30 PM:::[mus.ec]Created pipe console.ERROR
+3:51:48 PM:::[mus.ec]Created pipe console.ERROR
+3:52:06 PM:::[mus.ec]Created pipe console.ERROR
+3:52:48 PM:::[mus.ec]Created pipe console.ERROR
+3:52:49 PM:::[mus.ec]Created pipe console.ERROR
+3:52:50 PM:::[mus.ec]Created pipe console.ERROR
+3:54:16 PM:::[mus.ec]Created pipe console.ERROR
+3:54:17 PM:::[mus.ec]Created pipe console.ERROR
+3:54:19 PM:::[mus.ec]Created pipe console.ERROR
+3:54:59 PM:::[mus.ec]Created pipe console.ERROR
+3:55:17 PM:::[mus.ec]Created pipe console.ERROR
+3:55:32 PM:::[mus.ec]Created pipe console.ERROR
+3:55:45 PM:::[mus.ec]Created pipe console.ERROR
+3:55:46 PM:::[mus.ec]Created pipe console.ERROR
+3:56:16 PM:::[mus.ec]Created pipe console.ERROR
+3:57:25 PM:::[mus.ec]Created pipe console.ERROR
+3:57:26 PM:::[mus.ec]Created pipe console.ERROR
+3:57:26 PM:::[mus.ec]Created pipe console.ERROR
+3:57:27 PM:::[mus.ec]Created pipe console.ERROR
+3:57:28 PM:::[mus.ec]Created pipe console.ERROR
+3:57:37 PM:::[mus.ec]Created pipe console.ERROR
+3:57:39 PM:::[mus.ec]Created pipe console.ERROR
+3:57:39 PM:::[mus.ec]Created pipe console.ERROR
+3:58:10 PM:::[mus.ec]Created pipe console.ERROR
+3:58:13 PM:::[mus.ec]Created pipe console.ERROR
+3:58:13 PM:::[mus.ec]Created pipe console.ERROR
+3:58:26 PM:::[mus.ec]Created pipe console.ERROR
+3:58:29 PM:::[mus.ec]Created pipe console.ERROR
+3:58:29 PM:::[mus.ec]Created pipe console.ERROR
+3:58:46 PM:::[mus.ec]Created pipe console.ERROR
+3:59:48 PM:::[mus.ec]Created pipe console.ERROR
+6:22:18 PM:::[mus.ec]Created pipe console.ERROR
+6:22:55 PM:::[mus.ec]Created pipe console.ERROR
+6:23:08 PM:::[mus.ec]Created pipe console.ERROR
+6:24:04 PM:::[mus.ec]Created pipe console.ERROR
+6:24:24 PM:::[mus.ec]Created pipe console.ERROR
+6:24:43 PM:::[mus.ec]Created pipe console.ERROR
+6:24:44 PM:::[mus.ec]Created pipe console.ERROR
+6:25:05 PM:::[mus.ec]Created pipe console.ERROR
+6:25:10 PM:::[mus.ec]Created pipe console.ERROR
+6:25:14 PM:::[mus.ec]Created pipe console.ERROR
+6:25:18 PM:::[mus.ec]Created pipe console.ERROR
+6:25:18 PM:::[mus.ec]Created pipe console.ERROR
+6:25:22 PM:::[mus.ec]Created pipe console.ERROR
+6:26:17 PM:::[mus.ec]Created pipe console.ERROR
+6:26:21 PM:::[mus.ec]Created pipe console.ERROR
+6:26:50 PM:::[mus.ec]Created pipe console.ERROR
+6:31:35 PM:::[mus.ec]Created pipe console.ERROR
+6:38:30 PM:::[mus.ec]Created pipe console.ERROR
+6:38:32 PM:::[mus.ec]Created pipe console.ERROR
+6:38:35 PM:::[mus.ec]Created pipe console.ERROR
+6:38:37 PM:::[mus.ec]Created pipe console.ERROR
+6:38:39 PM:::[mus.ec]Created pipe console.ERROR
+6:38:42 PM:::[mus.ec]Created pipe console.ERROR
+6:38:44 PM:::[mus.ec]Created pipe console.ERROR
+6:38:46 PM:::[mus.ec]Created pipe console.ERROR
+6:38:49 PM:::[mus.ec]Created pipe console.ERROR
+6:38:52 PM:::[mus.ec]Created pipe console.ERROR
+6:39:09 PM:::[mus.ec]Created pipe console.ERROR
+6:39:23 PM:::[mus.ec]Created pipe console.ERROR
+6:48:44 PM:::[mus.ec]Created pipe console.ERROR
+7:00:03 PM:::[mus.ec]Created pipe console.ERROR
+7:03:58 PM:::[mus.ec]Created pipe console.ERROR
+7:06:42 PM:::[mus.ec]Created pipe console.ERROR
+7:06:43 PM:::[mus.ec]Created pipe console.ERROR
+7:06:45 PM:::[mus.ec]Created pipe console.ERROR
+7:06:47 PM:::[mus.ec]Created pipe console.ERROR
+7:07:02 PM:::[mus.ec]Created pipe console.ERROR
+7:07:05 PM:::[mus.ec]Created pipe console.ERROR
+7:08:23 PM:::[mus.ec]Created pipe console.ERROR
+7:08:26 PM:::[mus.ec]Created pipe console.ERROR
+7:16:50 PM:::[mus.ec]Created pipe console.ERROR
+7:16:53 PM:::[mus.ec]Created pipe console.ERROR
+7:20:09 PM:::[mus.ec]Created pipe console.ERROR
+7:20:42 PM:::[mus.ec]Created pipe console.ERROR
+7:20:44 PM:::[mus.ec]Created pipe console.ERROR
+7:20:45 PM:::[mus.ec]Created pipe console.ERROR
+7:20:56 PM:::[mus.ec]Created pipe console.ERROR
+7:20:59 PM:::[mus.ec]Created pipe console.ERROR
+7:21:01 PM:::[mus.ec]Created pipe console.ERROR
+7:21:03 PM:::[mus.ec]Created pipe console.ERROR
+7:21:04 PM:::[mus.ec]Created pipe console.ERROR
+7:21:06 PM:::[mus.ec]Created pipe console.ERROR
+7:21:08 PM:::[mus.ec]Created pipe console.ERROR
+7:21:09 PM:::[mus.ec]Created pipe console.ERROR
+7:21:11 PM:::[mus.ec]Created pipe console.ERROR
+7:21:13 PM:::[mus.ec]Created pipe console.ERROR
+7:21:20 PM:::[mus.ec]Created pipe console.ERROR
+7:21:32 PM:::[mus.ec]Created pipe console.ERROR
+7:22:15 PM:::[mus.ec]Created pipe console.ERROR
+7:23:25 PM:::[mus.ec]Created pipe console.ERROR
+7:24:05 PM:::[mus.ec]Created pipe console.ERROR
+7:25:41 PM:::[mus.ec]Created pipe console.ERROR
+7:25:45 PM:::[mus.ec]Created pipe console.ERROR
+7:26:31 PM:::[mus.ec]Created pipe console.ERROR
+7:26:35 PM:::[mus.ec]Created pipe console.ERROR
+7:27:38 PM:::[mus.ec]Created pipe console.ERROR
+7:27:42 PM:::[mus.ec]Created pipe console.ERROR
+7:29:19 PM:::[mus.ec]Created pipe console.ERROR
+7:29:23 PM:::[mus.ec]Created pipe console.ERROR
+7:29:56 PM:::[mus.ec]Created pipe console.ERROR
+7:29:59 PM:::[mus.ec]Created pipe console.ERROR
+7:32:43 PM:::[mus.ec]Created pipe console.ERROR
+7:32:47 PM:::[mus.ec]Created pipe console.ERROR
+7:34:09 PM:::[mus.ec]Created pipe console.ERROR
+7:34:13 PM:::[mus.ec]Created pipe console.ERROR
+7:50:14 PM:::[mus.ec]Created pipe console.ERROR
+7:50:18 PM:::[mus.ec]Created pipe console.ERROR
+7:50:52 PM:::[mus.ec]Created pipe console.ERROR
+7:50:55 PM:::[mus.ec]Created pipe console.ERROR
+7:52:38 PM:::[mus.ec]Created pipe console.ERROR
+7:52:42 PM:::[mus.ec]Created pipe console.ERROR
+7:53:53 PM:::[mus.ec]Created pipe console.ERROR
+7:53:57 PM:::[mus.ec]Created pipe console.ERROR
+7:54:48 PM:::[mus.ec]Created pipe console.ERROR
+7:54:52 PM:::[mus.ec]Created pipe console.ERROR
+7:55:21 PM:::[mus.ec]Created pipe console.ERROR
+7:55:25 PM:::[mus.ec]Created pipe console.ERROR
+7:55:39 PM:::[mus.ec]Created pipe console.ERROR
+7:55:43 PM:::[mus.ec]Created pipe console.ERROR
+7:55:50 PM:::[mus.ec]Created pipe console.ERROR
+7:55:54 PM:::[mus.ec]Created pipe console.ERROR
+7:57:15 PM:::[mus.ec]Created pipe console.ERROR
+7:57:18 PM:::[mus.ec]Created pipe console.ERROR
+7:58:50 PM:::[mus.ec]Created pipe console.ERROR
+7:58:53 PM:::[mus.ec]Created pipe console.ERROR
+8:01:30 PM:::[mus.ec]Created pipe console.ERROR
+8:01:33 PM:::[mus.ec]Created pipe console.ERROR
+8:01:57 PM:::[mus.ec]Created pipe console.ERROR
+8:02:00 PM:::[mus.ec]Created pipe console.ERROR
+8:02:10 PM:::[mus.ec]Created pipe console.ERROR
+8:02:32 PM:::[mus.ec]Created pipe console.ERROR
+8:03:10 PM:::[mus.ec]Created pipe console.ERROR
+8:04:58 PM:::[mus.ec]Created pipe console.ERROR
+8:05:35 PM:::[mus.ec]Created pipe console.ERROR
+8:05:55 PM:::[mus.ec]Created pipe console.ERROR
+8:08:46 PM:::[mus.ec]Created pipe console.ERROR
+8:09:54 PM:::[mus.ec]Created pipe console.ERROR
+8:13:18 PM:::[mus.ec]Created pipe console.ERROR
+8:14:03 PM:::[mus.ec]Created pipe console.ERROR
+8:14:05 PM:::[mus.ec]Created pipe console.ERROR
+8:16:47 PM:::[mus.ec]Created pipe console.ERROR
+8:17:29 PM:::[mus.ec]Created pipe console.ERROR
+8:18:01 PM:::[mus.ec]Created pipe console.ERROR
+8:18:03 PM:::[mus.ec]Created pipe console.ERROR
+8:20:29 PM:::[mus.ec]Created pipe console.ERROR
+8:21:05 PM:::[mus.ec]Created pipe console.ERROR
+8:25:01 PM:::[mus.ec]Created pipe console.ERROR
+8:25:02 PM:::[mus.ec]Created pipe console.ERROR
+8:25:03 PM:::[mus.ec]Created pipe console.ERROR
+8:25:18 PM:::[mus.ec]Created pipe console.ERROR
+8:25:20 PM:::[mus.ec]Created pipe console.ERROR
+8:25:21 PM:::[mus.ec]Created pipe console.ERROR
+8:25:44 PM:::[mus.ec]Created pipe console.ERROR
+8:26:10 PM:::[mus.ec]Created pipe console.ERROR
+8:26:11 PM:::[mus.ec]Created pipe console.ERROR
+8:26:12 PM:::[mus.ec]Created pipe console.ERROR
+8:26:13 PM:::[mus.ec]Created pipe console.ERROR
+8:26:19 PM:::[mus.ec]Created pipe console.ERROR
+8:26:38 PM:::[mus.ec]Created pipe console.ERROR
+8:28:10 PM:::[mus.ec]Created pipe console.ERROR
+8:28:11 PM:::[mus.ec]Created pipe console.ERROR
+8:29:12 PM:::[mus.ec]Created pipe console.ERROR
+8:29:28 PM:::[mus.ec]Created pipe console.ERROR
+8:30:00 PM:::[mus.ec]Created pipe console.ERROR
+8:30:03 PM:::null
+8:30:11 PM:::[mus.ec]Created pipe console.ERROR
+8:30:18 PM:::[mus.ec]Created pipe console.ERROR
+8:30:21 PM:::null
+8:31:13 PM:::[mus.ec]Created pipe console.ERROR
+8:31:14 PM:::[mus.ec]Created pipe console.ERROR
+8:31:29 PM:::[mus.ec]Created pipe console.ERROR
+8:31:31 PM:::null
+8:32:16 PM:::[mus.ec]Created pipe console.ERROR
+8:33:37 PM:::[mus.ec]Created pipe console.ERROR
+8:35:41 PM:::[mus.ec]Created pipe console.ERROR
+8:35:44 PM:::[mus.ec]Created pipe console.ERROR
+8:36:08 PM:::[mus.ec]Created pipe console.ERROR
+8:36:11 PM:::[mus.ec]Created pipe console.ERROR
+8:36:21 PM:::[mus.ec]Created pipe console.ERROR
+8:36:26 PM:::[mus.ec]Created pipe console.ERROR
+8:36:46 PM:::[mus.ec]Created pipe console.ERROR
+8:36:51 PM:::[mus.ec]Created pipe console.ERROR
+8:38:23 PM:::[mus.ec]Created pipe console.ERROR
+8:38:29 PM:::[mus.ec]Created pipe console.ERROR
+8:39:01 PM:::[mus.ec]Created pipe console.ERROR
+8:39:07 PM:::[mus.ec]Created pipe console.ERROR
+8:39:13 PM:::[mus.ec]Created pipe console.ERROR
+8:39:58 PM:::[mus.ec]Created pipe console.ERROR
+8:40:03 PM:::[mus.ec]Created pipe console.ERROR
+8:40:20 PM:::[mus.ec]Created pipe console.ERROR
+8:40:25 PM:::[mus.ec]Created pipe console.ERROR
+8:40:50 PM:::[mus.ec]Created pipe console.ERROR
+8:40:55 PM:::[mus.ec]Created pipe console.ERROR
+8:42:30 PM:::[mus.ec]Created pipe console.ERROR
+8:42:35 PM:::[mus.ec]Created pipe console.ERROR
+8:43:28 PM:::[mus.ec]Created pipe console.ERROR
+8:43:45 PM:::[mus.ec]Created pipe console.ERROR
+8:45:08 PM:::[mus.ec]Created pipe console.ERROR
+8:45:26 PM:::[mus.ec]Created pipe console.ERROR
+11:25:26 PM:::[mus.ec]Created pipe console.ERROR
+11:29:33 PM:::[mus.ec]Created pipe console.ERROR
+11:31:30 PM:::[mus.ec]Created pipe console.ERROR
+11:31:49 PM:::[mus.ec]Created pipe console.ERROR
+11:31:51 PM:::[mus.ec]Created pipe console.ERROR
+11:32:51 PM:::[mus.ec]Created pipe console.ERROR
+11:32:56 PM:::[mus.ec]Created pipe console.ERROR
+11:32:59 PM:::[mus.ec]Created pipe console.ERROR
+11:33:42 PM:::[mus.ec]Created pipe console.ERROR
+11:33:46 PM:::[mus.ec]Created pipe console.ERROR
+11:34:13 PM:::[mus.ec]Created pipe console.ERROR
+11:34:49 PM:::[mus.ec]Created pipe console.ERROR
+11:35:35 PM:::[mus.ec]Created pipe console.ERROR
+11:35:50 PM:::[mus.ec]Created pipe console.ERROR
+11:46:21 PM:::[mus.ec]Created pipe console.ERROR
+11:46:25 PM:::[mus.ec]Created pipe console.ERROR
+11:56:03 PM:::[mus.ec]Created pipe console.ERROR
+11:56:07 PM:::[mus.ec]Created pipe console.ERROR
+11:57:29 PM:::[mus.ec]Created pipe console.ERROR
+11:58:04 PM:::[mus.ec]Created pipe console.ERROR
+11:58:31 PM:::[mus.ec]Created pipe console.ERROR
+11:58:44 PM:::[mus.ec]Created pipe console.ERROR

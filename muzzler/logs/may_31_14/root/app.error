@@ -1,0 +1,241 @@
+12:25:20 AM:::[mus.ec]Created pipe console.ERROR
+12:29:58 AM:::[mus.ec]Created pipe console.ERROR
+12:33:24 AM:::[mus.ec]Created pipe console.ERROR
+12:34:39 AM:::[mus.ec]Created pipe console.ERROR
+12:35:36 AM:::[mus.ec]Created pipe console.ERROR
+12:36:21 AM:::[mus.ec]Created pipe console.ERROR
+12:38:21 AM:::[mus.ec]Created pipe console.ERROR
+12:39:30 AM:::[mus.ec]Created pipe console.ERROR
+12:41:54 AM:::[mus.ec]Created pipe console.ERROR
+12:43:49 AM:::[mus.ec]Created pipe console.ERROR
+12:44:12 AM:::[mus.ec]Created pipe console.ERROR
+12:45:00 AM:::[mus.ec]Created pipe console.ERROR
+12:45:50 AM:::[mus.ec]Created pipe console.ERROR
+12:46:55 AM:::[mus.ec]Created pipe console.ERROR
+12:47:32 AM:::[mus.ec]Created pipe console.ERROR
+12:48:04 AM:::[mus.ec]Created pipe console.ERROR
+12:49:50 AM:::[mus.ec]Created pipe console.ERROR
+12:51:02 AM:::[mus.ec]Created pipe console.ERROR
+12:51:13 AM:::[mus.ec]Created pipe console.ERROR
+12:52:08 AM:::[mus.ec]Created pipe console.ERROR
+12:52:28 AM:::[mus.ec]Created pipe console.ERROR
+12:53:05 AM:::[mus.ec]Created pipe console.ERROR
+12:53:43 AM:::[mus.ec]Created pipe console.ERROR
+12:54:07 AM:::[mus.ec]Created pipe console.ERROR
+12:55:02 AM:::[mus.ec]Created pipe console.ERROR
+12:55:42 AM:::[mus.ec]Created pipe console.ERROR
+12:55:52 AM:::[mus.ec]Created pipe console.ERROR
+12:57:57 AM:::[mus.ec]Created pipe console.ERROR
+12:59:55 AM:::[mus.ec]Created pipe console.ERROR
+1:02:25 AM:::[mus.ec]Created pipe console.ERROR
+1:03:56 AM:::[mus.ec]Created pipe console.ERROR
+1:04:36 AM:::[mus.ec]Created pipe console.ERROR
+1:06:40 AM:::[mus.ec]Created pipe console.ERROR
+1:18:22 AM:::[mus.ec]Created pipe console.ERROR
+1:21:22 AM:::[mus.ec]Created pipe console.ERROR
+1:22:10 AM:::[mus.ec]Created pipe console.ERROR
+1:23:27 AM:::[mus.ec]Created pipe console.ERROR
+1:26:45 AM:::[mus.ec]Created pipe console.ERROR
+1:29:02 AM:::[mus.ec]Created pipe console.ERROR
+1:30:55 AM:::[mus.ec]Created pipe console.ERROR
+1:31:50 AM:::[mus.ec]Created pipe console.ERROR
+1:32:57 AM:::[mus.ec]Created pipe console.ERROR
+1:36:16 AM:::[mus.ec]Created pipe console.ERROR
+1:36:22 AM:::TypeError: Property 'statusCode' of object #<ServerResponse> is not a function
+1:36:22 AM:::    at /home/ec2-user/Dropbox/muzzler/server/libs/scribe/index.js:252:13
+1:36:22 AM:::    at callbacks (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:164:37)
+1:36:22 AM:::    at param (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:138:11)
+1:36:22 AM:::    at pass (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:145:5)
+1:36:22 AM:::    at Router._dispatch (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:173:5)
+1:36:22 AM:::    at Object.router (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:33:10)
+1:36:22 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:22 AM:::    at Object.secure (/home/ec2-user/Dropbox/muzzler/server/app.js:99:5)
+1:36:22 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:22 AM:::    at /home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/node_modules/express-session/index.js:350:9
+1:36:22 AM:::TypeError: Property 'statusCode' of object #<ServerResponse> is not a function
+1:36:22 AM:::    at /home/ec2-user/Dropbox/muzzler/server/libs/scribe/index.js:252:13
+1:36:22 AM:::    at callbacks (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:164:37)
+1:36:22 AM:::    at param (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:138:11)
+1:36:22 AM:::    at pass (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:145:5)
+1:36:22 AM:::    at Router._dispatch (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:173:5)
+1:36:22 AM:::    at Object.router (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:33:10)
+1:36:22 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:22 AM:::    at Object.secure (/home/ec2-user/Dropbox/muzzler/server/app.js:99:5)
+1:36:22 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:22 AM:::    at /home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/node_modules/express-session/index.js:350:9
+1:36:22 AM:::TypeError: Property 'statusCode' of object #<ServerResponse> is not a function
+1:36:22 AM:::    at /home/ec2-user/Dropbox/muzzler/server/libs/scribe/index.js:252:13
+1:36:22 AM:::    at callbacks (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:164:37)
+1:36:22 AM:::    at param (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:138:11)
+1:36:22 AM:::    at pass (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:145:5)
+1:36:22 AM:::    at Router._dispatch (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:173:5)
+1:36:22 AM:::    at Object.router (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:33:10)
+1:36:22 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:22 AM:::    at Object.secure (/home/ec2-user/Dropbox/muzzler/server/app.js:99:5)
+1:36:22 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:22 AM:::    at /home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/node_modules/express-session/index.js:350:9
+1:36:22 AM:::TypeError: Property 'statusCode' of object #<ServerResponse> is not a function
+1:36:22 AM:::    at /home/ec2-user/Dropbox/muzzler/server/libs/scribe/index.js:252:13
+1:36:22 AM:::    at callbacks (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:164:37)
+1:36:22 AM:::    at param (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:138:11)
+1:36:22 AM:::    at pass (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:145:5)
+1:36:22 AM:::    at Router._dispatch (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:173:5)
+1:36:22 AM:::    at Object.router (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:33:10)
+1:36:22 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:22 AM:::    at Object.secure (/home/ec2-user/Dropbox/muzzler/server/app.js:99:5)
+1:36:22 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:22 AM:::    at /home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/node_modules/express-session/index.js:350:9
+1:36:22 AM:::TypeError: Property 'statusCode' of object #<ServerResponse> is not a function
+1:36:22 AM:::    at /home/ec2-user/Dropbox/muzzler/server/libs/scribe/index.js:252:13
+1:36:22 AM:::    at callbacks (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:164:37)
+1:36:22 AM:::    at param (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:138:11)
+1:36:22 AM:::    at pass (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:145:5)
+1:36:22 AM:::    at Router._dispatch (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:173:5)
+1:36:22 AM:::    at Object.router (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:33:10)
+1:36:22 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:22 AM:::    at Object.secure (/home/ec2-user/Dropbox/muzzler/server/app.js:99:5)
+1:36:22 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:22 AM:::    at /home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/node_modules/express-session/index.js:350:9
+1:36:23 AM:::TypeError: Property 'statusCode' of object #<ServerResponse> is not a function
+1:36:23 AM:::    at /home/ec2-user/Dropbox/muzzler/server/libs/scribe/index.js:252:13
+1:36:23 AM:::    at callbacks (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:164:37)
+1:36:23 AM:::    at param (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:138:11)
+1:36:23 AM:::    at pass (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:145:5)
+1:36:23 AM:::    at Router._dispatch (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:173:5)
+1:36:23 AM:::    at Object.router (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:33:10)
+1:36:23 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:23 AM:::    at Object.secure (/home/ec2-user/Dropbox/muzzler/server/app.js:99:5)
+1:36:23 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:23 AM:::    at /home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/node_modules/express-session/index.js:350:9
+1:36:23 AM:::TypeError: Property 'statusCode' of object #<ServerResponse> is not a function
+1:36:23 AM:::    at /home/ec2-user/Dropbox/muzzler/server/libs/scribe/index.js:252:13
+1:36:23 AM:::    at callbacks (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:164:37)
+1:36:23 AM:::    at param (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:138:11)
+1:36:23 AM:::    at pass (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:145:5)
+1:36:23 AM:::    at Router._dispatch (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:173:5)
+1:36:23 AM:::    at Object.router (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:33:10)
+1:36:23 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:23 AM:::    at Object.secure (/home/ec2-user/Dropbox/muzzler/server/app.js:99:5)
+1:36:23 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:23 AM:::    at /home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/node_modules/express-session/index.js:350:9
+1:36:24 AM:::TypeError: Property 'statusCode' of object #<ServerResponse> is not a function
+1:36:24 AM:::    at /home/ec2-user/Dropbox/muzzler/server/libs/scribe/index.js:252:13
+1:36:24 AM:::    at callbacks (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:164:37)
+1:36:24 AM:::    at param (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:138:11)
+1:36:24 AM:::    at pass (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:145:5)
+1:36:24 AM:::    at Router._dispatch (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:173:5)
+1:36:24 AM:::    at Object.router (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:33:10)
+1:36:24 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:24 AM:::    at Object.secure (/home/ec2-user/Dropbox/muzzler/server/app.js:99:5)
+1:36:24 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:24 AM:::    at /home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/node_modules/express-session/index.js:350:9
+1:36:24 AM:::TypeError: Property 'statusCode' of object #<ServerResponse> is not a function
+1:36:24 AM:::    at /home/ec2-user/Dropbox/muzzler/server/libs/scribe/index.js:252:13
+1:36:24 AM:::    at callbacks (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:164:37)
+1:36:24 AM:::    at param (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:138:11)
+1:36:24 AM:::    at pass (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:145:5)
+1:36:24 AM:::    at Router._dispatch (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:173:5)
+1:36:24 AM:::    at Object.router (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:33:10)
+1:36:24 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:24 AM:::    at Object.secure (/home/ec2-user/Dropbox/muzzler/server/app.js:99:5)
+1:36:24 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:24 AM:::    at /home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/node_modules/express-session/index.js:350:9
+1:36:24 AM:::TypeError: Property 'statusCode' of object #<ServerResponse> is not a function
+1:36:24 AM:::    at /home/ec2-user/Dropbox/muzzler/server/libs/scribe/index.js:252:13
+1:36:24 AM:::    at callbacks (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:164:37)
+1:36:24 AM:::    at param (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:138:11)
+1:36:24 AM:::    at pass (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:145:5)
+1:36:24 AM:::    at Router._dispatch (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:173:5)
+1:36:24 AM:::    at Object.router (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:33:10)
+1:36:24 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:24 AM:::    at Object.secure (/home/ec2-user/Dropbox/muzzler/server/app.js:99:5)
+1:36:24 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:24 AM:::    at /home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/node_modules/express-session/index.js:350:9
+1:36:24 AM:::TypeError: Property 'statusCode' of object #<ServerResponse> is not a function
+1:36:24 AM:::    at /home/ec2-user/Dropbox/muzzler/server/libs/scribe/index.js:252:13
+1:36:24 AM:::    at callbacks (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:164:37)
+1:36:24 AM:::    at param (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:138:11)
+1:36:24 AM:::    at pass (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:145:5)
+1:36:24 AM:::    at Router._dispatch (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:173:5)
+1:36:24 AM:::    at Object.router (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:33:10)
+1:36:24 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:24 AM:::    at Object.secure (/home/ec2-user/Dropbox/muzzler/server/app.js:99:5)
+1:36:24 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:24 AM:::    at /home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/node_modules/express-session/index.js:350:9
+1:36:24 AM:::TypeError: Property 'statusCode' of object #<ServerResponse> is not a function
+1:36:24 AM:::    at /home/ec2-user/Dropbox/muzzler/server/libs/scribe/index.js:252:13
+1:36:24 AM:::    at callbacks (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:164:37)
+1:36:24 AM:::    at param (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:138:11)
+1:36:24 AM:::    at pass (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:145:5)
+1:36:24 AM:::    at Router._dispatch (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:173:5)
+1:36:24 AM:::    at Object.router (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:33:10)
+1:36:24 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:24 AM:::    at Object.secure (/home/ec2-user/Dropbox/muzzler/server/app.js:99:5)
+1:36:24 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:24 AM:::    at /home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/node_modules/express-session/index.js:350:9
+1:36:24 AM:::TypeError: Property 'statusCode' of object #<ServerResponse> is not a function
+1:36:24 AM:::    at /home/ec2-user/Dropbox/muzzler/server/libs/scribe/index.js:252:13
+1:36:24 AM:::    at callbacks (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:164:37)
+1:36:24 AM:::    at param (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:138:11)
+1:36:24 AM:::    at pass (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:145:5)
+1:36:24 AM:::    at Router._dispatch (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:173:5)
+1:36:24 AM:::    at Object.router (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:33:10)
+1:36:24 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:24 AM:::    at Object.secure (/home/ec2-user/Dropbox/muzzler/server/app.js:99:5)
+1:36:24 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:24 AM:::    at /home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/node_modules/express-session/index.js:350:9
+1:36:24 AM:::TypeError: Property 'statusCode' of object #<ServerResponse> is not a function
+1:36:24 AM:::    at /home/ec2-user/Dropbox/muzzler/server/libs/scribe/index.js:252:13
+1:36:24 AM:::    at callbacks (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:164:37)
+1:36:24 AM:::    at param (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:138:11)
+1:36:24 AM:::    at pass (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:145:5)
+1:36:24 AM:::    at Router._dispatch (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:173:5)
+1:36:24 AM:::    at Object.router (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/lib/router/index.js:33:10)
+1:36:24 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:24 AM:::    at Object.secure (/home/ec2-user/Dropbox/muzzler/server/app.js:99:5)
+1:36:24 AM:::    at next (/home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+1:36:24 AM:::    at /home/ec2-user/Dropbox/muzzler/server/node_modules/express/node_modules/connect/node_modules/express-session/index.js:350:9
+1:36:54 AM:::[mus.ec]Created pipe console.ERROR
+1:37:12 AM:::[mus.ec]Created pipe console.ERROR
+1:37:42 AM:::[mus.ec]Created pipe console.ERROR
+1:55:51 AM:::[mus.ec]Created pipe console.ERROR
+1:56:47 AM:::[mus.ec]Created pipe console.ERROR
+2:01:24 AM:::[mus.ec]Created pipe console.ERROR
+2:01:59 AM:::[mus.ec]Created pipe console.ERROR
+2:02:47 AM:::[mus.ec]Created pipe console.ERROR
+2:04:44 AM:::[mus.ec]Created pipe console.ERROR
+2:05:48 AM:::[mus.ec]Created pipe console.ERROR
+2:23:35 AM:::[mus.ec]Created pipe console.ERROR
+2:23:39 AM:::{
+2:23:39 AM:::    "killed": false,
+2:23:39 AM:::    "code": 1,
+2:23:39 AM:::    "signal": null
+2:23:39 AM:::}
+2:24:43 AM:::[mus.ec]Created pipe console.ERROR
+2:26:02 AM:::[mus.ec]Created pipe console.ERROR
+2:27:24 AM:::[mus.ec]Created pipe console.ERROR
+2:27:57 AM:::[mus.ec]Created pipe console.ERROR
+2:30:28 AM:::[mus.ec]Created pipe console.ERROR
+2:31:48 AM:::[mus.ec]Created pipe console.ERROR
+2:33:21 AM:::[mus.ec]Created pipe console.ERROR
+6:46:20 PM:::[mus.ec]Created pipe console.ERROR
+6:46:24 PM:::[mus.ec]Created pipe console.ERROR
+6:46:25 PM:::[mus.ec]Created pipe console.ERROR
+6:46:26 PM:::[mus.ec]Created pipe console.ERROR
+6:46:28 PM:::[mus.ec]Created pipe console.ERROR
+6:46:29 PM:::[mus.ec]Created pipe console.ERROR
+6:46:30 PM:::[mus.ec]Created pipe console.ERROR
+6:46:31 PM:::[mus.ec]Created pipe console.ERROR
+6:46:44 PM:::[mus.ec]Created pipe console.ERROR
+6:47:00 PM:::[mus.ec]Created pipe console.ERROR
+6:47:09 PM:::[mus.ec]Created pipe console.ERROR
+6:49:28 PM:::[mus.ec]Created pipe console.ERROR
+6:49:40 PM:::[mus.ec]Created pipe console.ERROR
+6:49:43 PM:::[mus.ec]Created pipe console.ERROR
+6:49:55 PM:::[mus.ec]Created pipe console.ERROR
+7:49:55 PM:::[mus.ec]Created pipe console.ERROR
+7:53:57 PM:::[mus.ec]Created pipe console.ERROR
+7:54:11 PM:::[mus.ec]Created pipe console.ERROR
+8:34:45 PM:::[mus.ec]Created pipe console.ERROR
+9:26:12 PM:::[mus.ec]Created pipe console.ERROR
+9:50:15 PM:::[mus.ec]Created pipe console.ERROR

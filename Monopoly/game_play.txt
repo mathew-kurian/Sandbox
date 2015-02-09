@@ -1,7 +1,0 @@
-Game Play in MONOPOLY:
-
-Starting with the Banker, each player in turn throws the dice. The player with the highest total starts the play. He places his token on the corner of the game board marked "GO", throws the 2 dice and moves his MONOPOLY token in the direction of the arrow, the number of spaces indicated by the dice. After he has completed his play, the turn to play passes to the left. The MONOPOLY tokens remain on the game board spaces occupied and proceed from that point on the player's next turn. Two or more tokens may rest on the same space at the same time.
-
-According to the space which his token reaches, a player may be entitled to buy real estate or other MONOPOLY properties, -or be obliged to pay rent, pay taxes, draw a Chance or Community Chest card, "Go to Jail", etc.
-
-If a player throws doubles he moves his token as usual the sum of the two dice and is subject to any privileges or penalties pertaining to the space on which he lands. Retaining the dice, he throws again and moves his token as before. If a player throws doubles three times in succession, he moves his token immediately to the space marked "In Jail" (see JAIL).

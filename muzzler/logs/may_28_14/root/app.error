@@ -1,0 +1,39 @@
+4:05:33 AM:::[mus.ec]Created pipe console.ERROR
+7:42:47 AM:::Error: /home/ec2-user/Dropbox/muzzler/server/views/hd/dashboard.jade:191
+7:42:47 AM:::    189|                             div(style='width:100%;margin-top:10px;text-align:center;position:relative;height:30px;text-align:center;font-size:0;')
+7:42:47 AM:::    190|                                 div.music-control-icon.icon.prev.animator-100ms.transform-center(style='display:inline-block;color:#FFF;font-size:22px;width:40px;height:40px;line-height:43px;text-align:center;margin-top:10px;margin-right:5px;') 
+7:42:47 AM:::  > 191|                                 div.music-control-icon..icon.play.animator-100ms.transform-center(style='display:inline-block;color:#FFF;font-size:16px;width:40px;height:40px;line-height:40px;text-align:center;text-indent:4px;border:2px solid #FFF;border-radius:100%;margin-top:10px;') 
+7:42:47 AM:::    192|                                 div.music-control-icon.icon.next.animator-100ms.transform-center(style='display:inline-block;color:#FFF;font-size:22px;width:40px;height:40px;line-height:43px;text-align:center;margin-top:10px;margin-left:5px;') 
+7:42:47 AM:::    193|                         div(style='position:absolute;top:440px;bottom:0;width:100%;background:#141414;')
+7:42:47 AM:::    194|                             div(style='width:100%;height:100%;')
+7:42:47 AM:::
+7:42:47 AM:::Unexpected token `class` expected `text`, `code`, `:`, `newline` or `eos`
+7:42:47 AM:::    at Parser.tag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:793:15)
+7:42:47 AM:::    at Parser.parseTag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:719:17)
+7:42:47 AM:::    at Parser.parseExpr (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:188:21)
+7:42:47 AM:::    at Parser.block (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:689:25)
+7:42:47 AM:::    at Parser.tag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:806:26)
+7:42:47 AM:::    at Parser.parseTag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:719:17)
+7:42:47 AM:::    at Parser.parseExpr (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:188:21)
+7:42:47 AM:::    at Parser.block (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:689:25)
+7:42:47 AM:::    at Parser.tag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:806:26)
+7:42:47 AM:::    at Parser.parseTag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:719:17)
+7:42:53 AM:::Error: /home/ec2-user/Dropbox/muzzler/server/views/hd/dashboard.jade:191
+7:42:53 AM:::    189|                             div(style='width:100%;margin-top:10px;text-align:center;position:relative;height:30px;text-align:center;font-size:0;')
+7:42:53 AM:::    190|                                 div.music-control-icon.icon.prev.animator-100ms.transform-center(style='display:inline-block;color:#FFF;font-size:22px;width:40px;height:40px;line-height:43px;text-align:center;margin-top:10px;margin-right:5px;') 
+7:42:53 AM:::  > 191|                                 div.music-control-icon..icon.play.animator-100ms.transform-center(style='display:inline-block;color:#FFF;font-size:16px;width:40px;height:40px;line-height:40px;text-align:center;text-indent:4px;border:2px solid #FFF;border-radius:100%;margin-top:10px;') 
+7:42:53 AM:::    192|                                 div.music-control-icon.icon.next.animator-100ms.transform-center(style='display:inline-block;color:#FFF;font-size:22px;width:40px;height:40px;line-height:43px;text-align:center;margin-top:10px;margin-left:5px;') 
+7:42:53 AM:::    193|                         div(style='position:absolute;top:440px;bottom:0;width:100%;background:#141414;')
+7:42:53 AM:::    194|                             div(style='width:100%;height:100%;')
+7:42:53 AM:::
+7:42:53 AM:::Unexpected token `class` expected `text`, `code`, `:`, `newline` or `eos`
+7:42:53 AM:::    at Parser.tag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:793:15)
+7:42:53 AM:::    at Parser.parseTag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:719:17)
+7:42:53 AM:::    at Parser.parseExpr (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:188:21)
+7:42:53 AM:::    at Parser.block (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:689:25)
+7:42:53 AM:::    at Parser.tag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:806:26)
+7:42:53 AM:::    at Parser.parseTag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:719:17)
+7:42:53 AM:::    at Parser.parseExpr (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:188:21)
+7:42:53 AM:::    at Parser.block (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:689:25)
+7:42:53 AM:::    at Parser.tag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:806:26)
+7:42:53 AM:::    at Parser.parseTag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:719:17)

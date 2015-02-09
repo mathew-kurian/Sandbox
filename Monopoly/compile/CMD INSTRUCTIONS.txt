@@ -1,9 +1,0 @@
-CD E:\Monopoly
-
-CD C:\Users\V\Desktop\Monopoly
-
-
-CD C:\Users\MKone\Desktop\Monopoly
-
-
-java -Xms256m -Xmx512m Launcher

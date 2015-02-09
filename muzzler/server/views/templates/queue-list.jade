@@ -1,0 +1,6 @@
+.music-tile.queue-list(id='{$m.id}', data-link="{$m.link}", data-sid='{$m._id}', data-pid='{$m.pid}',data-length-ms="{$m.lengthms}", data-length="{$m.length}", style='left:0;')
+    .music-control-icon.music-remove.animator-100ms.transform-center
+    .music-tile-title(style='width:55%') {$m.song}
+    .music-tile-author {$m.artist}
+    .music-tile-controls
+      .music-tile-length {$m.length}

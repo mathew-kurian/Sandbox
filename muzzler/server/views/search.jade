@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    h1= title
+
+    form#formAddUser(name="refreshlinks",method="post",action="/searchsongs")
+        input#inputUserEmail(type="text", placeholder="Search", name="songrequest")
+        button#btnSubmit(type="submit") Search songs
+
+    form#formAddUser(name="refreshlinks",method="post",action="/searchplaylists")
+        input#inputUserEmail(type="text", placeholder="Search", name="playlistrequest")
+        button#btnSubmit(type="submit") Search playlists

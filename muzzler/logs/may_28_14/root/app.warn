@@ -1,0 +1,7 @@
+4:05:33 AM:::[mus.ec]Created pipe console.WARN
+4:05:34 AM:::[notify.js:25]Listener add for on `17` event.
+4:05:34 AM:::[notify.js:30]Listener add for on `11` event.
+4:05:34 AM:::[notify.js:34]Listener add for on `3` event.
+4:05:36 AM:::connect.multipart() will be removed in connect 3.0
+4:05:36 AM:::visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+4:05:36 AM:::connect.limit() will be removed in connect 3.0

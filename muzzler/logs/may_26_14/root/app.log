@@ -1,0 +1,367 @@
+12:10:23 AM:::[mus.ec]Created pipe console.LOG
+12:10:25 AM:::Server listening on port 80
+12:11:33 AM:::[mus.ec]Created pipe console.LOG
+12:11:35 AM:::Server listening on port 80
+12:32:42 AM:::[mus.ec]Created pipe console.LOG
+12:32:43 AM:::Server listening on port 80
+12:33:24 AM:::[mus.ec]Created pipe console.LOG
+12:33:25 AM:::Server listening on port 80
+12:34:18 AM:::[mus.ec]Created pipe console.LOG
+12:34:19 AM:::Server listening on port 80
+12:34:28 AM:::[mus.ec]Created pipe console.LOG
+12:34:29 AM:::Server listening on port 80
+12:34:46 AM:::[mus.ec]Created pipe console.LOG
+12:34:47 AM:::Server listening on port 80
+12:35:07 AM:::[mus.ec]Created pipe console.LOG
+12:35:09 AM:::Server listening on port 80
+12:35:20 AM:::[mus.ec]Created pipe console.LOG
+12:35:21 AM:::Server listening on port 80
+12:35:22 AM:::[mus.ec]Created pipe console.LOG
+12:35:23 AM:::[mus.ec]Created pipe console.LOG
+12:35:25 AM:::Server listening on port 80
+12:35:53 AM:::[mus.ec]Created pipe console.LOG
+12:35:55 AM:::Server listening on port 80
+12:36:15 AM:::[mus.ec]Created pipe console.LOG
+12:36:17 AM:::Server listening on port 80
+12:36:20 AM:::[mus.ec]Created pipe console.LOG
+12:36:22 AM:::[mus.ec]Created pipe console.LOG
+12:36:23 AM:::Server listening on port 80
+12:36:39 AM:::[mus.ec]Created pipe console.LOG
+12:36:41 AM:::Server listening on port 80
+12:36:54 AM:::[LOGIN]Secure: false
+12:36:54 AM:::[LOGIN]User MathewKurian@utexas.edu is logging in.
+12:36:54 AM:::[LOGIN]User MathewKurian@utexas.edu is now logged in.
+12:36:54 AM:::[LOGIN]Assigned session id: 5377d58a30d549d141937842
+12:36:57 AM:::[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+12:36:57 AM:::[AUTHENTICATION]Access to page granted.
+12:36:57 AM:::[IX:LOG]Requesting music data.
+12:36:57 AM:::[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+12:36:57 AM:::[AUTHENTICATION]Access to page granted.
+12:36:57 AM:::[IX:LOG]Requesting music data.
+12:40:16 AM:::[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+12:40:16 AM:::[AUTHENTICATION]Access to page granted.
+12:40:16 AM:::[IX:LOG]Requesting music data.
+12:40:46 AM:::[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+12:40:46 AM:::[AUTHENTICATION]Access to page granted.
+12:40:46 AM:::[IX:LOG]Requesting music data.
+12:43:34 AM:::[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+12:43:34 AM:::[AUTHENTICATION]Access to page granted.
+12:43:34 AM:::[IX:LOG]Requesting music data.
+1:02:55 AM:::[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+1:02:55 AM:::[AUTHENTICATION]Access to page granted.
+1:02:55 AM:::[IX:LOG]Requesting music data.
+1:02:55 AM:::[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+1:02:55 AM:::[AUTHENTICATION]Access to page granted.
+1:02:55 AM:::[IX:LOG]Requesting music data.
+1:02:56 AM:::[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+1:02:56 AM:::[AUTHENTICATION]Access to page granted.
+1:02:56 AM:::[IX:LOG]Requesting music data.
+3:57:28 PM:::[mus.ec]Created pipe console.LOG
+3:57:30 PM:::Server listening on port 80
+3:57:47 PM:::[mus.ec]Created pipe console.LOG
+3:57:49 PM:::Server listening on port 80
+4:00:47 PM:::[mus.ec]Created pipe console.LOG
+4:00:49 PM:::Server listening on port 80
+4:00:50 PM:::[mus.ec]Created pipe console.LOG
+4:00:52 PM:::Server listening on port 80
+6:46:39 PM:::[mus.ec]Created pipe console.LOG
+6:46:41 PM:::Server listening on port 80
+6:49:51 PM:::[mus.ec]Created pipe console.LOG
+6:49:52 PM:::Server listening on port 80
+6:50:09 PM:::[mus.ec]Created pipe console.LOG
+6:50:10 PM:::Server listening on port 80
+6:50:30 PM:::[mus.ec]Created pipe console.LOG
+6:50:31 PM:::Server listening on port 80
+6:50:32 PM:::[Google.js]Received response from google.com
+6:50:32 PM:::[Google.js]Received response from google.com/images
+6:50:33 PM:::[Google.js]Found 100 images.
+6:50:33 PM:::{
+6:50:33 PM:::    "q": "reddit+gold",
+6:50:33 PM:::    "type": "images",
+6:50:33 PM:::    "strategy": "google",
+6:50:33 PM:::    "src": "http://img.skitch.com/20100715-im6eghexetg6ht5g85jr21f8a.jpg",
+6:50:33 PM:::    "title": "Image",
+6:50:33 PM:::    "__status": "valid Normalizer",
+6:50:33 PM:::    "id": "8451c784-6a8f-f525-f4fa-e8cb30193a08",
+6:50:33 PM:::    "resultCount": 0,
+6:50:33 PM:::    "filePath": "-",
+6:50:33 PM:::    "ext": "image",
+6:50:33 PM:::    "__safely": true
+6:50:33 PM:::}
+6:50:33 PM:::Started retreiving image
+6:50:33 PM:::/home/ec2-user/Dropbox/muzzler/server/libs/search/cache/8451c784-6a8f-f525-f4fa-e8cb30193a08.jpg
+6:50:41 PM:::[mus.ec]Created pipe console.LOG
+6:50:42 PM:::Server listening on port 80
+8:07:39 PM:::[mus.ec]Created pipe console.LOG
+8:07:41 PM:::Server listening on port 80
+8:07:45 PM:::[mus.ec]Created pipe console.LOG
+8:07:47 PM:::Server listening on port 80
+8:07:49 PM:::Responsed with data. Error - null
+8:07:49 PM:::Found 50 songs.
+8:07:49 PM:::{
+8:07:49 PM:::    "q": "Drake headlines",
+8:07:49 PM:::    "type": "music",
+8:07:49 PM:::    "strategy": "soundcloud",
+8:07:49 PM:::    "src": "http://soundcloud.com/octobersveryown/drake-headlines-choppedup-not",
+8:07:49 PM:::    "title": "Drake - Headlines Chopped~Up Not Slopped~Up OG RON C {OVO}",
+8:07:49 PM:::    "duration": 428257,
+8:07:49 PM:::    "img": "http://i1.sndcdn.com/artworks-000010027607-e2dmbj-large.jpg?30a2558",
+8:07:49 PM:::    "__status": "valid Normalizer",
+8:07:49 PM:::    "extras": {
+8:07:49 PM:::        "user_id": 1078461,
+8:07:49 PM:::        "description": "",
+8:07:49 PM:::        "playback_count": 162845,
+8:07:49 PM:::        "favoritings_count": 738,
+8:07:49 PM:::        "license": "all-rights-reserved"
+8:07:49 PM:::    },
+8:07:49 PM:::    "id": "bea8a50c-27a5-206a-bf64-a63d326b1fc5",
+8:07:49 PM:::    "resultCount": 0,
+8:07:49 PM:::    "filePath": "-",
+8:07:49 PM:::    "ext": "mp3",
+8:07:49 PM:::    "__safely": true
+8:07:49 PM:::}
+8:07:49 PM:::Started retreiving audio
+8:07:49 PM:::0.6%
+8:07:50 PM:::10.7%
+8:07:50 PM:::21.4%
+8:07:50 PM:::32.3%
+8:07:51 PM:::43.1%
+8:59:58 PM:::[mus.ec]Created pipe console.LOG
+9:00:00 PM:::Server listening on port 80
+9:00:19 PM:::[mus.ec]Created pipe console.LOG
+9:00:20 PM:::Server listening on port 80
+9:00:29 PM:::[mus.ec]Created pipe console.LOG
+9:00:30 PM:::Server listening on port 80
+9:00:51 PM:::[mus.ec]Created pipe console.LOG
+9:00:53 PM:::Server listening on port 80
+9:04:20 PM:::[mus.ec]Created pipe console.LOG
+9:04:22 PM:::Server listening on port 80
+9:04:22 PM:::<div id="tabs"  class="js-tabs tab_bar">
+9:04:22 PM:::        <div class="clearfix">
+9:04:22 PM:::                                        <a class="tab_bar_tab  en selected" href="/search?q=Drake headlines" data-title="141 Videos" title="141 Videos" data-browse-type="link">141 Videos</a>
+9:04:22 PM:::                                <a class="tab_bar_tab  en" href="/search/ondemand?q=Drake headlines" data-title="VOD" title="VOD" data-browse-type="link">VOD</a>
+9:04:22 PM:::                                <a class="tab_bar_tab  en" href="/search/people?q=Drake headlines" data-title="People" title="People" data-browse-type="link">People</a>
+9:04:22 PM:::                                <a class="tab_bar_tab  en" href="/search/channels?q=Drake headlines" data-title="Channels" title="Channels" data-browse-type="link">Channels</a>
+9:04:22 PM:::                                <a class="tab_bar_tab  en" href="/search/groups?q=Drake headlines" data-title="Groups" title="Groups" data-browse-type="link">Groups</a>
+9:04:22 PM:::                                <a class="tab_bar_tab  en" href="/search/forums?q=Drake headlines" data-title="Forums" title="Forums" data-browse-type="link">Forums</a>
+9:04:22 PM:::            </div>
+9:04:22 PM:::</div>
+9:04:22 PM:::
+9:04:22 PM:::            
+9:04:22 PM:::<div class="js-sortbar sortbar row clearfix">
+9:04:22 PM:::    <div class="clearfix small-12 column">
+9:04:22 PM:::                    <div class="js-sort sortbar_sorts">
+9:04:22 PM:::                <dl class="inline_block_list slash_list">
+9:04:22 PM:::                    <dt>Sort:</dt>
+9:04:22 PM:::                                                                    <dd><a href="/search/sort:relevant/format:thumbnail?q=Drake+headlines" title="Sort by: Relevant" data-browse-type="relevant" class="selected">Relevant</a></dd>
+9:04:22 PM:::                                                                    <dd><a href="/search/sort:date/format:thumbnail?q=Drake+headlines" title="Sort by: Date" data-browse-type="date">Date</a></dd>
+9:04:22 PM:::                                                                    <dd><a href="/search/sort:alphabetical/format:thumbnail?q=Drake+headlines" title="Sort by: Alphabetical" data-browse-type="alphabetical">Alphabetical</a></dd>
+9:04:22 PM:::                                                                    <dd><a href="/search/sort:plays/format:thumbnail?q=Drake+headlines" title="Sort by: Plays" data-browse-type="plays">Plays</a></dd>
+9:04:22 PM:::                                                                    <dd><a href="/search/sort:likes/format:thumbnail?q=Drake+headlines" title="Sort by: Likes" data-browse-type="likes"><span data-translate="short">Likes</span></a></dd>
+9:04:22 PM:::                                                                    <dd><a href="/search/sort:comments/format:thumbnail?q=Drake+headlines" title="Sort by: Comments" data-browse-type="comments"><span data-translate="short">Comments</span></a></dd>
+9:04:22 PM:::                                                                    <dd><a href="/search/sort:duration/format:thumbnail?q=Drake+headlines" title="Sort by: Duration" data-browse-type="duration">Duration</a></dd>
+9:04:22 PM:::                                    </dl>
+9:04:22 PM:::            </div>
+9:04:22 PM:::        
+9:04:22 PM:::        
+9:04:22 PM:::        <div class="floated_list sortbar_utils">
+9:04:22 PM:::                            <div class="js-format list_item floated_list format">
+9:04:22 PM:::                                            
+9:04:22 PM:::                        <a href="/search/sort:relevant/format:thumbnail?q=Drake+headlines" class="list_item sortbar_icon thumbnail selected" title="Thumbnails" data-browse-type="thumbnail"><b></b><i></i><b></b><i></i></a>
+9:04:22 PM:::                                            
+9:04:22 PM:::                        <a href="/search/sort:relevant/format:detail?q=Drake+headlines" class="list_item sortbar_icon detail" title="Details" data-browse-type="detail"><b></b><i></i><i></i><i></i><b></b><i></i><i></i><i></i></a>
+9:04:22 PM:::                                    </div>
+9:04:22 PM:::            
+9:04:22 PM:::                            <a href="/couchmode/search" class="list_item sortbar_icon viconify couchmode" title="Watch these videos in Couch Mode" data-browse-type="link">&#xe028;</a>
+9:04:22 PM:::            
+9:04:22 PM:::                    </div>
+9:04:22 PM:::    </div>
+9:04:22 PM:::
+9:04:22 PM:::    </div>
+9:04:22 PM:::
+9:04:22 PM:::            <div id="browse_content" data-search-id="56a4b76af901315fb976abeb8ccd515f1a5ceae7">
+9:04:22 PM:::                
+9:04:22 PM:::
+9:04:22 PM:::
+9:04:22 PM:::    
+9:04:22 PM:::    
+9:04:22 PM:::    
+9:04:22 PM:::    <ol class="js-browse_list clearfix browse browse_videos browse_videos_thumbnails kane" data-stream="search:Drake headlines::DESC">
+9:04:22 PM:::                            
+9:04:22 PM:::                                                                
+9:04:22 PM:::                <li id="clip_29906266" data-start-page="/search/page:1/sort:relevant/format:thumbnail" data-position="1">
+9:04:22 PM:::                                            <a href="/29906266" title="Drake ~ Headlines (Official Video)">
+9:04:22 PM:::                            
+9:04:22 PM:::                                                        <img src="http://i.vimeocdn.com/video/200596671_295x166.jpg" alt="" class="thumbnail thumbnail_lg_wide">
+9:04:22 PM:::
+9:04:22 PM:::                            <div class="data">
+9:04:22 PM:::                                <p class="title">
+9:04:22 PM:::                                    <mark>Drake</mark> ~ <mark>Headlines</mark> (Official Video)                                                                    </p>
+9:04:22 PM:::                                <p class="meta">
+9:04:22 PM:::                                                                                                                <time datetime="2011-10-02T05:33:46-04:00" title="Sunday, October 2, 2011 5:33 AM">2 years ago</time>                                                                    </p>
+9:04:22 PM:::                            </div>
+9:04:22 PM:::                        </a>
+9:04:22 PM:::                                                                                    </li>
+9:04:22 PM:::                                            
+9:04:22 PM:::                                                                                                                            
+9:04:22 PM:::                <li class="last" id="clip_29931639" data-position="2">
+9:04:22 PM:::                                            <a href="/29931639" title="Drake - Headlines">
+9:04:22 PM:::                            
+9:04:22 PM:::                                                        <img src="http://i.vimeocdn.com/video/200738846_295x166.jpg" alt="" class="thumbnail thumbnail_lg_wide">
+9:04:22 PM:::
+9:04:22 PM:::                            <div class="data">
+9:04:22 PM:::                                <p class="title">
+9:04:22 PM:::                                    <mark>Drake</mark> - <mark>Headlines</mark>                                                                    </p>
+9:04:22 PM:::                                <p class="meta">
+9:04:22 PM:::                                                                                                                <time datetime="2011-10-02T19:25:13-04:00" title="Sunday, October 2, 2011 7:25 PM">2 years ago</time>                                                                    </p>
+9:04:22 PM:::                            </div>
+9:04:22 PM:::                        </a>
+9:04:22 PM:::                                                                                    </li>
+9:04:22 PM:::                                            
+9:04:22 PM:::                                                                
+9:04:22 PM:::                <li id="clip_34369729" data-position="3">
+9:04:22 PM:::                                            <a href="/34369729" title="Drake - Headlines (Explicit).">
+9:04:22 PM:::                            
+9:04:22 PM:::                                                        <img src="http://i.vimeocdn.com/video/234004474_295x166.jpg" alt="" class="thumbnail thumbnail_lg_wide">
+9:04:22 PM:::
+9:04:22 PM:::                            <div class="data">
+9:04:22 PM:::                                <p class="title">
+9:04:22 PM:::                                    <mark>Drake</mark> - <mark>Headlines</mark> (Explicit).                                                                    </p>
+9:04:22 PM:::                                <p class="meta">
+9:04:22 PM:::                                                                                                                <time datetime="2011-12-30T09:30:16-05:00" title="Friday, December 30, 2011 9:30 AM">2 years ago</time>                                                                    </p>
+9:04:22 PM:::                            </div>
+9:04:22 PM:::                        </a>
+9:04:22 PM:::                                                                                    </li>
+9:04:22 PM:::                                            
+9:04:22 PM:::                                                                                                                            
+9:04:22 PM:::                <li class="last" id="clip_33205599" data-position="4">
+9:04:22 PM:::                                            <a href="/33205599" title="Miles K. Nomad Bodyboards">
+9:04:22 PM:::                            
+9:04:22 PM:::                                                        <img src="http://i.vimeocdn.com/video/225215437_295x166.jpg" alt="" class="thumbnail thumbnail_lg_wide">
+9:04:22 PM:::
+9:04:22 PM:::                            <div class="data">
+9:04:22 PM:::                                <p class="title">
+9:04:22 PM:::                                    Miles K. Nomad Bodyboards                                                                    </p>
+9:04:22 PM:::                                <p class="meta">
+9:04:22 PM:::                                                                                                                <time datetime="2011-12-06T02:20:13-05:00" title="Tuesday, December 6, 2011 2:20 AM">2 years ago</time>                                                                    </p>
+9:04:22 PM:::                            </div>
+9:04:22 PM:::                        </a>
+9:04:22 PM:::                                                                                    </li>
+9:04:22 PM:::                                            
+9:04:22 PM:::                                                                
+9:04:22 PM:::                <li id="clip_33398809" data-position="5">
+9:04:22 PM:::                                            <a href="/33398809" title="Drake - Headlines">
+9:04:22 PM:::                            
+9:04:22 PM:::                                                        <img src="http://i.vimeocdn.com/video/226672698_295x166.jpg" alt="" class="thumbnail thumbnail_lg_wide">
+9:04:22 PM:::
+9:04:22 PM:::                            <div class="data">
+9:04:22 PM:::                                <p class="title">
+9:04:22 PM:::                                    <mark>Drake</mark> - <mark>Headlines</mark>                                                                    </p>
+9:04:22 PM:::                                <p class="meta">
+9:04:22 PM:::                                                                                                                <time datetime="2011-12-09T08:17:48-05:00" title="Friday, December 9, 2011 8:17 AM">2 years ago</time>                                                                    </p>
+9:04:22 PM:::                            </div>
+9:04:22 PM:::                        </a>
+9:04:22 PM:::                                                                                    </li>
+9:04:22 PM:::                                            
+9:04:22 PM:::                                                                                                                            
+9:04:22 PM:::                <li class="last" id="clip_30915942" data-position="6">
+9:04:22 PM:::                                            <a href="/30915942" title="HEADLINES remix (PRINCE 85)">
+9:04:22 PM:::                            
+9:04:22 PM:::                                                        <img src="http://i.vimeocdn.com/video/207944602_295x166.jpg" alt="" class="thumbnail thumbnail_lg_wide">
+9:04:22 PM:::
+9:04:22 PM:::                            <div class="data">
+9:04:22 PM:::                                <p class="title">
+9:04:22 PM:::                                    <mark>HEADLINES</mark> remix (PRINCE 85)                                                                    </p>
+9:04:22 PM:::                                <p class="meta">
+9:04:22 PM:::                                                                                                                <time datetime="2011-10-21T12:57:22-04:00" title="Friday, October 21, 2011 12:57 PM">2 years ago</time>                                                                    </p>
+9:04:22 PM:::                            </div>
+9:04:22 PM:::                        </a>
+9:04:22 PM:::                                                                                    </li>
+9:04:22 PM:::                                            
+9:04:22 PM:::                                                                
+9:04:22 PM:::                <li id="clip_29165974" data-position="7">
+9:04:22 PM:::                                            <a href="/29165974" title="Drake - Headlines">
+9:04:22 PM:::                            
+9:04:22 PM:::                                                        <img src="http://i.vimeocdn.com/video/195157870_295x166.jpg" alt="" class="thumbnail thumbnail_lg_wide">
+9:04:22 PM:::
+9:04:22 PM:::                            <div class="data">
+9:04:22 PM:::                                <p class="title">
+9:04:22 PM:::                                    <mark>Drake</mark> - <mark>Headlines</mark>                                                                    </p>
+9:04:22 PM:::                                <p class="meta">
+9:04:22 PM:::                                                                                                                <time datetime="2011-09-16T17:10:26-04:00" title="Friday, September 16, 2011 5:10 PM">2 years ago</time>                                                                    </p>
+9:04:22 PM:::                            </div>
+9:04:22 PM:::                        </a>
+9:04:22 PM:::                                                                                    </li>
+9:04:22 PM:::                                            
+9:04:22 PM:::                                                                                                                            
+9:04:22 PM:::                <li class="last" id="clip_31199657" data-position="8">
+9:04:22 PM:::                                            <a href="/31199657" title="DEVIATION STRING QUARTET: LIL WAYNE - NIGHTMARES OF THE BOTTOM // DRAKE - HEADLINES">
+9:04:22 PM:::                            
+9:04:22 PM:::                                                        <img src="http://i.vimeocdn.com/video/210094858_295x166.jpg" alt="" class="thumbnail thumbnail_lg_wide">
+9:04:22 PM:::
+9:04:22 PM:::                            <div class="data">
+9:04:22 PM:::                                <p class="title">
+9:04:22 PM:::                                    DEVIATION STRING QUARTET: LIL WAYNE - NIGHTMARES OF THE BOTTOM // <mark>DRAKE</mark> - <mark>HEADLINES</mark>                                                                    </p>
+9:04:22 PM:::                                <p class="meta">
+9:04:22 PM:::                                                                                                                <time datetime="2011-10-27T09:46:36-04:00" title="Thursday, October 27, 2011 9:46 AM">2 years ago</time>                                                                    </p>
+9:04:22 PM:::                            </div>
+9:04:22 PM:::                        </a>
+9:04:22 PM:::                                                                                    </li>
+9:04:22 PM:::                                            
+9:04:22 PM:::                                                                
+9:04:22 PM:::                <li id="clip_38066747" data-end-page="/search/page:1/sort:relevant/format:thumbnail" data-position="9">
+9:04:22 PM:::                                            <a href="/38066747" title="Drake - Headlines">
+9:04:22 PM:::                            
+9:04:22 PM:::                                                        <img src="http://i.vimeocdn.com/video/261739748_295x166.jpg" alt="" class="thumbnail thumbnail_lg_wide">
+9:04:22 PM:::
+9:04:22 PM:::                            <div class="data">
+9:04:22 PM:::                                <p class="title">
+9:04:22 PM:::                                    <mark>Drake</mark> - <mark>Headlines</mark>                                                                    </p>
+9:04:22 PM:::                                <p class="meta">
+9:04:22 PM:::                                                                                                                <time datetime="2012-03-06T20:05:44-05:00" title="Tuesday, March 6, 2012 8:05 PM">2 years ago</time>                                                                    </p>
+9:04:22 PM:::                            </div>
+9:04:22 PM:::                        </a>
+9:04:22 PM:::                                                                                    </li>
+9:04:22 PM:::                                            
+9:04:22 PM:::                                                                                                                            
+9:04:22 PM:::                <li class="last" id="clip_27897403" data-position="10">
+9:04:22 PM:::                                            <a href="/27897403" title="Drake - Headlines">
+9:04:22 PM:::                            
+9:04:22 PM:::                                                        <img src="http://i.vimeocdn.com/video/185662049_295x166.jpg" alt="" class="thumbnail thumbnail_lg_wide">
+9:04:22 PM:::
+9:04:22 PM:::                            <div class="data">
+9:04:22 PM:::                                <p class="title">
+9:04:22 PM:::                                    <mark>Drake</mark> - <mark>Headlines</mark>                                                                    </p>
+9:04:22 PM:::                                <p class="meta">
+9:04:22 PM:::                                                                                                                <time datetime="2011-08-19T04:14:46-04:00" title="Friday, August 19, 2011 4:14 AM">2 years ago</time>                                                                    </p>
+9:04:22 PM:::                            </div>
+9:04:22 PM:::                        </a>
+9:04:22 PM:::                                                                                    </li>
+9:04:22 PM:::                                    </ol>
+9:04:22 PM:::
+9:04:22 PM:::    
+9:04:22 PM:::    <div id="pagination" class="pagination column small-12">
+9:04:22 PM:::        <ol>
+9:04:22 PM:::            
+9:04:22 PM:::            <li><a href="/search/page:1/sort:relevant/format:thumbnail?q=Drake+headlines" data-page="1" class="selected">1</a></li>
+9:04:22 PM:::
+9:04:22 PM:::            
+9:04:22 PM:::                            <li><a href="/search/page:2/sort:relevant/format:thumbnail?q=Drake+headlines" data-page="2">2</a></li>
+9:04:22 PM:::                            <li><a href="/search/page:3/sort:relevant/format:thumbnail?q=Drake+headlines" data-page="3">3</a></li>
+9:04:22 PM:::                            <li><a href="/search/page:4/sort:relevant/format:thumbnail?q=Drake+headlines" data-page="4">4</a></li>
+9:04:22 PM:::                            <li><a href="/search/page:5/sort:relevant/format:thumbnail?q=Drake+headlines" data-page="5">5</a></li>
+9:04:22 PM:::                            <li><a href="/search/page:6/sort:relevant/format:thumbnail?q=Drake+headlines" data-page="6">6</a></li>
+9:04:22 PM:::            
+9:04:22 PM:::                            <li class="dots">&hellip;</li>
+9:04:22 PM:::            
+9:04:22 PM:::                            <li><a href="/search/page:15/sort:relevant/format:thumbnail?q=Drake+headlines" data-page="15">15</a></li>
+9:04:22 PM:::            
+9:04:22 PM:::                                            <li class="pagination_next"><a href="/search/page:2/sort:relevant/format:thumbnail?q=Drake+headlines" data-page="2" rel="next">Next</a></li>
+9:04:22 PM:::                    </ol>
+9:04:22 PM:::    </div>
+9:04:22 PM:::
+9:04:22 PM:::                </div>
+9:04:22 PM:::29906266
+9:04:35 PM:::[mus.ec]Created pipe console.LOG
+9:04:37 PM:::Server listening on port 80
+9:04:37 PM:::29906266

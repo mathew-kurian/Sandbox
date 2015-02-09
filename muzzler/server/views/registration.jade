@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  body(style="overflow:hidden;")
+    div(style='bottom:0;width:100%;position:absolute;top:0;left:0;z-index:1;oveflow:hidden;top:35px;top:0;')
+        div(id='content-wrapper',style='height:100%;width:100%;')
+            div(id='content', style='height:auto;width:100%;')
+              div(class='animator dialog',id='dialog-1',style='width:900px;height:auto;margin:0 auto;margin-top:100px;box-shadow: 0 3px 7px rgba(0,0,0,0.3);position:absolute;left:0;right:0;top:0;z-index:9901;border-radius:4px;overflow:hidden;')
+                div(class='border-box',style='width:100%;padding:20px;background:#18aeaa;')
+                  div(class='border-box', style='width:100%;font-size:15px; color:#FFF;font-size:15px;font-weight:700;text-align:center;width:100%;text-transform:uppercase;letter-spacing:1px;') Completed your registration
+                div(class='border-box',style='width:100%;background:#FFF;padding: 20px;')
+                  .h1(style="color:#888;") Go to our homepage and login <a style = "font-weight:700;color:#333;text-decoration:none;", href='/'>Mus.ec</a>.

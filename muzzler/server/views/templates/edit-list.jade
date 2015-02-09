@@ -1,0 +1,7 @@
+.music-tile.edit-list(id='{$m._id}', data-sid='{$m._id}', data-pid='{$m.pid}',data-length-ms="{$m.lengthms}", data-length="{$m.length}", style='left:0;')
+    .music-menu.animator(style='background:#333;width:100px;height:100%;position:absolute;left:0;top:0;')            
+        .music-delete.animator-100ms
+    .music-container.animator(style='background:#000;height:100%;width:100%;position:absolute;left:0;top:0;z-index:2;')
+        .music-show-icon.music-plus.animator-100ms.transform-center
+        .music-tile-title {$m.song}
+        .music-tile-author {$m.artist}

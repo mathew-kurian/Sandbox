@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    h1= title
+    form#formAddUser(name="youtube",method="post",action="/convert")
+        input#inputUserEmail(type="text", placeholder="Invalid URLs will break", name="ylink")
+        button#btnSubmit(type="submit") submit

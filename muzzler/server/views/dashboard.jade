@@ -1,0 +1,167 @@
+div(id='dashboard-content', class='animator', style='height:100%;width:100%;opacity:0.2')
+  img(id="profile-img",style='height:100%;width:auto;margin: 0 auto;overflow:hidden;display:none;', src='assets/images/profile.jpg')
+  div(id='dashboard-sidebar',style='position:absolute;left:0;top:0;bottom:0;width:240px;background:#222;')   
+    div(style='height:75px;width:100%;background:#000;background-image:url(assets/images/logo-normal-thin-3.png);background-size:60%;background-repeat:no-repeat;background-position:center center;') 
+    div(class='dashboard-sidebar-btn',id='dashboard-sidebar-btn-music')
+        div(style='position: absolute; left: 20px; top: 0; bottom: 5px; width: 24px; background: url(assets/images/music.png) center center no-repeat; background-size: 68%;')
+        div(style='position: absolute; left: 66px; top: 0px; bottom: 0px; right: 0px; line-height: 50px; color: #FFF; text-transform: uppercase; font-size: 11px; letter-spacing: 2px; font-weight: 400;') Music
+    div(class='dashboard-sidebar-btn',id='dashboard-sidebar-btn-activity',style='height: 40px; width: 100%; position: relative;opacity:0.5;')
+        div(style='position: absolute; left: 20px; top: 0; bottom: 5px; width: 24px; background: url(assets/images/synchronize.png) center center no-repeat; background-size: 68%;')
+        div(style='position: absolute; left: 66px; top: 0px; bottom: 0px; right: 0px; line-height: 40px; color: #FFF; text-transform: uppercase; font-size: 11px; letter-spacing: 2px; font-weight: 400;') Activity
+    div(class='dashboard-sidebar-btn not-built',id='dashboard-sidebar-btn-synchronize',style='height: 40px; width: 100%; position: relative;opacity:0.5;')
+        div(style='position: absolute; left: 20px; top: 0; bottom: 5px; width: 24px; background: url(assets/images/activity.png) center center no-repeat; background-size: 68%;')
+        div(style='position: absolute; left: 66px; top: 0px; bottom: 0px; right: 0px; line-height: 40px; color: #FFF; text-transform: uppercase; font-size: 11px; letter-spacing: 2px; font-weight: 400;') Synchronize
+    div(class='dashboard-sidebar-btn not-built',id='dashboard-sidebar-btn-about',style='height: 40px; width: 100%; position: relative;opacity:0.5;')
+        div(style='position: absolute; left: 20px; top: 0; bottom: 5px; width: 24px; background: url(assets/images/about.png) center center no-repeat; background-size: 68%;')
+        div(style='position: absolute; left: 66px; top: 0px; bottom: 0px; right: 0px; line-height: 40px; color: #FFF; text-transform: uppercase; font-size: 11px; letter-spacing: 2px; font-weight: 400;') About
+    form(id="dashboard-upload-form", class='animator-100ms', method="post", action="audiomanager", enctype="multipart/form-data", style='height: 200px;width: 100%;background: #333;position: absolute;bottom: 50px;cursor:pointer;')
+      div(id='dashboard-sidebar-upload',style='width:100%;height:100%;position:relative;')
+        div(style='position: absolute;left: 20px;right: 20px;top: 20px;bottom: 20px;border: 1px dashed rgba(255,255,255,0.5);background:url(assets/images/upload-1.png) center center no-repeat;background-size:13%;')
+    div(style='position: absolute; bottom: 0; height: 50px; width: 100%;border-top:1px solid #555;')
+      div(id='now-playing-album-art-blurred',style='position: absolute; left: 0; top: 0; bottom: 0; right: 0; background: #888 center center no-repeat; background-size: cover; opacity: 0.3;')
+      div(id='now-playing-album-art',style='position: absolute; left: 0; top: 0; bottom: 0; width: 50px; background: #555 center center no-repeat; background-size: cover;')
+      div(style='position: absolute; left: 60px; top: 0; height: 25px; width: 100px; color: rgba(255, 255, 255, 0.46); text-transform: uppercase; letter-spacing: 2px; font-size: 9px; line-height: 35px; font-weight: 300;') Now Playing
+      div(id='now-playing-title',style='position: absolute; left: 60px; top: 25px; height: 25px; color: #FFF; font-size: 11px; line-height: 13px; opacity: 0.8; right: 0;') -/-
+  div(id='topbar',style='position:absolute;left:240px;top:0;right:0;height:75px;z-index:50;background: -moz-linear-gradient(top, #FFF, rgba(255,255,255,0.9));background: -ms-linear-gradient(top, #FFF, rgba(255,255,255,0.9));background: -webkit-linear-gradient(top, #FFF, rgba(255,255,255,0.9));background: -linear-gradient(top, #FFF, rgba(255,255,255,0.9));overflow:hidden;background:#FFF;')
+    div(style='position: absolute;left: 22px;top: 22px;background-image: url(assets/images/menu.png);background-repeat: no-repeat;background-position: center center;height: 32px;width: 32px;background-size: cover;display:none;')
+    canvas(id='profile-img-canvas-2',style='position:absolute;height:auto;width:100%;opacity:0.4;margin-top:-20%;z-index:1;display:none;')
+    div(id='search-box',style='display: none;position:absolute;top:20px;bottom:20px;left:20px;width:300px;border:1px solid rgb(131,131,131);border-radius:8px;z-index:2;border: 1px solid #BBB;color: #AAA;')
+       div(style='position:absolute;left:6px;top:6px;bottom:6px;width:15px;background:url(assets/images/search.png) center center no-repeat;background-size:cover;opacity:0.5;left: 9px;top: 9px;bottom: 9px;width: 15px;')
+       div(style='text-indent:35px;line-height:35px;color:#888;font-weight:400;font-size:12px;') Search your library
+    div(id='add-playlist-handle',class='animator',style='position: absolute;right: 85px;top: 22px;height: 30px;width: 116px;border-radius: 4px;cursor: pointer;color: #FFF;font-size: 10px;letter-spacing: 1px;background: #18AEAA;line-height: 30px;font-weight: 600;text-align: center;') CREATE PLAYLIST
+    div(id='notification-handle',class='notification-icon animator',style='position:absolute;right:30px;top:22px;height:30px;width:30px;border-radius:4px;cursor:pointer;')
+  div(class='nicescroll',style='position:absolute;left:240px;top:75px;bottom:50px;right:310px;background:#111;overflow-y:auto;-webkit-perspective: 2000;overflow-x:hidden;')   
+    div(id='flow',style='width:100%;height:100%;background:#111;')
+  div(style='position:absolute;width:300px;top:75px;right:0;bottom:50px;background:#333;overflow:hidden;')
+    canvas(id='profile-img-canvas',style='position:absolute;height:100%;width:100%;opacity:0.4;background:url(https://mus.ec/assets/images/profile-blurred.jpg) center center no-repeat;background-size:cover;')
+    div(style='position: absolute;top: 0;left: 0;height: 130px;width: 130px;overflow: hidden;height: 160px;width: 299px;opacity:0.3;')
+      div(style='position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: 5; background: url(assets/images/profile.jpg) center center no-repeat; background-size: cover; box-shadow: inset 0 0 1px 1px rgba(255,255,255,0.08);')
+      div(style='position:absolute;left:0;right:0;top:0;bottom:0;background:-webkit-linear-gradient(top, transparent, rgba(0,0,0,1));background:-webkit-linear-gradient(top, transparent, rgba(0,0,0,1));background:-moz-linear-gradient(top, transparent, rgba(0,0,0,1));background:-ms-linear-gradient(top, transparent, rgba(0,0,0,1));background:-o-linear-gradient(top, transparent, rgba(0,0,0,1));z-index:8;')
+    div(id='user-fullname',style='position: absolute;top: 46px;left: 0;right: 0;height: 22px;font-weight: 400;color: #FFF;font-size: 19px;text-align: center;font-family: "Proxima Nova";z-index:10;') 
+    div(id='user-usage',style='position: absolute;top: 71px;height: 22px;font-weight: 100;color: rgba(255,255,255,0.75);font-size: 10px;text-align: center;left:15px;right:15px;z-index:10;') 
+    div(id='logoff',class='rounded-button animator-100ms',style='position: absolute;top: 117px;height: 22px;margin: 0 auto;left: 143px;width: 108px;top:100px;left: 95px;z-index:10;') LOGOUT
+    div(style='position:absolute;left:10px;right:10px;height:35px;border-top:1px solid rgba(255,255,255,0.4);top:160px;display:none;')
+      div(style='position:absolute;left:0;width:93px;top:0;bottom:0;border-right:1px solid rgba(255,255,255,0.4);')
+        div(style='position:absolute;left:0;right:0;top:5px;height:20px;line-height:20px;color:#FFF;text-align:center;font-size:12px;font-weight:800;letter-spacing:1px;') 350           
+        div(style='position:absolute;left:0;right:0;top:21px;height:15px;line-height:15px;color:rgba(255,255,255,0.8);text-align:center;font-size: 8px;font-weight: 400;letter-spacing: 1px;text-transform: uppercase;') Songs 
+      div(style='position:absolute;left:103px;width:93px;top:0;bottom:0;border-right:1px solid rgba(255,255,255,0.4);')
+        div(style='position:absolute;left:0;right:0;top:5px;height:20px;line-height:20px;color:#FFF;text-align:center;font-size:12px;font-weight:800;letter-spacing:1px;') 17         
+        div(style='position:absolute;left:0;right:0;top:21px;height:15px;line-height:15px;color:rgba(255,255,255,0.8);text-align:center;font-size: 8px;font-weight: 400;letter-spacing: 1px;text-transform: uppercase;') Playlists
+      div(style='position:absolute;left:196px;width:93px;top:0;bottom:0;')
+        div(style='position:absolute;left:0;right:0;top:5px;height:20px;line-height:20px;color:#FFF;text-align:center;font-size:12px;font-weight:800;letter-spacing:1px;') TX         
+        div(style='position:absolute;left:0;right:0;top:21px;height:15px;line-height:15px;color:rgba(255,255,255,0.8);text-align:center;font-size: 8px;font-weight: 400;letter-spacing: 1px;text-transform: uppercase;') USA          
+    div(style='position: absolute;left: 0;right: 0;top: 160px;height: 40px;right: 0;background:rgba(0,0,0,0.8);text-align: center;') 
+      div(style='position:absolute;left:0;top:0;bottom:0;width:40px;background:#000;background-size:25%;background-image:url(assets/images/queue.png); background-position:center center;background-repeat:no-repeat;border-right:1px solid rgba(255,255,255,0.15);')
+      div(style='position:absolute;left:50px;top:0;bottom:0;line-height: 40px;color: #FFF;font-size: 10px;letter-spacing: 2px;font-weight: 700;') QUEUE
+      div(id='queue-play',style='position:absolute;right:0;top:0;bottom:0;width:40px;background:#000;background-size:60%;background-image:url(assets/images/play.png); background-position:center center;background-repeat:no-repeat;border-left:1px solid rgba(255,255,255,0.15);cursor:pointer;')
+      div(id='queue-shuffle',style='position:absolute;right:41px;top:0;bottom:0;width:40px;background:#000;background-size:35%;background-image:url(assets/images/shuffle.png); background-position:center center;background-repeat:no-repeat;border-left:1px solid rgba(255,255,255,0.15);cursor:pointer;')
+    div(style='position: absolute; left: 0; right: 0; top: 200px; background: rgba(0,0,0,0.75);bottom:0;')
+      div(style='position:absolute;top:0px;bottom:0;left:0;right:0;')
+        div(style='width: 100%; height: 100%;')
+          #queue(style='width: 100%; height: auto;min-height:100%;')
+            div(class='center-in-parent',style='position:relative;height:63px;width:80px;text-align:center;opacity:0.5;/*border-radius:10px;background:rgba(255,255,255,0.1);*/padding:10px;')
+              div(style='height:30px;width:30px;background:url(assets/images/alert.png) center center no-repeat;background-size:50%;margin:0 auto;')
+              div(style='line-height: 12px;color: #FFF;font-size: 10px;letter-spacing: 1px;font-weight: 400;') Add music to begin!
+    div(style='position: absolute; left: 0; right: 0; top: 314px; background: rgba(0,0,0,0.4);height:42px;display:none;')
+      div(style='position:absolute;left:32px;width:45px;top:8px;height:26px;bottom:0;border-radius:5px;border-radius: 30px;box-shadow: inset 0 0 0 1px rgba(255,255,255,0.2);')
+        div(style='position:absolute;left:14.5px;width:16px;top:5px;height:16px;bottom:0;background:url(assets/images/genius.png) center center no-repeat;background-size:cover;')
+      div(style='position:absolute;left:135px;width:45px;top:8px;height:26px;bottom:0;border-radius:5px;background:rgba(255,255,255,0.3);border-radius: 30px;box-shadow: inset 0 0 0 1px rgba(255,255,255,0.2);')
+        div(style='position:absolute;left:14.5px;width:16px;top:6px;height:14px;bottom:0;background:url(assets/images/playlist.png) center center no-repeat;background-size:cover;background-size: auto 100%;')
+  div(id='music-bar',style='border-top:1px solid #222;position:absolute;left:240px;height:50px;bottom:0;right:0;z-index:20;opacity:1.0;overflow:hidden;background: #000;z-index:999;')
+    div.animator(id='music-previous',style='position:absolute;left:35px;height:30px;top:10px;width:30px;')
+    div.animator(id='music-next',style='position:absolute;left:128px;height:30px;top:10px;width:30px;')
+    div.animator(id='music-play',style='position:absolute;left:83px;height:30px;top:10px;width:30px;')
+    div(id='music-controller-wrapper',style='position:absolute;left:200px;right:210px;top:22px;height:5px;border-radius:20px;background:#444;')
+      div(id='music-controller',class='animator-100ms')
+      div(id='music-scrubber',class='animator-100ms')
+        div(id='music-scrubber-thumb',class='animator-100ms')
+    div(id='music-repeat',style='position:absolute;right:59px;top:15px;bottom:10px;height:20px;width:50px;color:#FFF;font-weight:600;letter-spacing:1px;cursor:pointer;line-height:22px;font-size: 9px;text-align:center;background: #222;border-radius: 2px;') ALL
+    div(style='position:absolute;right:75px;top:15px;bottom:10px;height:20px;width:80px;color:#FFF;font-weight:400;letter-spacing:1px;line-height:20px;font-size: 9px;opacity:0.5;height:20px;overflow:hidden;right:118px;') <span id = "music-current-time">0:00</span> / <span  id = "music-duration">0:00</span>
+    div(id='music-volume',class='music-volume-med',style='position:absolute;cursor:pointer;right:11px;top:10px;bottom:10px;width:30px;background-position: left center;background-repeat: no-repeat;background-size:60%;cursor:pointer;')
+  div(id='curtain',class='animator',style='position:absolute;left:250px;top:0;bottom:50px;right:0;background:-webkit-linear-gradient(left, transparent, #000 75%);background:-ms-linear-gradient(left, transparent, #000 75%);background:-moz-linear-gradient(left, transparent, #000 75%);background:-linear-gradient(left, transparent, #000 75%);opacity:0;z-index:90;display:none;')
+  div(class='animator',id='reveal',style='position:absolute;right:0;bottom:50px;top:0;right:-400px;width:400px;background:#000;z-index:900;overflow:hidden;')
+    div(style='position:absolute;background:rgba(255,255,255,0.08);left:0;top:0;bottom:0;width:1px;z-index:20;')
+    div(style='position: absolute; background: rgba(255,255,255,0.08); left: 0; top: 0; bottom: 0; width: 100%; height:1px; z-index: 20;')
+    div(style='position: absolute; background: rgba(255,255,255,0.08); left: 0; top: 394px; bottom: 0; width: 100%; height:1px; z-index: 20;')
+    div(class='animator',id="album-blur-canvas",style='height:100%;width:400px;top:0;left:0;position:absolute;opacity:0.4;background-size: cover;background-position: center center;')
+    div(style='height:200px;width:200px;top:50px;left:100px;position:absolute;box-shadow:0 0 100px rgba(0, 0, 0, 0.5);overflow:hidden;')
+      div(id='album',style='height:100%;width:100%;position:absolute;left:0;right:0;top:0;bottom:0;z-index:5;background:transparent;box-shadow:inset 0 0 1px 1px rgba(255,255,255,0.08);background-size:cover;')
+    div(id='playlist-name',style='position:absolute;top:278px;left:0;right:0;height:22px;font-weight:400;color:#FFF;font-size:22px;text-align:center;letter-spacing:1px;font-family:"Proxima Nova";') Sigur Ros
+    div(id='playlist-edit-button',class='rounded-button animator-100ms',style='position: absolute;top: 310px;height: 22px;font-weight: 400;font-size: 10px;text-align: center;letter-spacing: 1px;font-family: "Proxima Nova";border: 1px solid rgba(255,255,255,0.4);border-radius: 20px;line-height: 22px;margin: 0 auto;left: 143px;width: 108px;') EDIT
+    div(style='position: absolute;top: 340px;height: 22px;font-weight: 400;color: rgba(255,255,255,0.6);font-size: 10px;text-align: center;letter-spacing: 1px;font-family: "Proxima Nova";line-height: 22px;margin: 0 auto;left: 0;right:0;color:rgba(255,255,255,0.8);text-align:center;font-size: 8px;font-weight: 400;letter-spacing: 1px;text-transform: uppercase;') 
+          span(id='playlist-count' style='margin-right:3px;') 0
+          span SONG(S) &middot; UPDATED 1 DAY AGO
+    div(style='position:absolute;left:0;right:0;bottom:0;top:395px;background:rgba(0,0,0,0.7);')
+      div(id='focused-playlist-scrollable-parent', style='width:100%;height:100%;')
+        div(id='focused-playlist-scrollable', style='width:100%;height:auto;')
+  div(style='position:absolute;left:240px;right:0;top:75px;bottom:50px;background:#FFF;z-index: 800;box-shadow:inset 0 15px 15px -15px rgba(0,0,0,0.3);display:none;')
+    div(style='position:absolute;left:70px;top:50px;right:70px;height:400px;')    
+div(class='animator',id='dialog-bg', style ="position:absolute;height:100%;width:100%;top:0;left:0;z-index:9900;")
+div(class='animator dialog',id='dialog-0',style='width:550px;height:auto;margin:0 auto;margin-top:100px;box-shadow: 0 3px 7px rgba(0,0,0,0.3);-webkit-transform:translate3d(0, -%, 0);-ms-transform:translate3d(0, -%, 0);position:absolute;left:0;right:0;top:0;z-index:9901;')
+  div(class='border-box',style='width:100%;background:#FFF;padding:20px;')
+    div(class='border-box', style='width:100%;font-size:15px; color:#555;font-size:14px;font-weight:700;text-align:center;width:100%;text-transform:uppercase;letter-spacing:1px;') Name Your Song
+    div(class='border-box', style='width:100%;font-size:15px; color:#555;font-size:12px;font-weight:300;text-align:center;width:100%;margin-top:10px;line-height: 15px;') Enter a song name or a Youtube link to the song you want.
+  div(class='border-box',style='width:100%;background:#2e2e2e;padding: 20px;')
+    input(id='dialog-0-request',class='animator-100ms border-box dialog-form-dark',style='width: 100%;max-width: 100%;height: 40px;', placeholder='Youtube link or song name...') 
+    div(class='border-box', style='width:100%;position:relative;margin-top:20px;height:15px;') 
+      div(class='toggle-box',id='dialog-0-agreement',data-selected='false',style='height:10px;width:10px;border:2px solid #888;position:absolute;left:5px;top:0;border-radius:2px;') 
+      div(style='position:absolute;left:30px;top:1px;right:0;bottom:0;font-size:15px; color:#AAA;font-size:12px;font-weight:300;text-align:left;width:100%;line-height: 15px;') I agree to the <a style = "font-weight:500;color:#FFF;text-decoration:none;", href='terms', target="_blank">terms</a> and the <a style = "font-weight:500;color:#FFF;text-decoration:none;", href='privacy', target="_blank">privacy policy</a>.
+  div(class='border-box menu',style='width:100%;padding:0 20px 20px 20px;background:#2e2e2e;position:relative;')    
+    div(class='animator border-box menu-title', id = "dialog-0-playlist", data-error="Create a playlist first.") Select a playlist
+    div(id='ytb-playlists',class='border-box menu-wrapper')  
+  div(class='border-box',style='width:100%;padding:0 20px 20px 20px;background:#2e2e2e;display:none;')
+    div(class='border-box',id='dialog-0-message',style='background:#171717;color:#AAA;font-size:9px;font-weight:700;text-align:left;width:100%;line-height: 11px;text-transform: uppercase;padding:12px;letter-spacing: 1px;border-radius:4px;')
+  div(style='width:100%;height:50px;background:#222;color:#FFF;font-size:13px;font-weight:700;letter-spacing:1px;line-height:50px;text-align:center;')
+    div(id='dialog-0-continue',style='width:100%;font-size:15px; color:#FFF;font-size:14px;background:#18aeaa;font-weight:700;text-align:center;width:100%;text-transform:uppercase;letter-spacing:1px;line-height:50px;height:50px;cursor:pointer;') Continue
+div(class='animator dialog',id='dialog-4',style='width:550px;height:auto;margin:0 auto;margin-top:100px;box-shadow: 0 3px 7px rgba(0,0,0,0.3);-webkit-transform:translate3d(0, -%, 0);-ms-transform:translate3d(0, -%, 0);position:absolute;left:0;right:0;top:0;z-index:9901;')
+  div(class='border-box',style='width:100%;background:#FFF;padding:20px;')
+    div(class='border-box', style='width:100%;font-size:15px; color:#555;font-size:14px;font-weight:700;text-align:center;width:100%;text-transform:uppercase;letter-spacing:1px;') New Playlist
+    div(class='border-box', style='width:100%;font-size:15px; color:#555;font-size:12px;font-weight:300;text-align:center;width:100%;margin-top:10px;line-height: 15px;') Enter a name for the playlist you want to create.
+  div(class='border-box',style='width:100%;background:#2e2e2e;padding: 20px;')
+    input(id='dialog-4-playlist',class='animator-100ms border-box dialog-form-dark',style='width: 100%;max-width: 100%;height: 40px;', placeholder='Enter a playlist name...') 
+  div(class='border-box',style='width:100%;padding:0 20px 20px 20px;background:#2e2e2e;display:none;')
+    div(class='border-box',id='dialog-4-message',style='background:#171717;color:#AAA;font-size:9px;font-weight:700;text-align:left;width:100%;line-height: 11px;text-transform: uppercase;padding:12px;letter-spacing: 1px;border-radius:4px;')
+  div(style='width:100%;height:50px;background:#222;color:#FFF;font-size:13px;font-weight:700;letter-spacing:1px;line-height:50px;text-align:center;')
+    div(id='dialog-4-create',style='width:100%;font-size:15px; color:#FFF;font-size:14px;background:#18aeaa;font-weight:700;text-align:center;width:100%;text-transform:uppercase;letter-spacing:1px;line-height:50px;height:50px;cursor:pointer;') Create
+div(class='animator dialog',id='dialog-1',style='width:550px;height:auto;margin:0 auto;margin-top:100px;box-shadow: 0 3px 7px rgba(0,0,0,0.3);-webkit-transform:translate3d(0, -%, 0);-ms-transform:translate3d(0, -%, 0);position:absolute;left:0;right:0;top:0;z-index:9901;')
+  div(class='border-box',style='width:100%;background:#FFF;padding:20px;')
+    div(class='border-box', style='width:100%;font-size:15px; color:#555;font-size:14px;font-weight:700;text-align:center;width:100%;text-transform:uppercase;letter-spacing:1px;') FILE UPLOAD
+    div(class='border-box', style='width:100%;font-size:15px; color:#555;font-size:12px;font-weight:300;text-align:center;width:100%;margin-top:10px;line-height: 15px;') Select confirm your files and upload.
+  div(class='border-box menu',style='width:100%;padding:20px 0 0 0;background:#2e2e2e;position:relative;') 
+  div(class='border-box menu',style='width:100%;padding:0 20px 20px 20px;background:#2e2e2e;position:relative;')    
+    div(class='animator border-box menu-title', id = "dialog-1-playlist", data-error="Create a playlist first.") Select a playlist
+    div(id='up-playlists',class='border-box menu-wrapper')  
+  div(class='border-box',style='width:100%;background:#2e2e2e;padding: 0 20px 20px 20px;')
+    div(class='border-box',id='dialog-1-files',style='background:#171717;color:#AAA;font-size:9px;font-weight:700;text-align:left;width:100%;line-height: 11px;text-transform: uppercase;letter-spacing: 1px;border-radius:4px;overflow:hidden;')
+  div(class='border-box',style='width:100%;padding:0 20px 20px 20px;background:#2e2e2e;display:none;')
+    div(class='border-box',id='dialog-1-message',style='background:#171717;color:#AAA;font-size:9px;font-weight:700;text-align:left;width:100%;line-height: 11px;text-transform: uppercase;padding:12px;letter-spacing: 1px;border-radius:4px;')
+  div(style='width:100%;height:50px;background:#222;color:#FFF;font-size:13px;font-weight:700;letter-spacing:1px;line-height:50px;text-align:center;')
+    div(id='dialog-1-continue',style='width:100%;font-size:15px; color:#FFF;font-size:14px;background:#18aeaa;font-weight:700;text-align:center;width:100%;text-transform:uppercase;letter-spacing:1px;line-height:50px;height:50px;cursor:pointer;') UPLOAD
+div(class='animator dialog',id='dialog-3',style='width:550px;height:456px;margin:0 auto;margin-top:75px;box-shadow: 0 3px 10px rgba(0,0,0,0.3);-webkit-transform:translate3d(0, -%, 0);-ms-transform:translate3d(0, -%, 0);position:absolute;right:0;top:0;z-index:9901;max-width:300px;overflow:hidden;right: 12px;top: -11px;border: 5px solid #333;border-radius:10px;')
+  div(class='border-box',style='width:100%;background:#333;padding:10px;')
+    div(class='border-box', style='width:100%;font-size:11px; color:#888;font-size:12px;font-weight:700;text-align:center;width:100%;text-transform:uppercase;letter-spacing:1px;') NOTIFICATIONS
+  div(id='dashboard-notifications',class='border-box',style='width:100%;background:#FFF;height:100%;')
+    //- div(style='width:100%;height:65px;border-bottom:1px solid #CCC;position:relative;')
+    //-   .notification-progress.animator(style='width:40px;height:40px;background:url(https://mus.ec/assets/images/default/def-4.jpg) center center no-repeat;background-size:cover;position:absolute;left:10px;top:10px;')
+    //-   .notification-h1(style='position:absolute;left:60px;right:10px;font-weight:600;letter-spacing:1px;color: #000;top: 19px;font-size: 9px;line-height: 9px;')
+    //-   .notification-h2(style='position:absolute;left:60px;right:10px;color:#AAA;font-size:10px; top: 29px;color: #807B7B;font-size: 11px;line-height: 13px;')
+    //-   .notification-pgs(style='position:absolute;left:0;right:0;background:#EEE;height:5px;bottom:0;')
+    //-     .notification-pgs-overlay(style='position:absolute;left:0; top: 0;background:#18AEAA;height:100%;width:10%;')
+    //-   .notification-time(style='position:absolute;color:#494949;font-size:9px; color: #000;font-size: 9px;line-height: 9px;right:10px;bottom:15px;text-align:right;') asdsd
+div(class='animator dialog',id='dialog-5',style='width:550px;height:auto;margin:0 auto;margin-top:100px;box-shadow: 0 3px 7px rgba(0,0,0,0.3);-webkit-transform:translate3d(0, -%, 0);-ms-transform:translate3d(0, -%, 0);position:absolute;left:0;right:0;top:0;z-index:9901;background:url(https://mus.ec/assets/images/default/blurred-def-3.jpg) center center no-repeat;background-size:cover;')
+  div(class='border-box',style='width:100%;background:#FFF;padding:20px;')
+    div(class='border-box', style='width:100%;font-size:15px; color:#555;font-size:14px;font-weight:700;text-align:center;width:100%;text-transform:uppercase;letter-spacing:1px;') EDIT PLAYLIST
+    div(class='border-box', style='width:100%;font-size:15px; color:#FFF;font-size:12px;font-weight:300;text-align:center;width:100%;margin-top:10px;line-height: 15px;display:none;') Your adjustments will override the default settings.
+  div(class='border-box',style='width:100%;padding: 20px;background: rgba(0,0,0,0.5);position:relative;')
+    div(style='height: 200px; width: 200px;  box-shadow: 0 0 100px rgba(0, 0, 0, 0.5); overflow: hidden;margin: 0 auto;margin-top: 10px;position:relative;')
+      canvas#album-edit-bg-img.animator(style='height: 100%; width: 100%;  left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 5; box-shadow: rgba(255, 255, 255, 0.0784314) 0px 0px 1px 1px inset; opacity: 1; background: url(https://mus.ec/assets/images/default/def-3.jpg)  transparent;background-size:cover;background-repeat:no-repeat;background-position:center center;position:relative;')
+      div(style='background:linear-gradient(top, transparent 55%, rgba(0,0,0,0.9));background:-moz-linear-gradient(top, transparent 55%, rgba(0,0,0,0.9));background:-ms-linear-gradient(top, transparent 55%, rgba(0,0,0,0.9));background:-webkit-linear-gradient(top, transparent 55%, rgba(0,0,0,0.9));top:0;bottom:0;right:0;left:0;z-index:6;position:absolute;')
+      div(id='playlist-delete-button',class='rounded-button animator-100ms',style='bottom: 10px;height: 22px;font-weight: 400;font-size: 10px;text-align: center;letter-spacing: 1px;font-family: "Proxima Nova";border: 1px solid rgba(255,255,255,0.4);border-radius: 20px;line-height: 22px;margin: 0 auto;left: 0;right:0;width: 108px;bottom: 10px;position: Absolute;z-index: 99999;') DELETE
+    input#album-edit-name(style='outline:none;width: 48%;margin: 0 auto;font-size: 13px;padding: 9px;color: #FFF;border: 1px;text-align: center;box-shadow: inset 0 2px 5px rgba(0,0,0,0.4), 0 1px 0 rgba(255,255,255,0.2);margin-top: 25px;border-radius: 5px;background:transparent;display: block;font-family:"Museo Sans";', placeholder = 'Enter a playlist name') 
+  div(class='border-box',style='width:100%;background:#111;')
+    div(style='max-height:400px;width:100%;overflow: auto;overflow-x: hidden;')
+      div#album-edit-songs(style='height:auto;width:100%;')
+  div(class='border-box',style='width:100%;padding:0 20px 20px 20px;background:#2e2e2e;display:none;')
+    div(class='border-box',id='dialog-5-message',style='background:#171717;color:#AAA;font-size:9px;font-weight:700;text-align:left;width:100%;line-height: 11px;text-transform: uppercase;padding:12px;letter-spacing: 1px;border-radius:4px;')
+  div(style='width:100%;height:50px;background:#222;color:#FFF;font-size:13px;font-weight:700;letter-spacing:1px;line-height:50px;text-align:center;')
+    div(id='dialog-5-continue',style='width:100%;font-size:15px; color:#FFF;font-size:14px;background:#18aeaa;font-weight:700;text-align:center;width:100%;text-transform:uppercase;letter-spacing:1px;line-height:50px;height:50px;cursor:pointer;') UPDATE

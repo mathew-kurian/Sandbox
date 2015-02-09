@@ -1,0 +1,527 @@
+May 19th 2014, 3:00:12 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:00:14 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:01:14 AMW5JZ6WS4GY[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+May 19th 2014, 3:01:14 AMW5JZ6WS4GY[AUTHENTICATION]Access to page granted.
+May 19th 2014, 3:01:14 AMW5JZ6WS4GYxmen first class ost
+May 19th 2014, 3:01:14 AMW5JZ6WS4GYhttp://www.youtube.com/watch?v=cv16XOV8EvU
+May 19th 2014, 3:01:14 AMW5JZ6WS4GY{ _id: 53790a71015b78a26a949bd0,
+May 19th 2014, 3:01:14 AMW5JZ6WS4GY  name: 'Linkin Park',
+May 19th 2014, 3:01:14 AMW5JZ6WS4GY  songs: 
+May 19th 2014, 3:01:14 AMW5JZ6WS4GY   [ 53790aee015b78a26a949bd2,
+May 19th 2014, 3:01:14 AMW5JZ6WS4GY     537857356356f8977da12c6f,
+May 19th 2014, 3:01:14 AMW5JZ6WS4GY     53790cc2015b78a26a949bd4 ],
+May 19th 2014, 3:01:14 AMW5JZ6WS4GY  user: 5377d58a30d549d141937842,
+May 19th 2014, 3:01:14 AMW5JZ6WS4GY  imageLarge: 'https://s3-us-west-2.amazonaws.com/musicplayer/assets/art/53790a71015b78a26a949bd0.jpg',
+May 19th 2014, 3:01:14 AMW5JZ6WS4GY  imageBlurred: 'https://s3-us-west-2.amazonaws.com/musicplayer/assets/art/53790a71015b78a26a949bd0_b.jpg' }
+May 19th 2014, 3:01:14 AMW5JZ6WS4GY{ playlist: 53790a71015b78a26a949bd0,
+May 19th 2014, 3:01:14 AMW5JZ6WS4GY  _id: 537973fa02d7e8421af3b4fe }
+May 19th 2014, 3:01:14 AMW5JZ6WS4GYnull
+May 19th 2014, 3:01:14 AMW5JZ6WS4GY1
+May 19th 2014, 3:01:19 AMW5JZ6WS4GY[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+May 19th 2014, 3:01:19 AMW5JZ6WS4GY[AUTHENTICATION]Access to page granted.
+May 19th 2014, 3:01:19 AMW5JZ6WS4GY[IX:LOG]Requesting music data.
+May 19th 2014, 3:01:19 AMW5JZ6WS4GY[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+May 19th 2014, 3:01:19 AMW5JZ6WS4GY[AUTHENTICATION]Access to page granted.
+May 19th 2014, 3:01:19 AMW5JZ6WS4GY[IX:LOG]Requesting music data.
+May 19th 2014, 3:01:20 AMW5JZ6WS4GY[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+May 19th 2014, 3:01:20 AMW5JZ6WS4GY[AUTHENTICATION]Access to page granted.
+May 19th 2014, 3:01:20 AMW5JZ6WS4GY[IX:LOG]Requesting music data.
+May 19th 2014, 3:01:21 AMW5JZ6WS4GY[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+May 19th 2014, 3:01:21 AMW5JZ6WS4GY[AUTHENTICATION]Access to page granted.
+May 19th 2014, 3:01:21 AMW5JZ6WS4GY[IX:LOG]Requesting music data.
+May 19th 2014, 3:03:18 AMW5JZ6WS4GY[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+May 19th 2014, 3:03:18 AMW5JZ6WS4GY[AUTHENTICATION]Access to page granted.
+May 19th 2014, 3:03:18 AMW5JZ6WS4GYxmen first class ost
+May 19th 2014, 3:03:18 AMW5JZ6WS4GYhttp://www.youtube.com/watch?v=cv16XOV8EvU
+May 19th 2014, 3:03:18 AMW5JZ6WS4GY{ _id: 53791b2c1a8a0ca205c71063,
+May 19th 2014, 3:03:18 AMW5JZ6WS4GY  name: 'Malayalam',
+May 19th 2014, 3:03:18 AMW5JZ6WS4GY  songs: [],
+May 19th 2014, 3:03:18 AMW5JZ6WS4GY  user: 5377d58a30d549d141937842,
+May 19th 2014, 3:03:18 AMW5JZ6WS4GY  imageLarge: 'https://s3-us-west-2.amazonaws.com/musicplayer/assets/art/53791b2c1a8a0ca205c71063.jpg',
+May 19th 2014, 3:03:18 AMW5JZ6WS4GY  imageBlurred: 'https://s3-us-west-2.amazonaws.com/musicplayer/assets/art/53791b2c1a8a0ca205c71063_b.jpg' }
+May 19th 2014, 3:03:18 AMW5JZ6WS4GY{ playlist: 53791b2c1a8a0ca205c71063,
+May 19th 2014, 3:03:18 AMW5JZ6WS4GY  _id: 5379747602d7e8421af3b4ff }
+May 19th 2014, 3:03:18 AMW5JZ6WS4GYnull
+May 19th 2014, 3:03:18 AMW5JZ6WS4GY1
+May 19th 2014, 3:04:03 AMW5JZ6WS4GY[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+May 19th 2014, 3:04:03 AMW5JZ6WS4GY[AUTHENTICATION]Access to page granted.
+May 19th 2014, 3:04:03 AMW5JZ6WS4GYhttps://www.youtube.com/watch?v=AE4MQRsQXD0
+May 19th 2014, 3:04:03 AMW5JZ6WS4GYhttps://www.youtube.com/watch?v=AE4MQRsQXD0
+May 19th 2014, 3:04:03 AMW5JZ6WS4GY{ _id: 5377d5bd30d549d141937843,
+May 19th 2014, 3:04:03 AMW5JZ6WS4GY  name: 'Rap',
+May 19th 2014, 3:04:03 AMW5JZ6WS4GY  songs: 
+May 19th 2014, 3:04:03 AMW5JZ6WS4GY   [ 53784277a6f771d5024fea8e,
+May 19th 2014, 3:04:03 AMW5JZ6WS4GY     53784e029d6ddea05164adc1,
+May 19th 2014, 3:04:03 AMW5JZ6WS4GY     53784f412fe331e55141ee9b,
+May 19th 2014, 3:04:03 AMW5JZ6WS4GY     5378534fededf61871cfba3d,
+May 19th 2014, 3:04:03 AMW5JZ6WS4GY     537857356356f8977da12c6f,
+May 19th 2014, 3:04:03 AMW5JZ6WS4GY     537859ee91a9024619e9fd2b,
+May 19th 2014, 3:04:03 AMW5JZ6WS4GY     537909e4015b78a26a949bcf,
+May 19th 2014, 3:04:03 AMW5JZ6WS4GY     53796d3c854030ec172f82c0 ],
+May 19th 2014, 3:04:03 AMW5JZ6WS4GY  user: 5377d58a30d549d141937842,
+May 19th 2014, 3:04:03 AMW5JZ6WS4GY  imageLarge: 'https://s3-us-west-2.amazonaws.com/musicplayer/assets/art/5377d5bd30d549d141937843.jpg',
+May 19th 2014, 3:04:03 AMW5JZ6WS4GY  imageBlurred: 'https://s3-us-west-2.amazonaws.com/musicplayer/assets/art/5377d5bd30d549d141937843_b.jpg' }
+May 19th 2014, 3:04:04 AMW5JZ6WS4GYValid url!
+May 19th 2014, 3:04:44 AMW5JZ6WS4GY[CN:LOG]Finished processing 1189723346.mp3
+May 19th 2014, 3:04:44 AMW5JZ6WS4GY[Echonest][GetAlbumArtFromSong] Started getAlbumArtFromSongMultiPass
+May 19th 2014, 3:04:52 AMW5JZ6WS4GY[Echonest][GetAlbumArtFromSong] Response from getAlbumArtFromSongMultiPass
+May 19th 2014, 3:04:52 AMW5JZ6WS4GY{ response: 
+May 19th 2014, 3:04:52 AMW5JZ6WS4GY   { status: { version: '4.2', code: 0, message: 'Success' },
+May 19th 2014, 3:04:52 AMW5JZ6WS4GY     track: 
+May 19th 2014, 3:04:52 AMW5JZ6WS4GY      { status: 'pending',
+May 19th 2014, 3:04:52 AMW5JZ6WS4GY        artist: '',
+May 19th 2014, 3:04:52 AMW5JZ6WS4GY        title: '',
+May 19th 2014, 3:04:52 AMW5JZ6WS4GY        release: '',
+May 19th 2014, 3:04:52 AMW5JZ6WS4GY        audio_md5: '38a7b9cb2f45a63d83bab7f66776164a',
+May 19th 2014, 3:04:52 AMW5JZ6WS4GY        bitrate: 192,
+May 19th 2014, 3:04:52 AMW5JZ6WS4GY        id: 'TRBDFWA14612705B18',
+May 19th 2014, 3:04:52 AMW5JZ6WS4GY        samplerate: 44100,
+May 19th 2014, 3:04:52 AMW5JZ6WS4GY        md5: '968fafcf3e26a1b0fa1c034d776da7ef' } } }
+May 19th 2014, 3:04:52 AMW5JZ6WS4GY[Echonest][GetAlbumArtFromSong] Invoke pass1
+May 19th 2014, 3:06:22 AMW5JZ6WS4GY[Echonest][pass1]Started pass1
+May 19th 2014, 3:06:22 AMW5JZ6WS4GY[Echonest][pass1]Response from pass1.
+May 19th 2014, 3:06:22 AMW5JZ6WS4GY{ title: 'X Men 1 Ending Credits Music Michael Kamen Ost',
+May 19th 2014, 3:06:22 AMW5JZ6WS4GY  artist: 'Anonymous',
+May 19th 2014, 3:06:22 AMW5JZ6WS4GY  album: 'Single',
+May 19th 2014, 3:06:22 AMW5JZ6WS4GY  albumart: 'https://d1rk5ck21lz9pi.cloudfront.net/assets/images/default/music/def-0.jpg' }
+May 19th 2014, 3:06:22 AMW5JZ6WS4GY[CN:LOG] Uploading a song YT mode
+May 19th 2014, 3:06:23 AMW5JZ6WS4GYuploaded file[./public/converted/1189723346.mp3] to [song/5379752e02d7e8421af3b501.mp3] as [mp3]
+May 19th 2014, 3:06:23 AMW5JZ6WS4GY[CN:LOG]Upload converted music successful.
+May 19th 2014, 3:06:23 AMW5JZ6WS4GY[CN:LOG]1
+May 19th 2014, 3:06:23 AMW5JZ6WS4GY[CN:LOG]Updated used space for user.
+May 19th 2014, 3:06:24 AMW5JZ6WS4GYuploaded file[./temp/images/5379752e02d7e8421af3b501.jpg] to [assets/images/albums/5379752e02d7e8421af3b501.jpg] as [image/jpg]
+May 19th 2014, 3:06:24 AMW5JZ6WS4GYhttps://d1rk5ck21lz9pi.cloudfront.net/assets/images/albums/5379752e02d7e8421af3b501.jpg [COMBINED URL]
+May 19th 2014, 3:06:24 AMW5JZ6WS4GY[CN:LOG]Album art properly updated.
+May 19th 2014, 3:06:24 AMW5JZ6WS4GY[NOTIFY]Upload finished sending via sockets.
+May 19th 2014, 3:06:24 AMW5JZ6WS4GY[NOTIFY]Process finished sending via sockets.
+May 19th 2014, 3:06:24 AMW5JZ6WS4GY[NOTIFY]Song added sending via sockets.
+May 19th 2014, 3:06:24 AMW5JZ6WS4GYFINISHED GETTING URLS FROM PLAYLIST
+May 19th 2014, 3:06:24 AMW5JZ6WS4GYFinished getting data.
+May 19th 2014, 3:06:24 AMW5JZ6WS4GYsuccess in downloading image
+May 19th 2014, 3:06:24 AMW5JZ6WS4GYsuccess in downloading image
+May 19th 2014, 3:06:24 AMW5JZ6WS4GYsuccess in downloading image
+May 19th 2014, 3:06:24 AMW5JZ6WS4GYsuccess in downloading image
+May 19th 2014, 3:06:24 AMW5JZ6WS4GYImage paths: ./art/orig/l1ILGPg_C.jpg,./art/orig/gy_UGvgO0.jpg,./art/orig/eJ5LMvedA.jpg,./art/orig/lJsIMwx_C.jpg
+May 19th 2014, 3:06:24 AMW5JZ6WS4GYADDING TO QUEUE
+May 19th 2014, 3:06:24 AMW5JZ6WS4GYUPLOADING NEW ART
+May 19th 2014, 3:06:24 AMW5JZ6WS4GYuploaded file[./art/processed/5377d5bd30d549d141937843.jpg] to [assets/art/5377d5bd30d549d141937843.jpg] as [image/jpg]
+May 19th 2014, 3:06:25 AMW5JZ6WS4GYuploaded file[./art/processed/5377d5bd30d549d141937843_b.jpg] to [assets/art/5377d5bd30d549d141937843_b.jpg] as [image/jpg]
+May 19th 2014, 3:06:25 AMW5JZ6WS4GY[IX:LOG]Playlist art updated.
+May 19th 2014, 3:06:25 AMW5JZ6WS4GY{ _id: 5377d5bd30d549d141937843,
+May 19th 2014, 3:06:25 AMW5JZ6WS4GY  name: 'Rap',
+May 19th 2014, 3:06:25 AMW5JZ6WS4GY  songs: 
+May 19th 2014, 3:06:25 AMW5JZ6WS4GY   [ 53784277a6f771d5024fea8e,
+May 19th 2014, 3:06:25 AMW5JZ6WS4GY     53784e029d6ddea05164adc1,
+May 19th 2014, 3:06:25 AMW5JZ6WS4GY     53784f412fe331e55141ee9b,
+May 19th 2014, 3:06:25 AMW5JZ6WS4GY     5378534fededf61871cfba3d,
+May 19th 2014, 3:06:25 AMW5JZ6WS4GY     537857356356f8977da12c6f,
+May 19th 2014, 3:06:25 AMW5JZ6WS4GY     537859ee91a9024619e9fd2b,
+May 19th 2014, 3:06:25 AMW5JZ6WS4GY     537909e4015b78a26a949bcf,
+May 19th 2014, 3:06:25 AMW5JZ6WS4GY     53796d3c854030ec172f82c0,
+May 19th 2014, 3:06:25 AMW5JZ6WS4GY     5379752e02d7e8421af3b501 ],
+May 19th 2014, 3:06:25 AMW5JZ6WS4GY  user: 5377d58a30d549d141937842,
+May 19th 2014, 3:06:25 AMW5JZ6WS4GY  imageLarge: 'https://s3-us-west-2.amazonaws.com/musicplayer/assets/art/5377d5bd30d549d141937843.jpg',
+May 19th 2014, 3:06:25 AMW5JZ6WS4GY  imageBlurred: 'https://s3-us-west-2.amazonaws.com/musicplayer/assets/art/5377d5bd30d549d141937843_b.jpg' }
+May 19th 2014, 3:06:25 AMW5JZ6WS4GY{ playlist: 5377d5bd30d549d141937843,
+May 19th 2014, 3:06:25 AMW5JZ6WS4GY  _id: 537974a302d7e8421af3b500 }
+May 19th 2014, 3:06:25 AMW5JZ6WS4GYnull
+May 19th 2014, 3:06:25 AMW5JZ6WS4GY1
+May 19th 2014, 3:06:57 AMW5JZ6WS4GY[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+May 19th 2014, 3:06:57 AMW5JZ6WS4GY[AUTHENTICATION]Access to page granted.
+May 19th 2014, 3:06:57 AMW5JZ6WS4GY[IX:LOG]Requesting music data.
+May 19th 2014, 3:08:22 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:08:23 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:10:43 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:10:44 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:10:45 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:10:49 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:10:50 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:12:13 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:12:14 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:12:42 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:12:43 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:13:08 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:13:09 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:13:29 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:13:30 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:13:47 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:13:48 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:14:10 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:14:11 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:14:22 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:14:23 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:14:24 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:15:10 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:15:11 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:15:47 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:15:48 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:15:57 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:15:58 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:16:14 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:16:30 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:16:33 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:18:01 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:18:03 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:18:04 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:18:06 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:18:23 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:18:26 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:19:02 AMW5JZ6WS4GY[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+May 19th 2014, 3:19:02 AMW5JZ6WS4GY[AUTHENTICATION]Access to page granted.
+May 19th 2014, 3:19:02 AMW5JZ6WS4GYcoldplay green eyes
+May 19th 2014, 3:19:02 AMW5JZ6WS4GYhttp://www.youtube.com/watch?v=gmyq9tIiu8g
+May 19th 2014, 3:19:02 AMW5JZ6WS4GY{ _id: 53790a71015b78a26a949bd0,
+May 19th 2014, 3:19:02 AMW5JZ6WS4GY  name: 'Linkin Park',
+May 19th 2014, 3:19:02 AMW5JZ6WS4GY  songs: 
+May 19th 2014, 3:19:02 AMW5JZ6WS4GY   [ 53790aee015b78a26a949bd2,
+May 19th 2014, 3:19:02 AMW5JZ6WS4GY     537857356356f8977da12c6f,
+May 19th 2014, 3:19:02 AMW5JZ6WS4GY     53790cc2015b78a26a949bd4 ],
+May 19th 2014, 3:19:02 AMW5JZ6WS4GY  user: 5377d58a30d549d141937842,
+May 19th 2014, 3:19:02 AMW5JZ6WS4GY  imageLarge: 'https://s3-us-west-2.amazonaws.com/musicplayer/assets/art/53790a71015b78a26a949bd0.jpg',
+May 19th 2014, 3:19:02 AMW5JZ6WS4GY  imageBlurred: 'https://s3-us-west-2.amazonaws.com/musicplayer/assets/art/53790a71015b78a26a949bd0_b.jpg' }
+May 19th 2014, 3:19:02 AMW5JZ6WS4GYValid url!
+May 19th 2014, 3:19:12 AMW5JZ6WS4GY[CN:LOG]Finished processing -423739598.mp3
+May 19th 2014, 3:19:12 AMW5JZ6WS4GY[Echonest][GetAlbumArtFromSong] Started getAlbumArtFromSongMultiPass
+May 19th 2014, 3:19:17 AMW5JZ6WS4GY[Echonest][GetAlbumArtFromSong] Response from getAlbumArtFromSongMultiPass
+May 19th 2014, 3:19:17 AMW5JZ6WS4GY{ response: 
+May 19th 2014, 3:19:17 AMW5JZ6WS4GY   { status: { version: '4.2', code: 0, message: 'Success' },
+May 19th 2014, 3:19:17 AMW5JZ6WS4GY     track: 
+May 19th 2014, 3:19:17 AMW5JZ6WS4GY      { status: 'pending',
+May 19th 2014, 3:19:17 AMW5JZ6WS4GY        artist: '',
+May 19th 2014, 3:19:17 AMW5JZ6WS4GY        title: '',
+May 19th 2014, 3:19:17 AMW5JZ6WS4GY        release: '',
+May 19th 2014, 3:19:17 AMW5JZ6WS4GY        audio_md5: 'f058873875db795a3d07b7af06e8fcee',
+May 19th 2014, 3:19:17 AMW5JZ6WS4GY        bitrate: 192,
+May 19th 2014, 3:19:17 AMW5JZ6WS4GY        id: 'TRFTHSY146127D8ED2',
+May 19th 2014, 3:19:17 AMW5JZ6WS4GY        samplerate: 44100,
+May 19th 2014, 3:19:17 AMW5JZ6WS4GY        md5: '0f1f68d41231d5dd99504c7428150987' } } }
+May 19th 2014, 3:19:17 AMW5JZ6WS4GY[Echonest][GetAlbumArtFromSong] Invoke pass1
+May 19th 2014, 3:20:47 AMW5JZ6WS4GY[Echonest][pass1]Started pass1
+May 19th 2014, 3:20:47 AMW5JZ6WS4GY[Echonest][pass1]Response from pass1.
+May 19th 2014, 3:20:47 AMW5JZ6WS4GY[Echonest][pass1]Invoke pass2
+May 19th 2014, 3:20:47 AMW5JZ6WS4GY[Echonest][pass2]Started pass2
+May 19th 2014, 3:20:47 AMW5JZ6WS4GY[Echonest][pass2]Response from pass2.
+May 19th 2014, 3:20:47 AMW5JZ6WS4GY{"response":{"status":{"version":"4.2","code":0,"message":"Success"},"songs":[{"title":"Green Eyes","artist_name":"Coldplay","artist_foreign_ids":[{"catalog":"7digital-US","foreign_id":"7digital-US:artist:20"}],"tracks":[{"album_type":"unknown","release_image":"http://cdn.7static.com/static/img/sleeveart/00/000/002/0000000296_200.jpg","album_date":"2002-08-12","foreign_release_id":"7digital-US:release:296","preview_url":"http://previews.7digital.com/clip/2973","catalog":"7digital-US","foreign_id":"7digital-US:track:2973","album_name":"A Rush of Blood to the Head","id":"TRMAOKH12E4E5856B4"}],"audio_md5":"68b25985920497bfc882e5e0e98ca152","artist_id":"ARJ7KF01187B98D717","id":"SOFAHNS13167715553","audio_summary":{"key":9,"analysis_url":"http://echonest-analysis.s3.amazonaws.com/TR/BG_cBgGQTstEGLWExcBvMOjxyBEXAMf5QTFobMDvihD5cKTulEf9zYOY0GAs8yOj0557rQ7sO2QR4Ztr0%3D/3/full.json?AWSAccessKeyId=AKIAJRDFEY23UEVW42BQ&Expires=1400470247&Signature=HhalAYlAPmmk6zTwh4n%2Bx7%2BoaUg%3D","energy":0.400036,"liveness":0.232174,"tempo":129.455,"speechiness":0.026159,"acousticness":0.565275,"mode":1,"time_signature":4,"duration":223.03955,"loudness":-8.665,"audio_md5":"68b25985920497bfc882e5e0e98ca152","valence":0.227568,"danceability":0.601702}}]}}
+May 19th 2014, 3:20:47 AMW5JZ6WS4GY[Echonest][pass2]Invoke pass3
+May 19th 2014, 3:20:47 AMW5JZ6WS4GY[Echonest][pass3]Started pass3
+May 19th 2014, 3:20:47 AMW5JZ6WS4GY[Echonest][pass3]Response from pass3.
+May 19th 2014, 3:20:47 AMW5JZ6WS4GY{"response":{"status":{"version":"4.2","code":0,"message":"Success"},"artists":[{"name":"Coldplay","foreign_ids":[{"catalog":"7digital-US","foreign_id":"7digital-US:artist:20"}],"images":[{"url":"http://userserve-ak.last.fm/serve/_/428846.jpg","tags":[],"verified":false,"license":{"type":"unknown","attribution":"last.fm","url":"http://userserve-ak.last.fm/serve/_/428846.jpg"}},{"url":"http://userserve-ak.last.fm/serve/_/2149584.jpg","tags":[],"verified":false,"license":{"type":"unknown","attribution":"last.fm","url":"http://userserve-ak.last.fm/serve/_/2149584.jpg"}},{"url":"http://userserve-ak.last.fm/serve/_/139686.jpg","tags":[],"verified":false,"license":{"type":"unknown","attribution":"last.fm","url":"http://userserve-ak.last.fm/serve/_/139686.jpg"}},{"url":"http://userserve-ak.last.fm/serve/_/425833.jpg","tags":[],"verified":false,"license":{"type":"unknown","attribution":"last.fm","url":"http://userserve-ak.last.fm/serve/_/425833.jpg"}},{"url":"http://userserve-ak.last.fm/serve/_/2244252.jpg","tags":[],"verified":false,"license":{"type":"unknown","attribution":"last.fm","url":"http://userserve-ak.last.fm/serve/_/2244252.jpg"}},{"url":"http://userserve-ak.last.fm/serve/_/401609.jpg","tags":[],"verified":false,"license":{"type":"unknown","attribution":"last.fm","url":"http://userserve-ak.last.fm/serve/_/401609.jpg"}},{"url":"http://userserve-ak.last.fm/serve/_/245282.jpg","tags":[],"verified":false,"license":{"type":"unknown","attribution":"last.fm","url":"http://userserve-ak.last.fm/serve/_/245282.jpg"}},{"url":"http://userserve-ak.last.fm/serve/_/2167003.jpg","tags":[],"verified":false,"license":{"type":"unknown","attribution":"last.fm","url":"http://userserve-ak.last.fm/serve/_/2167003.jpg"}},{"url":"http://userserve-ak.last.fm/serve/_/410265.jpg","tags":[],"verified":false,"license":{"type":"unknown","attribution":"last.fm","url":"http://userserve-ak.last.fm/serve/_/410265.jpg"}},{"url":"http://userserve-ak.last.fm/serve/_/2167009.jpg","tags":[],"verified":false,"license":{"type":"unknown","attribution":"n/a","url":"http://userserve-ak.last.fm/serve/_/2167009.jpg#flat_doc"}},{"url":"http://userserve-ak.last.fm/serve/_/2245762.jpg","tags":[],"verified":false,"license":{"type":"unknown","attribution":"n/a","url":"http://userserve-ak.last.fm/serve/_/2245762.jpg#flat_doc"}},{"url":"http://userserve-ak.last.fm/serve/_/2244235.jpg","tags":[],"verified":false,"license":{"type":"unknown","attribution":"last.fm","url":"http://userserve-ak.last.fm/serve/_/2244235.jpg"}},{"url":"http://userserve-ak.last.fm/serve/_/2245763.jpg","tags":[],"verified":false,"license":{"type":"unknown","attribution":"last.fm","url":"http://userserve-ak.last.fm/serve/_/2245763.jpg"}},{"url":"http://userserve-ak.last.fm/serve/_/296727.jpg","tags":[],"verified":false,"license":{"type":"unknown","attribution":"last.fm","url":"http://userserve-ak.last.fm/serve/_/296727.jpg"}},{"url":"http://userserve-ak.last.fm/serve/_/2244231.jpg","tags":[],"verified":false,"license":{"type":"unknown","attribution":"last.fm","url":"http://userserve-ak.last.fm/serve/_/2244231.jpg"}}],"id":"ARJ7KF01187B98D717","songs":[{"id":"SOLOUNA144913F06F5","title":"Magic"},{"id":"SOEKIQJ1448DD715FD","title":"Magic"},{"id":"SOYHEQQ145FD9062B5","title":"A Sky Full Of Stars"},{"id":"SOLGWEN145B5388033","title":"A Sky Full Of Stars"},{"id":"SOQOSAQ14476217EED","title":"Midnight"},{"id":"SODQFJV13FF675129F","title":"Paradise"},{"id":"SOJBUIU143DBB81EE5","title":"Paradise"},{"id":"SONTRNR13F76E6B2A5","title":"Paradise"},{"id":"SOOBPLQ135A6045666","title":"The Scientist"},{"id":"SOPXKYD12A6D4FA876","title":"Yellow"},{"id":"SOPVMXP13A18D2EA81","title":"Yellow"},{"id":"SOARAGH14124566742","title":"Viva La Vida"},{"id":"SORXDTC134EDB03D5C","title":"Viva La Vida"},{"id":"SOARBGV135A6221138","title":"Viva La Vida"},{"id":"SOBZHLN135A62217B4","title":"Viva La Vida"}]}]}}
+May 19th 2014, 3:20:47 AMW5JZ6WS4GY{ title: 'Green Eyes',
+May 19th 2014, 3:20:47 AMW5JZ6WS4GY  artist: 'Coldplay',
+May 19th 2014, 3:20:47 AMW5JZ6WS4GY  album: 'A Rush of Blood to the Head',
+May 19th 2014, 3:20:47 AMW5JZ6WS4GY  albumart: 'http://cdn.7static.com/static/img/sleeveart/00/000/002/0000000296_200.jpg' }
+May 19th 2014, 3:20:47 AMW5JZ6WS4GY[CN:LOG] Uploading a song YT mode
+May 19th 2014, 3:20:48 AMW5JZ6WS4GYuploaded file[./public/converted/-423739598.mp3] to [song/5379788fd492fa552fe17953.mp3] as [mp3]
+May 19th 2014, 3:20:48 AMW5JZ6WS4GY[CN:LOG]Upload converted music successful.
+May 19th 2014, 3:20:48 AMW5JZ6WS4GY[CN:LOG]1
+May 19th 2014, 3:20:48 AMW5JZ6WS4GY[CN:LOG]Updated used space for user.
+May 19th 2014, 3:20:48 AMW5JZ6WS4GYuploaded file[./temp/images/5379788fd492fa552fe17953.jpg] to [assets/images/albums/5379788fd492fa552fe17953.jpg] as [image/jpg]
+May 19th 2014, 3:20:48 AMW5JZ6WS4GYhttps://d1rk5ck21lz9pi.cloudfront.net/assets/images/albums/5379788fd492fa552fe17953.jpg [COMBINED URL]
+May 19th 2014, 3:20:48 AMW5JZ6WS4GY[CN:LOG]Album art properly updated.
+May 19th 2014, 3:20:48 AMW5JZ6WS4GY[NOTIFY]Upload finished sending via sockets.
+May 19th 2014, 3:20:48 AMW5JZ6WS4GY[NOTIFY]Process finished sending via sockets.
+May 19th 2014, 3:20:48 AMW5JZ6WS4GY[NOTIFY]Song added sending via sockets.
+May 19th 2014, 3:20:48 AMW5JZ6WS4GYFINISHED GETTING URLS FROM PLAYLIST
+May 19th 2014, 3:20:48 AMW5JZ6WS4GYFinished getting data.
+May 19th 2014, 3:20:48 AMW5JZ6WS4GYsuccess in downloading image
+May 19th 2014, 3:20:48 AMW5JZ6WS4GYsuccess in downloading image
+May 19th 2014, 3:20:48 AMW5JZ6WS4GYsuccess in downloading image
+May 19th 2014, 3:20:48 AMW5JZ6WS4GYsuccess in downloading image
+May 19th 2014, 3:20:48 AMW5JZ6WS4GYImage paths: ./art/orig/ekcMEtldC.jpg,./art/orig/gynfVYx_0.jpg,./art/orig/eyTGVKx_A.jpg,./art/orig/xJRMVFgOR.jpg
+May 19th 2014, 3:20:48 AMW5JZ6WS4GYADDING TO QUEUE
+May 19th 2014, 3:20:49 AMW5JZ6WS4GYUPLOADING NEW ART
+May 19th 2014, 3:20:49 AMW5JZ6WS4GYuploaded file[./art/processed/53790a71015b78a26a949bd0.jpg] to [assets/art/53790a71015b78a26a949bd0.jpg] as [image/jpg]
+May 19th 2014, 3:20:49 AMW5JZ6WS4GYuploaded file[./art/processed/53790a71015b78a26a949bd0_b.jpg] to [assets/art/53790a71015b78a26a949bd0_b.jpg] as [image/jpg]
+May 19th 2014, 3:20:49 AMW5JZ6WS4GY[IX:LOG]Playlist art updated.
+May 19th 2014, 3:20:49 AMW5JZ6WS4GY{ _id: 53790a71015b78a26a949bd0,
+May 19th 2014, 3:20:49 AMW5JZ6WS4GY  name: 'Linkin Park',
+May 19th 2014, 3:20:49 AMW5JZ6WS4GY  songs: 
+May 19th 2014, 3:20:49 AMW5JZ6WS4GY   [ 53790aee015b78a26a949bd2,
+May 19th 2014, 3:20:49 AMW5JZ6WS4GY     537857356356f8977da12c6f,
+May 19th 2014, 3:20:49 AMW5JZ6WS4GY     53790cc2015b78a26a949bd4,
+May 19th 2014, 3:20:49 AMW5JZ6WS4GY     5379788fd492fa552fe17953 ],
+May 19th 2014, 3:20:49 AMW5JZ6WS4GY  user: 5377d58a30d549d141937842,
+May 19th 2014, 3:20:49 AMW5JZ6WS4GY  imageLarge: 'https://s3-us-west-2.amazonaws.com/musicplayer/assets/art/53790a71015b78a26a949bd0.jpg',
+May 19th 2014, 3:20:49 AMW5JZ6WS4GY  imageBlurred: 'https://s3-us-west-2.amazonaws.com/musicplayer/assets/art/53790a71015b78a26a949bd0_b.jpg' }
+May 19th 2014, 3:20:49 AMW5JZ6WS4GY{ playlist: 53790a71015b78a26a949bd0,
+May 19th 2014, 3:20:49 AMW5JZ6WS4GY  _id: 53797826d492fa552fe17952 }
+May 19th 2014, 3:20:49 AMW5JZ6WS4GYnull
+May 19th 2014, 3:20:49 AMW5JZ6WS4GY1
+May 19th 2014, 3:25:19 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:25:19 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:25:21 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:26:47 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:26:49 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:27:19 AMW5JZ6WS4GY[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+May 19th 2014, 3:27:19 AMW5JZ6WS4GY[AUTHENTICATION]Access to page granted.
+May 19th 2014, 3:27:19 AMW5JZ6WS4GYwww.youtube.com/watch?v=uSk0YYW0-Lg
+May 19th 2014, 3:27:19 AMW5JZ6WS4GYhttps://www.youtube.com/watch?v=uSk0YYW0-Lg
+May 19th 2014, 3:27:19 AMW5JZ6WS4GY{
+May 19th 2014, 3:27:19 AMW5JZ6WS4GY    "_id": "53791b2c1a8a0ca205c71063",
+May 19th 2014, 3:27:19 AMW5JZ6WS4GY    "name": "Malayalam",
+May 19th 2014, 3:27:19 AMW5JZ6WS4GY    "songs": [],
+May 19th 2014, 3:27:19 AMW5JZ6WS4GY    "user": "5377d58a30d549d141937842",
+May 19th 2014, 3:27:19 AMW5JZ6WS4GY    "imageLarge": "https://s3-us-west-2.amazonaws.com/musicplayer/assets/art/53791b2c1a8a0ca205c71063.jpg",
+May 19th 2014, 3:27:19 AMW5JZ6WS4GY    "imageBlurred": "https://s3-us-west-2.amazonaws.com/musicplayer/assets/art/53791b2c1a8a0ca205c71063_b.jpg"
+May 19th 2014, 3:27:19 AMW5JZ6WS4GY}
+May 19th 2014, 3:27:19 AMW5JZ6WS4GYValid url!
+May 19th 2014, 3:28:09 AMW5JZ6WS4GY[CN:LOG]Finished processing -1457679498.mp3
+May 19th 2014, 3:28:09 AMW5JZ6WS4GY[Echonest][GetAlbumArtFromSong] Started getAlbumArtFromSongMultiPass
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY[Echonest][GetAlbumArtFromSong] Response from getAlbumArtFromSongMultiPass
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY{
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY    "response": {
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY        "status": {
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY            "version": "4.2",
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY            "code": 0,
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY            "message": "Success"
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY        },
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY        "track": {
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY            "status": "pending",
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY            "artist": "",
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY            "title": "",
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY            "release": "",
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY            "audio_md5": "d076d3e8e966c0e713a6200caeb0e643",
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY            "bitrate": 192,
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY            "id": "TRLBNID1461285C590",
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY            "samplerate": 44100,
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY            "md5": "4261b523f6731755cad47abbdbe5fc58"
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY        }
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY    }
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY}
+May 19th 2014, 3:28:15 AMW5JZ6WS4GY[Echonest][GetAlbumArtFromSong] Invoke pass1
+May 19th 2014, 3:29:45 AMW5JZ6WS4GY[Echonest][pass1]Started pass1
+May 19th 2014, 3:29:45 AMW5JZ6WS4GY[Echonest][pass1]Response from pass1.
+May 19th 2014, 3:29:45 AMW5JZ6WS4GY{
+May 19th 2014, 3:29:45 AMW5JZ6WS4GY    "title": "Angelo Milli - Requiem",
+May 19th 2014, 3:29:45 AMW5JZ6WS4GY    "artist": "Anonymous",
+May 19th 2014, 3:29:45 AMW5JZ6WS4GY    "album": "Single",
+May 19th 2014, 3:29:45 AMW5JZ6WS4GY    "albumart": "https://d1rk5ck21lz9pi.cloudfront.net/assets/images/default/music/def-1.jpg"
+May 19th 2014, 3:29:45 AMW5JZ6WS4GY}
+May 19th 2014, 3:29:45 AMW5JZ6WS4GY[CN:LOG] Uploading a song YT mode
+May 19th 2014, 3:29:46 AMW5JZ6WS4GYuploaded file[./public/converted/-1457679498.mp3] to [song/53797aa932980cfa2f1202bc.mp3] as [mp3]
+May 19th 2014, 3:29:46 AMW5JZ6WS4GY[CN:LOG]Upload converted music successful.
+May 19th 2014, 3:29:46 AMW5JZ6WS4GY[CN:LOG]1
+May 19th 2014, 3:29:46 AMW5JZ6WS4GY[CN:LOG]Updated used space for user.
+May 19th 2014, 3:29:46 AMW5JZ6WS4GYuploaded file[./temp/images/53797aa932980cfa2f1202bc.jpg] to [assets/images/albums/53797aa932980cfa2f1202bc.jpg] as [image/jpg]
+May 19th 2014, 3:29:46 AMW5JZ6WS4GYhttps://d1rk5ck21lz9pi.cloudfront.net/assets/images/albums/53797aa932980cfa2f1202bc.jpg [COMBINED URL]
+May 19th 2014, 3:29:46 AMW5JZ6WS4GY[CN:LOG]Album art properly updated.
+May 19th 2014, 3:29:46 AMW5JZ6WS4GY[NOTIFY]Upload finished sending via sockets.
+May 19th 2014, 3:29:46 AMW5JZ6WS4GY[NOTIFY]Process finished sending via sockets.
+May 19th 2014, 3:29:46 AMW5JZ6WS4GY[NOTIFY]Song added sending via sockets.
+May 19th 2014, 3:29:46 AMW5JZ6WS4GYFINISHED GETTING URLS FROM PLAYLIST
+May 19th 2014, 3:29:46 AMW5JZ6WS4GYFinished getting data.
+May 19th 2014, 3:29:46 AMW5JZ6WS4GYsuccess in downloading image
+May 19th 2014, 3:29:46 AMW5JZ6WS4GYImage paths: ./art/orig/l1WQt9xd0.jpg
+May 19th 2014, 3:29:46 AMW5JZ6WS4GYADDING TO QUEUE
+May 19th 2014, 3:29:47 AMW5JZ6WS4GYUPLOADING NEW ART
+May 19th 2014, 3:29:47 AMW5JZ6WS4GYuploaded file[./art/processed/53791b2c1a8a0ca205c71063.jpg] to [assets/art/53791b2c1a8a0ca205c71063.jpg] as [image/jpg]
+May 19th 2014, 3:29:47 AMW5JZ6WS4GYuploaded file[./art/processed/53791b2c1a8a0ca205c71063_b.jpg] to [assets/art/53791b2c1a8a0ca205c71063_b.jpg] as [image/jpg]
+May 19th 2014, 3:29:47 AMW5JZ6WS4GY[IX:LOG]Playlist art updated.
+May 19th 2014, 3:29:47 AMW5JZ6WS4GY{
+May 19th 2014, 3:29:47 AMW5JZ6WS4GY    "_id": "53791b2c1a8a0ca205c71063",
+May 19th 2014, 3:29:47 AMW5JZ6WS4GY    "name": "Malayalam",
+May 19th 2014, 3:29:47 AMW5JZ6WS4GY    "songs": [
+May 19th 2014, 3:29:47 AMW5JZ6WS4GY        "53797aa932980cfa2f1202bc"
+May 19th 2014, 3:29:47 AMW5JZ6WS4GY    ],
+May 19th 2014, 3:29:47 AMW5JZ6WS4GY    "user": "5377d58a30d549d141937842",
+May 19th 2014, 3:29:47 AMW5JZ6WS4GY    "imageLarge": "https://s3-us-west-2.amazonaws.com/musicplayer/assets/art/53791b2c1a8a0ca205c71063.jpg",
+May 19th 2014, 3:29:47 AMW5JZ6WS4GY    "imageBlurred": "https://s3-us-west-2.amazonaws.com/musicplayer/assets/art/53791b2c1a8a0ca205c71063_b.jpg"
+May 19th 2014, 3:29:47 AMW5JZ6WS4GY}
+May 19th 2014, 3:29:47 AMW5JZ6WS4GY{
+May 19th 2014, 3:29:47 AMW5JZ6WS4GY    "playlist": "53791b2c1a8a0ca205c71063",
+May 19th 2014, 3:29:47 AMW5JZ6WS4GY    "_id": "53797a1732980cfa2f1202bb"
+May 19th 2014, 3:29:47 AMW5JZ6WS4GY}
+May 19th 2014, 3:29:47 AMW5JZ6WS4GYnull
+May 19th 2014, 3:29:47 AMW5JZ6WS4GY1
+May 19th 2014, 3:29:48 AMW5JZ6WS4GY[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+May 19th 2014, 3:29:48 AMW5JZ6WS4GY[AUTHENTICATION]Access to page granted.
+May 19th 2014, 3:29:48 AMW5JZ6WS4GY[IX:LOG]Requesting music data.
+May 19th 2014, 3:30:04 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:30:06 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:30:12 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:30:14 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:30:56 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 3:30:58 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 3:31:59 AMW5JZ6WS4GY[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+May 19th 2014, 3:31:59 AMW5JZ6WS4GY[AUTHENTICATION]Access to page granted.
+May 19th 2014, 3:31:59 AMW5JZ6WS4GY[IX:LOG]Requesting music data.
+May 19th 2014, 3:31:59 AMW5JZ6WS4GY[DB:LOG]Doing a check on expiration..
+May 19th 2014, 3:31:59 AMW5JZ6WS4GYRequest processed.
+May 19th 2014, 3:35:48 AMW5JZ6WS4GY[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+May 19th 2014, 3:35:48 AMW5JZ6WS4GY[AUTHENTICATION]Access to page granted.
+May 19th 2014, 3:35:48 AMW5JZ6WS4GY[IX:LOG]Requesting music data.
+May 19th 2014, 3:35:48 AMW5JZ6WS4GY[DB:LOG]Doing a check on expiration..
+May 19th 2014, 3:35:48 AMW5JZ6WS4GY[CN:LOG]Renewing expired url: https://dbjjkzvgg4mja.cloudfront.net/song/53796d3c854030ec172f82c0.mp3
+May 19th 2014, 3:35:48 AMW5JZ6WS4GYRequest processed.
+May 19th 2014, 3:35:49 AMW5JZ6WS4GY[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+May 19th 2014, 3:35:49 AMW5JZ6WS4GY[AUTHENTICATION]Access to page granted.
+May 19th 2014, 3:35:49 AMW5JZ6WS4GY[IX:LOG]Requesting music data.
+May 19th 2014, 3:35:49 AMW5JZ6WS4GY[DB:LOG]Doing a check on expiration..
+May 19th 2014, 3:35:49 AMW5JZ6WS4GYRequest processed.
+May 19th 2014, 3:35:49 AMW5JZ6WS4GY[AUTHENTICATION]Current session id: 5377d58a30d549d141937842
+May 19th 2014, 3:35:49 AMW5JZ6WS4GY[AUTHENTICATION]Access to page granted.
+May 19th 2014, 3:35:49 AMW5JZ6WS4GY[IX:LOG]Requesting music data.
+May 19th 2014, 3:35:49 AMW5JZ6WS4GY[DB:LOG]Doing a check on expiration..
+May 19th 2014, 3:35:49 AMW5JZ6WS4GYRequest processed.
+May 19th 2014, 4:12:37 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:12:40 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:13:38 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:13:40 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:14:37 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:14:39 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:14:45 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:14:47 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:15:03 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:15:04 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:15:11 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:15:12 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:15:14 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:15:16 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:15:37 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:15:38 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:15:48 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:15:48 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:15:50 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:16:07 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:16:08 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:16:32 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:16:33 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:16:57 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:16:57 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:16:59 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:17:03 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:17:04 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:20:22 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:20:25 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:21:32 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:21:34 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:22:50 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:22:53 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:23:13 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:23:14 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:29:06 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:29:08 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:34:20 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:34:23 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:49:44 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:49:47 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:51:35 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:51:38 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:53:29 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:53:32 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:58:42 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:58:45 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 4:59:02 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 4:59:04 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:01:34 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:01:37 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:03:29 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:03:32 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:05:05 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:05:08 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:05:39 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:05:42 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:07:11 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:07:14 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:09:40 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:09:43 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:10:49 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:10:51 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:12:32 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:12:34 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:17:00 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:17:03 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:22:26 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:22:29 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:22:48 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:22:51 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:23:37 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:23:40 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:24:15 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:24:17 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:26:19 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:26:22 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:29:32 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:29:35 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:34:34 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:34:36 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:37:15 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:37:18 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:39:14 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:39:16 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:42:04 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:42:07 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:42:29 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:42:30 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:42:42 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:42:44 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:43:45 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:43:47 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:46:37 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:46:40 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:47:12 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:47:15 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:48:18 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:48:21 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:51:31 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:51:34 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:52:27 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:52:30 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:53:40 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:53:43 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:55:52 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:55:55 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:58:58 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:58:59 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 5:59:17 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 5:59:18 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:00:42 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:00:43 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:01:55 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:01:56 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:03:51 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:03:54 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:04:15 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:04:18 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:08:39 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:08:42 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:09:12 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:09:14 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:19:18 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:19:21 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:20:12 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:20:15 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:22:22 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:22:24 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:25:02 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:25:04 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:25:26 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:25:28 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:25:40 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:25:42 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:26:44 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:26:46 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:27:06 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:27:09 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:29:08 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:29:11 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:31:14 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:31:16 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:32:33 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:32:36 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:35:55 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:35:58 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:39:07 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:39:10 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:41:55 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:41:58 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:43:03 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:43:06 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:44:37 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:44:40 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:49:21 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:49:24 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:50:55 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:50:58 AMW5JZ6WS4GY[Express]Server listening on port 80
+May 19th 2014, 6:53:28 AMW5JZ6WS4GY[Mus.ec]Started - console.LOG
+May 19th 2014, 6:53:29 AMW5JZ6WS4GY[Express]Server listening on port 80

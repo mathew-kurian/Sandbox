@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:custom="http://schemas.android.com/apk/res/co.map.social.prebeta">
+
+    <style name="GlobalTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowBackground">@drawable/background_wood</item>
+    </style>
+
+    <declare-styleable name="MyriadProText">
+        <attr name="varySizes" format="boolean" />
+        <attr name="normalTextSize" format="dimension" />
+        <attr name="largeTextSize" format="dimension" />
+        <attr name="largestTextSize" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="PaperLayout">
+        <attr name="ribbonEnabled" format="boolean" />
+        <attr name="ribbonType" format="string" />
+    </declare-styleable>
+
+    <style name="normalText">
+        <item name="android:textSize">12sp</item>
+        <item name="normalTextSize">12sp</item>
+        <item name="largeTextSize">15sp</item>
+        <item name="largestTextSize">20sp</item>
+        <item name="varySizes">false</item>
+    </style>
+    
+    <style name="normalTextVarying">
+        <item name="android:textSize">12sp</item>
+        <item name="normalTextSize">12sp</item>
+        <item name="largeTextSize">15sp</item>
+        <item name="largestTextSize">20sp</item>
+        <item name="varySizes">true</item>
+    </style>
+    
+    <style name="header1Text">
+        <item name="android:textSize">16sp</item>
+        <item name="varySizes">false</item>
+    </style>
+		
+    <style name="header2Text">
+        <item name="android:textSize">14sp</item>
+        <item name="varySizes">false</item>
+    </style>
+    
+    <style name="header3Text">
+        <item name="android:textSize">13sp</item>
+        <item name="varySizes">false</item>
+    </style>
+</resources>

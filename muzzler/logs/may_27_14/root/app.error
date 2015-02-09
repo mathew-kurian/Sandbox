@@ -1,0 +1,139 @@
+2:32:28 AM:::[mus.ec]Created pipe console.ERROR
+2:32:30 AM:::[mus.ec]Created pipe console.ERROR
+2:32:32 AM:::[mus.ec]Created pipe console.ERROR
+2:32:33 AM:::[mus.ec]Created pipe console.ERROR
+2:32:34 AM:::[mus.ec]Created pipe console.ERROR
+2:32:35 AM:::[mus.ec]Created pipe console.ERROR
+2:33:04 AM:::[mus.ec]Created pipe console.ERROR
+3:45:33 AM:::Error: /home/ec2-user/Dropbox/muzzler/server/views/hd/dashboard.jade:7
+3:45:33 AM:::    5|         body {
+3:45:33 AM:::    6|             cusor:ew-resize !important;
+3:45:33 AM:::  > 7|         }
+3:45:33 AM:::    8|     body(style="overflow:hidden;")
+3:45:33 AM:::    9|         div(style="position:absolute;left:0;top:0;height:2px;right:0;background:#D84C39;")
+3:45:33 AM:::    10|         div(style="position:absolute;left:0;top:2px;background:#1A1A1A;right:0;bottom:0;")
+3:45:33 AM:::
+3:45:33 AM:::unexpected text }
+3:45:33 AM:::   
+3:45:33 AM:::    at Object.Lexer.fail (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/lexer.js:817:11)
+3:45:33 AM:::    at Object.Lexer.next (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/lexer.js:876:15)
+3:45:33 AM:::    at Object.Lexer.lookahead (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/lexer.js:114:46)
+3:45:33 AM:::    at Parser.lookahead (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:100:23)
+3:45:33 AM:::    at Parser.peek (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:77:17)
+3:45:33 AM:::    at Parser.block (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:685:30)
+3:45:33 AM:::    at Parser.tag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:806:26)
+3:45:33 AM:::    at Parser.parseTag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:719:17)
+3:45:33 AM:::    at Parser.parseExpr (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:188:21)
+3:45:33 AM:::    at Parser.block (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:689:25)
+3:46:24 AM:::Error: /home/ec2-user/Dropbox/muzzler/server/views/hd/dashboard.jade:8
+3:46:24 AM:::    6|             body {
+3:46:24 AM:::    7|                 cursor:ew-resize !important;
+3:46:24 AM:::  > 8|             }
+3:46:24 AM:::    9|         div(style="position:absolute;left:0;top:0;height:2px;right:0;background:#D84C39;")
+3:46:24 AM:::    10|         div(style="position:absolute;left:0;top:2px;background:#1A1A1A;right:0;bottom:0;")
+3:46:24 AM:::    11|             div(style="position:absolute;left:0;width:250px;top:0;bottom:0;background:#252525;")
+3:46:24 AM:::
+3:46:24 AM:::unexpected text }
+3:46:24 AM:::   
+3:46:24 AM:::    at Object.Lexer.fail (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/lexer.js:817:11)
+3:46:24 AM:::    at Object.Lexer.next (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/lexer.js:876:15)
+3:46:24 AM:::    at Object.Lexer.lookahead (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/lexer.js:114:46)
+3:46:24 AM:::    at Parser.lookahead (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:100:23)
+3:46:24 AM:::    at Parser.peek (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:77:17)
+3:46:24 AM:::    at Parser.block (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:685:30)
+3:46:24 AM:::    at Parser.tag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:806:26)
+3:46:24 AM:::    at Parser.parseTag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:719:17)
+3:46:24 AM:::    at Parser.parseExpr (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:188:21)
+3:46:24 AM:::    at Parser.block (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:689:25)
+3:46:25 AM:::Error: /home/ec2-user/Dropbox/muzzler/server/views/hd/dashboard.jade:8
+3:46:25 AM:::    6|             body {
+3:46:25 AM:::    7|                 cursor:ew-resize !important;
+3:46:25 AM:::  > 8|             }
+3:46:25 AM:::    9|         div(style="position:absolute;left:0;top:0;height:2px;right:0;background:#D84C39;")
+3:46:25 AM:::    10|         div(style="position:absolute;left:0;top:2px;background:#1A1A1A;right:0;bottom:0;")
+3:46:25 AM:::    11|             div(style="position:absolute;left:0;width:250px;top:0;bottom:0;background:#252525;")
+3:46:25 AM:::
+3:46:25 AM:::unexpected text }
+3:46:25 AM:::   
+3:46:25 AM:::    at Object.Lexer.fail (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/lexer.js:817:11)
+3:46:25 AM:::    at Object.Lexer.next (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/lexer.js:876:15)
+3:46:25 AM:::    at Object.Lexer.lookahead (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/lexer.js:114:46)
+3:46:25 AM:::    at Parser.lookahead (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:100:23)
+3:46:25 AM:::    at Parser.peek (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:77:17)
+3:46:25 AM:::    at Parser.block (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:685:30)
+3:46:25 AM:::    at Parser.tag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:806:26)
+3:46:25 AM:::    at Parser.parseTag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:719:17)
+3:46:25 AM:::    at Parser.parseExpr (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:188:21)
+3:46:25 AM:::    at Parser.block (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:689:25)
+3:46:26 AM:::Error: /home/ec2-user/Dropbox/muzzler/server/views/hd/dashboard.jade:8
+3:46:26 AM:::    6|             body {
+3:46:26 AM:::    7|                 cursor:ew-resize !important;
+3:46:26 AM:::  > 8|             }
+3:46:26 AM:::    9|         div(style="position:absolute;left:0;top:0;height:2px;right:0;background:#D84C39;")
+3:46:26 AM:::    10|         div(style="position:absolute;left:0;top:2px;background:#1A1A1A;right:0;bottom:0;")
+3:46:26 AM:::    11|             div(style="position:absolute;left:0;width:250px;top:0;bottom:0;background:#252525;")
+3:46:26 AM:::
+3:46:26 AM:::unexpected text }
+3:46:26 AM:::   
+3:46:26 AM:::    at Object.Lexer.fail (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/lexer.js:817:11)
+3:46:26 AM:::    at Object.Lexer.next (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/lexer.js:876:15)
+3:46:26 AM:::    at Object.Lexer.lookahead (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/lexer.js:114:46)
+3:46:26 AM:::    at Parser.lookahead (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:100:23)
+3:46:26 AM:::    at Parser.peek (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:77:17)
+3:46:26 AM:::    at Parser.block (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:685:30)
+3:46:26 AM:::    at Parser.tag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:806:26)
+3:46:26 AM:::    at Parser.parseTag (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:719:17)
+3:46:26 AM:::    at Parser.parseExpr (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:188:21)
+3:46:26 AM:::    at Parser.block (/home/ec2-user/Dropbox/muzzler/server/node_modules/jade/lib/parser.js:689:25)
+5:50:39 AM:::[mus.ec]Created pipe console.ERROR
+5:50:42 AM:::[mus.ec]Created pipe console.ERROR
+5:52:19 AM:::[mus.ec]Created pipe console.ERROR
+5:52:22 AM:::Could not find any videos.
+5:53:24 AM:::[mus.ec]Created pipe console.ERROR
+5:53:30 AM:::[mus.ec]Created pipe console.ERROR
+5:53:33 AM:::Could not find any videos.
+5:53:48 AM:::[mus.ec]Created pipe console.ERROR
+5:53:52 AM:::Could not find any videos.
+5:54:19 AM:::[mus.ec]Created pipe console.ERROR
+5:54:49 AM:::[mus.ec]Created pipe console.ERROR
+5:54:50 AM:::[mus.ec]Created pipe console.ERROR
+5:55:00 AM:::[mus.ec]Created pipe console.ERROR
+5:55:01 AM:::[mus.ec]Created pipe console.ERROR
+5:55:03 AM:::[mus.ec]Created pipe console.ERROR
+5:56:00 AM:::[mus.ec]Created pipe console.ERROR
+6:00:20 AM:::[mus.ec]Created pipe console.ERROR
+6:00:21 AM:::[mus.ec]Created pipe console.ERROR
+6:01:38 AM:::[mus.ec]Created pipe console.ERROR
+6:02:43 AM:::[mus.ec]Created pipe console.ERROR
+6:03:32 AM:::[mus.ec]Created pipe console.ERROR
+6:03:36 AM:::[mus.ec]Created pipe console.ERROR
+6:04:14 AM:::[mus.ec]Created pipe console.ERROR
+6:04:18 AM:::[mus.ec]Created pipe console.ERROR
+6:04:39 AM:::[mus.ec]Created pipe console.ERROR
+6:04:43 AM:::[mus.ec]Created pipe console.ERROR
+6:06:56 AM:::[mus.ec]Created pipe console.ERROR
+6:07:12 AM:::[mus.ec]Created pipe console.ERROR
+6:09:11 AM:::[mus.ec]Created pipe console.ERROR
+6:09:14 AM:::[mus.ec]Created pipe console.ERROR
+6:09:28 AM:::[mus.ec]Created pipe console.ERROR
+6:09:32 AM:::[mus.ec]Created pipe console.ERROR
+6:12:28 AM:::[mus.ec]Created pipe console.ERROR
+6:14:48 AM:::[mus.ec]Created pipe console.ERROR
+6:15:32 AM:::[mus.ec]Created pipe console.ERROR
+6:17:16 AM:::[mus.ec]Created pipe console.ERROR
+6:18:46 AM:::[mus.ec]Created pipe console.ERROR
+6:18:48 AM:::[mus.ec]Created pipe console.ERROR
+6:18:51 AM:::[mus.ec]Created pipe console.ERROR
+6:19:33 AM:::[mus.ec]Created pipe console.ERROR
+6:28:55 AM:::[mus.ec]Created pipe console.ERROR
+6:28:58 AM:::[mus.ec]Created pipe console.ERROR
+6:29:22 AM:::[mus.ec]Created pipe console.ERROR
+6:29:25 AM:::[mus.ec]Created pipe console.ERROR
+6:29:27 AM:::[mus.ec]Created pipe console.ERROR
+6:29:45 AM:::[mus.ec]Created pipe console.ERROR
+6:31:01 AM:::[mus.ec]Created pipe console.ERROR
+6:32:46 AM:::[mus.ec]Created pipe console.ERROR
+6:34:19 AM:::[mus.ec]Created pipe console.ERROR
+6:34:55 AM:::[mus.ec]Created pipe console.ERROR
+6:35:56 AM:::[mus.ec]Created pipe console.ERROR
+6:37:53 AM:::[mus.ec]Created pipe console.ERROR

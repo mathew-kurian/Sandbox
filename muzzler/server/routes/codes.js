@@ -1,0 +1,40 @@
+
+exports.status = { 
+    'FAILED' : 1,
+    'OK' : 0,
+    'NO_TYPE' : 2,
+    'DB_ERROR' : 3,
+    'CN_ERROR' : 4
+};
+
+exports.notification = {
+    'UPLOAD_START' : 1,
+    'UPLOAD_ONPROGRESS' : 2,
+    'UPLOAD_FINISHED' : 3,
+    'CONVERT_START' : 4,
+    'CONVERT_ONPROGRESS' : 5,
+    'CONVERT_FINISHED' : 6,
+    'FINGERPRINT_START' : 7,
+    'FINGERPRINT_ONPROGRESS' : 8,
+    'FINGERPRINT_FINISHED' : 9,
+
+    'PLAY_SONG' : 10,
+    "ADD_SONG" : 11,
+    "ADD_PLAYLIST" : 12,
+    'UPDATE_PLAYLIST' : 13,
+    "DELETE_SONG" : 14,
+    "DELETE_PLAYLIST" : 15,
+    "PROCESS_START" : 16,
+    "PROCESS_FINISHED" : 17,
+
+    "PROCESS_FAILED" : 18,
+    "ADD_SONG_FAILED" : 19,
+    "ADD_PLAYLIST_FAILED" : 20,
+    "UPLOAD_FAILED" : 21,
+    "CONVERT_FAILED" : 22,
+
+    "UPDATE_PLAYLIST_FAILED" : 23,
+    "DELETE_SONG_FAILED" : 24
+
+
+}
